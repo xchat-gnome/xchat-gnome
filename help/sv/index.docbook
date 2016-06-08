@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appversion "0.16">
+<!ENTITY manrevision "2.1">
+<!ENTITY date "December 2006">
+<!ENTITY app "XChat-GNOME">
+<!-- Information about the entities
+       The legal.xml file contains legal information, there is no need to edit the file.
+       Use the appversion entity to specify the version of the application.
+       Use the manrevision entity to specify the revision number of this manual.
+       Use the date entity to specify the release date of this manual.
+       Use the app entity to specify the name of the application. -->]>
+<!--
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 2.0 beta
+  Template last modified Apr 11, 2002
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="sv">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+  <articleinfo>
+    <title>Handbok för <application>XChat-GNOME</application></title>
+
+    <copyright><year>2005-2006</year> <holder>Brian Pepple</holder></copyright>
+    <copyright><year>2006</year> <holder>Joachim Noreiko</holder></copyright>
+<!-- translators: uncomment this:
+
+  <copyright>
+   <year>2002</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+   -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+    <publisher>
+      <publishername>Brian Pepple</publishername>
+    </publisher>
+
+   <legalnotice id="legalnotice">
+	<para>Tillstånd att kopiera, distribuera och/eller modifiera detta dokument ges under villkoren i GNU Free Documentation License (GFDL), version 1.1 eller senare, utgivet av Free Software Foundation utan standardavsnitt och omslagstexter.  En kopia av GFDL finns att hämta på denna <ulink type="help" url="help:fdl">länk</ulink> eller i filen COPYING-DOCS som medföljer denna handbok.</para>
+         <para>Denna handbok utgör en av flera GNOME-handböcker som distribueras under villkoren i GFDL.  Om du vill distribuera denna handbok separat från övriga handböcker kan du göra detta genom att lägga till en kopia av licensavtalet i handboken enligt instruktionerna i avsnitt 6 i licensavtalet.</para>
+
+	<para>Flera namn på produkter och tjänster är registrerade varumärken. I de fall dessa namn förekommer i GNOME-dokumentation - och medlemmarna i GNOME-dokumentationsprojektet är medvetna om dessa varumärken - är de skrivna med versaler eller med inledande versal.</para>
+
+	<para>DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET TILLHANDAHÅLLS UNDER VILLKOREN I GNU FREE DOCUMENTATION LICENSE ENDAST UNDER FÖLJANDE FÖRUTSÄTTNINGAR: <orderedlist>
+		<listitem>
+		  <para>DOKUMENTET TILLHANDAHÅLLS I "BEFINTLIGT SKICK" UTAN NÅGRA SOM HELST GARANTIER, VARE SIG UTTRYCKLIGA ELLER UNDERFÖRSTÅDDA, INKLUSIVE, MEN INTE BEGRÄNSAT TILL, GARANTIER ATT DOKUMENTET ELLER EN MODIFIERAD VERSION AV DOKUMENTET INTE INNEHÅLLER NÅGRA FELAKTIGHETER, ÄR LÄMPLIGT FÖR ETT VISST ÄNDAMÅL ELLER INTE STRIDER MOT LAG. HELA RISKEN VAD GÄLLER KVALITET, EXAKTHET OCH UTFÖRANDE AV DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET LIGGER HELT OCH HÅLLET PÅ ANVÄNDAREN. OM ETT DOKUMENT ELLER EN MODIFIERAD VERSION AV ETT DOKUMENT SKULLE VISA SIG INNEHÅLLA FELAKTIGHETER I NÅGOT HÄNSEENDE ÄR DET DU (INTE DEN URSPRUNGLIGA SKRIBENTEN, FÖRFATTAREN ELLER NÅGON ANNAN MEDARBETARE) SOM FÅR STÅ FÖR ALLA EVENTUELLA KOSTNADER FÖR SERVICE, REPARATIONER ELLER KORRIGERINGAR. DENNA GARANTIFRISKRIVNING UTGÖR EN VÄSENTLIG DEL AV DETTA LICENSAVTAL. DETTA INNEBÄR ATT ALL ANVÄNDNING AV ETT DOKUMENT ELLER EN MODIFIERAD VERSION AV ETT DOKUMENT BEVILJAS ENDAST UNDER DENNA ANSVARSFRISKRIVNING;</para>
+		</listitem>
+		<listitem>
+		  <para>UNDER INGA OMSTÄNDIGHETER ELLER INOM RAMEN FÖR NÅGON LAGSTIFTNING, OAVSETT OM DET GÄLLER KRÄNKNING (INKLUSIVE VÅRDSLÖSHET), KONTRAKT ELLER DYLIKT, SKA FÖRFATTAREN, DEN URSPRUNGLIGA SKRIBENTEN ELLER ANNAN MEDARBETARE ELLER ÅTERFÖRSÄLJARE AV DOKUMENTET ELLER AV EN MODIFIERAD VERSION AV DOKUMENTET ELLER NÅGON LEVERANTÖR TILL NÅGON AV NÄMNDA PARTER STÄLLAS ANSVARIG GENTEMOT NÅGON FÖR NÅGRA DIREKTA, INDIREKTA, SÄRSKILDA ELLER OFÖRUTSEDDA SKADOR ELLER FÖLJDSKADOR AV NÅGOT SLAG, INKLUSIVE, MEN INTE BEGRÄNSAT TILL, SKADOR BETRÄFFANDE FÖRLORAD GOODWILL, HINDER I ARBETET, DATORHAVERI ELLER NÅGRA ANDRA TÄNKBARA SKADOR ELLER FÖRLUSTER SOM KAN UPPKOMMA PÅ GRUND AV ELLER RELATERAT TILL ANVÄNDNINGEN AV DOKUMENTET ELLER MODIFIERADE VERSIONER AV DOKUMENTET, ÄVEN OM PART SKA HA BLIVIT INFORMERAD OM MÖJLIGHETEN TILL SÅDANA SKADOR.</para>
+		</listitem>
+	  </orderedlist></para>
+  </legalnotice>
+   <!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+	any of this. -->
+
+    <authorgroup>
+      <author role="maintainer"><firstname>Brian</firstname> <surname>Pepple</surname> <affiliation> <orgname>Fedora Project</orgname> <address> <email>bpepple@fedoraproject.org</email> </address> </affiliation></author>
+      <author><firstname>Joachim</firstname> <surname>Noreiko</surname> <affiliation> <orgname>GNOME:s dokumentationsprojekt</orgname> <address> <email>jnoreiko@yahoo.com</email> </address> </affiliation></author>
+
+<!-- This is appropriate place for other contributors: translators,
+     maintainers,  etc. Commented out by default.
+
+      <othercredit role="translator">
+		<firstname>Latin</firstname>
+		<surname>Translator 1</surname>
+		<affiliation>
+	  		<orgname>Latin Translation Team</orgname>
+	  		<address> <email>translator@gnome.org</email> </address>
+		</affiliation>
+		<contrib>Latin translation</contrib>
+      </othercredit>
+-->
+    </authorgroup>
+
+
+<!-- According to GNU FDL, revision history is mandatory if you are -->
+<!-- modifying/reusing someone else's document.  If not, you can omit it. -->
+<!-- Remember to remove the &manrevision; entity from the revision entries other
+-->
+<!-- than the current revision. -->
+<!-- The revision numbering system for GNOME manuals is as follows: -->
+<!-- * the revision number consists of two components -->
+<!-- * the first component of the revision number reflects the release version of the GNOME desktop. -->
+<!-- * the second component of the revision number is a decimal unit that is incremented with each revision of the manual. -->
+<!-- For example, if the GNOME desktop release is V2.x, the first version of the manual that -->
+<!-- is written in that desktop timeframe is V2.0, the second version of the manual is V2.1, etc. -->
+<!-- When the desktop release version changes to V3.x, the revision number of the manual changes -->
+<!-- to V3.0, and so on. -->
+    <revhistory>
+      <revision><revnumber>Handbok för XChat-GNOME 2.1</revnumber> <date>December 2006</date> <revdescription>
+	  <para role="author">Joachim Noreiko <email>jnoreiko@yahoo.com</email></para>
+	  <para role="publisher">GNOME:s dokumentationsprojekt</para>
+	  </revdescription></revision>
+      <revision><revnumber>Handbok för XChat-GNOME V2.0</revnumber> <date>November 2005</date> <revdescription>
+	  <para role="author">Brian Pepple <email>bpepple@fedoraproject.org</email></para>
+	  <para role="publisher">GNOME:s dokumentationsprojekt</para>
+	</revdescription></revision>
+    </revhistory>
+
+    <releaseinfo>Den här handboken beskriver version 0.16 av XChat-GNOME.</releaseinfo>
+    <legalnotice>
+      <title>Återkoppling</title>
+      <para>För att rapportera ett fel eller komma med ett förslag angående programmet <application>XChat-GNOME</application> eller denna handbok, följ instruktionerna i återkopplingsavsnittet i <ulink url="ghelp:user-guide?feedback-bugs" type="help">användarguiden för GNOME</ulink>.</para>
+<!-- Translators may also add here feedback address for translations -->
+    </legalnotice>
+
+    <abstract role="description">
+      <para>En användarhandbok som beskriver användningen av irc-klienten XChat-GNOME.</para>
+    </abstract>
+  
+    <othercredit class="translator">
+      <personname>
+        <firstname>Daniel Nylander</firstname>
+      </personname>
+      <email>po@danielnylander.se</email>
+    </othercredit>
+    <copyright>
+      
+        <year>2007</year>
+      
+      <holder>Daniel Nylander</holder>
+    </copyright>
+  
+    <othercredit class="translator">
+      <personname>
+        <firstname>Josef Andersson</firstname>
+      </personname>
+      <email>josef.andersson@fripost.org</email>
+    </othercredit>
+    <copyright>
+      
+        <year>2016</year>
+      
+      <holder>Josef Andersson</holder>
+    </copyright>
+  </articleinfo>
+
+  <indexterm zone="index"><primary>XChat-GNOME</primary></indexterm>
+  <indexterm zone="index"><primary>xchat-gnome</primary></indexterm>
+
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<!-- Use the Introduction section to give a brief overview of what
+     the application is and what it does. -->
+  <sect1 id="xchat-gnome-introduction">
+    <title>Introduktion</title>
+    <para>Programmet <application>XChat-GNOME</application> är ett Internet Relay Chat-program (IRC) för GNOME-skrivbordet.</para>
+    <para><application>XChat-GNOME</application> tillhandahåller följande funktioner:</para>
+    <itemizedlist>
+      <listitem>
+	<para>Ikoninsticksmodul för aviseringsytan</para>
+      </listitem>
+      <listitem>
+	<para>Direct Client-To-Client (DCC)-överföringar</para>
+      </listitem>
+      <listitem>
+	<para>Direct Client-To-Client (DCC)-chattar</para>
+      </listitem>
+      <listitem>
+	<para>Uppfyllelse av GNOME Human Interface Guidelines (HIG)</para>
+      </listitem>
+    </itemizedlist>
+  </sect1>
+
+<!-- =========== Getting Started ============================== -->
+<!-- Use the Getting Started section to describe the steps required
+     to start the application and to describe the user interface components
+     of the application. If there is other information that it is important
+     for readers to know before they start using the application, you should
+     also include this information here.
+     If the information about how to get started is very short, you can
+     include it in the Introduction and omit this section. -->
+
+  <sect1 id="xchat-gnome-getting-started">
+    <title>Komma igång</title>
+    <sect2 id="xchat-gnome-start">
+    <title>Starta <application>XChat-GNOME</application></title>
+    <para>Du kan starta <application>XChat-GNOME</application> på följande sätt:</para>
+    <variablelist>
+	<varlistentry>
+	  <term><guimenu>Program</guimenu>menyn</term>
+	  <listitem>
+	    <para>Välj <menuchoice> <guisubmenu>Internet</guisubmenu> <guimenuitem>XChat-GNOME IRC-chatt</guimenuitem></menuchoice>.</para>
+	  </listitem>
+    	</varlistentry>
+    	<varlistentry>
+	  <term>Kommandorad</term>
+	  <listitem>
+	    <para>För att starta <application>XChat-GNOME</application> från en kommandorad, skriv <command>xchat-gnome</command> och tryck sedan <keycap>Retur</keycap>:</para>
+            <tip>
+	      <para>För att visa andra tillgängliga kommandoradsflaggor, skriv <command>xchat-gnome --help</command> och tryck sedan <keycap>Retur</keycap></para>
+            </tip>
+	  </listitem>
+    	</varlistentry>
+    </variablelist>
+    </sect2>
+
+    <sect2 id="xchat-gnome-when-start">
+    <title>När du startar <application>XChat-GNOME</application></title>
+    <para>När du startar <application>XChat-GNOME</application> visas följande fönster.</para>
+
+    <!-- ==== Figure ==== -->
+      <figure id="xchat-gnome-fig">
+	<title><application>XChat-GNOME</application>-huvudfönster</title>
+	<screenshot>
+	  <mediaobject><imageobject><imagedata fileref="figures/xchat-gnome_main_window.png" format="PNG"/> </imageobject> <textobject> <phrase>Visar huvudfönstret för <application>XChat-GNOME</application>. Innehåller titelrad, menyrad, visningsområde och rullningslister. Menyraden innehåller menyerna IRC, redigera, nätverk, diskussion, gå till samt hjälp. </phrase> </textobject></mediaobject>
+	</screenshot>
+      </figure>
+    <!-- ==== End of Figure ==== -->
+
+    <!-- Include any descriptions of the GUI immediately after the screenshot of the main UI, -->
+    <!-- for example, the items on the menubar and on the toolbar. This section is optional. -->
+
+    <para><application>XChat-GNOME</application>-fönstret innehåller följande element:</para>
+      <variablelist>
+	<varlistentry>
+	  <term>Menyrad</term>
+	  <listitem>
+	    <para>Menyerna på menyraden innehåller alla kommandon du behöver använda i <application>XChat-GNOME</application>.</para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term>Serverpanel</term>
+	  <listitem>
+	    <para>Serverpanelen visar anslutna servrar och kanaler.</para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term>Användarknapp</term>
+	  <listitem>
+	    <para>Användarknappen visar antalet närvarande användare i den valda kanalen. Klicka på användarknappen för att visa en lista över användare. Användare i listan som är markerade som borta är ”utgråade”.</para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term>Diskussionsytan</term>
+	  <listitem>
+	    <para>Diskussionsytan visar diskussionen som pågår i den valda kanalen.</para>
+      <para>Skriv i meddelandets inmatningsrad längst ned i diskussionsytan för att chatta i den valda kanalen.</para>
+	  </listitem>
+	</varlistentry>
+      </variablelist>
+    </sect2>
+  </sect1>
+<!-- ================ Usage ================================ -->
+<!-- Use this section to describe how to use the application to perform the tasks for
+  which the application is designed. -->
+  <sect1 id="xchat-gnome-usage">
+    <title>Användning</title>
+
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-connect">
+      <title>Ansluta till en Internet Relay Chat (IRC)-server</title>
+      <para>För att ansluta till en Internet Relay Chat (IRC)-server, välj <menuchoice> <guimenu>IRC</guimenu> <guimenuitem>Anslut</guimenuitem> </menuchoice>. Dialogen <guilabel>Anslut</guilabel> visas. Välj den server du vill ansluta till och klicka sedan på <guibutton>Anslut</guibutton>.</para>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-transfers">
+      <title>Visa filöverföringsinformation för Direct Client-To-Client (DCC)-överföringar</title>
+      <para>För att visa filöverföringsinformation för Direct Client-To-Client (DCC)-överföringar, välj <menuchoice> <guimenu>IRC</guimenu> <guimenuitem>Filöverföringar</guimenuitem> </menuchoice>.</para>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-edit-text">
+      <title>Redigera text</title>
+      <para>Du kan redigera text på följande sätt:</para>
+      <itemizedlist>
+	<listitem>
+	  <para>För att ta bort den markerade texten från filen och flytta den till en buffert, välj <menuchoice> <guimenu>Redigera</guimenu> <guimenuitem>Klipp ut</guimenuitem> </menuchoice>.</para>
+	</listitem>
+	<listitem>
+	  <para>För att kopiera den markerade texten till en buffert, välj <menuchoice><guimenu>Redigera</guimenu><guimenuitem>Kopiera</guimenuitem> </menuchoice>.</para>
+	</listitem>
+	<listitem>
+	  <para>För att redigera innehållet i bufferten vid markörpositionen, välj <menuchoice> <guimenu>Redigera</guimenu> <guimenuitem>Klistra in</guimenuitem> </menuchoice>. Du måste klippa ut eller kopiera text innan du kan klistra in text i filen.</para>
+	</listitem>
+	<listitem>
+	  <para>För att rensa all text från diskussionsytan för den valda kanalen, välj <menuchoice><guimenu>Redigera</guimenu> <guimenuitem>Töm text</guimenuitem></menuchoice>.</para>
+	</listitem>
+      </itemizedlist>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-network-reconnect">
+      <title>Återanslut till en server</title>
+      <para>För att återansluta <application>XChat-GNOME</application> till en Internet Relay Chat (IRC)-server, använd <menuchoice> <guimenu>Nätverk</guimenu> <guimenuitem>Återanslut</guimenuitem> </menuchoice>.</para>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-network-disconnect">
+      <title>Koppla från en server</title>
+      <para>För att koppla från <application>XChat-GNOME</application> från en Internet Relay Chat (IRC)-server, välj <menuchoice> <guimenu>Nätverk</guimenu> <guimenuitem>Koppla från</guimenuitem> </menuchoice>.</para>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-discussion-save">
+      <title>Spara en kanalutskrift</title>
+      <para>För att spara en kanalutskrift, välj <menuchoice> <shortcut> <keycombo> <keycap>Ctrl</keycap> <keycap>S</keycap> </keycombo> </shortcut> <guimenu>Diskussion</guimenu> <guimenuitem>Spara utskrift</guimenuitem> </menuchoice>.</para>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-discussion-leave">
+      <title>Lämna en kanal</title>
+      <para>När du lämnar en kanal tas du bort från deltagandelistan och kan inte längre chatta i den, men diskussionen fram till denna punkt finns kvar i serverpanelen.</para>
+      <para>För att lämna en kanal välj <menuchoice> <shortcut> <keycombo> <keycap>Ctrl</keycap> <keycap>Q</keycap> </keycombo> </shortcut> <guimenu>Diskussion</guimenu> <guimenuitem>Lämna</guimenuitem> </menuchoice>.</para>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-discussion-close">
+      <title>Stäng en kanal</title>
+      <para>När du stänger en kanal tas kanalen bort från listan i serverpanelen.</para>
+      <para>För att stänga en kanal välj <menuchoice> <shortcut> <keycombo> <keycap>Ctrl</keycap> <keycap>W</keycap> </keycombo> </shortcut> <guimenu>Diskussion</guimenu> <guimenuitem>Stäng</guimenuitem> </menuchoice>.</para>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-discussion-navigate">
+      <title>Navigera genom kanaler</title>
+      <itemizedlist>
+	<listitem>
+	  <para>För att visa tidigare kanaler visa <menuchoice> <shortcut> <keycombo> <keycap>Alt</keycap> <keycap>Upp</keycap> </keycombo> </shortcut> <guimenu>Gå till</guimenu> <guimenuitem>Föregående diskussion</guimenuitem> </menuchoice></para>
+	</listitem>
+	<listitem>
+	  <para>För att visa nästa kanal välj <menuchoice> <shortcut> <keycombo> <keycap>Alt</keycap> <keycap>Ned</keycap> </keycombo> </shortcut> <guimenu>Gå till</guimenu> <guimenuitem>Nästa diskussion</guimenuitem> </menuchoice></para>
+	</listitem>
+      </itemizedlist>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-network-navigate">
+      <title>Navigera i servrar</title>
+      <itemizedlist>
+	<listitem>
+	  <para>För att visa föregående server, visa <menuchoice> <shortcut> <keycombo> <keycap>Ctrl</keycap> <keycap>Upp</keycap> </keycombo> </shortcut> <guimenu>Gå till</guimenu> <guimenuitem>Föregående nätverk</guimenuitem> </menuchoice></para>
+	</listitem>
+	<listitem>
+	  <para>För att visa nästa server, välj <menuchoice> <shortcut> <keycombo> <keycap>Ctrl</keycap> <keycap>Ned</keycap> </keycombo> </shortcut> <guimenu>Gå till</guimenu> <guimenuitem>Nästa nätverk</guimenuitem> </menuchoice></para>
+	</listitem>
+      </itemizedlist>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-quit">
+      <title>Avsluta XChat-GNOME</title>
+      <para>För att avsluta <application>XChat-GNOME</application>, välj <menuchoice> <shortcut> <keycombo> <keycap>Ctrl</keycap> <keycap>Q</keycap> </keycombo> </shortcut> <guimenu>IRC</guimenu> <guimenuitem>Avsluta</guimenuitem> </menuchoice>.</para>
+    </sect2>
+  </sect1>
+  <!-- ============= Customization ============================= -->
+  <!-- Use this section to describe how to customize the application. -->
+  <sect1 id="xchat-gnome-prefs">
+    <title>Inställningar</title>
+    <para>För att ändra inställningarna för <application>XChat-GNOME</application>, välj <menuchoice> <guimenu>Redigera</guimenu> <guimenuitem>Inställningar</guimenuitem> </menuchoice>. Dialogen <guilabel>Inställningar</guilabel> innehåller följande avsnitt:</para>
+    <itemizedlist>
+      <listitem><para><xref linkend="xchat-gnome-prefs-general"/></para></listitem>
+      <listitem><para><xref linkend="xchat-gnome-prefs-colors"/></para></listitem>
+      <listitem><para><xref linkend="xchat-gnome-prefs-transfers"/></para></listitem>
+      <listitem><para><xref linkend="xchat-gnome-prefs-networks"/></para></listitem>
+      <listitem><para><xref linkend="xchat-gnome-prefs-plugins"/></para></listitem>
+    </itemizedlist>
+<!-- =============== Customization Subsection ================ -->
+<!-- Use a new section to describe different tabbed sections on the Settings or Preferences
+	     dialog. -->
+    <sect2 id="xchat-gnome-prefs-general">
+      <title>IRC-inställningar</title>
+      <variablelist>
+	<varlistentry>
+	  <term><guilabel>Allmänt</guilabel></term>
+	  <listitem>
+	    <para>Ange det <guilabel>Smeknamn</guilabel> du vill använda i Internet Relay Chat (IRC)-kanalen.</para>
+	    <para>Ange ditt <guilabel>Verkliga namn</guilabel>, vilket visas på <command>/whois</command>-begäran.</para>
+	    <para>Ange det <guilabel>Avslutningsmeddelande</guilabel> du vill ska visas för andra användare när du lämnar ett Internet Relay Chat (IRC)-nätverk.</para>
+	    <para>Ange det <guilabel>Meddelande vid kanallämning</guilabel> du önskar ska visas för andra användare när du lämnar en Internet Relay Chat (IRC)-kanal men fortfarande är ansluten till kanalens nätverk.</para>
+	    <para>Ange det <guilabel>Frånvaromeddelande</guilabel> du önskar ska visas för andra användare som försöker kontakta dig när du är frånvarande.</para>
+          </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term><guilabel>Markering</guilabel></term>
+	  <listitem>
+	    <para>Ange ord eller fraser som ska färgmarkeras i en annan textfärg när en annan chattanvändare nämner dem. Detta är som tillägg till ditt smeknamn, vilket alltid färgmarkeras.</para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term><guilabel>Använd gränssnitt</guilabel></term>
+	  <listitem>
+	    <para>Använd alternativet <guilabel>Använd systemterminaltypsnitt</guilabel> för att använda samma typsnitt som i systemterminalen.</para>
+	    <para>Använd alternativet <guilabel>Använd det här typsnittet</guilabel> för att öppna dialogrutan typsnittsväljaren.</para>
+	    <para>Välj alternativet <guilabel>Visa färger</guilabel> för att aktivera färgsmeknamn i diskussionsytan.</para>
+	    <para>Välj alternativet <guilabel>Visa tidsstämplar</guilabel> för att visa tidsstämplar för en diskussion.</para>
+	  </listitem>
+	</varlistentry>
+      </variablelist>
+    </sect2>
+    <sect2 id="xchat-gnome-prefs-colors">
+      <title>Färger</title>
+      <variablelist>
+	<varlistentry>
+	  <term><guilabel>Textfärger</guilabel></term>
+	  <listitem>
+	    <para>Använd rullgardinslisten <guilabel>Inbyggda scheman</guilabel> för att ange hur <application>XChat-GNOME</application> ska visa text- och bakgrundsfärger. Välj ett av följande alternativ:</para>
+	    <itemizedlist>
+	      <listitem>
+		<para>Använd alternativet <guilabel>Svart på vitt</guilabel> för att ge svart text på vit bakgrund.</para>
+	      </listitem>
+	      <listitem>
+		<para>Använd alternativet <guilabel>Vitt på svart</guilabel> för att ge vit text på svart bakgrund.</para>
+	      </listitem>
+	      <listitem>
+		<para>Använd alternativet <guilabel>Anpassad</guilabel> för att skapa anpassat färgschema.</para>
+	      </listitem>
+	    </itemizedlist>
+	    <note>
+	      <para>Följande alternativ kan bara ändras om <guilabel>Inbyggda scheman</guilabel> är satt till <guilabel>Anpassad</guilabel>.</para>
+	    </note>
+	    <para>Klicka på knappen <guilabel>Förgrundsfärg</guilabel> för att visa färgväljardialogen. Välj en förgrundsfärg för diskussionsytan i <application>XChat-GNOME</application>.</para>
+	    <para>Klicka på knappen <guilabel>bakgrundsfärg</guilabel> för att visa färgväljardialogen. Välj en bakgrundsfärg för diskussionsytan i <application>XChat-GNOME</application>.</para>
+	    <para>Klicka på knappen <guilabel>Förgrundsmarkering</guilabel> för att visa färgväljardialogen. Välj färgen för diskussionsytans förgrundsmarkering i <application>XChat-GNOME</application>.</para>
+	    <para>Klicka på knappen <guilabel>Bakgrundsmarkering</guilabel> för att visa färgväljardialogen. Välj färgen för diskussionsytans bakgrundsmarkering i <application>XChat-GNOME</application>.</para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term><guilabel>mIRC-färger</guilabel></term>
+	  <listitem>
+	    <para>Välj knapparna för de färger du vill ändra för att visa färgväljardialogen.</para>
+	    <note>
+	      <para>Färgerna kan bara ändras om <guilabel>Inbyggda scheman</guilabel> är satt till <guilabel>Anpassad</guilabel>.</para>
+	    </note>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term><guilabel>Extra färger</guilabel></term>
+	  <listitem>
+	    <para>Välj knapparna för de färger du vill ändra för att visa färgväljardialogen.</para>
+	    <note>
+	      <para>Färgerna kan bara ändras om <guilabel>Inbyggda scheman</guilabel> är satt till <guilabel>Anpassad</guilabel>.</para>
+	    </note>
+	  </listitem>
+	</varlistentry>
+      </variablelist>
+    </sect2>
+    <sect2 id="xchat-gnome-prefs-transfers">
+      <title>Filöverföringar &amp; DCC</title>
+      <variablelist>
+	<varlistentry>
+	  <term><guilabel>Filöverföringar</guilabel></term>
+	  <listitem>
+	    <para>Använd knappen <guilabel>Spara hämtade filer i</guilabel> för att välja mappen dit du vill hämta filen.</para>
+	    <para>Använd knappen <guilabel>Flytta färdiga filer till</guilabel> för att välja mappen dit du vill flytta färdiga filhämtningar.</para>
+	    <para>Välj <guilabel>Konvertera blanksteg till understreck i filnamn</guilabel> om du vill att tomt utrymme ska konverteras till understreck i filnamnet.</para>
+	    <para>Välj <guilabel>Spara avsändarens smeknamn i filnamn </guilabel> för att lägga till sändarens smeknamn till namnet på den hämtade filen.</para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term><guilabel>DCC-inställningar</guilabel></term>
+          <listitem>
+	    <para>Välj alternativet <guilabel>Acceptera automatiskt DCC-chatt</guilabel> för att automatiskt acceptera Direct Client-to-Client (DCC)-chattar.</para>
+	    <para>Välj alternativet <guilabel>Acceptera automatiskt DCC-filöverföringar</guilabel> för att automatiskt acceptera Direct Client-to-Client (DCC)-filöverföringar.</para>
+	    <para>Välj alternativet <guilabel>Få IP-adress från servern</guilabel> för att använda din leverantörs DNS till att slå upp en IP-adress.</para>
+	    <para>Välj alternativet <guilabel>Använd den här IP-adressen</guilabel> och ange din IP-adress för att använda en statisk IP-adress.</para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term><guilabel>Begränsning</guilabel></term>
+	  <listitem>
+	    <para>Använd snurrväljaren <guilabel>Individuell sändning KB/s</guilabel> för att ange din individuella högsta sändningsfart.</para>
+	    <para>Använd snurrväljaren <guilabel>Global sändning KB/s</guilabel> för att ange din högsta globala sändningsfart.</para>
+	    <para>Använd snurrväljaren <guilabel>Individuell mottagning KB/s</guilabel> för att ange din individuella högsta hämtningsfart.</para>
+	    <para>Använd snurrväljaren <guilabel>Global mottagning KB/s</guilabel> för att ange din globala högsta hämtningsfart.</para>
+	  </listitem>
+	</varlistentry>
+      </variablelist>
+    </sect2>
+    <sect2 id="xchat-gnome-prefs-networks">
+      <title>Nätverk</title>
+      <variablelist>
+	<varlistentry>
+	  <term>Internet Relay Chat (IRC)-servrar</term>
+	  <listitem>
+	    <para>För att lägga till en Internet Relay Chat (IRC)-server, klicka på knappen <guibutton>Lägg till</guibutton> för att öppna dialogen <guilabel>Nätverksegenskaper</guilabel>. <xref linkend="xchat-gnome-network-properties"/></para>
+	    <para>För att redigera en Internet Relay Chat (IRC)-server, klicka på knappen <guibutton>Redigera</guibutton> för att öppna dialogen <guilabel>Nätverksegenskaper</guilabel>. <xref linkend="xchat-gnome-network-properties"/></para>
+	    <para>För att ta bort en Internet Relay Chat (IRC)-server, klicka på knappen <guibutton>Ta bort</guibutton>. <xref linkend="xchat-gnome-network-properties"/></para>
+	  </listitem>
+	</varlistentry>
+      </variablelist>
+    </sect2>
+    <sect2 id="xchat-gnome-prefs-plugins">
+      <title>Skript och insticksmoduler</title>
+      <variablelist>
+	<varlistentry>
+	    <term><guilabel>Skript och insticksmoduler</guilabel></term>
+	  <listitem>
+	    <para>För att aktivera eller inaktivera ett instick eller ett skript, välj alternativet <guilabel>Aktivera</guilabel> intill passande objekt.</para>
+	    <para>För att lägga till ett instick eller ett skript, välj alternativet <guibutton>Öppna</guibutton> för att öppna filöppnardialogen.</para>
+	    <para>För att ta bort ett instick eller ett skript, välj önskat objekt och klicka på knappen <guibutton>Ta bort</guibutton> .</para>
+	  </listitem>
+	</varlistentry>
+	  <varlistentry>
+	    <term><guilabel>Nätverksövervakare</guilabel></term>
+	      <listitem>
+	        <para>Använd Nätverkshanteraren för att kontrollera anslutningstillstånd.</para>
+	      </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term><guilabel>Automatisk frånvaro</guilabel></term>
+	      <listitem>
+	        <para>Sätt dig själv som frånvarande när skärmsläckaren är aktiv.</para>
+	      </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term><guilabel>Ljudavisering</guilabel></term>
+	      <listitem>
+	        <para>Skicka en ljudavisering när ett ord är färgmarkerat (inklusive ditt smeknamn) eller när du tar emot ett privat meddelande.</para>
+	      </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term><guilabel>Avisering</guilabel></term>
+	      <listitem>
+	        <para>Lägg till en ikon i aviseringsytan för att informera dig om händelser i xchat-gnome.</para>
+	        <note>
+	          <para>Detta låter dig minimera till aviseringsytan om <guilabel>Visa alltid aviseringsikon</guilabel> är vald från <guilabel>Aviseringar</guilabel>-inställningarna.</para>
+	        </note>
+	      </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term><guilabel>Visa på skärmen</guilabel></term>
+	      <listitem>
+	        <para>Visa en aviseringsruta när ett ord är färgmarkerat (inklusive ditt smeknamn) eller när du tar emot ett privat meddelande.</para>
+	      </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term><guilabel>URL-fångare</guilabel></term>
+	      <listitem>
+	        <para>Visar alla URL:er från din konversation i en ful ruta.</para>
+	      </listitem>
+	  </varlistentry>
+      </variablelist>
+    </sect2>
+  </sect1>
+  <sect1 id="xchat-gnome-network-properties">
+    <title>Nätverksegenskaper</title>
+    <para>Dialogen <guilabel>Nätverksegenskaper</guilabel> för <application>XChat-GNOME</application> låter dig ange egenskaperna för en Internet Relay Chat (IRC)-server och innehåller följande flikar:</para>
+    <itemizedlist>
+      <listitem><para><xref linkend="xchat-gnome-network-settings"/></para></listitem>
+      <listitem><para><xref linkend="xchat-gnome-network-users"/></para></listitem>
+      <listitem><para><xref linkend="xchat-gnome-network-servers"/></para></listitem>
+    </itemizedlist>
+    <sect2 id="xchat-gnome-network-settings">
+      <title>Nätverksinställningar</title>
+        <variablelist>
+	  <varlistentry>
+	    <term><guilabel>Allmänt</guilabel></term>
+	    <listitem>
+	      <para>Ange <guilabel>Namn</guilabel> för Internet Relay Chat (IRC)-servern.</para>
+	      <para>Välj alternativet <guilabel>Anslut automatiskt till nätverk</guilabel> för att ansluta till ett nätverk vid start av <application>XChat-GNOME</application>.</para>
+	      <para>Välj alternativet <guilabel>Använd säker anslutning (SSL)</guilabel> för att ansluta med Secure Socket Layer (SSL).</para>
+	      <para>Välj alternativet <guilabel>Försök tills ansluten</guilabel> för att fortsätta försöka ansluta till ett nätverk till det lyckas.</para>
+	      <para>Välj rullgardinsrutan <guilabel>Teckenkodning</guilabel> för att ange vilken teckenkodning <application>XChat-GNOME</application> ska använda.</para>
+	      <para>Ange <guilabel>Serverlösenord</guilabel> om Internet Relay Chat (IRC)-servern kräver det.</para>
+	    </listitem>
+	  </varlistentry>
+	</variablelist>
+    </sect2>
+    <sect2 id="xchat-gnome-network-users">
+      <title>Användare och kanaler</title>
+        <variablelist>
+	  <varlistentry>
+	    <term><guilabel>Användarinfo</guilabel></term>
+	    <listitem>
+	      <para>Välj alternativet <guilabel>Använd globala användarinställningar</guilabel> för att använda de globala inställningar som används i avsnittet<guilabel>Allmänt</guilabel> för <xref linkend="xchat-gnome-prefs-general"/>.</para>
+	      <para>Välj alternativet <guilabel>Använd användarinställningarna</guilabel> för att ange <guilabel>Smeknamn</guilabel> och <guilabel>Verkligt namn</guilabel> specifikt för denna Internet Relay Chat (IRC)-server.</para>
+	    </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term><guilabel>Gå automatiskt in i kanaler</guilabel></term>
+	    <listitem>
+	      <para>Klicka på knappen <guibutton>Lägg till</guibutton> för att lägga till en ny kanal.</para>
+	      <para>Klicka på knappen <guibutton>Redigera</guibutton> för att redigera den valda kanalen.</para>
+	      <para>Klicka på knappen <guibutton>Ta bort</guibutton> för att ta bort den valda kanalen.</para>
+	      <note><para>Kanalnamnet bör börja med brädgårdstecken (#).</para></note>
+	    </listitem>
+         </varlistentry>
+        </variablelist>
+      </sect2>
+      <sect2 id="xchat-gnome-network-servers">
+        <title>Servrar</title>
+          <variablelist>
+	    <varlistentry>
+	      <term>Servrar</term>
+	      <listitem>
+	        <para>Klicka på knappen <guibutton>Lägg till</guibutton> för att lägga till en ny Internet Relay Chat (IRC)-server.</para>
+	        <para>Klicka på knappen <guibutton>Redigera</guibutton> för att redigera den valda Internet Relay Chat (IRC)-servern.</para>
+	        <para>Klicka på knappen <guibutton>Ta bort</guibutton> för att ta bort den valda Internet Relay Chat (IRC)-servern.</para>
+               <note><para>För att ange en anpassad port, använd (/) som avgränsare, likt ”värd/port”</para></note>
+	      </listitem>
+	    </varlistentry>
+	</variablelist>
+      </sect2>
+    </sect1>
+
+<!-- ============= About ================================== -->
+<!-- This section contains info about the program (not docs), such as
+      author's name(s), web page, license, feedback address. This
+      section is optional: primary place for this info is "About.." box of
+      the program. However, if you do wish to include this info in the
+      manual, this is the place to put it. Alternatively, you can put this information in the title page.-->
+  <sect1 id="xchat-gnome-about">
+    <title>Om <application>XChat-GNOME</application></title>
+    <para>För att hitta mer information om <application>XChat-GNOME</application>, besök <ulink url="http://live.gnome.org/Xchat-Gnome" type="http">XChat-GNOME-webbplatsen</ulink>.</para>
+    <para>För att rapportera ett fel eller föreslå en förbättring i detta program eller denna handbok, se återkopplingsavsnittet för <ulink url="ghelp:user-guide?feedback-bugs" type="help">användarguiden för GNOME</ulink>.</para>
+
+    <para>Detta program distribueras under villkoren i GNU General Public License, publicerad av Free Software Foundation, antingen version 2 eller (om du så vill) någon senare version. En kopia av denna licens kan hittas på denna <ulink url="ghelp:gpl" type="help">länk</ulink> eller i filen COPYING inkluderad med källkoden i detta program.</para>
+
+  </sect1>
+</article>

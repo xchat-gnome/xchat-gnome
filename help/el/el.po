@@ -1,0 +1,1670 @@
+# Greek translation for xchat-gnome.
+# Copyright (C) 2013 xchat-gnome's COPYRIGHT HOLDER
+# This file is distributed under the same license as the xchat-gnome package.
+# Dimitris Spingos <dmtrs32@gmail.com>, 2013.
+# Dimitris Spingos (Δημήτρης Σπίγγος) <dmtrs32@gmail.com>, 2014.
+msgid ""
+msgstr ""
+"Project-Id-Version: xchat-gnome master\n"
+"POT-Creation-Date: 2014-06-18 22:40+0000\n"
+"PO-Revision-Date: 2014-08-02 13:35+0200\n"
+"Last-Translator: Efstathios Iosifidis <iosifidis@opensuse.org>\n"
+"Language-Team: team@lists.gnome.gr\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Project-Style: gnome\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"Ελληνική μεταφραστική ομάδα του GNOME\n"
+" Δημήτρης Σπίγγος <dmtrs32@gmail.com>, 2013, 2014\n"
+" Μαρία Μαυρίδου <mavridou@gmail.com>, 2014\n"
+"Για περισσότερα δείτε: http://gnome.gr"
+
+#. (itstool) path: imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:228
+msgctxt "_"
+msgid ""
+"external ref='figures/xchat-gnome_main_window.png' "
+"md5='90f93cb74dc838acb02ed7436e0b633f'"
+msgstr ""
+"external ref='figures/xchat-gnome_main_window.png' "
+"md5='90f93cb74dc838acb02ed7436e0b633f'"
+
+#. (itstool) path: articleinfo/title
+#: C/index.docbook:28
+msgid "<application>XChat-GNOME</application> Manual"
+msgstr "Εγχειρίδιο <application>XChat-GNOME</application>"
+
+#. (itstool) path: articleinfo/copyright
+#: C/index.docbook:30
+msgid "<year>2005-2006</year> <holder>Brian Pepple</holder>"
+msgstr "<year>2005-2006</year> <holder>Brian Pepple</holder>"
+
+#. (itstool) path: articleinfo/copyright
+#: C/index.docbook:34
+msgid "<year>2006</year> <holder>Joachim Noreiko</holder>"
+msgstr "<year>2006</year> <holder>Joachim Noreiko</holder>"
+
+#. (itstool) path: publisher/publishername
+#: C/index.docbook:50
+msgid "Brian Pepple"
+msgstr "Brian Pepple"
+
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:2
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
+"of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or in "
+"the file COPYING-DOCS distributed with this manual."
+msgstr ""
+"Χορηγείται άδεια αντιγραφής, διανομής και/ή τροποποίησης του παρόντος "
+"εγγράφου υπό τους όρους της έκδοσης 1.1 της Ελεύθερης Άδειας Τεκμηρίωσης GNU "
+"(GFDL), ή οποιασδήποτε μεταγενέστερης έκδοσής αυτής από το Ίδρυμα Ελεύθερου "
+"Λογισμικού (FSF), χωρίς αμετάβλητες ενότητες, κείμενα εμπροσθοφύλλου και "
+"κείμενα οπισθοφύλλου. Αντίγραφο της άδειας GFDL είναι διαθέσιμο στον "
+"ακόλουθο <ulink type=\"help\" url=\"ghelp:fdl\">σύνδεσμο</ulink>, ή στο "
+"αρχείο COPYING-DOCS που διανέμεται μαζί με το παρόν εγχειρίδιο."
+
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:11 C/legal.xml:11
+msgid ""
+"This manual is part of a collection of GNOME manuals distributed under the "
+"GFDL. If you want to distribute this manual separately from the collection, "
+"you can do so by adding a copy of the license to the manual, as described in "
+"section 6 of the license."
+msgstr ""
+"Αυτό το εγχειρίδιο αποτελεί μέρος της συλλογής εγχειριδίων του GNOME που "
+"διανέμονται υπό τους όρους της GFDL. Αν επιθυμείτε να διανείμετε το παρόν "
+"εγχειρίδιο ξεχωριστά από τη συλλογή, οφείλετε να προσθέσετε στο εγχειρίδιο "
+"αντίγραφο της άδειας χρήσης, όπως προβλέπεται στην ενότητα 6 της άδειας."
+
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:18 C/legal.xml:18
+msgid ""
+"Many of the names used by companies to distinguish their products and "
+"services are claimed as trademarks. Where those names appear in any GNOME "
+"documentation, and the members of the GNOME Documentation Project are made "
+"aware of those trademarks, then the names are in capital letters or initial "
+"capital letters."
+msgstr ""
+"Πολλές από τις ονομασίες που χρησιμοποιούνται από εταιρείες για την "
+"διαφοροποίηση των προϊόντων και υπηρεσιών τους έχουν καταχωρηθεί ως εμπορικά "
+"σήματα. Σε όποιο σημείο της τεκμηρίωσης GNOME τυχόν εμφανίζονται αυτές οι "
+"ονομασίες, και εφόσον τα μέλη του Έργου τεκμηρίωσης GNOME έχουν λάβει γνώση "
+"αυτών των εμπορικών σημάτων, οι ονομασίες ή τα αρχικά αυτών θα γράφονται με "
+"κεφαλαίους χαρακτήρες."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:34 C/legal.xml:34
+msgid ""
+"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
+"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
+"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+msgstr ""
+"ΤΟ ΠΑΡΟΝ ΕΓΓΡΑΦΟ ΠΑΡΕΧΕΤΑΙ \"ΩΣ ΕΧΕΙ\", ΧΩΡΙΣ ΟΠΟΙΑΔΗΠΟΤΕ ΑΛΛΗ ΕΓΓΥΗΣΗ, ΕΙΤΕ "
+"ΡΗΤΗ ΕΙΤΕ ΣΙΩΠΗΡΗ, ΣΥΜΠΕΡΙΛΑΜΒΑΝΟΜΕΝΗΣ, ΧΩΡΙΣ ΠΕΡΙΟΡΙΣΜΟ, ΤΗΣ ΕΓΓΥΗΣΗΣ ΟΤΙ "
+"ΤΟ ΕΓΓΡΑΦΟ, Ή Η ΤΡΟΠΟΠΟΙΗΜΕΝΗ ΕΚΔΟΣΗ ΑΥΤΟΥ, ΕΙΝΑΙ ΕΜΠΟΡΕΥΣΙΜΟ, ΚΑΤΑΛΛΗΛΟ ΓΙΑ "
+"ΕΙΔΙΚΟ ΣΚΟΠΟ ΚΑΙ ΔΕΝ ΠΡΟΣΒΑΛΛΕΙ ΔΙΚΑΙΩΜΑΤΑ ΤΡΙΤΩΝ. Ο ΧΡΗΣΤΗΣ ΑΝΑΛΑΜΒΑΝΕΙ ΕΞ "
+"ΟΛΟΚΛΗΡΟΥ ΤΗΝ ΕΘΥΝΗ ΩΣ ΠΡΟΣ ΤΗΝ ΠΟΙΟΤΗΤΑ, ΤΗΝ ΑΚΡΙΒΕΙΑ ΚΑΙ ΤΗΝ ΧΡΗΣΗ ΤΟΥ "
+"ΕΓΓΡΑΦΟΥ Ή ΤΗΣ ΤΡΟΠΟΠΟΙΗΜΕΝΗΣ ΕΚΔΟΣΗΣ ΑΥΤΟΥ. ΣΕ ΠΕΡΙΠΤΩΣΗ ΠΟΥ ΟΠΟΙΟΔΗΠΟΤΕ "
+"ΕΓΓΡΑΦΟ Ή ΤΡΟΠΟΠΟΙΗΜΕΝΗ ΕΚΔΟΣΗ ΑΥΤΟΥ ΑΠΟΔΕΙΧΘΟΥΝ ΕΛΑΤΤΩΜΑΤΙΚΑ ΚΑΘ' "
+"ΟΙΟΝΔΗΠΟΤΕ ΤΡΟΠΟ, Ο ΧΡΗΣΤΗΣ (ΚΑΙ ΟΧΙ Ο ΑΡΧΙΚΟΣ ΣΥΓΓΡΑΦΕΑΣ, ΔΗΜΙΟΥΡΓΟΣ Ή "
+"ΟΠΟΙΟΣΔΗΠΟΤΕ ΣΥΝΤΕΛΕΣΤΗΣ) ΑΝΑΛΑΜΒΑΝΕΙ ΤΟ ΚΟΣΤΟΣ ΟΠΟΙΑΣΔΗΠΟΤΕ ΑΝΑΓΚΑΙΑΣ "
+"ΣΥΝΤΗΡΗΣΗΣ, ΕΠΙΣΚΕΥΗΣ Ή ΔΙΟΡΘΩΣΗΣ. Η ΠΑΡΟΥΣΑ ΑΠΟΠΟΙΗΣΗ ΕΓΓΥΗΣΗΣ ΑΠΟΤΕΛΕΙ "
+"ΑΝΑΠΟΣΠΑΣΤΟ ΜΕΡΟΣ ΤΗΣ ΑΔΕΙΑΣ. ΔΕΝ ΕΠΙΤΡΕΠΕΤΑΙ ΟΥΔΕΜΙΑ ΧΡΗΣΗ ΤΟΥ ΕΓΓΡΑΦΟΥ Ή "
+"ΤΡΟΠΟΠΟΙΗΜΕΝΩΝ ΕΚΔΟΣΕΩΝ ΑΥΤΟΥ ΣΥΜΦΩΝΑ ΜΕ ΤΟΥΣ ΟΡΟΥΣ ΤΗΣ ΠΑΡΟΥΣΑΣ, ΠΑΡΑ ΜΟΝΟ "
+"ΕΑΝ ΣΥΝΟΔΕΥΕΤΑΙ ΑΠΟ ΤΗΝ ΑΠΟΠΟΙΗΣΗ ΕΓΓΥΗΣΗΣ, ΚΑΙ"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:54 C/legal.xml:54
+msgid ""
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+"POSSIBILITY OF SUCH DAMAGES."
+msgstr ""
+"Ο ΔΗΜΙΟΥΡΓΟΣ, Ο ΑΡΧΙΚΟΣ ΣΥΓΓΡΑΦΕΑΣ, ΟΙ ΣΥΝΤΕΛΕΣΤΕΣ Ή ΟΙ ΔΙΑΝΟΜΕΙΣ ΤΟΥ "
+"ΕΓΓΡΑΦΟΥ Ή ΤΡΟΠΟΠΟΙΗΜΕΝΗΣ ΕΚΔΟΣΗΣ ΑΥΤΟΥ, ΚΑΘΩΣ ΚΑΙ ΟΙ ΠΡΟΜΗΘΕΥΤΕΣ "
+"ΟΠΟΙΩΝΔΗΠΟΤΕ ΕΚ ΤΩΝ ΠΡΟΑΝΑΦΕΡΟΜΕΝΩΝ ΜΕΡΩΝ, ΔΕΝ ΕΥΘΥΝΟΝΤΑΙ ΕΝΑΝΤΙ ΟΙΟΥΔΗΠΟΤΕ, "
+"ΣΕ ΚΑΜΙΑ ΠΕΡΙΠΤΩΣΗ ΚΑΙ ΥΠΟ ΚΑΜΙΑ ΕΡΜΗΝΕΙΑ ΝΟΜΟΥ, ΕΙΤΕ ΕΞ ΑΔΙΚΟΠΡΑΞΙΑΣ "
+"(ΣΥΜΠΕΡΙΛΑΜΒΑΝΟΜΕΝΗΣ ΤΗΣ ΑΜΕΛΕΙΑΣ) ΕΙΤΕ ΣΤΟ ΠΛΑΙΣΙΟ ΣΥΜΒΑΤΙΚΗΣ Ή ΑΛΛΗΣ "
+"ΥΠΟΧΡΕΩΣΗΣ, ΓΙΑ ΤΥΧΟΝ ΑΜΕΣΕΣ, ΕΜΜΕΣΕΣ, ΕΙΔΙΚΕΣ, ΤΥΧΑΙΕΣ Ή ΣΥΝΕΠΑΚΟΛΟΥΘΕΣ "
+"ΖΗΜΙΕΣ ΟΠΟΙΑΣΔΗΠΟΤΕ ΜΟΡΦΗΣ, ΣΥΜΠΕΡΙΛΑΜΒΑΝΟΜΕΝΩΝ, ΧΩΡΙΣ ΠΕΡΙΟΡΙΣΜΟ, ΖΗΜΙΩΝ "
+"ΛΟΓΩ ΑΠΩΛΕΙΑΣ ΦΗΜΗΣ ΚΑΙ ΠΕΛΑΤΕΙΑΣ, ΔΙΑΚΟΠΗΣ ΕΡΓΑΣΙΩΝ, ΔΥΣΛΕΙΤΟΥΡΓΙΑΣ Ή "
+"ΒΛΑΒΗΣ ΗΛΕΚΤΡΟΝΙΚΩΝ ΥΠΟΛΟΓΙΣΤΩΝ, Ή ΚΑΘΕ ΑΛΛΗΣ ΖΗΜΙΑΣ Ή ΑΠΩΛΕΙΑΣ ΠΟΥ "
+"ΟΦΕΙΛΕΤΑΙ Ή ΣΧΕΤΙΖΕΤΑΙ ΜΕ ΤΗΝ ΧΡΗΣΗ ΤΟΥ ΕΓΓΡΑΦΟΥ ΚΑΙ ΤΩΝ ΤΡΟΠΟΠΟΙΗΜΕΝΩΝ "
+"ΕΚΔΟΣΕΩΝ ΑΥΤΟΥ, ΑΚΟΜΑ ΚΑΙ ΑΝ ΤΑ ΩΣ ΑΝΩ ΜΕΡΗ ΕΙΧΑΝ ΛΑΒΕΙ ΓΝΩΣΗ ΤΗΣ "
+"ΠΙΘΑΝΟΤΗΤΑΣ ΠΡΟΚΛΗΣΗΣ ΤΕΤΟΙΩΝ ΖΗΜΙΩΝ."
+
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:27 C/legal.xml:27
+msgid ""
+"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
+"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
+"<_:orderedlist-1/>"
+msgstr ""
+"ΤΟ ΠΑΡΟΝ ΕΓΓΡΑΦΟ ΚΑΙ ΟΙ ΤΡΟΠΟΙΗΜΕΝΕΣ ΕΚΔΟΣΕΙΣ ΑΥΤΟΥ ΠΑΡΕΧΟΝΤΑΙ ΥΠΟ ΤΟΥΣ "
+"ΟΡΟΥΣ ΤΗΣ ΕΛΕΥΘΕΡΗΣ ΑΔΕΙΑΣ ΤΕΚΜΗΡΙΩΣΗΣ GNU (GFDL) ΚΑΙ ΜΕ ΤΗΝ ΠΕΡΑΙΤΕΡΩ "
+"ΔΙΕΥΚΡΙΝΙΣΗ ΟΤΙ: <_:orderedlist-1/>"
+
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:59
+msgid ""
+"<firstname>Brian</firstname> <surname>Pepple</surname> <affiliation> "
+"<orgname>Fedora Project</orgname> <address> <email>bpepple@fedoraproject."
+"org</email> </address> </affiliation>"
+msgstr ""
+"<firstname>Brian</firstname> <surname>Pepple</surname> <affiliation> "
+"<orgname>Έργο Fedora</orgname> <address> <email>bpepple@fedoraproject.org</"
+"email> </address> </affiliation>"
+
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:67
+msgid ""
+"<firstname>Joachim</firstname> <surname>Noreiko</surname> <affiliation> "
+"<orgname>GNOME Documentation Project</orgname> <address> "
+"<email>jnoreiko@yahoo.com</email> </address> </affiliation>"
+msgstr ""
+"<firstname>Joachim</firstname> <surname>Noreiko</surname> <affiliation> "
+"<orgname>Έργο τεκμηρίωσης GNOME</orgname> <address> <email>jnoreiko@yahoo."
+"com</email> </address> </affiliation>"
+
+#. (itstool) path: revdescription/para
+#: C/index.docbook:110
+msgid "Joachim Noreiko <email>jnoreiko@yahoo.com</email>"
+msgstr "Joachim Noreiko <email>jnoreiko@yahoo.com</email>"
+
+#. (itstool) path: revdescription/para
+#: C/index.docbook:113 C/index.docbook:123
+msgid "GNOME Documentation Project"
+msgstr "Έργο τεκμηρίωσης GNOME"
+
+#. (itstool) path: revhistory/revision
+#: C/index.docbook:106
+msgid ""
+"<revnumber>XChat-GNOME Manual 2.1</revnumber> <date>December 2006</date> <_:"
+"revdescription-1/>"
+msgstr ""
+"<revnumber>XChat-GNOME Εγχειρίδιο 2.1</revnumber> <date>Δεκέμβριος 2006</"
+"date> <_:revdescription-1/>"
+
+#. (itstool) path: revdescription/para
+#: C/index.docbook:120
+msgid "Brian Pepple <email>bpepple@fedoraproject.org</email>"
+msgstr "Brian Pepple <email>bpepple@fedoraproject.org</email>"
+
+#. (itstool) path: revhistory/revision
+#: C/index.docbook:116
+msgid ""
+"<revnumber>XChat-GNOME Manual V2.0</revnumber> <date>November 2005</date> <_:"
+"revdescription-1/>"
+msgstr ""
+"<revnumber>XChat-GNOME Εγχειρίδιο V2.0</revnumber> <date>Νοέμβριος 2005</"
+"date> <_:revdescription-1/>"
+
+#. (itstool) path: articleinfo/releaseinfo
+#: C/index.docbook:128
+msgid "This manual describes version 0.16 of XChat-GNOME."
+msgstr "Αυτό το εγχειρίδιο περιγράφει την έκδοση 0.16 του XChat-GNOME."
+
+#. (itstool) path: legalnotice/title
+#: C/index.docbook:130
+msgid "Feedback"
+msgstr "Aνάδραση"
+
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:131
+msgid ""
+"To report a bug or make a suggestion regarding the <application>XChat-GNOME</"
+"application> application or this manual, follow the directions in the "
+"Feedback section of the <ulink url=\"ghelp:user-guide?feedback-bugs\" type="
+"\"help\">GNOME User Guide</ulink>."
+msgstr ""
+"Για να αναφέρετε ένα σφάλμα ή να κάνετε μια πρόταση σχετικά με την εφαρμογή "
+"<application>XChat-GNOME</application> ή αυτό το εγχειρίδιο, ακολουθήστε τις "
+"οδηγίες στην ενότητα ανάδρασης του <ulink url=\"ghelp:user-guide?feedback-"
+"bugs\" type=\"help\">Οδηγός χρήσης GNOME</ulink>."
+
+#. (itstool) path: abstract/para
+#: C/index.docbook:139
+msgid "A user manual which describes the use of the XChat-GNOME IRC client."
+msgstr ""
+"Ένα εγχειρίδιο χρήσης που περιγράφει τη χρήση του πελάτη IRC XChat-GNOME."
+
+#. (itstool) path: article/indexterm
+#: C/index.docbook:143
+msgid "<primary>XChat-GNOME</primary>"
+msgstr "<primary>XChat-GNOME</primary>"
+
+#. (itstool) path: article/indexterm
+#: C/index.docbook:146
+msgid "<primary>xchat-gnome</primary>"
+msgstr "<primary>xchat-gnome</primary>"
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:155
+msgid "Introduction"
+msgstr "Εισαγωγή"
+
+#. (itstool) path: sect1/para
+#: C/index.docbook:156
+msgid ""
+"The <application>XChat-GNOME</application> application is an Internet Relay "
+"Chat (IRC) program for the GNOME desktop."
+msgstr ""
+"Η εφαρμογή <application>XChat-GNOME</application> είναι ένα διαδικτυακό "
+"πρόγραμμα μεταγωγής συνομιλίας (IRC) για την επιφάνεια εργασίας GNOME."
+
+#. (itstool) path: sect1/para
+#: C/index.docbook:159
+msgid "<application>XChat-GNOME</application> provides the following features:"
+msgstr ""
+"Το <application>XChat-GNOME</application> παρέχει τα ακόλουθα γνωρίσματα:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:162
+msgid "Notification Area Icon Plugin"
+msgstr "Πρόσθετο εικονίδιο περιοχής ειδοποιήσεων"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:165
+msgid "Direct Client-To-Client (DCC) Transfers"
+msgstr "Άμεσες μεταφορές πελάτη σε πελάτη (DCC)"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:168
+msgid "Direct Client-To-Client (DCC) Chats"
+msgstr "Άμεσες συνομιλίας πελάτη σε πελάτη (DCC)"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:171
+msgid "Adherence to GNOME Human Interface Guidelines (HIG)"
+msgstr "Προσκόλληση στις οδηγίες ανθρώπινης διεπαφής του GNOME (HIG)"
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:186
+msgid "Getting Started"
+msgstr "Ξεκίνημα"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:188
+msgid "Starting <application>XChat-GNOME</application>"
+msgstr "Έναρξη του <application>XChat-GNOME</application>"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:189
+msgid ""
+"You can start <application>XChat-GNOME</application> in the following ways:"
+msgstr ""
+"Μπορείτε να εκκινήσετε το <application>XChat-GNOME</application> με τους "
+"εξής τρόπους:"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:193
+msgid "<guimenu>Applications</guimenu> menu"
+msgstr "Μενού <guimenu>Εφαρμογές</guimenu>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:195
+msgid ""
+"Choose <menuchoice> <guisubmenu>Internet</guisubmenu> <guimenuitem>XChat-"
+"GNOME IRC Chat</guimenuitem> </menuchoice>."
+msgstr ""
+"Επιλέξτε <menuchoice> <guisubmenu>Διαδίκτυο</guisubmenu> "
+"<guimenuitem>Συνομιλία IRC XChat-GNOME</guimenuitem> </menuchoice>."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:204
+msgid "Command line"
+msgstr "Γραμμή εντολών"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:206
+msgid ""
+"To start <application>XChat-GNOME</application> from a command line, type "
+"<command>xchat-gnome</command>, then press <keycap>Return</keycap>:"
+msgstr ""
+"Για να εκκινήσετε το <application>XChat-GNOME</application> από μια γραμμή "
+"εντολών, πληκτρολογήστε <command>xchat-gnome</command>, έπειτα πατήστε "
+"<keycap>Return</keycap>:"
+
+#. (itstool) path: tip/para
+#: C/index.docbook:210
+msgid ""
+"To view other command line options that are available, type <command>xchat-"
+"gnome --help</command>, then press <keycap>Return</keycap>"
+msgstr ""
+"Για να προβάλλετε άλλες επιλογές της γραμμής εντολών που είναι διαθέσιμες, "
+"πληκτρολογήστε <command>xchat-gnome --help</command>, έπειτα πατήστε "
+"<keycap>Return</keycap>"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:220
+msgid "When You Start <application>XChat-GNOME</application>"
+msgstr "Όταν ξεκινάτε το <application>XChat-GNOME</application>"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:221
+msgid ""
+"When you start <application>XChat-GNOME</application>, the following window "
+"is displayed."
+msgstr ""
+"Όταν ξεκινάτε το <application>XChat-GNOME</application>, εμφανίζεται το "
+"παρακάτω παράθυρο."
+
+#. (itstool) path: figure/title
+#: C/index.docbook:225
+msgid "<application>XChat-GNOME</application> Main Window"
+msgstr "Κυρίως παράθυρο του <application>XChat-GNOME</application>"
+
+#. (itstool) path: screenshot/mediaobject
+#: C/index.docbook:227
+msgid ""
+"<imageobject><imagedata fileref=\"figures/xchat-gnome_main_window.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>Shows "
+"<application>XChat-GNOME</application> main window. Contains titlebar, "
+"menubar, display area, and scrollbars. Menubar contains IRC, Edit, Network, "
+"Discussion, Go, and Help menus. </phrase> </textobject>"
+msgstr ""
+"<imageobject><imagedata fileref=\"figures/xchat-gnome_main_window.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>Εμφανίζει το κυρίως "
+"παράθυρο του <application>XChat-GNOME</application>. Περιέχει τη γραμμή "
+"τίτλου, τη γραμμή μενού, την περιοχή εμφάνισης και τις γραμμές κύλισης. Η "
+"γραμμή μενού περιέχει τα μενού IRC, Επεξεργασία, Δίκτυο, Συζήτηση, Μετάβαση "
+"και Βοήθεια.</phrase> </textobject>"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:244
+msgid ""
+"The <application>XChat-GNOME</application> window contains the following "
+"elements:"
+msgstr ""
+"Το παράθυρο <application>XChat-GNOME</application> περιέχει τα επόμενα "
+"στοιχεία:"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:248
+msgid "Menubar"
+msgstr "Γραμμή μενού"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:250
+msgid ""
+"The menus on the menubar contain all of the commands you need to use in "
+"<application>XChat-GNOME</application>."
+msgstr ""
+"Τα μενού στη γραμμή μενού περιέχουν όλες τις απαραίτητες χρησιμοποιούμενες "
+"εντολές στο <application>XChat-GNOME</application>."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:255
+msgid "Server Pane"
+msgstr "Παράθυρο διακομιστή"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:257
+msgid "The Server Pane shows the Servers and Channels currently connected."
+msgstr ""
+"Το παράθυρο διακομιστή εμφανίζει τους διακομιστές και τα κανάλια που είναι "
+"συνδεμένα."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:261
+msgid "User Button"
+msgstr "Κουμπί χρήστη"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:263
+msgid ""
+"The User Button shows the number of users present in the selected Channel. "
+"Click the User Button to show a list of users. User's in the list marked as "
+"away are \"Grayed out\"."
+msgstr ""
+"Το κουμπί χρήστη εμφανίζει τον αριθμό των παρόντων χρηστών στο επιλεγμένο "
+"κανάλι. Πατήστε το κουμπί χρήστη για να εμφανίσει μια λίστα χρηστών. Ο "
+"χρήστης που σημειώνεται στον κατάλογο ως απών είναι \"αχνός\"."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:267
+msgid "Discussion Area"
+msgstr "Περιοχή συζήτησης"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:269
+msgid ""
+"The Discussion Area presents the discussion occurring in the selected "
+"Channel."
+msgstr ""
+"Η περιοχή συζήτησης παρουσιάζει τη συζήτηση που συμβαίνει στο επιλεγμένο "
+"κανάλι."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:271
+msgid ""
+"Type into the message input line at the bottom of the discussion area to "
+"chat in the selected Channel."
+msgstr ""
+"Πληκτρολογήστε στη γραμμή εισόδου μηνύματος στο τέλος της περιοχής συζήτησης "
+"για να συνομιλήσετε στο επιλεγμένο κανάλι."
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:281
+msgid "Usage"
+msgstr "Χρήση"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:285
+msgid "Connecting to an Internet Relay Chat (IRC) Server"
+msgstr "Σύνδεση με έναν διακομιστή διαδικτυακής μεταγωγής συνομιλίας (IRC)"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:286
+msgid ""
+"To connect to an Internet Relay Chat (IRC) Server, choose <menuchoice> "
+"<guimenu>IRC</guimenu> <guimenuitem>Connect</guimenuitem> </menuchoice>. The "
+"<guilabel>Connect</guilabel> dialog is displayed. Select the Server that you "
+"wish to connect to, then click <guibutton>Connect</guibutton>."
+msgstr ""
+"Για να συνδεθείτε με έναν διακομιστή διαδικτυακής μεταγωγής συνομιλίας "
+"(IRC), επιλέξτε <menuchoice> <guimenu>IRC</guimenu> <guimenuitem>Σύνδεση</"
+"guimenuitem> </menuchoice>. Ο διάλογος <guilabel>Σύνδεση</guilabel> "
+"εμφανίζεται. Επιλέξτε τον διακομιστή στον οποίον θέλετε να συνδεθείτε, "
+"έπειτα πατήστε <guibutton>Σύνδεση</guibutton>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:298
+msgid "Viewing Direct Client-To-Client (DCC) File Transfers Information"
+msgstr "Προβολή άμεσων πληροφοριών μεταφοράς αρχείων πελάτη σε πελάτη (DCC)"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:299
+msgid ""
+"To view Direct Client-To-Client (DCC) file transfer information, choose "
+"<menuchoice> <guimenu>IRC</guimenu> <guimenuitem>File Transfers</"
+"guimenuitem> </menuchoice>."
+msgstr ""
+"Για να προβάλετε τις πληροφορίες άμεσης μεταφοράς αρχείων από πελάτη σε "
+"πελάτη (DCC), επιλέξτε <menuchoice> <guimenu>IRC</guimenu> "
+"<guimenuitem>Μεταφορές αρχείων</guimenuitem> </menuchoice>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:308
+msgid "Editing Text"
+msgstr "Επεξεργασία κειμένου"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:309
+msgid "You can edit text in the following ways:"
+msgstr "Μπορείτε να επεξεργαστείτε κείμενο με τους εξής τρόπους:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:312
+msgid ""
+"To delete the selected text from the file and move the selected text to a "
+"buffer, choose <menuchoice> <guimenu>Edit</guimenu> <guimenuitem>Cut</"
+"guimenuitem> </menuchoice>."
+msgstr ""
+"Για να διαγράψετε το επιλεγμένο κείμενο από το αρχείο και να μετακινήσετε το "
+"επιλεγμένο κείμενο σε μια ενδιάμεση μνήμη, επιλέξτε <menuchoice> "
+"<guimenu>Επεξεργασία</guimenu> <guimenuitem>Αποκοπή</guimenuitem> </"
+"menuchoice>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:317
+msgid ""
+"To copy the selected text to a buffer, choose <menuchoice><guimenu>Edit</"
+"guimenu> <guimenuitem>Copy</guimenuitem> </menuchoice>."
+msgstr ""
+"Για να αντιγράψετε το επιλεγμένο κείμενο σε μια ενδιάμεση μνήμη, επιλέξτε "
+"<menuchoice> <guimenu>Επεξεργασία</guimenu> <guimenuitem>Αντιγραφή</"
+"guimenuitem> </menuchoice>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:322
+msgid ""
+"To insert the contents of the buffer at the cursor position, choose "
+"<menuchoice> <guimenu>Edit</guimenu> <guimenuitem>Paste</guimenuitem> </"
+"menuchoice>. You must cut or copy text before you can paste text into the "
+"file."
+msgstr ""
+"Για να παρεμβάλετε τα περιεχόμενα της ενδιάμεσης μνήμης στη θέση του δρομέα, "
+"επιλέξτε <menuchoice> <guimenu>Επεξεργασία</guimenu> "
+"<guimenuitem>Επικόλληση</guimenuitem> </menuchoice>. Πρέπει να αποκόψετε ή "
+"να αντιγράψετε το κείμενο πριν να μπορέσετε να το επικολλήσετε στο αρχείο."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:328
+msgid ""
+"To clear all text from the Discussion Area for the currently selected "
+"Channel, choose <menuchoice><guimenu>Edit</guimenu> <guimenuitem>Clear</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"Για να καθαρίσετε όλο το κείμενο από την περιοχή συζήτησης για το τρέχον "
+"επιλεγμένο κανάλι, επιλέξτε <menuchoice><guimenu>Επεξεργασία</guimenu> "
+"<guimenuitem>Καθαρισμός</guimenuitem></menuchoice>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:337
+msgid "Reconnecting to a Server"
+msgstr "Επανασύνδεση με διακομιστή"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:338
+msgid ""
+"To reconnect <application>XChat-GNOME</application> to an Internet Relay "
+"Chat (IRC) server, choose <menuchoice> <guimenu>Network</guimenu> "
+"<guimenuitem>Reconnect</guimenuitem> </menuchoice>."
+msgstr ""
+"Για να επανασυνδέσετε το <application>XChat-GNOME</application> σε έναν "
+"διακομιστή διαδικτυακής μεταγωγής συνομιλίας (IRC), επιλέξτε <menuchoice> "
+"<guimenu>Δίκτυο</guimenu> <guimenuitem>Επανασύνδεση</guimenuitem> </"
+"menuchoice>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:348
+msgid "Disconnecting from a Server"
+msgstr "Αποσύνδεση από διακομιστή"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:349
+msgid ""
+"To disconnect <application>XChat-GNOME</application> from an Internet Relay "
+"Chat (IRC) server, choose <menuchoice> <guimenu>Network</guimenu> "
+"<guimenuitem>Disconnect</guimenuitem> </menuchoice>."
+msgstr ""
+"Για να αποσυνδέσετε το <application>XChat-GNOME</application> από έναν "
+"διακομιστή διαδικτυακής μεταγωγής συνομιλίας (IRC), επιλέξτε <menuchoice> "
+"<guimenu>Δίκτυο</guimenu> <guimenuitem>Αποσύνδεση</guimenuitem> </"
+"menuchoice>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:359
+msgid "Saving a Channel Transcript"
+msgstr "Αποθήκευση αντιγράφου καναλιού"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:360
+msgid ""
+"To save a transcript of a Channel, choose <menuchoice> <shortcut> <keycombo> "
+"<keycap>Ctrl</keycap> <keycap>S</keycap> </keycombo> </shortcut> "
+"<guimenu>Discussion</guimenu> <guimenuitem>Save Transcript</guimenuitem> </"
+"menuchoice>."
+msgstr ""
+"Για να αποθηκεύσετε ένα αντίγραφο ενός καναλιού, επιλέξτε <menuchoice> "
+"<shortcut> <keycombo> <keycap>Ctrl</keycap> <keycap>S</keycap> </keycombo> </"
+"shortcut> <guimenu>Συζήτηση</guimenu> <guimenuitem>Αποθήκευση αντιγράφου</"
+"guimenuitem> </menuchoice>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:375
+msgid "Leaving a Channel"
+msgstr "Έξοδος από κανάλι"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:376
+msgid ""
+"When you leave a channel, you are removed from the participants and can no "
+"longer chat in it, but the discussion up to that point remains in the Server "
+"Pane."
+msgstr ""
+"Όταν αφήνετε ένα κανάλι, αφαιρείτε τους συμμετέχοντες και δεν μπορούν πια να "
+"συνομιλούν στο κανάλι, αλλά η συζήτηση μέχρι εκείνο το σημείο παραμένει στο "
+"παράθυρο του διακομιστή."
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:377
+msgid ""
+"To leave a Channel, choose <menuchoice> <shortcut> <keycombo> <keycap>Ctrl</"
+"keycap> <keycap>Q</keycap> </keycombo> </shortcut> <guimenu>Discussion</"
+"guimenu> <guimenuitem>Leave</guimenuitem> </menuchoice>."
+msgstr ""
+"Για να αφήσετε ένα κανάλι, επιλέξτε <menuchoice> <shortcut> <keycombo> "
+"<keycap>Ctrl</keycap> <keycap>Q</keycap> </keycombo> </shortcut> "
+"<guimenu>Συζήτηση</guimenu> <guimenuitem>Έξοδος</guimenuitem> </menuchoice>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:392
+msgid "Closing a Channel"
+msgstr "Κλείσιμο καναλιού"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:393
+msgid ""
+"When you close a channel, the channel is removed from the list in the Server "
+"Pane."
+msgstr ""
+"Όταν κλείνετε ένα κανάλι, το κανάλι αφαιρείται από τον κατάλογο στο φάτνωμα "
+"του διακομιστή."
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:394
+msgid ""
+"To close a Channel, choose <menuchoice> <shortcut> <keycombo> <keycap>Ctrl</"
+"keycap> <keycap>W</keycap> </keycombo> </shortcut> <guimenu>Discussion</"
+"guimenu> <guimenuitem>Close</guimenuitem> </menuchoice>."
+msgstr ""
+"Για να κλείσετε ένα κανάλι, επιλέξτε <menuchoice> <shortcut> <keycombo> "
+"<keycap>Ctrl</keycap> <keycap>W</keycap> </keycombo> </shortcut> "
+"<guimenu>Συζήτηση</guimenu> <guimenuitem>Κλείσιμο</guimenuitem> </"
+"menuchoice>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:409
+msgid "Navigating through Channels"
+msgstr "Περιήγηση μέσα από τα κανάλια"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:412
+msgid ""
+"To view previous channel, choose <menuchoice> <shortcut> <keycombo> "
+"<keycap>Alt</keycap> <keycap>Up</keycap> </keycombo> </shortcut> "
+"<guimenu>Go</guimenu> <guimenuitem>Previous Discussion</guimenuitem> </"
+"menuchoice>"
+msgstr ""
+"Για να προβάλετε ένα προηγούμενο κανάλι, επιλέξτε <menuchoice> <shortcut> "
+"<keycombo> <keycap>Alt</keycap> <keycap>Επάνω</keycap> </keycombo> </"
+"shortcut> <guimenu>Μετάβαση</guimenu> <guimenuitem>Προηγούμενη συζήτηση</"
+"guimenuitem> </menuchoice>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:426
+msgid ""
+"To view next channel, choose <menuchoice> <shortcut> <keycombo> <keycap>Alt</"
+"keycap> <keycap>Down</keycap> </keycombo> </shortcut> <guimenu>Go</guimenu> "
+"<guimenuitem>Next Discussion</guimenuitem> </menuchoice>"
+msgstr ""
+"Για να προβάλετε ένα επόμενο κανάλι, επιλέξτε <menuchoice> <shortcut> "
+"<keycombo> <keycap>Alt</keycap> <keycap>Κάτω</keycap> </keycombo> </"
+"shortcut> <guimenu>Μετάβαση</guimenu> <guimenuitem>Επόμενη συζήτηση</"
+"guimenuitem> </menuchoice>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:443
+msgid "Navigating Through Servers"
+msgstr "Περιήγηση μέσα από τους διακομιστές"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:446
+msgid ""
+"To view previous server, choose <menuchoice> <shortcut> <keycombo> "
+"<keycap>Ctrl</keycap> <keycap>Up</keycap> </keycombo> </shortcut> "
+"<guimenu>Go</guimenu> <guimenuitem>Previous Network</guimenuitem> </"
+"menuchoice>"
+msgstr ""
+"Για να προβάλετε ένα προηγούμενο διακομιστή, επιλέξτε <menuchoice> "
+"<shortcut> <keycombo> <keycap>Ctrl</keycap> <keycap>Επάνω</keycap> </"
+"keycombo> </shortcut> <guimenu>Μετάβαση</guimenu> <guimenuitem>Προηγούμενο "
+"δίκτυο</guimenuitem> </menuchoice>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:460
+msgid ""
+"To view next server, choose <menuchoice> <shortcut> <keycombo> <keycap>Ctrl</"
+"keycap> <keycap>Down</keycap> </keycombo> </shortcut> <guimenu>Go</guimenu> "
+"<guimenuitem>Next Network</guimenuitem> </menuchoice>"
+msgstr ""
+"Για να προβάλετε επόμενο διακομιστή, επιλέξτε <menuchoice> <shortcut> "
+"<keycombo> <keycap>Ctrl</keycap> <keycap>Κάτω</keycap> </keycombo> </"
+"shortcut> <guimenu>Μετάβαση</guimenu> <guimenuitem>Επόμενο δίκτυο</"
+"guimenuitem> </menuchoice>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:477
+msgid "Quitting XChat-GNOME"
+msgstr "Έξοδος από το XChat-GNOME"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:478
+msgid ""
+"To quit <application>XChat-GNOME</application>, choose <menuchoice> "
+"<shortcut> <keycombo> <keycap>Ctrl</keycap> <keycap>Q</keycap> </keycombo> </"
+"shortcut> <guimenu>IRC</guimenu> <guimenuitem>Quit</guimenuitem> </"
+"menuchoice>."
+msgstr ""
+"Για να εξέλθετε από το <application>XChat-GNOME</application>, επιλέξτε "
+"<menuchoice> <shortcut> <keycombo> <keycap>Ctrl</keycap> <keycap>Q</keycap> "
+"</keycombo> </shortcut> <guimenu>IRC</guimenu> <guimenuitem>Έξοδος</"
+"guimenuitem> </menuchoice>."
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:495
+msgid "Preferences"
+msgstr "Προτιμήσεις"
+
+#. (itstool) path: sect1/para
+#: C/index.docbook:496
+msgid ""
+"To modify the preferences of <application>XChat-GNOME</application>, choose "
+"<menuchoice> <guimenu>Edit</guimenu> <guimenuitem>Preferences</guimenuitem> "
+"</menuchoice>. The <guilabel>Preferences</guilabel> dialog contains the "
+"following sections:"
+msgstr ""
+"Για να τροποποιήσετε τις προτιμήσεις του <application>XChat-GNOME</"
+"application>, επιλέξτε <menuchoice> <guimenu>Επεξεργασία</guimenu> "
+"<guimenuitem>Προτιμήσεις</guimenuitem> </menuchoice>. Ο διάλογος "
+"<guilabel>Προτιμήσεις</guilabel> περιέχει τις εξής ενότητες:"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:513
+msgid "IRC Preferences"
+msgstr "Προτιμήσεις IRC"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:516 C/index.docbook:746
+msgid "<guilabel>General</guilabel>"
+msgstr "<guilabel>Γενικά</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:518
+msgid ""
+"Enter the <guilabel>Nickname</guilabel> you wish to use in the Internet "
+"Relay Chat (IRC) channel."
+msgstr ""
+"Εισάγετε το <guilabel>Ψευδώνυμο</guilabel> που θέλετε να χρησιμοποιήσετε στο "
+"κανάλι διαδικτυακής μεταγωγής συνομιλίας (IRC)."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:520
+msgid ""
+"Enter your <guilabel>Real Name</guilabel>, which is displayed on <command>/"
+"whois</command> requests."
+msgstr ""
+"Εισάγετε το <guilabel>Πραγματικό όνομα</guilabel> σας, που εμφανίζεται στα "
+"αιτήματα <command>/whois</command>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:522
+msgid ""
+"Enter the <guilabel>Quit Message</guilabel> you wish to be shown to other "
+"users when you leave an Internet Relay Chat (IRC) network."
+msgstr ""
+"Εισάγετε το <guilabel>Μήνυμα εξόδου</guilabel> που θέλετε να εμφανιστεί "
+"στους άλλους χρήστες όταν αφήνετε ένα δίκτυο διαδικτυακής μεταγωγής "
+"συνομιλίας (IRC)."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:523
+msgid ""
+"Enter the <guilabel>Part Message</guilabel> you wish to be shown to other "
+"users when you leave an Internet Relay Chat (IRC) channel but remain "
+"connected to that channel's network."
+msgstr ""
+"Εισάγετε το <guilabel>Τμήμα του μηνύματος</guilabel> που θέλετε να "
+"εμφανιστεί στους άλλους χρήστες όταν αφήνετε ένα κανάλι διαδικτυακής "
+"μεταγωγής συνομιλίας (IRC) αλλά παραμένετε συνδεμένος σε αυτό το δίκτυο του "
+"καναλιού."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:524
+msgid ""
+"Enter the <guilabel>Away Message</guilabel> you wish to be shown to people "
+"who try to contact you when you are away."
+msgstr ""
+"Εισάγετε το <guilabel>Μήνυμα απών</guilabel> που θέλετε να εμφανίζεται στα "
+"άτομα που προσπαθούν να επικοινωνήσουν με σας όταν λείπετε."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:528
+msgid "<guilabel>Highlighting</guilabel>"
+msgstr "<guilabel>Επισήμανση</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:530
+msgid ""
+"Specify words or phrases that should be highlighted in a different text "
+"colour when another chat user says them. This is in addition to your "
+"nickname, which is always highlighted."
+msgstr ""
+"Ορίστε λέξεις ή φράσεις που πρέπει να επισημαίνονται με διαφορετικό χρώμα "
+"κειμένου όταν ένας άλλος χρήστης συνομιλίας τις λέει. Αυτό είναι πέρα από το "
+"ψευδώνυμό σας, που είναι πάντα τονισμένο."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:534
+msgid "<guilabel>Use Interface</guilabel>"
+msgstr "<guilabel>Χρήση διεπαφής</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:536
+msgid ""
+"Select the <guilabel>Use System Terminal Font</guilabel> option to use the "
+"same fonts as your system terminal."
+msgstr ""
+"Επιλέξτε την επιλογή <guilabel>Χρήση γραμματοσειράς τερματικού συστήματος</"
+"guilabel> για να χρησιμοποιήσετε τις ίδιες γραμματοσειρές όπως το τερματικό "
+"του συστήματός σας."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:538
+msgid ""
+"Select the <guilabel>Use this font</guilabel> option to open the Font "
+"Selection dialog box."
+msgstr ""
+"Επιλέξτε την επιλογή <guilabel>Χρήση αυτής της γραμματοσειράς</guilabel> για "
+"να ανοίξετε το πλαίσιο διαλόγου επιλογής γραμματοσειράς."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:540
+msgid ""
+"Select the <guilabel>Show colors</guilabel> option to enable color nicknames "
+"in discussion area."
+msgstr ""
+"Επιλέξτε την επιλογή <guilabel>Εμφάνιση χρωμάτων</guilabel> για να "
+"ενεργοποιήσετε τα ψευδώνυμα χρώματος στην περιοχή συζήτησης."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:542
+msgid ""
+"Select the <guilabel>Show timestamps</guilabel> option to show timestamps of "
+"discussion."
+msgstr ""
+"Επιλέξτε την επιλογή <guilabel>Εμφάνιση χρονικών σημάνσεων</guilabel> για να "
+"εμφανίσετε τις χρονικές σημάνσεις της συζήτησης."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:549
+msgid "Colors"
+msgstr "Χρώματα"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:552
+msgid "<guilabel>Text Colors</guilabel>"
+msgstr "<guilabel>Χρώματα κειμένου</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:554
+msgid ""
+"Use the <guilabel>Built-in schemes</guilabel> drop-down box to specify how "
+"<application>XChat-GNOME</application> should display the text and backgroud "
+"color. Select one of the following options:"
+msgstr ""
+"Χρησιμοποιήστε το πτυσσόμενο πλαίσιο <guilabel>ενσωματωμένοι συνδυασμοί</"
+"guilabel> για να ορίσετε πώς πρέπει να εμφανίζει το κείμενο και το χρώμα "
+"παρασκηνίου το <application>XChat-GNOME</application>. Επιλέξτε μια από τις "
+"ακόλουθες επιλογές:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:559
+msgid ""
+"Use the <guilabel>Black on White</guilabel> option to provide black text on "
+"a white background."
+msgstr ""
+"Χρησιμοποιήστε την επιλογή <guilabel>μαύρο σε λευκό</guilabel> για να δώσετε "
+"μαύρο κείμενο σε λευκό παρασκήνιο."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:563
+msgid ""
+"Use the <guilabel>White on Black</guilabel> option to provide white text on "
+"a black background."
+msgstr ""
+"Χρησιμοποιήστε την επιλογή <guilabel>λευκό σε μαύρο</guilabel> για να δώσετε "
+"λευκό κείμενο σε μαύρο παρασκήνιο."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:567
+msgid ""
+"Use the <guilabel>Custom</guilabel> option to create a custom color scheme."
+msgstr ""
+"Χρησιμοποιήστε την επιλογή <guilabel>προσαρμοσμένο</guilabel> για να "
+"δημιουργήσετε ένα προσαρμοσμένο συνδυασμό χρωμάτων."
+
+#. (itstool) path: note/para
+#: C/index.docbook:572
+msgid ""
+"The following options are only able to be changed if <guilabel>Built-in "
+"schemes</guilabel> is set to <guilabel>Custom</guilabel>."
+msgstr ""
+"Οι παρακάτω επιλογές μπορούν να αλλαχθούν μόνο αν οι <guilabel>ενσωματωμένοι "
+"συνδυασμοί</guilabel> ορίζονται στο <guilabel>προσαρμοσμένο</guilabel>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:576
+msgid ""
+"Click on the <guilabel>Foreground color</guilabel> button to display the "
+"color selector dialog. Select a foreground color for the <application>XChat-"
+"GNOME</application> discussion area."
+msgstr ""
+"Πατήστε στο πλήκτρο <guilabel>χρώμα προσκηνίου</guilabel> για να εμφανίσετε "
+"τον διάλογο επιλογής χρώματος. Επιλέξτε ένα χρώμα προσκηνίου για την περιοχή "
+"συζήτησης του <application>XChat-GNOME</application>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:579
+msgid ""
+"Click on the <guilabel>Background color</guilabel> button to display the "
+"color selector dialog. Select the background color for the "
+"<application>XChat-GNOME</application> discussion area."
+msgstr ""
+"Πατήστε στο πλήκτρο <guilabel>χρώμα παρασκηνίου</guilabel> για να εμφανίσετε "
+"τον διάλογο επιλογής χρώματος. Επιλέξτε ένα χρώμα παρασκηνίου για την "
+"περιοχή συζήτησης του <application>XChat-GNOME</application>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:582
+msgid ""
+"Click on the <guilabel>Foreground mark</guilabel> button to display the "
+"color selector dialog. Select the forground mark color for the "
+"<application>XChat-GNOME</application> discussion area."
+msgstr ""
+"Πατήστε στο πλήκτρο <guilabel>Σημάδι προσκηνίου</guilabel> για να εμφανίσετε "
+"τον διάλογο επιλογής χρώματος. Επιλέξτε το χρώμα σημαδιού προσκηνίου για την "
+"περιοχή συζήτησης του <application>XChat-GNOME</application>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:585
+msgid ""
+"Click on the <guilabel>Background mark</guilabel> button to display the "
+"color selector dialog. Select the background mark color for the "
+"<application>XChat-GNOME</application> discussion area."
+msgstr ""
+"Πατήστε στο πλήκτρο <guilabel>Σημάδι παρασκηνίου</guilabel> για να "
+"εμφανίσετε τον διάλογο επιλογής χρώματος. Επιλέξτε το χρώμα σημαδιού "
+"παρασκηνίου για την περιοχή συζήτησης του <application>XChat-GNOME</"
+"application>."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:591
+msgid "<guilabel>mIRC Colors</guilabel>"
+msgstr "<guilabel>Χρώματα mIRC</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:593
+msgid ""
+"Select the buttons of the colors that you wish to change, to display the "
+"color selector dialog."
+msgstr ""
+"Επιλέξτε τα πλήκτρα των χρωμάτων που θέλετε να αλλάξετε, για να εμφανίσετε "
+"τον διάλογο επιλογής χρώματος."
+
+#. (itstool) path: note/para
+#: C/index.docbook:596 C/index.docbook:607
+msgid ""
+"The colors are only able to be changed if <guilabel>Built-in schemes</"
+"guilabel> is set to <guilabel>Custom</guilabel>."
+msgstr ""
+"Τα χρώματα μπορούν να αλλαχθούν μόνο αν οι <guilabel>ενσωματωμένοι "
+"συνδυασμοί</guilabel> ορίζονται στο <guilabel>προσαρμοσμένο</guilabel>."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:602
+msgid "<guilabel>Extra Colors</guilabel>"
+msgstr "<guilabel>Επιπλέον χρώματα</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:604
+msgid ""
+"Selct the buttons of the colors that you wish to change, to display the "
+"color selector dialog."
+msgstr ""
+"Επιλέξτε τα πλήκτρα των χρωμάτων που θέλετε να αλλάξετε, για να εμφανίσετε "
+"τον διάλογο επιλογής χρώματος."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:615
+msgid "File Transfers &amp; DCC"
+msgstr "Μεταφορές αρχείων &amp; DCC"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:618
+msgid "<guilabel>File Transfers</guilabel>"
+msgstr "<guilabel>Μεταφορά αρχείων</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:620
+msgid ""
+"Use the <guilabel>Download file to</guilabel> button to select the folder "
+"where you wish to download file."
+msgstr ""
+"Χρησιμοποιήστε το πλήκτρο <guilabel>Λήψη αρχείου σε</guilabel> για να "
+"επιλέξετε τον φάκελο όπου θέλετε να γίνει η λήψη του αρχείου."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:622
+msgid ""
+"Use the <guilabel>Move completed files to</guilabel> button to select the "
+"folder where you wish for completed downloads to be moved."
+msgstr ""
+"Χρησιμοποιήστε το πλήκτρο <guilabel>Μετακίνηση ολοκληρωμένων αρχείων</"
+"guilabel> για να επιλέξετε τον φάκελο όπου θέλετε να μετακινηθούν οι "
+"ολοκληρωμένες λήψεις."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:624
+msgid ""
+"Select <guilabel>Convert spaces to underscore in filenames</guilabel> if you "
+"wish to have spaces converted to underscores in the filename."
+msgstr ""
+"Επιλέξτε <guilabel>Μετατροπή διαστημάτων σε υπογράμμιση στα ονόματα αρχείων</"
+"guilabel> αν θέλετε να μετατραπούν τα διαστήματα σε υπογραμμίσεις στο όνομα "
+"του αρχείου."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:626
+msgid ""
+"Select <guilabel>Save senders nickname in filenames</guilabel> to add the "
+"senders nickname to the downloaded file name."
+msgstr ""
+"Επιλέξτε <guilabel>Αποθήκευση ψευδωνύμου αποστολέων στα ονόματα αρχείων</"
+"guilabel> για να προσθέσετε το ψευδώνυμο των αποστολέων στο όνομα του "
+"ληφθέντου αρχείου."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:631
+msgid "<guilabel>DCC Settings</guilabel>"
+msgstr "<guilabel>Ρυθμίσεις DCC</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:633
+msgid ""
+"Select the <guilabel>Auto-accept DCC Chat</guilabel> option to automatically "
+"accept Direct Client-to-Client (DCC) chats."
+msgstr ""
+"Επιλέξτε το <guilabel>Αυτόματη αποδοχή συνομιλίας DCC</guilabel> για να "
+"δεχτείτε αυτόματα άμεσες συνομιλίες πελάτη προς πελάτη (DCC)."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:635
+msgid ""
+"Select the <guilabel>Auto-accept DCC File Transfers</guilabel> option to "
+"automatically accept Direct Client-to-Client (DCC) file transfers."
+msgstr ""
+"Επιλέξτε το <guilabel>Αυτόματη αποδοχή μεταφορών αρχείων DCC</guilabel> για "
+"να δεχτείτε αυτόματα άμεσες μεταφορές αρχείων πελάτη προς πελάτη (DCC)."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:637
+msgid ""
+"Select the <guilabel>Get IP Address From Server</guilabel> option to use "
+"your providers DNS to resolve an IP address."
+msgstr ""
+"Επιλέξτε το <guilabel>Λήψη διεύθυνσης IP από τον διακομιστή</guilabel> για "
+"να χρησιμοποιήσετε τους παρόχους σας DNS για να επιλύσουν μια διεύθυνση IP."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:639
+msgid ""
+"Select the <guilabel>Use This IP Address</guilabel> option and enter your IP "
+"address, to use a static IP address."
+msgstr ""
+"Επιλέξτε το <guilabel>Χρήση αυτής της διεύθυνσης IP</guilabel> και εισάγετε "
+"τη διεύθυνσή σας IP, για να χρησιμοποιήσετε μια στατική διεύθυνση IP."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:644
+msgid "<guilabel>Throttling</guilabel>"
+msgstr "<guilabel>Περιορισμός</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:646
+msgid ""
+"Use the <guilabel>Individual send KB/s</guilabel> spin box to set your "
+"individual maximum upload speed."
+msgstr ""
+"Χρησιμοποιήστε το πλαίσιο αυξομείωσης του <guilabel>Ατομική αποστολή KB/s</"
+"guilabel> για να ορίσετε την ατομική μέγιστη ταχύτητα αποστολής."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:648
+msgid ""
+"Use the <guilabel>Global send KB/s</guilabel> spin box to set your global "
+"maximum upload speed."
+msgstr ""
+"Χρησιμοποιήστε το πλαίσιο αυξομείωσης του <guilabel>Γενική αποστολή KB/s</"
+"guilabel> για να ορίσετε τη γενική μέγιστη ταχύτητα αποστολής."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:650
+msgid ""
+"Use the <guilabel>Individual receive KB/s</guilabel> spin box to set your "
+"individual maximum download speed."
+msgstr ""
+"Χρησιμοποιήστε το πλαίσιο αυξομείωσης του <guilabel>Ατομική λήψη KB/s</"
+"guilabel> για να ορίσετε την ατομική μέγιστη ταχύτητα λήψης."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:652
+msgid ""
+"Use the <guilabel>Global receive KB/s</guilabel> spin box to set your global "
+"maximum download speed."
+msgstr ""
+"Χρησιμοποιήστε το πλαίσιο αυξομείωσης του <guilabel>Γενική λήψη KB/s</"
+"guilabel> για να ορίσετε τη γενική μέγιστη ταχύτητα λήψης."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:659
+msgid "Networks"
+msgstr "Δίκτυα"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:662
+msgid "Internet Relay Chat (IRC) Servers"
+msgstr "Διακομιστές διαδικτυακής μεταγωγής συνομιλίας (IRC)"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:664
+msgid ""
+"To add an Internet Relay Chat (IRC) server, click the <guibutton>Add</"
+"guibutton> button to open the <guilabel>Network Properties</guilabel> "
+"dialog. <xref linkend=\"xchat-gnome-network-properties\"/>"
+msgstr ""
+"Για να προσθέσετε έναν διακομιστή διαδικτυακής μεταγωγής συνομιλίας (IRC), "
+"πατήστε το πλήκτρο <guibutton>Προσθήκη</guibutton> για να ανοίξετε τον "
+"διάλογο <guilabel>Ιδιότητες δικτύου</guilabel>. <xref linkend=\"xchat-gnome-"
+"network-properties\"/>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:667
+msgid ""
+"To edit an Internet Relay Chat (IRC) server, click the <guibutton>Edit</"
+"guibutton> button to open the <guilabel>Network Properties</guilabel> "
+"dialog. <xref linkend=\"xchat-gnome-network-properties\"/>"
+msgstr ""
+"Για να επεξεργαστείτε έναν διακομιστή διαδικτυακής μεταγωγής συνομιλίας "
+"(IRC), πατήστε το πλήκτρο <guibutton>Επεξεργασία</guibutton> για να ανοίξετε "
+"τον διάλογο <guilabel>Ιδιότητες δικτύου</guilabel>. <xref linkend=\"xchat-"
+"gnome-network-properties\"/>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:670
+msgid ""
+"To remove an Internet Relay Chat (IRC) server, click the <guibutton>Remove</"
+"guibutton> button. <xref linkend=\"xchat-gnome-network-properties\"/>"
+msgstr ""
+"Για να αφαιρέσετε έναν διακομιστή διαδικτυακής μεταγωγής συνομιλίας (IRC), "
+"πατήστε το πλήκτρο <guibutton>Αφαίρεση</guibutton>. <xref linkend=\"xchat-"
+"gnome-network-properties\"/>"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:677
+msgid "Scripts and Plugins"
+msgstr "Δέσμες ενεργειών και πρόσθετα"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:680
+msgid "<guilabel>Script and Plugins</guilabel>"
+msgstr "<guilabel>Δέσμες ενεργειών και πρόσθετα</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:682
+msgid ""
+"To enable or disable a plugin or script, select the <guilabel>Enable</"
+"guilabel> option next to the appropriate item."
+msgstr ""
+"Για να ενεργοποιήσετε ή να απενεργοποιήσετε ένα πρόσθετο ή δέσμη ενεργειών, "
+"επιλέξτε <guilabel>ενεργοποίηση</guilabel> δίπλα στο κατάλληλο στοιχείο."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:684
+msgid ""
+"To add a new plugin or script, click the <guibutton>Open</guibutton> button "
+"to open the file open dialog."
+msgstr ""
+"Για να προσθέσετε ένα νέο πρόσθετο ή δέσμη ενεργειών, πατήστε το πλήκτρο "
+"<guibutton>Άνοιγμα</guibutton> για να ανοίξετε τον διάλογο ανοίγματος "
+"αρχείου."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:686
+msgid ""
+"To remove a plugin or script, select the appropriate item and click on the "
+"<guibutton>Remove</guibutton> buton ."
+msgstr ""
+"Για να αφαιρέσετε ένα πρόσθετο ή ένα δέσμη ενεργειών, επιλέξτε το κατάλληλο "
+"στοιχείο και πατήστε στο πλήκτρο <guibutton>Αφαίρεση</guibutton>."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:691
+msgid "<guilabel>Network monitor</guilabel>"
+msgstr "<guilabel>Παρακολούθηση δικτύου</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:693
+msgid "Use the Network Manager to control connection state."
+msgstr ""
+"Χρησιμοποιήστε τον διαχειριστή δικτύου για να ελέγξετε την κατάσταση "
+"σύνδεσης."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:697
+msgid "<guilabel>Auto Away</guilabel>"
+msgstr "<guilabel>Αυτόματη ένδειξη απουσίας</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:699
+msgid "Mark yourself as away when screensaver is active."
+msgstr ""
+"Σημειώστε τον εαυτό σας ως απόντα όταν η προφύλαξη οθόνης είναι ενεργή."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:703
+msgid "<guilabel>Sound notification</guilabel>"
+msgstr "<guilabel>Ηχητική ειδοποίηση</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:705
+msgid ""
+"Raise an audio notification when a word is highlighted (including your nick) "
+"or when you receive a private message."
+msgstr ""
+"Αναπαραγωγή μιας ηχητικής ειδοποίησης όταν μια λέξη επισημαίνεται "
+"(συμπεριλαμβάνοντας το ψευδώνυμό σας) ή όταν δέχεστε ένα προσωπικό μήνυμα."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:709
+msgid "<guilabel>Notification</guilabel>"
+msgstr "<guilabel>Ειδοποίηση</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:711
+msgid ""
+"Add an icon in the notification area informing you of events in xchat-gnome."
+msgstr ""
+"Προσθέστε ένα εικονίδιο στην περιοχή ειδοποιήσεων που σας πληροφορεί για "
+"συμβάντα στο xchat-gnome."
+
+#. (itstool) path: note/para
+#: C/index.docbook:713
+msgid ""
+"This allows one to minimize to notification area if <guilabel>Always display "
+"notification icon</guilabel> is selected from <guilabel>Notification</"
+"guilabel> preferences."
+msgstr ""
+"Αυτό επιτρέπει σε κάποιον να ελαχιστοποιήσει την περιοχή ειδοποιήσεων αν το "
+"<guilabel>Να εμφανίζεται πάντα το εικονίδιο ειδοποίησης</guilabel> είναι "
+"επιλεγμένο από τις προτιμήσεις στο <guilabel>Ειδοποίηση</guilabel>."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:718
+msgid "<guilabel>On-screen display</guilabel>"
+msgstr "<guilabel>Εμφάνιση στην οθόνη</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:720
+msgid ""
+"Display a notification box when a word is highlighted (including your nick) "
+"or when you receive a private message."
+msgstr ""
+"Εμφανίστε ένα πλαίσιο ειδοποίησης όταν μια λέξη επισημαίνεται "
+"(συμπεριλαμβάνοντας το ψευδώνυμό σας) ή όταν δέχεστε ένα προσωπικό μήνυμα."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:724
+msgid "<guilabel>URL scrapper</guilabel>"
+msgstr "<guilabel>Καταγραφέας διευθύνσεων</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:726
+msgid "Display all the urls from your conversation in a ugly box."
+msgstr ""
+"Εμφανίστε όλες τις διευθύνσεις από τη συζήτησή σας σε ένα άσχημο πλαίσιο."
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:733
+msgid "Network Properties"
+msgstr "Ιδιότητες δικτύου"
+
+#. (itstool) path: sect1/para
+#: C/index.docbook:734
+msgid ""
+"The <guilabel>Network Properties</guilabel> dialog for <application>XChat-"
+"GNOME</application>, allows you to set the properties for an Internet Relay "
+"Chat (IRC) server, and contains the following tabs:"
+msgstr ""
+"Ο διάλογος <guilabel>Ιδιότητες δικτύου</guilabel> για το <application>XChat-"
+"GNOME</application>, σας επιτρέπει να ορίσετε τις ιδιότητες για έναν "
+"διακομιστή διαδικτυακής μεταγωγής συνομιλίας (IRC) και περιέχει τις "
+"ακόλουθες καρτέλες:"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:743
+msgid "Network Settings"
+msgstr "Ρυθμίσεις δικτύου"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:748
+msgid ""
+"Enter the <guilabel>Name</guilabel> for the Internet Relay Chat (IRC) server."
+msgstr ""
+"Εισάγετε το <guilabel>Όνομα</guilabel> για τον διακομιστή διαδικτυακής "
+"μεταγωγής συνομιλίας (IRC)."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:749
+msgid ""
+"Select the <guilabel>Automatically connect to network</guilabel> option to "
+"connect to a network when starting <application>XChat-GNOME</application>."
+msgstr ""
+"Επιλέξτε το <guilabel>Αυτόματη σύνδεση στο δίκτυο</guilabel> για να "
+"συνδεθείτε με ένα δίκτυο όταν ξεκινήσει το <application>XChat-GNOME</"
+"application>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:751
+msgid ""
+"Select the <guilabel>Use secure connection (SSL)</guilabel> option to "
+"connect with Secure Socket Layer (SSL)."
+msgstr ""
+"Επιλέξτε το <guilabel>Χρήση ασφαλούς σύνδεσης (SSL)</guilabel> για να "
+"συνδεθείτε με Secure Socket Layer (SSL)."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:753
+msgid ""
+"Select the <guilabel>Cycle until connected</guilabel> option to continue "
+"attempts to connect to network, until successful."
+msgstr ""
+"Επιλέξτε το <guilabel>Επανάληψη μέχρι να συνδεθείτε</guilabel> για να "
+"συνεχίσετε τις προσπάθειες σύνδεσης με το δίκτυο, μέχρι να επιτευχθεί."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:755
+msgid ""
+"Use the <guilabel>Character encoding</guilabel> drop-down box to specify "
+"which character encoding <application>XChat-GNOME</application> should use."
+msgstr ""
+"Χρησιμοποιήστε το πτυσσόμενο πλαίσιο <guilabel>Κωδικοποίηση χαρακτήρων</"
+"guilabel> για να ορίσετε ποια κωδικοποίηση χαρακτήρων του <application>XChat-"
+"GNOME</application> να χρησιμοποιήσετε."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:757
+msgid ""
+"Enter the <guilabel>Server Password</guilabel>, if the Internet Relay Chat "
+"(IRC) server requires it."
+msgstr ""
+"Εισάγετε τον <guilabel>Κωδικό πρόσβασης διακομιστή</guilabel>, αν ο "
+"διακομιστής διαδικτυακής μεταγωγής συνομιλίας (IRC) το απαιτεί."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:764
+msgid "Users and Channels"
+msgstr "Χρήστες και Κανάλια"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:767
+msgid "<guilabel>Users Info</guilabel>"
+msgstr "<guilabel>Πληροφορίες χρηστών</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:769
+msgid ""
+"Select the <guilabel>Use global user settings</guilabel> option to use the "
+"global settings used in the <guilabel>General</guilabel> section of <xref "
+"linkend=\"xchat-gnome-prefs-general\"/>."
+msgstr ""
+"Επιλέξτε το <guilabel>Χρήση καθολικών ρυθμίσεων χρήστη</guilabel> για να "
+"χρησιμοποιήσετε τις καθολικές χρησιμοποιούμενες ρυθμίσεις στην ενότητα "
+"<guilabel>Γενικά</guilabel> του <xref linkend=\"xchat-gnome-prefs-general\"/"
+">."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:772
+msgid ""
+"Select the <guilabel>Use the user settings</guilabel> option to set the "
+"<guilabel>Nick name</guilabel> and <guilabel>Real Name</guilabel> specific "
+"to this Internet Relay Chat (IRC) server."
+msgstr ""
+"Επιλέξτε το <guilabel>Χρήση των ρυθμίσεων χρήστη</guilabel> για να ορίσετε "
+"το <guilabel>Ψευδώνυμο</guilabel> και το <guilabel>Πραγματικό όνομα</"
+"guilabel> ειδικό για αυτόν τον διακομιστή διαδικτυακής μεταγωγής συνομιλίας "
+"(IRC)."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:778
+msgid "<guilabel>Automatically Join Channels</guilabel>"
+msgstr "<guilabel>Αυτόματη σύνδεση καναλιών</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:780
+msgid "Click the <guibutton>Add</guibutton> button to add a new channel."
+msgstr ""
+"Πατήστε το πλήκτρο <guibutton>Προσθήκη</guibutton> για να προσθέσετε ένα νέο "
+"κανάλι."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:781
+msgid ""
+"Click the <guibutton>Edit</guibutton> button to edit the selected channel."
+msgstr ""
+"Πατήστε το πλήκτρο <guibutton>Επεξεργασία</guibutton> για να επεξεργαστείτε "
+"το επιλεγμένο κανάλι."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:782
+msgid ""
+"Click the <guibutton>Remove</guibutton> button to remove the selected "
+"channel."
+msgstr ""
+"Πατήστε το πλήκτρο <guibutton>Αφαίρεση</guibutton> για να αφαιρέσετε το "
+"επιλεγμένο κανάλι."
+
+#. (itstool) path: note/para
+#: C/index.docbook:783
+msgid "The channel name should begin with a pound sign (#)."
+msgstr "Το όνομα του καναλιού πρέπει να ξεκινά με το σύμβολο (#)."
+
+#. (itstool) path: sect2/title
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:789 C/index.docbook:792
+msgid "Servers"
+msgstr "Διακομιστές"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:794
+msgid ""
+"Click the <guibutton>Add</guibutton> button to add a new Internet Relay Chat "
+"(IRC) server."
+msgstr ""
+"Πατήστε το πλήκτρο <guibutton>Προσθήκη</guibutton> για να προσθέσετε έναν "
+"νέο διακομιστή διαδικτυακής μεταγωγής συνομιλίας (IRC)."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:796
+msgid ""
+"Click the <guibutton>Edit</guibutton> button to edit the selected Internet "
+"Relay Chat (IRC) server."
+msgstr ""
+"Πατήστε το πλήκτρο <guibutton>Επεξεργασία</guibutton> για να επεξεργαστείτε "
+"τον επιλεγμένο διακομιστή διαδικτυακής μεταγωγής συνομιλίας (IRC)."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:798
+msgid ""
+"Click the <guibutton>Remove</guibutton> button to remove the selected "
+"Internet Relay Chat (IRC) server."
+msgstr ""
+"Πατήστε το πλήκτρο <guibutton>Αφαίρεση</guibutton> για να αφαιρέσετε τον "
+"επιλεγμένο διακομιστή διαδικτυακής μεταγωγής συνομιλίας (IRC)."
+
+#. (itstool) path: note/para
+#: C/index.docbook:800
+msgid "To specify custom port use (/) as seperator, as \"host/port\""
+msgstr ""
+"Για να ορίσετε μια προσαρμοσμένη θύρα χρησιμοποιήστε το (/) ως διαχωριστικό, "
+"ως \"κεντρικός υπολογιστής/θύρα\""
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:814
+msgid "About <application>XChat-GNOME</application>"
+msgstr "Περί του <application>XChat-GNOME</application>"
+
+#. (itstool) path: sect1/para
+#: C/index.docbook:815
+msgid ""
+"To find more information about <application>XChat-GNOME</application>, "
+"please visit the <ulink url=\"http://live.gnome.org/Xchat-Gnome\" type=\"http"
+"\">XChat-GNOME Web page</ulink>."
+msgstr ""
+"Για να βρείτε περισσότερες πληροφορίες για το <application>XChat-GNOME</"
+"application>, παρακαλούμε επισκεφτείτε την <ulink url=\"http://live.gnome."
+"org/Xchat-Gnome\" type=\"http\">ιστοσελίδα XChat-GNOME</ulink>."
+
+#. (itstool) path: sect1/para
+#: C/index.docbook:819
+msgid ""
+"To report a bug or make a suggestion regarding this application or this "
+"manual, see the Feedback section of the <ulink url=\"ghelp:user-guide?"
+"feedback-bugs\" type=\"help\">GNOME User Guide</ulink>."
+msgstr ""
+"Για αναφορά σφάλματος ή υποβολή πρότασης σχετικά με αυτή την εφαρμογή ή αυτό "
+"το εγχειρίδιο, δείτε την ενότητα ανατροφοδότησης του <ulink url=\"ghelp:user-"
+"guide?feedback-bugs\" type=\"help\">οδηγού χρήστη GNOME</ulink>."
+
+#. (itstool) path: sect1/para
+#: C/index.docbook:825
+msgid ""
+"This program is distributed under the terms of the GNU General Public "
+"license as published by the Free Software Foundation; either version 2 of "
+"the License, or (at your option) any later version. A copy of this license "
+"can be found at this <ulink url=\"ghelp:gpl\" type=\"help\">link</ulink>, or "
+"in the file COPYING included with the source code of this program."
+msgstr ""
+"Αυτό το πρόγραμμα διανέμεται υπό τους όρους της Γενικής Άδειας Δημόσιας "
+"Χρήσης GNU (GPL), όπως αυτή έχει δημοσιευτεί από το Ίδρυμα Ελεύθερου "
+"Λογισμικού (FSS) — είτε της έκδοσης 2 της Άδειας, είτε (κατ' επιλογήν σας) "
+"οποιασδήποτε μεταγενέστερης έκδοσης. Αντίγραφο της άδειας είναι διαθέσιμο "
+"στον ακόλουθο <ulink url=\"ghelp:gpl\" type=\"help\">σύνδεσμο</ulink>, ή στο "
+"αρχείο COPYING που διανέμεται μαζί με τον πηγαίο κώδικα αυτού του "
+"προγράμματος."
+
+#. (itstool) path: para/ulink
+#: C/legal.xml:8
+msgid "link"
+msgstr "σύνδεσμο"
+
+#. (itstool) path: legalnotice/para
+#: C/legal.xml:2
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
+"of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
+"with this manual."
+msgstr ""
+"Χορηγείται άδεια αντιγραφής, διανομής και/ή τροποποίησης του παρόντος "
+"εγγράφου υπό τους όρους της έκδοσης 1.1 της Ελεύθερης Άδειας Τεκμηρίωσης GNU "
+"(GFDL), ή οποιασδήποτε μεταγενέστερης έκδοσής αυτής από το Ίδρυμα Ελεύθερου "
+"Λογισμικού (FSF), χωρίς αμετάβλητες ενότητες, κείμενα εμπροσθοφύλλου και "
+"κείμενα οπισθοφύλλου. Αντίγραφο της άδειας GFDL είναι διαθέσιμο στον "
+"ακόλουθο <_:ulink-1/>, ή στο αρχείο COPYING-DOCS που διανέμεται μαζί με το "
+"παρόν εγχειρίδιο."
+
+#~ msgid "2005-2006"
+#~ msgstr "2005-2006"
+
+#~ msgid "2006"
+#~ msgstr "2006"
+
+#~ msgid "Joachim Noreiko"
+#~ msgstr "Joachim Noreiko"
+
+#~ msgid "Brian"
+#~ msgstr "Brian"
+
+#~ msgid "Pepple"
+#~ msgstr "Pepple"
+
+#~ msgid "Fedora Project"
+#~ msgstr "Έργο Φεντόρα"
+
+#~ msgid "bpepple@fedoraproject.org"
+#~ msgstr "bpepple@fedoraproject.org"
+
+#~ msgid "Joachim"
+#~ msgstr "Joachim"
+
+#~ msgid "Noreiko"
+#~ msgstr "Noreiko"
+
+#~ msgid "jnoreiko@yahoo.com"
+#~ msgstr "jnoreiko@yahoo.com"
+
+#~ msgid "XChat-GNOME Manual 2.1"
+#~ msgstr "Εγχειρίδιο XChat-GNOME 2.1"
+
+#~ msgid "December 2006"
+#~ msgstr "Δεκέμβριος 2006"
+
+#~ msgid "XChat-GNOME Manual V2.0"
+#~ msgstr "Εγχειρίδιο XChat-GNOME 2.0"
+
+#~ msgid "November 2005"
+#~ msgstr "Νοέμβριος 2005"
+
+#~ msgid "XChat-GNOME"
+#~ msgstr "XChat-GNOME"
+
+#~ msgid "xchat-gnome"
+#~ msgstr "xchat-gnome"
+
+#~ msgid "General"
+#~ msgstr "Γενικά"
+
+#~ msgid "Highlighting"
+#~ msgstr "Επισήμανση"
+
+#~ msgid "Use Interface"
+#~ msgstr "Διεπαφή χρήστη"
+
+#~ msgid "Text Colors"
+#~ msgstr "Χρώματα κειμένου"
+
+#~ msgid "mIRC Colors"
+#~ msgstr "Χρώματα mIRC"
+
+#~ msgid "Extra Colors"
+#~ msgstr "Πρόσθετα χρώματα"
+
+#~ msgid "File Transfers"
+#~ msgstr "Μεταφορές αρχείων"
+
+#~ msgid "DCC Settings"
+#~ msgstr "Ρυθμίσεις DCC"
+
+#~ msgid "Throttling"
+#~ msgstr "Στραγγαλισμός"
+
+#~ msgid "Network monitor"
+#~ msgstr "Παρακολούθηση δικτύου"
+
+#~ msgid "Auto Away"
+#~ msgstr "Αυτόματη απουσία"
+
+#~ msgid "Notification"
+#~ msgstr "Ειδοποίηση"
+
+#~ msgid "URL scrapper"
+#~ msgstr "Καταγραφέας URL"
+
+#~ msgid "Users Info"
+#~ msgstr "Πληροφορίες χρηστών"

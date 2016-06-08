@@ -1,0 +1,1221 @@
+# Chinese (China) translation for xchat-gnome.
+# Copyright (C) 2010 xchat-gnome's COPYRIGHT HOLDER
+# This file is distributed under the same license as the xchat-gnome package.
+# baodao du <centerpoint@139.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xchat-gnome master\n"
+"POT-Creation-Date: 2010-07-15 18:24+0000\n"
+"PO-Revision-Date: 2010-07-18 18:52+0800\n"
+"Last-Translator: du baodao <centerpoint@139.com>\n"
+"Language-Team: Chinese (China) <i18n-zh@googlegroups.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/xchat-gnome.xml:228(None)
+msgid ""
+"@@image: 'figures/xchat-gnome_main_window.png'; "
+"md5=90f93cb74dc838acb02ed7436e0b633f"
+msgstr ""
+"@@image: 'figures/xchat-gnome_main_window.png'; "
+"md5=90f93cb74dc838acb02ed7436e0b633f"
+
+#: C/xchat-gnome.xml:28(title)
+msgid "<application>XChat-GNOME</application> Manual"
+msgstr "<application>XChat-GNOME</application> 手册"
+
+#: C/xchat-gnome.xml:31(year)
+msgid "2005-2006"
+msgstr "2005-2006"
+
+#: C/xchat-gnome.xml:32(holder) C/xchat-gnome.xml:50(publishername)
+msgid "Brian Pepple"
+msgstr "Brian Pepple"
+
+#: C/xchat-gnome.xml:35(year)
+msgid "2006"
+msgstr "2006"
+
+#: C/xchat-gnome.xml:36(holder)
+msgid "Joachim Noreiko"
+msgstr "Joachim Noreiko"
+
+#: C/xchat-gnome.xml:2(para)
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
+"of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or "
+"in the file COPYING-DOCS distributed with this manual."
+msgstr ""
+"在由自由软件基金会发布的1.1或者后续版本的《自由文档许可》(GFDL)条款的许可下，"
+"你可以复制，发布和修改本文档。固定章节、封面文字和封底文字不在此列。 你可以在"
+"这个 <ulink type=\"help\" url=\"ghelp:fdl\">链接</ulink> ,或者在与本手册一起"
+"发布的 COPYING-DOCS 文件中找到一份 GFDL 的拷贝。"
+
+#: C/xchat-gnome.xml:11(para)
+msgid ""
+"This manual is part of a collection of GNOME manuals distributed under the "
+"GFDL. If you want to distribute this manual separately from the collection, "
+"you can do so by adding a copy of the license to the manual, as described in "
+"section 6 of the license."
+msgstr ""
+"本手册是 GNOME 手册 的一部分并按GFDL协议发行.如果你想单独发布这一部分，请按照"
+"协议第6节的要求在发布时附加一份GFDL的拷贝。"
+
+#: C/xchat-gnome.xml:18(para)
+msgid ""
+"Many of the names used by companies to distinguish their products and "
+"services are claimed as trademarks. Where those names appear in any GNOME "
+"documentation, and the members of the GNOME Documentation Project are made "
+"aware of those trademarks, then the names are in capital letters or initial "
+"capital letters."
+msgstr ""
+"公司为了标识它们的产品和服务而将很多名称声明为商标。在GNOME文档和GNOME文档计"
+"划的成员中，这些名称会以大写或者首字母大写的形式标识出来。"
+
+#: C/xchat-gnome.xml:34(para)
+msgid ""
+"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
+"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
+"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+msgstr ""
+"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
+"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
+"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+
+#: C/xchat-gnome.xml:54(para)
+msgid ""
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+"POSSIBILITY OF SUCH DAMAGES."
+msgstr ""
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+"POSSIBILITY OF SUCH DAMAGES."
+
+#: C/xchat-gnome.xml:27(para)
+msgid ""
+"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
+"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
+"<placeholder-1/>"
+msgstr "本文档及其修改版皆在《自由文档许可》的条款下发布：<placeholder-1/>"
+
+#: C/xchat-gnome.xml:60(firstname)
+msgid "Brian"
+msgstr "Brian"
+
+#: C/xchat-gnome.xml:61(surname)
+msgid "Pepple"
+msgstr "Pepple"
+
+#: C/xchat-gnome.xml:63(orgname)
+msgid "Fedora Project"
+msgstr "Fedora 项目"
+
+#: C/xchat-gnome.xml:64(email)
+msgid "bpepple@fedoraproject.org"
+msgstr "bpepple@fedoraproject.org"
+
+#: C/xchat-gnome.xml:68(firstname)
+msgid "Joachim"
+msgstr "Joachim"
+
+#: C/xchat-gnome.xml:69(surname)
+msgid "Noreiko"
+msgstr "Noreiko"
+
+#: C/xchat-gnome.xml:71(orgname) C/xchat-gnome.xml:113(para)
+#: C/xchat-gnome.xml:123(para)
+msgid "GNOME Documentation Project"
+msgstr "GNOME 文档计划"
+
+#: C/xchat-gnome.xml:72(email)
+msgid "jnoreiko@yahoo.com"
+msgstr "jnoreiko@yahoo.com"
+
+#: C/xchat-gnome.xml:107(revnumber)
+msgid "XChat-GNOME Manual 2.1"
+msgstr "XChat-GNOME 手册 2.1"
+
+#: C/xchat-gnome.xml:108(date)
+msgid "December 2006"
+msgstr "2006-12"
+
+#: C/xchat-gnome.xml:110(para)
+msgid "Joachim Noreiko <email>jnoreiko@yahoo.com</email>"
+msgstr "Joachim Noreiko <email>jnoreiko@yahoo.com</email>"
+
+#: C/xchat-gnome.xml:117(revnumber)
+msgid "XChat-GNOME Manual V2.0"
+msgstr "XChat-GNOME 手册 V2.0"
+
+#: C/xchat-gnome.xml:118(date)
+msgid "November 2005"
+msgstr "2005-11"
+
+#: C/xchat-gnome.xml:120(para)
+msgid "Brian Pepple <email>bpepple@fedoraproject.org</email>"
+msgstr "Brian Pepple <email>bpepple@fedoraproject.org</email>"
+
+#: C/xchat-gnome.xml:128(releaseinfo)
+msgid "This manual describes version 0.16 of XChat-GNOME."
+msgstr "本手册描述的是 XChat-GNOME  0.16 版"
+
+#: C/xchat-gnome.xml:130(title)
+msgid "Feedback"
+msgstr "反馈"
+
+#: C/xchat-gnome.xml:131(para)
+msgid ""
+"To report a bug or make a suggestion regarding the <application>XChat-GNOME</"
+"application> application or this manual, follow the directions in the "
+"Feedback section of the <ulink url=\"ghelp:user-guide?feedback-bugs\" type="
+"\"help\">GNOME User Guide</ulink>."
+msgstr ""
+"报告关于 <application>XChat-GNOME</application> 和本手册的 bug 或者提建议请参"
+"考 <ulink url=\"ghelp:user-guide?feedback-bugs\" type=\"help\">GNOME 用户指南"
+"</ulink> 中的“反馈 ”章节"
+
+#: C/xchat-gnome.xml:139(para)
+msgid "A user manual which describes the use of the XChat-GNOME IRC client."
+msgstr "XChat-GNOME IRC(互联网中继聊天)客户端的用户手册"
+
+#: C/xchat-gnome.xml:144(primary) C/xchat-gnome.xml:231(application)
+msgid "XChat-GNOME"
+msgstr "XChat-GNOME"
+
+#: C/xchat-gnome.xml:147(primary)
+msgid "xchat-gnome"
+msgstr "xchat-gnome"
+
+#: C/xchat-gnome.xml:155(title)
+msgid "Introduction"
+msgstr "指导"
+
+#: C/xchat-gnome.xml:156(para)
+msgid ""
+"The <application>XChat-GNOME</application> application is an Internet Relay "
+"Chat (IRC) program for the GNOME desktop."
+msgstr ""
+"<application>XChat-GNOME</application> 是GNOME桌面的一个互联网中继聊天(IRC)程"
+"序。"
+
+#: C/xchat-gnome.xml:159(para)
+msgid "<application>XChat-GNOME</application> provides the following features:"
+msgstr "<application>XChat-GNOME</application> 提供如下功能:"
+
+#: C/xchat-gnome.xml:162(para)
+msgid "Notification Area Icon Plugin"
+msgstr "通知区域图标插件"
+
+#: C/xchat-gnome.xml:165(para)
+msgid "Direct Client-To-Client (DCC) Transfers"
+msgstr "端到端(DCC)的直接传输"
+
+#: C/xchat-gnome.xml:168(para)
+msgid "Direct Client-To-Client (DCC) Chats"
+msgstr "端到端(DCC)的直接聊天"
+
+#: C/xchat-gnome.xml:171(para)
+msgid "Adherence to GNOME Human Interface Guidelines (HIG)"
+msgstr "遵从 GNOME 用户界面准则"
+
+#: C/xchat-gnome.xml:186(title)
+msgid "Getting Started"
+msgstr "从这里开始"
+
+#: C/xchat-gnome.xml:188(title)
+msgid "Starting <application>XChat-GNOME</application>"
+msgstr "启动 <application>XChat-GNOME</application>"
+
+#: C/xchat-gnome.xml:189(para)
+msgid ""
+"You can start <application>XChat-GNOME</application> in the following ways:"
+msgstr "你可以按以下方法启动 <application>XChat-GNOME</application>"
+
+#: C/xchat-gnome.xml:193(term)
+msgid "<guimenu>Applications</guimenu> menu"
+msgstr "<guimenu>应用程序</guimenu> 菜单"
+
+#: C/xchat-gnome.xml:195(para)
+msgid ""
+"Choose <menuchoice><guisubmenu>Internet</guisubmenu><guimenuitem>XChat-GNOME "
+"IRC Chat</guimenuitem></menuchoice>."
+msgstr ""
+"选择 <menuchoice><guisubmenu>互联网</guisubmenu> <guimenuitem>XChat-GNOME 互"
+"联网中继聊天</guimenuitem></menuchoice>."
+
+#: C/xchat-gnome.xml:204(term)
+msgid "Command line"
+msgstr "命令行"
+
+#: C/xchat-gnome.xml:206(para)
+msgid ""
+"To start <application>XChat-GNOME</application> from a command line, type "
+"<command>xchat-gnome</command>, then press <keycap>Return</keycap>:"
+msgstr ""
+"从命令行启动 <application>XChat-GNOME</application>，键入 <command>xchat-"
+"gnome</command>，然后按 <keycap>Return</keycap>："
+
+#: C/xchat-gnome.xml:210(para)
+msgid ""
+"To view other command line options that are available, type <command>xchat-"
+"gnome --help</command>, then press <keycap>Return</keycap>"
+msgstr ""
+"查看其他可用的命令行参数，键入 <command>xchat-gnome --help</command>，然后按 "
+"<keycap>Return</keycap>"
+
+#: C/xchat-gnome.xml:220(title)
+msgid "When You Start <application>XChat-GNOME</application>"
+msgstr "当你启动了 <application>XChat-GNOME</application>"
+
+#: C/xchat-gnome.xml:221(para)
+msgid ""
+"When you start <application>XChat-GNOME</application>, the following window "
+"is displayed."
+msgstr "当你启动了 <application>XChat-GNOME</application>，会出现下面的窗口。"
+
+#: C/xchat-gnome.xml:225(title)
+msgid "<application>XChat-GNOME</application> Main Window"
+msgstr "<application>XChat-GNOME</application> 主窗口"
+
+#: C/xchat-gnome.xml:231(phrase)
+msgid ""
+"Shows <placeholder-1/> main window. Contains titlebar, menubar, display "
+"area, and scrollbars. Menubar contains IRC, Edit, Network, Discussion, Go, "
+"and Help menus."
+msgstr ""
+"显示<placeholder-1/> 主窗口，包含标题栏，菜单栏，显示区域和滚动条。菜单栏包含"
+"聊天、编辑、网络、讨论、转到和帮助 。"
+
+#. for example, the items on the menubar and on the toolbar. This section is optional.
+#: C/xchat-gnome.xml:244(para)
+msgid ""
+"The <application>XChat-GNOME</application> window contains the following "
+"elements:"
+msgstr "<application>XChat-GNOME</application> 窗口包含下列元素 ："
+
+#: C/xchat-gnome.xml:248(term)
+msgid "Menubar"
+msgstr "菜单栏"
+
+#: C/xchat-gnome.xml:250(para)
+msgid ""
+"The menus on the menubar contain all of the commands you need to use in "
+"<application>XChat-GNOME</application>."
+msgstr ""
+"菜单栏的菜单包含你在 <application>XChat-GNOME</application> 中需要的所有命"
+"令。"
+
+#: C/xchat-gnome.xml:255(term)
+msgid "Server Pane"
+msgstr "服务器窗格"
+
+#: C/xchat-gnome.xml:257(para)
+msgid "The Server Pane shows the Servers and Channels currently connected."
+msgstr "服务器窗格显示了当前连接的服务器和频道。"
+
+#: C/xchat-gnome.xml:261(term)
+msgid "User Button"
+msgstr "用户按钮"
+
+#: C/xchat-gnome.xml:263(para)
+msgid ""
+"The User Button shows the number of users present in the selected Channel. "
+"Click the User Button to show a list of users. User's in the list marked as "
+"away are \"Grayed out\"."
+msgstr ""
+"用户按钮显示了当前频道内的人数，单击用户按钮会显示用户列表。状态为“离开”的用"
+"户被标识为灰色。"
+
+#: C/xchat-gnome.xml:267(term)
+msgid "Discussion Area"
+msgstr "讨论区域"
+
+#: C/xchat-gnome.xml:269(para)
+msgid ""
+"The Discussion Area presents the discussion occurring in the selected "
+"Channel."
+msgstr "讨论区域显示被选择频道的讨论。"
+
+#: C/xchat-gnome.xml:271(para)
+msgid ""
+"Type into the message input line at the bottom of the discussion area to "
+"chat in the selected Channel."
+msgstr "在讨论区域底部的输入框中打字可以在当前选择的频道聊天。"
+
+#: C/xchat-gnome.xml:281(title)
+msgid "Usage"
+msgstr "使用"
+
+#: C/xchat-gnome.xml:285(title)
+msgid "Connecting to an Internet Relay Chat (IRC) Server"
+msgstr "连接到IRC服务器"
+
+#: C/xchat-gnome.xml:286(para)
+msgid ""
+"To connect to an Internet Relay Chat (IRC) Server, choose "
+"<menuchoice><guimenu>IRC</guimenu><guimenuitem>Connect</guimenuitem></"
+"menuchoice>. The <guilabel>Connect</guilabel> dialog is displayed. Select "
+"the Server that you wish to connect to, then click <guibutton>Connect</"
+"guibutton>."
+msgstr ""
+"连接到IRC服务器，选择 <menuchoice><guimenu>IRC</guimenu><guimenuitem>连接</"
+"guimenuitem></menuchoice>。 <guilabel>连接</guilabel> 对话框会出现。 选择你想"
+"连接的服务器。 然后点击<guibutton>连接</guibutton>。"
+
+#: C/xchat-gnome.xml:298(title)
+msgid "Viewing Direct Client-To-Client (DCC) File Transfers Information"
+msgstr "查看 DCC 文件直传信息"
+
+#: C/xchat-gnome.xml:299(para)
+msgid ""
+"To view Direct Client-To-Client (DCC) file transfer information, choose "
+"<menuchoice><guimenu>IRC</guimenu><guimenuitem>File Transfers</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"要查看 DCC 文件直传信息，选择<menuchoice><guimenu>IRC</guimenu><guimenuitem>"
+"文件传输</guimenuitem></menuchoice>。"
+
+#: C/xchat-gnome.xml:308(title)
+msgid "Editing Text"
+msgstr "编辑文本"
+
+#: C/xchat-gnome.xml:309(para)
+msgid "You can edit text in the following ways:"
+msgstr "你可以用以下办法编辑文本："
+
+#: C/xchat-gnome.xml:312(para)
+msgid ""
+"To delete the selected text from the file and move the selected text to a "
+"buffer, choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Cut</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"要剪切选定的文本，选择<menuchoice><guimenu>编辑</guimenu><guimenuitem>剪切</"
+"guimenuitem></menuchoice>。"
+
+#: C/xchat-gnome.xml:317(para)
+msgid ""
+"To copy the selected text to a buffer, choose <menuchoice><guimenu>Edit</"
+"guimenu><guimenuitem>Copy</guimenuitem></menuchoice>."
+msgstr ""
+"要复制选定的文本，选择 <menuchoice><guimenu>编辑</guimenu><guimenuitem>复制</"
+"guimenuitem></menuchoice>。"
+
+#: C/xchat-gnome.xml:322(para)
+msgid ""
+"To insert the contents of the buffer at the cursor position, choose "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Paste</guimenuitem></"
+"menuchoice>. You must cut or copy text before you can paste text into the "
+"file."
+msgstr ""
+"要粘贴文本到当前光标处，选择 <menuchoice><guimenu>编辑</guimenu><guimenuitem>"
+"粘贴</guimenuitem></menuchoice>。你必须在粘贴之前复制或者剪切。"
+
+#: C/xchat-gnome.xml:328(para)
+msgid ""
+"To clear all text from the Discussion Area for the currently selected "
+"Channel, choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Clear</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"要清除当前频道讨论区域的所有文本，选择 <menuchoice><guimenu>编辑</"
+"guimenu><guimenuitem>清除</guimenuitem></menuchoice>。"
+
+#: C/xchat-gnome.xml:337(title)
+msgid "Reconnecting to a Server"
+msgstr "重新连接服务器"
+
+#: C/xchat-gnome.xml:338(para)
+msgid ""
+"To reconnect <application>XChat-GNOME</application> to an Internet Relay "
+"Chat (IRC) server, choose <menuchoice><guimenu>Network</"
+"guimenu><guimenuitem>Reconnect</guimenuitem></menuchoice>."
+msgstr ""
+"要重新连接 <application>XChat-GNOME</application> 到IRC服务器，选择  "
+"<menuchoice><guimenu>网络</guimenu><guimenuitem>重新连接</guimenuitem></"
+"menuchoice>。"
+
+#: C/xchat-gnome.xml:348(title)
+msgid "Disconnecting from a Server"
+msgstr "关闭和服务器的连接"
+
+#: C/xchat-gnome.xml:349(para)
+msgid ""
+"To disconnect <application>XChat-GNOME</application> from an Internet Relay "
+"Chat (IRC) server, choose <menuchoice><guimenu>Network</"
+"guimenu><guimenuitem>Disconnect</guimenuitem></menuchoice>."
+msgstr ""
+"要把 <application>XChat-GNOME</application> 和IRC服务器断开连接，选择 "
+"<menuchoice><guimenu>网络</guimenu><guimenuitem>断开连接</guimenuitem></"
+"menuchoice>。"
+
+#: C/xchat-gnome.xml:359(title)
+msgid "Saving a Channel Transcript"
+msgstr "保存频道记录"
+
+#: C/xchat-gnome.xml:360(para)
+msgid ""
+"To save a transcript of a Channel, choose "
+"<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>S</keycap></"
+"keycombo></shortcut><guimenu>Discussion</guimenu><guimenuitem>Save "
+"Transcript</guimenuitem></menuchoice>."
+msgstr ""
+"要保存频道记录，选择 <menuchoice><shortcut><keycombo><keycap>Ctrl</"
+"keycap><keycap>S</keycap></keycombo></shortcut><guimenu>讨论</"
+"guimenu><guimenuitem>保存副本</guimenuitem></menuchoice>。"
+
+#: C/xchat-gnome.xml:375(title)
+msgid "Leaving a Channel"
+msgstr "离开频道"
+
+#: C/xchat-gnome.xml:376(para)
+msgid ""
+"When you leave a channel, you are removed from the participants and can no "
+"longer chat in it, but the discussion up to that point remains in the Server "
+"Pane."
+msgstr ""
+"当你离开一个频道，你就不再是聊天的参与者，并且不能在频道里聊天，但是讨论内容"
+"依然留在窗口。"
+
+#: C/xchat-gnome.xml:377(para)
+msgid ""
+"To leave a Channel, choose <menuchoice><shortcut><keycombo><keycap>Ctrl</"
+"keycap><keycap>Q</keycap></keycombo></shortcut><guimenu>Discussion</"
+"guimenu><guimenuitem>Leave</guimenuitem></menuchoice>."
+msgstr ""
+"要离开一个频道，选择 <menuchoice><shortcut><keycombo><keycap>Ctrl</"
+"keycap><keycap>Q</keycap></keycombo></shortcut><guimenu>讨论</"
+"guimenu><guimenuitem>离开</guimenuitem></menuchoice>。"
+
+#: C/xchat-gnome.xml:392(title)
+msgid "Closing a Channel"
+msgstr "关闭频道"
+
+#: C/xchat-gnome.xml:393(para)
+msgid ""
+"When you close a channel, the channel is removed from the list in the Server "
+"Pane."
+msgstr "当你关闭一个频道，这个频道会从服务器窗格移除。"
+
+#: C/xchat-gnome.xml:394(para)
+msgid ""
+"To close a Channel, choose <menuchoice><shortcut><keycombo><keycap>Ctrl</"
+"keycap><keycap>W</keycap></keycombo></shortcut><guimenu>Discussion</"
+"guimenu><guimenuitem>Close</guimenuitem></menuchoice>."
+msgstr ""
+"要关闭一个频道，选择<menuchoice><shortcut><keycombo><keycap>Ctrl</"
+"keycap><keycap>W</keycap></keycombo></shortcut><guimenu>讨论</"
+"guimenu><guimenuitem>关闭</guimenuitem></menuchoice>。"
+
+#: C/xchat-gnome.xml:409(title)
+msgid "Navigating through Channels"
+msgstr "浏览频道"
+
+#: C/xchat-gnome.xml:412(para)
+msgid ""
+"To view previous channel, choose "
+"<menuchoice><shortcut><keycombo><keycap>Alt</keycap><keycap>Up</keycap></"
+"keycombo></shortcut><guimenu>Go</guimenu><guimenuitem>Previous Discussion</"
+"guimenuitem></menuchoice>"
+msgstr ""
+"要查看前一个频道，选择 <menuchoice><shortcut><keycombo><keycap>Alt</"
+"keycap><keycap>Up</keycap></keycombo></shortcut><guimenu>转到</"
+"guimenu><guimenuitem>前一个频道</guimenuitem></menuchoice>"
+
+#: C/xchat-gnome.xml:426(para)
+msgid ""
+"To view next channel, choose <menuchoice><shortcut><keycombo><keycap>Alt</"
+"keycap><keycap>Down</keycap></keycombo></shortcut><guimenu>Go</"
+"guimenu><guimenuitem>Next Discussion</guimenuitem></menuchoice>"
+msgstr ""
+"要查看后一个频道，选择 <menuchoice><shortcut><keycombo><keycap>Alt</"
+"keycap><keycap>Down</keycap></keycombo></shortcut><guimenu>转到</"
+"guimenu><guimenuitem>后一个频道</guimenuitem></menuchoice>"
+
+#: C/xchat-gnome.xml:443(title)
+msgid "Navigating Through Servers"
+msgstr "浏览服务器"
+
+#: C/xchat-gnome.xml:446(para)
+msgid ""
+"To view previous server, choose "
+"<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>Up</keycap></"
+"keycombo></shortcut><guimenu>Go</guimenu><guimenuitem>Previous Network</"
+"guimenuitem></menuchoice>"
+msgstr ""
+"要查看前一个服务器，选择 <menuchoice><shortcut><keycombo><keycap>Ctrl</"
+"keycap><keycap>Up</keycap></keycombo></shortcut><guimenu>转到</"
+"guimenu><guimenuitem>前一个网络</guimenuitem></menuchoice>"
+
+#: C/xchat-gnome.xml:460(para)
+msgid ""
+"To view next server, choose <menuchoice><shortcut><keycombo><keycap>Ctrl</"
+"keycap><keycap>Down</keycap></keycombo></shortcut><guimenu>Go</"
+"guimenu><guimenuitem>Next Network</guimenuitem></menuchoice>"
+msgstr ""
+"要查看后一个服务器，选择 <menuchoice><shortcut><keycombo><keycap>Ctrl</"
+"keycap><keycap>Up</keycap></keycombo></shortcut><guimenu>转到</"
+"guimenu><guimenuitem>后一个网络</guimenuitem></menuchoice>"
+
+#: C/xchat-gnome.xml:477(title)
+msgid "Quitting XChat-GNOME"
+msgstr "离开 XChat-GNOME"
+
+#: C/xchat-gnome.xml:478(para)
+msgid ""
+"To quit <application>XChat-GNOME</application>, choose "
+"<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>Q</keycap></"
+"keycombo></shortcut><guimenu>IRC</guimenu><guimenuitem>Quit</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"要离开 <application>XChat-GNOME</application>, 选择 "
+"<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>Q</keycap></"
+"keycombo></shortcut><guimenu>IRC</guimenu><guimenuitem>离开</guimenuitem></"
+"menuchoice>。"
+
+#: C/xchat-gnome.xml:495(title)
+msgid "Preferences"
+msgstr "设置"
+
+#: C/xchat-gnome.xml:496(para)
+msgid ""
+"To modify the preferences of <application>XChat-GNOME</application>, choose "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></"
+"menuchoice>. The <guilabel>Preferences</guilabel> dialog contains the "
+"following sections:"
+msgstr ""
+"要设置 <application>XChat-GNOME</application>，选择 <menuchoice><guimenu>编辑"
+"</guimenu><guimenuitem>设置</guimenuitem></menuchoice>。 <guilabel>设置</"
+"guilabel> 对话框包含下列项目："
+
+#: C/xchat-gnome.xml:513(title)
+msgid "IRC Preferences"
+msgstr "IRC 设置"
+
+#: C/xchat-gnome.xml:516(guilabel) C/xchat-gnome.xml:746(guilabel)
+msgid "General"
+msgstr "常规"
+
+#: C/xchat-gnome.xml:518(para)
+msgid ""
+"Enter the <guilabel>Nickname</guilabel> you wish to use in the Internet "
+"Relay Chat (IRC) channel."
+msgstr "输入 <guilabel>昵称</guilabel> 你希望在IRC使用的昵称。"
+
+#: C/xchat-gnome.xml:520(para)
+msgid ""
+"Enter your <guilabel>Real Name</guilabel>, which is displayed on <command>/"
+"whois</command> requests."
+msgstr ""
+"输入 <guilabel>真名</guilabel>, 它会在<command>/whois</command> 请求中显示。"
+
+#: C/xchat-gnome.xml:522(para)
+msgid ""
+"Enter the <guilabel>Quit Message</guilabel> you wish to be shown to other "
+"users when you leave an Internet Relay Chat (IRC) network."
+msgstr "当你离开IRC网络时，键入 <guilabel>退出消息</guilabel> 可以让别人看到。"
+
+#: C/xchat-gnome.xml:523(para)
+msgid ""
+"Enter the <guilabel>Part Message</guilabel> you wish to be shown to other "
+"users when you leave an Internet Relay Chat (IRC) channel but remain "
+"connected to that channel's network."
+msgstr ""
+"当你退出频道但是并不断开到服务器的网络时，输入 <guilabel>退出信息</guilabel>"
+"你想在你退出频道时显示给其他人的信息。"
+
+#: C/xchat-gnome.xml:524(para)
+msgid ""
+"Enter the <guilabel>Away Message</guilabel> you wish to be shown to people "
+"who try to contact you when you are away."
+msgstr ""
+"当你的状态是“离开时”，输入 <guilabel>离开信息</guilabel> ，可以在别人想联系你"
+"时显示给他。"
+
+#: C/xchat-gnome.xml:528(guilabel)
+msgid "Highlighting"
+msgstr "高亮"
+
+#: C/xchat-gnome.xml:530(para)
+msgid ""
+"Specify words or phrases that should be highlighted in a different text "
+"colour when another chat user says them. This is in addition to your "
+"nickname, which is always highlighted."
+msgstr ""
+"一些特殊的词会在其他聊天的人说到时显示为高亮，另外你的昵称总是会高亮显示。"
+
+#: C/xchat-gnome.xml:534(guilabel)
+msgid "Use Interface"
+msgstr "使用界面"
+
+#: C/xchat-gnome.xml:536(para)
+msgid ""
+"Select the <guilabel>Use System Terminal Font</guilabel> option to use the "
+"same fonts as your system terminal."
+msgstr ""
+"选择 <guilabel>使用系统终端字体</guilabel> 可以使用和系统终端同样的字体。"
+
+#: C/xchat-gnome.xml:538(para)
+msgid ""
+"Select the <guilabel>Use this font</guilabel> option to open the Font "
+"Selection dialog box."
+msgstr "选择 <guilabel>使用这种字体</guilabel> 打开字体选择对话框。"
+
+#: C/xchat-gnome.xml:540(para)
+msgid ""
+"Select the <guilabel>Show colors</guilabel> option to enable color nicknames "
+"in discussion area."
+msgstr "选择 <guilabel>显示颜色</guilabel> 启用在讨论区域显示彩色昵称。"
+
+#: C/xchat-gnome.xml:542(para)
+msgid ""
+"Select the <guilabel>Show timestamps</guilabel> option to show timestamps of "
+"discussion."
+msgstr "选择 <guilabel>显示时间戳</guilabel> 选项可以在讨论中显示时间戳。"
+
+#: C/xchat-gnome.xml:549(title)
+msgid "Colors"
+msgstr "颜色"
+
+#: C/xchat-gnome.xml:552(guilabel)
+msgid "Text Colors"
+msgstr "文本颜色"
+
+#: C/xchat-gnome.xml:554(para)
+msgid ""
+"Use the <guilabel>Built-in schemes</guilabel> drop-down box to specify how "
+"<application>XChat-GNOME</application> should display the text and backgroud "
+"color. Select one of the following options:"
+msgstr ""
+"使用 <guilabel>内建方案</guilabel> 下拉列表来设定 <application>XChat-GNOME</"
+"application> 如何显示文本和背景色。选择下列选项："
+
+#: C/xchat-gnome.xml:559(para)
+msgid ""
+"Use the <guilabel>Black on White</guilabel> option to provide black text on "
+"a white background."
+msgstr "使用 <guilabel>白底黑字</guilabel> 设置成白底黑字。"
+
+#: C/xchat-gnome.xml:563(para)
+msgid ""
+"Use the <guilabel>White on Black</guilabel> option to provide white text on "
+"a black background."
+msgstr "使用 <guilabel>黑底白字</guilabel> 设置成黑底白字"
+
+#: C/xchat-gnome.xml:567(para)
+msgid ""
+"Use the <guilabel>Custom</guilabel> option to create a custom color scheme."
+msgstr "使用 <guilabel>自定义</guilabel> 来创建自定义颜色方案。"
+
+#: C/xchat-gnome.xml:572(para)
+msgid ""
+"The following options are only able to be changed if <guilabel>Built-in "
+"schemes</guilabel> is set to <guilabel>Custom</guilabel>."
+msgstr ""
+"下列选项只有在 <guilabel>内建方案</guilabel> 设置成 <guilabel>自定义</"
+"guilabel>才有效。"
+
+#: C/xchat-gnome.xml:576(para)
+msgid ""
+"Click on the <guilabel>Foreground color</guilabel> button to display the "
+"color selector dialog. Select a foreground color for the <application>XChat-"
+"GNOME</application> discussion area."
+msgstr ""
+"单击 <guilabel>前景色</guilabel> 按钮来显示颜色选择对话框，为 "
+"<application>XChat-GNOME</application> 的讨论区域选择前景色。"
+
+#: C/xchat-gnome.xml:579(para)
+msgid ""
+"Click on the <guilabel>Background color</guilabel> button to display the "
+"color selector dialog. Select the background color for the "
+"<application>XChat-GNOME</application> discussion area."
+msgstr ""
+"单击 <guilabel>背景色</guilabel> 按钮来显示颜色选择对话框，为 "
+"<application>XChat-GNOME</application> 的讨论区域选择背景色。"
+
+#: C/xchat-gnome.xml:582(para)
+msgid ""
+"Click on the <guilabel>Foreground mark</guilabel> button to display the "
+"color selector dialog. Select the forground mark color for the "
+"<application>XChat-GNOME</application> discussion area."
+msgstr ""
+"单击 <guilabel>前景遮罩</guilabel> 按钮来显示颜色选择对话框，为 "
+"<application>XChat-GNOME</application> 的讨论区域选择遮罩的前景颜色。"
+
+#: C/xchat-gnome.xml:585(para)
+msgid ""
+"Click on the <guilabel>Background mark</guilabel> button to display the "
+"color selector dialog. Select the background mark color for the "
+"<application>XChat-GNOME</application> discussion area."
+msgstr ""
+"单击 <guilabel>背景遮罩</guilabel> 按钮来显示颜色选择对话框，为 "
+"<application>XChat-GNOME</application> 的讨论区域选择背景遮罩的背景颜色。"
+
+#: C/xchat-gnome.xml:591(guilabel)
+msgid "mIRC Colors"
+msgstr "mIRC 颜色"
+
+#: C/xchat-gnome.xml:593(para)
+msgid ""
+"Select the buttons of the colors that you wish to change, to display the "
+"color selector dialog."
+msgstr "选择你想要的颜色按钮，会出现颜色选择对话框。"
+
+#: C/xchat-gnome.xml:596(para) C/xchat-gnome.xml:607(para)
+msgid ""
+"The colors are only able to be changed if <guilabel>Built-in schemes</"
+"guilabel> is set to <guilabel>Custom</guilabel>."
+msgstr "颜色只有在 <guilabel>内建方案</guilabel> 被设置为自定义。"
+
+#: C/xchat-gnome.xml:602(guilabel)
+msgid "Extra Colors"
+msgstr "其他颜色"
+
+#: C/xchat-gnome.xml:604(para)
+msgid ""
+"Selct the buttons of the colors that you wish to change, to display the "
+"color selector dialog."
+msgstr "选择你想要的颜色按钮，会出现颜色选择对话框。"
+
+#: C/xchat-gnome.xml:615(title)
+msgid "File Transfers &amp; DCC"
+msgstr "文件传输 &amp; DCC"
+
+#: C/xchat-gnome.xml:618(guilabel)
+msgid "File Transfers"
+msgstr "文件传输"
+
+#: C/xchat-gnome.xml:620(para)
+msgid ""
+"Use the <guilabel>Download file to</guilabel> button to select the folder "
+"where you wish to download file."
+msgstr "使用 <guilabel>下载文件到</guilabel> 按钮选择存放下载文件的文件夹。"
+
+#: C/xchat-gnome.xml:622(para)
+msgid ""
+"Use the <guilabel>Move completed files to</guilabel> button to select the "
+"folder where you wish for completed downloads to be moved."
+msgstr ""
+"使用 <guilabel>移动已经完成的文件到</guilabel> 按钮来选择一个你想把下载完成的"
+"文件移动到的文件夹。"
+
+#: C/xchat-gnome.xml:624(para)
+msgid ""
+"Select <guilabel>Convert spaces to underscore in filenames</guilabel> if you "
+"wish to have spaces converted to underscores in the filename."
+msgstr ""
+"如果你想发送前把文件名的空格转换成下划线，选择 <guilabel>发送前把空格转换成下"
+"划线</guilabel>。"
+
+#: C/xchat-gnome.xml:626(para)
+msgid ""
+"Select <guilabel>Save senders nickname in filenames</guilabel> to add the "
+"senders nickname to the downloaded file name."
+msgstr ""
+"选择 <guilabel>在文件名里保存发送者名称</guilabel> 可以在文件名里保存发送者名"
+"称。"
+
+#: C/xchat-gnome.xml:631(guilabel)
+msgid "DCC Settings"
+msgstr "DCC 设置"
+
+#: C/xchat-gnome.xml:633(para)
+msgid ""
+"Select the <guilabel>Auto-accept DCC Chat</guilabel> option to automatically "
+"accept Direct Client-to-Client (DCC) chats."
+msgstr ""
+"选择 <guilabel>自动接受 DCC 直接聊天请求</guilabel> 可以自动接受 DCC 直接聊天"
+"请求。"
+
+#: C/xchat-gnome.xml:635(para)
+msgid ""
+"Select the <guilabel>Auto-accept DCC File Transfers</guilabel> option to "
+"automatically accept Direct Client-to-Client (DCC) file transfers."
+msgstr ""
+"选择 <guilabel>自动接收 DCC 文件传输请求</guilabel> 可以自动接收 DCC 文件传输"
+"请求。"
+
+#: C/xchat-gnome.xml:637(para)
+msgid ""
+"Select the <guilabel>Get IP Address From Server</guilabel> option to use "
+"your providers DNS to resolve an IP address."
+msgstr ""
+"选择 <guilabel>从服务器获得IP地址</guilabel> 选项来使用你的DNS来解析IP地址。"
+
+#: C/xchat-gnome.xml:639(para)
+msgid ""
+"Select the <guilabel>Use This IP Address</guilabel> option and enter your IP "
+"address, to use a static IP address."
+msgstr ""
+"选择 <guilabel>使用IP地址</guilabel> 选项并键入你的IP地址来使用静态的IP。"
+
+#: C/xchat-gnome.xml:644(guilabel)
+msgid "Throttling"
+msgstr "节流"
+
+#: C/xchat-gnome.xml:646(para)
+msgid ""
+"Use the <guilabel>Individual send KB/s</guilabel> spin box to set your "
+"individual maximum upload speed."
+msgstr ""
+"使用 <guilabel>单独发送 KB/s</guilabel> 微调按钮来设定单独最大发送速度。"
+
+#: C/xchat-gnome.xml:648(para)
+msgid ""
+"Use the <guilabel>Global send KB/s</guilabel> spin box to set your global "
+"maximum upload speed."
+msgstr ""
+"使用 <guilabel>全局发送 KB/s</guilabel> 微调按钮来设定全局最大下载速度。"
+
+#: C/xchat-gnome.xml:650(para)
+msgid ""
+"Use the <guilabel>Individual receive KB/s</guilabel> spin box to set your "
+"individual maximum download speed."
+msgstr ""
+"使用 <guilabel>单独接收 KB/s</guilabel> 微调按钮来设定单独最大下载速度。"
+
+#: C/xchat-gnome.xml:652(para)
+msgid ""
+"Use the <guilabel>Global receive KB/s</guilabel> spin box to set your global "
+"maximum download speed."
+msgstr ""
+"使用 <guilabel>全局接收 KB/s</guilabel> 微调按钮来设定全局最大下载速度。"
+
+#: C/xchat-gnome.xml:659(title)
+msgid "Networks"
+msgstr "网络"
+
+#: C/xchat-gnome.xml:662(term)
+msgid "Internet Relay Chat (IRC) Servers"
+msgstr "IRC 服务器"
+
+#: C/xchat-gnome.xml:664(para)
+msgid ""
+"To add an Internet Relay Chat (IRC) server, click the <guibutton>Add</"
+"guibutton> button to open the <guilabel>Network Properties</guilabel> "
+"dialog. <xref linkend=\"xchat-gnome-network-properties\"/>"
+msgstr ""
+"要添加一个IRC服务器，单击<guibutton>添加</guibutton> 按钮来打开 <guilabel>网"
+"络设置</guilabel> 对话框。 <xref linkend=\"xchat-gnome-network-properties\"/>"
+
+#: C/xchat-gnome.xml:667(para)
+msgid ""
+"To edit an Internet Relay Chat (IRC) server, click the <guibutton>Edit</"
+"guibutton> button to open the <guilabel>Network Properties</guilabel> "
+"dialog. <xref linkend=\"xchat-gnome-network-properties\"/>"
+msgstr ""
+"要编辑 IRC 服务器，单击 <guibutton>编辑</guibutton> 按钮来打开 <guilabel>网络"
+"设置</guilabel> 对话框。<xref linkend=\"xchat-gnome-network-properties\"/>"
+
+#: C/xchat-gnome.xml:670(para)
+msgid ""
+"To remove an Internet Relay Chat (IRC) server, click the <guibutton>Remove</"
+"guibutton> button. <xref linkend=\"xchat-gnome-network-properties\"/>"
+msgstr ""
+"要删除一个 IRC 服务器, 单击 <guibutton>删除</guibutton> 按钮。 <xref linkend="
+"\"xchat-gnome-network-properties\"/>"
+
+#: C/xchat-gnome.xml:677(title)
+msgid "Scripts and Plugins"
+msgstr "脚本和插件"
+
+#: C/xchat-gnome.xml:680(guilabel)
+msgid "Script and Plugins"
+msgstr "脚本和插件"
+
+#: C/xchat-gnome.xml:682(para)
+msgid ""
+"To enable or disable a plugin or script, select the <guilabel>Enable</"
+"guilabel> option next to the appropriate item."
+msgstr ""
+"要启用或者禁用一个插件或者脚本,选择 <guilabel>启用</guilabel> 选项到适当的状"
+"态。"
+
+#: C/xchat-gnome.xml:684(para)
+msgid ""
+"To add a new plugin or script, click the <guibutton>Open</guibutton> button "
+"to open the file open dialog."
+msgstr ""
+"要添加新的插件和脚本，单击 <guibutton>打开</guibutton> 按钮来打开打开文件对话"
+"框。"
+
+#: C/xchat-gnome.xml:686(para)
+msgid ""
+"To remove a plugin or script, select the appropriate item and click on the "
+"<guibutton>Remove</guibutton> buton ."
+msgstr ""
+"要移除插件或者脚本，选择合适的选项并单击<guibutton>移除</guibutton> 按钮。"
+
+#: C/xchat-gnome.xml:691(guilabel)
+msgid "Network monitor"
+msgstr "网络监视器"
+
+#: C/xchat-gnome.xml:693(para)
+msgid "Use the Network Manager to control connection state."
+msgstr "使用网络管理器来控制连接状态"
+
+#: C/xchat-gnome.xml:697(guilabel)
+msgid "Auto Away"
+msgstr "自动离开"
+
+#: C/xchat-gnome.xml:699(para)
+msgid "Mark yourself as away when screensaver is active."
+msgstr "在屏幕保护启动时更改您的状态为离线。"
+
+#: C/xchat-gnome.xml:703(guilabel)
+msgid "Sound notification"
+msgstr "声音通知"
+
+#: C/xchat-gnome.xml:705(para)
+msgid ""
+"Raise an audio notification when a word is highlighted (including your nick) "
+"or when you receive a private message."
+msgstr "当一个词(包括你的 nick )高亮显示时或者当你收到一条私人信息时声音提示。"
+
+#: C/xchat-gnome.xml:709(guilabel)
+msgid "Notification"
+msgstr "通知"
+
+#: C/xchat-gnome.xml:711(para)
+msgid ""
+"Add an icon in the notification area informing you of events in xchat-gnome."
+msgstr "在通知区域显示一个图标来通知您 xchat-gnome 的事件。"
+
+#: C/xchat-gnome.xml:713(para)
+msgid ""
+"This allows one to minimize to notification area if <guilabel>Always display "
+"notification icon</guilabel> is selected from <guilabel>Notification</"
+"guilabel> preferences."
+msgstr ""
+"如果 <guilabel>通知</guilabel> 设置里的 <guilabel>总是显示通知区域图标</"
+"guilabel> 被选中，就可以最小化到通知区域。"
+
+#: C/xchat-gnome.xml:718(guilabel)
+msgid "On-screen display"
+msgstr "屏幕菜单"
+
+#: C/xchat-gnome.xml:720(para)
+msgid ""
+"Display a notification box when a word is highlighted (including your nick) "
+"or when you receive a private message."
+msgstr ""
+"在一个词（包括你的昵称）被高亮显示时或者收到私人消息时显示一个通知窗口。"
+
+#: C/xchat-gnome.xml:724(guilabel)
+msgid "URL scrapper"
+msgstr "URL提取器"
+
+#: C/xchat-gnome.xml:726(para)
+msgid "Display all the urls from your conversation in a ugly box."
+msgstr "在一个窗口中显示聊天中所有的URL。"
+
+#: C/xchat-gnome.xml:733(title)
+msgid "Network Properties"
+msgstr "网络设置"
+
+#: C/xchat-gnome.xml:734(para)
+msgid ""
+"The <guilabel>Network Properties</guilabel> dialog for <application>XChat-"
+"GNOME</application>, allows you to set the properties for an Internet Relay "
+"Chat (IRC) server, and contains the following tabs:"
+msgstr ""
+"<application>XChat-GNOME</application> 的 <guilabel>网络设置</guilabel> 对话"
+"框允许你设置IRC服务器，它包含下列标签："
+
+#: C/xchat-gnome.xml:743(title)
+msgid "Network Settings"
+msgstr "网络设置"
+
+#: C/xchat-gnome.xml:748(para)
+msgid ""
+"Enter the <guilabel>Name</guilabel> for the Internet Relay Chat (IRC) server."
+msgstr "键入 <guilabel>名称</guilabel> 设置服务器名称。"
+
+#: C/xchat-gnome.xml:749(para)
+msgid ""
+"Select the <guilabel>Automatically connect to network</guilabel> option to "
+"connect to a network when starting <application>XChat-GNOME</application>."
+msgstr ""
+"选择 <guilabel>自动连接到网络</guilabel> 选项可以在 <application>XChat-"
+"GNOME</application> 启动时自动连接到一个网络。"
+
+#: C/xchat-gnome.xml:751(para)
+msgid ""
+"Select the <guilabel>Use secure connection (SSL)</guilabel> option to "
+"connect with Secure Socket Layer (SSL)."
+msgstr ""
+"选择 <guilabel>使用安全套接字连接 (SSL)</guilabel> 选项来使用安全套接字层打开"
+"连接。"
+
+#: C/xchat-gnome.xml:753(para)
+msgid ""
+"Select the <guilabel>Cycle until connected</guilabel> option to continue "
+"attempts to connect to network, until successful."
+msgstr ""
+"选择 <guilabel>不断重连直至连通</guilabel> 选项来不断尝试重连直至连通。"
+
+#: C/xchat-gnome.xml:755(para)
+msgid ""
+"Use the <guilabel>Character encoding</guilabel> drop-down box to specify "
+"which character encoding <application>XChat-GNOME</application> should use."
+msgstr ""
+"使用 <guilabel>字符编码</guilabel> 下拉列表框来选择<application>XChat-GNOME</"
+"application> 使用的字符编码。"
+
+#: C/xchat-gnome.xml:757(para)
+msgid ""
+"Enter the <guilabel>Server Password</guilabel>, if the Internet Relay Chat "
+"(IRC) server requires it."
+msgstr "如果 IRC 服务器要求的话，键入 <guilabel>S服务器密码</guilabel>。"
+
+#: C/xchat-gnome.xml:764(title)
+msgid "Users and Channels"
+msgstr "用户和频道"
+
+#: C/xchat-gnome.xml:767(guilabel)
+msgid "Users Info"
+msgstr "用户信息"
+
+#: C/xchat-gnome.xml:769(para)
+msgid ""
+"Select the <guilabel>Use global user settings</guilabel> option to use the "
+"global settings used in the <guilabel>General</guilabel> section of <xref "
+"linkend=\"xchat-gnome-prefs-general\"/>."
+msgstr ""
+"选择 <guilabel>使用全局用户设定</guilabel> 选项来使用<guilabel>常规</"
+"guilabel> 中的设定 <xref linkend=\"xchat-gnome-prefs-general\"/>。"
+
+#: C/xchat-gnome.xml:772(para)
+msgid ""
+"Select the <guilabel>Use the user settings</guilabel> option to set the "
+"<guilabel>Nick name</guilabel> and <guilabel>Real Name</guilabel> specific "
+"to this Internet Relay Chat (IRC) server."
+msgstr ""
+"选择 <guilabel>使用用户设定</guilabel>选项来为特定的服务器设置 <guilabel>昵称"
+"</guilabel> 和<guilabel>真名</guilabel>。"
+
+#: C/xchat-gnome.xml:778(guilabel)
+msgid "Automatically Join Channels"
+msgstr "自动加入频道"
+
+#: C/xchat-gnome.xml:780(para)
+msgid "Click the <guibutton>Add</guibutton> button to add a new channel."
+msgstr "单击 <guibutton>添加</guibutton> 按钮来添加一个新的频道。"
+
+#: C/xchat-gnome.xml:781(para)
+msgid ""
+"Click the <guibutton>Edit</guibutton> button to edit the selected channel."
+msgstr "单击 <guibutton>编辑</guibutton> 按钮来编辑选定的频道。"
+
+#: C/xchat-gnome.xml:782(para)
+msgid ""
+"Click the <guibutton>Remove</guibutton> button to remove the selected "
+"channel."
+msgstr "单击 <guibutton>移除</guibutton> 按钮 来移除选定的频道。"
+
+#: C/xchat-gnome.xml:783(para)
+msgid "The channel name should begin with a pound sign (#)."
+msgstr "频道名应该以一个 # 号开头。"
+
+#: C/xchat-gnome.xml:789(title) C/xchat-gnome.xml:792(term)
+msgid "Servers"
+msgstr "服务器"
+
+#: C/xchat-gnome.xml:794(para)
+msgid ""
+"Click the <guibutton>Add</guibutton> button to add a new Internet Relay Chat "
+"(IRC) server."
+msgstr "单击 <guibutton>增加</guibutton> 按钮来增加一个新的 IRC 服务器。"
+
+#: C/xchat-gnome.xml:796(para)
+msgid ""
+"Click the <guibutton>Edit</guibutton> button to edit the selected Internet "
+"Relay Chat (IRC) server."
+msgstr "单击 <guibutton>E编辑</guibutton> 按钮来编辑选定的 IRC 服务器。"
+
+#: C/xchat-gnome.xml:798(para)
+msgid ""
+"Click the <guibutton>Remove</guibutton> button to remove the selected "
+"Internet Relay Chat (IRC) server."
+msgstr "单击 <guibutton>移除</guibutton> 按钮 来移除选定的服务器。"
+
+#: C/xchat-gnome.xml:800(para)
+msgid "To specify custom port use (/) as seperator, as \"host/port\""
+msgstr "指定自定义端口使用(/)作为分隔符，比如 \"主机/端口\""
+
+#: C/xchat-gnome.xml:814(title)
+msgid "About <application>XChat-GNOME</application>"
+msgstr "关于 <application>XChat-GNOME</application>"
+
+#: C/xchat-gnome.xml:815(para)
+msgid ""
+"To find more information about <application>XChat-GNOME</application>, "
+"please visit the <ulink url=\"http://live.gnome.org/Xchat-Gnome\" type=\"http"
+"\">XChat-GNOME Web page</ulink>."
+msgstr ""
+"想获得更多的关于 <application>XChat-GNOME</application> 的信息，请访问 "
+"<ulink url=\"http://live.gnome.org/Xchat-Gnome\" type=\"http\">XChat-GNOME "
+"Web page</ulink>。"
+
+#: C/xchat-gnome.xml:819(para)
+msgid ""
+"To report a bug or make a suggestion regarding this application or this "
+"manual, see the Feedback section of the <ulink url=\"ghelp:user-guide?"
+"feedback-bugs\" type=\"help\">GNOME User Guide</ulink>."
+msgstr ""
+"报告关于 <application>XChat-GNOME</application> 和本手册的 bug 或者提建议请参"
+"考<ulink url=\"ghelp:user-guide?feedback-bugs\" type=\"help\">GNOME 用户指南"
+"</ulink>中的“反馈 ”章节。"
+
+#: C/xchat-gnome.xml:825(para)
+msgid ""
+"This program is distributed under the terms of the GNU General Public "
+"license as published by the Free Software Foundation; either version 2 of "
+"the License, or (at your option) any later version. A copy of this license "
+"can be found at this <ulink url=\"ghelp:gpl\" type=\"help\">link</ulink>, or "
+"in the file COPYING included with the source code of this program."
+msgstr ""
+"本程序在由自由软件基金会发布的1.1或者后续版本的《自由文档许可》下发布。你可以"
+"在这个 <ulink type=\"help\" url=\"ghelp:fdl\">链接</ulink> ，或者在与本手册一"
+"起发布的 COPYING 文件中找到一份 GFDL 的拷贝。"
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2
+#: C/xchat-gnome.xml:0(None)
+msgid "translator-credits"
+msgstr "翻译人员-致谢"

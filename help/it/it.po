@@ -1,0 +1,1264 @@
+# Italian translatio of xchat-gnome manual
+# Milo Casagrande <milo@ubuntu.com>, 2007-2008, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xchat-gnome manual\n"
+"POT-Creation-Date: 2007-06-03 03:33+0100\n"
+"PO-Revision-Date: 2013-09-10 21:10+0200\n"
+"Last-Translator: Milo Casagrande <milo@ubuntu.com>\n"
+"Language-Team: Italian <tp@lists.linux.it>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+#. When image changes, this message will be marked fuzzy or untranslated for you.
+#. It doesn't matter what you translate it to: it's not used at all.
+#: C/xchat-gnome.xml:228(None)
+msgid ""
+"@@image: 'figures/xchat-gnome_main_window.png'; "
+"md5=90f93cb74dc838acb02ed7436e0b633f"
+msgstr "fatto!"
+
+#: C/xchat-gnome.xml:28(title)
+msgid "<application>XChat-GNOME</application> Manual"
+msgstr "Manuale di <application>XChat-GNOME</application>"
+
+#: C/xchat-gnome.xml:31(year)
+msgid "2005-2006"
+msgstr "2005-2006"
+
+#: C/xchat-gnome.xml:32(holder) C/xchat-gnome.xml:50(publishername)
+msgid "Brian Pepple"
+msgstr "Brian Pepple"
+
+#: C/xchat-gnome.xml:35(year)
+msgid "2006"
+msgstr "2006"
+
+#: C/xchat-gnome.xml:36(holder)
+msgid "Joachim Noreiko"
+msgstr "Joachim Noreiko"
+
+#: C/xchat-gnome.xml:2(para)
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
+"of the GFDL at this <ulink type=\"help\" url=\"ghelp:fdl\">link</ulink> or "
+"in the file COPYING-DOCS distributed with this manual."
+msgstr ""
+"Questo documento può essere copiato, distribuito e/o modificato in base ai "
+"termini della GNU Free Documentation License (GFDL), versione 1.1 o di "
+"versioni successive pubblicate dalla Free Software Foundation che siano "
+"prive di sezioni invariabili, frontespizi e retrocopertine. La GFDL è "
+"disponibile accedendo a questo <ulink url=\"ghelp:fdl\" type=\"help"
+"\">collegamento</ulink> o nel file COPYING-DOCS distribuito con questo "
+"manuale."
+
+#: C/xchat-gnome.xml:11(para)
+msgid ""
+"This manual is part of a collection of GNOME manuals distributed under the "
+"GFDL. If you want to distribute this manual separately from the collection, "
+"you can do so by adding a copy of the license to the manual, as described in "
+"section 6 of the license."
+msgstr ""
+"Questo manuale fa parte di una raccolta di documenti su GNOME distribuita "
+"secondo i termini della GFDL. Per distribuire questo manuale separatamente, "
+"è necessario aggiungere al documento una copia della licenza, come descritto "
+"nella sezione 6 di quest'ultima."
+
+#: C/xchat-gnome.xml:18(para)
+msgid ""
+"Many of the names used by companies to distinguish their products and "
+"services are claimed as trademarks. Where those names appear in any GNOME "
+"documentation, and the members of the GNOME Documentation Project are made "
+"aware of those trademarks, then the names are in capital letters or initial "
+"capital letters."
+msgstr ""
+"Molti dei nomi utilizzati dalle aziende per distinguere i propri prodotti e "
+"servizi sono rivendicati come marchi. Ove tali nomi sono citati nella "
+"documentazione di GNOME e i membri del GNOME Documentation Project sono a "
+"conoscenza della loro natura di marchi, tali nomi vengono riportati a "
+"lettere maiuscole o con iniziale maiuscola."
+
+#: C/xchat-gnome.xml:34(para)
+msgid ""
+"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
+"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
+"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+msgstr ""
+"IL DOCUMENTO VIENE DISTRIBUITO SENZA ALCUNA GARANZIA ESPLICITA O IMPLICITA "
+"DI ALCUN TIPO, INCLUSE, SENZA LIMITAZIONE, LA GARANZIA DI ASSENZA DI DIFETTI "
+"DEL DOCUMENTO O DELLE SUE VERSIONI MODIFICATE O LA GARANZIA CHE IL DOCUMENTO "
+"SIA COMMERCIABILE, SIA ADATTO A UN DETERMINATO SCOPO O NON VIOLI DIRITTI DI "
+"TERZI. TUTTI I RISCHI RIGUARDO ALLA QUALITÀ, L'ACCURATEZZA E LE "
+"PRESTAZIONI DEL DOCUMENTO O DELLE SUE VERSIONI MODIFICATE SONO A CARICO "
+"DELL'UTENTE. QUALORA UN DOCUMENTO O UNA SUA VERSIONE MODIFICATA SI RIVELINO "
+"DIFETTOSI, I COSTI DEGLI EVENTUALI INTERVENTI DI ASSISTENZA, RIPARAZIONE O "
+"CORREZIONE SARANNO A CARICO DELL'UTENTE (NON DEL REDATTORE INIZIALE, "
+"DELL'AUTORE O DI ALTRI COLLABORATORI). LA PRESENTE ESCLUSIONE DI GARANZIA "
+"COSTITUISCE PARTE ESSENZIALE DELLA LICENZA. SONO AUTORIZZATI SOLO GLI USI "
+"DEL DOCUMENTO O DELLE SUE VERSIONI MODIFICATE PREVISTI DALLA PRESENTE "
+"ESCLUSIONE DI GARANZIA; "
+
+#: C/xchat-gnome.xml:54(para)
+msgid ""
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+"POSSIBILITY OF SUCH DAMAGES."
+msgstr ""
+"INOLTRE IN NESSUNA CIRCOSTANZA E IN NESSUNA INTERPRETAZIONE GIURIDICA, "
+"INCLUSI I CASI DI ILLECITO (ANCHE PER NEGLIGENZA), VIOLAZIONE CONTRATTUALE O "
+"ALTRO, L'AUTORE, IL REDATTORE INIZIALE, ALTRI COLLABORATORI, QUALUNQUE "
+"DISTRIBUTORE DEL DOCUMENTO O DI UNA SUA VERSIONE MODIFICATA O QUALUNQUE "
+"FORNITORE DELLE PARTI CITATE POTRÀ ESSERE RITENUTO RESPONSABILE NEI "
+"CONFRONTI DI QUALUNQUE PERSONA PER DANNI DIRETTI, INDIRETTI, SPECIALI, "
+"INCIDENTALI O CONSEQUENZIALI DI QUALUNQUE NATURA, INCLUSI, SENZA "
+"LIMITAZIONE, I DANNI DOVUTI A PERDITA DI AVVIAMENTO, INTERRUZIONE DEL "
+"LAVORO, GUASTO O MALFUNZIONAMENTO DEL COMPUTER O QUALUNQUE ALTRO DANNO O "
+"PERDITA DERIVANTE DA O CORRELATO ALL'USO DEL DOCUMENTO O DI UNA SUA VERSIONE "
+"MODIFICATA, ANCHE NEL CASO IN CUI TALI PARTI FOSSERO STATE INFORMATE DELLA "
+"POSSIBILITÀ DI TALI DANNI."
+
+#: C/xchat-gnome.xml:27(para)
+msgid ""
+"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
+"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
+"<placeholder-1/>"
+msgstr ""
+"QUESTO DOCUMENTO E LE SUE VERSIONI MODIFICATE SONO DISTRIBUITI SECONDO I "
+"TERMINI DELLA GNU FREE DOCUMENTATION LICENSE, CON L'ULTERIORE INTESA CHE: "
+"<placeholder-1/>"
+
+#: C/xchat-gnome.xml:60(firstname)
+msgid "Brian"
+msgstr "Brian"
+
+#: C/xchat-gnome.xml:61(surname)
+msgid "Pepple"
+msgstr "Pepple"
+
+#: C/xchat-gnome.xml:63(orgname)
+msgid "Fedora Project"
+msgstr "Progetto Fedora"
+
+#: C/xchat-gnome.xml:64(email)
+msgid "bpepple@fedoraproject.org"
+msgstr "bpepple@fedoraproject.org"
+
+#: C/xchat-gnome.xml:68(firstname)
+msgid "Joachim"
+msgstr "Joachim"
+
+#: C/xchat-gnome.xml:69(surname)
+msgid "Noreiko"
+msgstr "Noreiko"
+
+#: C/xchat-gnome.xml:71(orgname) C/xchat-gnome.xml:113(para)
+#: C/xchat-gnome.xml:123(para)
+msgid "GNOME Documentation Project"
+msgstr "Progetto documentazione GNOME"
+
+#: C/xchat-gnome.xml:72(email)
+msgid "jnoreiko@yahoo.com"
+msgstr "jnoreiko@yahoo.com"
+
+#: C/xchat-gnome.xml:107(revnumber)
+msgid "XChat-GNOME Manual 2.1"
+msgstr "Manuale di XChat-GNOME 2.1"
+
+#: C/xchat-gnome.xml:108(date)
+msgid "December 2006"
+msgstr "Dicembre 2006"
+
+#: C/xchat-gnome.xml:110(para)
+msgid "Joachim Noreiko <email>jnoreiko@yahoo.com</email>"
+msgstr "Joachim Noreiko <email>jnoreiko@yahoo.com</email>"
+
+#: C/xchat-gnome.xml:117(revnumber)
+msgid "XChat-GNOME Manual V2.0"
+msgstr "Manuale di XChat-GNOME V2.0"
+
+#: C/xchat-gnome.xml:118(date)
+msgid "November 2005"
+msgstr "Novembre 2005"
+
+#: C/xchat-gnome.xml:120(para)
+msgid "Brian Pepple <email>bpepple@fedoraproject.org</email>"
+msgstr "Brian Pepple <email>bpepple@fedoraproject.org</email>"
+
+#: C/xchat-gnome.xml:128(releaseinfo)
+msgid "This manual describes version 0.16 of XChat-GNOME."
+msgstr "Questo manuale descrive la versione 0.16 di XChat-GNOME."
+
+#: C/xchat-gnome.xml:130(title)
+msgid "Feedback"
+msgstr "Commenti"
+
+#: C/xchat-gnome.xml:131(para)
+msgid ""
+"To report a bug or make a suggestion regarding the <application>XChat-GNOME</"
+"application> application or this manual, follow the directions in the "
+"Feedback section of the <ulink url=\"ghelp:user-guide?feedback-bugs\" type="
+"\"help\">GNOME User Guide</ulink>."
+msgstr ""
+"Per segnalare un problema o inviare suggerimenti sull'applicazione "
+"<application>XChat-GNOME</application> o su questo manuale, seguire le "
+"istruzioni presenti nella <ulink url=\"ghelp:user-guide?feedback-bugs\" type="
+"\"help\">guida all'utente di GNOME</ulink>."
+
+#: C/xchat-gnome.xml:139(para)
+msgid "A user manual which describes the use of the XChat-GNOME IRC client."
+msgstr "Un manuale che descrive l'utilizzo del client IRC XChat-GNOME."
+
+#: C/xchat-gnome.xml:144(primary) C/xchat-gnome.xml:231(application)
+msgid "XChat-GNOME"
+msgstr "XChat-GNOME"
+
+#: C/xchat-gnome.xml:147(primary)
+msgid "xchat-gnome"
+msgstr "xchat-gnome"
+
+#: C/xchat-gnome.xml:155(title)
+msgid "Introduction"
+msgstr "Introduzione"
+
+#: C/xchat-gnome.xml:156(para)
+msgid ""
+"The <application>XChat-GNOME</application> application is an Internet Relay "
+"Chat (IRC) program for the GNOME desktop."
+msgstr ""
+"L'applicazione <application>XChat-GNOME</application> è un programma per IRC "
+"(Internet Relay Chat) per lo GNOME desktop."
+
+#: C/xchat-gnome.xml:159(para)
+msgid "<application>XChat-GNOME</application> provides the following features:"
+msgstr ""
+"<application>XChat-GNOME</application> fornisce le seguenti caratteristiche:"
+
+#: C/xchat-gnome.xml:162(para)
+msgid "Notification Area Icon Plugin"
+msgstr "Un plug-in per l'area di notifica"
+
+#: C/xchat-gnome.xml:165(para)
+msgid "Direct Client-To-Client (DCC) Transfers"
+msgstr "Trasferimenti DCC (Direct Client-to-Client)"
+
+#: C/xchat-gnome.xml:168(para)
+msgid "Direct Client-To-Client (DCC) Chats"
+msgstr "Chat DCC (Direct Client-to-Client)"
+
+#: C/xchat-gnome.xml:171(para)
+msgid "Adherence to GNOME Human Interface Guidelines (HIG)"
+msgstr "Rispetto delle «GNOME Human Interface Guidelines» (HIG)"
+
+#: C/xchat-gnome.xml:186(title)
+msgid "Getting Started"
+msgstr "Per iniziare"
+
+#: C/xchat-gnome.xml:188(title)
+msgid "Starting <application>XChat-GNOME</application>"
+msgstr "Avviare <application>XChat-GNOME</application>"
+
+#: C/xchat-gnome.xml:189(para)
+msgid ""
+"You can start <application>XChat-GNOME</application> in the following ways:"
+msgstr ""
+"È possibile avviare <application>XChat-GNOME</application> nei seguenti modi:"
+
+#: C/xchat-gnome.xml:193(term)
+msgid "<guimenu>Applications</guimenu> menu"
+msgstr "Menù <guimenu>Applicazioni</guimenu>"
+
+#: C/xchat-gnome.xml:195(para)
+msgid ""
+"Choose <menuchoice><guisubmenu>Internet</guisubmenu><guimenuitem>XChat-GNOME "
+"IRC Chat</guimenuitem></menuchoice>."
+msgstr ""
+"Scegliere <menuchoice><guisubmenu>Internet</guisubmenu><guimenuitem>XChat-"
+"GNOME - Chiacchierare in IRC</guimenuitem></menuchoice>."
+
+#: C/xchat-gnome.xml:204(term)
+msgid "Command line"
+msgstr "Riga di comando"
+
+#: C/xchat-gnome.xml:206(para)
+msgid ""
+"To start <application>XChat-GNOME</application> from a command line, type "
+"<command>xchat-gnome</command>, then press <keycap>Return</keycap>:"
+msgstr ""
+"Per avviare <application>XChat-GNOME</application> dalla riga di comando, "
+"digitare <command>xchat-gnome</command> e premere <keycap>Invio</keycap>."
+
+#: C/xchat-gnome.xml:210(para)
+msgid ""
+"To view other command line options that are available, type <command>xchat-"
+"gnome --help</command>, then press <keycap>Return</keycap>"
+msgstr ""
+"Per visualizzare altre opzioni disponibili alla riga di comando, digitare "
+"<command>xchat-gnome --help</command> e premere <keycap>Invio</keycap>."
+
+#: C/xchat-gnome.xml:220(title)
+msgid "When You Start <application>XChat-GNOME</application>"
+msgstr "Quando si avvia <application>XChat-GNOME</application>"
+
+#: C/xchat-gnome.xml:221(para)
+msgid ""
+"When you start <application>XChat-GNOME</application>, the following window "
+"is displayed."
+msgstr ""
+"Quando sia avvia <application>XChat-GNOME</application>, viene mostrata la "
+"seguente finestra."
+
+#: C/xchat-gnome.xml:225(title)
+msgid "<application>XChat-GNOME</application> Main Window"
+msgstr "Finestra principale di <application>XChat-GNOME</application>"
+
+#: C/xchat-gnome.xml:231(phrase)
+msgid ""
+"Shows <placeholder-1/> main window. Contains titlebar, menubar, display "
+"area, and scrollbars. Menubar contains IRC, Edit, Network, Discussion, Go, "
+"and Help menus."
+msgstr ""
+"Mostra la finestra principale <placeholder-1/>. Contiene la barra del "
+"titolo, la barra dei menù, l'area di visualizzazione e le barre di "
+"scorrimento. La barra dei menù contiene i menù IRC, Modifica, Rete, "
+"Discussione, Vai e Aiuto."
+
+#. for example, the items on the menubar and on the toolbar. This section is optional.
+#: C/xchat-gnome.xml:244(para)
+msgid ""
+"The <application>XChat-GNOME</application> window contains the following "
+"elements:"
+msgstr ""
+"La finestra di <application>XChat-GNOME</application> contiene i seguenti "
+"elementi:"
+
+#: C/xchat-gnome.xml:248(term)
+msgid "Menubar"
+msgstr "Barra dei menù"
+
+#: C/xchat-gnome.xml:250(para)
+msgid ""
+"The menus on the menubar contain all of the commands you need to use in "
+"<application>XChat-GNOME</application>."
+msgstr ""
+"I menù nella barra dei menù contengono tutti i comandi necessari da usare "
+"con <application>XChat-GNOME</application>."
+
+#: C/xchat-gnome.xml:255(term)
+msgid "Server Pane"
+msgstr "Riquadro dei server"
+
+#: C/xchat-gnome.xml:257(para)
+msgid "The Server Pane shows the Servers and Channels currently connected."
+msgstr ""
+"Il riquadro dei server mostra i server e i canali a cui si è attualmente "
+"collegati."
+
+#: C/xchat-gnome.xml:261(term)
+msgid "User Button"
+msgstr "Pulsante «Utenti»"
+
+#: C/xchat-gnome.xml:263(para)
+msgid ""
+"The User Button shows the number of users present in the selected Channel. "
+"Click the User Button to show a list of users."
+msgstr ""
+"Il pulsante «Utenti» mostra il numero degli utenti presenti nel canale "
+"selezionato. Fare clic sul pulsante «Utenti» per visualizzare un elenco "
+"degli utenti."
+
+#: C/xchat-gnome.xml:267(term)
+msgid "Discussion Area"
+msgstr "Area di discussione"
+
+#: C/xchat-gnome.xml:269(para)
+msgid ""
+"The Discussion Area presents the discussion occurring in the selected "
+"Channel."
+msgstr ""
+"L'area di discussione mostra la discussione in corso nel canale selezionato."
+
+#: C/xchat-gnome.xml:271(para)
+msgid ""
+"Type into the message input line at the bottom of the discussion area to "
+"chat in the selected Channel."
+msgstr ""
+"Digitare nella casella di immissione sotto l'area di discussione per poter "
+"chiacchierare nel canale selezionato."
+
+#: C/xchat-gnome.xml:281(title)
+msgid "Usage"
+msgstr "Utilizzo"
+
+#: C/xchat-gnome.xml:285(title)
+msgid "Connecting to an Internet Relay Chat (IRC) Server"
+msgstr "Connettersi a un server IRC (Internet Relay Chat)"
+
+#: C/xchat-gnome.xml:286(para)
+msgid ""
+"To connect to an Internet Relay Chat (IRC) Server, choose "
+"<menuchoice><guimenu>IRC</guimenu><guimenuitem>Connect</guimenuitem></"
+"menuchoice>. The <guilabel>Connect</guilabel> dialog is displayed. Select "
+"the Server that you wish to connect to, then click <guibutton>Connect</"
+"guibutton>."
+msgstr ""
+"Per connettersi a un server IRC (Internet Relay Chat), scegliere "
+"<menuchoice><guimenu>IRC</guimenu><guimenuitem>Connetti...</guimenuitem></"
+"menuchoice>. Viene mostrata la finestra di dialogo <guilabel>Connetti</"
+"guilabel>. Selezionare il server a cui collegarsi e fare clic su "
+"<guibutton>Connetti</guibutton>."
+
+# (NdT) la spiegazione di DCC è indicata anche sotto...
+#: C/xchat-gnome.xml:298(title)
+msgid "Viewing Direct Client-To-Client (DCC) File Transfers Information"
+msgstr "Visualizzare informazioni sui trasferimenti di file DCC"
+
+#: C/xchat-gnome.xml:299(para)
+msgid ""
+"To view Direct Client-To-Client (DCC) file transfer information, choose "
+"<menuchoice><guimenu>IRC</guimenu><guimenuitem>File Transfers</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"Per visualizzare informazioni sui trasferimenti di file DCC (Direct Client-"
+"to-Client), scegliere <menuchoice><guimenu>IRC</"
+"guimenu><guimenuitem>Trasferimenti file</guimenuitem></menuchoice>."
+
+#: C/xchat-gnome.xml:308(title)
+msgid "Editing Text"
+msgstr "Modificare il testo"
+
+#: C/xchat-gnome.xml:309(para)
+msgid "You can edit text in the following ways:"
+msgstr "È possibile modificare il testo nei seguenti modi:"
+
+#: C/xchat-gnome.xml:312(para)
+msgid ""
+"To delete the selected text from the file and move the selected text to a "
+"buffer, choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Cut</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"Per cancellare il testo selezionato dal file e spostarlo in un buffer, "
+"scegliere <menuchoice><guimenu>Modifica</guimenu><guimenuitem>Taglia</"
+"guimenuitem></menuchoice>."
+
+#: C/xchat-gnome.xml:317(para)
+msgid ""
+"To copy the selected text to a buffer, choose <menuchoice><guimenu>Edit</"
+"guimenu><guimenuitem>Copy</guimenuitem></menuchoice>."
+msgstr ""
+"Per copiare il testo selezionato in un buffer, scegliere "
+"<menuchoice><guimenu>Modifica</guimenu><guimenuitem>Copia</guimenuitem></"
+"menuchoice>."
+
+#: C/xchat-gnome.xml:322(para)
+msgid ""
+"To insert the contents of the buffer at the cursor position, choose "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Paste</guimenuitem></"
+"menuchoice>. You must cut or copy text before you can paste text into the "
+"file."
+msgstr ""
+"Per inserire il contenuto del buffer alla posizione del cursore, scegliere "
+"<menuchoice><guimenu>Modifica</guimenu><guimenuitem>Incolla</guimenuitem></"
+"menuchoice>. È necessario tagliare o copiare  del testo prima di poterlo "
+"incollare nel file."
+
+#: C/xchat-gnome.xml:328(para)
+msgid ""
+"To clear all text from the Discussion Area for the currently selected "
+"Channel, choose <menuchoice><guimenu>Edit</guimenu><guimenuitem>Clear</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"Per pulire tutto il testo dall'area di discussione per il canale "
+"selezionato, scegliere <menuchoice><guimenu>Modifica</"
+"guimenu><guimenuitem>Pulisci</guimenuitem></menuchoice>."
+
+#: C/xchat-gnome.xml:337(title)
+msgid "Reconnecting to a Server"
+msgstr "Riconnettersi a un server"
+
+#: C/xchat-gnome.xml:338(para)
+msgid ""
+"To reconnect <application>XChat-GNOME</application> to an Internet Relay "
+"Chat (IRC) server, choose <menuchoice><guimenu>Network</"
+"guimenu><guimenuitem>Reconnect</guimenuitem></menuchoice>."
+msgstr ""
+"Per riconnettere <application>XChat-GNOME</application> a un server IRC, "
+"scegliere <menuchoice><guimenu>Rete</guimenu><guimenuitem>Connetti di nuovo</"
+"guimenuitem></menuchoice>."
+
+#: C/xchat-gnome.xml:348(title)
+msgid "Disconnecting from a Server"
+msgstr "Disconnettersi da un server"
+
+#: C/xchat-gnome.xml:349(para)
+msgid ""
+"To disconnect <application>XChat-GNOME</application> from an Internet Relay "
+"Chat (IRC) server, choose <menuchoice><guimenu>Network</"
+"guimenu><guimenuitem>Disconnect</guimenuitem></menuchoice>."
+msgstr ""
+"Per disconnettere <application>XChat-GNOME</application> da un server IRC, "
+"scegliere <menuchoice><guimenu>Rete</guimenu><guimenuitem>Disconnect</"
+"guimenuitem></menuchoice>."
+
+#: C/xchat-gnome.xml:359(title)
+msgid "Saving a Channel Transcript"
+msgstr "Salvare la discussione di un canale"
+
+#: C/xchat-gnome.xml:360(para)
+msgid ""
+"To save a transcript of a Channel, choose "
+"<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>S</keycap></"
+"keycombo></shortcut><guimenu>Discussion</guimenu><guimenuitem>Save "
+"Transcript</guimenuitem></menuchoice>."
+msgstr ""
+"Per salvare la discussione di una canale, scegliere "
+"<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>S</keycap></"
+"keycombo></shortcut><guimenu>Discussione</guimenu><guimenuitem>Registra la "
+"conversazione</guimenuitem></menuchoice>."
+
+#: C/xchat-gnome.xml:375(title)
+msgid "Leaving a Channel"
+msgstr "Uscire da un canale"
+
+#: C/xchat-gnome.xml:376(para)
+msgid ""
+"When you leave a channel, you are removed from the participants and can no "
+"longer chat in it, but the discussion up to that point remains in the Server "
+"Pane."
+msgstr ""
+"Quando si esce da un canale, si viene rimossi dall'elenco dei partecipanti e "
+"non si può più \"parlare\", ma la discussione fino a quel punto rimane nel "
+"riquadro dei server."
+
+#: C/xchat-gnome.xml:377(para)
+msgid ""
+"To leave a Channel, choose <menuchoice><shortcut><keycombo><keycap>Ctrl</"
+"keycap><keycap>Q</keycap></keycombo></shortcut><guimenu>Discussion</"
+"guimenu><guimenuitem>Leave</guimenuitem></menuchoice>."
+msgstr ""
+"Per uscire da un canale, scegliere "
+"<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>Q</keycap></"
+"keycombo></shortcut><guimenu>Discussione</guimenu><guimenuitem>Esci</"
+"guimenuitem></menuchoice>."
+
+#: C/xchat-gnome.xml:392(title)
+msgid "Closing a Channel"
+msgstr "Chiudere un canale"
+
+#: C/xchat-gnome.xml:393(para)
+msgid ""
+"When you close a channel, the channel is removed from the list in the Server "
+"Pane."
+msgstr ""
+"Quando si chiude un canale, il canale viene rimosso dall'elenco nel riquadro "
+"dei server."
+
+#: C/xchat-gnome.xml:394(para)
+msgid ""
+"To close a Channel, choose <menuchoice><shortcut><keycombo><keycap>Ctrl</"
+"keycap><keycap>W</keycap></keycombo></shortcut><guimenu>Discussion</"
+"guimenu><guimenuitem>Close</guimenuitem></menuchoice>."
+msgstr ""
+"Per chiudere un canale, scegliere "
+"<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>W</keycap></"
+"keycombo></shortcut><guimenu>Discussione</guimenu><guimenuitem>Chiudi</"
+"guimenuitem></menuchoice>."
+
+#: C/xchat-gnome.xml:409(title)
+msgid "Navigating through Channels"
+msgstr "Spostarsi tra i canali"
+
+#: C/xchat-gnome.xml:412(para)
+msgid ""
+"To view previous channel, choose "
+"<menuchoice><shortcut><keycombo><keycap>Alt</keycap><keycap>Up</keycap></"
+"keycombo></shortcut><guimenu>Go</guimenu><guimenuitem>Previous Discussion</"
+"guimenuitem></menuchoice>"
+msgstr ""
+"Per visualizzare il canale precedente, scegliere "
+"<menuchoice><shortcut><keycombo><keycap>Alt</keycap><keycap>Freccia su</"
+"keycap></keycombo></shortcut><guimenu>Vai</guimenu><guimenuitem>Discussione "
+"precedente</guimenuitem></menuchoice>"
+
+#: C/xchat-gnome.xml:426(para)
+msgid ""
+"To view next channel, choose <menuchoice><shortcut><keycombo><keycap>Alt</"
+"keycap><keycap>Down</keycap></keycombo></shortcut><guimenu>Go</"
+"guimenu><guimenuitem>Next Discussion</guimenuitem></menuchoice>"
+msgstr ""
+"Per visualizzare il canale successivo, scegliere "
+"<menuchoice><shortcut><keycombo><keycap>Alt</keycap><keycap>Freccia giù</"
+"keycap></keycombo></shortcut><guimenu>Vai</guimenu><guimenuitem>Discussione "
+"successiva</guimenuitem></menuchoice>"
+
+#: C/xchat-gnome.xml:443(title)
+msgid "Navigating Through Servers"
+msgstr "Spostarsi tra i server"
+
+#: C/xchat-gnome.xml:446(para)
+msgid ""
+"To view previous server, choose "
+"<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>Up</keycap></"
+"keycombo></shortcut><guimenu>Go</guimenu><guimenuitem>Previous Network</"
+"guimenuitem></menuchoice>"
+msgstr ""
+"Per visualizzare il server precedente, scegliere "
+"<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>Freccia su</"
+"keycap></keycombo></shortcut><guimenu>Vai</guimenu><guimenuitem>Rete "
+"precedente</guimenuitem></menuchoice>"
+
+#: C/xchat-gnome.xml:460(para)
+msgid ""
+"To view next server, choose <menuchoice><shortcut><keycombo><keycap>Ctrl</"
+"keycap><keycap>Down</keycap></keycombo></shortcut><guimenu>Go</"
+"guimenu><guimenuitem>Next Network</guimenuitem></menuchoice>"
+msgstr ""
+"Per visualizzare il server successivo, scegliere "
+"<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>Freccia giù</"
+"keycap></keycombo></shortcut><guimenu>Go</guimenu><guimenuitem>Rete "
+"successiva</guimenuitem></menuchoice>"
+
+#: C/xchat-gnome.xml:477(title)
+msgid "Quitting XChat-GNOME"
+msgstr "Uscire da XChat-GNOME"
+
+#: C/xchat-gnome.xml:478(para)
+msgid ""
+"To quit <application>XChat-GNOME</application>, choose "
+"<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>Q</keycap></"
+"keycombo></shortcut><guimenu>IRC</guimenu><guimenuitem>Quit</guimenuitem></"
+"menuchoice>."
+msgstr ""
+"Per uscire da <application>XChat-GNOME</application>, scegliere "
+"<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>Q</keycap></"
+"keycombo></shortcut><guimenu>IRC</guimenu><guimenuitem>Esci</guimenuitem></"
+"menuchoice>."
+
+#: C/xchat-gnome.xml:495(title)
+msgid "Preferences"
+msgstr "Preferenze"
+
+#: C/xchat-gnome.xml:496(para)
+msgid ""
+"To modify the preferences of <application>XChat-GNOME</application>, choose "
+"<menuchoice><guimenu>Edit</guimenu><guimenuitem>Preferences</guimenuitem></"
+"menuchoice>. The <guilabel>Preferences</guilabel> dialog contains the "
+"following sections:"
+msgstr ""
+"Per modificare le preferenze di <application>XChat-GNOME</application>, "
+"scegliere <menuchoice><guimenu>Modifica</guimenu><guimenuitem>Preferenze</"
+"guimenuitem></menuchoice>. La finestra di dialogo <guilabel>Preferenze</"
+"guilabel> contiene le seguenti sezioni:"
+
+#: C/xchat-gnome.xml:513(title)
+msgid "IRC Preferences"
+msgstr "Preferenze IRC"
+
+#: C/xchat-gnome.xml:516(guilabel) C/xchat-gnome.xml:708(guilabel)
+msgid "General"
+msgstr "Generale"
+
+#: C/xchat-gnome.xml:518(para)
+msgid ""
+"Enter the <guilabel>Nickname</guilabel> you wish to use in the Internet "
+"Relay Chat (IRC) channel."
+msgstr ""
+"Inserire il <guilabel>Soprannome</guilabel> che si desidera usare nei canali "
+"IRC."
+
+#: C/xchat-gnome.xml:520(para)
+msgid ""
+"Enter your <guilabel>Real Name</guilabel>, which is displayed on <command>/"
+"whois</command> requests."
+msgstr ""
+"Inserire il proprio <guilabel>Vero nome</guilabel>, visualizzato durante le "
+"richieste <command>/whois</command>."
+
+#: C/xchat-gnome.xml:522(para)
+msgid ""
+"Enter the <guilabel>Quit Message</guilabel> you wish to be shown to other "
+"users when you leave an Internet Relay Chat (IRC) network."
+msgstr ""
+"Inserire un <guilabel>Messaggio di disconnessione</guilabel> da mostrare "
+"agli altri quando si esce dal server."
+
+#: C/xchat-gnome.xml:523(para)
+msgid ""
+"Enter the <guilabel>Part Message</guilabel> you wish to be shown to other "
+"users when you leave an Internet Relay Chat (IRC) channel but remain "
+"connected to that channel's network."
+msgstr ""
+"Inserire il <guilabel>Messaggio di uscita</guilabel> da mostrare agli altri "
+"utenti quando si esce da un canale IRC ma si rimane collegati al server."
+
+#: C/xchat-gnome.xml:524(para)
+msgid ""
+"Enter the <guilabel>Away Message</guilabel> you wish to be shown to people "
+"who try to contact you when you are away."
+msgstr ""
+"Inserire il <guilabel>Messaggio di assenza</guilabel> da mostrare alle "
+"persone che cercano di mettersi in contatto."
+
+#: C/xchat-gnome.xml:528(guilabel)
+msgid "Highlighting"
+msgstr "Evidenziazione"
+
+#: C/xchat-gnome.xml:530(para)
+msgid ""
+"Specify words or phrases that should be highlighted in a different text "
+"colour when another chat user says them. This is in addition to your "
+"nickname, which is always highlighted."
+msgstr ""
+"Specificare parole o frasi che dovrebbero essere evidenziate in un colore "
+"diverso quando un altro utente le digita. Queste sono in aggiunta al proprio "
+"soprannome, che viene evidenziato in ogni caso."
+
+#: C/xchat-gnome.xml:534(guilabel)
+msgid "Use Interface"
+msgstr "Interfaccia utente"
+
+#: C/xchat-gnome.xml:536(para)
+msgid ""
+"Select the <guilabel>Use System Terminal Font</guilabel> option to use the "
+"same fonts as your system terminal."
+msgstr ""
+"Selezionare <guilabel>Usare il carattere del terminale di sistema</guilabel> "
+"per usare lo stesso tipo di carattere del terminale."
+
+#: C/xchat-gnome.xml:538(para)
+msgid ""
+"Select the <guilabel>Use this font</guilabel> option to open the Font "
+"Selection dialog box."
+msgstr ""
+"Selezionare <guilabel>Usare questo carattere</guilabel> per aprire la "
+"finestra di dialogo di selezione del tipo di carattere."
+
+#: C/xchat-gnome.xml:540(para)
+msgid ""
+"Select the <guilabel>Show colors</guilabel> option to enable color nicknames "
+"in discussion area."
+msgstr ""
+"Selezionare <guilabel>Mostrare colori</guilabel> per abilitare i colori per "
+"i soprannomi nell'area di discussione."
+
+#: C/xchat-gnome.xml:542(para)
+msgid ""
+"Select the <guilabel>Show timestamps</guilabel> option to show timestamps of "
+"discussion."
+msgstr ""
+"Selezionare <guilabel>Mostrare marca tempo</guilabel> per mostrare i marca "
+"tempo della discussione."
+
+#: C/xchat-gnome.xml:549(title)
+msgid "Colors"
+msgstr "Colori"
+
+#: C/xchat-gnome.xml:552(guilabel)
+msgid "Text Colors"
+msgstr "Colori del testo"
+
+#: C/xchat-gnome.xml:554(para)
+msgid ""
+"Use the <guilabel>Built-in schemes</guilabel> drop-down box to specify how "
+"<application>XChat-GNOME</application> should display the text and backgroud "
+"color. Select one of the following options:"
+msgstr ""
+"Usare l'elenco a discesa <guilabel>Schemi predefiniti</guilabel> per "
+"specificare come <application>XChat-GNOME</application> dovrebbe "
+"visualizzare i colori del testo e dello sfondo. Selezionare una delle "
+"seguenti opzioni:"
+
+#: C/xchat-gnome.xml:559(para)
+msgid ""
+"Use the <guilabel>Black on White</guilabel> option to provide black text on "
+"a white background."
+msgstr ""
+"<guilabel>Nero su bianco</guilabel> per il testo nero su sfondo bianco."
+
+#: C/xchat-gnome.xml:563(para)
+msgid ""
+"Use the <guilabel>White on Black</guilabel> option to provide white text on "
+"a black background."
+msgstr "<guilabel>Bianco su nero</guilabel> per testo bianco su sfondo nero."
+
+#: C/xchat-gnome.xml:567(para)
+msgid ""
+"Use the <guilabel>Custom</guilabel> option to create a custom color scheme."
+msgstr ""
+"<guilabel>Personalizzato</guilabel> per creare uno schema personalizzato."
+
+#: C/xchat-gnome.xml:572(para)
+msgid ""
+"The following options are only able to be changed if <guilabel>Built-in "
+"schemes</guilabel> is set to <guilabel>Custom</guilabel>."
+msgstr ""
+"Le seguenti opzioni sono modificabili solamente se <guilabel>Schemi "
+"predefiniti</guilabel> è impostato su <guilabel>Personalizzato</guilabel>."
+
+#: C/xchat-gnome.xml:576(para)
+msgid ""
+"Click on the <guilabel>Foreground color</guilabel> button to display the "
+"color selector dialog. Select a foreground color for the <application>XChat-"
+"GNOME</application> discussion area."
+msgstr ""
+"Fare clic su <guilabel>Colore di primo piano</guilabel> per visualizzare la "
+"finestra di dialogo di selezione dei colori. Selezionare un colore di primo "
+"piano per l'area di discussione di <application>XChat-GNOME</application>."
+
+#: C/xchat-gnome.xml:579(para)
+msgid ""
+"Click on the <guilabel>Background color</guilabel> button to display the "
+"color selector dialog. Select the background color for the "
+"<application>XChat-GNOME</application> discussion area."
+msgstr ""
+"Fare clic su <guilabel>Colore di sfondo</guilabel> per visualizzare la "
+"finestra di dialogo di selezione dei colori. Selezionare un colore per lo "
+"sfondo dell'area di discussione di <application>XChat-GNOME</application>."
+
+#: C/xchat-gnome.xml:582(para)
+msgid ""
+"Click on the <guilabel>Foreground mark</guilabel> button to display the "
+"color selector dialog. Select the forground mark color for the "
+"<application>XChat-GNOME</application> discussion area."
+msgstr ""
+"Fare clic su <guilabel>Primo piano</guilabel> per visualizzare la finestra "
+"di dialogo di selezione dei colori. Selezionare il colore di primo piano per "
+"l'area di discussione di <application>XChat-GNOME</application>."
+
+#: C/xchat-gnome.xml:585(para)
+msgid ""
+"Click on the <guilabel>Background mark</guilabel> button to display the "
+"color selector dialog. Select the background mark color for the "
+"<application>XChat-GNOME</application> discussion area."
+msgstr ""
+"Fare clic su <guilabel>Sfondo</guilabel> per visualizzare la finestra di "
+"dialogo di selezione dei colori. Selezionare lo sfondo per l'area di "
+"discussione di <application>XChat-GNOME</application>."
+
+#: C/xchat-gnome.xml:591(guilabel)
+msgid "mIRC Colors"
+msgstr "Colori di mIRC"
+
+#: C/xchat-gnome.xml:593(para)
+msgid ""
+"Select the buttons of the colors that you wish to change, to display the "
+"color selector dialog."
+msgstr ""
+"Selezionare i pulsanti dei colori da modificare per visualizzare la finestra "
+"di dialogo di selezione dei colori."
+
+#: C/xchat-gnome.xml:596(para) C/xchat-gnome.xml:607(para)
+msgid ""
+"The colors are only able to be changed if <guilabel>Built-in schemes</"
+"guilabel> is set to <guilabel>Custom</guilabel>."
+msgstr ""
+"I colori sono modificabili solamente se <guilabel>Schemi predefiniti</"
+"guilabel> è impostato a <guilabel>Personalizzato</guilabel>."
+
+#: C/xchat-gnome.xml:602(guilabel)
+msgid "Extra Colors"
+msgstr "Colori extra"
+
+#: C/xchat-gnome.xml:604(para)
+msgid ""
+"Selct the buttons of the colors that you wish to change, to display the "
+"color selector dialog."
+msgstr ""
+"Selezionare i pulsanti dei colori da modificare per visualizzare la finestra "
+"di dialogo di selezione dei colori."
+
+#: C/xchat-gnome.xml:615(title)
+msgid "File Transfers &amp; DCC"
+msgstr "Trasferimenti file e DCC"
+
+#: C/xchat-gnome.xml:618(guilabel)
+msgid "File Transfers"
+msgstr "Trasferimenti file"
+
+#: C/xchat-gnome.xml:620(para)
+msgid ""
+"Use the <guilabel>Download file to</guilabel> button to select the folder "
+"where you wish to download file."
+msgstr ""
+"Usare il pulsante <guilabel>Scaricare i file in</guilabel> per selezionare "
+"la cartella in cui salvare i file scaricati."
+
+#: C/xchat-gnome.xml:622(para)
+msgid ""
+"Use the <guilabel>Move completed files to</guilabel> button to select the "
+"folder where you wish for completed downloads to be moved."
+msgstr ""
+"Usare il pulsante <guilabel>Spostare i file completati in</guilabel> per "
+"selezionare la cartella in cui spostare i file scaricati completamente."
+
+#: C/xchat-gnome.xml:624(para)
+msgid ""
+"Select <guilabel>Convert spaces to underscore in filenames</guilabel> if you "
+"wish to have spaces converted to underscores in the filename."
+msgstr ""
+"Selezionare <guilabel>Convertire gli spazi in trattini bassi nei nomi dei "
+"file</guilabel> se si desidera convertire gli spazi in trattini bassi nei "
+"nomi dei file."
+
+#: C/xchat-gnome.xml:626(para)
+msgid ""
+"Select <guilabel>Save senders nickname in filenames</guilabel> to add the "
+"senders nickname to the downloaded file name."
+msgstr ""
+"Selezionare <guilabel>Salvare i soprannomi nei nomi dei file</guilabel> per "
+"aggiungere il nome di chi ha inviato il file nel nome del file."
+
+#: C/xchat-gnome.xml:631(guilabel)
+msgid "DCC Settings"
+msgstr "Impostazioni DCC"
+
+#: C/xchat-gnome.xml:633(para)
+msgid ""
+"Select the <guilabel>Auto-accept DCC Chat</guilabel> option to automatically "
+"accept Direct Client-to-Client (DCC) chats."
+msgstr ""
+"Selezionare <guilabel>Accettare automaticamente le chat DCC</guilabel> per "
+"accettare automaticamente le chat DCC (Direct Client-to-Client)."
+
+#: C/xchat-gnome.xml:635(para)
+msgid ""
+"Select the <guilabel>Auto-accept DCC File Transfers</guilabel> option to "
+"automatically accept Direct Client-to-Client (DCC) file transfers."
+msgstr ""
+"Selezionare <guilabel>Accettare automaticamente i trasferimenti file DCC</"
+"guilabel> per accettare automaticamente i trasferimenti di file DCC."
+
+#: C/xchat-gnome.xml:637(para)
+msgid ""
+"Select the <guilabel>Get IP Address From Server</guilabel> option to use "
+"your providers DNS to resolve an IP address."
+msgstr ""
+"Selzionare <guilabel>Ottenere indirizzo IP dal server</guilabel> per usare i "
+"server DNS del fornitore di accesso per risolvere gli indirizzi IP."
+
+#: C/xchat-gnome.xml:639(para)
+msgid ""
+"Select the <guilabel>Use This IP Address</guilabel> option and enter your IP "
+"address, to use a static IP address."
+msgstr ""
+"Selezionare <guilabel>Usare questo indirizzo IP</guilabel> per inserire un "
+"indirizzo IP, per utilizzare un indirizzo IP statico."
+
+#: C/xchat-gnome.xml:644(guilabel)
+msgid "Throttling"
+msgstr "Velocità di trasferimento"
+
+#: C/xchat-gnome.xml:646(para)
+msgid ""
+"Use the <guilabel>Individual send KB/s</guilabel> spin box to set your "
+"individual maximum upload speed."
+msgstr ""
+"Usare il controllo di selezione <guilabel>KB/s individuali inviati</"
+"guilabel> per impostare la propria velocità individuale massima di invio."
+
+#: C/xchat-gnome.xml:648(para)
+msgid ""
+"Use the <guilabel>Global send KB/s</guilabel> spin box to set your global "
+"maximum upload speed."
+msgstr ""
+"Usare il controllo di selezione <guilabel>KB/s globali inviati</guilabel> "
+"per impostare la propria velocità globale massima di invio."
+
+#: C/xchat-gnome.xml:650(para)
+msgid ""
+"Use the <guilabel>Individual receive KB/s</guilabel> spin box to set your "
+"individual maximum download speed."
+msgstr ""
+"Usare il controllo di selezione <guilabel>KB/s individuali ricevuti</"
+"guilabel> per impostare la propria velocità globale massima di scaricamento."
+
+#: C/xchat-gnome.xml:652(para)
+msgid ""
+"Use the <guilabel>Global receive KB/s</guilabel> spin box to set your global "
+"maximum download speed."
+msgstr ""
+"Usare il controllo di selezione <guilabel>KB/s globali ricevuti</guilabel> "
+"per impostare la propria velocità globale massima di scaricamento."
+
+#: C/xchat-gnome.xml:659(title)
+msgid "Networks"
+msgstr "Reti"
+
+#: C/xchat-gnome.xml:662(term)
+msgid "Internet Relay Chat (IRC) Servers"
+msgstr "Server IRC (Internet Relay Chat)"
+
+#: C/xchat-gnome.xml:664(para)
+msgid ""
+"To add an Internet Relay Chat (IRC) server, click the <guibutton>Add</"
+"guibutton> button to open the <guilabel>Network Properties</guilabel> "
+"dialog. <xref linkend=\"xchat-gnome-network-properties\"/>"
+msgstr ""
+"Per aggiungere un server IRC, fare clic su <guibutton>Aggiungi</guibutton> "
+"per aprire la finestra di dialogo <guilabel>Proprietà rete</guilabel> <xref "
+"linkend=\"xchat-gnome-network-properties\"/>."
+
+#: C/xchat-gnome.xml:667(para)
+msgid ""
+"To edit an Internet Relay Chat (IRC) server, click the <guibutton>Edit</"
+"guibutton> button to open the <guilabel>Network Properties</guilabel> "
+"dialog. <xref linkend=\"xchat-gnome-network-properties\"/>"
+msgstr ""
+"Per modificare un server IRC, fare clic su <guibutton>Modifica</guibutton> "
+"per aprire la finestra di dialogo <guilabel>Proprietà rete</guilabel> <xref "
+"linkend=\"xchat-gnome-network-properties\"/>."
+
+#: C/xchat-gnome.xml:670(para)
+msgid ""
+"To remove an Internet Relay Chat (IRC) server, click the <guibutton>Remove</"
+"guibutton> button. <xref linkend=\"xchat-gnome-network-properties\"/>"
+msgstr ""
+"Per rimuovere un server IRC, fare clic su <guibutton>Rimuovi</guibutton> "
+"<xref linkend=\"xchat-gnome-network-properties\"/>."
+
+#: C/xchat-gnome.xml:677(title)
+msgid "Scripts and Plugins"
+msgstr "Script e plugin"
+
+#: C/xchat-gnome.xml:680(term)
+msgid "Script and Plugins"
+msgstr "Script e plugin"
+
+#: C/xchat-gnome.xml:682(para)
+msgid ""
+"To enable or disable a plugin or script, select the <guilabel>Enable</"
+"guilabel> option next to the appropriate item."
+msgstr ""
+"Per abilitare o disabilitare un plugin o uno script, selezionare "
+"<guilabel>Abilita</guilabel> a fianco dell'oggetto appropriato."
+
+#: C/xchat-gnome.xml:684(para)
+msgid ""
+"To add a new plugin or script, click the <guibutton>Open</guibutton> button "
+"to open the file open dialog."
+msgstr ""
+"Per aggiungere un nuovo plugin o uno script, fare clic su <guibutton>Apri</"
+"guibutton> per aprire il dialogo di apertura file."
+
+#: C/xchat-gnome.xml:686(para)
+msgid ""
+"To remove a plugin or script, select the appropriate item and click on the "
+"<guibutton>Remove</guibutton> buton ."
+msgstr ""
+"Per rimuovere un plugin o uno script, selezionare l'oggetto appropriato e "
+"fare clic su <guibutton>Rimuovi</guibutton>."
+
+#: C/xchat-gnome.xml:695(title)
+msgid "Network Properties"
+msgstr "Proprietà della rete"
+
+#: C/xchat-gnome.xml:696(para)
+msgid ""
+"The <guilabel>Network Properties</guilabel> dialog for <application>XChat-"
+"GNOME</application>, allows you to set the properties for an Internet Relay "
+"Chat (IRC) server, and contains the following tabs:"
+msgstr ""
+"La finestra di dialogo <guilabel>Proprietà della rete</guilabel> per "
+"<application>XChat-GNOME</application> consente di impostare le proprietà "
+"per un server IRC e contiene le seguenti schede:"
+
+#: C/xchat-gnome.xml:705(title)
+msgid "Network Settings"
+msgstr "Impostazioni"
+
+#: C/xchat-gnome.xml:710(para)
+msgid ""
+"Enter the <guilabel>Name</guilabel> for the Internet Relay Chat (IRC) server."
+msgstr "Inserire il <guilabel>Nome</guilabel> per il server IRC."
+
+#: C/xchat-gnome.xml:711(para)
+msgid ""
+"Select the <guilabel>Automatically connect to network</guilabel> option to "
+"connect to a network when starting <application>XChat-GNOME</application>."
+msgstr ""
+"Selezionare <guilabel>Connettere automaticamente a questa rete all'avvio</"
+"guilabel> per connettersi a una rete all'avvio di <application>XChat-GNOME</"
+"application>."
+
+#: C/xchat-gnome.xml:713(para)
+msgid ""
+"Select the <guilabel>Use secure connection (SSL)</guilabel> option to "
+"connect with Secure Socket Layer (SSL)."
+msgstr ""
+"Selezionare <guilabel>Usare connessione sicura (SSL)</guilabel> per "
+"collegarsi con SSL (Secure Socket Layer)."
+
+#: C/xchat-gnome.xml:715(para)
+msgid ""
+"Select the <guilabel>Cycle until connected</guilabel> option to continue "
+"attempts to connect to network, until successful."
+msgstr ""
+"Selezionare <guilabel>Provare fino alla connessione</guilabel> per "
+"continuare a provare a connettersi fino allo stabilimento della connessione."
+
+#: C/xchat-gnome.xml:717(para)
+msgid ""
+"Use the <guilabel>Character encoding</guilabel> drop-down box to specify "
+"which character encoding <application>XChat-GNOME</application> should use."
+msgstr ""
+"Usare l'elenco a discesa <guilabel>Codifica dei caratteri</guilabel> per "
+"specificare quale codifica far usare a <application>XChat-GNOME</"
+"application>."
+
+#: C/xchat-gnome.xml:719(para)
+msgid ""
+"Enter the <guilabel>Server Password</guilabel>, if the Internet Relay Chat "
+"(IRC) server requires it."
+msgstr ""
+"Inserire la <guilabel>Password del server</guilabel> se il server IRC ne "
+"richiede una."
+
+#: C/xchat-gnome.xml:726(title)
+msgid "Users and Channels"
+msgstr "Utenti e canali"
+
+#: C/xchat-gnome.xml:729(guilabel)
+msgid "Users Info"
+msgstr "Informazioni utente"
+
+#: C/xchat-gnome.xml:731(para)
+msgid ""
+"Select the <guilabel>Use global user settings</guilabel> option to use the "
+"global settings used in the <guilabel>General</guilabel> section of <xref "
+"linkend=\"xchat-gnome-prefs-general\"/>."
+msgstr ""
+"Selezionare <guilabel>Utilizzare le informazioni globali dell'utente</"
+"guilabel> per usare le impostazioni usate nella sezione <guilabel>Generale</"
+"guilabel> di <xref linkend=\"xchat-gnome-prefs-general\"/>."
+
+#: C/xchat-gnome.xml:734(para)
+msgid ""
+"Select the <guilabel>Use the user settings</guilabel> option to set the "
+"<guilabel>Nick name</guilabel> and <guilabel>Real Name</guilabel> specific "
+"to this Internet Relay Chat (IRC) server."
+msgstr ""
+"Selezionare <guilabel>Usare queste impostazioni utente</guilabel> per "
+"impostare il <guilabel>Soprannome</guilabel> e il <guilabel>Vero nome</"
+"guilabel> specifici per questo server."
+
+#: C/xchat-gnome.xml:740(guilabel)
+msgid "Automatically Join Channels"
+msgstr "Entrare automaticamente nei canali"
+
+#: C/xchat-gnome.xml:742(para)
+msgid "Click the <guibutton>Add</guibutton> button to add a new channel."
+msgstr ""
+"Fare clic su <guibutton>Aggiungi</guibutton> per aggiungere un nuovo canale."
+
+#: C/xchat-gnome.xml:743(para)
+msgid ""
+"Click the <guibutton>Edit</guibutton> button to edit the selected channel."
+msgstr ""
+"Fare clic su <guibutton>Modifica</guibutton> per modificare il canale "
+"selezionato."
+
+#: C/xchat-gnome.xml:744(para)
+msgid ""
+"Click the <guibutton>Remove</guibutton> button to remove the selected "
+"channel."
+msgstr ""
+"Fare clic su <guibutton>Rimuovi</guibutton> per rimuovere il canale "
+"selezionato."
+
+#: C/xchat-gnome.xml:745(para)
+msgid "The channel name should begin with a pound sign (#)."
+msgstr "Il nome del canale deve iniziare con il simbolo del cancelletto (#)."
+
+#: C/xchat-gnome.xml:751(title) C/xchat-gnome.xml:754(term)
+msgid "Servers"
+msgstr "Server"
+
+#: C/xchat-gnome.xml:756(para)
+msgid ""
+"Click the <guibutton>Add</guibutton> button to add a new Internet Relay Chat "
+"(IRC) server."
+msgstr ""
+"Fare clic su <guibutton>Aggiungi</guibutton> per aggiungere un nuovo server "
+"IRC."
+
+#: C/xchat-gnome.xml:758(para)
+msgid ""
+"Click the <guibutton>Edit</guibutton> button to edit the selected Internet "
+"Relay Chat (IRC) server."
+msgstr ""
+"Fare clic su <guibutton>Modifica</guibutton> per modificare il server IRC "
+"selezionato."
+
+#: C/xchat-gnome.xml:760(para)
+msgid ""
+"Click the <guibutton>Remove</guibutton> button to remove the selected "
+"Internet Relay Chat (IRC) server."
+msgstr ""
+"Fare clic su <guibutton>Rimuovi</guibutton> per rimuovere il server IRC "
+"selezionato."
+
+#: C/xchat-gnome.xml:775(title)
+msgid "About <application>XChat-GNOME</application>"
+msgstr "Informazioni su <application>XChat-GNOME</application>"
+
+#: C/xchat-gnome.xml:776(para)
+msgid ""
+"To find more information about <application>XChat-GNOME</application>, "
+"please visit the <ulink url=\"http://live.gnome.org/Xchat-Gnome\" type=\"http"
+"\">XChat-GNOME Web page</ulink>."
+msgstr ""
+"Per maggiori informazioni riguardo <application>XChat-GNOME</application>, "
+"consultare il <ulink url=\"http://live.gnome.org/Xchat-Gnome\" type=\"http"
+"\">sito web di XChat-GNOME</ulink>."
+
+#: C/xchat-gnome.xml:780(para)
+msgid ""
+"To report a bug or make a suggestion regarding this application or this "
+"manual, see the Feedback section of the <ulink url=\"ghelp:user-guide?"
+"feedback-bugs\" type=\"help\">GNOME User Guide</ulink>."
+msgstr ""
+"Per segnalare un problema o inviare suggerimenti riguardo questa "
+"applicazione o su questo manuale, seguire le istruzioni presenti alla <ulink "
+"url=\"ghelp:user-guide?feedback-bugs\" type=\"help\">pagina di commenti "
+"della guida utente di GNOME</ulink>."
+
+#: C/xchat-gnome.xml:786(para)
+msgid ""
+"This program is distributed under the terms of the GNU General Public "
+"license as published by the Free Software Foundation; either version 2 of "
+"the License, or (at your option) any later version. A copy of this license "
+"can be found at this <ulink url=\"ghelp:gpl\" type=\"help\">link</ulink>, or "
+"in the file COPYING included with the source code of this program."
+msgstr ""
+"Questo programma è distribuito sotto i termini della GNU General Public "
+"License come pubblicata dalla Free Software Foundation; o la versione 2 "
+"della licenza o (a propria scelta) una versione successiva. Una <ulink url="
+"\"ghelp:gpl\" type=\"help\">copia di questa licenza</ulink> è inclusa in "
+"questa documentazione; un'altra copia può essere trovata nel file COPYING "
+"incluso con il codice sorgente di questo programma."
+
+#. Put one translator per line, in the form of NAME <EMAIL>, YEAR1, YEAR2.
+#: C/xchat-gnome.xml:0(None)
+msgid "translator-credits"
+msgstr "Milo Casagrande <milo_casagrande AT yahoo DOT it>, 2007"

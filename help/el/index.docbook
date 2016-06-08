@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appversion "0.16">
+<!ENTITY manrevision "2.1">
+<!ENTITY date "December 2006">
+<!ENTITY app "XChat-GNOME">
+<!-- Information about the entities
+       The legal.xml file contains legal information, there is no need to edit the file.
+       Use the appversion entity to specify the version of the application.
+       Use the manrevision entity to specify the revision number of this manual.
+       Use the date entity to specify the release date of this manual.
+       Use the app entity to specify the name of the application. -->]>
+<!--
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 2.0 beta
+  Template last modified Apr 11, 2002
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="el">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+  <articleinfo>
+    <title>Εγχειρίδιο <application>XChat-GNOME</application></title>
+
+    <copyright><year>2005-2006</year> <holder>Brian Pepple</holder></copyright>
+    <copyright><year>2006</year> <holder>Joachim Noreiko</holder></copyright>
+<!-- translators: uncomment this:
+
+  <copyright>
+   <year>2002</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+   -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+    <publisher>
+      <publishername>Brian Pepple</publishername>
+    </publisher>
+
+   <legalnotice id="legalnotice">
+	<para>Χορηγείται άδεια αντιγραφής, διανομής και/ή τροποποίησης του παρόντος εγγράφου υπό τους όρους της έκδοσης 1.1 της Ελεύθερης Άδειας Τεκμηρίωσης GNU (GFDL), ή οποιασδήποτε μεταγενέστερης έκδοσής αυτής από το Ίδρυμα Ελεύθερου Λογισμικού (FSF), χωρίς αμετάβλητες ενότητες, κείμενα εμπροσθοφύλλου και κείμενα οπισθοφύλλου. Αντίγραφο της άδειας GFDL είναι διαθέσιμο στον ακόλουθο <ulink type="help" url="ghelp:fdl">σύνδεσμο</ulink>, ή στο αρχείο COPYING-DOCS που διανέμεται μαζί με το παρόν εγχειρίδιο.</para>
+         <para>Αυτό το εγχειρίδιο αποτελεί μέρος της συλλογής εγχειριδίων του GNOME που διανέμονται υπό τους όρους της GFDL. Αν επιθυμείτε να διανείμετε το παρόν εγχειρίδιο ξεχωριστά από τη συλλογή, οφείλετε να προσθέσετε στο εγχειρίδιο αντίγραφο της άδειας χρήσης, όπως προβλέπεται στην ενότητα 6 της άδειας.</para>
+
+	<para>Πολλές από τις ονομασίες που χρησιμοποιούνται από εταιρείες για την διαφοροποίηση των προϊόντων και υπηρεσιών τους έχουν καταχωρηθεί ως εμπορικά σήματα. Σε όποιο σημείο της τεκμηρίωσης GNOME τυχόν εμφανίζονται αυτές οι ονομασίες, και εφόσον τα μέλη του Έργου τεκμηρίωσης GNOME έχουν λάβει γνώση αυτών των εμπορικών σημάτων, οι ονομασίες ή τα αρχικά αυτών θα γράφονται με κεφαλαίους χαρακτήρες.</para>
+
+	<para>ΤΟ ΠΑΡΟΝ ΕΓΓΡΑΦΟ ΚΑΙ ΟΙ ΤΡΟΠΟΙΗΜΕΝΕΣ ΕΚΔΟΣΕΙΣ ΑΥΤΟΥ ΠΑΡΕΧΟΝΤΑΙ ΥΠΟ ΤΟΥΣ ΟΡΟΥΣ ΤΗΣ ΕΛΕΥΘΕΡΗΣ ΑΔΕΙΑΣ ΤΕΚΜΗΡΙΩΣΗΣ GNU (GFDL) ΚΑΙ ΜΕ ΤΗΝ ΠΕΡΑΙΤΕΡΩ ΔΙΕΥΚΡΙΝΙΣΗ ΟΤΙ: <orderedlist>
+		<listitem>
+		  <para>ΤΟ ΠΑΡΟΝ ΕΓΓΡΑΦΟ ΠΑΡΕΧΕΤΑΙ "ΩΣ ΕΧΕΙ", ΧΩΡΙΣ ΟΠΟΙΑΔΗΠΟΤΕ ΑΛΛΗ ΕΓΓΥΗΣΗ, ΕΙΤΕ ΡΗΤΗ ΕΙΤΕ ΣΙΩΠΗΡΗ, ΣΥΜΠΕΡΙΛΑΜΒΑΝΟΜΕΝΗΣ, ΧΩΡΙΣ ΠΕΡΙΟΡΙΣΜΟ, ΤΗΣ ΕΓΓΥΗΣΗΣ ΟΤΙ ΤΟ ΕΓΓΡΑΦΟ, Ή Η ΤΡΟΠΟΠΟΙΗΜΕΝΗ ΕΚΔΟΣΗ ΑΥΤΟΥ, ΕΙΝΑΙ ΕΜΠΟΡΕΥΣΙΜΟ, ΚΑΤΑΛΛΗΛΟ ΓΙΑ ΕΙΔΙΚΟ ΣΚΟΠΟ ΚΑΙ ΔΕΝ ΠΡΟΣΒΑΛΛΕΙ ΔΙΚΑΙΩΜΑΤΑ ΤΡΙΤΩΝ. Ο ΧΡΗΣΤΗΣ ΑΝΑΛΑΜΒΑΝΕΙ ΕΞ ΟΛΟΚΛΗΡΟΥ ΤΗΝ ΕΘΥΝΗ ΩΣ ΠΡΟΣ ΤΗΝ ΠΟΙΟΤΗΤΑ, ΤΗΝ ΑΚΡΙΒΕΙΑ ΚΑΙ ΤΗΝ ΧΡΗΣΗ ΤΟΥ ΕΓΓΡΑΦΟΥ Ή ΤΗΣ ΤΡΟΠΟΠΟΙΗΜΕΝΗΣ ΕΚΔΟΣΗΣ ΑΥΤΟΥ. ΣΕ ΠΕΡΙΠΤΩΣΗ ΠΟΥ ΟΠΟΙΟΔΗΠΟΤΕ ΕΓΓΡΑΦΟ Ή ΤΡΟΠΟΠΟΙΗΜΕΝΗ ΕΚΔΟΣΗ ΑΥΤΟΥ ΑΠΟΔΕΙΧΘΟΥΝ ΕΛΑΤΤΩΜΑΤΙΚΑ ΚΑΘ' ΟΙΟΝΔΗΠΟΤΕ ΤΡΟΠΟ, Ο ΧΡΗΣΤΗΣ (ΚΑΙ ΟΧΙ Ο ΑΡΧΙΚΟΣ ΣΥΓΓΡΑΦΕΑΣ, ΔΗΜΙΟΥΡΓΟΣ Ή ΟΠΟΙΟΣΔΗΠΟΤΕ ΣΥΝΤΕΛΕΣΤΗΣ) ΑΝΑΛΑΜΒΑΝΕΙ ΤΟ ΚΟΣΤΟΣ ΟΠΟΙΑΣΔΗΠΟΤΕ ΑΝΑΓΚΑΙΑΣ ΣΥΝΤΗΡΗΣΗΣ, ΕΠΙΣΚΕΥΗΣ Ή ΔΙΟΡΘΩΣΗΣ. Η ΠΑΡΟΥΣΑ ΑΠΟΠΟΙΗΣΗ ΕΓΓΥΗΣΗΣ ΑΠΟΤΕΛΕΙ ΑΝΑΠΟΣΠΑΣΤΟ ΜΕΡΟΣ ΤΗΣ ΑΔΕΙΑΣ. ΔΕΝ ΕΠΙΤΡΕΠΕΤΑΙ ΟΥΔΕΜΙΑ ΧΡΗΣΗ ΤΟΥ ΕΓΓΡΑΦΟΥ Ή ΤΡΟΠΟΠΟΙΗΜΕΝΩΝ ΕΚΔΟΣΕΩΝ ΑΥΤΟΥ ΣΥΜΦΩΝΑ ΜΕ ΤΟΥΣ ΟΡΟΥΣ ΤΗΣ ΠΑΡΟΥΣΑΣ, ΠΑΡΑ ΜΟΝΟ ΕΑΝ ΣΥΝΟΔΕΥΕΤΑΙ ΑΠΟ ΤΗΝ ΑΠΟΠΟΙΗΣΗ ΕΓΓΥΗΣΗΣ, ΚΑΙ</para>
+		</listitem>
+		<listitem>
+		  <para>Ο ΔΗΜΙΟΥΡΓΟΣ, Ο ΑΡΧΙΚΟΣ ΣΥΓΓΡΑΦΕΑΣ, ΟΙ ΣΥΝΤΕΛΕΣΤΕΣ Ή ΟΙ ΔΙΑΝΟΜΕΙΣ ΤΟΥ ΕΓΓΡΑΦΟΥ Ή ΤΡΟΠΟΠΟΙΗΜΕΝΗΣ ΕΚΔΟΣΗΣ ΑΥΤΟΥ, ΚΑΘΩΣ ΚΑΙ ΟΙ ΠΡΟΜΗΘΕΥΤΕΣ ΟΠΟΙΩΝΔΗΠΟΤΕ ΕΚ ΤΩΝ ΠΡΟΑΝΑΦΕΡΟΜΕΝΩΝ ΜΕΡΩΝ, ΔΕΝ ΕΥΘΥΝΟΝΤΑΙ ΕΝΑΝΤΙ ΟΙΟΥΔΗΠΟΤΕ, ΣΕ ΚΑΜΙΑ ΠΕΡΙΠΤΩΣΗ ΚΑΙ ΥΠΟ ΚΑΜΙΑ ΕΡΜΗΝΕΙΑ ΝΟΜΟΥ, ΕΙΤΕ ΕΞ ΑΔΙΚΟΠΡΑΞΙΑΣ (ΣΥΜΠΕΡΙΛΑΜΒΑΝΟΜΕΝΗΣ ΤΗΣ ΑΜΕΛΕΙΑΣ) ΕΙΤΕ ΣΤΟ ΠΛΑΙΣΙΟ ΣΥΜΒΑΤΙΚΗΣ Ή ΑΛΛΗΣ ΥΠΟΧΡΕΩΣΗΣ, ΓΙΑ ΤΥΧΟΝ ΑΜΕΣΕΣ, ΕΜΜΕΣΕΣ, ΕΙΔΙΚΕΣ, ΤΥΧΑΙΕΣ Ή ΣΥΝΕΠΑΚΟΛΟΥΘΕΣ ΖΗΜΙΕΣ ΟΠΟΙΑΣΔΗΠΟΤΕ ΜΟΡΦΗΣ, ΣΥΜΠΕΡΙΛΑΜΒΑΝΟΜΕΝΩΝ, ΧΩΡΙΣ ΠΕΡΙΟΡΙΣΜΟ, ΖΗΜΙΩΝ ΛΟΓΩ ΑΠΩΛΕΙΑΣ ΦΗΜΗΣ ΚΑΙ ΠΕΛΑΤΕΙΑΣ, ΔΙΑΚΟΠΗΣ ΕΡΓΑΣΙΩΝ, ΔΥΣΛΕΙΤΟΥΡΓΙΑΣ Ή ΒΛΑΒΗΣ ΗΛΕΚΤΡΟΝΙΚΩΝ ΥΠΟΛΟΓΙΣΤΩΝ, Ή ΚΑΘΕ ΑΛΛΗΣ ΖΗΜΙΑΣ Ή ΑΠΩΛΕΙΑΣ ΠΟΥ ΟΦΕΙΛΕΤΑΙ Ή ΣΧΕΤΙΖΕΤΑΙ ΜΕ ΤΗΝ ΧΡΗΣΗ ΤΟΥ ΕΓΓΡΑΦΟΥ ΚΑΙ ΤΩΝ ΤΡΟΠΟΠΟΙΗΜΕΝΩΝ ΕΚΔΟΣΕΩΝ ΑΥΤΟΥ, ΑΚΟΜΑ ΚΑΙ ΑΝ ΤΑ ΩΣ ΑΝΩ ΜΕΡΗ ΕΙΧΑΝ ΛΑΒΕΙ ΓΝΩΣΗ ΤΗΣ ΠΙΘΑΝΟΤΗΤΑΣ ΠΡΟΚΛΗΣΗΣ ΤΕΤΟΙΩΝ ΖΗΜΙΩΝ.</para>
+		</listitem>
+	  </orderedlist></para>
+  </legalnotice>
+   <!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+	any of this. -->
+
+    <authorgroup>
+      <author role="maintainer"><firstname>Brian</firstname> <surname>Pepple</surname> <affiliation> <orgname>Έργο Fedora</orgname> <address> <email>bpepple@fedoraproject.org</email> </address> </affiliation></author>
+      <author><firstname>Joachim</firstname> <surname>Noreiko</surname> <affiliation> <orgname>Έργο τεκμηρίωσης GNOME</orgname> <address> <email>jnoreiko@yahoo.com</email> </address> </affiliation></author>
+
+<!-- This is appropriate place for other contributors: translators,
+     maintainers,  etc. Commented out by default.
+
+      <othercredit role="translator">
+		<firstname>Latin</firstname>
+		<surname>Translator 1</surname>
+		<affiliation>
+	  		<orgname>Latin Translation Team</orgname>
+	  		<address> <email>translator@gnome.org</email> </address>
+		</affiliation>
+		<contrib>Latin translation</contrib>
+      </othercredit>
+-->
+    </authorgroup>
+
+
+<!-- According to GNU FDL, revision history is mandatory if you are -->
+<!-- modifying/reusing someone else's document.  If not, you can omit it. -->
+<!-- Remember to remove the &manrevision; entity from the revision entries other
+-->
+<!-- than the current revision. -->
+<!-- The revision numbering system for GNOME manuals is as follows: -->
+<!-- * the revision number consists of two components -->
+<!-- * the first component of the revision number reflects the release version of the GNOME desktop. -->
+<!-- * the second component of the revision number is a decimal unit that is incremented with each revision of the manual. -->
+<!-- For example, if the GNOME desktop release is V2.x, the first version of the manual that -->
+<!-- is written in that desktop timeframe is V2.0, the second version of the manual is V2.1, etc. -->
+<!-- When the desktop release version changes to V3.x, the revision number of the manual changes -->
+<!-- to V3.0, and so on. -->
+    <revhistory>
+      <revision><revnumber>XChat-GNOME Εγχειρίδιο 2.1</revnumber> <date>Δεκέμβριος 2006</date> <revdescription>
+	  <para role="author">Joachim Noreiko <email>jnoreiko@yahoo.com</email></para>
+	  <para role="publisher">Έργο τεκμηρίωσης GNOME</para>
+	  </revdescription></revision>
+      <revision><revnumber>XChat-GNOME Εγχειρίδιο V2.0</revnumber> <date>Νοέμβριος 2005</date> <revdescription>
+	  <para role="author">Brian Pepple <email>bpepple@fedoraproject.org</email></para>
+	  <para role="publisher">Έργο τεκμηρίωσης GNOME</para>
+	</revdescription></revision>
+    </revhistory>
+
+    <releaseinfo>Αυτό το εγχειρίδιο περιγράφει την έκδοση 0.16 του XChat-GNOME.</releaseinfo>
+    <legalnotice>
+      <title>Aνάδραση</title>
+      <para>Για να αναφέρετε ένα σφάλμα ή να κάνετε μια πρόταση σχετικά με την εφαρμογή <application>XChat-GNOME</application> ή αυτό το εγχειρίδιο, ακολουθήστε τις οδηγίες στην ενότητα ανάδρασης του <ulink url="ghelp:user-guide?feedback-bugs" type="help">Οδηγός χρήσης GNOME</ulink>.</para>
+<!-- Translators may also add here feedback address for translations -->
+    </legalnotice>
+
+    <abstract role="description">
+      <para>Ένα εγχειρίδιο χρήσης που περιγράφει τη χρήση του πελάτη IRC XChat-GNOME.</para>
+    </abstract>
+  
+    <othercredit class="translator">
+      <personname>
+        <firstname> Δημήτρης Σπίγγος</firstname>
+      </personname>
+      <email>dmtrs32@gmail.com</email>
+    </othercredit>
+    <copyright>
+      
+        <year>2013</year>
+      
+        <year>2014</year>
+      
+      <holder> Δημήτρης Σπίγγος</holder>
+    </copyright>
+  
+    <othercredit class="translator">
+      <personname>
+        <firstname> Μαρία Μαυρίδου</firstname>
+      </personname>
+      <email>mavridou@gmail.com</email>
+    </othercredit>
+    <copyright>
+      
+        <year>2014</year>
+      
+      <holder> Μαρία Μαυρίδου</holder>
+    </copyright>
+  </articleinfo>
+
+  <indexterm zone="index"><primary>XChat-GNOME</primary></indexterm>
+  <indexterm zone="index"><primary>xchat-gnome</primary></indexterm>
+
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<!-- Use the Introduction section to give a brief overview of what
+     the application is and what it does. -->
+  <sect1 id="xchat-gnome-introduction">
+    <title>Εισαγωγή</title>
+    <para>Η εφαρμογή <application>XChat-GNOME</application> είναι ένα διαδικτυακό πρόγραμμα μεταγωγής συνομιλίας (IRC) για την επιφάνεια εργασίας GNOME.</para>
+    <para>Το <application>XChat-GNOME</application> παρέχει τα ακόλουθα γνωρίσματα:</para>
+    <itemizedlist>
+      <listitem>
+	<para>Πρόσθετο εικονίδιο περιοχής ειδοποιήσεων</para>
+      </listitem>
+      <listitem>
+	<para>Άμεσες μεταφορές πελάτη σε πελάτη (DCC)</para>
+      </listitem>
+      <listitem>
+	<para>Άμεσες συνομιλίας πελάτη σε πελάτη (DCC)</para>
+      </listitem>
+      <listitem>
+	<para>Προσκόλληση στις οδηγίες ανθρώπινης διεπαφής του GNOME (HIG)</para>
+      </listitem>
+    </itemizedlist>
+  </sect1>
+
+<!-- =========== Getting Started ============================== -->
+<!-- Use the Getting Started section to describe the steps required
+     to start the application and to describe the user interface components
+     of the application. If there is other information that it is important
+     for readers to know before they start using the application, you should
+     also include this information here.
+     If the information about how to get started is very short, you can
+     include it in the Introduction and omit this section. -->
+
+  <sect1 id="xchat-gnome-getting-started">
+    <title>Ξεκίνημα</title>
+    <sect2 id="xchat-gnome-start">
+    <title>Έναρξη του <application>XChat-GNOME</application></title>
+    <para>Μπορείτε να εκκινήσετε το <application>XChat-GNOME</application> με τους εξής τρόπους:</para>
+    <variablelist>
+	<varlistentry>
+	  <term>Μενού <guimenu>Εφαρμογές</guimenu></term>
+	  <listitem>
+	    <para>Επιλέξτε <menuchoice> <guisubmenu>Διαδίκτυο</guisubmenu> <guimenuitem>Συνομιλία IRC XChat-GNOME</guimenuitem> </menuchoice>.</para>
+	  </listitem>
+    	</varlistentry>
+    	<varlistentry>
+	  <term>Γραμμή εντολών</term>
+	  <listitem>
+	    <para>Για να εκκινήσετε το <application>XChat-GNOME</application> από μια γραμμή εντολών, πληκτρολογήστε <command>xchat-gnome</command>, έπειτα πατήστε <keycap>Return</keycap>:</para>
+            <tip>
+	      <para>Για να προβάλλετε άλλες επιλογές της γραμμής εντολών που είναι διαθέσιμες, πληκτρολογήστε <command>xchat-gnome --help</command>, έπειτα πατήστε <keycap>Return</keycap></para>
+            </tip>
+	  </listitem>
+    	</varlistentry>
+    </variablelist>
+    </sect2>
+
+    <sect2 id="xchat-gnome-when-start">
+    <title>Όταν ξεκινάτε το <application>XChat-GNOME</application></title>
+    <para>Όταν ξεκινάτε το <application>XChat-GNOME</application>, εμφανίζεται το παρακάτω παράθυρο.</para>
+
+    <!-- ==== Figure ==== -->
+      <figure id="xchat-gnome-fig">
+	<title>Κυρίως παράθυρο του <application>XChat-GNOME</application></title>
+	<screenshot>
+	  <mediaobject><imageobject><imagedata fileref="figures/xchat-gnome_main_window.png" format="PNG"/> </imageobject> <textobject> <phrase>Εμφανίζει το κυρίως παράθυρο του <application>XChat-GNOME</application>. Περιέχει τη γραμμή τίτλου, τη γραμμή μενού, την περιοχή εμφάνισης και τις γραμμές κύλισης. Η γραμμή μενού περιέχει τα μενού IRC, Επεξεργασία, Δίκτυο, Συζήτηση, Μετάβαση και Βοήθεια.</phrase> </textobject></mediaobject>
+	</screenshot>
+      </figure>
+    <!-- ==== End of Figure ==== -->
+
+    <!-- Include any descriptions of the GUI immediately after the screenshot of the main UI, -->
+    <!-- for example, the items on the menubar and on the toolbar. This section is optional. -->
+
+    <para>Το παράθυρο <application>XChat-GNOME</application> περιέχει τα επόμενα στοιχεία:</para>
+      <variablelist>
+	<varlistentry>
+	  <term>Γραμμή μενού</term>
+	  <listitem>
+	    <para>Τα μενού στη γραμμή μενού περιέχουν όλες τις απαραίτητες χρησιμοποιούμενες εντολές στο <application>XChat-GNOME</application>.</para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term>Παράθυρο διακομιστή</term>
+	  <listitem>
+	    <para>Το παράθυρο διακομιστή εμφανίζει τους διακομιστές και τα κανάλια που είναι συνδεμένα.</para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term>Κουμπί χρήστη</term>
+	  <listitem>
+	    <para>Το κουμπί χρήστη εμφανίζει τον αριθμό των παρόντων χρηστών στο επιλεγμένο κανάλι. Πατήστε το κουμπί χρήστη για να εμφανίσει μια λίστα χρηστών. Ο χρήστης που σημειώνεται στον κατάλογο ως απών είναι "αχνός".</para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term>Περιοχή συζήτησης</term>
+	  <listitem>
+	    <para>Η περιοχή συζήτησης παρουσιάζει τη συζήτηση που συμβαίνει στο επιλεγμένο κανάλι.</para>
+      <para>Πληκτρολογήστε στη γραμμή εισόδου μηνύματος στο τέλος της περιοχής συζήτησης για να συνομιλήσετε στο επιλεγμένο κανάλι.</para>
+	  </listitem>
+	</varlistentry>
+      </variablelist>
+    </sect2>
+  </sect1>
+<!-- ================ Usage ================================ -->
+<!-- Use this section to describe how to use the application to perform the tasks for
+  which the application is designed. -->
+  <sect1 id="xchat-gnome-usage">
+    <title>Χρήση</title>
+
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-connect">
+      <title>Σύνδεση με έναν διακομιστή διαδικτυακής μεταγωγής συνομιλίας (IRC)</title>
+      <para>Για να συνδεθείτε με έναν διακομιστή διαδικτυακής μεταγωγής συνομιλίας (IRC), επιλέξτε <menuchoice> <guimenu>IRC</guimenu> <guimenuitem>Σύνδεση</guimenuitem> </menuchoice>. Ο διάλογος <guilabel>Σύνδεση</guilabel> εμφανίζεται. Επιλέξτε τον διακομιστή στον οποίον θέλετε να συνδεθείτε, έπειτα πατήστε <guibutton>Σύνδεση</guibutton>.</para>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-transfers">
+      <title>Προβολή άμεσων πληροφοριών μεταφοράς αρχείων πελάτη σε πελάτη (DCC)</title>
+      <para>Για να προβάλετε τις πληροφορίες άμεσης μεταφοράς αρχείων από πελάτη σε πελάτη (DCC), επιλέξτε <menuchoice> <guimenu>IRC</guimenu> <guimenuitem>Μεταφορές αρχείων</guimenuitem> </menuchoice>.</para>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-edit-text">
+      <title>Επεξεργασία κειμένου</title>
+      <para>Μπορείτε να επεξεργαστείτε κείμενο με τους εξής τρόπους:</para>
+      <itemizedlist>
+	<listitem>
+	  <para>Για να διαγράψετε το επιλεγμένο κείμενο από το αρχείο και να μετακινήσετε το επιλεγμένο κείμενο σε μια ενδιάμεση μνήμη, επιλέξτε <menuchoice> <guimenu>Επεξεργασία</guimenu> <guimenuitem>Αποκοπή</guimenuitem> </menuchoice>.</para>
+	</listitem>
+	<listitem>
+	  <para>Για να αντιγράψετε το επιλεγμένο κείμενο σε μια ενδιάμεση μνήμη, επιλέξτε <menuchoice> <guimenu>Επεξεργασία</guimenu> <guimenuitem>Αντιγραφή</guimenuitem> </menuchoice>.</para>
+	</listitem>
+	<listitem>
+	  <para>Για να παρεμβάλετε τα περιεχόμενα της ενδιάμεσης μνήμης στη θέση του δρομέα, επιλέξτε <menuchoice> <guimenu>Επεξεργασία</guimenu> <guimenuitem>Επικόλληση</guimenuitem> </menuchoice>. Πρέπει να αποκόψετε ή να αντιγράψετε το κείμενο πριν να μπορέσετε να το επικολλήσετε στο αρχείο.</para>
+	</listitem>
+	<listitem>
+	  <para>Για να καθαρίσετε όλο το κείμενο από την περιοχή συζήτησης για το τρέχον επιλεγμένο κανάλι, επιλέξτε <menuchoice><guimenu>Επεξεργασία</guimenu> <guimenuitem>Καθαρισμός</guimenuitem></menuchoice>.</para>
+	</listitem>
+      </itemizedlist>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-network-reconnect">
+      <title>Επανασύνδεση με διακομιστή</title>
+      <para>Για να επανασυνδέσετε το <application>XChat-GNOME</application> σε έναν διακομιστή διαδικτυακής μεταγωγής συνομιλίας (IRC), επιλέξτε <menuchoice> <guimenu>Δίκτυο</guimenu> <guimenuitem>Επανασύνδεση</guimenuitem> </menuchoice>.</para>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-network-disconnect">
+      <title>Αποσύνδεση από διακομιστή</title>
+      <para>Για να αποσυνδέσετε το <application>XChat-GNOME</application> από έναν διακομιστή διαδικτυακής μεταγωγής συνομιλίας (IRC), επιλέξτε <menuchoice> <guimenu>Δίκτυο</guimenu> <guimenuitem>Αποσύνδεση</guimenuitem> </menuchoice>.</para>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-discussion-save">
+      <title>Αποθήκευση αντιγράφου καναλιού</title>
+      <para>Για να αποθηκεύσετε ένα αντίγραφο ενός καναλιού, επιλέξτε <menuchoice> <shortcut> <keycombo> <keycap>Ctrl</keycap> <keycap>S</keycap> </keycombo> </shortcut> <guimenu>Συζήτηση</guimenu> <guimenuitem>Αποθήκευση αντιγράφου</guimenuitem> </menuchoice>.</para>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-discussion-leave">
+      <title>Έξοδος από κανάλι</title>
+      <para>Όταν αφήνετε ένα κανάλι, αφαιρείτε τους συμμετέχοντες και δεν μπορούν πια να συνομιλούν στο κανάλι, αλλά η συζήτηση μέχρι εκείνο το σημείο παραμένει στο παράθυρο του διακομιστή.</para>
+      <para>Για να αφήσετε ένα κανάλι, επιλέξτε <menuchoice> <shortcut> <keycombo> <keycap>Ctrl</keycap> <keycap>Q</keycap> </keycombo> </shortcut> <guimenu>Συζήτηση</guimenu> <guimenuitem>Έξοδος</guimenuitem> </menuchoice>.</para>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-discussion-close">
+      <title>Κλείσιμο καναλιού</title>
+      <para>Όταν κλείνετε ένα κανάλι, το κανάλι αφαιρείται από τον κατάλογο στο φάτνωμα του διακομιστή.</para>
+      <para>Για να κλείσετε ένα κανάλι, επιλέξτε <menuchoice> <shortcut> <keycombo> <keycap>Ctrl</keycap> <keycap>W</keycap> </keycombo> </shortcut> <guimenu>Συζήτηση</guimenu> <guimenuitem>Κλείσιμο</guimenuitem> </menuchoice>.</para>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-discussion-navigate">
+      <title>Περιήγηση μέσα από τα κανάλια</title>
+      <itemizedlist>
+	<listitem>
+	  <para>Για να προβάλετε ένα προηγούμενο κανάλι, επιλέξτε <menuchoice> <shortcut> <keycombo> <keycap>Alt</keycap> <keycap>Επάνω</keycap> </keycombo> </shortcut> <guimenu>Μετάβαση</guimenu> <guimenuitem>Προηγούμενη συζήτηση</guimenuitem> </menuchoice>.</para>
+	</listitem>
+	<listitem>
+	  <para>Για να προβάλετε ένα επόμενο κανάλι, επιλέξτε <menuchoice> <shortcut> <keycombo> <keycap>Alt</keycap> <keycap>Κάτω</keycap> </keycombo> </shortcut> <guimenu>Μετάβαση</guimenu> <guimenuitem>Επόμενη συζήτηση</guimenuitem> </menuchoice>.</para>
+	</listitem>
+      </itemizedlist>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-network-navigate">
+      <title>Περιήγηση μέσα από τους διακομιστές</title>
+      <itemizedlist>
+	<listitem>
+	  <para>Για να προβάλετε ένα προηγούμενο διακομιστή, επιλέξτε <menuchoice> <shortcut> <keycombo> <keycap>Ctrl</keycap> <keycap>Επάνω</keycap> </keycombo> </shortcut> <guimenu>Μετάβαση</guimenu> <guimenuitem>Προηγούμενο δίκτυο</guimenuitem> </menuchoice>.</para>
+	</listitem>
+	<listitem>
+	  <para>Για να προβάλετε επόμενο διακομιστή, επιλέξτε <menuchoice> <shortcut> <keycombo> <keycap>Ctrl</keycap> <keycap>Κάτω</keycap> </keycombo> </shortcut> <guimenu>Μετάβαση</guimenu> <guimenuitem>Επόμενο δίκτυο</guimenuitem> </menuchoice>.</para>
+	</listitem>
+      </itemizedlist>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-quit">
+      <title>Έξοδος από το XChat-GNOME</title>
+      <para>Για να εξέλθετε από το <application>XChat-GNOME</application>, επιλέξτε <menuchoice> <shortcut> <keycombo> <keycap>Ctrl</keycap> <keycap>Q</keycap> </keycombo> </shortcut> <guimenu>IRC</guimenu> <guimenuitem>Έξοδος</guimenuitem> </menuchoice>.</para>
+    </sect2>
+  </sect1>
+  <!-- ============= Customization ============================= -->
+  <!-- Use this section to describe how to customize the application. -->
+  <sect1 id="xchat-gnome-prefs">
+    <title>Προτιμήσεις</title>
+    <para>Για να τροποποιήσετε τις προτιμήσεις του <application>XChat-GNOME</application>, επιλέξτε <menuchoice> <guimenu>Επεξεργασία</guimenu> <guimenuitem>Προτιμήσεις</guimenuitem> </menuchoice>. Ο διάλογος <guilabel>Προτιμήσεις</guilabel> περιέχει τις εξής ενότητες:</para>
+    <itemizedlist>
+      <listitem><para><xref linkend="xchat-gnome-prefs-general"/></para></listitem>
+      <listitem><para><xref linkend="xchat-gnome-prefs-colors"/></para></listitem>
+      <listitem><para><xref linkend="xchat-gnome-prefs-transfers"/></para></listitem>
+      <listitem><para><xref linkend="xchat-gnome-prefs-networks"/></para></listitem>
+      <listitem><para><xref linkend="xchat-gnome-prefs-plugins"/></para></listitem>
+    </itemizedlist>
+<!-- =============== Customization Subsection ================ -->
+<!-- Use a new section to describe different tabbed sections on the Settings or Preferences
+	     dialog. -->
+    <sect2 id="xchat-gnome-prefs-general">
+      <title>Προτιμήσεις IRC</title>
+      <variablelist>
+	<varlistentry>
+	  <term><guilabel>Γενικά</guilabel></term>
+	  <listitem>
+	    <para>Εισάγετε το <guilabel>Ψευδώνυμο</guilabel> που θέλετε να χρησιμοποιήσετε στο κανάλι διαδικτυακής μεταγωγής συνομιλίας (IRC).</para>
+	    <para>Εισάγετε το <guilabel>Πραγματικό όνομα</guilabel> σας, που εμφανίζεται στα αιτήματα <command>/whois</command>.</para>
+	    <para>Εισάγετε το <guilabel>Μήνυμα εξόδου</guilabel> που θέλετε να εμφανιστεί στους άλλους χρήστες όταν αφήνετε ένα δίκτυο διαδικτυακής μεταγωγής συνομιλίας (IRC).</para>
+	    <para>Εισάγετε το <guilabel>Τμήμα του μηνύματος</guilabel> που θέλετε να εμφανιστεί στους άλλους χρήστες όταν αφήνετε ένα κανάλι διαδικτυακής μεταγωγής συνομιλίας (IRC) αλλά παραμένετε συνδεμένος σε αυτό το δίκτυο του καναλιού.</para>
+	    <para>Εισάγετε το <guilabel>Μήνυμα απών</guilabel> που θέλετε να εμφανίζεται στα άτομα που προσπαθούν να επικοινωνήσουν με σας όταν λείπετε.</para>
+          </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term><guilabel>Επισήμανση</guilabel></term>
+	  <listitem>
+	    <para>Ορίστε λέξεις ή φράσεις που πρέπει να επισημαίνονται με διαφορετικό χρώμα κειμένου όταν ένας άλλος χρήστης συνομιλίας τις λέει. Αυτό είναι πέρα από το ψευδώνυμό σας, που είναι πάντα τονισμένο.</para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term><guilabel>Χρήση διεπαφής</guilabel></term>
+	  <listitem>
+	    <para>Επιλέξτε την επιλογή <guilabel>Χρήση γραμματοσειράς τερματικού συστήματος</guilabel> για να χρησιμοποιήσετε τις ίδιες γραμματοσειρές όπως το τερματικό του συστήματός σας.</para>
+	    <para>Επιλέξτε την επιλογή <guilabel>Χρήση αυτής της γραμματοσειράς</guilabel> για να ανοίξετε το πλαίσιο διαλόγου επιλογής γραμματοσειράς.</para>
+	    <para>Επιλέξτε την επιλογή <guilabel>Εμφάνιση χρωμάτων</guilabel> για να ενεργοποιήσετε τα ψευδώνυμα χρώματος στην περιοχή συζήτησης.</para>
+	    <para>Επιλέξτε την επιλογή <guilabel>Εμφάνιση χρονικών σημάνσεων</guilabel> για να εμφανίσετε τις χρονικές σημάνσεις της συζήτησης.</para>
+	  </listitem>
+	</varlistentry>
+      </variablelist>
+    </sect2>
+    <sect2 id="xchat-gnome-prefs-colors">
+      <title>Χρώματα</title>
+      <variablelist>
+	<varlistentry>
+	  <term><guilabel>Χρώματα κειμένου</guilabel></term>
+	  <listitem>
+	    <para lang="en">Use the <guilabel>Built-in schemes</guilabel> drop-down box to specify how
+              <application>XChat-GNOME</application> should display the text and background color.
+              Select one of the following options:</para>
+	    <itemizedlist>
+	      <listitem>
+		<para>Χρησιμοποιήστε την επιλογή <guilabel>μαύρο σε λευκό</guilabel> για να δώσετε μαύρο κείμενο σε λευκό παρασκήνιο.</para>
+	      </listitem>
+	      <listitem>
+		<para>Χρησιμοποιήστε την επιλογή <guilabel>λευκό σε μαύρο</guilabel> για να δώσετε λευκό κείμενο σε μαύρο παρασκήνιο.</para>
+	      </listitem>
+	      <listitem>
+		<para>Χρησιμοποιήστε την επιλογή <guilabel>προσαρμοσμένο</guilabel> για να δημιουργήσετε ένα προσαρμοσμένο συνδυασμό χρωμάτων.</para>
+	      </listitem>
+	    </itemizedlist>
+	    <note>
+	      <para>Οι παρακάτω επιλογές μπορούν να αλλαχθούν μόνο αν οι <guilabel>ενσωματωμένοι συνδυασμοί</guilabel> ορίζονται στο <guilabel>προσαρμοσμένο</guilabel>.</para>
+	    </note>
+	    <para>Πατήστε στο πλήκτρο <guilabel>χρώμα προσκηνίου</guilabel> για να εμφανίσετε τον διάλογο επιλογής χρώματος. Επιλέξτε ένα χρώμα προσκηνίου για την περιοχή συζήτησης του <application>XChat-GNOME</application>.</para>
+	    <para>Πατήστε στο πλήκτρο <guilabel>χρώμα παρασκηνίου</guilabel> για να εμφανίσετε τον διάλογο επιλογής χρώματος. Επιλέξτε ένα χρώμα παρασκηνίου για την περιοχή συζήτησης του <application>XChat-GNOME</application>.</para>
+	    <para lang="en">Click on the <guilabel>Foreground mark</guilabel> button to display the color
+              selector dialog.  Select the foreground mark color for the
+              <application>XChat-GNOME</application> discussion area.</para>
+	    <para>Πατήστε στο πλήκτρο <guilabel>Σημάδι παρασκηνίου</guilabel> για να εμφανίσετε τον διάλογο επιλογής χρώματος. Επιλέξτε το χρώμα σημαδιού παρασκηνίου για την περιοχή συζήτησης του <application>XChat-GNOME</application>.</para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term><guilabel>Χρώματα mIRC</guilabel></term>
+	  <listitem>
+	    <para>Επιλέξτε τα πλήκτρα των χρωμάτων που θέλετε να αλλάξετε, για να εμφανίσετε τον διάλογο επιλογής χρώματος.</para>
+	    <note>
+	      <para>Τα χρώματα μπορούν να αλλαχθούν μόνο αν οι <guilabel>ενσωματωμένοι συνδυασμοί</guilabel> ορίζονται στο <guilabel>προσαρμοσμένο</guilabel>.</para>
+	    </note>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term><guilabel>Επιπλέον χρώματα</guilabel></term>
+	  <listitem>
+	    <para>Επιλέξτε τα πλήκτρα των χρωμάτων που θέλετε να αλλάξετε, για να εμφανίσετε τον διάλογο επιλογής χρώματος.</para>
+	    <note>
+	      <para>Τα χρώματα μπορούν να αλλαχθούν μόνο αν οι <guilabel>ενσωματωμένοι συνδυασμοί</guilabel> ορίζονται στο <guilabel>προσαρμοσμένο</guilabel>.</para>
+	    </note>
+	  </listitem>
+	</varlistentry>
+      </variablelist>
+    </sect2>
+    <sect2 id="xchat-gnome-prefs-transfers">
+      <title>Μεταφορές αρχείων &amp; DCC</title>
+      <variablelist>
+	<varlistentry>
+	  <term><guilabel>Μεταφορά αρχείων</guilabel></term>
+	  <listitem>
+	    <para>Χρησιμοποιήστε το πλήκτρο <guilabel>Λήψη αρχείου σε</guilabel> για να επιλέξετε τον φάκελο όπου θέλετε να γίνει η λήψη του αρχείου.</para>
+	    <para>Χρησιμοποιήστε το πλήκτρο <guilabel>Μετακίνηση ολοκληρωμένων αρχείων</guilabel> για να επιλέξετε τον φάκελο όπου θέλετε να μετακινηθούν οι ολοκληρωμένες λήψεις.</para>
+	    <para>Επιλέξτε <guilabel>Μετατροπή διαστημάτων σε υπογράμμιση στα ονόματα αρχείων</guilabel> αν θέλετε να μετατραπούν τα διαστήματα σε υπογραμμίσεις στο όνομα του αρχείου.</para>
+	    <para>Επιλέξτε <guilabel>Αποθήκευση ψευδωνύμου αποστολέων στα ονόματα αρχείων</guilabel> για να προσθέσετε το ψευδώνυμο των αποστολέων στο όνομα του ληφθέντου αρχείου.</para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term><guilabel>Ρυθμίσεις DCC</guilabel></term>
+          <listitem>
+	    <para>Επιλέξτε το <guilabel>Αυτόματη αποδοχή συνομιλίας DCC</guilabel> για να δεχτείτε αυτόματα άμεσες συνομιλίες πελάτη προς πελάτη (DCC).</para>
+	    <para>Επιλέξτε το <guilabel>Αυτόματη αποδοχή μεταφορών αρχείων DCC</guilabel> για να δεχτείτε αυτόματα άμεσες μεταφορές αρχείων πελάτη προς πελάτη (DCC).</para>
+	    <para>Επιλέξτε το <guilabel>Λήψη διεύθυνσης IP από τον διακομιστή</guilabel> για να χρησιμοποιήσετε τους παρόχους σας DNS για να επιλύσουν μια διεύθυνση IP.</para>
+	    <para>Επιλέξτε το <guilabel>Χρήση αυτής της διεύθυνσης IP</guilabel> και εισάγετε τη διεύθυνσή σας IP, για να χρησιμοποιήσετε μια στατική διεύθυνση IP.</para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term><guilabel>Περιορισμός</guilabel></term>
+	  <listitem>
+	    <para>Χρησιμοποιήστε το πλαίσιο αυξομείωσης του <guilabel>Ατομική αποστολή KB/s</guilabel> για να ορίσετε την ατομική μέγιστη ταχύτητα αποστολής.</para>
+	    <para>Χρησιμοποιήστε το πλαίσιο αυξομείωσης του <guilabel>Γενική αποστολή KB/s</guilabel> για να ορίσετε τη γενική μέγιστη ταχύτητα αποστολής.</para>
+	    <para>Χρησιμοποιήστε το πλαίσιο αυξομείωσης του <guilabel>Ατομική λήψη KB/s</guilabel> για να ορίσετε την ατομική μέγιστη ταχύτητα λήψης.</para>
+	    <para>Χρησιμοποιήστε το πλαίσιο αυξομείωσης του <guilabel>Γενική λήψη KB/s</guilabel> για να ορίσετε τη γενική μέγιστη ταχύτητα λήψης.</para>
+	  </listitem>
+	</varlistentry>
+      </variablelist>
+    </sect2>
+    <sect2 id="xchat-gnome-prefs-networks">
+      <title>Δίκτυα</title>
+      <variablelist>
+	<varlistentry>
+	  <term>Διακομιστές διαδικτυακής μεταγωγής συνομιλίας (IRC)</term>
+	  <listitem>
+	    <para>Για να προσθέσετε έναν διακομιστή διαδικτυακής μεταγωγής συνομιλίας (IRC), πατήστε το πλήκτρο <guibutton>Προσθήκη</guibutton> για να ανοίξετε τον διάλογο <guilabel>Ιδιότητες δικτύου</guilabel>. <xref linkend="xchat-gnome-network-properties"/></para>
+	    <para>Για να επεξεργαστείτε έναν διακομιστή διαδικτυακής μεταγωγής συνομιλίας (IRC), πατήστε το πλήκτρο <guibutton>Επεξεργασία</guibutton> για να ανοίξετε τον διάλογο <guilabel>Ιδιότητες δικτύου</guilabel>. <xref linkend="xchat-gnome-network-properties"/></para>
+	    <para>Για να αφαιρέσετε έναν διακομιστή διαδικτυακής μεταγωγής συνομιλίας (IRC), πατήστε το πλήκτρο <guibutton>Αφαίρεση</guibutton>. <xref linkend="xchat-gnome-network-properties"/></para>
+	  </listitem>
+	</varlistentry>
+      </variablelist>
+    </sect2>
+    <sect2 id="xchat-gnome-prefs-plugins">
+      <title>Δέσμες ενεργειών και πρόσθετα</title>
+      <variablelist>
+	<varlistentry>
+	    <term><guilabel>Δέσμες ενεργειών και πρόσθετα</guilabel></term>
+	  <listitem>
+	    <para>Για να ενεργοποιήσετε ή να απενεργοποιήσετε ένα πρόσθετο ή δέσμη ενεργειών, επιλέξτε <guilabel>ενεργοποίηση</guilabel> δίπλα στο κατάλληλο στοιχείο.</para>
+	    <para>Για να προσθέσετε ένα νέο πρόσθετο ή δέσμη ενεργειών, πατήστε το πλήκτρο <guibutton>Άνοιγμα</guibutton> για να ανοίξετε τον διάλογο ανοίγματος αρχείου.</para>
+	    <para lang="en">To remove a plugin or script, select the appropriate item and click on the
+              <guibutton>Remove</guibutton> button .</para>
+	  </listitem>
+	</varlistentry>
+	  <varlistentry>
+	    <term><guilabel>Παρακολούθηση δικτύου</guilabel></term>
+	      <listitem>
+	        <para>Χρησιμοποιήστε τον διαχειριστή δικτύου για να ελέγξετε την κατάσταση σύνδεσης.</para>
+	      </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term><guilabel>Αυτόματη ένδειξη απουσίας</guilabel></term>
+	      <listitem>
+	        <para>Σημειώστε τον εαυτό σας ως απόντα όταν η προφύλαξη οθόνης είναι ενεργή.</para>
+	      </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term><guilabel>Ηχητική ειδοποίηση</guilabel></term>
+	      <listitem>
+	        <para>Αναπαραγωγή μιας ηχητικής ειδοποίησης όταν μια λέξη επισημαίνεται (συμπεριλαμβάνοντας το ψευδώνυμό σας) ή όταν δέχεστε ένα προσωπικό μήνυμα.</para>
+	      </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term><guilabel>Ειδοποίηση</guilabel></term>
+	      <listitem>
+	        <para>Προσθέστε ένα εικονίδιο στην περιοχή ειδοποιήσεων που σας πληροφορεί για συμβάντα στο xchat-gnome.</para>
+	        <note>
+	          <para>Αυτό επιτρέπει σε κάποιον να ελαχιστοποιήσει την περιοχή ειδοποιήσεων αν το <guilabel>Να εμφανίζεται πάντα το εικονίδιο ειδοποίησης</guilabel> είναι επιλεγμένο από τις προτιμήσεις στο <guilabel>Ειδοποίηση</guilabel>.</para>
+	        </note>
+	      </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term><guilabel>Εμφάνιση στην οθόνη</guilabel></term>
+	      <listitem>
+	        <para>Εμφανίστε ένα πλαίσιο ειδοποίησης όταν μια λέξη επισημαίνεται (συμπεριλαμβάνοντας το ψευδώνυμό σας) ή όταν δέχεστε ένα προσωπικό μήνυμα.</para>
+	      </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term><guilabel>Καταγραφέας διευθύνσεων</guilabel></term>
+	      <listitem>
+	        <para>Εμφανίστε όλες τις διευθύνσεις από τη συζήτησή σας σε ένα άσχημο πλαίσιο.</para>
+	      </listitem>
+	  </varlistentry>
+      </variablelist>
+    </sect2>
+  </sect1>
+  <sect1 id="xchat-gnome-network-properties">
+    <title>Ιδιότητες δικτύου</title>
+    <para>Ο διάλογος <guilabel>Ιδιότητες δικτύου</guilabel> για το <application>XChat-GNOME</application>, σας επιτρέπει να ορίσετε τις ιδιότητες για έναν διακομιστή διαδικτυακής μεταγωγής συνομιλίας (IRC) και περιέχει τις ακόλουθες καρτέλες:</para>
+    <itemizedlist>
+      <listitem><para><xref linkend="xchat-gnome-network-settings"/></para></listitem>
+      <listitem><para><xref linkend="xchat-gnome-network-users"/></para></listitem>
+      <listitem><para><xref linkend="xchat-gnome-network-servers"/></para></listitem>
+    </itemizedlist>
+    <sect2 id="xchat-gnome-network-settings">
+      <title>Ρυθμίσεις δικτύου</title>
+        <variablelist>
+	  <varlistentry>
+	    <term><guilabel>Γενικά</guilabel></term>
+	    <listitem>
+	      <para>Εισάγετε το <guilabel>Όνομα</guilabel> για τον διακομιστή διαδικτυακής μεταγωγής συνομιλίας (IRC).</para>
+	      <para>Επιλέξτε το <guilabel>Αυτόματη σύνδεση στο δίκτυο</guilabel> για να συνδεθείτε με ένα δίκτυο όταν ξεκινήσει το <application>XChat-GNOME</application>.</para>
+	      <para>Επιλέξτε το <guilabel>Χρήση ασφαλούς σύνδεσης (SSL)</guilabel> για να συνδεθείτε με Secure Socket Layer (SSL).</para>
+	      <para>Επιλέξτε το <guilabel>Επανάληψη μέχρι να συνδεθείτε</guilabel> για να συνεχίσετε τις προσπάθειες σύνδεσης με το δίκτυο, μέχρι να επιτευχθεί.</para>
+	      <para>Χρησιμοποιήστε το πτυσσόμενο πλαίσιο <guilabel>Κωδικοποίηση χαρακτήρων</guilabel> για να ορίσετε ποια κωδικοποίηση χαρακτήρων του <application>XChat-GNOME</application> να χρησιμοποιήσετε.</para>
+	      <para>Εισάγετε τον <guilabel>Κωδικό πρόσβασης διακομιστή</guilabel>, αν ο διακομιστής διαδικτυακής μεταγωγής συνομιλίας (IRC) το απαιτεί.</para>
+	    </listitem>
+	  </varlistentry>
+	</variablelist>
+    </sect2>
+    <sect2 id="xchat-gnome-network-users">
+      <title>Χρήστες και Κανάλια</title>
+        <variablelist>
+	  <varlistentry>
+	    <term><guilabel>Πληροφορίες χρηστών</guilabel></term>
+	    <listitem>
+	      <para>Επιλέξτε το <guilabel>Χρήση καθολικών ρυθμίσεων χρήστη</guilabel> για να χρησιμοποιήσετε τις καθολικές χρησιμοποιούμενες ρυθμίσεις στην ενότητα <guilabel>Γενικά</guilabel> του <xref linkend="xchat-gnome-prefs-general"/>.</para>
+	      <para>Επιλέξτε το <guilabel>Χρήση των ρυθμίσεων χρήστη</guilabel> για να ορίσετε το <guilabel>Ψευδώνυμο</guilabel> και το <guilabel>Πραγματικό όνομα</guilabel> ειδικό για αυτόν τον διακομιστή διαδικτυακής μεταγωγής συνομιλίας (IRC).</para>
+	    </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term><guilabel>Αυτόματη σύνδεση καναλιών</guilabel></term>
+	    <listitem>
+	      <para>Πατήστε το πλήκτρο <guibutton>Προσθήκη</guibutton> για να προσθέσετε ένα νέο κανάλι.</para>
+	      <para>Πατήστε το πλήκτρο <guibutton>Επεξεργασία</guibutton> για να επεξεργαστείτε το επιλεγμένο κανάλι.</para>
+	      <para>Πατήστε το πλήκτρο <guibutton>Αφαίρεση</guibutton> για να αφαιρέσετε το επιλεγμένο κανάλι.</para>
+	      <note><para>Το όνομα του καναλιού πρέπει να ξεκινά με το σύμβολο (#).</para></note>
+	    </listitem>
+         </varlistentry>
+        </variablelist>
+      </sect2>
+      <sect2 id="xchat-gnome-network-servers">
+        <title>Διακομιστές</title>
+          <variablelist>
+	    <varlistentry>
+	      <term>Διακομιστές</term>
+	      <listitem>
+	        <para>Πατήστε το πλήκτρο <guibutton>Προσθήκη</guibutton> για να προσθέσετε έναν νέο διακομιστή διαδικτυακής μεταγωγής συνομιλίας (IRC).</para>
+	        <para>Πατήστε το πλήκτρο <guibutton>Επεξεργασία</guibutton> για να επεξεργαστείτε τον επιλεγμένο διακομιστή διαδικτυακής μεταγωγής συνομιλίας (IRC).</para>
+	        <para>Πατήστε το πλήκτρο <guibutton>Αφαίρεση</guibutton> για να αφαιρέσετε τον επιλεγμένο διακομιστή διαδικτυακής μεταγωγής συνομιλίας (IRC).</para>
+               <note><para lang="en">To specify custom port use (/) as separator, as "host/port" </para></note>
+	      </listitem>
+	    </varlistentry>
+	</variablelist>
+      </sect2>
+    </sect1>
+
+<!-- ============= About ================================== -->
+<!-- This section contains info about the program (not docs), such as
+      author's name(s), web page, license, feedback address. This
+      section is optional: primary place for this info is "About.." box of
+      the program. However, if you do wish to include this info in the
+      manual, this is the place to put it. Alternatively, you can put this information in the title page.-->
+  <sect1 id="xchat-gnome-about">
+    <title>Περί του <application>XChat-GNOME</application></title>
+    <para>Για να βρείτε περισσότερες πληροφορίες για το <application>XChat-GNOME</application>, παρακαλούμε επισκεφτείτε την <ulink url="http://live.gnome.org/Xchat-Gnome" type="http">ιστοσελίδα XChat-GNOME</ulink>.</para>
+    <para>Για αναφορά σφάλματος ή υποβολή πρότασης σχετικά με αυτή την εφαρμογή ή αυτό το εγχειρίδιο, δείτε την ενότητα ανατροφοδότησης του <ulink url="ghelp:user-guide?feedback-bugs" type="help">οδηγού χρήστη GNOME</ulink>.</para>
+
+    <para>Αυτό το πρόγραμμα διανέμεται υπό τους όρους της Γενικής Άδειας Δημόσιας Χρήσης GNU (GPL), όπως αυτή έχει δημοσιευτεί από το Ίδρυμα Ελεύθερου Λογισμικού (FSS) — είτε της έκδοσης 2 της Άδειας, είτε (κατ' επιλογήν σας) οποιασδήποτε μεταγενέστερης έκδοσης. Αντίγραφο της άδειας είναι διαθέσιμο στον ακόλουθο <ulink url="ghelp:gpl" type="help">σύνδεσμο</ulink>, ή στο αρχείο COPYING που διανέμεται μαζί με τον πηγαίο κώδικα αυτού του προγράμματος.</para>
+
+  </sect1>
+</article>

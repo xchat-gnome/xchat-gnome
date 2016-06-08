@@ -1,0 +1,4701 @@
+# translation of xchat-gnome.master.ta.po to Tamil
+# translation of xchat-gnome.HEAD.ta.po to
+# translation of xchat-gnome.HEAD.po to
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# I. Felix <ifelix@redhat.com>, 2008, 2009.
+# Dr.T.vasudevan <agnihot3@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: xchat-gnome.master.ta\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=xchat-gnome&component=general\n"
+"POT-Creation-Date: 2009-10-23 18:40+0000\n"
+"PO-Revision-Date: 2009-10-30 12:32+0530\n"
+"Last-Translator: I. Felix <ifelix@redhat.com>\n"
+"Language-Team: Tamil <fedora-trans-ta@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\\n\n"
+"\n"
+"\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../data/channel-list.glade.h:1
+msgid "<span weight=\"bold\">List Filtering</span>"
+msgstr "<span weight=\"bold\"> பட்டியல் வடிப்பு</span>"
+
+#: ../data/channel-list.glade.h:2
+msgid "Channel _Name"
+msgstr "(_N) வாய்க்கால்  பெயர்"
+
+#: ../data/channel-list.glade.h:3
+msgid "Channel _Topic"
+msgstr "(_T) வாய்க்கால்  தலைப்பு"
+
+#: ../data/channel-list.glade.h:4
+msgid "Channels list"
+msgstr "வாய்க்கால்கள் பட்டியல்"
+
+#: ../data/channel-list.glade.h:5
+msgid "Join channel:"
+msgstr "வாய்காலில் சேர்:"
+
+#: ../data/channel-list.glade.h:6
+msgid "Search for text:"
+msgstr "உரைக்கு தேடு:"
+
+#: ../data/channel-list.glade.h:7
+msgid "Show channels with:"
+msgstr "வாக்கால்களை இதனால் காட்டு:"
+
+#: ../data/channel-list.glade.h:8
+msgid "_Join Channel"
+msgstr "சேனலில் சேர் (_J)"
+
+#. Part of channel filtering, to select whether to filter "in  [ ] channel topic  [ ] channel name".  Yes, I know it's hard to translate.  Send suggestions to trowbrds@gmail.com :P
+#: ../data/channel-list.glade.h:10
+msgid "in:"
+msgstr "இதில்.:"
+
+#. Part of "Show channels with [  ] to [  ] users".  Yes, I know it's hard to translate.  Send suggestions to trowbrds@gmail.com :P
+#: ../data/channel-list.glade.h:12
+msgid "to"
+msgstr "பெறுநர்"
+
+#: ../data/channel-list.glade.h:13
+msgid "users"
+msgstr "பயனர்கள் "
+
+#: ../data/connect-dialog.glade.h:1 ../src/fe-gnome/connect-dialog.c:157
+msgid "C_onnect"
+msgstr "இணை (_o)"
+
+#: ../data/dcc-window.glade.h:1 ../src/fe-gnome/dcc-window.c:116
+msgid "File Transfers"
+msgstr "கோப்பு இடமாற்றங்கள்"
+
+#: ../data/irc-network-editor.glade.h:1
+msgid "<span weight=\"bold\">Automatically Join Channels</span>"
+msgstr "<span weight=\"bold\"> தானியங்கியாக வாய்க்கால்கள் ஐ சேர் </span>"
+
+#: ../data/irc-network-editor.glade.h:2
+msgid "<span weight=\"bold\">User Info</span>"
+msgstr "<span weight=\"bold\"> பயனர் தகவல்</span>"
+
+#: ../data/irc-network-editor.glade.h:3
+msgid "Accept invalid _SSL certificate"
+msgstr "செல்லுபடியாகாத  _SSL சான்றிதழ் ஐ ஏற்றுக்கொள் "
+
+#: ../data/irc-network-editor.glade.h:4
+msgid "Character _encoding:"
+msgstr "(_e) எழுத்து குறியாக்கம்:"
+
+#: ../data/irc-network-editor.glade.h:5
+msgid "Cycle _until connected"
+msgstr "(_u) இணைப்பு பெறும் வரை சுழற்றுக "
+
+#: ../data/irc-network-editor.glade.h:6
+msgid "Network Settings"
+msgstr "பிணைய அமைப்புகள்"
+
+#: ../data/irc-network-editor.glade.h:7
+msgid "Nickser_v password:"
+msgstr "(_v) நிக்செர்வ் இன் கடவுச்சொல்:"
+
+#: ../data/irc-network-editor.glade.h:8
+msgid "Server _password:"
+msgstr "(_p) சேவையக  கடவுச்சொல்:"
+
+#: ../data/irc-network-editor.glade.h:9
+msgid "Servers"
+msgstr "சேவையகங்கள்"
+
+#: ../data/irc-network-editor.glade.h:10
+msgid "Use _global user settings"
+msgstr "(_g) பொது பயனர் வடிவமைப்பை பயன்படுத்துக:"
+
+#: ../data/irc-network-editor.glade.h:11
+msgid "Use _these user settings:"
+msgstr "(_t) பயனர் வடிவமைப்பை பயன்படுத்துக:"
+
+#: ../data/irc-network-editor.glade.h:12
+msgid "User and Channels"
+msgstr "பயனர் மற்றும் வாய்க்கால்கள்"
+
+#: ../data/irc-network-editor.glade.h:13
+msgid "_Automatically connect to network"
+msgstr "தானியங்கியாக வலைபின்னலுக்கு இணை"
+
+#: ../data/irc-network-editor.glade.h:14
+msgid "_Name:"
+msgstr "(_N) பெயர்:"
+
+#: ../data/irc-network-editor.glade.h:15 ../data/setup-dialog.glade.h:5
+msgid "_Nick name:"
+msgstr "புனைபெயர் (_N):"
+
+#: ../data/irc-network-editor.glade.h:16
+msgid "_Real Name:"
+msgstr "(_R) உண்மையான பெயர்:"
+
+#: ../data/irc-network-editor.glade.h:17
+msgid "_Use secure connection (SSL)"
+msgstr "பாதுகாப்பான இணைப்பை பயன்படுத்து."
+
+#: ../data/preferences-dialog.glade.h:1
+msgid "<span size=\"small\" style=\"italic\">Opaque</span>"
+msgstr "<span size=\"small\" style=\"italic\">ஒளிபுகாத்தன்மை</span>"
+
+#: ../data/preferences-dialog.glade.h:2
+msgid "<span size=\"small\" style=\"italic\">Transparent</span>"
+msgstr "<span size=\"small\" style=\"italic\"> ஒளிபுகும்தன்மை</span>"
+
+#: ../data/preferences-dialog.glade.h:3
+msgid "<span weight=\"bold\">Background</span>"
+msgstr "<span weight=\"bold\"> பின்புலம்</span>"
+
+#: ../data/preferences-dialog.glade.h:4
+msgid "<span weight=\"bold\">DCC Settings</span>"
+msgstr "<span weight=\"bold\"> டிசிசி (டிசிசி(DCC) ) அமைப்புகள்</span>"
+
+#: ../data/preferences-dialog.glade.h:5
+msgid "<span weight=\"bold\">Extra Colors</span>"
+msgstr "<span weight=\"bold\"> கூடுதல் வண்ணங்கள்</span>"
+
+#: ../data/preferences-dialog.glade.h:6
+msgid "<span weight=\"bold\">File Transfers</span>"
+msgstr "<span weight=\"bold\"> கோப்பு பறிமாற்றங்கள்</span>"
+
+#: ../data/preferences-dialog.glade.h:7
+msgid "<span weight=\"bold\">General</span>"
+msgstr "<span weight=\"bold\">பொதுவான</span>"
+
+#: ../data/preferences-dialog.glade.h:8
+msgid "<span weight=\"bold\">Highlighting</span>"
+msgstr "<span weight=\"bold\">சிறப்புச்சுட்டல்</span>"
+
+#: ../data/preferences-dialog.glade.h:9
+msgid "<span weight=\"bold\">Text Colors</span>"
+msgstr "<span weight=\"bold\">உரை வண்ணங்கள்</span>"
+
+#: ../data/preferences-dialog.glade.h:10
+msgid "<span weight=\"bold\">Throttling</span>"
+msgstr "<span weight=\"bold\">மட்டுப்படுத்துகிறது</span>"
+
+#: ../data/preferences-dialog.glade.h:11
+msgid "<span weight=\"bold\">User Interface</span>"
+msgstr "<span weight=\"bold\">பயனர் இடைமுகம்</span>"
+
+#: ../data/preferences-dialog.glade.h:12
+msgid "<span weight=\"bold\">mIRC Colors</span>"
+msgstr "<span weight=\"bold\">எம்ஐஆர்சி வண்ணங்கள்</span>"
+
+#: ../data/preferences-dialog.glade.h:13
+msgid "A_way message:"
+msgstr "(_w) வெளியே செய்தி:"
+
+#: ../data/preferences-dialog.glade.h:14
+msgid "Auto-accept DCC c_hat"
+msgstr "(_h) தானியங்கியாய் ஒப்புக்கொள் டிசிசி (டிசிசி(DCC) ) அரட்டை"
+
+#: ../data/preferences-dialog.glade.h:15
+msgid "Auto-accept DCC file tr_ansfers"
+msgstr "(_h) தானியங்கியாய் ஒப்புக்கொள் கோப்பு பறிமாற்றங்கள்"
+
+#: ../data/preferences-dialog.glade.h:16
+msgid "Background mark:"
+msgstr "பின்புல  குறி:"
+
+#: ../data/preferences-dialog.glade.h:17
+msgid "Buil_t-in schemes:"
+msgstr "(_t) உள்ளமை திட்டங்கள்:"
+
+#: ../data/preferences-dialog.glade.h:18
+msgid "Convert spaces to _underscores in filenames"
+msgstr "(_u) கோப்பு பெயர்களில் இடைவெளிகளை கீழ்கோடாக்கவும்"
+
+#: ../data/preferences-dialog.glade.h:19
+msgid "Enter extra words to trigger highlighting"
+msgstr "சிறப்புச்சுட்டுக்கு கூடுதல் சொற்களை உள்ளிடுக"
+
+#: ../data/preferences-dialog.glade.h:20
+msgid "Foreground mark:"
+msgstr "முன்புலக் குறி:"
+
+#: ../data/preferences-dialog.glade.h:21
+msgid "Get IP address from _server"
+msgstr "சேவையகத்தில் இருந்து ஐபி முகவரியை பெறுக"
+
+#: ../data/preferences-dialog.glade.h:22
+msgid "Glo_bal receive KB/s: "
+msgstr "(_b) பொதுவான பெறும் வேகம் KB/s: "
+
+#: ../data/preferences-dialog.glade.h:23
+msgid "I_mage file:"
+msgstr "(_m) பிம்ப கோப்பு:"
+
+#: ../data/preferences-dialog.glade.h:24
+msgid "In_dividual send KB/s: "
+msgstr "(_d) தனி நபர் அனுப்பும் வேகம் KB/s: "
+
+#: ../data/preferences-dialog.glade.h:25
+msgid "Indi_vidual receive KB/s: "
+msgstr "(_v) தனி நபர் அனுப்பும் வேகம் KB/s: "
+
+#: ../data/preferences-dialog.glade.h:26
+msgid "Move co_mpleted files to:"
+msgstr "(_m) முழுமையான கோப்புகளை இங்கே நகர்த்து:"
+
+#: ../data/preferences-dialog.glade.h:27
+msgid "Preferences"
+msgstr "விருப்பங்கள்"
+
+#: ../data/preferences-dialog.glade.h:28
+msgid "Real na_me:"
+msgstr "(_m) உண்மைப்பெயர்:"
+
+#: ../data/preferences-dialog.glade.h:29
+msgid "Save sender _nickname in filenames"
+msgstr "(_n) அனுப்புனரின் செல்லப்பெயரை கோப்புகளின் பெயருடன் சேமி "
+
+#: ../data/preferences-dialog.glade.h:30
+msgid "Select Completed Files Directory"
+msgstr "முடிவுற்ற கோப்புகளுக்கான  அடைவு தேர்வு  செய்க"
+
+#: ../data/preferences-dialog.glade.h:31
+msgid "Select Download Directory"
+msgstr "தரவிறக்க அடைவு  தேர்வு  செய்க"
+
+#: ../data/preferences-dialog.glade.h:32
+msgid "Show _timestamps"
+msgstr "(_t) நேரப்பதிவை காட்டு"
+
+#: ../data/preferences-dialog.glade.h:33
+msgid "Show m_arker line"
+msgstr "(_a) குறியீட்டு கோடை காட்டு"
+
+#: ../data/preferences-dialog.glade.h:34
+msgid ""
+"To edit a shortcut key, click on the corresponding row and type a new "
+"accelerator, or press backspace to clear."
+msgstr ""
+"ஒரு குறுக்குவழி விசையை திருத்த, அதனை சார்ந்த வரிசையில் சொடுக்கி, புதிய விரைவியை "
+"தட்டச்சு செய்யவும், அல்லது பின்னோக்கு விசையை அழுத்தி துடைக்கவும்"
+
+#: ../data/preferences-dialog.glade.h:35
+msgid "Use _system terminal font"
+msgstr "(_s) கணினி முனைய எழுத்துருவை பயன்படுத்துக"
+
+#: ../data/preferences-dialog.glade.h:36
+msgid "Use t_his IP address:"
+msgstr "(_h) இந்த ஐபி முகவரியை பயன்படுத்துக:"
+
+#: ../data/preferences-dialog.glade.h:37
+msgid "Use this f_ont:"
+msgstr "(_o) இந்த எழுத்துருவை பயன்படுத்துக:"
+
+#: ../data/preferences-dialog.glade.h:38
+msgid "_Background color:"
+msgstr "(_B) பின்புல வண்ணம்:"
+
+#: ../data/preferences-dialog.glade.h:39
+msgid "_Background image"
+msgstr "(_B) பின்புல  பிம்பம்"
+
+#: ../data/preferences-dialog.glade.h:40
+msgid "_Colorize nicknames"
+msgstr "(_C) செல்லப்பெயர்களை நிறப்படுத்து"
+
+#: ../data/preferences-dialog.glade.h:41
+msgid "_Download files to:"
+msgstr "(_D) கோப்புகளை இங்கு தரவிறக்கு:"
+
+#: ../data/preferences-dialog.glade.h:42 ../src/fe-gnome/main-window.c:98
+msgid "_Edit"
+msgstr "திருத்து (_E)"
+
+#: ../data/preferences-dialog.glade.h:43
+msgid "_Foreground color:"
+msgstr "முன்புல  நிறம் (_F):"
+
+#: ../data/preferences-dialog.glade.h:44
+msgid "_Global send KB/s: "
+msgstr "(_G) பொதுவாக அனுப்பும் வேகம் KB/s: "
+
+#: ../data/preferences-dialog.glade.h:45
+msgid "_Log conversations"
+msgstr "(_L) உரையாடல்களை பதிவு செய்க "
+
+#: ../data/preferences-dialog.glade.h:46
+msgid "_Nickname:"
+msgstr "புனைப்பெயர்:"
+
+#: ../data/preferences-dialog.glade.h:47
+msgid "_None (use solid color)"
+msgstr "(_N) ஒன்றுமில்லை (அடர்த்தியான நிறத்தை பயன்படுத்துக)"
+
+#: ../data/preferences-dialog.glade.h:48
+msgid "_Part message:"
+msgstr "(_P) பகுதி செய்தி:"
+
+#: ../data/preferences-dialog.glade.h:49
+msgid "_Quit message:"
+msgstr "(_Q) வெளிச்செல் செய்திகள்:"
+
+#: ../data/preferences-dialog.glade.h:50
+msgid "_Show colors"
+msgstr "(_S) நிறங்களை காட்டுக"
+
+#: ../data/preferences-dialog.glade.h:51
+msgid "_Transparent background"
+msgstr "(_T) ஒளிபுகும் பின்புலம் "
+
+#: ../data/preferences-dialog.glade.h:52
+msgid "spell checking"
+msgstr "எழுத்துப்பிழை திருத்தம்"
+
+#: ../data/setup-dialog.glade.h:1
+msgid ""
+"Welcome to XChat-GNOME! Since this is your first time using this "
+"application, there are a couple things you'll need to configure before you "
+"can get started.\n"
+"\n"
+"These are the names by which you'll be recognized on IRC. Your nick name is "
+"the name by which you'll be known, whereas the real name is useful for "
+"things such as registering with services. You do not have to use your real "
+"name if you do not want to."
+msgstr ""
+"எக்ஸ்சாட் க்னோம் க்கு நல்வரவு ! .இந்த நிரலுக்கு  இது உங்கள் முதல் பயன்பாடு ஆகையால் "
+"துவக்குமுன் சில விஷயங்களை நீங்கள் வடிவமைக்க வேண்டும். பின் வருவன ஐஆர்சியில் அடையாளம் "
+"காணப்படும் உங்கள்கு பெயர்கள்.உங்கள் புனை பெயர் மற்றவர் உங்களை அறியும் பெயர். உங்கள் "
+"உண்மைப்பெயர் சேவைகளுக்கான பதிவு பெயர். உங்களுக்கு விருப்பமில்லாவிட்டால் உங்கள் உண்மை பெயரை "
+"பயன்படுத்த வேண்டாம்."
+
+#: ../data/setup-dialog.glade.h:4
+msgid "XChat-GNOME Setup"
+msgstr "எக்ஸ்சாட் க்னோம் அமைப்பு"
+
+#: ../data/setup-dialog.glade.h:6
+msgid "_Real name:"
+msgstr "(_R) உண்மையான பெயர்:"
+
+#: ../data/topic-change.glade.h:1
+msgid "Change"
+msgstr "மாற்று"
+
+#: ../data/xchat-gnome.desktop.in.in.h:1
+msgid "Chat with people using IRC"
+msgstr "மக்களுடன் ஐஆர்சி ஐ பயன்படுத்தி அரட்டை அடி"
+
+#: ../data/xchat-gnome.desktop.in.in.h:2 ../src/fe-gnome/fe-gnome.c:121
+msgid "IRC Chat"
+msgstr "ஐஆர்சி அரட்டை"
+
+#: ../data/xchat-gnome.desktop.in.in.h:3 ../data/xchat-gnome.glade.h:8
+#: ../plugins/sound-notification/sound-notification.c:45
+msgid "XChat-GNOME IRC Chat"
+msgstr "எக்ஸ்சாட் க்னோம் ஐஆர்சி அரட்டை"
+
+#: ../data/xchat-gnome.glade.h:1
+msgid "Apply on all _servers"
+msgstr "(_s) அனைத்து சேவையகங்களுக்கும் பயன்படுத்து"
+
+#: ../data/xchat-gnome.glade.h:2
+msgid "C_hange"
+msgstr "(_h) மாற்றுக"
+
+#: ../data/xchat-gnome.glade.h:3
+msgid "Change _nickname to:"
+msgstr "புனைபெயரை இதற்கு மாற்று :"
+
+#: ../data/xchat-gnome.glade.h:4
+msgid "Close this discussion"
+msgstr "இந்த கலந்துரையாடலை மூடவும்"
+
+#: ../data/xchat-gnome.glade.h:5
+msgid "Mark as _away"
+msgstr "(_a) வெளியே எனக்குறி"
+
+#: ../data/xchat-gnome.glade.h:6 ../src/common/text.c:887
+#: ../src/common/text.c:893 ../src/common/text.c:900 ../src/common/text.c:1088
+#: ../src/common/text.c:1095 ../src/common/text.c:1100
+#: ../src/common/text.c:1105 ../src/common/text.c:1110
+#: ../src/common/text.c:1116 ../src/common/text.c:1121
+#: ../src/common/text.c:1125 ../src/common/text.c:1131
+#: ../src/common/text.c:1137 ../src/common/text.c:1183
+#: ../src/common/text.c:1194 ../src/common/text.c:1199
+#: ../src/common/text.c:1204 ../src/common/text.c:1213
+#: ../src/common/text.c:1224 ../src/common/text.c:1231
+#: ../src/common/text.c:1237 ../src/common/text.c:1242
+#: ../src/common/text.c:1247 ../src/common/text.c:1254
+#: ../src/common/text.c:1260 ../src/common/text.c:1266
+#: ../src/common/text.c:1271 ../src/common/text.c:1276
+#: ../src/common/text.c:1280 ../src/common/text.c:1286
+#: ../src/common/text.c:1294 ../src/common/text.c:1328
+#: ../src/common/text.c:1333
+msgid "Nickname"
+msgstr "புனைப்பெயர்"
+
+#: ../data/xchat-gnome.glade.h:7 ../src/common/text.c:1160
+#: ../src/fe-gnome/channel-list-window.c:447 ../src/fe-gnome/userlist.c:312
+msgid "Users"
+msgstr "பயனர்கள்"
+
+#: ../data/xchat-gnome.glade.h:9
+msgid "nickname"
+msgstr "புனைப்பெயர்"
+
+#: ../plugins/autoaway/autoaway.c:216
+msgid "Auto Away"
+msgstr "தானியங்கி வெளியில்"
+
+#: ../plugins/autoaway/autoaway.c:217
+msgid "Automatically go away / come back"
+msgstr "தானியங்கியாக செல்லுதல் /மீண்டும் வருதல்"
+
+#: ../plugins/net-monitor/net-monitor.c:39
+msgid "Network Monitor"
+msgstr "பிணைய கண்காணிப்பு"
+
+#: ../plugins/net-monitor/net-monitor.c:40
+msgid "NetworkManager connection monitor"
+msgstr "பிணைய மேலாளர் இணைப்பு கண்காணிப்பு"
+
+#: ../plugins/net-monitor/net-monitor.c:352
+#, c-format
+msgid "%s loaded successfully\n"
+msgstr "%s  வெற்றிகரமாக ஏற்றப்பட்டது\n"
+
+#: ../plugins/notification/notification.c:150
+#: ../plugins/notification/preferences-page-plugin-notification.c:127
+msgid "Notification"
+msgstr "அறிவிப்பு"
+
+#: ../plugins/notification/notification.c:151
+msgid "A notification area plugin."
+msgstr "அறிவிப்பு இட சொருகி."
+
+#: ../plugins/notification/notification.c:214
+msgid "Notification plugin loaded.\n"
+msgstr "அறிவிப்பு சொருகி ஏற்றப்பட்டது \n"
+
+#: ../plugins/notification/notification.c:235
+msgid "Notification plugin unloaded.\n"
+msgstr "அறிவிப்பு சொருகி இறக்கப்பட்டது \n"
+
+#: ../plugins/notification/notification.schemas.in.h:1
+msgid "Level of the messages that require a notification"
+msgstr "அறிவிப்பு தேவைப்படும் செய்திகளின் மட்டம் "
+
+#: ../plugins/notification/notification.schemas.in.h:2
+msgid ""
+"Messages are classified according to their importance. Select level of "
+"messages above which the notification icon will be displayed. Valid values "
+"are: \"0\" (always displayed), \"1\" (all messages including information), "
+"\"2\" (all channel messages), \"3\" (only private or highlighted messages)."
+msgstr ""
+"செய்திகள் அவற்றின் முக்கியத்துவத்தை பொருத்து பிரிக்கப்படும். அறிவிப்பு சின்னம் என்வற்றின் மேல் "
+"காட்டப்பட வேண்டுமோ அந்த மட்டதை குறிப்பிடுக. செல்லுபடியாகும் மதிப்பெண்கள்: \"0"
+"\" (எப்போதும் காட்டப்படும்.), \"1\" ( தகவல் அடங்கி உள்ள செய்தி) \"2\" (அனைத்து  "
+"வாய்க்கால் செய்திகளும்), \"3\" (அந்தரங்க செய்தி மட்டும்.)"
+
+#: ../plugins/notification/preferences-notification.glade.h:1
+msgid "<span weight=\"bold\">Notification level</span>"
+msgstr "<span weight=\"bold\"> அறிவிப்பு மட்டம்</span>"
+
+#: ../plugins/notification/preferences-notification.glade.h:2
+msgid "Notify each _event"
+msgstr "(_e) ஒவ்வொரு நிகழ்வையும் அறிவி"
+
+#: ../plugins/notification/preferences-notification.glade.h:3
+msgid "Notify each _message"
+msgstr "(_m) ஒவ்வொரு செய்தியையும் அறிவி"
+
+#: ../plugins/notification/preferences-notification.glade.h:4
+msgid "Notify only _private messages"
+msgstr "(_p) அந்தரங்க செய்தியை மட்டும் அறிவி"
+
+#: ../plugins/notification/preferences-notification.glade.h:5
+msgid "_Always display notification icon"
+msgstr "(_A) எப்போதும் அறிவிப்பு சின்னத்தை காட்டுக"
+
+#: ../plugins/notify-osd/notify-osd.c:30
+msgid "On-screen display"
+msgstr "திரையில் காட்சி"
+
+#: ../plugins/notify-osd/notify-osd.c:32
+msgid ""
+"Pops up notification of important messages when XChat-GNOME doesn't have the "
+"focus"
+msgstr "எக்ஸ்சாட் க்னோம் முனைப்பில் இல்ல்லாத போது முக்கிய செய்திகளை துள்ளு சாளரத்தில் காட்டும் "
+
+#: ../plugins/notify-osd/notify-osd.c:57
+#, c-format
+msgid "Error closing notification: %s\n"
+msgstr "அறிவிப்பை மூடுவதில் பிழை: %s\n"
+
+#: ../plugins/notify-osd/notify-osd.c:74
+#, c-format
+msgid "Failed to send notification: %s\n"
+msgstr "அறிவிப்பு அனுப்புவது தோல்வியுற்றது: %s\n"
+
+#: ../plugins/notify-osd/notify-osd.c:116
+#: ../plugins/notify-osd/notify-osd.c:142
+#, c-format
+msgid "Message in %s"
+msgstr "%s இல் செய்தி"
+
+#: ../plugins/notify-osd/notify-osd.c:118
+#: ../plugins/notify-osd/notify-osd.c:144
+#, c-format
+msgid "Message from %s"
+msgstr "%s இடமிருந்து தகவல்"
+
+#: ../plugins/notify-osd/notify-osd.c:163
+#, c-format
+msgid "Private Message from %s"
+msgstr "%s இடமிருந்து தனிப்பட்ட செய்தி"
+
+#: ../plugins/notify-osd/notify-osd.c:210
+msgid "OSD loaded\n"
+msgstr "ஓஎஸ்டி (OSD) ஏற்றப்பட்டது\n"
+
+#: ../plugins/notify-osd/notify-osd.c:214
+msgid "OSD initialization failed\n"
+msgstr "OSD துவக்கம் தோல்வியுற்றது\n"
+
+#: ../plugins/perl/perl.c:1372
+msgid "Perl"
+msgstr "பெர்ல்"
+
+#: ../plugins/perl/perl.c:1373
+msgid "Perl scripting interface"
+msgstr "பெர்ல் குறியாக்க இடைமுகம்"
+
+#: ../plugins/python/python.c:2090
+msgid "Python"
+msgstr "பைத்தான்"
+
+#: ../plugins/python/python.c:2092
+msgid "Python scripting interface"
+msgstr "பைத்தான் குறியாக்க இடைமுகம்"
+
+#: ../plugins/url_scraper/urlscraper.c:44
+msgid "xchat URL scraper"
+msgstr "எக்ஸ்சாட் யூஆர்எல்(URL) காணி "
+
+#: ../plugins/url_scraper/urlscraper.c:58 ../src/common/xchat.c:858
+msgid "Time"
+msgstr "நேரம்"
+
+#: ../plugins/url_scraper/urlscraper.c:63 ../src/common/text.c:946
+msgid "Nick"
+msgstr "புனை"
+
+#: ../plugins/url_scraper/urlscraper.c:67 ../src/common/text.c:913
+#: ../src/common/text.c:917 ../src/common/text.c:1348
+#: ../src/fe-gnome/irc-network-editor.c:318
+msgid "Channel"
+msgstr "வாய்க்கால் "
+
+#: ../plugins/url_scraper/urlscraper.c:72
+msgid "URL"
+msgstr "யூஆர்எல்(URL)"
+
+#: ../plugins/url_scraper/urlscraper.c:154
+msgid "URL Scraper"
+msgstr "யூஆர்எல்(URL) காணி"
+
+#: ../plugins/url_scraper/urlscraper.c:155
+msgid "Grabs URLs and puts them in a separate window for easy viewing."
+msgstr "சுலபமாக காண யூஆரெல்களை பிடித்து அவற்றை தனி சாளரம் ஒன்றில் இடவும்."
+
+#: ../plugins/url_scraper/urlscraper.c:200
+msgid "URL Scraper failed to load: couldn't compile URL regex.\n"
+msgstr "யூஆர்எல்(URL) காணி ஏற்றப்படவில்லை: யூஆர்எல்(URL) வழமையான சொல் ஐ தொகுக்க முடியவில்லை.\n"
+
+#: ../plugins/url_scraper/urlscraper.c:206
+msgid "URL Scraper failed to load: couldn't compile e-mail regex.\n"
+msgstr "யூஆர்எல்(URL) காணி ஏற்றப்படவில்லை: மின்னஞ்சலின் வழமையான சொல் ஐ தொகுக்க முடியவில்லை.\n"
+
+#: ../plugins/url_scraper/urlscraper.c:221
+msgid "URL Scraper loaded.\n"
+msgstr "யூஆர்எல்(URL) காணி ஏற்றப்பட்டது..\n"
+
+#: ../plugins/url_scraper/urlscraper.c:233
+msgid "URL Scraper unloaded.\n"
+msgstr "யூஆர்எல்(URL) காணி இறக்கப்பட்டது.\n"
+
+#: ../plugins/url_scraper/urlscraper.schemas.in.h:1
+msgid "URL Scraper history length"
+msgstr "யூஆர்எல்(URL) காணி வரலாறு நீளம்"
+
+#: ../plugins/url_scraper/urlscraper.schemas.in.h:2
+msgid "URL Scraper show timestamps"
+msgstr "யூஆர்எல்(URL) நேரப்பதிவை காட்டுக"
+
+#: ../plugins/sound-notification/sound-notification.c:47
+msgid "New message received"
+msgstr "புதிய செய்தி வந்துள்ளது"
+
+#: ../plugins/sound-notification/sound-notification.c:56
+msgid "Sound Notification"
+msgstr "ஒலி அறிவிப்பு"
+
+#: ../plugins/sound-notification/sound-notification.c:57
+msgid "Play a sound when you receive a private message or your nick is highlighted."
+msgstr ""
+"அந்தரங்க செய்திகள் வரும் போது அல்லது உங்கள் புனைப்பெயர் சிறப்புச்சுட்டபோது ஒரு ஒலியை "
+"இயக்கு "
+
+#: ../plugins/sound-notification/sound-notification.c:89
+msgid "Sound-notification plugin loaded.\n"
+msgstr "ஒலி அறிவிப்பு சொருகி ஏற்றப்பட்டது \n"
+
+#: ../plugins/sound-notification/sound-notification.c:97
+msgid "Sound-notification plugin unloaded.\n"
+msgstr "ஒலி அறிவிப்பு சொருகி இறக்கப்பட்டது \n"
+
+#: ../plugins/tcl/tclplugin.c:2233
+msgid "tclplugin"
+msgstr "டிசிஎல் சொருகி"
+
+#: ../plugins/tcl/tclplugin.c:2234
+msgid "Tcl plugin for XChat"
+msgstr "டிசிஎல் சொருகி க்கு எக்ஸ்சாட்"
+
+#: ../src/common/cfgfiles.c:354
+msgid "Cannot create ~/.xchat2"
+msgstr "~/.xchat2ஐ உருவாக்க முடியவில்லை"
+
+#: ../src/common/cfgfiles.c:712
+msgid "I'm busy"
+msgstr "நான் பிஸியாக உள்ளேன்"
+
+#: ../src/common/cfgfiles.c:713
+msgid "Leaving"
+msgstr "செல்கிறேன்"
+
+#: ../src/common/cfgfiles.c:760
+msgid ""
+"* Running IRC as root is stupid! You should\n"
+"  create a User Account and use that to login.\n"
+msgstr ""
+"* ஐஆர்சி ஐ ரூட்டாக இயக்குவது முட்டாள்தனமாகும்! நீங்கள்\n"
+"  ஒரு பயனர் கணக்கை உருவாக்கி அதனை பயன்படுத்தி புகுபதிவு செய்யவும்.\n"
+
+#: ../src/common/dbus/dbus-client.c:73
+msgid "Couldn't connect to session bus"
+msgstr "அமர்வு பஸ்ஸுக்கு இணைக்க முடியவில்லை"
+
+#. Used for dbus-based single instance app
+#: ../src/common/dbus/dbus-client.c:88
+msgid "Detection of running instance failed"
+msgstr "இயங்கும் ஒரு பதிப்பை காணல் முடியவில்லை"
+
+#. Used for dbus-based single instance app
+#: ../src/common/dbus/dbus-client.c:110
+msgid "Failed to send \"url\" command to running instance"
+msgstr "நட்ப்பில் உள்ளதுக்கு \"url\" கட்டளை அனுப்புவது தோல்வியுற்றது "
+
+#: ../src/common/dcc.c:67
+msgid "Waiting"
+msgstr "காத்திருக்கிறது"
+
+#. black
+#: ../src/common/dcc.c:68
+msgid "Active"
+msgstr "செயலில்"
+
+#. cyan
+#: ../src/common/dcc.c:69
+msgid "Failed"
+msgstr "தோல்வியுற்றது"
+
+#. red
+#: ../src/common/dcc.c:70
+msgid "Done"
+msgstr "முடிந்தது"
+
+#. green
+#: ../src/common/dcc.c:71 ../src/fe-gnome/connect-dialog.c:182
+msgid "Connect"
+msgstr "இணை"
+
+#. black
+#: ../src/common/dcc.c:72
+msgid "Aborted"
+msgstr "கைவிடப்பட்டது"
+
+#: ../src/common/dcc.c:1886 ../src/common/outbound.c:2452
+#, c-format
+msgid "Cannot access %s\n"
+msgstr "%sஐ அணுக முடியவில்லை\n"
+
+#. ! if (osvi.dwMajorVersion >= 5)
+#. fallback to error number
+#: ../src/common/dcc.c:1887 ../src/common/text.c:1169
+#: ../src/common/text.c:1207 ../src/common/text.c:1218
+#: ../src/common/text.c:1225 ../src/common/text.c:1238
+#: ../src/common/text.c:1255 ../src/common/text.c:1355
+#: ../src/common/util.c:352
+msgid "Error"
+msgstr "பிழை"
+
+#: ../src/common/dcc.c:2375
+#, c-format
+msgid "%s is offering \"%s\". Do you want to accept?"
+msgstr "%s \"%s\"ஐ கொடுக்கிறது. அதனை ஏற்க வேண்டுமா?"
+
+#: ../src/common/dcc.c:2586
+msgid "No active DCCs\n"
+msgstr "டிசிசி கள் செயலில் இல்லை\n"
+
+#: ../src/common/ignore.c:120 ../src/common/ignore.c:124
+#: ../src/common/ignore.c:128 ../src/common/ignore.c:132
+#: ../src/common/ignore.c:136 ../src/common/ignore.c:140
+#: ../src/common/ignore.c:144
+msgid "YES  "
+msgstr "ஆம்"
+
+#: ../src/common/ignore.c:122 ../src/common/ignore.c:126
+#: ../src/common/ignore.c:130 ../src/common/ignore.c:134
+#: ../src/common/ignore.c:138 ../src/common/ignore.c:142
+#: ../src/common/ignore.c:146
+msgid "NO   "
+msgstr "இல்லை   "
+
+#: ../src/common/ignore.c:377
+#, c-format
+msgid "You are being CTCP flooded from %s, ignoring %s\n"
+msgstr "நீங்கள் %sஇலிருந்து சிடிசிபி  நெரிசலில் உள்ளீர்கள், %sஐ தவிர்க்கிறது\n"
+
+#: ../src/common/ignore.c:402
+#, c-format
+msgid "You are being MSG flooded from %s, setting gui_auto_open_dialog OFF.\n"
+msgstr ""
+"%s, இடமிருந்து செய்திகள் பிரவாகமாக வருகின்றன.  gui_auto_open_dialog  OFF "
+"ஆக்கப்படுகிறது.\n"
+
+#: ../src/common/notify.c:473
+#, c-format
+msgid "  %-20s online\n"
+msgstr "  %-20s ஆன்லைன்\n"
+
+#: ../src/common/notify.c:475
+#, c-format
+msgid "  %-20s offline\n"
+msgstr "  %-20s ஆஃப்லைன்\n"
+
+#: ../src/common/outbound.c:72
+msgid "No channel joined. Try /join #<channel>\n"
+msgstr "வாய்க்காலில்  எதுவும் சேரவில்லை. /join #<channel> ஐ முயற்சிக்கவும்\n"
+
+#: ../src/common/outbound.c:78
+msgid "Not connected. Try /server <host> [<port>]\n"
+msgstr "இணைக்கப்படவில்லை. /server <host> [<port>] ஐ முயற்சிக்கிறது\n"
+
+#: ../src/common/outbound.c:339
+#, c-format
+msgid "Already marked away: %s\n"
+msgstr "வெளியே ஏற்கனவே குறியிடப்பட்டுள்ளது: %s\n"
+
+#: ../src/common/outbound.c:409
+msgid "Already marked back.\n"
+msgstr "ஏற்கனவே குறியிடப்பட்டுள்ளது.\n"
+
+#: ../src/common/outbound.c:1814
+msgid "I need /bin/sh to run!\n"
+msgstr "எனக்கு இயக்க /bin/sh தேவை!\n"
+
+#: ../src/common/outbound.c:2185
+msgid "Commands Available:"
+msgstr "இருக்கும் கட்டளைகள்:"
+
+#: ../src/common/outbound.c:2199
+msgid "User defined commands:"
+msgstr "பயனர் குறிப்பிட்ட கட்டளைகள்:"
+
+#: ../src/common/outbound.c:2215
+msgid "Plugin defined commands:"
+msgstr "கூடுதல் இணைப்பு வரையறுத்த கட்டளைகள்:"
+
+#: ../src/common/outbound.c:2226
+msgid "Type /HELP <command> for more information, or /HELP -l"
+msgstr "மேலும் தகவலுக்கு /HELP <command> அல்லது /HELP -l என தட்டச்சு செய்யவும்"
+
+#: ../src/common/outbound.c:2301
+#, c-format
+msgid "Unknown arg '%s' ignored."
+msgstr "தெரியாத arg '%s' தவிர்க்கப்பட்டது."
+
+#: ../src/common/outbound.c:3235
+msgid "No such plugin found.\n"
+msgstr "எந்த கூடுதல் இணைப்பும் காணப்படவில்லை.\n"
+
+#: ../src/common/outbound.c:3240
+msgid "That plugin is refusing to unload.\n"
+msgstr "அந்த கூடுதல் இணைப்பு ஏற்றம் நீக்க மறுக்கிறது.\n"
+
+#: ../src/common/outbound.c:3509
+msgid "ADDBUTTON <name> <action>, adds a button under the user-list"
+msgstr "ADDBUTTON <name> <action>, பயனர் பட்டியலின் கீழ் ஒரு பொத்தானை சேர்க்கிறது"
+
+#: ../src/common/outbound.c:3511
+msgid "ALLCHAN <cmd>, sends a command to all channels you're in"
+msgstr "ALLCHAN <cmd>, நீங்கள் இருக்கும் அனைத்து சேனலுக்கும் ஒரு கட்டளையை அனுப்புகிறது"
+
+#: ../src/common/outbound.c:3513
+msgid "ALLCHANL <cmd>, sends a command to all channels you're in"
+msgstr "ALLCHANL <cmd>, நீங்கள் இருக்கும் அனைத்து சேனலுக்கும் ஒரு கட்டளையை அனுப்புகிறது"
+
+#: ../src/common/outbound.c:3515
+msgid "ALLSERV <cmd>, sends a command to all servers you're in"
+msgstr "ALLSERV <cmd>, நீங்கள் இருக்கும் அனைத்து சேவையகங்களுக்கும் ஒரு கட்டளையை அனுப்புகிறது"
+
+#: ../src/common/outbound.c:3516
+msgid "AWAY [<reason>], sets you away"
+msgstr "AWAY [<reason>], உங்கள் வெளியே அமைக்கிறது"
+
+#: ../src/common/outbound.c:3517
+msgid "BACK, sets you back (not away)"
+msgstr "BACK, நீங்கள் திரும்பியதை அமைக்கிறது (வெளியே இல்லை)"
+
+#: ../src/common/outbound.c:3519
+msgid ""
+"BAN <mask> [<bantype>], bans everyone matching the mask from the current "
+"channel. If they are already on the channel this doesn't kick them (needs "
+"chanop)"
+msgstr ""
+"BAN <mask> [<bantype>], நடப்பு வாய்க்காலில் இருந்து மறைமூடிக்கு பொருந்தும் அனைவரையும் "
+"புறக்கணிக்கும். அவர்கள் ஏற்கெனெவே இந்த வாய்க்காலில் இருந்தால் அவர்களை இது வெளியேற்றாது. "
+"(அதற்கு வாய்க்கால் செயலுனர் வேண்டும்)"
+
+#: ../src/common/outbound.c:3521
+msgid ""
+"Set per channel options\n"
+"CHANOPT CONFMODE ON|OFF - Toggle conf mode/showing of join and part "
+"messages\n"
+"CHANOPT COLORPASTE ON|OFF - Toggle color paste\n"
+"CHANOPT BEEP ON|OFF - Toggle beep on message\n"
+"CHANOPT TRAY ON|OFF - Toggle tray blink on message"
+msgstr ""
+"வாய்க்கால்  விருப்பங்களுக்கு அமை\n"
+"CHANOPT CONFMODE ON|OFF - conf முறைமை/காட்டுதல் சேரும் மற்றும் பகுதி "
+"செய்திகளுக்கிடையே மாற்று\n"
+"CHANOPT COLORPASTE ON|OFF - நிற ஒட்டுதல் மாற்று\n"
+"CHANOPT BEEP ON|OFF - செய்தியில் பீப் \n"
+"CHANOPT TRAY ON|OFF - செய்தி வருகையில் தட்டில் சிமிட்டலை நிலை மாற்க"
+
+#: ../src/common/outbound.c:3528
+msgid "CLEAR [ALL|HISTORY], Clears the current text window or command history"
+msgstr "CLEAR [ALL|HISTORY], நடப்பு உரை சாளரம் அல்லது கட்டளை வரலாற்றைத் துடைக்கிறது"
+
+#: ../src/common/outbound.c:3529
+msgid "CLOSE, Closes the current window/tab"
+msgstr "CLOSE, நடப்பு சாளரம்/தத்தலை மூடுகிறது"
+
+#: ../src/common/outbound.c:3532
+msgid "COUNTRY [-s] <code|wildcard>, finds a country code, eg: au = australia"
+msgstr ""
+"COUNTRY [-s] <code|wildcard>, ஒரு நாட்டு குறியீட்டை கண்டுபிடிக்கிறது, எ.கா: au = "
+"australia"
+
+#: ../src/common/outbound.c:3534
+msgid ""
+"CTCP <nick> <message>, send the CTCP message to nick, common messages are "
+"VERSION and USERINFO"
+msgstr ""
+"CTCP <nick> <message>, சிடிசிபி  செய்தியைப் புனைப்பெயருக்கு அனுப்புகிறது, பொதுவான "
+"செய்திகள் VERSION மற்றும் USERINFO"
+
+#: ../src/common/outbound.c:3536
+msgid "CYCLE [<channel>], parts the current or given channel and immediately rejoins"
+msgstr ""
+"CYCLE [<வாய்க்கால் >], நடப்பு மற்றும் கொடுக்கப்பட்ட சேனலை பகுத்து உடனடியாக மீண்டும் "
+"சேர்கிறது"
+
+#: ../src/common/outbound.c:3538
+msgid ""
+"\n"
+"DCC GET <nick>                      - accept an offered file\n"
+"DCC SEND [-maxcps=#] <nick> [file]  - send a file to someone\n"
+"DCC PSEND [-maxcps=#] <nick> [file] - send a file using passive mode\n"
+"DCC LIST                            - show DCC list\n"
+"DCC CHAT <nick>                     - offer DCC CHAT to someone\n"
+"DCC PCHAT <nick>                    - offer DCC CHAT using passive mode\n"
+"DCC CLOSE <type> <nick> <file>         example:\n"
+"         /dcc close send johnsmith file.tar.gz"
+msgstr ""
+"\n"
+"டிசிசி(DCC)  GET <nick>                      - கொடுக்கப்பட்ட கோப்பினை ஏற்கவும்\n"
+"டிசிசி(DCC)  SEND [-maxcps=#] <nick> [file]  - ஒரு கோப்பினை சிலருக்கு "
+"அனுப்பவும்\n"
+"டிசிசி(DCC)  PSEND [-maxcps=#] <nick> [file] - பேசிவ் முறைமையை பயன்படுத்தி ஒரு "
+"கோப்பினை அனுப்பவும்\n"
+"டிசிசி(DCC)  LIST                            -  டிசிசி(DCC)  பட்டியலை காட்டு\n"
+"டிசிசி(DCC)  CHAT <nick>                     - சிலருக்கு டிசிசி(DCC)  அரட்டையை "
+"ஐ கொடுக்கவும்\n"
+"டிசிசி(DCC)  PCHAT <nick>                    - பேசிவ் முறைமை பயன்படுத்தி டிசிசி"
+"(DCC)  CHAT கொடுக்கவும்\n"
+"டிசிசி(DCC)  CLOSE <type> <nick> <file>         எடுத்துக்காட்டு:\n"
+"         /dcc close send johnsmith file.tar.gz"
+
+#: ../src/common/outbound.c:3550
+msgid ""
+"DEHOP <nick>, removes chanhalf-op status from the nick on the current "
+"channel (needs chanop)"
+msgstr ""
+"DEHOP <nick>, நடப்பு வாய்க்காலில்  புனைப்பெயரிலிருந்து chanhalf-op நிலையை "
+"நீக்குகிறது (chanop தேவைப்படுகிறது)"
+
+#: ../src/common/outbound.c:3552
+msgid "DELBUTTON <name>, deletes a button from under the user-list"
+msgstr "DELBUTTON <name>, பயனர் பட்டியலின் கீழ் உள்ள ஒரு பொத்தானை அழிக்கிறது"
+
+#: ../src/common/outbound.c:3554
+msgid ""
+"DEOP <nick>, removes chanop status from the nick on the current channel "
+"(needs chanop)"
+msgstr ""
+"DEOP <nick>, நடப்பு வாய்க்காலில்  புனைப்பெயரிலிருந்து chanop நிலையை நீக்குகிறது "
+"(chanop தேவைப்படுகிறது)"
+
+#: ../src/common/outbound.c:3556
+msgid ""
+"DEVOICE <nick>, removes voice status from the nick on the current channel "
+"(needs chanop)"
+msgstr ""
+"DEVOICE <nick>, நடப்பு வாய்க்காலில்  புனைப்பெயரிலிருந்து குரல் நிலையை நீக்குகிறது "
+"(chanop தேவைப்படுகிறது)"
+
+#: ../src/common/outbound.c:3557
+msgid "DISCON, Disconnects from server"
+msgstr "DISCON, சேவையகத்திலிருந்து துண்டிப்படுகிறது"
+
+#: ../src/common/outbound.c:3558
+msgid "DNS <nick|host|ip>, Finds a users IP number"
+msgstr "DNS <nick|host|ip>, பயனர்களின் ஐபி எண்ணை கண்டுபிடிக்கிறது"
+
+#: ../src/common/outbound.c:3559
+msgid "ECHO <text>, Prints text locally"
+msgstr "ECHO <text>, உரையை உள்ளமையாக அச்சிடுகிறது"
+
+#: ../src/common/outbound.c:3562
+msgid ""
+"EXEC [-o] <command>, runs the command. If -o flag is used then output is "
+"sent to current channel, else is printed to current text box"
+msgstr ""
+"EXEC [-o] <command>, கட்டளையை இயக்குகிறது. -o கொடி பயன்படுத்தப்பட்டால் வெளிப்பாடு "
+"நடப்பு சேனலுக்கு அனுப்பப்பட்டது, இல்லையேல் நடப்பு உரைப்பெட்டிக்கு அச்சிடப்படுகிறது"
+
+#: ../src/common/outbound.c:3564
+msgid "EXECCONT, sends the process SIGCONT"
+msgstr "EXECCONT,  SIGCONT செயல்முறையை அனுப்புகிறது"
+
+#: ../src/common/outbound.c:3567
+msgid ""
+"EXECKILL [-9], kills a running exec in the current session. If -9 is given "
+"the process is SIGKILL'ed"
+msgstr ""
+"EXECKILL [-9], நடப்பு அமர்வில் இயங்கும் exec ஐ நிறுத்துகிறது. -9 கொடுக்கப்பட்டால் "
+"SIGKILL ஆகும்."
+
+#: ../src/common/outbound.c:3569
+msgid "EXECSTOP, sends the process SIGSTOP"
+msgstr "EXECSTOP, செயல்முறை SIGSTOPஐ அனுப்புகிறது"
+
+#: ../src/common/outbound.c:3570
+msgid "EXECWRITE, sends data to the processes stdin"
+msgstr "EXECWRITE, செயல்முறைகள் stdinக்கு தரவை அனுப்புகிறது"
+
+#: ../src/common/outbound.c:3574
+msgid "FLUSHQ, flushes the current server's send queue"
+msgstr "FLUSHQ, நடப்பு சேவையத்தில் வரிசையை சுத்தம் செய்கிறது"
+
+#: ../src/common/outbound.c:3576
+msgid "GATE <host> [<port>], proxies through a host, port defaults to 23"
+msgstr ""
+"GATE <host> [<துறை >], ஒரு புரவலன், துறை வழியாக முன்னிருப்பாக 23க்கு ப்ராக்ஸி "
+"செய்கிறது"
+
+#: ../src/common/outbound.c:3580
+msgid "GHOST <nick> <password>, Kills a ghosted nickname"
+msgstr "GHOST <nick> <password>, ஒரு ghosted புனைப்பெயரை நிறுத்துகிறது"
+
+#: ../src/common/outbound.c:3585
+msgid "HOP <nick>, gives chanhalf-op status to the nick (needs chanop)"
+msgstr ""
+"HOP <nick>, chanhalf-op நிலையை புனைப்பெயருக்கு கொடுக்கிறது (chanop "
+"தேவைப்படுகிறது)"
+
+#: ../src/common/outbound.c:3586
+msgid "ID <password>, identifies yourself to nickserv"
+msgstr "ID <password>, உங்களை nickservக்கு அடையாளப்படுத்துகிறது"
+
+#: ../src/common/outbound.c:3588
+msgid ""
+"IGNORE <mask> <types..> <options..>\n"
+"    mask - host mask to ignore, eg: *!*@*.aol.com\n"
+"    types - types of data to ignore, one or all of:\n"
+"            PRIV, CHAN, NOTI, CTCP, DCC, INVI, ALL\n"
+"    options - NOSAVE, QUIET"
+msgstr ""
+"IGNORE <mask> <types..> <options..>\n"
+"    mask - தவிர்க்க வேண்டிய புரவலன் மாஸ்க், எ,கா: *!*@*.aol.com\n"
+"    types - தவிர்க்க வேண்டிய தரவு வகைகள், ஒன்று அல்லது அனைத்தும்:\n"
+"            PRIV, CHAN, NOTI, சிடிசிபி , டிசிசி(DCC) , INVI, ALL\n"
+"    options - NOSAVE, QUIET"
+
+#: ../src/common/outbound.c:3595
+msgid ""
+"INVITE <nick> [<channel>], invites someone to a channel, by default the "
+"current channel (needs chanop)"
+msgstr ""
+"INVITE <nick> [<வாய்க்கால் >], சிலரை ஒரு சேனலுக்கு அழைக்கிறது, முன்னிருப்பாக நடப்பு "
+"சேனலாகும் (chanop தேவைப்படுகிறது)"
+
+#: ../src/common/outbound.c:3596
+msgid "JOIN <channel>, joins the channel"
+msgstr "JOIN <வாய்க்கால் >, வாய்க்காலில்  சேர்"
+
+#: ../src/common/outbound.c:3598
+msgid "KICK <nick>, kicks the nick from the current channel (needs chanop)"
+msgstr "KICK <nick>, நடப்பு சேனலிலிருந்து புனைப்பெயரை உதைக்கிறது (chanop தேவைப்படுகிறது)"
+
+#: ../src/common/outbound.c:3600
+msgid ""
+"KICKBAN <nick>, bans then kicks the nick from the current channel (needs "
+"chanop)"
+msgstr ""
+"KICKBAN <nick>, தடுக்கப்பட்டு நடப்பு சேனலிலிருந்து புனைப்பெயரை உதைக்கிறது (chanop "
+"தேவைப்படுகிறது)"
+
+#: ../src/common/outbound.c:3603
+msgid "LAGCHECK, forces a new lag check"
+msgstr "LAGCHECK, ஒரு புதிய தாமத சரிபார்த்தலை கட்டாயப்படுத்துகிறது"
+
+#: ../src/common/outbound.c:3605
+msgid "LASTLOG <string>, searches for a string in the buffer"
+msgstr "LASTLOG <string>, பஃபரில் ஒரு சரத்திற்கு தேடுகிறது"
+
+#: ../src/common/outbound.c:3607
+msgid "LOAD [-e] <file>, loads a plugin or script"
+msgstr "LOAD [-e] <file>, ஒரு கூடுதல் இணைப்பு அல்லது ஸ்கிரிப்டை ஏற்றுகிறது"
+
+#: ../src/common/outbound.c:3610
+msgid "MDEHOP, Mass deop's all chanhalf-ops in the current channel (needs chanop)"
+msgstr ""
+"MDEHOP, அனைத்து chanhalf-ops நடப்பு வாய்க்காலில்  மாஸ் deop's செய்கிறது (chanop "
+"தேவைப்படுகிறது)"
+
+#: ../src/common/outbound.c:3612
+msgid "MDEOP, Mass deop's all chanops in the current channel (needs chanop)"
+msgstr ""
+"MDEOP, அனைத்து chanops நடப்பு வாய்க்காலில்  மாஸ் deop's செய்கிறது (chanop "
+"தேவைப்படுகிறது)"
+
+#: ../src/common/outbound.c:3614
+msgid ""
+"ME <action>, sends the action to the current channel (actions are written in "
+"the 3rd person, like /me jumps)"
+msgstr ""
+"ME <action>, நடப்பு சேனலின் செயலை அனுப்புகிறது (செயல்கள் மூன்றாம் நபரில் "
+"எழுதப்பட்டுள்ளது, /me jumps என்பது போல)"
+
+#: ../src/common/outbound.c:3618
+msgid "MKICK, Mass kicks everyone except you in the current channel (needs chanop)"
+msgstr ""
+"MKICK, மாஸ் உதைத்தல் அனைவரையும் நடப்பு வாய்க்காலில்  உங்களை தவிர (chanop "
+"தேவைப்படுகிறது)"
+
+#: ../src/common/outbound.c:3621
+msgid "MOP, Mass op's all users in the current channel (needs chanop)"
+msgstr "MOP, நடப்பு வாய்க்காலில்  அனைத்து பயனர்களையும் மாஸ் op's  (chanop தேவைப்படுகிறது)"
+
+#: ../src/common/outbound.c:3622
+msgid "MSG <nick> <message>, sends a private message"
+msgstr "MSG <nick> <message>, தனிப்பட்ட செய்தியை அனுப்பு"
+
+#: ../src/common/outbound.c:3625
+msgid "NAMES, Lists the nicks on the current channel"
+msgstr "NAMES, நடப்பு சேனலின் புனைப்பெயர்களை பட்டியலிடுகிறது"
+
+#: ../src/common/outbound.c:3627
+msgid "NCTCP <nick> <message>, Sends a CTCP notice"
+msgstr "NCTCP <nick> <message>, சிடிசிபி அறிக்கையை அனுப்பு"
+
+#: ../src/common/outbound.c:3628
+msgid "NEWSERVER [-noconnect] <hostname> [<port>]"
+msgstr "NEWSERVER [-noconnect] <hostname> [<துறை >]"
+
+#: ../src/common/outbound.c:3629
+msgid "NICK <nickname>, sets your nick"
+msgstr "NICK <nickname>, உங்கள் புனையை அமை"
+
+#: ../src/common/outbound.c:3632
+msgid ""
+"NOTICE <nick/channel> <message>, sends a notice. Notices are a type of "
+"message that should be auto reacted to"
+msgstr ""
+"NOTICE <nick/வாய்க்கால் > <message>, ஒரு அறிவிப்பை அனுப்புகிறது. அறிவிப்புகள் தானாக "
+"செயல்பட வேண்டிய ஒரு வகை செய்திகள்"
+
+#: ../src/common/outbound.c:3634
+msgid ""
+"NOTIFY [-n network1[,network2,...]] [<nick>], displays your notify list or "
+"adds someone to it"
+msgstr ""
+"NOTIFY [-n network1[,network2,...]] [<nick>], உங்கள் அறிவிப்பு பட்டியலை "
+"காட்டுகிறது அல்லது சிலரை அதில் சேர்க்கிறது"
+
+#: ../src/common/outbound.c:3636
+msgid "OP <nick>, gives chanop status to the nick (needs chanop)"
+msgstr "OP <nick>, chanop நிலையை புனைப்பெயருக்கு கொடுக்கிறது (chanop தேவைப்படுகிறது)"
+
+#: ../src/common/outbound.c:3638
+msgid "PART [<channel>] [<reason>], leaves the channel, by default the current one"
+msgstr "PART [<வாய்க்கால் >] [<reason>], சேனலை விட்டு விலகுகிறது, முன்னிருப்பாக நடப்பு ஒன்று"
+
+#: ../src/common/outbound.c:3640
+msgid "PING <nick | channel>, CTCP pings nick or channel"
+msgstr "PING <nick | வாய்க்கால் >, சிடிசிபி  பிங்ஸ் புனை அல்லது வாய்க்கால் "
+
+#: ../src/common/outbound.c:3642
+msgid "QUERY [-nofocus] <nick>, opens up a new privmsg window to someone"
+msgstr "QUERY [-nofocus] <nick>, புதிய privmsg சாளரத்தை சிலருக்கு திறக்கிறது"
+
+#: ../src/common/outbound.c:3644
+msgid "QUIT [<reason>], disconnects from the current server"
+msgstr "QUIT [<reason>], நடப்பு சேவையகத்திலிருந்து துண்டிக்கிறது"
+
+#: ../src/common/outbound.c:3646
+msgid "QUOTE <text>, sends the text in raw form to the server"
+msgstr "QUOTE <text>, சேவையகத்திற்கு உரையை ரா வடிவத்தில் அனுப்புகிறது"
+
+#: ../src/common/outbound.c:3649
+msgid ""
+"RECONNECT [-ssl] [<host>] [<port>] [<password>], Can be called just as /"
+"RECONNECT to reconnect to the current server or with /RECONNECT ALL to "
+"reconnect to all the open servers"
+msgstr ""
+"RECONNECT [-ssl] [<host>] [<துறை >] [<password>] இதை வெறுமே நடப்பு "
+"சேவையகத்துக்கு இணைக்க மறு இணை எனலாம். அல்லது அனைத்து திறந்த சேவையகங்களுக்கும் என "
+"அனைத்தையும் மறு இணை எனலாம்."
+
+#: ../src/common/outbound.c:3652
+msgid ""
+"RECONNECT [<host>] [<port>] [<password>], Can be called just as /RECONNECT "
+"to reconnect to the current server or with /RECONNECT ALL to reconnect to "
+"all the open servers"
+msgstr ""
+"RECONNECT [<host>] [<துறை >] [<password>], இதை வெறுமே நடப்பு சேவையகத்துக்கு "
+"இணைக்க மறு இணை எனலாம். அல்லது அனைத்து திறந்த சேவையகங்களுக்கும் என அனைத்தையும் மறு இணை "
+"எனலாம்."
+
+#: ../src/common/outbound.c:3654
+msgid ""
+"RECV <text>, send raw data to xchat, as if it was received from the irc "
+"server"
+msgstr ""
+"RECV <text>, ரா தரவை எக்ஸ்சாட் க்கு அனுப்புகிறது, இது irc சேவையகத்திலிருந்து "
+"பெறப்படுகிறது"
+
+#: ../src/common/outbound.c:3657
+msgid "SAY <text>, sends the text to the object in the current window"
+msgstr "SAY <text>, நடப்பு சாளரத்தின் பொருளுக்கு உரையை அனுப்புகிறது"
+
+#: ../src/common/outbound.c:3658
+msgid "SEND <nick> [<file>]"
+msgstr "<nick> [<file>]ஐ அனுப்பு"
+
+#: ../src/common/outbound.c:3661
+msgid "SERVCHAN [-ssl] <host> <port> <channel>, connects and joins a channel"
+msgstr "SERVCHAN [-ssl] <host> <துறை > <வாய்க்கால் >, ஒரு சேனலை இணைத்து சேர்கிறது"
+
+#: ../src/common/outbound.c:3664
+msgid "SERVCHAN <host> <port> <channel>, connects and joins a channel"
+msgstr "SERVCHAN <host> <துறை > <வாய்க்கால் >, ஒரு சேனலை இணைத்து சேர்கிறது"
+
+#: ../src/common/outbound.c:3668
+msgid ""
+"SERVER [-ssl] <host> [<port>] [<password>], connects to a server, the "
+"default port is 6667 for normal connections, and 9999 for ssl connections"
+msgstr ""
+"SERVER [-ssl] <host> [<துறை >] [<password>], ஒரு சேவையகத்துடன் இணைக்கிறது, "
+"முன்னிருப்பு துறை எண் 6667 சாதாரண இணைப்புகளுக்கு, மற்றும் 9999 எஸ்எஸ்எல் இணைப்புகளுக்கு"
+
+#: ../src/common/outbound.c:3671
+msgid ""
+"SERVER <host> [<port>] [<password>], connects to a server, the default port "
+"is 6667"
+msgstr ""
+"SERVER <host> [<துறை >] [<password>], ஒரு சேவையகத்தில் இணைக்கிறது, முன்னிருப்பு "
+"துறை 6667 ஆகும்"
+
+#: ../src/common/outbound.c:3673
+msgid "SET [-e] [-or] [-quiet] <variable> [<value>]"
+msgstr "SET [-e] [-or] [-quiet] <variable> [<value>]"
+
+#: ../src/common/outbound.c:3674
+msgid "SETCURSOR [-|+]<position>"
+msgstr "SETCURSOR [-|+]<position>"
+
+#: ../src/common/outbound.c:3679
+msgid "TOPIC [<topic>], sets the topic if one is given, else shows the current topic"
+msgstr ""
+"TOPIC [<topic>], ஒருவர் தலைப்பு கொடுத்தால் அமைக்கிறது, இல்லையேல் நடப்பு தலைப்பைக் "
+"காட்டுகிறது"
+
+#: ../src/common/outbound.c:3681
+msgid ""
+"\n"
+"TRAY -f <timeout> <file1> [<file2>] Blink tray between two icons.\n"
+"TRAY -f <filename>                  Set tray to a fixed icon.\n"
+"TRAY -i <number>                    Blink tray with an internal icon.\n"
+"TRAY -t <text>                      Set the tray tooltip.\n"
+"TRAY -b <title> <text>              Set the tray balloon."
+msgstr ""
+"\n"
+"TRAY -f <timeout> <file1> [<file2>] இரண்டு சின்னங்களுக்கிடையே தட்டை "
+"சிமிட்டுகிறது.\n"
+"TRAY -f <filename>                  ஒரு நிலையான சின்னத்திற்கு தட்டை அமைக்கிறது.\n"
+"TRAY -i <number>                    ஒரு உள்ளார்ந்த சின்னத்துடன் தட்டை "
+"சிமிட்டுகிறது.\n"
+"TRAY -t <text>                      தட்டு கருவிதுணுக்கை அமைக்கிறது.\n"
+"TRAY -b <title> <text>              தட்டு பலூனை அமைக்கிறது."
+
+#: ../src/common/outbound.c:3688
+msgid "UNBAN <mask> [<mask>...], unbans the specified masks."
+msgstr "UNBAN <mask> [<mask>...], குறிப்பிட்ட மாஸ்க்களை தடுத்தல் நீக்குகிறது."
+
+#: ../src/common/outbound.c:3689
+msgid "UNIGNORE <mask> [QUIET]"
+msgstr "UNIGNORE <mask> [QUIET]"
+
+#: ../src/common/outbound.c:3690
+msgid "UNLOAD <name>, unloads a plugin or script"
+msgstr "UNLOAD <name>, ஒரு கூடுதல் இணைப்பு அல்லது ஸ்கிரிப்டை ஏற்றம் நீக்கம் செய்கிறது"
+
+#: ../src/common/outbound.c:3691
+msgid "URL <url>, opens a URL in your browser"
+msgstr "URL <url>, உங்கள் உலாவியில் ஒரு URLஐ திறக்கிறது"
+
+#: ../src/common/outbound.c:3693
+msgid "USELECT [-a] [-s] <nick1> <nick2> etc, highlights nick(s) in channel userlist"
+msgstr ""
+"USELECT [-a] [-s] <nick1> <nick2> போன்றவை, வாய்க்கால்  பயனர் பட்டியலில் புனைப்பெயர்"
+"(களை) முன்னிலைப்படுத்துகிறது"
+
+#: ../src/common/outbound.c:3696
+msgid "VOICE <nick>, gives voice status to someone (needs chanop)"
+msgstr "VOICE <nick>, சிலருக்கு குரல் நிலையை கொடுக்கிறது (chanop தேவைப்படுகிறது)"
+
+#: ../src/common/outbound.c:3698
+msgid "WALLCHAN <message>, writes the message to all channels"
+msgstr "WALLCHAN <message>, அனைத்து வாய்க்கால் களுக்கும் செய்தியை எழுதுகிறது"
+
+#: ../src/common/outbound.c:3700
+msgid "WALLCHOP <message>, sends the message to all chanops on the current channel"
+msgstr "WALLCHOP <message>, நடப்பு வாய்க்காலில்  அனைத்து chanopsக்கும் செய்தி அனுப்புகிறது"
+
+#: ../src/common/outbound.c:3733
+#, c-format
+msgid "Usage: %s\n"
+msgstr "பயன்பாடு: %s\n"
+
+#: ../src/common/outbound.c:3738
+msgid ""
+"\n"
+"No help available on that command.\n"
+msgstr ""
+"\n"
+"அந்த கட்டளைக்கு உதவி எதுவும் இல்லை.\n"
+
+#: ../src/common/outbound.c:3744
+msgid "No such command.\n"
+msgstr "கட்டளை எதுவும் இல்லை.\n"
+
+#: ../src/common/outbound.c:4074
+msgid "Bad arguments for user command.\n"
+msgstr "பயனர் கட்டளைக்கு தவறான அளவுருக்கள்.\n"
+
+#: ../src/common/outbound.c:4230
+msgid "Too many recursive usercommands, aborting."
+msgstr "அதிகமான மறுநிகழ்வு பயனர் கட்டளைகள், கைவிடப்படுகிறது"
+
+#: ../src/common/outbound.c:4307
+msgid "Unknown Command. Try /help\n"
+msgstr "அறியாத கட்டளை. /helpஐ முயற்சிக்கவும்\n"
+
+#: ../src/common/plugin.c:359 ../src/common/plugin.c:400
+msgid "No xchat_plugin_init symbol; is this really an xchat plugin?"
+msgstr "எக்ஸ்சாட் _plugin_init குறியீடு இல்லை; இது ஒரு எக்ஸ்சாட்  கூடுதல் இணைப்பா?"
+
+#: ../src/common/server.c:634
+msgid "Are you sure this is a SSL capable server and port?\n"
+msgstr "இது ஒரு SSL செயல்திறன் சேவையகம் மற்றும் துறையா?\n"
+
+#: ../src/common/server.c:1024
+#, c-format
+msgid ""
+"Cannot resolve hostname %s\n"
+"Check your IP Settings!\n"
+msgstr ""
+"புரலவன் பெயர் %sஐ தீர்க்க முடியவில்லை\n"
+"உங்கள் ஐபி அமைவுகளை சரிபார்க்கவும்!\n"
+
+#: ../src/common/server.c:1029
+msgid "Proxy traversal failed.\n"
+msgstr "ப்ராக்ஸி பயணித்தல் செயலிழக்கப்பட்டது.\n"
+
+#: ../src/common/servlist.c:643
+#, c-format
+msgid "Cycling to next server in %s...\n"
+msgstr "%sஇல் அடுத்த சேவையகத்திற்கு சுழலுகிறது...\n"
+
+#: ../src/common/servlist.c:1074
+#, c-format
+msgid ""
+"Warning: \"%s\" character set is unknown. No conversion will be applied for "
+"network %s."
+msgstr ""
+"எச்சரிக்கை: \"%s\" எழுத்து அமை தெரியாதது. உரையாடல் எதுவும் பிணையம் %sக்கு "
+"செயல்படுத்தப்படும்."
+
+#. get rid of the \n
+#: ../src/common/text.c:292
+msgid "Loaded log from"
+msgstr "இதிலிருந்து ஏற்றப்பட்ட பதிவு"
+
+#: ../src/common/text.c:310
+#, c-format
+msgid "**** ENDING LOGGING AT %s\n"
+msgstr "**** ENDING LOGGING AT %s\n"
+
+#: ../src/common/text.c:519
+#, c-format
+msgid "**** BEGIN LOGGING AT %s\n"
+msgstr "**** BEGIN LOGGING AT %s\n"
+
+#: ../src/common/text.c:538
+#, c-format
+msgid ""
+"* Can't open log file(s) for writing. Check the\n"
+"  permissions on %s/xchatlogs"
+msgstr ""
+"* எழுத பதிவு கோப்பு(களை) திறக்க முடியவில்லை. அனுமதிகளை\n"
+"  %s/xchatlogsஇல் சரி பார்க்கவும்"
+
+#: ../src/common/text.c:876
+msgid "Left message"
+msgstr "செய்தி இடப்பட்டது"
+
+#: ../src/common/text.c:877
+msgid "Right message"
+msgstr "வலது செய்தி"
+
+#: ../src/common/text.c:881
+msgid "The nick of the joining person"
+msgstr "சேரும் நபரின் புனைபெயர்"
+
+#: ../src/common/text.c:882
+msgid "The channel being joined"
+msgstr "சேரும் வாய்க்கால் "
+
+#: ../src/common/text.c:883 ../src/common/text.c:930 ../src/common/text.c:981
+msgid "The host of the person"
+msgstr "புரவலனின் நபர்"
+
+#: ../src/common/text.c:888
+msgid "The action"
+msgstr "செயல்"
+
+#: ../src/common/text.c:889 ../src/common/text.c:895
+msgid "Mode char"
+msgstr "முறை எழுத்து"
+
+#: ../src/common/text.c:894
+msgid "The text"
+msgstr "உரை"
+
+#: ../src/common/text.c:896 ../src/common/text.c:902
+msgid "Identified text"
+msgstr "அடையாளப்படுத்தப்பட்ட உரை"
+
+#: ../src/common/text.c:901 ../src/common/text.c:958 ../src/common/text.c:964
+msgid "The message"
+msgstr "செய்தி"
+
+#: ../src/common/text.c:906 ../src/common/text.c:968
+msgid "Old nickname"
+msgstr "பழைய புனைப்பெயர்"
+
+#: ../src/common/text.c:907 ../src/common/text.c:969
+msgid "New nickname"
+msgstr "புதிய புனைப்பெயர்"
+
+#: ../src/common/text.c:911
+msgid "Nick of person who changed the topic"
+msgstr "தலைப்பை மாற்றிய நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:912 ../src/common/text.c:918
+#: ../src/fe-gnome/channel-list-window.c:452
+msgid "Topic"
+msgstr "தலைப்பு"
+
+#: ../src/common/text.c:922 ../src/common/text.c:975
+msgid "The nickname of the kicker"
+msgstr "உதைப்பவரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:923 ../src/common/text.c:973
+msgid "The person being kicked"
+msgstr "உதைக்கப்பட்ட நபர்"
+
+#: ../src/common/text.c:924 ../src/common/text.c:931 ../src/common/text.c:935
+#: ../src/common/text.c:940 ../src/common/text.c:974 ../src/common/text.c:982
+#: ../src/common/text.c:989
+msgid "The channel"
+msgstr "வாய்க்கால் "
+
+#: ../src/common/text.c:925 ../src/common/text.c:976 ../src/common/text.c:983
+msgid "The reason"
+msgstr "காரணம்"
+
+#: ../src/common/text.c:929 ../src/common/text.c:980
+msgid "The nick of the person leaving"
+msgstr "விட்டு செல்லும் நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:936 ../src/common/text.c:942
+msgid "The time"
+msgstr "நேரம்"
+
+#: ../src/common/text.c:941
+msgid "The creator"
+msgstr "உருவாக்குபவர்"
+
+#: ../src/common/text.c:947 ../src/common/text.c:1200
+msgid "Reason"
+msgstr "காரணம்"
+
+#: ../src/common/text.c:948 ../src/common/text.c:1090
+#: ../src/common/text.c:1173
+msgid "Host"
+msgstr "புரவலன்"
+
+#: ../src/common/text.c:952 ../src/common/text.c:957 ../src/common/text.c:962
+msgid "Who it's from"
+msgstr "இது யாரிடமிருந்து"
+
+#: ../src/common/text.c:953
+msgid "The time in x.x format (see below)"
+msgstr "நேரம் x.x வடிவத்தில் (கீழே பார்க்கவும்)"
+
+#: ../src/common/text.c:963 ../src/common/text.c:1000
+msgid "The Channel it's going to"
+msgstr "வாய்க்கால்  செய்வது"
+
+#: ../src/common/text.c:987
+msgid "The sound"
+msgstr "ஒலி"
+
+#: ../src/common/text.c:988 ../src/common/text.c:994 ../src/common/text.c:999
+msgid "The nick of the person"
+msgstr "நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:993 ../src/common/text.c:998
+msgid "The CTCP event"
+msgstr " சிடிசிபி  நிகழ்வு"
+
+#: ../src/common/text.c:1004
+msgid "The nick of the person who set the key"
+msgstr "விசையை அமைத்த நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:1005
+msgid "The key"
+msgstr "விசை"
+
+#: ../src/common/text.c:1009
+msgid "The nick of the person who set the limit"
+msgstr "வரம்பை அமைத்த நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:1010
+msgid "The limit"
+msgstr "வரையறை"
+
+#: ../src/common/text.c:1014
+msgid "The nick of the person who has been op'ed"
+msgstr "op செய்யப்பட்ட நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:1015
+msgid "The nick of the person who did the op'ing"
+msgstr "op செய்த நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:1019
+msgid "The nick of the person who has been halfop'ed"
+msgstr "halfop செய்யப்பட்ட நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:1020
+msgid "The nick of the person who did the halfop'ing"
+msgstr "halfop செய்த நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:1024
+msgid "The nick of the person who did the voice'ing"
+msgstr "குரல்  செய்யும் நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:1025
+msgid "The nick of the person who has been voice'ed"
+msgstr "குரல்  செய்யப்பட்ட நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:1029
+msgid "The nick of the person who did the banning"
+msgstr "தடுத்தல் செய்த நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:1030 ../src/common/text.c:1057
+msgid "The ban mask"
+msgstr "மாஸ்கை தடு"
+
+#: ../src/common/text.c:1034
+msgid "The nick who removed the key"
+msgstr "விசையை நீக்கிய நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:1038
+msgid "The nick who removed the limit"
+msgstr "வரம்பை நீக்கிய நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:1042
+msgid "The nick of the person who did the deop'ing"
+msgstr "deop'ing செய்த நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:1043
+msgid "The nick of the person who has been deop'ed"
+msgstr "deop செய்யப்பட்ட நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:1046
+msgid "The nick of the person who did the dehalfop'ing"
+msgstr "dehalfop'ing செய்த நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:1047
+msgid "The nick of the person who has been dehalfop'ed"
+msgstr "dehalfop செய்யப்பட்ட நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:1051
+msgid "The nick of the person who did the devoice'ing"
+msgstr "devoice'ing செய்யும் நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:1052
+msgid "The nick of the person who has been devoice'ed"
+msgstr "devoice செய்யப்பட்ட நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:1056
+msgid "The nick of the person who did the unban'ing"
+msgstr "unban'ing செய்த நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:1061
+msgid "The nick of the person who did the exempt"
+msgstr "விலக்கை செய்த நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:1062 ../src/common/text.c:1067
+msgid "The exempt mask"
+msgstr "விலக்கு மாஸ்க்"
+
+#: ../src/common/text.c:1066
+msgid "The nick of the person who removed the exempt"
+msgstr "விலக்கை நீக்கிய நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:1071
+msgid "The nick of the person who did the invite"
+msgstr "அழைப்பை செய்த நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:1072 ../src/common/text.c:1077
+msgid "The invite mask"
+msgstr "அழைப்பு மாஸ்க்"
+
+#: ../src/common/text.c:1076
+msgid "The nick of the person who removed the invite"
+msgstr "அழைப்பை நீக்கிய நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:1081
+msgid "The nick of the person who set the mode"
+msgstr "முறைமை அமைத்த நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:1082
+msgid "The mode's sign (+/-)"
+msgstr "முறைமை குறிகள் (+/-)"
+
+#: ../src/common/text.c:1083
+msgid "The mode letter"
+msgstr "கடித முறை"
+
+#: ../src/common/text.c:1084
+msgid "The channel it's being set on"
+msgstr "வாய்க்கால்  அமைக்கப்படுகிறது"
+
+#: ../src/common/text.c:1089
+msgid "Username"
+msgstr "பயனர்பெயர்"
+
+#: ../src/common/text.c:1091
+msgid "Full name"
+msgstr "முழு பெயர்"
+
+#: ../src/common/text.c:1096
+msgid "Channel Membership/\"is an IRC operator\""
+msgstr "வாய்க்கால்  உறுப்பினர்/\"ஒரு IRC ஆப்பரேட்டர்\""
+
+#: ../src/common/text.c:1101
+msgid "Server Information"
+msgstr "சேவையக தகவல்"
+
+#: ../src/common/text.c:1106 ../src/common/text.c:1111
+msgid "Idle time"
+msgstr "வெறுமையான நேரம்"
+
+#: ../src/common/text.c:1112
+msgid "Signon time"
+msgstr "புகுபதிவு நேரம்"
+
+#: ../src/common/text.c:1117
+msgid "Away reason"
+msgstr "வெளியே சென்ற காரணம்"
+
+#: ../src/common/text.c:1126 ../src/common/text.c:1132
+#: ../src/common/text.c:1140 ../src/common/text.c:1320
+msgid "Message"
+msgstr "செய்தி"
+
+#: ../src/common/text.c:1133
+msgid "Account"
+msgstr "கணக்கு"
+
+#: ../src/common/text.c:1138
+msgid "Real user@host"
+msgstr "Real user@host"
+
+#: ../src/common/text.c:1139
+msgid "Real IP"
+msgstr "உண்மையான ஐபி "
+
+#: ../src/common/text.c:1144 ../src/common/text.c:1153
+#: ../src/common/text.c:1159 ../src/common/text.c:1189
+#: ../src/common/text.c:1343 ../src/fe-gnome/channel-list-window.c:442
+msgid "Channel Name"
+msgstr "வாய்க்கால்  பெயர்"
+
+#: ../src/common/text.c:1148 ../src/common/text.c:1306
+msgid "Text"
+msgstr "உரை"
+
+#: ../src/common/text.c:1149 ../src/common/text.c:1155
+#: ../src/common/text.c:1184 ../src/common/text.c:1302
+#: ../src/common/text.c:1344
+msgid "Server Name"
+msgstr "சேவையகத்தின் பெயர்"
+
+#: ../src/common/text.c:1154
+msgid "Nick of person who invited you"
+msgstr "உங்களை அழைத்த நபரின் புனைப்பெயர்"
+
+#: ../src/common/text.c:1164
+msgid "Nickname in use"
+msgstr "பயனிலுள்ள புனைப்பெயர்"
+
+#: ../src/common/text.c:1165
+msgid "Nick being tried"
+msgstr "முயற்சிக்கும் புனை"
+
+#: ../src/common/text.c:1174 ../src/common/text.c:1310
+msgid "IP"
+msgstr "ஐபி "
+
+#: ../src/common/text.c:1175 ../src/common/text.c:1206
+msgid "Port"
+msgstr "துறை"
+
+#: ../src/common/text.c:1185
+msgid "Network"
+msgstr "பிணையம்"
+
+#: ../src/common/text.c:1190 ../src/common/text.c:1195
+msgid "Modes string"
+msgstr "முறைகள் சரம்"
+
+#: ../src/common/text.c:1205 ../src/common/text.c:1243
+#: ../src/common/text.c:1248 ../src/common/text.c:1289
+msgid "IP address"
+msgstr "ஐபி  முகவரி"
+
+#: ../src/common/text.c:1211 ../src/common/text.c:1236
+msgid "DCC Type"
+msgstr "DCC வகை"
+
+#: ../src/common/text.c:1212 ../src/common/text.c:1217
+#: ../src/common/text.c:1222 ../src/common/text.c:1229
+#: ../src/common/text.c:1249 ../src/common/text.c:1253
+#: ../src/common/text.c:1259 ../src/common/text.c:1265
+#: ../src/common/text.c:1272 ../src/common/text.c:1281
+#: ../src/common/text.c:1287
+msgid "Filename"
+msgstr "கோப்பு பெயர்"
+
+#: ../src/common/text.c:1223 ../src/common/text.c:1230
+msgid "Destination filename"
+msgstr "இலக்கு கோப்புபெயர்"
+
+#: ../src/common/text.c:1232 ../src/common/text.c:1261
+msgid "CPS"
+msgstr "சிபிஎஸ்  "
+
+#: ../src/common/text.c:1267
+msgid "Pathname"
+msgstr "பாதைபெயர்"
+
+#: ../src/common/text.c:1282
+msgid "Position"
+msgstr "இடம்"
+
+#: ../src/common/text.c:1288
+msgid "Size"
+msgstr "அளவு"
+
+#: ../src/common/text.c:1293
+msgid "DCC String"
+msgstr "டிசிசி(DCC)  சரம்"
+
+#: ../src/common/text.c:1298
+msgid "Number of notify items"
+msgstr "குறிப்பிட்ட உருப்படிகளின் எண்ணிக்கை"
+
+#: ../src/common/text.c:1314
+msgid "Old Filename"
+msgstr "பழைய கோப்புபெயர்"
+
+#: ../src/common/text.c:1315
+msgid "New Filename"
+msgstr "புதிய கோப்புபெயர்"
+
+#: ../src/common/text.c:1319
+msgid "Receiver"
+msgstr "பெற்றுக்கொள்பவர்"
+
+#: ../src/common/text.c:1324
+msgid "Hostmask"
+msgstr "புரவலமாஸ்க்"
+
+#: ../src/common/text.c:1329
+msgid "Hostname"
+msgstr "புரவலன் பெயர்"
+
+#: ../src/common/text.c:1334
+msgid "The Packet"
+msgstr "பாக்கெட்"
+
+#: ../src/common/text.c:1338
+msgid "Seconds"
+msgstr "நொடிகள்"
+
+#: ../src/common/text.c:1342
+msgid "Nick of person who have been invited"
+msgstr "அழைத்த நபரின் புனை பெயர்"
+
+#: ../src/common/text.c:1349
+msgid "Banmask"
+msgstr "பான்மாஸ்க்"
+
+#: ../src/common/text.c:1350
+msgid "Who set the ban"
+msgstr "யார் தடையை அமைத்தது"
+
+#: ../src/common/text.c:1351
+msgid "Ban time"
+msgstr "தடைசெய்யப்பட்ட நேரம்"
+
+#: ../src/common/text.c:1391
+#, c-format
+msgid ""
+"Error parsing event %s.\n"
+"Loading default."
+msgstr ""
+"நிகழ்வு %sஐ பகுக்க முடியவில்லை.\n"
+"முன்னிருப்பை ஏற்றுகிறது."
+
+#: ../src/common/text.c:2084
+#, c-format
+msgid ""
+"Cannot read sound file:\n"
+"%s"
+msgstr ""
+"ஒலிக் கோப்பை படிக்க முடியவில்லை:\n"
+"%s"
+
+#: ../src/common/textevents.h:6
+msgid "-%C10-%C11-%O$t$1 added to notify list."
+msgstr "-%C10-%C11-%O$t$1 அறிவிப்பு பட்டியலில் சேர்க்கப்பட்டது"
+
+#: ../src/common/textevents.h:9
+msgid "-%C10-%C11-%O$t$1 Banlist: %C3$4 %C4$2 %C5$3%O"
+msgstr "-%C10-%C11-%O$t$1 புறக்கணிப்பு பட்டியல்: %C3$4 %C4$2 %C5$3%O"
+
+#: ../src/common/textevents.h:12
+msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(You are banned)."
+msgstr "-%C10-%C11-%O$tசேர இயலாது%C11 %B$1 %O(நீங்கள் புறக்கணிக்கப்பட்டீர்கள்)."
+
+#: ../src/common/textevents.h:18
+msgid "-%C10-%C11-%O$t$1 is now known as $2"
+msgstr "-%C10-%C11-%O$t$1 இப்போது இப்படித்தெரியவில்லை $2"
+
+#: ../src/common/textevents.h:21
+msgid "%C13*%O$t$1 $2%O"
+msgstr "%C13*%O$t$1 $2%O"
+
+#: ../src/common/textevents.h:24
+msgid "%C13*%O$t%C8%B$1%B%O $2%O"
+msgstr "%C13*%O$t%C8%B$1%B%O $2%O"
+
+#: ../src/common/textevents.h:27
+msgid "-%C10-%C11-%O$t$1 sets ban on $2"
+msgstr "-%C10-%C11-%O$t$1 இதன் மீது புறக்கணிப்பை செய்கிறார் $2"
+
+#: ../src/common/textevents.h:30
+msgid "-%C10-%C11-%O$tChannel $1 created on $2"
+msgstr "-%C10-%C11-%O$tவாய்க்கால் $1 உருவாக்கியது இந்தநேரம் $2"
+
+#: ../src/common/textevents.h:33
+msgid "-%C10-%C11-%O$t$1 removes channel half-operator status from $2"
+msgstr "-%C10-%C11-%O$t$1  $2 இடமிருந்து வாய்க்கால் பகுதி செயலுனர் பொறுப்பை நீக்குகிறார்."
+
+#: ../src/common/textevents.h:36
+msgid "-%C10-%C11-%O$t$1 removes channel operator status from $2"
+msgstr "-%C10-%C11-%O$t$1 $2 இடமிருந்து வாய்க்கால் பகுதி செயலுனர் பொறுப்பை நீக்குகிறார்."
+
+#: ../src/common/textevents.h:39
+msgid "-%C10-%C11-%O$t$1 removes voice from $2"
+msgstr "-%C10-%C11-%O$t$1 r $2 இடமிருந்து குரலை நீக்குகிறார்."
+
+#: ../src/common/textevents.h:42
+msgid "-%C10-%C11-%O$t$1 sets exempt on $2"
+msgstr "-%C10-%C11-%O$t$1$2 மீது விதிவிலக்கு அமைக்கிறார்."
+
+#: ../src/common/textevents.h:45
+msgid "-%C10-%C11-%O$t$1 gives channel half-operator status to $2"
+msgstr "-%C10-%C11-%O$t$1 $2 இடம் வாய்க்கால் பகுதி செயலுனர் பொறுப்பை தருகிறார்."
+
+#: ../src/common/textevents.h:48
+msgid "-%C10-%C11-%O$t$1 sets invite on $2"
+msgstr "-%C10-%C11-%O$t$1  $2 மீது அழைப்பை வைக்கிறது"
+
+#: ../src/common/textevents.h:51
+msgid "%UChannel          Users   Topic%O"
+msgstr "%Uவாய்க்கால்          பயனர்கள்   தலைப்பு%O"
+
+#: ../src/common/textevents.h:54 ../src/common/textevents.h:306
+msgid "%C2<%O$1%C2>%O$t$2%O"
+msgstr "%C2<%O$1%C2>%O$t$2%O"
+
+#: ../src/common/textevents.h:57
+msgid "-%C10-%C11-%O$t$1 sets mode $2$3 $4"
+msgstr "-%C10-%C11-%O$t$1 பாங்கை இப்படி அமைக்கிறது $2$3 $4"
+
+#: ../src/common/textevents.h:60
+msgid "-%C10-%C11-%O$tChannel $1 modes: $2"
+msgstr "-%C10-%C11-%O$tவாய்க்கால் $1 பாங்குகள்: $2"
+
+#: ../src/common/textevents.h:63
+msgid "%C2<%C8%B$1%B%C2>%O$t$2%O"
+msgstr "%C2<%C8%B$1%B%C2>%O$t$2%O"
+
+#: ../src/common/textevents.h:66
+msgid "%C12-%C13$1/$2%C12-%O$t$3%O"
+msgstr "%C12-%C13$1/$2%C12-%O$t$3%O"
+
+#: ../src/common/textevents.h:69
+msgid "-%C10-%C11-%O$t$1 gives channel operator status to $2"
+msgstr "-%C10-%C11-%O$t$1 வாய்க்கால் செயலுனரின் மதிப்பை இதற்கு அமைக்கிறது $2"
+
+#: ../src/common/textevents.h:72
+msgid "-%C10-%C11-%O$t$1 removes exempt on $2"
+msgstr "-%C10-%C11-%O$t$1 விதிவிலக்கை நீக்குகிறார் இதன் மீது: $2"
+
+#: ../src/common/textevents.h:75
+msgid "-%C10-%C11-%O$t$1 removes invite on $2"
+msgstr "-%C10-%C11-%O$t$1 அழைப்பை விலக்குகிறார் இதன் மீது $2"
+
+#: ../src/common/textevents.h:78
+msgid "-%C10-%C11-%O$t$1 removes channel keyword"
+msgstr "-%C10-%C11-%O$t$1 வாய்க்கால் முக்கிய சொல்லை நீக்குகிறார்."
+
+#: ../src/common/textevents.h:81
+msgid "-%C10-%C11-%O$t$1 removes user limit"
+msgstr "-%C10-%C11-%O$t$1 பயனர் வரையரையை நீக்குகிறார்."
+
+#: ../src/common/textevents.h:84
+msgid "-%C10-%C11-%O$t$1 sets channel keyword to $2"
+msgstr "-%C10-%C11-%O$t$1 $2 க்கு வாய்க்கால்  முக்கிய சொல்லை அமைக்கிறது "
+
+#: ../src/common/textevents.h:87
+msgid "-%C10-%C11-%O$t$1 sets channel limit to $2"
+msgstr "-%C10-%C11-%O$t$1  $2 க்கு வாய்க்கால்  வரையரை  அமைக்கிறார் "
+
+#: ../src/common/textevents.h:90
+msgid "-%C10-%C11-%O$t$1 removes ban on $2"
+msgstr "-%C10-%C11-%O$t$1  $2 இன் மீது தடையை நீக்குகிறது"
+
+#: ../src/common/textevents.h:93
+msgid "-%C10-%C11-%O$t$1 gives voice to $2"
+msgstr "-%C10-%C11-%O$t$1   $2 க்கு குரல் தருகிறது"
+
+#: ../src/common/textevents.h:96
+msgid "-%C10-%C11-%O$tConnected. Now logging in.."
+msgstr "-%C10-%C11-%O$t இணைக்கப்பட்டது. இப்போது உள்நுழைகிறது..."
+
+#: ../src/common/textevents.h:99
+msgid "-%C10-%C11-%O$tConnecting to %C11$1 %C14(%C11$2%C14)%C port %C11$3%C.."
+msgstr "-%C10-%C11-%O$t %C11$1 %C14(%C11$2%C14)%C port %C11$3%C..க்கு  இணைக்கிறது."
+
+#: ../src/common/textevents.h:102
+msgid "-%C10-%C11-%O$tConnection failed. Error: $1"
+msgstr "-%C10-%C11-%O$tஇணைப்பு தோல்வியுற்றது . பிழை : $1"
+
+#: ../src/common/textevents.h:105
+msgid "-%C10-%C11-%O$tReceived a CTCP $1 from $2"
+msgstr "-%C10-%C11-%O$t சிடிசிபி(CTCP) $1 பெற்றது  $2 இடமிருந்து"
+
+#: ../src/common/textevents.h:108
+msgid "-%C10-%C11-%O$tReceived a CTCP $1 from $2 (to $3)"
+msgstr "-%C10-%C11-%O$tசிடிசிபி(CTCP) $1 பெற்றது  $2 இடமிருந்து (  $3 க்கு)"
+
+#: ../src/common/textevents.h:111
+msgid "%C3>%O$1%C3<%O$tCTCP $2%O"
+msgstr "%C3>%O$1%C3<%O$tCTCP $2%O"
+
+#: ../src/common/textevents.h:114
+msgid "-%C10-%C11-%O$tReceived a CTCP Sound $1 from $2"
+msgstr "-%C10-%C11-%O$tசிடிசிபி(CTCP) $1 ஒலி பெற்றது  $2 இருந்து"
+
+#: ../src/common/textevents.h:117
+msgid "%C22*%O$tReceived a CTCP Sound $1 from $2 (to $3)"
+msgstr "%C22*%O$tஒரு சிடிசிபி(CTCP) $1 ஒலி பெற்றது $2 இலிருந்து ($3க்கு)"
+
+#: ../src/common/textevents.h:120
+msgid "-%C10-%C11-%O$tDCC CHAT to %C11$1%O aborted."
+msgstr "-%C10-%C11-%O$tDCC CHAT க்கு  %C11$1%O கைவிட்டது ."
+
+#: ../src/common/textevents.h:123
+msgid "-%C10-%C11-%O$tDCC CHAT connection established to %C11$1 %C14[%O$2%C14]%O"
+msgstr "-%C10-%C11-%O$tDCC CHAT இணைப்பு  %C11$1 %C14[%O$2%C14]%O  க்கு ஏற்படுத்தியது"
+
+#: ../src/common/textevents.h:126
+msgid "-%C10-%C11-%O$tDCC CHAT failed. Connection to $1 %C14[%O$2:$3%C14]%O lost."
+msgstr ""
+"-%C10-%C11-%O$tDCC CHAT தோல்வியுற்றது . $1 %C14[%O$2:$3%C14]%O க்கு இணைப்பு "
+"தொலைந்தது."
+
+#: ../src/common/textevents.h:129
+msgid "-%C10-%C11-%O$tReceived a DCC CHAT offer from $1"
+msgstr "-%C10-%C11-%O$t $1 இலிருந்து டிசிசி(DCC) சாட் அளிப்பு கிடைத்தது."
+
+#: ../src/common/textevents.h:132
+msgid "-%C10-%C11-%O$tOffering DCC CHAT to $1"
+msgstr "-%C10-%C11-%O$t$1 இக்கு டிசிசி(DCC) சாட் அளிக்கிறார்."
+
+#: ../src/common/textevents.h:135
+msgid "-%C10-%C11-%O$tAlready offering CHAT to $1"
+msgstr "-%C10-%C11-%O$t$1 இக்கு டிசிசி(DCC) சாட் ஏற்கெனெவே அளித்தார்"
+
+#: ../src/common/textevents.h:138
+msgid "-%C10-%C11-%O$tDCC $1 connect attempt to %C11$2%O failed (err=$3)."
+msgstr "-%C10-%C11-%O$tDCC $1 %C11$2%O   க்கு  இணைக்க தோல்வியுற்றது  (err=$3)."
+
+#: ../src/common/textevents.h:141
+msgid "-%C10-%C11-%O$tReceived '$1%O' from $2"
+msgstr "-%C10-%C11-%O$t  $2 இடமிருந்து '$1%O' கிடைத்தது"
+
+#: ../src/common/textevents.h:144
+#, c-format
+msgid "%C24,18 Type  To/From    Status  Size    Pos     File         "
+msgstr "%C24,18 வகை  அனுப்புனர்/பெறுநர்    நிலை  அளவு    Pos     கோப்பு         "
+
+#: ../src/common/textevents.h:147
+msgid ""
+"-%C10-%C11-%O$tReceived a malformed DCC request from %C11$1%O.%010-%C10-%C11-"
+"%O$tContents of packet: $2"
+msgstr ""
+"-%C10-%C11-%O$tஒரு சிதைந்த டிசிசி(DCC)  வேண்டுதல் %C11$1%O இடமிருந்து கிடைத்தது.%"
+"010-%C10-%C11-%O$tபொட்டலத்தின் உள்ளடக்கம்: $2"
+
+#: ../src/common/textevents.h:150
+msgid "-%C10-%C11-%O$tOffering %C11$1 %Cto %C11$2%O"
+msgstr "-%C10-%C11-%O$t %C11$1 %Cto %C11$2%O ஐ அளிக்கிறது"
+
+#: ../src/common/textevents.h:153
+msgid "-%C10-%C11-%O$tNo such DCC offer."
+msgstr "-%C10-%C11-%O$tஅப்படி ஒரு டிசிசி(DCC) அளிப்பு இல்லை"
+
+#: ../src/common/textevents.h:156
+msgid "-%C10-%C11-%O$tDCC RECV %C11$2%O to %C11$1%O aborted."
+msgstr "-%C10-%C11-%O$tDCC RECV %C11$2%O க்கு  %C11$1%O கைவிட்டது ."
+
+#: ../src/common/textevents.h:159
+msgid ""
+"-%C10-%C11-%O$tDCC RECV %C11$1%O from %C11$3%O complete %C14[%C11$4%O cps%"
+"C14]%O."
+msgstr ""
+"-%C10-%C11-%O$tDCC RECV %C11$1%O இடமிருந்து  %C11$3%O முழுமையானது %C14[%C11$4%"
+"O cps%C14]%O."
+
+#: ../src/common/textevents.h:162
+msgid "-%C10-%C11-%O$tDCC RECV connection established to %C11$1 %C14[%O$2%C14]%O"
+msgstr "-%C10-%C11-%O$tDCC RECV  %C11$1 %C14[%O$2%C14]%Oக்கு இணைப்பு ஏற்பட்டது "
+
+#: ../src/common/textevents.h:165
+msgid "-%C10-%C11-%O$tDCC RECV $1 ($2) failed. Connection to $3 lost."
+msgstr "-%C10-%C11-%O$tDCC RECV $1 ($2) தோல்வியுற்றது .  $3 க்கு இணைப்பு தொலைந்தது."
+
+#: ../src/common/textevents.h:168
+msgid "-%C10-%C11-%O$tDCC RECV: Cannot open $1 for writing ($2)."
+msgstr "-%C10-%C11-%O$tDCC RECV: இயலாது   $1 ஐ எழுத திற ($2)."
+
+#: ../src/common/textevents.h:171
+msgid ""
+"-%C10-%C11-%O$tThe file %C11$1%C already exists, saving it as %C11$2%O "
+"instead."
+msgstr ""
+"-%C10-%C11-%O$tகோப்பு %C11$1%C ஏற்கெனெவே உள்ளது. அதை மாறாக இப்படி  சேமிக்கிறது %"
+"C11$2%O "
+
+#: ../src/common/textevents.h:174
+msgid "-%C10-%C11-%O$t%C11$1 %Chas requested to resume %C11$2 %Cfrom %C11$3%C."
+msgstr ""
+"-%C10-%C11-%O$t%C11$1 %C  %C11$2 ஐ மீண்டும் துவக்க %C இங்கிருந்து %C11$3%C. "
+"வேண்டுகிறது."
+
+#: ../src/common/textevents.h:177
+msgid "-%C10-%C11-%O$tDCC SEND %C11$2%O to %C11$1%O aborted."
+msgstr "-%C10-%C11-%O$tDCC SEND %C11$2%O   %C11$1%O க்கு கைவிட்டது ."
+
+#: ../src/common/textevents.h:180
+msgid ""
+"-%C10-%C11-%O$tDCC SEND %C11$1%O to %C11$2%O complete %C14[%C11$3%O cps%C14]%"
+"O."
+msgstr ""
+"-%C10-%C11-%O$tDCC SEND %C11$1%O %C11$2%O க்கு  முழுமையானது  %C14[%C11$3%O cps"
+"%C14]%O."
+
+#: ../src/common/textevents.h:183
+msgid "-%C10-%C11-%O$tDCC SEND connection established to %C11$1 %C14[%O$2%C14]%O"
+msgstr "-%C10-%C11-%O$tDCC SEND இணைப்பு  ஏற்படுத்தப்பட்டது   %C11$1 %C14[%O$2%C14]%O க்கு "
+
+#: ../src/common/textevents.h:186
+msgid "-%C10-%C11-%O$tDCC SEND %C11$1%O failed. Connection to %C11$2%O lost."
+msgstr ""
+"-%C10-%C11-%O$tDCC SEND %C11$1%O தோல்வியுற்றது . இணைப்பு  %C11$2%O க்கு  "
+"தொலைந்தது ."
+
+#: ../src/common/textevents.h:189
+msgid "-%C10-%C11-%O$t%C11$1 %Chas offered %C11$2 %C(%C11$3 %Cbytes)"
+msgstr "-%C10-%C11-%O$t%C11$1 %Chas  %C11$2 %C(%C11$3 %Cbytes) அளித்தது"
+
+#: ../src/common/textevents.h:192
+msgid "-%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Cstalled - aborting."
+msgstr "-%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Cநின்றுபோனது  - கைவிட்டது ."
+
+#: ../src/common/textevents.h:195
+msgid "-%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Ctimed out - aborting."
+msgstr "-%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Cகாலாவதியானது  - கைவிட்டது ."
+
+#: ../src/common/textevents.h:198
+msgid "-%C10-%C11-%O$t$1 deleted from notify list."
+msgstr "-%C10-%C11-%O$t$1 அறிக்கை பட்டியலில் இருந்து நீக்கப்பட்டது"
+
+#: ../src/common/textevents.h:201
+msgid "-%C10-%C11-%O$tDisconnected ($1)."
+msgstr "-%C10-%C11-%O$tஇணைப்பு நீக்கப்பட்டது  ($1)."
+
+#: ../src/common/textevents.h:204
+msgid "-%C10-%C11-%O$tFound your IP: [$1]"
+msgstr "-%C10-%C11-%O$tஉங்க ஐபி ஐ கண்டுபிடித்தது : [$1]"
+
+#: ../src/common/textevents.h:207
+msgid "$1$t$2"
+msgstr "$1$t$2"
+
+#: ../src/common/textevents.h:210
+msgid "%O%C11$1%O added to ignore list."
+msgstr "%O%C11$1%O புறக்கணி பட்டியலில் சேர்க்கப்பட்டது"
+
+#: ../src/common/textevents.h:213
+msgid "Ignore on %C11$1%O changed."
+msgstr " %C11$1%O இல் உதாசீனப்படுத்து மாற்றப்பட்டது"
+
+#: ../src/common/textevents.h:216
+#, c-format
+msgid "%C24,18                                                              "
+msgstr "%C24,18                                                              "
+
+#: ../src/common/textevents.h:219
+#, c-format
+msgid "%C24,18 Hostmask                  PRIV NOTI CHAN CTCP DCC  INVI UNIG "
+msgstr "%C24,18 புரவலன் மறைமூடி                  PRIV NOTI CHAN CTCP DCC  INVI UNIG "
+
+#: ../src/common/textevents.h:222
+msgid "%O%C11$1%O removed from ignore list."
+msgstr "%O%C11$1%O புறக்கணி பட்டியலில் நீக்கப்பட்டது"
+
+#: ../src/common/textevents.h:225
+msgid "  Ignore list is empty."
+msgstr "  புறக்கணி பட்டியல் வெற்றாக உள்ளது."
+
+#: ../src/common/textevents.h:228
+msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(Channel is invite only)."
+msgstr "-%C10-%C11-%O$t இதில்சேர முடியாது %C11 %B$1 %O(வாய்க்கால் அழைப்பால் மட்டுமே)."
+
+#: ../src/common/textevents.h:231
+msgid "-%C10-%C11-%O$tYou have been invited to %C11$1%C by %C11$2%C (%C11$3%C)"
+msgstr "-%C10-%C11-%O$t  %C11$1%C by %C11$2%C (%C11$3%C) க்கு நீங்கள் அழைக்கப்பட்டு உள்ளீர்கள்"
+
+#: ../src/common/textevents.h:234
+msgid "-%C10-%C11>%O$t%B$1%B %C14(%C10$3%C14)%C has joined $2"
+msgstr "-%C10-%C11>%O$t%B$1%B %C14(%C10$3%C14)%C $2 இல் சேர்ந்து உள்ளார்"
+
+#: ../src/common/textevents.h:237
+msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(Requires keyword)."
+msgstr "-%C10-%C11-%O$tஇதில் சேர முடியாது %C11 %B$1 %O(விசைச்சொல் தேவை)."
+
+#: ../src/common/textevents.h:240
+msgid "<%C10-%C11-%O$t$1 has kicked $2 from $3 ($4%O)"
+msgstr "<%C10-%C11-%O$t$1  $2 ஐ $3 ($4%O) இலிருந்து வெளியேறினார்."
+
+#: ../src/common/textevents.h:243
+msgid "-%C10-%C11-%O$tYou have been killed by $1 ($2%O)"
+msgstr "-%C10-%C11-%O$tநீங்கள் $1 ($2%O) ஆல் கொல்லப்பட்டீர்கள்."
+
+#: ../src/common/textevents.h:246 ../src/common/textevents.h:270
+msgid "%C3>%O$1%C3<%O$t$2%O"
+msgstr "%C3>%O$1%C3<%O$t$2%O"
+
+#: ../src/common/textevents.h:249 ../src/common/textevents.h:327
+#: ../src/common/textevents.h:333 ../src/common/textevents.h:336
+msgid "-%C10-%C11-%O$t$1%O"
+msgstr "-%C10-%C11-%O$t$1%O"
+
+#: ../src/common/textevents.h:252
+msgid "-%C10-%C11-%O$tMOTD Skipped."
+msgstr "-%C10-%C11-%O$tMOTD தவிர்க்கப்பட்டது."
+
+#: ../src/common/textevents.h:255
+msgid "-%C10-%C11-%O$t$1 already in use. Retrying with $2.."
+msgstr "-%C10-%C11-%O$t$1 ஏற்கெனெவே பயனில் உள்ளது. $2 ஆல்மறு முயற்சி செய்யப்படுகிறது."
+
+#: ../src/common/textevents.h:258
+msgid "-%C10-%C11-%O$tNickname already in use. Use /NICK to try another."
+msgstr ""
+"-%C10-%C11-%O$tசெல்லப்பெயர்  ஏற்கெனெவே பயனில் உள்ளது.  /NICK ஐ பயன்படுத்தி வேறு ஒன்றை "
+"முயற்சி செய்க"
+
+#: ../src/common/textevents.h:261
+msgid "-%C10-%C11-%O$tNo such DCC."
+msgstr "-%C10-%C11-%O$tஅப்படிப்பட்ட டிசிசி(DCC) இல்லை."
+
+#: ../src/common/textevents.h:264
+msgid "-%C10-%C11-%O$tNo process is currently running"
+msgstr "-%C10-%C11-%O$tநடப்பில் ஒரு இயக்கமும் இல்லை"
+
+#: ../src/common/textevents.h:267
+msgid "%C12-%C13$1%C12-%O$t$2%O"
+msgstr "%C12-%C13$1%C12-%O$t$2%O"
+
+#: ../src/common/textevents.h:273
+msgid "-%C10-%C11-%O$tNotify list is empty."
+msgstr "-%C10-%C11-%O$tஅறிவிப்பு பட்டியல் காலி"
+
+#: ../src/common/textevents.h:276
+msgid "%C24,18 %B  Notify List                           "
+msgstr "%C24,18 %B  அறிவிப்பு பட்டியல்                           "
+
+#: ../src/common/textevents.h:279
+msgid "-%C10-%C11-%O$t$1 users in notify list."
+msgstr "-%C10-%C11-%O$t$1 பயனர்கள் அறிவிப்பு பட்டியலில்."
+
+#: ../src/common/textevents.h:282
+msgid "-%C10-%C11-%O$tNotify: $1 is offline ($2)."
+msgstr "-%C10-%C11-%O$tஅறிவிப்பு $1 இணைப்பில் இல்லை ($2)."
+
+#: ../src/common/textevents.h:285
+msgid "-%C10-%C11-%O$tNotify: $1 is online ($2)."
+msgstr "-%C10-%C11-%O$tஅறிவிப்பு $1 இணைப்பில் உள்ளார் ($2)."
+
+#: ../src/common/textevents.h:291
+msgid "<%C10-%C11-%O$t$1 %C14(%O$2%C14)%C has left $3"
+msgstr "<%C10-%C11-%O$t$1 %C14(%O$2%C14)%C  $3 ஐ விட்டு போய்விட்டார்."
+
+#: ../src/common/textevents.h:294
+msgid "<%C10-%C11-%O$t$1 %C14(%O$2%C14)%C has left $3 %C14(%O$4%C14)%O"
+msgstr "<%C10-%C11-%O$t$1 %C14(%O$2%C14)%C $3 %C14(%O$4%C14)%O ஐ விட்டு போய்விட்டார்."
+
+#: ../src/common/textevents.h:297
+msgid "-%C10-%C11-%O$tPing reply from $1 : $2 second(s)"
+msgstr "-%C10-%C11-%O$tபிங் பதில்  $1 இடமிருந்து: $2 வினாடி(கள்)"
+
+#: ../src/common/textevents.h:300
+msgid "-%C10-%C11-%O$tNo ping reply for $1 seconds, disconnecting."
+msgstr "-%C10-%C11-%O$tபிங் பதில் $1 வினாடியில் இல்லை. இணைப்பை நீக்குகிறது."
+
+#: ../src/common/textevents.h:303
+msgid "%C12*%C13$1%C12*$t%O$2%O"
+msgstr "%C12*%C13$1%C12*$t%O$2%O"
+
+#: ../src/common/textevents.h:309
+msgid "-%C10-%C11-%O$tA process is already running"
+msgstr "-%C10-%C11-%O$tஒரு செயல் இயக்கத்தில் உள்ளது"
+
+#: ../src/common/textevents.h:312
+msgid "<%C10-%C11-%O$t$1 has quit %C14(%O$2%O%C14)%O"
+msgstr "<%C10-%C11-%O$t$1 இங்கிருந்து வெளியேறினார் %C14(%O$2%O%C14)%O"
+
+#: ../src/common/textevents.h:315
+msgid "-%C10-%C11-%O$t$1 sets modes%B %C14[%O$2%B%C14]%O"
+msgstr "-%C10-%C11-%O$t$1 அமைக்கிறார்  பாங்குகள்%B %C14[%O$2%B%C14]%O"
+
+#: ../src/common/textevents.h:318
+msgid "%C12-%C13$1/Wallops%C12-%O$t$2%O"
+msgstr "%C12-%C13$1/உதைக்கிறது%C12-%O$t$2%O"
+
+#: ../src/common/textevents.h:321
+msgid "-%C10-%C11-%O$tLooking up IP number for%C11 $1%O.."
+msgstr "-%C10-%C11-%O$tபார்க்கிறது ஐபி  எண்-இதற்கு %C11 $1%O.."
+
+#: ../src/common/textevents.h:324
+msgid "-%C10-%C11-%O$tConnected."
+msgstr "-%C10-%C11-%O$tஇணைக்கப்பட்ட.து"
+
+#: ../src/common/textevents.h:330
+msgid "-%C10-%C11-%O$tLooking up %C11$1%C.."
+msgstr "-%C10-%C11-%O$tபார்க்கிறது %C11$1%C.."
+
+#: ../src/common/textevents.h:339
+msgid "-%C10-%C11-%O$tStopped previous connection attempt (pid=$1)"
+msgstr "-%C10-%C11-%O$tநிறுத்தியது முந்தைய இணைப்பு  முயற்சியை (pid=$1)"
+
+#: ../src/common/textevents.h:342
+msgid "-%C10-%C11-%O$tTopic for %C11$1%C is %C11$2%O"
+msgstr "-%C10-%C11-%O$tதலைப்பு இதற்கு %C11$1%C is %C11$2%O"
+
+#: ../src/common/textevents.h:345
+msgid "-%C10-%C11-%O$t$1 has changed the topic to: $2%O"
+msgstr "-%C10-%C11-%O$t$1 தலைப்பை இப்படி மாற்றிவிட்டார்: $2%O"
+
+#: ../src/common/textevents.h:348
+msgid "-%C10-%C11-%O$tTopic for %C11$1%C set by %C11$2%C at %C11$3%O"
+msgstr "-%C10-%C11-%O$tதலைப்பு %C11$1%C க்கு அமைத்தது  %C11$2%C இந்நேரம் %C11$3%O"
+
+#: ../src/common/textevents.h:351
+msgid "-%C10-%C11-%O$tUnknown host. Maybe you misspelled it?"
+msgstr "-%C10-%C11-%O$tதெரியாத புரவலன். தப்பாக எழுதினீர்களா?"
+
+#: ../src/common/textevents.h:354
+msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(User limit reached)."
+msgstr "-%C10-%C11-%O$tCannot சேர %C11 %B$1 %O(பயனர் வரையரை  அடையப்பட்டது)."
+
+#: ../src/common/textevents.h:357
+msgid "-%C10-%C11-%O$t%C11Users on $1:%C $2"
+msgstr "-%C10-%C11-%O$t%C11பயனர்கள் இங் $1:%C $2"
+
+#: ../src/common/textevents.h:360
+msgid "%C22*%O$t%C28[%O$1%C28] %O$2%C27 $3"
+msgstr "%C22*%O$t%C28[%O$1%C28] %O$2%C27 $3"
+
+#: ../src/common/textevents.h:363
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %Cis away %C14(%O$2%O%C14)"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %Cவெளியே உள்ளார் %C14(%O$2%O%C14)"
+
+#: ../src/common/textevents.h:366
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%C $2"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%C $2"
+
+#: ../src/common/textevents.h:369
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %CEnd of WHOIS list."
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %Cயாரது பட்டியலின் கடைசி."
+
+#: ../src/common/textevents.h:372
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %C$2"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %C$2"
+
+#: ../src/common/textevents.h:375
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%O idle %C11$2%O"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%O சும்மாயிருக்கிறார் %C11$2%O"
+
+#: ../src/common/textevents.h:378
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%O idle %C11$2%O, signon: %C11$3%O"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%O சும்மாயிருக்கிறார் %C11$2%O, சேர்க: %C11$3%O"
+
+#: ../src/common/textevents.h:381
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %C14(%O$2@$3%C14) %O: $4%O"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %C14(%O$2@$3%C14) %O: $4%O"
+
+#: ../src/common/textevents.h:384
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %Oreal user@host %C11$2%O, real IP %C11$3%O"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %Oஉண்மை user@host %C11$2%O, உண்மை ஐபி  %C11$3%O"
+
+#: ../src/common/textevents.h:387
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%O $2"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%O $2"
+
+#: ../src/common/textevents.h:390
+msgid "%C22*%O$t%C28[%O$1%C28]%O $2"
+msgstr "%C22*%O$t%C28[%O$1%C28]%O $2"
+
+#: ../src/common/textevents.h:393
+msgid "-%C10-%C11>%O$t%BYou%B are now talking on %C11$2%O"
+msgstr "-%C10-%C11>%O$t%BYou%B இப்போது இதில் பேசிக்கொண்டு உள்ளனர் %C11$2%O"
+
+#: ../src/common/textevents.h:396
+msgid "-%C10-%C11-%O$tYou have been kicked from $2 by $3 ($4%O)"
+msgstr "-%C10-%C11-%O$tநீங்கள் இங்கிருந்து வெளியேற்றப்பட்டீர் $2 இவரால் $3 ($4%O)"
+
+#: ../src/common/textevents.h:399
+msgid "-%C10-%C11-%O$tYou have left channel $3"
+msgstr "-%C10-%C11-%O$tநீங்கள் வெளியேறினீர் வாய்க்கால்  $3"
+
+#: ../src/common/textevents.h:402
+msgid "-%C10-%C11-%O$tYou have left channel $3 %C14(%O$4%C14)%O"
+msgstr "-%C10-%C11-%O$tநீங்கள் வெளியேறினீர்  வாய்க்கால்  $3 %C14(%O$4%C14)%O"
+
+#: ../src/common/textevents.h:408
+msgid "-%C10-%C11-%O$tYou're inviting %C11$1%C to %C11$2%C (%C11$3%C)"
+msgstr "-%C10-%C11-%O$tநீங்கள் அழைக்கிறீர்   %C11$1%C ஐ இதற்கு  %C11$2%C (%C11$3%C)"
+
+#: ../src/common/textevents.h:411
+msgid "%C6<%O$1%C6>%O$t$2%O"
+msgstr "%C6<%O$1%C6>%O$t$2%O"
+
+#: ../src/common/textevents.h:414
+msgid "-%C10-%C11-%O$tYou are now known as $2"
+msgstr "-%C10-%C11-%O$tஉங்கள் அடையாளம் $2"
+
+#: ../src/common/util.c:296
+msgid "Remote host closed socket"
+msgstr "தொலை புரவலன் சாக்கெட்டை மூடியது"
+
+#: ../src/common/util.c:301
+msgid "Connection refused"
+msgstr "இணைப்பு மறுக்கப்பட்டது"
+
+#: ../src/common/util.c:304
+msgid "No route to host"
+msgstr "நிறுவ தடம் எதவும் இல்லை"
+
+#: ../src/common/util.c:306
+msgid "Connection timed out"
+msgstr "இணைப்பு நேரம் முடிந்தது"
+
+#: ../src/common/util.c:308
+msgid "Cannot assign that address"
+msgstr "இந்த முகவரியை ஒதுக்க முடியாது"
+
+#: ../src/common/util.c:310
+msgid "Connection reset by peer"
+msgstr "பீரால் இணைப்பு மறுஅமைக்கப்படுகிறது"
+
+#: ../src/common/util.c:839
+msgid "Ascension Island"
+msgstr "அசென்ஷன் தீவுகள்"
+
+#: ../src/common/util.c:840
+msgid "Andorra"
+msgstr "அன்டோரா"
+
+#: ../src/common/util.c:841
+msgid "United Arab Emirates"
+msgstr "ஐக்கிய அரபு எமிரேட்ஸ்"
+
+#: ../src/common/util.c:842
+msgid "Afghanistan"
+msgstr "ஆப்கானிஸ்தான்"
+
+#: ../src/common/util.c:843
+msgid "Antigua and Barbuda"
+msgstr "அன்டிகுவா மற்றும் பார்புதா"
+
+#: ../src/common/util.c:844
+msgid "Anguilla"
+msgstr "அங்குல்லா"
+
+#: ../src/common/util.c:845
+msgid "Albania"
+msgstr "அல்பேனியா"
+
+#: ../src/common/util.c:846
+msgid "Armenia"
+msgstr "அர்மெனியா"
+
+#: ../src/common/util.c:847
+msgid "Netherlands Antilles"
+msgstr "நெதர்லாந்து ஆன்டிலிஸ்"
+
+#: ../src/common/util.c:848
+msgid "Angola"
+msgstr "அங்கோலா"
+
+#: ../src/common/util.c:849
+msgid "Antarctica"
+msgstr "அண்டார்ட்டிக்கா"
+
+#: ../src/common/util.c:850
+msgid "Argentina"
+msgstr "அர்ஜென்டினா"
+
+#: ../src/common/util.c:851
+msgid "Reverse DNS"
+msgstr "தலைகீழ் DNS"
+
+#: ../src/common/util.c:852
+msgid "American Samoa"
+msgstr "அமெரிக்கன் சமோ"
+
+#: ../src/common/util.c:853
+msgid "Austria"
+msgstr "ஆஸ்திரியா"
+
+#: ../src/common/util.c:854
+msgid "Nato Fiel"
+msgstr "நாடோ பைல்"
+
+#: ../src/common/util.c:855
+msgid "Australia"
+msgstr "ஆஸ்திரேலியா"
+
+#: ../src/common/util.c:856
+msgid "Aruba"
+msgstr "அருபா"
+
+#: ../src/common/util.c:857
+msgid "Aland Islands"
+msgstr "ஆவன்டு தீவுகள்"
+
+#: ../src/common/util.c:858
+msgid "Azerbaijan"
+msgstr "அசர்பஜான்"
+
+#: ../src/common/util.c:859
+msgid "Bosnia and Herzegovina"
+msgstr "போஸ்னியா மற்றும் ஹெர்சிகோவினா"
+
+#: ../src/common/util.c:860
+msgid "Barbados"
+msgstr "பார்படாஸ்"
+
+#: ../src/common/util.c:861
+msgid "Bangladesh"
+msgstr "பங்ளாதேஷ்"
+
+#: ../src/common/util.c:862
+msgid "Belgium"
+msgstr "பெல்ஜியம்"
+
+#: ../src/common/util.c:863
+msgid "Burkina Faso"
+msgstr "பர்கினா பாசோ"
+
+#: ../src/common/util.c:864
+msgid "Bulgaria"
+msgstr "பல்கேரியா"
+
+#: ../src/common/util.c:865
+msgid "Bahrain"
+msgstr "பஹ்ரெயின்"
+
+#: ../src/common/util.c:866
+msgid "Burundi"
+msgstr "ப்ருன்டி"
+
+#: ../src/common/util.c:867
+msgid "Businesses"
+msgstr "தொழில்"
+
+#: ../src/common/util.c:868
+msgid "Benin"
+msgstr "பெனின்"
+
+#: ../src/common/util.c:869
+msgid "Bermuda"
+msgstr "பெர்முடா"
+
+#: ../src/common/util.c:870
+msgid "Brunei Darussalam"
+msgstr "ப்ரூனே தருசலம்"
+
+#: ../src/common/util.c:871
+msgid "Bolivia"
+msgstr "பொலிவியா"
+
+#: ../src/common/util.c:872
+msgid "Brazil"
+msgstr "ப்ரேசில்"
+
+#: ../src/common/util.c:873
+msgid "Bahamas"
+msgstr "பஹாமாஸ்"
+
+#: ../src/common/util.c:874
+msgid "Bhutan"
+msgstr "பூட்டான்"
+
+#: ../src/common/util.c:875
+msgid "Bouvet Island"
+msgstr "போவெட் தீவு"
+
+#: ../src/common/util.c:876
+msgid "Botswana"
+msgstr "போஸ்வானா"
+
+#: ../src/common/util.c:877
+msgid "Belarus"
+msgstr "பெலாருஸ்"
+
+#: ../src/common/util.c:878
+msgid "Belize"
+msgstr "பெலிஸ்"
+
+#: ../src/common/util.c:879
+msgid "Canada"
+msgstr "கனடா"
+
+#: ../src/common/util.c:880
+msgid "Cocos Islands"
+msgstr "கோகாஸ் தீவுகள்"
+
+#: ../src/common/util.c:881
+msgid "Democratic Republic of Congo"
+msgstr "ஜனநாயக காங்கோ குடியரசு"
+
+#: ../src/common/util.c:882
+msgid "Central African Republic"
+msgstr "மத்திய ஆப்ரிக்க குடியரசு"
+
+#: ../src/common/util.c:883
+msgid "Congo"
+msgstr "காங்கோ"
+
+#: ../src/common/util.c:884
+msgid "Switzerland"
+msgstr "சுவிசர்லாந்து"
+
+#: ../src/common/util.c:885
+msgid "Cote d'Ivoire"
+msgstr "கோட் டில்வொரி"
+
+#: ../src/common/util.c:886
+msgid "Cook Islands"
+msgstr "குக் தீவு"
+
+#: ../src/common/util.c:887
+msgid "Chile"
+msgstr "சிலி"
+
+#: ../src/common/util.c:888
+msgid "Cameroon"
+msgstr "கேமரூன்"
+
+#: ../src/common/util.c:889
+msgid "China"
+msgstr "சீனா"
+
+#: ../src/common/util.c:890
+msgid "Colombia"
+msgstr "கொலம்பியா"
+
+#: ../src/common/util.c:891
+msgid "Internic Commercial"
+msgstr "உள்ளார்ந்த வணிகம்"
+
+#: ../src/common/util.c:892
+msgid "Costa Rica"
+msgstr "கோஸ்டா ரிக்கா"
+
+#: ../src/common/util.c:893
+msgid "Serbia and Montenegro"
+msgstr "செரிபியா மற்றும் மான்டிநீக்ரோ "
+
+#: ../src/common/util.c:894
+msgid "Cuba"
+msgstr " க்யூபா"
+
+#: ../src/common/util.c:895
+msgid "Cape Verde"
+msgstr "கேப் வெர்டி"
+
+#: ../src/common/util.c:896
+msgid "Christmas Island"
+msgstr "கிறிஸ்துமஸ் தீவு"
+
+#: ../src/common/util.c:897
+msgid "Cyprus"
+msgstr "சைப்ரஸ்"
+
+#: ../src/common/util.c:898
+msgid "Czech Republic"
+msgstr "செக் குடியரசு"
+
+#: ../src/common/util.c:899
+msgid "Germany"
+msgstr "ஜெர்மனி"
+
+#: ../src/common/util.c:900
+msgid "Djibouti"
+msgstr "டிஜ்பொட்டி"
+
+#: ../src/common/util.c:901
+msgid "Denmark"
+msgstr "டென்மார்க்"
+
+#: ../src/common/util.c:902
+msgid "Dominica"
+msgstr "டொம்னிக்கா"
+
+#: ../src/common/util.c:903
+msgid "Dominican Republic"
+msgstr "டொனிக்கன் குடியரசு"
+
+#: ../src/common/util.c:904
+msgid "Algeria"
+msgstr "அல்ஜீரியா"
+
+#: ../src/common/util.c:905
+msgid "Ecuador"
+msgstr "ஈக்வடார்"
+
+#: ../src/common/util.c:906
+msgid "Educational Institution"
+msgstr "கல்வி நிறுவனம்"
+
+#: ../src/common/util.c:907
+msgid "Estonia"
+msgstr "எஸ்தோனியா"
+
+#: ../src/common/util.c:908
+msgid "Egypt"
+msgstr "எகிப்து"
+
+#: ../src/common/util.c:909
+msgid "Western Sahara"
+msgstr "மேற்கு சஹாரா"
+
+#: ../src/common/util.c:910
+msgid "Eritrea"
+msgstr "எரிட்ரிய"
+
+#: ../src/common/util.c:911
+msgid "Spain"
+msgstr "ஸ்பெயின் "
+
+#: ../src/common/util.c:912
+msgid "Ethiopia"
+msgstr "எதியோப்பியா"
+
+#: ../src/common/util.c:913
+msgid "European Union"
+msgstr "ஐரோப்பிய யூனியன்"
+
+#: ../src/common/util.c:914
+msgid "Finland"
+msgstr "பின்லாந்து"
+
+#: ../src/common/util.c:915
+msgid "Fiji"
+msgstr "பிஜி"
+
+#: ../src/common/util.c:916
+msgid "Falkland Islands"
+msgstr "ஃபாக்லான்ட் தீவு"
+
+#: ../src/common/util.c:917
+msgid "Micronesia"
+msgstr "மெக்ரோனிசியா"
+
+#: ../src/common/util.c:918
+msgid "Faroe Islands"
+msgstr "ஃபோரி தீவு"
+
+#: ../src/common/util.c:919
+msgid "France"
+msgstr "ஃப்ரான்ஸ்"
+
+#: ../src/common/util.c:920
+msgid "Gabon"
+msgstr "கபான்"
+
+#: ../src/common/util.c:921
+msgid "Great Britain"
+msgstr "பிரிட்டன்"
+
+#: ../src/common/util.c:922
+msgid "Grenada"
+msgstr "க்ரெனடா"
+
+#: ../src/common/util.c:923
+msgid "Georgia"
+msgstr "ஜியார்ஜியா"
+
+#: ../src/common/util.c:924
+msgid "French Guiana"
+msgstr "ஃப்ரெஞ்ச் கையானா"
+
+#: ../src/common/util.c:925
+msgid "British Channel Isles"
+msgstr "பிரிட்டிஷ் கால்வாய் தீவு"
+
+#: ../src/common/util.c:926
+msgid "Ghana"
+msgstr "கானா"
+
+#: ../src/common/util.c:927
+msgid "Gibraltar"
+msgstr "கிப்ரால்டர்"
+
+#: ../src/common/util.c:928
+msgid "Greenland"
+msgstr "க்ரீன்லாந்து"
+
+#: ../src/common/util.c:929
+msgid "Gambia"
+msgstr "ஜாம்பியா"
+
+#: ../src/common/util.c:930
+msgid "Guinea"
+msgstr "கினியா"
+
+#: ../src/common/util.c:931
+msgid "Government"
+msgstr "அரசு"
+
+#: ../src/common/util.c:932
+msgid "Guadeloupe"
+msgstr "க்வாடிலோப்"
+
+#: ../src/common/util.c:933
+msgid "Equatorial Guinea"
+msgstr "ஈக்வடோசியல் கினியா"
+
+#: ../src/common/util.c:934
+msgid "Greece"
+msgstr "க்ரீஸ்"
+
+#: ../src/common/util.c:935
+msgid "S. Georgia and S. Sandwich Isles"
+msgstr "தென் ஜார்ஜியா மற்றும் தென் சென்விச் தீவுகள்"
+
+#: ../src/common/util.c:936
+msgid "Guatemala"
+msgstr "க்வாதிமாலா"
+
+#: ../src/common/util.c:937
+msgid "Guam"
+msgstr "க்கம்"
+
+#: ../src/common/util.c:938
+msgid "Guinea-Bissau"
+msgstr "கைனியா-பிசௌ"
+
+#: ../src/common/util.c:939
+msgid "Guyana"
+msgstr "கயானா"
+
+#: ../src/common/util.c:940
+msgid "Hong Kong"
+msgstr "ஹாங்காங்"
+
+#: ../src/common/util.c:941
+msgid "Heard and McDonald Islands"
+msgstr "ஹியர்ட் மற்றும் மெக்டோனால்ட் தீவுகள்"
+
+#: ../src/common/util.c:942
+msgid "Honduras"
+msgstr "ஹோன்டுராஸ்"
+
+#: ../src/common/util.c:943
+msgid "Croatia"
+msgstr "கொரிட்டா"
+
+#: ../src/common/util.c:944
+msgid "Haiti"
+msgstr "ஹைடி"
+
+#: ../src/common/util.c:945
+msgid "Hungary"
+msgstr "ஹங்கேரி"
+
+#: ../src/common/util.c:946
+msgid "Indonesia"
+msgstr "இந்தோனேசியா"
+
+#: ../src/common/util.c:947
+msgid "Ireland"
+msgstr "அயர்லாந்து"
+
+#: ../src/common/util.c:948
+msgid "Israel"
+msgstr "இஸ்ரேல்"
+
+#: ../src/common/util.c:949
+msgid "Isle of Man"
+msgstr "ஐல் ஆஃப் மேன்"
+
+#: ../src/common/util.c:950
+msgid "India"
+msgstr "இந்தியா"
+
+#: ../src/common/util.c:951
+msgid "Informational"
+msgstr "தகவல் சார்ந்த"
+
+#: ../src/common/util.c:952
+msgid "International"
+msgstr "சர்வதேச"
+
+#: ../src/common/util.c:953
+msgid "British Indian Ocean Territory"
+msgstr "ப்ரிடீஸ் இந்திய பெருங்கடல் பிரதேசம்"
+
+#: ../src/common/util.c:954
+msgid "Iraq"
+msgstr "ஈராக்"
+
+#: ../src/common/util.c:955
+msgid "Iran"
+msgstr "ஈரான்"
+
+#: ../src/common/util.c:956
+msgid "Iceland"
+msgstr "ஐஸ்லாந்து"
+
+#: ../src/common/util.c:957
+msgid "Italy"
+msgstr "இத்தாலி"
+
+#: ../src/common/util.c:958
+msgid "Jersey"
+msgstr "ஜெர்சி"
+
+#: ../src/common/util.c:959
+msgid "Jamaica"
+msgstr "ஜமைக்கா"
+
+#: ../src/common/util.c:960
+msgid "Jordan"
+msgstr "ஜோர்டான்"
+
+#: ../src/common/util.c:961
+msgid "Japan"
+msgstr "ஜப்பான்"
+
+#: ../src/common/util.c:962
+msgid "Kenya"
+msgstr "கென்யா"
+
+#: ../src/common/util.c:963
+msgid "Kyrgyzstan"
+msgstr "கிரிகிஸ்தான்"
+
+#: ../src/common/util.c:964
+msgid "Cambodia"
+msgstr "கம்போடியா"
+
+#: ../src/common/util.c:965
+msgid "Kiribati"
+msgstr "க்ரிபட்டி"
+
+#: ../src/common/util.c:966
+msgid "Comoros"
+msgstr "கோமொரொஸ்"
+
+#: ../src/common/util.c:967
+msgid "St. Kitts and Nevis"
+msgstr "செயின்ட். கிட்ஸ் மற்றும் நேவிஸ்"
+
+#: ../src/common/util.c:968
+msgid "North Korea"
+msgstr "கிழக்கு கொரியா"
+
+#: ../src/common/util.c:969
+msgid "South Korea"
+msgstr "வடக்கு கொரியா"
+
+#: ../src/common/util.c:970
+msgid "Kuwait"
+msgstr "குவைத்"
+
+#: ../src/common/util.c:971
+msgid "Cayman Islands"
+msgstr "சைமன் தீவு"
+
+#: ../src/common/util.c:972
+msgid "Kazakhstan"
+msgstr "கசகிஸ்தான்"
+
+#: ../src/common/util.c:973
+msgid "Laos"
+msgstr "லாவோஸ்"
+
+#: ../src/common/util.c:974
+msgid "Lebanon"
+msgstr "லெபனான்"
+
+#: ../src/common/util.c:975
+msgid "Saint Lucia"
+msgstr "செயின்ட் லூசியா"
+
+#: ../src/common/util.c:976
+msgid "Liechtenstein"
+msgstr "லிசன்ஸ்டைன்"
+
+#: ../src/common/util.c:977
+msgid "Sri Lanka"
+msgstr "இலங்கை"
+
+#: ../src/common/util.c:978
+msgid "Liberia"
+msgstr "லிபேரியா"
+
+#: ../src/common/util.c:979
+msgid "Lesotho"
+msgstr "லெஸத்தோ"
+
+#: ../src/common/util.c:980
+msgid "Lithuania"
+msgstr "லிதுவேனியா"
+
+#: ../src/common/util.c:981
+msgid "Luxembourg"
+msgstr "லக்ஸம்பர்க்"
+
+#: ../src/common/util.c:982
+msgid "Latvia"
+msgstr "லாத்வியா"
+
+#: ../src/common/util.c:983
+msgid "Libya"
+msgstr "லிபியா"
+
+#: ../src/common/util.c:984
+msgid "Morocco"
+msgstr "மொரோக்கோ"
+
+#: ../src/common/util.c:985
+msgid "Monaco"
+msgstr "மொனாக்கோ"
+
+#: ../src/common/util.c:986
+msgid "Moldova"
+msgstr "மால்டோவா"
+
+#: ../src/common/util.c:987
+msgid "United States Medical"
+msgstr "ஐக்கிய மாகாண மருத்துவம்"
+
+#: ../src/common/util.c:988
+msgid "Madagascar"
+msgstr "மடகாஸ்கர்"
+
+#: ../src/common/util.c:989
+msgid "Marshall Islands"
+msgstr "மார்ஷெல் தீவு"
+
+#: ../src/common/util.c:990
+msgid "Military"
+msgstr "மிலிட்டரி"
+
+#: ../src/common/util.c:991
+msgid "Macedonia"
+msgstr "மெசிடோனியா"
+
+#: ../src/common/util.c:992
+msgid "Mali"
+msgstr "மாலி"
+
+#: ../src/common/util.c:993
+msgid "Myanmar"
+msgstr "மியான்மர்"
+
+#: ../src/common/util.c:994
+msgid "Mongolia"
+msgstr "மங்கோலியா"
+
+#: ../src/common/util.c:995
+msgid "Macau"
+msgstr "மாக்கோ"
+
+#: ../src/common/util.c:996
+msgid "Northern Mariana Islands"
+msgstr "வடக்கு மெரைனா தீவுகள்"
+
+#: ../src/common/util.c:997
+msgid "Martinique"
+msgstr "மார்டினிக்"
+
+#: ../src/common/util.c:998
+msgid "Mauritania"
+msgstr "மாரிடேனியா"
+
+#: ../src/common/util.c:999
+msgid "Montserrat"
+msgstr "மோன்ஸிராட்"
+
+#: ../src/common/util.c:1000
+msgid "Malta"
+msgstr "மால்டா"
+
+#: ../src/common/util.c:1001
+msgid "Mauritius"
+msgstr "மொரீஷியஸ்"
+
+#: ../src/common/util.c:1002
+msgid "Maldives"
+msgstr "மாலதீவு"
+
+#: ../src/common/util.c:1003
+msgid "Malawi"
+msgstr "மாலாவி"
+
+#: ../src/common/util.c:1004
+msgid "Mexico"
+msgstr "மெக்ஸிகோ"
+
+#: ../src/common/util.c:1005
+msgid "Malaysia"
+msgstr "மலேசியா"
+
+#: ../src/common/util.c:1006
+msgid "Mozambique"
+msgstr "மொசாம்பிக்"
+
+#: ../src/common/util.c:1007
+msgid "Namibia"
+msgstr "நமீபியா"
+
+#: ../src/common/util.c:1008
+msgid "New Caledonia"
+msgstr "நியூ காலிடொனியா"
+
+#: ../src/common/util.c:1009
+msgid "Niger"
+msgstr "நிகெர்"
+
+#: ../src/common/util.c:1010
+msgid "Internic Network"
+msgstr "உள்ளார்ந்த பிணையம்"
+
+#: ../src/common/util.c:1011
+msgid "Norfolk Island"
+msgstr "நொர்ஃபோக் தீவு"
+
+#: ../src/common/util.c:1012
+msgid "Nigeria"
+msgstr "நைஜீரியா"
+
+#: ../src/common/util.c:1013
+msgid "Nicaragua"
+msgstr "நிகராகுவா"
+
+#: ../src/common/util.c:1014
+msgid "Netherlands"
+msgstr "நெதர்லாந்து"
+
+#: ../src/common/util.c:1015
+msgid "Norway"
+msgstr "நார்வே"
+
+#: ../src/common/util.c:1016
+msgid "Nepal"
+msgstr "நேபால்"
+
+#: ../src/common/util.c:1017
+msgid "Nauru"
+msgstr "நௌரு"
+
+#: ../src/common/util.c:1018
+msgid "Niue"
+msgstr "நியு"
+
+#: ../src/common/util.c:1019
+msgid "New Zealand"
+msgstr "நியூசிலாந்து"
+
+#: ../src/common/util.c:1020
+msgid "Oman"
+msgstr "ஓமன்"
+
+#: ../src/common/util.c:1021
+msgid "Internic Non-Profit Organization"
+msgstr "உள்ளார்ந்த லாப நோக்கமில்லாத அமைப்பு"
+
+#: ../src/common/util.c:1022
+msgid "Panama"
+msgstr "பனாமா"
+
+#: ../src/common/util.c:1023
+msgid "Peru"
+msgstr "பெரு"
+
+#: ../src/common/util.c:1024
+msgid "French Polynesia"
+msgstr "ஃப்ரெஞ்ச் பாலினேசியா"
+
+#: ../src/common/util.c:1025
+msgid "Papua New Guinea"
+msgstr "பாபௌ நியூ கினியா"
+
+#: ../src/common/util.c:1026
+msgid "Philippines"
+msgstr "பிலிப்பைன்ஸ்"
+
+#: ../src/common/util.c:1027
+msgid "Pakistan"
+msgstr "பாகிஸ்தான்"
+
+#: ../src/common/util.c:1028
+msgid "Poland"
+msgstr "போலந்து"
+
+#: ../src/common/util.c:1029
+msgid "St. Pierre and Miquelon"
+msgstr "செயின்ட். பைர் மைக்யூலான்"
+
+#: ../src/common/util.c:1030
+msgid "Pitcairn"
+msgstr "பிட்கேரின்"
+
+#: ../src/common/util.c:1031
+msgid "Puerto Rico"
+msgstr "பௌட்டோ ரிக்கோ"
+
+#: ../src/common/util.c:1032
+msgid "Palestinian Territory"
+msgstr "பாலஸ்தீனிய பிரதேசம்"
+
+#: ../src/common/util.c:1033
+msgid "Portugal"
+msgstr "போர்சுகல்"
+
+#: ../src/common/util.c:1034
+msgid "Palau"
+msgstr "பாலௌ"
+
+#: ../src/common/util.c:1035
+msgid "Paraguay"
+msgstr "பராகுவே"
+
+#: ../src/common/util.c:1036
+msgid "Qatar"
+msgstr "கதார்"
+
+#: ../src/common/util.c:1037
+msgid "Reunion"
+msgstr "ரீயூனியன்"
+
+#: ../src/common/util.c:1038
+msgid "Romania"
+msgstr "ரோமானியா"
+
+#: ../src/common/util.c:1039
+msgid "Old School ARPAnet"
+msgstr "Old School ARPAnet"
+
+#: ../src/common/util.c:1040
+msgid "Russian Federation"
+msgstr "ரஸ்யன் ஃபெடரேஷன்"
+
+#: ../src/common/util.c:1041
+msgid "Rwanda"
+msgstr "ருவான்டா"
+
+#: ../src/common/util.c:1042
+msgid "Saudi Arabia"
+msgstr "சௌதி அரேபியா"
+
+#: ../src/common/util.c:1043
+msgid "Solomon Islands"
+msgstr "சாலமொன் தீவுகள்"
+
+#: ../src/common/util.c:1044
+msgid "Seychelles"
+msgstr "செய்செல்லெஸ்"
+
+#: ../src/common/util.c:1045
+msgid "Sudan"
+msgstr "சூடான்"
+
+#: ../src/common/util.c:1046
+msgid "Sweden"
+msgstr "ஸ்வீடன்"
+
+#: ../src/common/util.c:1047
+msgid "Singapore"
+msgstr "சிங்கப்பூர்"
+
+#: ../src/common/util.c:1048
+msgid "St. Helena"
+msgstr "செயின்ட் ஹெலெனா"
+
+#: ../src/common/util.c:1049
+msgid "Slovenia"
+msgstr "ஸ்லோவேனியா"
+
+#: ../src/common/util.c:1050
+msgid "Svalbard and Jan Mayen Islands"
+msgstr "ஸ்வால்பார்டு மற்றும் ஜான் மயேன் தீவுகள்"
+
+#: ../src/common/util.c:1051
+msgid "Slovak Republic"
+msgstr "குடியரசு ஸ்லோவாக்"
+
+#: ../src/common/util.c:1052
+msgid "Sierra Leone"
+msgstr "சியரா லியோன்"
+
+#: ../src/common/util.c:1053
+msgid "San Marino"
+msgstr "சான் மரினோ"
+
+#: ../src/common/util.c:1054
+msgid "Senegal"
+msgstr "செனெகல்"
+
+#: ../src/common/util.c:1055
+msgid "Somalia"
+msgstr "சோமாலியா"
+
+#: ../src/common/util.c:1056
+msgid "Suriname"
+msgstr "சுரினாம்"
+
+#: ../src/common/util.c:1057
+msgid "Sao Tome and Principe"
+msgstr "சௌ டோம் மற்றும் பிரின்ஸிபீ"
+
+#: ../src/common/util.c:1058
+msgid "Former USSR"
+msgstr "முன்னாள் USSR"
+
+#: ../src/common/util.c:1059
+msgid "El Salvador"
+msgstr "எல் சால்வடார்"
+
+#: ../src/common/util.c:1060
+msgid "Syria"
+msgstr "சிரியா"
+
+#: ../src/common/util.c:1061
+msgid "Swaziland"
+msgstr "ஸ்வாசிலாந்து"
+
+#: ../src/common/util.c:1062
+msgid "Turks and Caicos Islands"
+msgstr "டர்க்ஸ் மற்றும் காய்காஸ் தீவுகள்"
+
+#: ../src/common/util.c:1063
+msgid "Chad"
+msgstr "சாட்"
+
+#: ../src/common/util.c:1064
+msgid "French Southern Territories"
+msgstr "ஃப்ரெஞ்ச் தெற்கு பிரதேசம்"
+
+#: ../src/common/util.c:1065
+msgid "Togo"
+msgstr "டோகோ"
+
+#: ../src/common/util.c:1066
+msgid "Thailand"
+msgstr "தாய்லாந்து"
+
+#: ../src/common/util.c:1067
+msgid "Tajikistan"
+msgstr "தஜிகிஸ்தான்"
+
+#: ../src/common/util.c:1068
+msgid "Tokelau"
+msgstr "டோகெலௌ"
+
+#: ../src/common/util.c:1069 ../src/common/util.c:1073
+msgid "East Timor"
+msgstr "கிழக்கு டைமோர்"
+
+#: ../src/common/util.c:1070
+msgid "Turkmenistan"
+msgstr "துர்க்மெனிஸ்தான்"
+
+#: ../src/common/util.c:1071
+msgid "Tunisia"
+msgstr "டுனீஷியா"
+
+#: ../src/common/util.c:1072
+msgid "Tonga"
+msgstr "தாங்கோ"
+
+#: ../src/common/util.c:1074
+msgid "Turkey"
+msgstr "துருக்கி"
+
+#: ../src/common/util.c:1075
+msgid "Trinidad and Tobago"
+msgstr "ட்ரினிடாட் மற்றும் டோபாகோ"
+
+#: ../src/common/util.c:1076
+msgid "Tuvalu"
+msgstr "துவாலு"
+
+#: ../src/common/util.c:1077
+msgid "Taiwan"
+msgstr "தாய்வான்"
+
+#: ../src/common/util.c:1078
+msgid "Tanzania"
+msgstr "தான்சானியா"
+
+#: ../src/common/util.c:1079
+msgid "Ukraine"
+msgstr "உக்ரெயின்"
+
+#: ../src/common/util.c:1080
+msgid "Uganda"
+msgstr "உகாண்டா"
+
+#: ../src/common/util.c:1081
+msgid "United Kingdom"
+msgstr "யுனைட்டட் கிங்டம்"
+
+#: ../src/common/util.c:1082
+msgid "United States of America"
+msgstr "ஐக்கிய அமெரிக்க மாகாணங்கள்"
+
+#: ../src/common/util.c:1083
+msgid "Uruguay"
+msgstr "உருகுவே"
+
+#: ../src/common/util.c:1084
+msgid "Uzbekistan"
+msgstr "உஸ்பெகிஸ்தான்"
+
+#: ../src/common/util.c:1085
+msgid "Vatican City State"
+msgstr "வாட்டிகன் நகரம்"
+
+#: ../src/common/util.c:1086
+msgid "St. Vincent and the Grenadines"
+msgstr "செயின்ட். வின்சென்ட் மற்றும் கிரினாடினெஸ்"
+
+#: ../src/common/util.c:1087
+msgid "Venezuela"
+msgstr "வெனிசூலா"
+
+#: ../src/common/util.c:1088
+msgid "British Virgin Islands"
+msgstr "பிரீட்டிஸ் விர்ஜின் தீவுகள்"
+
+#: ../src/common/util.c:1089
+msgid "US Virgin Islands"
+msgstr "US வெர்ஜின் தீவுகள்"
+
+#: ../src/common/util.c:1090
+msgid "Vietnam"
+msgstr "வியட்நாம்"
+
+#: ../src/common/util.c:1091
+msgid "Vanuatu"
+msgstr "வனாட்"
+
+#: ../src/common/util.c:1092
+msgid "Wallis and Futuna Islands"
+msgstr "வாலிஸ் மற்றும் ஃப்யூடினா தீவுகள்"
+
+#: ../src/common/util.c:1093
+msgid "Samoa"
+msgstr "சாமௌ"
+
+#: ../src/common/util.c:1094
+msgid "Yemen"
+msgstr "யேமன்"
+
+#: ../src/common/util.c:1095
+msgid "Mayotte"
+msgstr "மயோதி"
+
+#: ../src/common/util.c:1096
+msgid "Yugoslavia"
+msgstr "யுகோஸ்லாவியா"
+
+#: ../src/common/util.c:1097
+msgid "South Africa"
+msgstr "தென் ஆப்ரிக்கா"
+
+#: ../src/common/util.c:1098
+msgid "Zambia"
+msgstr "ஜாம்பியா"
+
+#: ../src/common/util.c:1099
+msgid "Zimbabwe"
+msgstr "ஜிம்பாப்வே"
+
+#: ../src/common/util.c:1109 ../src/common/util.c:1119
+#: ../src/fe-gnome/userlist-gui.c:432
+msgid "Unknown"
+msgstr "தெரியாத"
+
+#: ../src/common/xchat.c:767 ../src/common/xchat.c:893
+msgid "Open Dialog Window"
+msgstr "திறந்த சாளர உரையாடல்"
+
+#: ../src/common/xchat.c:768
+msgid "Send a File"
+msgstr "கோப்பை அனுப்பு"
+
+#: ../src/common/xchat.c:769
+msgid "User Info (WHOIS)"
+msgstr "பயனர் தகவல் (WHOIS)"
+
+#: ../src/common/xchat.c:770
+msgid "Operator Actions"
+msgstr "ஆப்பரேட்டர் செயல்கள்"
+
+#: ../src/common/xchat.c:772 ../src/common/xchat.c:863
+msgid "Give Ops"
+msgstr "Ops கொடு"
+
+#: ../src/common/xchat.c:773 ../src/common/xchat.c:864
+msgid "Take Ops"
+msgstr "Ops எடு"
+
+#: ../src/common/xchat.c:774 ../src/common/xchat.c:867
+msgid "Give Voice"
+msgstr "குரலைக் கொடு"
+
+#: ../src/common/xchat.c:775 ../src/common/xchat.c:868
+msgid "Take Voice"
+msgstr "குரலை எடு"
+
+#: ../src/common/xchat.c:777 ../src/common/xchat.c:872
+msgid "Kick/Ban"
+msgstr "உதை/தடை"
+
+#: ../src/common/xchat.c:778 ../src/common/xchat.c:873
+#: ../src/common/xchat.c:922
+msgid "Kick"
+msgstr "உதை"
+
+#: ../src/common/xchat.c:779 ../src/common/xchat.c:780
+#: ../src/common/xchat.c:781 ../src/common/xchat.c:782
+#: ../src/common/xchat.c:783 ../src/common/xchat.c:874
+#: ../src/common/xchat.c:875 ../src/common/xchat.c:876
+#: ../src/common/xchat.c:877 ../src/common/xchat.c:878
+#: ../src/common/xchat.c:921
+msgid "Ban"
+msgstr "தடை"
+
+#: ../src/common/xchat.c:784 ../src/common/xchat.c:785
+#: ../src/common/xchat.c:786 ../src/common/xchat.c:787
+#: ../src/common/xchat.c:879 ../src/common/xchat.c:880
+#: ../src/common/xchat.c:881 ../src/common/xchat.c:882
+msgid "KickBan"
+msgstr "உதைபுறக்கணிப்பு"
+
+#: ../src/common/xchat.c:850
+msgid "Direct client-to-client"
+msgstr "கிளையனிலிருந்து கிளையனுக்கு நேரடி"
+
+#: ../src/common/xchat.c:851
+msgid "Send File"
+msgstr "கோப்பை அனுப்பு"
+
+#: ../src/common/xchat.c:852
+msgid "Offer Chat"
+msgstr "அரட்டை கொடு"
+
+#: ../src/common/xchat.c:853
+msgid "Abort Chat"
+msgstr "அரட்டை கைவிடு"
+
+#: ../src/common/xchat.c:854
+msgid "Version"
+msgstr "பதிப்பு"
+
+#: ../src/common/xchat.c:855
+msgid "Userinfo"
+msgstr "பயனர்தகவல்"
+
+#: ../src/common/xchat.c:856
+msgid "Clientinfo"
+msgstr "வாடிக்கையாளர்தகவல்"
+
+#: ../src/common/xchat.c:857 ../src/common/xchat.c:891
+#: ../src/common/xchat.c:939
+msgid "Ping"
+msgstr "பிங்"
+
+#: ../src/common/xchat.c:859
+msgid "Finger"
+msgstr "விரல்"
+
+#: ../src/common/xchat.c:860
+msgid "Oper"
+msgstr "Oper"
+
+#: ../src/common/xchat.c:861
+msgid "Kill this user"
+msgstr "இந்த பயனரை நீக்கு"
+
+#: ../src/common/xchat.c:862
+msgid "Mode"
+msgstr "முறை"
+
+#: ../src/common/xchat.c:865
+msgid "Give Half-Ops"
+msgstr "Half-Opsஐ கொடு"
+
+#: ../src/common/xchat.c:866
+msgid "Take Half-Ops"
+msgstr "Half-Opsஐ எடு"
+
+#: ../src/common/xchat.c:869 ../src/fe-gnome/userlist-gui.c:60
+msgid "Ignore"
+msgstr "தவிர்த்தல்"
+
+#: ../src/common/xchat.c:870
+msgid "Ignore User"
+msgstr "பயனரை தவிர்"
+
+#: ../src/common/xchat.c:871
+msgid "UnIgnore User"
+msgstr "தவிர்க்க முடியாத பயனர்"
+
+#: ../src/common/xchat.c:883
+msgid "Info"
+msgstr "தகவல்"
+
+#: ../src/common/xchat.c:884
+msgid "Who"
+msgstr "யார்"
+
+#: ../src/common/xchat.c:885 ../src/common/xchat.c:935
+msgid "WhoIs"
+msgstr "WhoIs"
+
+#: ../src/common/xchat.c:886
+msgid "DNS Lookup"
+msgstr "DNS ஐ தேடுதல்"
+
+#: ../src/common/xchat.c:887
+msgid "Trace"
+msgstr "சுவடு"
+
+#: ../src/common/xchat.c:888
+msgid "UserHost"
+msgstr "புரவல பயனர் "
+
+#: ../src/common/xchat.c:889
+msgid "External"
+msgstr "வெளிப்புறமாக"
+
+#: ../src/common/xchat.c:890
+msgid "Traceroute"
+msgstr "வழித்தேடு"
+
+#: ../src/common/xchat.c:892
+msgid "Telnet"
+msgstr "டெல்நெட்"
+
+#: ../src/common/xchat.c:904
+msgid "Leave Channel"
+msgstr "சேனலை விடவும்"
+
+#: ../src/common/xchat.c:905
+msgid "Join Channel..."
+msgstr "வாய்க்காலில்  சேர்..."
+
+#: ../src/common/xchat.c:906
+msgid "Enter Channel to Join:"
+msgstr "வாய்க்காலில்  சேர உள்ளிடவும்:"
+
+#: ../src/common/xchat.c:907
+msgid "Server Links"
+msgstr "சேவையக இணைகள்"
+
+#: ../src/common/xchat.c:908
+msgid "Ping Server"
+msgstr "பிங் சேவையகம்"
+
+#: ../src/common/xchat.c:909
+msgid "Hide Version"
+msgstr "பதிப்பை மறை"
+
+#: ../src/common/xchat.c:919
+msgid "Op"
+msgstr "Op"
+
+#: ../src/common/xchat.c:920
+msgid "DeOp"
+msgstr "DeOp"
+
+#: ../src/common/xchat.c:923
+msgid "bye"
+msgstr "bye"
+
+#: ../src/common/xchat.c:924
+#, c-format
+msgid "Enter reason to kick %s:"
+msgstr "%sஐ உதைக்க காரணத்தை உள்ளிடு:"
+
+#: ../src/common/xchat.c:925
+msgid "Sendfile"
+msgstr "அனுப்பப்பட்ட கோப்பு"
+
+#: ../src/common/xchat.c:926
+msgid "Dialog"
+msgstr "உரையாடல்"
+
+#: ../src/common/xchat.c:936
+msgid "Send"
+msgstr "அனுப்பு"
+
+#: ../src/common/xchat.c:937
+msgid "Chat"
+msgstr "அரட்டை"
+
+#: ../src/common/xchat.c:938
+msgid "Clear"
+msgstr "துடை"
+
+#: ../src/common/dbus/dbus-plugin.c:31
+msgid "remote access"
+msgstr "தொலை அணுகல்"
+
+#: ../src/common/dbus/dbus-plugin.c:32
+msgid "plugin for remote access using DBUS"
+msgstr "DBUSஐ பயன்படுத்தி தொலை அணுகலுக்கு கூடுதல் இணைப்பு"
+
+#: ../src/common/dbus/dbus-plugin.c:900
+#, c-format
+msgid "Couldn't connect to session bus: %s\n"
+msgstr "அமர்வு பஸ்ஸுடன் இணைக்க முடியவில்லை: %s\n"
+
+#: ../src/common/dbus/dbus-plugin.c:917
+#, c-format
+msgid "Failed to acquire %s: %s\n"
+msgstr "%sஐ கைப்பற்ற முடியவில்லை: %s\n"
+
+#: ../src/common/dbus/url_handler.schemas.in.h:1
+msgid "Run XChat-GNOME in a terminal?"
+msgstr " எக்ஸ்சாட் க்னோம்  ஐ முனையத்தில் இயக்கவா?"
+
+#: ../src/common/dbus/url_handler.schemas.in.h:2
+msgid "Set it at TRUE if you want it activated"
+msgstr "செயல்படுத்த வேன்டுமானால் ஆம் என அமை"
+
+#: ../src/common/dbus/url_handler.schemas.in.h:3
+msgid "The handler for \"irc://\" URLs"
+msgstr " \"irc://\" யூஆர்எல் கள் கையாளி"
+
+#: ../src/fe-gnome/about.c:62
+msgid ""
+"X-Chat GNOME is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version."
+msgstr ""
+"எக்ஸ்சாட் க்னோம் இலவச மென் பொருளாகும்.நீங்கள்  இலவச மென் பொருள் அமைப்பினால் வெளியிடப்பட்ட "
+"ஜிஎன்யு பொது அனுமதிக்கான விதிகளின் படி இந்த 2ம் பதிப்பையோ அல்லது அடுத்த பதிப்புகளையோ "
+"நீங்கள் (விருப்பப்படி) மாற்றலாம். அல்லது மீண்டும் பறிமாறலாம்."
+
+#: ../src/fe-gnome/about.c:67
+msgid ""
+"X-Chat GNOME is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details."
+msgstr ""
+"உபயோகப்படும் என்ற எதிர்பார்ப்புடன் எக்ஸ்சாட் க்னோம் வெளியிடப்படுகிறது. ஆனால் விற்க தகுதி,"
+"குறிப்பிட்ட  செயலுக்கான தகுதி உள்பட எந்த உத்திரவாதமும் அளிக்கப்படவில்லை. மேற் கொண்டு "
+"விவரங்களுக்கு ஜிஎன்யு பொது அனுமதிக்கான விதிகளை பார்க்கவும்"
+
+#: ../src/fe-gnome/about.c:72
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"X-Chat GNOME; if not, write to the Free Software Foundation, Inc., 59 Temple "
+"Place, Suite 330, Boston, MA  02111-1307  USA"
+msgstr ""
+"எக்ஸ்சாட் க்னோம் உடன் ஜிஎன்யு பொது அனுமதிக்கான விதிகளின் பிரதி உங்களுக்கு கிடைத்திருக்க "
+"வேண்டும். இல்லையானால் கீழ் கண்ட முகவரிக்கு கடிதம் எழுதவும். Free Software Foundation, "
+"Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA"
+
+#: ../src/fe-gnome/about.c:82
+msgid "XChat-GNOME"
+msgstr "எக்ஸ்சாட் க்னோம்"
+
+#. Translators: Don't try to translate this literally.
+#. * It is a running gag from a british comedy television
+#. * programme; either leave it as-is or replace it with
+#. * something comparable but inoffensive in your language.
+#.
+#: ../src/fe-gnome/about.c:90
+msgid "“Listen very carefully, I shall say this only once.”"
+msgstr "“உன்னிப்பாக கேள், ஒரு முறைதான் சொல்லுவேன்.”"
+
+#: ../src/fe-gnome/about.c:94
+msgid "XChat-GNOME Web Site"
+msgstr "எக்ஸ்சாட் க்னோம்  வலையகம்"
+
+#. Translators: This is a special message that shouldn't
+#. * be translated literally. It is used in the about box
+#. * to give credits to the translators. Thus, you should
+#. * translate it to your name and email address. You
+#. * should also include other translators who have
+#. * contributed to this translation; in that case, please
+#. * write each of them on a separated line seperated by
+#. * newlines (\n).
+#.
+#: ../src/fe-gnome/about.c:108
+msgid "translator-credits"
+msgstr ""
+"Dr.T.Vasudevan <agnihot3@gmail.com>, 2009\n"
+"I. Felix <ifelix@redhat.com>, 2009."
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:1
+msgid "Automatically display the channel list dialog"
+msgstr "வாய்க்கால் பட்டியல் உரையாடல் ஐ தானியங்கியாகக்காட்டு"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:2
+msgid "Background image filename"
+msgstr "பின்னணி பட கோப்புப் பெயர்"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:3
+msgid "Background transparency"
+msgstr "பின்னணி ஒளிபுகு தன்மை"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:4
+msgid "Colorize nicknames in the main window"
+msgstr "செல்லப்பெயர்களை முதன்மை சாளரத்தில் நிறப்படுத்து "
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:5
+msgid "Default nickname used by servers without special options set"
+msgstr "விசேஷ தேர்வுகளை அமைக்காத சேவயகங்கள் பயன்படுத்தும் முன்னிருப்பு புனைப்பெயர்"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:6
+msgid "Default real name used by servers without special options set"
+msgstr "விசேஷ தேர்வுகளை அமைக்காத சேவயகங்கள் பயன்படுத்தும் முன்னிருப்பு உண்மை பெயர்"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:7
+msgid "Display redundant nickstamps"
+msgstr "மதிப்பிழந்த புனைபதிவுகளை காட்டு"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:8
+msgid "Enable spellchecking"
+msgstr "சொல்திருத்தத்தை செயல்படுத்து"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:9
+msgid "Font for the main window"
+msgstr "முதன்மை சாளரத்துக்கு எழுத்து வகை "
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:10
+msgid "Height of the channel list"
+msgstr "வாய்க்கால் பட்டியல் இன் உயரம்"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:11
+msgid "Height of the main window"
+msgstr "முதன்மை சாளரத்தின் உயரம் "
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:12
+msgid ""
+"If set to true, when you join a server without automatically joining a "
+"channel, the channel list dialog will be displayed"
+msgstr ""
+"உண்மை என அமைத்தால் நீங்கள்  ஒரு வாய்க்காலை சேராமல் ஒரு சேவையகத்தில் சேரும்போது, "
+"வாய்க்கல்களில்  பட்டியல் உரையாடல் காட்டப்படும்"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:13
+msgid "Languages to use for spellchecking"
+msgstr "எழுத்துப்பிழை திருத்தி க்கு பயன்படுத்தும் மொழிகள் "
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:14
+msgid "List of enabled plugins"
+msgstr "செயல் படுத்திய சொருகிகளின் பட்டியல் "
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:15
+msgid "Message sent on away"
+msgstr "வெளியே உள்ளபோது அனுப்பப்படும் செய்தி "
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:16
+msgid "Message sent on channel part"
+msgstr "வாய்க்காலில் இருந்து நீங்கும்போது அனுப்பும் செய்தி"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:17
+msgid "Message sent on quit"
+msgstr "வெளியேறும்போது அனுப்பும் செய்தி"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:18
+msgid "Position of the horizontal pane in the main window"
+msgstr "முதன்மை சாளரத்தில் கிடைமட்ட பலகத்தின் நிலை"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:19
+msgid "Selected background type"
+msgstr "தேர்வு செய்யப்பட்ட பின்புல வகை"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:20
+msgid "Selected color scheme"
+msgstr "தேர்வு செய்யப்பட்ட நிற அமைப்பு"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:21
+msgid "Show colors in the main window"
+msgstr "முதன்மை சாளரத்தில் நிறங்களை காட்டு "
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:22
+msgid "Show timestamps in the main window"
+msgstr "முதன்மை சாளரத்தில் நேரப்பதிவுகளை காட்டு "
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:23
+msgid "Use system fonts"
+msgstr "கணினி எழுத்துருக்களை பயன்படுத்து."
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:24
+msgid "Whether the horizontal pane in the main window is shown"
+msgstr "முதன்மை சாளரத்தில் கிடைமட்ட பலகத்தை காட்ட வேண்டுமா."
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:25
+#| msgid "Whether the horizontal pane in the main window is shown"
+msgid "Whether the statusbar in the main window is shown"
+msgstr "முதன்மை சாளரத்தில் நிலைப்பட்டையைக் காட்ட வேண்டுமா"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:26
+msgid "Width of the channel list"
+msgstr "வாய்க்கால் பட்டியலின் அகலம் "
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:27
+msgid "Width of the main window"
+msgstr "முதன்மை சாளரத்தின் அகலம் "
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:28
+msgid "X position of the main window on the screen"
+msgstr "திரையில் முதன்மை சாளரத்தின் X இடம் "
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:29
+msgid "Y position of the main window on the screen"
+msgstr "திரையில் முதன்மை சாளரத்தின் Y இடம் "
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:30
+msgid "xchat configuration version"
+msgstr "எக்ஸ்சாட் வடிவமைப்பி பதிப்பு"
+
+#: ../src/fe-gnome/channel-list-window.c:410
+#, c-format
+msgid "%s Channel List"
+msgstr "%s சேனல் பட்டியல்"
+
+#: ../src/fe-gnome/connect-dialog.c:110
+msgid "This network doesn't have a server defined."
+msgstr "இந்த வலைப்பின்னலுக்கு சேவையகம் ஏதும் அறுதியிடப்படவில்லை."
+
+#: ../src/fe-gnome/connect-dialog.c:112
+#, c-format
+msgid "Please add at least one server to the %s network."
+msgstr "தயவு செய்து இந்த %s வலைப்பின்னலுக்கு சேவையகம் ஒன்றையாவது சேருங்கள்."
+
+#: ../src/fe-gnome/conversation-panel.c:168
+msgid "_Open Link in Browser"
+msgstr "(_O) இணைப்பை உலாவியில் திற"
+
+#: ../src/fe-gnome/conversation-panel.c:169
+msgid "_Copy Link Location"
+msgstr "(_C) இணைப்பை நகலெடு"
+
+#: ../src/fe-gnome/conversation-panel.c:173
+msgid "Se_nd Message To..."
+msgstr "(_n) இவருக்கு செய்தி அனுப்பு..."
+
+#: ../src/fe-gnome/conversation-panel.c:174
+msgid "_Copy Address"
+msgstr "முகவரியை நகல் எடு (_C)"
+
+#: ../src/fe-gnome/conversation-panel.c:178
+msgid "_Send File"
+msgstr "(_S) கோப்பை அனுப்பு"
+
+#: ../src/fe-gnome/conversation-panel.c:179
+msgid "Paste File _Contents"
+msgstr "(_C) கோப்பு உள்ளடக்கங்களை ஒட்டுக"
+
+#: ../src/fe-gnome/conversation-panel.c:180
+msgid "Paste File_name"
+msgstr "(_n) கோப்பு பெயரை ஒட்டு "
+
+#: ../src/fe-gnome/conversation-panel.c:181
+msgid "_Cancel"
+msgstr "_C நீக்கு"
+
+#: ../src/fe-gnome/conversation-panel.c:185 ../src/fe-gnome/main-window.c:113
+msgid "_Copy"
+msgstr "நகல் (_C)"
+
+#: ../src/fe-gnome/conversation-panel.c:856
+#, c-format
+msgid "Error reading file \"%s\": %s\n"
+msgstr "பிழை இந்த கோப்பு படிப்பதில் \"%s\": %s\n"
+
+#: ../src/fe-gnome/conversation-panel.c:872
+#, c-format
+msgid "Error converting URI \"%s\" into filename: %s\n"
+msgstr "யூஆர்ஐ  \"%s\" ஐ கோப்புப் பெயர் ஆக்குவதில் பிழை  : %s\n"
+
+#: ../src/fe-gnome/conversation-panel.c:923
+#, c-format
+msgid "Error retrieving file information for \"%s\": %s\n"
+msgstr "கோப்பு \"%s\" க்கு தகவலை பிரிப்பதில் பிழை: %s\n"
+
+#: ../src/fe-gnome/conversation-panel.c:1021
+msgid "Save Transcript"
+msgstr "எழுத்துப்படியை சேமி"
+
+#: ../src/fe-gnome/conversation-panel.c:1047
+#: ../src/fe-gnome/conversation-panel.c:1057
+#, c-format
+msgid "Error saving %s"
+msgstr "%s ஐ சேமிப்பதில் பிழை"
+
+#: ../src/fe-gnome/conversation-panel.c:1192
+msgid "Search buffer is empty.\n"
+msgstr "தேடிய இடைநிலை  வெற்றாகும்.\n"
+
+#. File completion percent
+#: ../src/fe-gnome/dcc-window.c:141
+msgid "%"
+msgstr "%"
+
+#: ../src/fe-gnome/dcc-window.c:142
+msgid "File"
+msgstr "கோப்பு"
+
+#: ../src/fe-gnome/dcc-window.c:143
+msgid "Remaining"
+msgstr "மீதமுள்ளவை"
+
+#: ../src/fe-gnome/dcc-window.c:218
+msgid "Incoming File Transfer"
+msgstr "உள்வரும் கோப்பு இடமாற்றம்"
+
+#: ../src/fe-gnome/dcc-window.c:219 ../src/fe-gnome/fe-gnome.c:507
+msgid "_Accept"
+msgstr "ஏற்றுக்கொள் (_A)"
+
+#: ../src/fe-gnome/dcc-window.c:220
+#, c-format
+msgid ""
+"%s is attempting to send you a file named \"%s\". Do you wish to accept the "
+"transfer?"
+msgstr "\"%s\" என பெயரிட்ட கோப்பு ஒன்றை %s உங்களுக்கு அனுப்ப முயல்கிறார். இதை ஏற்றுக்கொள்ளலாமா?"
+
+#: ../src/fe-gnome/dcc-window.c:240
+#, c-format
+msgid ""
+"<b>%s</b>\n"
+"<small>from %s</small>\n"
+"%s of %s"
+msgstr ""
+"<b>%s</b>\n"
+"<small> %s</small> இடமிருந்து\n"
+"%s இதில் %s"
+
+#: ../src/fe-gnome/dcc-window.c:251
+msgid "starting"
+msgstr "துவங்குகிறது "
+
+#: ../src/fe-gnome/dcc-window.c:282
+#, c-format
+msgid ""
+"<b>%s</b>\n"
+"<small>from %s</small>\n"
+"%s of %s at %s/s"
+msgstr ""
+"<b>%s</b>\n"
+"<small>%s</small>இடமிருந்து\n"
+"%s இதில்  %s இந்நேரம் %s/s"
+
+#: ../src/fe-gnome/dcc-window.c:289
+msgid "queued"
+msgstr "வரிசையில் உள்ளது"
+
+#: ../src/fe-gnome/dcc-window.c:294
+#, c-format
+msgid "Transfer of %s to %s failed"
+msgstr " %s ஐ %s க்கு இடமாற்றுதல் தோல்வியுற்றது"
+
+#: ../src/fe-gnome/dcc-window.c:296
+#, c-format
+msgid "Transfer of %s from %s failed"
+msgstr " %s ஐ %s மிருந்து இடமாற்றுதல் தோல்வியுற்றது"
+
+#: ../src/fe-gnome/dcc-window.c:297
+msgid "Transfer failed"
+msgstr "இடமாற்றுதல் தோல்வியுற்றது"
+
+#: ../src/fe-gnome/dcc-window.c:305
+msgid "aborted"
+msgstr "கைவிடப்பட்டது"
+
+#: ../src/fe-gnome/dcc-window.c:308
+msgid "stalled"
+msgstr "ஸ்தம்பித்தது"
+
+#: ../src/fe-gnome/dcc-window.c:312
+#, c-format
+msgid "%.2d:%.2d:%.2d"
+msgstr "%.2d:%.2d:%.2d"
+
+#: ../src/fe-gnome/dcc-window.c:314
+#, c-format
+msgid "%.2d:%.2d"
+msgstr "%.2d:%.2d"
+
+#: ../src/fe-gnome/dcc-window.c:418
+msgid "Send File..."
+msgstr "கோப்பை அனுப்புக..."
+
+#: ../src/fe-gnome/fe-gnome.c:63
+msgid "Full-screen the window"
+msgstr "சாளரத்தை முழுத்திரையாக்கு"
+
+#: ../src/fe-gnome/fe-gnome.c:64
+msgid "Use directory instead of the default config dir"
+msgstr "முன்னிருப்பு வடிவமைப்பு அடைவை தவிர்த்து அடைவை பயன்படுத்து"
+
+#: ../src/fe-gnome/fe-gnome.c:65
+msgid "Don't auto-connect to servers"
+msgstr "சேவயகங்களுக்கு தானியங்கியாக இணைக்காதே"
+
+#: ../src/fe-gnome/fe-gnome.c:66
+msgid "Don't auto-load plugins"
+msgstr "தானியங்கியாக சொருகிகளை ஏற்றாதே"
+
+#: ../src/fe-gnome/fe-gnome.c:67
+msgid "Open an irc:// url"
+msgstr "ஐஆர்சி ஒன்றை திற:// url"
+
+#: ../src/fe-gnome/fe-gnome.c:68
+msgid "Open URL in an existing XChat-GNOME instance"
+msgstr "இந்த யூஆர்எல்(URL) ஐ நடப்பில் உள்ள ஒரு  எக்ஸ்சாட் க்னோம் இல் திற "
+
+#: ../src/fe-gnome/fe-gnome.c:69
+msgid "Show version information"
+msgstr "பதிப்பு தகவலைக் காட்டு"
+
+#: ../src/fe-gnome/fe-gnome.c:111
+#, c-format
+msgid ""
+"xchat-gnome: %s\n"
+"Try `xchat-gnome --help' for more information\n"
+msgstr ""
+"எக்ஸ்சாட் க்னோம்: %s\n"
+"மேலதிக தகவல்களுக்கு  `xchat-gnome --help' கட்டளையை பயன்படுத்துக \n"
+
+#: ../src/fe-gnome/fe-gnome.c:505
+msgid "Incoming DCC Chat"
+msgstr "உள்வரும் டிசிசி அரட்டை"
+
+#: ../src/fe-gnome/fe-gnome.c:510
+#, c-format
+msgid ""
+"%s is attempting to create a direct chat. Do you wish to accept the "
+"connection?"
+msgstr "%s  ஒரு நேரடி அரட்டையை துவக்க விரும்புகிறார். இணைப்பை ஏற்றுக்கொள்கிறீர்களா?"
+
+#: ../src/fe-gnome/fe-gnome.c:939
+#, c-format
+msgid "Unable to show '%s'"
+msgstr "'%s' ஐ காட்ட முடியவில்லை"
+
+#: ../src/fe-gnome/find-bar.c:88
+msgid "Find:"
+msgstr "தேடு:"
+
+#: ../src/fe-gnome/find-bar.c:89
+msgid "_Previous"
+msgstr "முந்தைய (_P)"
+
+#: ../src/fe-gnome/find-bar.c:91
+msgid "_Next"
+msgstr "அடுத்து (_N)"
+
+#: ../src/fe-gnome/find-bar.c:208
+msgid "<span foreground=\"dark grey\">Reached end, continuing from top</span>"
+msgstr "<span foreground=\"dark grey\"> முடிவு எட்டப்பட்டது. மேல் இருந்து தொடர்கிறது</span>"
+
+#: ../src/fe-gnome/find-bar.c:215
+msgid ""
+"<span foreground=\"dark grey\">Reached beginning, continuing from bottom</"
+"span>"
+msgstr "<span foreground=\"dark grey\"> ஆரம்பம் எட்டப்பட்டது. கீழ் இருந்து தொடர்கிறது</span>"
+
+#: ../src/fe-gnome/find-bar.c:222
+msgid "<span foreground=\"red\">Search string not found</span>"
+msgstr "<span foreground=\"red\"> தேடும் சரம் கிடைக்கவில்லை</span>"
+
+#: ../src/fe-gnome/irc-network-editor.c:313
+msgid "Server"
+msgstr "சேவயகம்"
+
+#: ../src/fe-gnome/irc-network-editor.c:322
+msgid "Key"
+msgstr "விசை"
+
+#. We're creating a new network. Don't populate things from the structure
+#: ../src/fe-gnome/irc-network-editor.c:456
+msgid "New Network"
+msgstr "புதிய பிணையம்"
+
+#: ../src/fe-gnome/irc-network-editor.c:464
+#, c-format
+msgid "%s Network Properties"
+msgstr "%s வலையமைப்பு பண்புகள்"
+
+#: ../src/fe-gnome/irc-network-editor.c:592
+#: ../src/fe-gnome/irc-network-editor.c:599
+#: ../src/fe-gnome/irc-network-editor.c:605
+msgid "Invalid input"
+msgstr "செல்லுபடியாகாத உள்ளீடு"
+
+#: ../src/fe-gnome/irc-network-editor.c:592
+msgid "You must enter a network name"
+msgstr "வலையமைப்பு பெயர் ஒன்றை உள்ளிடல் அவசியம்"
+
+#: ../src/fe-gnome/irc-network-editor.c:599
+msgid "You must enter a nick name"
+msgstr "புனை பெயர் ஒன்றை உள்ளிடல் அவசியம்"
+
+#: ../src/fe-gnome/irc-network-editor.c:605
+msgid "You must enter a real name"
+msgstr "உண்மை பெயர் ஒன்றை உள்ளிடல் அவசியம்"
+
+#: ../src/fe-gnome/irc-network-editor.c:612
+msgid "No Servers"
+msgstr "சேவையகங்கள் இல்லை "
+
+#: ../src/fe-gnome/irc-network-editor.c:612
+msgid "You must add at least one server for this network"
+msgstr "இந்த வலையமைப்புக்கு ஒரு சேவையகத்தையாவது சேர்க்க வேண்டும்."
+
+#: ../src/fe-gnome/irc-network.c:32
+msgid "UTF-8 (Unicode)"
+msgstr "UTF-8 (யூனிக்கோடு)"
+
+#: ../src/fe-gnome/irc-network.c:33
+msgid "ISO-8859-15 (Western Europe)"
+msgstr "ISO-8859-15 (மேற்கு ஐரோப்பா)"
+
+#: ../src/fe-gnome/irc-network.c:34
+msgid "ISO-8859-2 (Central Europe)"
+msgstr "ISO-8859-2 (மத்திய ஐரோப்பா)"
+
+#: ../src/fe-gnome/irc-network.c:35
+msgid "ISO-8859-7 (Greek)"
+msgstr "ISO-8859-7 (கிரீக்)"
+
+#: ../src/fe-gnome/irc-network.c:36
+msgid "ISO-8859-8 (Hebrew)"
+msgstr "ISO-8859-8 (ஹீப்ரு)"
+
+#: ../src/fe-gnome/irc-network.c:37
+msgid "ISO-8859-9 (Turkish)"
+msgstr "ISO-8859-9 (துருக்கி)"
+
+#: ../src/fe-gnome/irc-network.c:38
+msgid "ISO-2022-JP (Japanese)"
+msgstr "ISO-2022-JP (ஜப்பானிய)"
+
+#: ../src/fe-gnome/irc-network.c:39
+msgid "SJIS (Japanese)"
+msgstr "எஸ்ஜேஐஎஸ் (ஜப்பானிய)"
+
+#: ../src/fe-gnome/irc-network.c:40
+msgid "CP949 (Korean)"
+msgstr "CP949 (கொரியன்)"
+
+#: ../src/fe-gnome/irc-network.c:41
+msgid "KOI8-R (Cyrillic)"
+msgstr "KOI8-R (ஸைரிலிக்)"
+
+#: ../src/fe-gnome/irc-network.c:42
+msgid "CP1251 (Cyrillic)"
+msgstr "CP1251 (ஸைரிலிக்)"
+
+#: ../src/fe-gnome/irc-network.c:43
+msgid "CP1256 (Arabic)"
+msgstr "CP1256 (அராபிக்)"
+
+#: ../src/fe-gnome/irc-network.c:44
+msgid "CP1257 (Baltic)"
+msgstr "CP1257 (பால்டிக்)"
+
+#: ../src/fe-gnome/irc-network.c:45
+msgid "GB18030 (Chinese)"
+msgstr "GB18030 (சைனீஸ்)"
+
+#: ../src/fe-gnome/irc-network.c:46
+msgid "TIS-620 (Thai)"
+msgstr "TIS-620 (தாய்)"
+
+#. Toplevel
+#: ../src/fe-gnome/main-window.c:97
+msgid "_IRC"
+msgstr "(_I) ஐஆர்சி"
+
+#: ../src/fe-gnome/main-window.c:99
+msgid "In_sert"
+msgstr "(_s) உள்நுழை"
+
+#: ../src/fe-gnome/main-window.c:100
+msgid "_Network"
+msgstr "_வலையமைப்பு"
+
+#: ../src/fe-gnome/main-window.c:101
+msgid "_Discussion"
+msgstr "(_D) விவாதம்"
+
+#: ../src/fe-gnome/main-window.c:102
+msgid "_View"
+msgstr "காட்டிV)"
+
+#: ../src/fe-gnome/main-window.c:103
+msgid "_Help"
+msgstr "உதவி (_H)"
+
+#. IRC menu
+#: ../src/fe-gnome/main-window.c:107
+msgid "_Connect..."
+msgstr "(_C) இணை...."
+
+#: ../src/fe-gnome/main-window.c:108
+msgid "_File Transfers"
+msgstr "(_F) கோப்பு பரிமாற்றங்கள்"
+
+#: ../src/fe-gnome/main-window.c:109
+msgid "_Quit"
+msgstr "வெளியேறு (_Q)"
+
+#. Edit menu
+#: ../src/fe-gnome/main-window.c:112
+msgid "Cu_t"
+msgstr "(_t) வெட்டு"
+
+#: ../src/fe-gnome/main-window.c:114
+msgid "_Paste"
+msgstr "(_P) ஒட்டு"
+
+#: ../src/fe-gnome/main-window.c:115
+msgid "Prefere_nces"
+msgstr "முன்னுரிமை (_n)"
+
+#. Network menu
+#: ../src/fe-gnome/main-window.c:118
+msgid "_Reconnect"
+msgstr "மறுயிணைப்பு (_R)"
+
+#: ../src/fe-gnome/main-window.c:119
+msgid "_Disconnect"
+msgstr "துண்டி (_D)"
+
+#: ../src/fe-gnome/main-window.c:120
+msgid "_Close"
+msgstr "மூடு (_C)"
+
+#: ../src/fe-gnome/main-window.c:121
+msgid "_Channels..."
+msgstr "(_C) வாய்க்கால்கள்...."
+
+#. Discussion menu
+#: ../src/fe-gnome/main-window.c:124
+msgid "_Save Transcript"
+msgstr "(_S) எழுத்துப்படியை சேமி"
+
+#: ../src/fe-gnome/main-window.c:125
+msgid "_Leave"
+msgstr "(_L) விடு"
+
+#: ../src/fe-gnome/main-window.c:126
+msgid "Cl_ose"
+msgstr "(_o) மூடு"
+
+#: ../src/fe-gnome/main-window.c:127
+msgid "_Find"
+msgstr "கண்டுபிடி (_F)"
+
+#: ../src/fe-gnome/main-window.c:128
+msgid "Change _Topic"
+msgstr "(_T) தலைப்பை மாற்றுக"
+
+#: ../src/fe-gnome/main-window.c:129
+msgid "_Bans..."
+msgstr "(_B) தடை செய்கிறது..."
+
+#: ../src/fe-gnome/main-window.c:130
+msgid "_Users"
+msgstr "(_U) பயனர்கள்"
+
+#. Help menu
+#: ../src/fe-gnome/main-window.c:133
+msgid "_Contents"
+msgstr "உள்ளடக்கம் (_C)"
+
+#: ../src/fe-gnome/main-window.c:134
+msgid "_About"
+msgstr "பற்றி (_A)"
+
+#. View menu
+#: ../src/fe-gnome/main-window.c:140
+msgid "_Sidebar"
+msgstr "பக்கப்பட்டை (_S)"
+
+#: ../src/fe-gnome/main-window.c:141
+msgid "_Statusbar"
+msgstr "நிலைப்பட்டை (_S)"
+
+#: ../src/fe-gnome/main-window.c:142
+msgid "_Fullscreen"
+msgstr "முழுத்திரை (_F)"
+
+#: ../src/fe-gnome/main-window.c:447 ../src/fe-gnome/main-window.c:469
+msgid "Ex-Chat"
+msgstr "எக்ஸ்சாட்"
+
+#: ../src/fe-gnome/main-window.c:521
+msgid "Error showing help"
+msgstr "உதவி காட்டுவதில் பிழை "
+
+#: ../src/fe-gnome/migration.c:115
+#, c-format
+msgid ""
+"The way the D-Bus plugin works has changed.\n"
+"To avoid problems, you should remove the old plugin file.\n"
+"\n"
+"<b>Please delete %s</b>"
+msgstr ""
+"டி-பஸ் சொருகி வேலை செய்வது மாறிவிட்டது..\n"
+"பிரச்சினைகளை தவிர்க்க பழைய சொருகி கோப்பை நீக்க வேண்டும்.\n"
+"<b> தயவு செய்து %s ஐ நீக்கு</b>"
+
+#: ../src/fe-gnome/migration.c:117
+msgid "D-Bus plugin is still installed"
+msgstr "டி-பஸ் சொருகி இன்னும் நிறுவப்பட்டு உள்லது"
+
+#. View menu
+#: ../src/fe-gnome/navigation-tree.c:91
+msgid "Pre_vious Network"
+msgstr "(_v) முந்தைய வலையமைப்பு"
+
+#: ../src/fe-gnome/navigation-tree.c:92
+msgid "Nex_t Network"
+msgstr "(_t) அடுத்த வலையமைப்பு"
+
+#: ../src/fe-gnome/navigation-tree.c:93
+msgid "_Previous Discussion"
+msgstr "(_P) முந்தைய கலந்துரையாடல்"
+
+#: ../src/fe-gnome/navigation-tree.c:94
+msgid "_Next Discussion"
+msgstr "(_N) அடுத்த கலந்துரையாடல்"
+
+#. Discussion context menu
+#: ../src/fe-gnome/navigation-tree.c:97
+msgid "_Join"
+msgstr "(_J) இணை"
+
+#. Server context menu
+#: ../src/fe-gnome/navigation-tree.c:102
+msgid "_Auto-connect on startup"
+msgstr "(_A)  துவக்கும்போது தானியங்கியாக இணை"
+
+#. Discussion context menu
+#: ../src/fe-gnome/navigation-tree.c:105
+msgid "_Auto-join on connect"
+msgstr "(_A)  துவக்கும்போது தானியங்கியாக சேர்"
+
+#: ../src/fe-gnome/navigation-tree.c:106
+msgid "Show join/part messages"
+msgstr "சேர்/பகுதி செய்திகளை காட்டு"
+
+#: ../src/fe-gnome/navigation-tree.c:481
+msgid "<none>"
+msgstr "<ஏதுமில்லை>"
+
+#. The name of the default downloads folder,
+#. * Needs to be the same as Epiphany's
+#: ../src/fe-gnome/preferences.c:202
+msgid "Downloads"
+msgstr "பதிவிக்கம்"
+
+#: ../src/fe-gnome/preferences-page-colors.c:255
+msgid "Colors"
+msgstr "நிறங்கள்"
+
+#: ../src/fe-gnome/preferences-page-colors.c:258
+msgid "Black on White"
+msgstr "வெள்ளை  மேலே கருப்பு "
+
+#: ../src/fe-gnome/preferences-page-colors.c:259
+msgid "White on Black"
+msgstr " கருப்பு மேலே வெள்ளை "
+
+#: ../src/fe-gnome/preferences-page-colors.c:260
+msgid "Custom"
+msgstr "தனிப்பயன்"
+
+#: ../src/fe-gnome/preferences-page-colors.c:261
+msgid "System Theme Colors"
+msgstr "கணினி கருப்பொருள் வண்ணங்கள்"
+
+#: ../src/fe-gnome/preferences-page-dcc.c:142
+msgid "File Transfers & DCC"
+msgstr "கோப்பு பரிமாற்றங்கள் & டிசிசி"
+
+#: ../src/fe-gnome/preferences-page-effects.c:180
+msgid "Effects"
+msgstr "விளைவுகள்"
+
+#: ../src/fe-gnome/preferences-page-irc.c:306
+msgid "IRC Preferences"
+msgstr "ஐஆர்சி விருப்பங்கள்"
+
+#: ../src/fe-gnome/preferences-page-networks.c:117
+#, c-format
+msgid "Really remove network \"%s\" and all of its servers?"
+msgstr " \"%s\" உவலையமைப்புண்மையாக  மற்றும் அதன் எல்லா சேவையகங்களையும் நீக்கவா?"
+
+#: ../src/fe-gnome/preferences-page-networks.c:168
+msgid "Networks"
+msgstr "பிணையங்கள்"
+
+#: ../src/fe-gnome/preferences-page-networks.c:176
+msgid "Name"
+msgstr "பெயர்"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:99
+#: ../src/fe-gnome/preferences-page-plugins.c:100
+msgid "unknown"
+msgstr "தெரியாத"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:192
+#, c-format
+msgid "An error occurred unloading %s"
+msgstr "%s ஐ இறக்குவதில் பிழை"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:193
+msgid "Plugin Unload Failed"
+msgstr "சொருகியை இறக்குதல் தோல்வியுற்றது"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:204
+msgid "Plugin Load Failed"
+msgstr "சொருகியை ஏற்றுதல் தோல்வியுற்றது"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:242
+msgid "Open Plugin"
+msgstr "சொருகியை திற "
+
+#: ../src/fe-gnome/preferences-page-plugins.c:367
+msgid "Scripts and Plugins"
+msgstr "சிறுநிரல்கள் மற்றும் சொருகு பொருள்கள்"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:385
+#: ../src/fe-gnome/preferences-page-spellcheck.c:218
+msgid "Enable"
+msgstr "செயல்படுத்து"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:387
+msgid "Plugin"
+msgstr "சொருகி"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:98
+#, c-format
+msgid "Error in language %s activation: %s\n"
+msgstr " %s மொழியை செயலாக்குவதில் பிழை: %s\n"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:138
+#, c-format
+msgid "Error in spell checking configuration: %s\n"
+msgstr "எழுத்துப் பிழை திருத்தி வடிவமைப்பில் பிழை: %s\n"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:180
+msgid "Spell checking"
+msgstr "சொல்திருத்துதல்"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:184
+msgid ""
+"In order to get spell-checking, you need to have libenchant installed with "
+"at least one dictionary."
+msgstr "எழுத்துப்பிழை திருத்த நீங்கள் லிபென்சாட்டை ஒரு அகரமுதலியுடனாவது நிறுவி இருக்க வேண்டும்."
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:195
+msgid "_Check spelling"
+msgstr "(_C) எழுத்துப் பிழை திருத்து"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:196
+msgid "Choose languages to use for spellcheck:"
+msgstr "எழுத்துப் பிழை திருத்திக்கு பயன்படுத்த மொழி"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:223
+msgid "Language"
+msgstr "மொழி"
+
+#: ../src/fe-gnome/status-bar.c:93
+#, c-format
+msgid "%s%.1fs lag"
+msgstr "%s%.1fs தாமதம்"
+
+#: ../src/fe-gnome/status-bar.c:107
+#, c-format
+msgid "%d bytes buffered"
+msgstr "%d பைட்டுகள் இடைநிலையாக்கப்பட்டது "
+
+#: ../src/fe-gnome/text-entry.c:151
+#, c-format
+msgid "Error in spellchecking configuration: %s\n"
+msgstr "எழுத்துப் பிழை திருத்தி வடிவமைப்பில் பிழை: %s\n"
+
+#: ../src/fe-gnome/text-entry.c:370
+msgid "I_nsert Color Code"
+msgstr "(_n) நிறம் குறியீட்டை உள்நுழை"
+
+#: ../src/fe-gnome/text-entry.c:377
+msgid "Black"
+msgstr "கருப்பு"
+
+#: ../src/fe-gnome/text-entry.c:381
+msgid "Dark Blue"
+msgstr "அடர் நீலம்"
+
+#: ../src/fe-gnome/text-entry.c:385
+msgid "Dark Green"
+msgstr "அடர் பச்சை"
+
+#: ../src/fe-gnome/text-entry.c:389
+msgid "Red"
+msgstr "சிகப்பு"
+
+#: ../src/fe-gnome/text-entry.c:393
+msgid "Brown"
+msgstr "பழுப்பு"
+
+#: ../src/fe-gnome/text-entry.c:397
+msgid "Purple"
+msgstr "ஊதா"
+
+#: ../src/fe-gnome/text-entry.c:401
+msgid "Orange"
+msgstr "ஆரஞ்சு"
+
+#: ../src/fe-gnome/text-entry.c:405
+msgid "Yellow"
+msgstr "மஞ்சள்"
+
+#: ../src/fe-gnome/text-entry.c:409
+msgid "Light Green"
+msgstr "வெளிர் பச்சை"
+
+#: ../src/fe-gnome/text-entry.c:413
+msgid "Aqua"
+msgstr "இந்திர நீலம்"
+
+#: ../src/fe-gnome/text-entry.c:417
+msgid "Light Blue"
+msgstr "வெளிர் நீலம்"
+
+#: ../src/fe-gnome/text-entry.c:421
+msgid "Blue"
+msgstr "நீலம்"
+
+#: ../src/fe-gnome/text-entry.c:425
+msgid "Violet"
+msgstr "ஊதா"
+
+#: ../src/fe-gnome/text-entry.c:429
+msgid "Grey"
+msgstr "சாம்பல்"
+
+#: ../src/fe-gnome/text-entry.c:433
+msgid "Light Grey"
+msgstr "வெளிர் சாம்பல்"
+
+#: ../src/fe-gnome/text-entry.c:437
+msgid "White"
+msgstr "வெள்ளை"
+
+#: ../src/fe-gnome/topic-label.c:289
+#, c-format
+msgid "Changing topic for %s"
+msgstr "%s க்கு தலைப்பு மாற்றுகிறது"
+
+#: ../src/fe-gnome/userlist-gui.c:56
+msgid "_Send File..."
+msgstr "(_S) கோப்பு அனுப்பு ..."
+
+#: ../src/fe-gnome/userlist-gui.c:57
+msgid "Private _Chat"
+msgstr "(_C) தனிப்பட்ட அரட்டை"
+
+#: ../src/fe-gnome/userlist-gui.c:58
+msgid "_Kick"
+msgstr "(_K) உதை"
+
+#: ../src/fe-gnome/userlist-gui.c:59
+msgid "_Ban"
+msgstr "(_B) தடை"
+
+#: ../src/fe-gnome/userlist-gui.c:61
+msgid "_Op"
+msgstr "_Op"
+
+#: ../src/fe-gnome/userlist-gui.c:427
+#, c-format
+msgid ""
+"%s\n"
+"<span weight=\"bold\">Name:</span> %s"
+msgstr ""
+"%s\n"
+"<span weight=\"bold\"> பெயர்:</span>%s"
+
+#: ../src/fe-gnome/userlist-gui.c:434
+#, c-format
+msgid ""
+"%s\n"
+"<span weight=\"bold\">Country:</span> %s"
+msgstr ""
+"%s\n"
+"<span weight=\"bold\"> நாடு:</span>%s"
+
+#: ../src/fe-gnome/userlist-gui.c:444
+#, c-format
+msgid ""
+"%s\n"
+"<span weight=\"bold\">Last message:</span> %d minute ago"
+msgid_plural ""
+"%s\n"
+"<span weight=\"bold\">Last message:</span> %d minutes ago"
+msgstr[0] ""
+"%s\n"
+"<span weight=\"bold\"> கடைசி செய்தி</span> %d நிமிடம் முன்பு"
+msgstr[1] ""
+"%s\n"
+"<span weight=\"bold\"> கடைசி செய்திகள்</span>  %d நிமிடங்கள் முன்பு"
+
+#: ../src/fe-gnome/userlist-gui.c:455
+#, c-format
+msgid ""
+"%s\n"
+"<span weight=\"bold\">Away message:</span> %s"
+msgstr ""
+"%s\n"
+"<span weight=\"bold\"> வெளியில் செய்தி:</span> %s"
+
+#: ../src/fe-gnome/userlist.c:308
+#, c-format
+msgid "%d User"
+msgid_plural "%d Users"
+msgstr[0] "%d  பயனர்"
+msgstr[1] "%d  பயனர்கள்"
+

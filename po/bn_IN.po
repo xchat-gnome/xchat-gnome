@@ -1,0 +1,4608 @@
+# translation of xchat-gnome.master.po to Bengali INDIA
+# Translation of ISO 3166 (country names) to Bengali India
+#
+# This file is distributed under the same license as the iso-codes package.
+#
+# Copyright ©
+#
+# Runa Bhattacharjee <runabh@gmail.com>, 2009.
+# Runa Bhattacharjee <runab@redhat.com>, 2009, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: xchat-gnome.master\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=xchat-gnome&component=general\n"
+"POT-Creation-Date: 2009-10-24 09:48+0000\n"
+"PO-Revision-Date: 2010-01-03 20:44+0530\n"
+"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
+"Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../data/channel-list.glade.h:1
+msgid "<span weight=\"bold\">List Filtering</span>"
+msgstr "<span weight=\"bold\">তালিকা ফিল্টারের ব্যবস্থা</span>"
+
+#: ../data/channel-list.glade.h:2
+msgid "Channel _Name"
+msgstr "চ্যানেলের নাম (_N)"
+
+#: ../data/channel-list.glade.h:3
+msgid "Channel _Topic"
+msgstr "চ্যানেলের প্রসঙ্গ (_T)"
+
+#: ../data/channel-list.glade.h:4
+msgid "Channels list"
+msgstr "চ্যানেলের তালিকা"
+
+#: ../data/channel-list.glade.h:5
+msgid "Join channel:"
+msgstr "চিহ্নিত চ্যানেলে যোগ দিন:"
+
+#: ../data/channel-list.glade.h:6
+msgid "Search for text:"
+msgstr "চিহ্নিত লেখা অনুসন্ধান করুন:"
+
+#: ../data/channel-list.glade.h:7
+msgid "Show channels with:"
+msgstr "চিহ্নিত সংখ্যক ব্যবহারকারী বিশিষ্ট চ্যানেল প্রদর্শন করা হবে:"
+
+#: ../data/channel-list.glade.h:8
+msgid "_Join Channel"
+msgstr "চ্যানেলে যোগ দিন (_J)"
+
+#. Part of channel filtering, to select whether to filter "in  [ ] channel topic  [ ] channel name".  Yes, I know it's hard to translate.  Send suggestions to trowbrds@gmail.com :P
+#: ../data/channel-list.glade.h:10
+msgid "in:"
+msgstr "ফিল্টারের মান:"
+
+#. Part of "Show channels with [  ] to [  ] users".  Yes, I know it's hard to translate.  Send suggestions to trowbrds@gmail.com :P
+#: ../data/channel-list.glade.h:12
+msgid "to"
+msgstr "থেকে"
+
+#: ../data/channel-list.glade.h:13
+msgid "users"
+msgstr "ব্যবহারকারী"
+
+#: ../data/connect-dialog.glade.h:1 ../src/fe-gnome/connect-dialog.c:157
+msgid "C_onnect"
+msgstr "সংযোগ করুন (_o)"
+
+#: ../data/dcc-window.glade.h:1 ../src/fe-gnome/dcc-window.c:116
+msgid "File Transfers"
+msgstr "ফাইল বিনিময়"
+
+#: ../data/irc-network-editor.glade.h:1
+msgid "<span weight=\"bold\">Automatically Join Channels</span>"
+msgstr "<span weight=\"bold\">স্বয়ংক্রিয়ভাবে চ্যানেলে যোগ দেওয়া হবে</span>"
+
+#: ../data/irc-network-editor.glade.h:2
+msgid "<span weight=\"bold\">User Info</span>"
+msgstr "<span weight=\"bold\">ব্যবহারকারীর তথ্য</span>"
+
+#: ../data/irc-network-editor.glade.h:3
+msgid "Accept invalid _SSL certificate"
+msgstr "অবৈধ SSL সার্টিফিকেট গ্রহণ করা হবে (_S)"
+
+#: ../data/irc-network-editor.glade.h:4
+msgid "Character _encoding:"
+msgstr "ক্যারেক্টার এনকোডিং: (_e)"
+
+#: ../data/irc-network-editor.glade.h:5
+msgid "Cycle _until connected"
+msgstr "সংযুক্ত না হওয়া অবধি চক্রাকারে প্রচেষ্টা করা হবে (_u)"
+
+#: ../data/irc-network-editor.glade.h:6
+msgid "Network Settings"
+msgstr "নেটওয়ার্কের বৈশিষ্ট্য"
+
+#: ../data/irc-network-editor.glade.h:7
+msgid "Nickser_v password:"
+msgstr "Nickserv পাসওয়ার্ড: (_v)"
+
+#: ../data/irc-network-editor.glade.h:8
+msgid "Server _password:"
+msgstr "সার্ভারের পাসওয়ার্ড: (_p)"
+
+#: ../data/irc-network-editor.glade.h:9
+msgid "Servers"
+msgstr "সার্ভার তালিকা"
+
+#: ../data/irc-network-editor.glade.h:10
+msgid "Use _global user settings"
+msgstr "ব্যবহারকারীর সার্বজনীন বৈশিষ্ট্য প্রয়োগ করা হবে (_g)"
+
+#: ../data/irc-network-editor.glade.h:11
+msgid "Use _these user settings:"
+msgstr "ব্যবহারকারীর চিহ্নিত বৈশিষ্ট্য প্রয়োগ করা হবে: (_t)"
+
+#: ../data/irc-network-editor.glade.h:12
+msgid "User and Channels"
+msgstr "ব্যবহারকারী ও চ্যানেল"
+
+#: ../data/irc-network-editor.glade.h:13
+msgid "_Automatically connect to network"
+msgstr "স্বয়ংক্রিয়ভাবে নেটওয়ার্কে সংযোগ করা হবে (_A)"
+
+#: ../data/irc-network-editor.glade.h:14
+msgid "_Name:"
+msgstr "নাম: (_N)"
+
+#: ../data/irc-network-editor.glade.h:15 ../data/setup-dialog.glade.h:5
+msgid "_Nick name:"
+msgstr "উপনাম: (_N)"
+
+#: ../data/irc-network-editor.glade.h:16
+msgid "_Real Name:"
+msgstr "সঠিক নাম: (_R)"
+
+#: ../data/irc-network-editor.glade.h:17
+msgid "_Use secure connection (SSL)"
+msgstr "নিরাপদ সংযোগ (SSL) ব্যবহার করা হবে (_U)"
+
+#: ../data/preferences-dialog.glade.h:1
+msgid "<span size=\"small\" style=\"italic\">Opaque</span>"
+msgstr "<span size=\"small\" style=\"italic\">অস্বচ্ছ</span>"
+
+#: ../data/preferences-dialog.glade.h:2
+msgid "<span size=\"small\" style=\"italic\">Transparent</span>"
+msgstr "<span size=\"small\" style=\"italic\">স্বচ্ছ</span>"
+
+#: ../data/preferences-dialog.glade.h:3
+msgid "<span weight=\"bold\">Background</span>"
+msgstr "<span weight=\"bold\">পটভূমি</span>"
+
+#: ../data/preferences-dialog.glade.h:4
+msgid "<span weight=\"bold\">DCC Settings</span>"
+msgstr "<span weight=\"bold\">DCC সংক্রান্ত বৈশিষ্ট্য</span>"
+
+#: ../data/preferences-dialog.glade.h:5
+msgid "<span weight=\"bold\">Extra Colors</span>"
+msgstr "<span weight=\"bold\">অতিরিক্ত রং</span>"
+
+#: ../data/preferences-dialog.glade.h:6
+msgid "<span weight=\"bold\">File Transfers</span>"
+msgstr "<span weight=\"bold\">ফাইল বিনিময়</span>"
+
+#: ../data/preferences-dialog.glade.h:7
+msgid "<span weight=\"bold\">General</span>"
+msgstr "<span weight=\"bold\">সাধারণ</span>"
+
+#: ../data/preferences-dialog.glade.h:8
+msgid "<span weight=\"bold\">Highlighting</span>"
+msgstr "<span weight=\"bold\">উজ্জ্বলতা</span>"
+
+#: ../data/preferences-dialog.glade.h:9
+msgid "<span weight=\"bold\">Text Colors</span>"
+msgstr "<span weight=\"bold\">হরফের রং</span>"
+
+#: ../data/preferences-dialog.glade.h:10
+msgid "<span weight=\"bold\">Throttling</span>"
+msgstr "<span weight=\"bold\">তথ্য প্রবাহের সীমা (থ্রটেলিং)</span>"
+
+#: ../data/preferences-dialog.glade.h:11
+msgid "<span weight=\"bold\">User Interface</span>"
+msgstr "<span weight=\"bold\">ব্যবহারকারীর প্রেক্ষাপট</span>"
+
+#: ../data/preferences-dialog.glade.h:12
+msgid "<span weight=\"bold\">mIRC Colors</span>"
+msgstr "<span weight=\"bold\">mIRC-র রং</span>"
+
+#: ../data/preferences-dialog.glade.h:13
+msgid "A_way message:"
+msgstr "অনুপস্থিতির বার্তা: (_w)"
+
+#: ../data/preferences-dialog.glade.h:14
+msgid "Auto-accept DCC c_hat"
+msgstr "স্বয়ংক্রিয়ভাবে DCC আলাপন গ্রহণ করা হবে (_h)"
+
+#: ../data/preferences-dialog.glade.h:15
+msgid "Auto-accept DCC file tr_ansfers"
+msgstr "স্বয়ংক্রিয়ভাবে DCC ফাইল বিনিময় গ্রহণ করা হবে (_a)"
+
+#: ../data/preferences-dialog.glade.h:16
+msgid "Background mark:"
+msgstr "পটভূমির চিহ্ন:"
+
+#: ../data/preferences-dialog.glade.h:17
+msgid "Buil_t-in schemes:"
+msgstr "বিল্ট-ইন স্কিম: (_t)"
+
+#: ../data/preferences-dialog.glade.h:18
+msgid "Convert spaces to _underscores in filenames"
+msgstr "ফাইলের নামের মধ্যে উপস্থিত আন্ডার-স্কোর চিহ্নগুলিকে শূণ্যস্থানে পরিবর্তন করা হবে (_u)"
+
+#: ../data/preferences-dialog.glade.h:19
+msgid "Enter extra words to trigger highlighting"
+msgstr "উজ্জ্বল করে প্রদর্শনের জন্য অতিরিক্ত কিছু শব্দ উল্লেখ করুন"
+
+#: ../data/preferences-dialog.glade.h:20
+msgid "Foreground mark:"
+msgstr "অগ্রভূমির চিহ্ন:"
+
+#: ../data/preferences-dialog.glade.h:21
+msgid "Get IP address from _server"
+msgstr "সার্ভার থেকে IP ঠিকানা প্রাপ্ত করা হবে (_s)"
+
+#: ../data/preferences-dialog.glade.h:22
+msgid "Glo_bal receive KB/s: "
+msgstr "সার্বজনীন প্রাপ্তির পরিমাণ কিলোবাইট/সেকেন্ড: (_b)"
+
+#: ../data/preferences-dialog.glade.h:23
+msgid "I_mage file:"
+msgstr "ছবির ফাইল: (_m)"
+
+#: ../data/preferences-dialog.glade.h:24
+msgid "In_dividual send KB/s: "
+msgstr "একক ক্ষেত্রে প্রেরণের পরিমাণ কিলোবাইট/সেকেন্ড: (_d)"
+
+#: ../data/preferences-dialog.glade.h:25
+msgid "Indi_vidual receive KB/s: "
+msgstr "একক প্রাপ্তির পরিমাণ কিলোবাইট/সেকেন্ড: (_v)"
+
+#: ../data/preferences-dialog.glade.h:26
+msgid "Move co_mpleted files to:"
+msgstr "সমাপ্ত ফাইলগুলি চিহ্নিত স্থানে স্থানান্তর করা হবে: (_m)"
+
+#: ../data/preferences-dialog.glade.h:27
+msgid "Preferences"
+msgstr "পছন্দ"
+
+#: ../data/preferences-dialog.glade.h:28
+msgid "Real na_me:"
+msgstr "সঠিক নাম: (_m)"
+
+#: ../data/preferences-dialog.glade.h:29
+msgid "Save sender _nickname in filenames"
+msgstr "ফাইলের মধ্যে ফাইল প্রেরকের উপনাম সংরক্ষণ করা হবে (_n)"
+
+#: ../data/preferences-dialog.glade.h:30
+msgid "Select Completed Files Directory"
+msgstr "সমাপ্ত ফাইলগুলি ধারণকারী ডিরেক্টরি নির্বাচন করুন"
+
+#: ../data/preferences-dialog.glade.h:31
+msgid "Select Download Directory"
+msgstr "Download ডিরেক্টরি নির্বাচন করুন"
+
+#: ../data/preferences-dialog.glade.h:32
+msgid "Show _timestamps"
+msgstr "সময়ের চিহ্ন প্রদর্শন করা হবে (_t)"
+
+#: ../data/preferences-dialog.glade.h:33
+msgid "Show m_arker line"
+msgstr "রেখা চিহ্ন প্রদর্শন করা হবে (_a)"
+
+#: ../data/preferences-dialog.glade.h:34
+msgid ""
+"To edit a shortcut key, click on the corresponding row and type a new "
+"accelerator, or press backspace to clear."
+msgstr "কোনো শর্ট-কাট কি সম্পাদনার জন্য সংশ্লিষ্ট সারির উপর ক্লিক করুন ও নতুন অ্যাকসেলেরেটর টিপুন অথবা ব্যাক-স্পেস টিপে তা মুছে ফেলুন।"
+
+#: ../data/preferences-dialog.glade.h:35
+msgid "Use _system terminal font"
+msgstr "সিস্টেম টার্মিন্যালের ফন্ট ব্যবহার করুন (_s)"
+
+#: ../data/preferences-dialog.glade.h:36
+msgid "Use t_his IP address:"
+msgstr "চিহ্নিত IP ঠিকানা ব্যবহার করা হবে: (_h)"
+
+#: ../data/preferences-dialog.glade.h:37
+msgid "Use this f_ont:"
+msgstr "চিহ্নিত ফন্ট ব্যবহার করা হবে: (_o)"
+
+#: ../data/preferences-dialog.glade.h:38
+msgid "_Background color:"
+msgstr "পটভূমির রং: (_B)"
+
+#: ../data/preferences-dialog.glade.h:39
+msgid "_Background image"
+msgstr "পটভূমির ছবি (_B)"
+
+#: ../data/preferences-dialog.glade.h:40
+msgid "_Colorize nicknames"
+msgstr "রঙিন উপনাম ব্যবহার করা হবে (_C)"
+
+#: ../data/preferences-dialog.glade.h:41
+msgid "_Download files to:"
+msgstr "ডাউনলোড করা ফাইল সংরক্ষণের স্থান: (_D)"
+
+#: ../data/preferences-dialog.glade.h:42 ../src/fe-gnome/main-window.c:98
+msgid "_Edit"
+msgstr "সম্পাদনা (_E)"
+
+#: ../data/preferences-dialog.glade.h:43
+msgid "_Foreground color:"
+msgstr "অগ্রভূমির রং: (_F)"
+
+#: ../data/preferences-dialog.glade.h:44
+msgid "_Global send KB/s: "
+msgstr "সার্বজনীন প্রেরণের পরিমাণ কিলোবাইট/সেকেন্ড: (_G)"
+
+#: ../data/preferences-dialog.glade.h:45
+msgid "_Log conversations"
+msgstr "আলাপন লগ করা হবে (_L)"
+
+#: ../data/preferences-dialog.glade.h:46
+msgid "_Nickname:"
+msgstr "উপনাম: (_N)"
+
+#: ../data/preferences-dialog.glade.h:47
+msgid "_None (use solid color)"
+msgstr "শূণ্য (গাঢ় রং ব্যবহার করা হবে) (_N)"
+
+#: ../data/preferences-dialog.glade.h:48
+msgid "_Part message:"
+msgstr "বিচ্ছিন্ন করার সময়কালীন বার্তা: (_P)"
+
+#: ../data/preferences-dialog.glade.h:49
+msgid "_Quit message:"
+msgstr "প্রস্থানের বার্তা: (_Q)"
+
+#: ../data/preferences-dialog.glade.h:50
+msgid "_Show colors"
+msgstr "রং প্রদর্শন করা হবে (_S)"
+
+#: ../data/preferences-dialog.glade.h:51
+msgid "_Transparent background"
+msgstr "স্বচ্ছ পটভূমি (_T)"
+
+#: ../data/preferences-dialog.glade.h:52
+msgid "spell checking"
+msgstr "বানান পরীক্ষণ"
+
+#: ../data/setup-dialog.glade.h:1
+msgid ""
+"Welcome to XChat-GNOME! Since this is your first time using this "
+"application, there are a couple things you'll need to configure before you "
+"can get started.\n"
+"\n"
+"These are the names by which you'll be recognized on IRC. Your nick name is "
+"the name by which you'll be known, whereas the real name is useful for "
+"things such as registering with services. You do not have to use your real "
+"name if you do not want to."
+msgstr ""
+"XChat-GNOME-এ স্বাগতম! এই অ্যাপ্লিকেশনটি প্রথমবার ব্যবহার করা হচ্ছে এবং সঠিকভাবে এর ব্যবহার আরম্ভের পূর্বে কিছু বৈশিষ্ট্য কনফিগার করা আবশ্যক।\n"
+"\n"
+"IRC-র জগৎয়ে এই নামগুলির সাহায্যে আপনি পরিচিত হবেন। উপনামের সাহায্যে আপনাকে চিহ্নিত করা হবে ও আপনার সঠিক নাম সহযোগে পরিসেবা প্রভৃতিতে নিবন্ধন করা হবে। প্রকৃত নামের ব্যবহার আবশ্যক নয়।"
+
+#: ../data/setup-dialog.glade.h:4
+msgid "XChat-GNOME Setup"
+msgstr "XChat-GNOME প্রস্তুতি"
+
+#: ../data/setup-dialog.glade.h:6
+msgid "_Real name:"
+msgstr "সঠিক নাম: (_R)"
+
+#: ../data/topic-change.glade.h:1
+msgid "Change"
+msgstr "পরিবর্তন করুন"
+
+#: ../data/xchat-gnome.desktop.in.in.h:1
+msgid "Chat with people using IRC"
+msgstr "IRC সহযোগে অন্যান্য ব্যক্তিদের সাথে আলাপ করুন"
+
+#: ../data/xchat-gnome.desktop.in.in.h:2 ../src/fe-gnome/fe-gnome.c:121
+msgid "IRC Chat"
+msgstr "IRC আলাপনব্যবস্থা"
+
+#: ../data/xchat-gnome.desktop.in.in.h:3 ../data/xchat-gnome.glade.h:8
+#: ../plugins/sound-notification/sound-notification.c:45
+msgid "XChat-GNOME IRC Chat"
+msgstr "XChat-GNOME IRC আলাপন"
+
+#: ../data/xchat-gnome.glade.h:1
+msgid "Apply on all _servers"
+msgstr "সকল সার্ভারের ক্ষেত্রে প্রয়োগ করা হবে (_s)"
+
+#: ../data/xchat-gnome.glade.h:2
+msgid "C_hange"
+msgstr "পরিবর্তন করুন (_h)"
+
+#: ../data/xchat-gnome.glade.h:3
+msgid "Change _nickname to:"
+msgstr "উল্লিখিত উপনামে পরিবর্তন করুন: (_n)"
+
+#: ../data/xchat-gnome.glade.h:4
+msgid "Close this discussion"
+msgstr "এই আলাপন বন্ধ করুন"
+
+#: ../data/xchat-gnome.glade.h:5
+msgid "Mark as _away"
+msgstr "অনুপস্থিত রূপে চিহ্নিত করুন (_a)"
+
+#: ../data/xchat-gnome.glade.h:6 ../src/common/text.c:887
+#: ../src/common/text.c:893 ../src/common/text.c:900 ../src/common/text.c:1088
+#: ../src/common/text.c:1095 ../src/common/text.c:1100
+#: ../src/common/text.c:1105 ../src/common/text.c:1110
+#: ../src/common/text.c:1116 ../src/common/text.c:1121
+#: ../src/common/text.c:1125 ../src/common/text.c:1131
+#: ../src/common/text.c:1137 ../src/common/text.c:1183
+#: ../src/common/text.c:1194 ../src/common/text.c:1199
+#: ../src/common/text.c:1204 ../src/common/text.c:1213
+#: ../src/common/text.c:1224 ../src/common/text.c:1231
+#: ../src/common/text.c:1237 ../src/common/text.c:1242
+#: ../src/common/text.c:1247 ../src/common/text.c:1254
+#: ../src/common/text.c:1260 ../src/common/text.c:1266
+#: ../src/common/text.c:1271 ../src/common/text.c:1276
+#: ../src/common/text.c:1280 ../src/common/text.c:1286
+#: ../src/common/text.c:1294 ../src/common/text.c:1328
+#: ../src/common/text.c:1333
+msgid "Nickname"
+msgstr "উপনাম"
+
+#: ../data/xchat-gnome.glade.h:7 ../src/common/text.c:1160
+#: ../src/fe-gnome/channel-list-window.c:447 ../src/fe-gnome/userlist.c:312
+msgid "Users"
+msgstr "ব্যবহারকারী তালিকা"
+
+#: ../data/xchat-gnome.glade.h:9
+msgid "nickname"
+msgstr "উপনাম"
+
+#: ../plugins/autoaway/autoaway.c:216
+msgid "Auto Away"
+msgstr "স্বয়ংক্রিয়ভাবে অনুপস্থিতি"
+
+#: ../plugins/autoaway/autoaway.c:217
+msgid "Automatically go away / come back"
+msgstr "স্বয়ংক্রিয়ভাবে অনুপস্থিত / প্রত্যাবর্তন চিহ্ন করা হবে"
+
+#: ../plugins/net-monitor/net-monitor.c:39
+msgid "Network Monitor"
+msgstr "নেটওয়ার্ক নিরীক্ষণ ব্যবস্থা"
+
+#: ../plugins/net-monitor/net-monitor.c:40
+msgid "NetworkManager connection monitor"
+msgstr "NetworkManager সংযোগ নিরীক্ষণ ব্যবস্থা"
+
+#: ../plugins/net-monitor/net-monitor.c:352
+#, c-format
+msgid "%s loaded successfully\n"
+msgstr "সাফল্যের সাথে %s লোড করা হয়েছে\n"
+
+#: ../plugins/notification/notification.c:150
+#: ../plugins/notification/preferences-page-plugin-notification.c:127
+msgid "Notification"
+msgstr "বিজ্ঞপ্তি"
+
+#: ../plugins/notification/notification.c:151
+msgid "A notification area plugin."
+msgstr "বিজ্ঞপ্তিস্থলের ব্যবহারযোগ্য একটি প্লাগ-ইন"
+
+#: ../plugins/notification/notification.c:214
+msgid "Notification plugin loaded.\n"
+msgstr "বিজ্ঞপ্তির প্লাগ-ইন লোড করা হয়েছে।\n"
+
+#: ../plugins/notification/notification.c:235
+msgid "Notification plugin unloaded.\n"
+msgstr "বিজ্ঞপ্তির প্লাগ-ইন আন-লোড করা হয়েছে।\n"
+
+#: ../plugins/notification/notification.schemas.in.h:1
+msgid "Level of the messages that require a notification"
+msgstr "বিজ্ঞপ্তি প্রদর্শনের জন্য চিহ্নিত বার্তার মাত্রা"
+
+#: ../plugins/notification/notification.schemas.in.h:2
+msgid ""
+"Messages are classified according to their importance. Select level of "
+"messages above which the notification icon will be displayed. Valid values "
+"are: \"0\" (always displayed), \"1\" (all messages including information), "
+"\"2\" (all channel messages), \"3\" (only private or highlighted messages)."
+msgstr "গুরুত্বের মাত্রা অনুযায়ী বার্তাগুলি শ্রেণীভুক্ত করা হয়। বিজ্ঞপ্তির আইকন প্রদর্শনের উদ্দেশ্যে বার্তার গুরুত্বের মাত্রা চিহ্নিত করুন। এই মাত্রার বেশি পরিমাণ মাত্রায় বিজ্ঞপ্তি প্রদর্শিত হবে। বৈধ মানগুলি হল: \"0\" (সর্বদা প্রদর্শিত), \"1\" (তথ্য সহ সকল বার্তা), \"2\" (চ্যানেলের সকল বার্তা), \"3\" (শুধুমাত্র গোপনীয় অথবা উজ্জ্বল করা বার্তা)।"
+
+#: ../plugins/notification/preferences-notification.glade.h:1
+msgid "<span weight=\"bold\">Notification level</span>"
+msgstr "<span weight=\"bold\">বিজ্ঞপ্তির মাত্রা</span>"
+
+#: ../plugins/notification/preferences-notification.glade.h:2
+msgid "Notify each _event"
+msgstr "প্রতিটি ইভেন্টের বিজ্ঞপ্তি প্রকাশ করা হবে (_e)"
+
+#: ../plugins/notification/preferences-notification.glade.h:3
+msgid "Notify each _message"
+msgstr "প্রতিটি বার্তার বিজ্ঞপ্তি প্রকাশ করা হবে (_m)"
+
+#: ../plugins/notification/preferences-notification.glade.h:4
+msgid "Notify only _private messages"
+msgstr "শুধুমাত্র গোপনীয় বার্তার বিজ্ঞপ্তি প্রকাশ করা হবে (_p)"
+
+#: ../plugins/notification/preferences-notification.glade.h:5
+msgid "_Always display notification icon"
+msgstr "বিজ্ঞপ্তির আইকনটি সর্বদা প্রকাশ করা হবে (_A)"
+
+#: ../plugins/notify-osd/notify-osd.c:30
+msgid "On-screen display"
+msgstr "পর্দার প্রদর্শন"
+
+#: ../plugins/notify-osd/notify-osd.c:32
+msgid ""
+"Pops up notification of important messages when XChat-GNOME doesn't have the "
+"focus"
+msgstr "XChat-GNOME অ্যাপ্লিকেশনের উপর ফোকাস না করা হলে, গুরুত্বপূর্ণ বার্তাগুলি পপ-আপ করে প্রদর্শন করা হবে"
+
+#: ../plugins/notify-osd/notify-osd.c:57
+#, c-format
+msgid "Error closing notification: %s\n"
+msgstr "বিজ্ঞপ্তি বন্ধ করতে বন্ধ: %s\n"
+
+#: ../plugins/notify-osd/notify-osd.c:74
+#, c-format
+msgid "Failed to send notification: %s\n"
+msgstr "বিজ্ঞপ্তি পাঠাতে ব্যর্থ: %s\n"
+
+#: ../plugins/notify-osd/notify-osd.c:116
+#: ../plugins/notify-osd/notify-osd.c:142
+#, c-format
+msgid "Message in %s"
+msgstr "%s-এ বার্তা"
+
+#: ../plugins/notify-osd/notify-osd.c:118
+#: ../plugins/notify-osd/notify-osd.c:144
+#, c-format
+msgid "Message from %s"
+msgstr "%s থেকে প্রাপ্ত বার্তা"
+
+#: ../plugins/notify-osd/notify-osd.c:163
+#, c-format
+msgid "Private Message from %s"
+msgstr "%s থেকে প্রাপ্ত গোপনীয় বার্তা"
+
+#: ../plugins/notify-osd/notify-osd.c:210
+msgid "OSD loaded\n"
+msgstr "OSD লোড করা হয়েছে\n"
+
+#: ../plugins/notify-osd/notify-osd.c:214
+msgid "OSD initialization failed\n"
+msgstr "OSD আরম্ভ করতে ব্যর্থ\n"
+
+#: ../plugins/perl/perl.c:1372
+msgid "Perl"
+msgstr "Perl"
+
+#: ../plugins/perl/perl.c:1373
+msgid "Perl scripting interface"
+msgstr "Perl স্ক্রিপ্ট ব্যবহারের ইন্টারফেস"
+
+#: ../plugins/python/python.c:2090
+msgid "Python"
+msgstr "Python"
+
+#: ../plugins/python/python.c:2092
+msgid "Python scripting interface"
+msgstr "Python স্ক্রিপ্ট ব্যবহারের ইন্টারফেস"
+
+#: ../plugins/url_scraper/urlscraper.c:44
+msgid "xchat URL scraper"
+msgstr "xchat URL scraper"
+
+#: ../plugins/url_scraper/urlscraper.c:58 ../src/common/xchat.c:858
+msgid "Time"
+msgstr "সময়"
+
+#: ../plugins/url_scraper/urlscraper.c:63 ../src/common/text.c:946
+msgid "Nick"
+msgstr "উপনাম"
+
+#: ../plugins/url_scraper/urlscraper.c:67 ../src/common/text.c:913
+#: ../src/common/text.c:917 ../src/common/text.c:1348
+#: ../src/fe-gnome/irc-network-editor.c:318
+msgid "Channel"
+msgstr "চ্যানেল"
+
+#: ../plugins/url_scraper/urlscraper.c:72
+msgid "URL"
+msgstr "URL"
+
+#: ../plugins/url_scraper/urlscraper.c:154
+msgid "URL Scraper"
+msgstr "URL Scraper"
+
+#: ../plugins/url_scraper/urlscraper.c:155
+msgid "Grabs URLs and puts them in a separate window for easy viewing."
+msgstr "সহজে প্রদর্শনের উদ্দেশ্যে URL-গুলি সংগ্রহ করে একটি পৃথক উইন্ডোর মধ্যে স্থাপন করা হবে।"
+
+#: ../plugins/url_scraper/urlscraper.c:200
+msgid "URL Scraper failed to load: couldn't compile URL regex.\n"
+msgstr "URL Scraper লোড করতে ব্যর্থ: URL regex কম্পাইল করতে ব্যর্থ।\n"
+
+#: ../plugins/url_scraper/urlscraper.c:206
+msgid "URL Scraper failed to load: couldn't compile e-mail regex.\n"
+msgstr "URL Scraper লোড করতে ব্যর্থ: ই-মেইল regex কম্পাইল করতে ব্যর্থ।\n"
+
+#: ../plugins/url_scraper/urlscraper.c:221
+msgid "URL Scraper loaded.\n"
+msgstr "URL Scraper লোড করা হয়েছে।\n"
+
+#: ../plugins/url_scraper/urlscraper.c:233
+msgid "URL Scraper unloaded.\n"
+msgstr "URL Scraper আন-লোড করা হয়েছে।\n"
+
+#: ../plugins/url_scraper/urlscraper.schemas.in.h:1
+msgid "URL Scraper history length"
+msgstr "URL Scraper-র পূর্ববর্তী তথ্যের দৈর্ঘ্য"
+
+#: ../plugins/url_scraper/urlscraper.schemas.in.h:2
+msgid "URL Scraper show timestamps"
+msgstr "URL Scraper দ্বারা সময়ের চিহ্ন প্রদর্শন করা হবে"
+
+#: ../plugins/sound-notification/sound-notification.c:47
+msgid "New message received"
+msgstr "নতুন বার্তা প্রাপ্ত হয়েছে"
+
+#: ../plugins/sound-notification/sound-notification.c:56
+msgid "Sound Notification"
+msgstr "শব্দ সহযোগে বিজ্ঞপ্তি"
+
+#: ../plugins/sound-notification/sound-notification.c:57
+msgid "Play a sound when you receive a private message or your nick is highlighted."
+msgstr "ব্যক্তিগত বার্তা প্রাপ্ত হলে অথবা নিজের উপনাম উজ্জ্বলিত হলে একটি শব্দ বাজানো হবে।"
+
+#: ../plugins/sound-notification/sound-notification.c:89
+msgid "Sound-notification plugin loaded.\n"
+msgstr "শব্দ দ্বারা সূচনাপ্রদানের প্লাগ-ইন লোড করা হয়েছে।\n"
+
+#: ../plugins/sound-notification/sound-notification.c:97
+msgid "Sound-notification plugin unloaded.\n"
+msgstr "শব্দ দ্বারা সূচনাপ্রদানের প্লাগ-ইন আন-লোড করা হয়েছে।\n"
+
+#: ../plugins/tcl/tclplugin.c:2233
+msgid "tclplugin"
+msgstr "tclplugin"
+
+#: ../plugins/tcl/tclplugin.c:2234
+msgid "Tcl plugin for XChat"
+msgstr "XChat-র সাথে ব্যবহারযোগ্য Tcl প্লাগ-ইন"
+
+#: ../src/common/cfgfiles.c:354
+msgid "Cannot create ~/.xchat2"
+msgstr "~/.xchat2 ফোল্ডার নির্মাণ করতে ব্যর্থ"
+
+#: ../src/common/cfgfiles.c:712
+msgid "I'm busy"
+msgstr "এই মুহূর্তে আমি ব্যস্ত"
+
+#: ../src/common/cfgfiles.c:713
+msgid "Leaving"
+msgstr "প্রস্থান করা হচ্ছে"
+
+#: ../src/common/cfgfiles.c:760
+msgid ""
+"* Running IRC as root is stupid! You should\n"
+"  create a User Account and use that to login.\n"
+msgstr ""
+"* root পরিচয়ে IRC-র ব্যবহার অতিমাত্রায় মূর্খামি! লগ-ইন করার জন্য\n"
+"  একটি ব্যবহারকারী অ্যাকাউন্ট নির্মাণ করা উচিত।\n"
+
+#: ../src/common/dbus/dbus-client.c:73
+msgid "Couldn't connect to session bus"
+msgstr "সেশান বাসের সাথে সংযোগ স্থাপন করতে ব্যর্থ"
+
+#. Used for dbus-based single instance app
+#: ../src/common/dbus/dbus-client.c:88
+msgid "Detection of running instance failed"
+msgstr "চলমান ইনস্ট্যান্স সনাক্ত করতে ব্যর্থ"
+
+#. Used for dbus-based single instance app
+#: ../src/common/dbus/dbus-client.c:110
+msgid "Failed to send \"url\" command to running instance"
+msgstr "চলমান ইনস্ট্যান্সের উদ্দেশ্যে \"url\" কমান্ড প্রেরণ করতে ব্যর্থ"
+
+#: ../src/common/dcc.c:67
+msgid "Waiting"
+msgstr "অপেক্ষারত"
+
+#. black
+#: ../src/common/dcc.c:68
+msgid "Active"
+msgstr "সক্রিয়"
+
+#. cyan
+#: ../src/common/dcc.c:69
+msgid "Failed"
+msgstr "বিফল"
+
+#. red
+#: ../src/common/dcc.c:70
+msgid "Done"
+msgstr "সমাপ্ত"
+
+#. green
+#: ../src/common/dcc.c:71 ../src/fe-gnome/connect-dialog.c:182
+msgid "Connect"
+msgstr "সংযোগ"
+
+#. black
+#: ../src/common/dcc.c:72
+msgid "Aborted"
+msgstr "পরিত্যক্ত"
+
+#: ../src/common/dcc.c:1886 ../src/common/outbound.c:2452
+#, c-format
+msgid "Cannot access %s\n"
+msgstr "%s ব্যবহার করতে ব্যর্থ\n"
+
+#. ! if (osvi.dwMajorVersion >= 5)
+#. fallback to error number
+#: ../src/common/dcc.c:1887 ../src/common/text.c:1169
+#: ../src/common/text.c:1207 ../src/common/text.c:1218
+#: ../src/common/text.c:1225 ../src/common/text.c:1238
+#: ../src/common/text.c:1255 ../src/common/text.c:1355
+#: ../src/common/util.c:352
+msgid "Error"
+msgstr "ত্রুটি"
+
+#: ../src/common/dcc.c:2375
+#, c-format
+msgid "%s is offering \"%s\". Do you want to accept?"
+msgstr "%s দ্বারা \"%s\" পরিবেশন করা হয়েছে। আপনি কি এটি গ্রহণ করতে ইচ্ছুক?"
+
+#: ../src/common/dcc.c:2586
+msgid "No active DCCs\n"
+msgstr "সক্রিয় কোনো DCC নেই\n"
+
+#: ../src/common/ignore.c:120 ../src/common/ignore.c:124
+#: ../src/common/ignore.c:128 ../src/common/ignore.c:132
+#: ../src/common/ignore.c:136 ../src/common/ignore.c:140
+#: ../src/common/ignore.c:144
+msgid "YES  "
+msgstr "হ্যাঁ  "
+
+#: ../src/common/ignore.c:122 ../src/common/ignore.c:126
+#: ../src/common/ignore.c:130 ../src/common/ignore.c:134
+#: ../src/common/ignore.c:138 ../src/common/ignore.c:142
+#: ../src/common/ignore.c:146
+msgid "NO   "
+msgstr "না   "
+
+#: ../src/common/ignore.c:377
+#, c-format
+msgid "You are being CTCP flooded from %s, ignoring %s\n"
+msgstr "%s থেকে CTCP ফ্লাড প্রাপ্ত হচ্ছে, %s উপেক্ষা করা হচ্ছে\n"
+
+#: ../src/common/ignore.c:402
+#, c-format
+msgid "You are being MSG flooded from %s, setting gui_auto_open_dialog OFF.\n"
+msgstr "%s থেকে MSG ফ্লাড প্রাপ্ত হচ্ছে, gui_auto_open_dialog মান OFF ধার্য করা হচ্ছে।\n"
+
+#: ../src/common/notify.c:473
+#, c-format
+msgid "  %-20s online\n"
+msgstr "  %-20s অন-লাইন\n"
+
+#: ../src/common/notify.c:475
+#, c-format
+msgid "  %-20s offline\n"
+msgstr "  %-20s অফ-লাইন\n"
+
+#: ../src/common/outbound.c:72
+msgid "No channel joined. Try /join #<channel>\n"
+msgstr "কোনো চ্যানেলে যোগদান করা হয়নি। /join #<channel> কমান্ড প্রয়োগ করুন।\n"
+
+#: ../src/common/outbound.c:78
+msgid "Not connected. Try /server <host> [<port>]\n"
+msgstr "সংযুক্ত নয়। /server <host> [<port>] প্রয়োগ করুন\n"
+
+#: ../src/common/outbound.c:339
+#, c-format
+msgid "Already marked away: %s\n"
+msgstr "অনুপস্থিত হিসাবে পূর্বেই চিহ্নিত করা হয়েছে: %s\n"
+
+#: ../src/common/outbound.c:409
+msgid "Already marked back.\n"
+msgstr "পূর্বেই প্রত্যাবর্তনের চিহ্ন ধার্য করা হয়েছে।\n"
+
+#: ../src/common/outbound.c:1814
+msgid "I need /bin/sh to run!\n"
+msgstr "সঞ্চালনার জন্য /bin/sh উপস্থিত থাকা প্রয়োজন!\n"
+
+#: ../src/common/outbound.c:2185
+msgid "Commands Available:"
+msgstr "উপলব্ধ কমান্ড:"
+
+#: ../src/common/outbound.c:2199
+msgid "User defined commands:"
+msgstr "ব্যবহারকারী দ্বারা নির্ধারিত কমান্ড:"
+
+#: ../src/common/outbound.c:2215
+msgid "Plugin defined commands:"
+msgstr "প্লাগ-ইন দ্বারা নির্ধারিত কমান্ড:"
+
+#: ../src/common/outbound.c:2226
+msgid "Type /HELP <command> for more information, or /HELP -l"
+msgstr "অধিক বিবরণের জন্য /HELP <command> অথবা /HELP -l লিখুন"
+
+#: ../src/common/outbound.c:2301
+#, c-format
+msgid "Unknown arg '%s' ignored."
+msgstr "অজানা আর্গুমেন্ট '%s' উপেক্ষা করা হচ্ছে।"
+
+#: ../src/common/outbound.c:3235
+msgid "No such plugin found.\n"
+msgstr "এই ধরনের কোনো প্লাগ-ইন পাওয়া যায়নি।\n"
+
+#: ../src/common/outbound.c:3240
+msgid "That plugin is refusing to unload.\n"
+msgstr "চিহ্নিত প্লাগ-ইনটি আন-লোড করতে প্রতিরোধ করা হচ্ছে।\n"
+
+#: ../src/common/outbound.c:3509
+msgid "ADDBUTTON <name> <action>, adds a button under the user-list"
+msgstr "ADDBUTTON <name> <action>, ব্যবহারকারীর তালিকার নীচে একটি বাটন যোগ করা হয়"
+
+#: ../src/common/outbound.c:3511
+msgid "ALLCHAN <cmd>, sends a command to all channels you're in"
+msgstr "ALLCHAN <cmd>, আপনি যে সকল চ্যানেলে উপস্থিত সেইগুলির মধ্যে কমান্ড প্রেরিত হবে"
+
+#: ../src/common/outbound.c:3513
+msgid "ALLCHANL <cmd>, sends a command to all channels you're in"
+msgstr "ALLCHANL <cmd>, আপনি যে সকল চ্যানেলে উপস্থিত সেইগুলির মধ্যে কমান্ড প্রেরিত হবে"
+
+#: ../src/common/outbound.c:3515
+msgid "ALLSERV <cmd>, sends a command to all servers you're in"
+msgstr "ALLSERV <cmd>, আপনি যে সকল সার্ভার উপস্থিত সেইগুলির মধ্যে কমান্ড প্রেরিত হবে"
+
+#: ../src/common/outbound.c:3516
+msgid "AWAY [<reason>], sets you away"
+msgstr "AWAY [<reason>], অনুপস্থিত রূপে আপনার অবস্থা ধার্য করা হয়"
+
+#: ../src/common/outbound.c:3517
+msgid "BACK, sets you back (not away)"
+msgstr "BACK, আপনার প্রত্যাবর্তন ধার্য করা হয় (অর্থাৎ অনুপস্থিত নয়)"
+
+#: ../src/common/outbound.c:3519
+msgid ""
+"BAN <mask> [<bantype>], bans everyone matching the mask from the current "
+"channel. If they are already on the channel this doesn't kick them (needs "
+"chanop)"
+msgstr "BAN <mask> [<bantype>], চিহ্নিত মাস্ক অনুযায়ী বর্তমানে চ্যানেলে চিহ্নিত সকল ব্যবহারকারীকে ব্যান অর্থাৎ প্রতিরোধ করা হবে। ব্যবহারকারীরা চ্যানেলের মধ্যে উপস্থিত থাকলে তাদের kick (বিতাড়ন) করা হয় না (এই ক্ষেত্রে chanop প্রয়োজন)"
+
+#: ../src/common/outbound.c:3521
+msgid ""
+"Set per channel options\n"
+"CHANOPT CONFMODE ON|OFF - Toggle conf mode/showing of join and part "
+"messages\n"
+"CHANOPT COLORPASTE ON|OFF - Toggle color paste\n"
+"CHANOPT BEEP ON|OFF - Toggle beep on message\n"
+"CHANOPT TRAY ON|OFF - Toggle tray blink on message"
+msgstr ""
+"প্রতি চ্যানেলের জন্য বিকল্প ধার্য করুন\n"
+"CHANOPT CONFMODE ON|OFF - conf মোড/যোগ ও বিদায়ের বার্তা প্রদর্শন চালু-বন্ধ করুন\n"
+"CHANOPT COLORPASTE ON|OFF - রঙিণ পেস্ট চালু-বন্ধ করুন\n"
+"CHANOPT BEEP ON|OFF - বার্তা প্রাপ্তির সময় বিপ শব্দের ব্যবহার চালু-বন্ধ করুন\n"
+"CHANOPT TRAY ON|OFF - বার্তা প্রাপ্তির সময় ট্রে-র ঝলকানি চালু-বন্ধ করুন"
+
+#: ../src/common/outbound.c:3528
+msgid "CLEAR [ALL|HISTORY], Clears the current text window or command history"
+msgstr "CLEAR [ALL|HISTORY], বর্তমান টেক্সট উইন্ডো অথবা কমান্ডের পূর্ববর্তী তথ্য মুছে ফেলা হয়"
+
+#: ../src/common/outbound.c:3529
+msgid "CLOSE, Closes the current window/tab"
+msgstr "CLOSE, বর্তমান উইন্ডো/ট্যাব বন্ধ করা হয়"
+
+#: ../src/common/outbound.c:3532
+msgid "COUNTRY [-s] <code|wildcard>, finds a country code, eg: au = australia"
+msgstr "COUNTRY [-s] <code|wildcard>, একটি দেশের কোড অনুসন্ধান করা হয়, উদাহরণ: au = অস্ট্রেলিয়া"
+
+#: ../src/common/outbound.c:3534
+msgid ""
+"CTCP <nick> <message>, send the CTCP message to nick, common messages are "
+"VERSION and USERINFO"
+msgstr "CTCP <nick> <message>, CTCP বার্তাটি চিহ্নিত উপনামে উদ্দেশ্যে প্রেরিত হবে, সাধারণ বার্তাগুলি হল VERSION ও USERINFO"
+
+#: ../src/common/outbound.c:3536
+msgid "CYCLE [<channel>], parts the current or given channel and immediately rejoins"
+msgstr "CYCLE [<channel>], বর্তমান চ্যানেল থেকে প্রস্থান করে, বিনা বিলম্বে পুনরায় সেটির সাথে সংযোগ করা হয়"
+
+#: ../src/common/outbound.c:3538
+msgid ""
+"\n"
+"DCC GET <nick>                      - accept an offered file\n"
+"DCC SEND [-maxcps=#] <nick> [file]  - send a file to someone\n"
+"DCC PSEND [-maxcps=#] <nick> [file] - send a file using passive mode\n"
+"DCC LIST                            - show DCC list\n"
+"DCC CHAT <nick>                     - offer DCC CHAT to someone\n"
+"DCC PCHAT <nick>                    - offer DCC CHAT using passive mode\n"
+"DCC CLOSE <type> <nick> <file>         example:\n"
+"         /dcc close send johnsmith file.tar.gz"
+msgstr ""
+"\n"
+"DCC GET <nick>                      - উপস্থাপিত ফাইল গ্রহণ করুন\n"
+"DCC SEND [-maxcps=#] <nick> [file]  - অন্য কোনো ব্যবহারকারীকে ফাইল প্রেরণ করুন\n"
+"DCC PSEND [-maxcps=#] <nick> [file] - পরোক্ষ মোডে ফাইল প্রেরণ করুন\n"
+"DCC LIST                            - DCC তালিকা প্রদর্শন করা হবে\n"
+"DCC CHAT <nick>                     - কোনো ব্যবহারকারীর জন্য DCC CHAT উপলব্ধ করা হবে\n"
+"DCC PCHAT <nick>                    - পরোক্ষ মোডে কোনো ব্যবহারকারীর জন্য DCC CHAT উপলব্ধ করা হবে\n"
+"DCC CLOSE <type> <nick> <file>         উদাহরণ:\n"
+"         /dcc close send johnsmith file.tar.gz"
+
+#: ../src/common/outbound.c:3550
+msgid ""
+"DEHOP <nick>, removes chanhalf-op status from the nick on the current "
+"channel (needs chanop)"
+msgstr "DEHOP <nick>, বর্তমানে চ্যানেলের মধ্যে চিহ্নিত ব্যবহারকারীর জন্য chanhalf-op অধিকার প্রত্যাহার করা হয় (এই ক্ষেত্রে chanop প্রয়োজন)"
+
+#: ../src/common/outbound.c:3552
+msgid "DELBUTTON <name>, deletes a button from under the user-list"
+msgstr "DELBUTTON <name>, ব্যবহারকারীর তালিকার নীচে উপস্থিত বাটন মুছে ফেলা হয়"
+
+#: ../src/common/outbound.c:3554
+msgid ""
+"DEOP <nick>, removes chanop status from the nick on the current channel "
+"(needs chanop)"
+msgstr "DEOP <nick>, বর্তমানে চ্যানেলের মধ্যে চিহ্নিত ব্যবহারকারীর জন্য chanop অধিকার প্রত্যাহার করা হয় (এই ক্ষেত্রে chanop প্রয়োজন)"
+
+#: ../src/common/outbound.c:3556
+msgid ""
+"DEVOICE <nick>, removes voice status from the nick on the current channel "
+"(needs chanop)"
+msgstr "DEVOICE <nick>, বর্তমানে চ্যানেলের মধ্যে চিহ্নিত ব্যবহারকারীর জন্য voice অধিকার প্রত্যাহার করা হয় (এই ক্ষেত্রে chanop প্রয়োজন)"
+
+#: ../src/common/outbound.c:3557
+msgid "DISCON, Disconnects from server"
+msgstr "DISCON, সার্ভার থেকে সংযোগ বিচ্ছিন্ন করা হয়"
+
+#: ../src/common/outbound.c:3558
+msgid "DNS <nick|host|ip>, Finds a users IP number"
+msgstr "DNS <nick|host|ip>, ব্যবহারকারীর IP সংখ্যা সন্ধান করা হয়"
+
+#: ../src/common/outbound.c:3559
+msgid "ECHO <text>, Prints text locally"
+msgstr "ECHO <text>, স্থানীয় অবস্থানে টেক্সট প্রদর্শন করা হয়"
+
+#: ../src/common/outbound.c:3562
+msgid ""
+"EXEC [-o] <command>, runs the command. If -o flag is used then output is "
+"sent to current channel, else is printed to current text box"
+msgstr "EXEC [-o] <command>, কমান্ড সঞ্চালন করা হয়। -o ফ্ল্যাগ ব্যবহার করা হলে বর্তমান চ্যানেলের মধ্যে আউটপুট প্রদর্শন করা হয়, অন্যথা বর্তমান টেক্সট বক্সের মধ্যে তা লেখা হয়।"
+
+#: ../src/common/outbound.c:3564
+msgid "EXECCONT, sends the process SIGCONT"
+msgstr "EXECCONT, প্রসেসকে SIGCONT সংকেত পাঠানো হয়"
+
+#: ../src/common/outbound.c:3567
+msgid ""
+"EXECKILL [-9], kills a running exec in the current session. If -9 is given "
+"the process is SIGKILL'ed"
+msgstr "EXECKILL [-9], বর্তমান সেশানের মধ্যে চলমান exec kill করা হয়। -9 ফ্ল্যাগ প্রয়োগ করা হলে প্রসেসটি SIGKILL করা হয়"
+
+#: ../src/common/outbound.c:3569
+msgid "EXECSTOP, sends the process SIGSTOP"
+msgstr "EXECSTOP, প্রসেসকে SIGSTOP সংকেত পাঠানো হয়"
+
+#: ../src/common/outbound.c:3570
+msgid "EXECWRITE, sends data to the processes stdin"
+msgstr "EXECWRITE, প্রসেসের stdin-এ তথ্য প্রেরিত হয়"
+
+#: ../src/common/outbound.c:3574
+msgid "FLUSHQ, flushes the current server's send queue"
+msgstr "FLUSHQ, বর্তমান সার্ভারের প্রেরণের সারি ফ্লাশ করা হয়"
+
+#: ../src/common/outbound.c:3576
+msgid "GATE <host> [<port>], proxies through a host, port defaults to 23"
+msgstr "GATE <host> [<port>], হোস্টের মাধ্যমে প্রক্সি করা হয়, ডিফল্ট পোর্ট রূপে ২৩ (23) ব্যবহার করা হয়"
+
+#: ../src/common/outbound.c:3580
+msgid "GHOST <nick> <password>, Kills a ghosted nickname"
+msgstr "GHOST <nick> <password>, ঘোস্ট রূপে চিহ্নিত উপনাম kill করা হয়"
+
+#: ../src/common/outbound.c:3585
+msgid "HOP <nick>, gives chanhalf-op status to the nick (needs chanop)"
+msgstr "HOP <nick>, চিহ্নিত উপনামের জন্য chanhalf-op অবস্থা ধার্য করা হয় (এইক্ষেত্রে chanop অধিকার প্রয়োজন)"
+
+#: ../src/common/outbound.c:3586
+msgid "ID <password>, identifies yourself to nickserv"
+msgstr "ID <password>, nickserv-এ আপনার পরিচয় অনুমোদিত হয়"
+
+#: ../src/common/outbound.c:3588
+msgid ""
+"IGNORE <mask> <types..> <options..>\n"
+"    mask - host mask to ignore, eg: *!*@*.aol.com\n"
+"    types - types of data to ignore, one or all of:\n"
+"            PRIV, CHAN, NOTI, CTCP, DCC, INVI, ALL\n"
+"    options - NOSAVE, QUIET"
+msgstr ""
+"IGNORE <mask> <types..> <options..>\n"
+"    mask - উপেক্ষা করার জন্য চিহ্নিত হোস্ট মাস্ক, উদাহরণ: *!*@*.aol.com\n"
+"    types - উপেক্ষা করার জন্য চিহ্নিত তথ্য, এর মধ্যে একটি অথবা সকল:\n"
+"            PRIV, CHAN, NOTI, CTCP, DCC, INVI, ALL\n"
+"    options - NOSAVE, QUIET"
+
+#: ../src/common/outbound.c:3595
+msgid ""
+"INVITE <nick> [<channel>], invites someone to a channel, by default the "
+"current channel (needs chanop)"
+msgstr "INVITE <nick> [<channel>], বর্তমান চ্যানেলের মধ্যে কোনো ব্যবহারকারীকে আমন্ত্রণ করা হয়, ডিফল্টরূপে বর্তমান চ্যানেলের মধ্যে (এই ক্ষেত্রে chanop অধিকার প্রয়োজন)"
+
+#: ../src/common/outbound.c:3596
+msgid "JOIN <channel>, joins the channel"
+msgstr "JOIN <channel>, চ্যানেলের মধ্যে যোগদান করা হয়"
+
+#: ../src/common/outbound.c:3598
+msgid "KICK <nick>, kicks the nick from the current channel (needs chanop)"
+msgstr "KICK <nick>,  বর্তমান চ্যানেল থেকে চিহ্নিত উপনামধারী ব্যবহারকারীকে kick অর্থাৎ বিতাড়িত করা হয় (এই ক্ষেত্রে chanop অধিকার প্রয়োজন)"
+
+#: ../src/common/outbound.c:3600
+msgid ""
+"KICKBAN <nick>, bans then kicks the nick from the current channel (needs "
+"chanop)"
+msgstr "KICKBAN <nick>,  বর্তমান চ্যানেল চিহ্নিত উপনামধারী ব্যবহারকারীকে প্রতিরোধ করে বিতাড়ন করা হয় (এই ক্ষেত্রে chanop অধিকার প্রয়োজন)"
+
+#: ../src/common/outbound.c:3603
+msgid "LAGCHECK, forces a new lag check"
+msgstr "LAGCHECK, বাধ্যতামূলকভাবে একটি নতুন ল্যাগ পরীক্ষা করা হয়"
+
+#: ../src/common/outbound.c:3605
+msgid "LASTLOG <string>, searches for a string in the buffer"
+msgstr "LASTLOG <string>, বাফারের মধ্যে একটি পংক্তি অনুসন্ধান করা হয়"
+
+#: ../src/common/outbound.c:3607
+msgid "LOAD [-e] <file>, loads a plugin or script"
+msgstr "LOAD [-e] <file>, একটি প্লাগ-ইন অথবা স্ক্রিপ্ট লোড করতে ব্যবহৃত"
+
+#: ../src/common/outbound.c:3610
+msgid "MDEHOP, Mass deop's all chanhalf-ops in the current channel (needs chanop)"
+msgstr "MDEHOP, বর্তমান চ্যানেলের মধ্যে উপস্থিত সকল chanhalf-ops-কে একযোগে deop করুন (এই ক্ষেত্রে chanop অধিকার প্রয়োজন)"
+
+#: ../src/common/outbound.c:3612
+msgid "MDEOP, Mass deop's all chanops in the current channel (needs chanop)"
+msgstr "MDEOP, বর্তমান চ্যানেলের মধ্যে উপস্থিত সকল chanops-কে একযোগে deop করুন (এই ক্ষেত্রে chanop অধিকার প্রয়োজন)"
+
+#: ../src/common/outbound.c:3614
+msgid ""
+"ME <action>, sends the action to the current channel (actions are written in "
+"the 3rd person, like /me jumps)"
+msgstr "ME <action>, চিহ্নিত কর্ম, বর্তমান চ্যানেলের মধ্যে প্রেরিত হবে (প্রথম পুরুষের ভাষ্য প্রয়োগ করে এটি লেখা হবে, যেমন /me jumps)"
+
+#: ../src/common/outbound.c:3618
+msgid "MKICK, Mass kicks everyone except you in the current channel (needs chanop)"
+msgstr "MKICK, বর্তমান চ্যানেল থেকে নিজে ব্যতীত অন্য সকল ব্যবহারকারীকে একযোগে kick অর্থাৎ বিতাড়িত করা হবে (এই ক্ষেত্রে chanop অধিকার প্রয়োজন)"
+
+#: ../src/common/outbound.c:3621
+msgid "MOP, Mass op's all users in the current channel (needs chanop)"
+msgstr "MOP, বর্তমান চ্যানেলের সকল ব্যবহারকারীকে একযোগে op অধিকার প্রদান করা হবে (এই ক্ষেত্রে chanop অধিকার প্রয়োজন)"
+
+#: ../src/common/outbound.c:3622
+msgid "MSG <nick> <message>, sends a private message"
+msgstr "MSG <nick> <message>, সহযোগে গোপনীয় বার্তা পাঠানো হয়"
+
+#: ../src/common/outbound.c:3625
+msgid "NAMES, Lists the nicks on the current channel"
+msgstr "NAMES, বর্তমান চ্যানেলে উপস্থিত সদস্যদের উপনামের তালিকা প্রদর্শন করা হয়"
+
+#: ../src/common/outbound.c:3627
+msgid "NCTCP <nick> <message>, Sends a CTCP notice"
+msgstr "NCTCP <nick> <message>, একটি CTCP বিজ্ঞপ্তি প্রেরিত হয়"
+
+#: ../src/common/outbound.c:3628
+msgid "NEWSERVER [-noconnect] <hostname> [<port>]"
+msgstr "NEWSERVER [-noconnect] <hostname> [<port>]"
+
+#: ../src/common/outbound.c:3629
+msgid "NICK <nickname>, sets your nick"
+msgstr "NICK <nickname>, ব্যবহারকারীর উপনাম নির্ধারণ করা হয়"
+
+#: ../src/common/outbound.c:3632
+msgid ""
+"NOTICE <nick/channel> <message>, sends a notice. Notices are a type of "
+"message that should be auto reacted to"
+msgstr "NOTICE <nick/channel> <message>, একটি বিজ্ঞপ্তি প্রেরিত হয়। বিজ্ঞপ্তিমূলক বার্তাগুলির ক্ষেত্রে স্বয়ংক্রিয়ভাবে প্রতিক্রিয়া উৎপন্ন হওয়া উচিত"
+
+#: ../src/common/outbound.c:3634
+msgid ""
+"NOTIFY [-n network1[,network2,...]] [<nick>], displays your notify list or "
+"adds someone to it"
+msgstr "NOTIFY [-n network1[,network2,...]] [<nick>], বিজ্ঞপ্তি তালিকা প্রদর্শন করা হয় অথবা কোনো ব্যবহারকারীকে এর মধ্যে যোগ করা হয়"
+
+#: ../src/common/outbound.c:3636
+msgid "OP <nick>, gives chanop status to the nick (needs chanop)"
+msgstr "OP <nick>, চিহ্নিত উপনামের জন্য chanop ধার্য করা হয় (এই ক্ষেত্রে chanop অধিকার প্রয়োজন)"
+
+#: ../src/common/outbound.c:3638
+msgid "PART [<channel>] [<reason>], leaves the channel, by default the current one"
+msgstr "PART [<channel>] [<reason>], চ্যানেল থেকে প্রস্থান করা হয়, ডিফল্টরূপে বর্তমান চ্যানেল থেকে"
+
+#: ../src/common/outbound.c:3640
+msgid "PING <nick | channel>, CTCP pings nick or channel"
+msgstr "PING <nick | channel>, চিহ্নিত উপনাম অথবা চ্যানেল CTCP ping করা হয়"
+
+#: ../src/common/outbound.c:3642
+msgid "QUERY [-nofocus] <nick>, opens up a new privmsg window to someone"
+msgstr "QUERY [-nofocus] <nick>, চিহ্নিত উপনাম ধারণকরী ব্যক্তির জন্য একটি নতুন privmsg উইন্ডো খোলা হয়"
+
+#: ../src/common/outbound.c:3644
+msgid "QUIT [<reason>], disconnects from the current server"
+msgstr "QUIT [<reason>], বর্তমান সার্ভার থেকে সংযোগ বিচ্ছিন্ন করা হয়"
+
+#: ../src/common/outbound.c:3646
+msgid "QUOTE <text>, sends the text in raw form to the server"
+msgstr "QUOTE <text>, raw বিন্যাসে সার্ভারের মধ্যে টেক্সট প্রেরিত হয়"
+
+#: ../src/common/outbound.c:3649
+msgid ""
+"RECONNECT [-ssl] [<host>] [<port>] [<password>], Can be called just as /"
+"RECONNECT to reconnect to the current server or with /RECONNECT ALL to "
+"reconnect to all the open servers"
+msgstr "RECONNECT [-ssl] [<host>] [<port>] [<password>], /RECONNECT সহযোগে শুধুমাত্র বর্তমান সার্ভারের সাথে সংযোগ পুনরায় স্থাপন করা হয় অথবা /RECONNECT ALL সহযোগে সকল সার্ভারের সাথে পুনরায় সংযোগ করা হবে"
+
+#: ../src/common/outbound.c:3652
+msgid ""
+"RECONNECT [<host>] [<port>] [<password>], Can be called just as /RECONNECT "
+"to reconnect to the current server or with /RECONNECT ALL to reconnect to "
+"all the open servers"
+msgstr "RECONNECT [<host>] [<port>] [<password>], /RECONNECT সহযোগে শুধুমাত্র বর্তমান সার্ভারের সাথে সংযোগ পুনরায় স্থাপন করা হয় অথবা /RECONNECT ALL সহযোগে সকল সার্ভারের সাথে পুনরায় সংযোগ করা হবে"
+
+#: ../src/common/outbound.c:3654
+msgid ""
+"RECV <text>, send raw data to xchat, as if it was received from the irc "
+"server"
+msgstr "RECV <text>, irc সার্ভার থেকে প্রাপ্ত বার্তার অনুরূপ xchat-র মধ্যে raw তথ্য প্রেরিত হবে"
+
+#: ../src/common/outbound.c:3657
+msgid "SAY <text>, sends the text to the object in the current window"
+msgstr "SAY <text>, বর্তমান উইন্ডোর মধ্যে প্রদর্শিত বস্তুর উদ্দেশ্যে টেক্সট প্রেরিত হবে"
+
+#: ../src/common/outbound.c:3658
+msgid "SEND <nick> [<file>]"
+msgstr "SEND <nick> [<file>]"
+
+#: ../src/common/outbound.c:3661
+msgid "SERVCHAN [-ssl] <host> <port> <channel>, connects and joins a channel"
+msgstr "SERVCHAN [-ssl] <host> <port> <channel>, সংযোগ করে একটি চ্যানেলে যোগদান করা হয়"
+
+#: ../src/common/outbound.c:3664
+msgid "SERVCHAN <host> <port> <channel>, connects and joins a channel"
+msgstr "SERVCHAN <host> <port> <channel>, সংযোগ করে একটি চ্যানেলে যোগ দেওয়া হয়"
+
+#: ../src/common/outbound.c:3668
+msgid ""
+"SERVER [-ssl] <host> [<port>] [<password>], connects to a server, the "
+"default port is 6667 for normal connections, and 9999 for ssl connections"
+msgstr "SERVER [-ssl] <host> [<port>] [<password>], একটি সার্ভারের সাথে সংযোগ স্থাপন করা হয়। সাধারণ সংযোগের জন্য ডিফল্টরূপে পোর্ট সংখ্যা ৬৬৬৭ ও ssl সংযোগের জন্য ডিফল্টরূপে পোর্ট সংখ্যা ৯৯৯৯ ব্যবহার করা হয়"
+
+#: ../src/common/outbound.c:3671
+msgid ""
+"SERVER <host> [<port>] [<password>], connects to a server, the default port "
+"is 6667"
+msgstr "SERVER <host> [<port>] [<password>], একটি সার্ভারের সাথে সংযোগ স্থাপন করা হয়, ডিফল্ট পোর্ট হল ৬৬৬৭"
+
+#: ../src/common/outbound.c:3673
+msgid "SET [-e] [-or] [-quiet] <variable> [<value>]"
+msgstr "SET [-e] [-or] [-quiet] <variable> [<value>]"
+
+#: ../src/common/outbound.c:3674
+msgid "SETCURSOR [-|+]<position>"
+msgstr "SETCURSOR [-|+]<position>"
+
+#: ../src/common/outbound.c:3679
+msgid "TOPIC [<topic>], sets the topic if one is given, else shows the current topic"
+msgstr "TOPIC [<topic>], নতুন প্রসঙ্গ উল্লিখিত হলে তা নির্ধারিত হবে অন্যথা বর্তমানে নির্ধারিত প্রসঙ্গ প্রদর্শিত হবে"
+
+#: ../src/common/outbound.c:3681
+msgid ""
+"\n"
+"TRAY -f <timeout> <file1> [<file2>] Blink tray between two icons.\n"
+"TRAY -f <filename>                  Set tray to a fixed icon.\n"
+"TRAY -i <number>                    Blink tray with an internal icon.\n"
+"TRAY -t <text>                      Set the tray tooltip.\n"
+"TRAY -b <title> <text>              Set the tray balloon."
+msgstr ""
+"\n"
+"TRAY -f <timeout> <file1> [<file2>] দুটি আইকনের মধ্যে ট্রেতে ঝলকানো হবে।\n"
+"TRAY -f <filename>                  ট্রের জন্য সুনির্দিষ্ট আইকন নির্ধারিত হবে\n"
+"TRAY -i <number>                    অভ্যন্তরীণ আইকন সহ ট্রের মধ্যে ঝলকানো হবে।\n"
+"TRAY -t <text>                      ট্রের টুল-টিপ নির্ধারণ করুন\n"
+"TRAY -b <title> <text>              ট্রের বেলুন নির্ধারণ করুন।"
+
+#: ../src/common/outbound.c:3688
+msgid "UNBAN <mask> [<mask>...], unbans the specified masks."
+msgstr "UNBAN <mask> [<mask>...], নির্ধারিত মাস্ক অনুযায়ী প্রতিরোধ বাতিল করা হবে"
+
+#: ../src/common/outbound.c:3689
+msgid "UNIGNORE <mask> [QUIET]"
+msgstr "UNIGNORE <mask> [QUIET]"
+
+#: ../src/common/outbound.c:3690
+msgid "UNLOAD <name>, unloads a plugin or script"
+msgstr "UNLOAD <name>, প্লাগ-ইন অথবা স্ক্রিপ্ট আন-লোড করা হয়"
+
+#: ../src/common/outbound.c:3691
+msgid "URL <url>, opens a URL in your browser"
+msgstr "URL <url>, ব্রাউজারের মধ্যে একটি URL প্রদর্শন করা হয়"
+
+#: ../src/common/outbound.c:3693
+msgid "USELECT [-a] [-s] <nick1> <nick2> etc, highlights nick(s) in channel userlist"
+msgstr "USELECT [-a] [-s] <nick1> <nick2> etc, চ্যানেলের মধ্যে উপস্থিত ব্যবহারকারীর তালিকার মধ্যে চিহ্নিত উপনাম উজ্জ্বল করা হয়"
+
+#: ../src/common/outbound.c:3696
+msgid "VOICE <nick>, gives voice status to someone (needs chanop)"
+msgstr "VOICE <nick>, চিহ্নিত ব্যবহারকারীর জন্য voice ধার্য করা হয় (এই ক্ষেত্রে chanop অধিকার প্রয়োজন)"
+
+#: ../src/common/outbound.c:3698
+msgid "WALLCHAN <message>, writes the message to all channels"
+msgstr "WALLCHAN <message>, সকল চ্যানেলের মধ্যে বার্তা লেখা হয়"
+
+#: ../src/common/outbound.c:3700
+msgid "WALLCHOP <message>, sends the message to all chanops on the current channel"
+msgstr "WALLCHOP <message>, বর্তমান চ্যানেলের মধ্যে উপলব্ধ সকল chanops-দের কে বার্তা প্রেরণ করা হয়"
+
+#: ../src/common/outbound.c:3733
+#, c-format
+msgid "Usage: %s\n"
+msgstr "ব্যবহারপদ্ধতি: %s\n"
+
+#: ../src/common/outbound.c:3738
+msgid ""
+"\n"
+"No help available on that command.\n"
+msgstr ""
+"\n"
+"এই কমান্ড সম্পর্কে কোনো সাহায্য বর্তমানে উপলব্ধ নেই।\n"
+
+#: ../src/common/outbound.c:3744
+msgid "No such command.\n"
+msgstr "এই ধরনের কোনো কমান্ড উপস্থিত নেই।\n"
+
+#: ../src/common/outbound.c:4074
+msgid "Bad arguments for user command.\n"
+msgstr "ব্যবহারকারী কমান্ডের জন্য উল্লিখিত আর্গুমেন্ট সঠিক নয়।\n"
+
+#: ../src/common/outbound.c:4230
+msgid "Too many recursive usercommands, aborting."
+msgstr "অত্যাধিক রিকার্সিভ ব্যবহারকারী কমান্ড উল্লিখিত হয়েছে, কর্ম পরিত্যাগ করা হচ্ছে।"
+
+#: ../src/common/outbound.c:4307
+msgid "Unknown Command. Try /help\n"
+msgstr "অজানা কমান্ড। /help প্রয়োগ করুন।\n"
+
+#: ../src/common/plugin.c:359 ../src/common/plugin.c:400
+msgid "No xchat_plugin_init symbol; is this really an xchat plugin?"
+msgstr "xchat_plugin_init-র কোনো সংকেত উপস্থিত নেই; এটি কি xchat প্লাগ-ইন?"
+
+#: ../src/common/server.c:634
+msgid "Are you sure this is a SSL capable server and port?\n"
+msgstr "এই সার্ভার ও পোর্টের ক্ষেত্রে SSL ক্ষমতা উপলব্ধ রয়েছে কি না তা নিশ্চিতরূপে জানা আছে কি?\n"
+
+#: ../src/common/server.c:1024
+#, c-format
+msgid ""
+"Cannot resolve hostname %s\n"
+"Check your IP Settings!\n"
+msgstr ""
+"%s হোস্ট-নেম মীমাংসা করতে ব্যর্থ\n"
+"অনুগ্রহ করে IP সংক্রান্ত বৈশিষ্ট্য পরীক্ষা করুন!\n"
+
+#: ../src/common/server.c:1029
+msgid "Proxy traversal failed.\n"
+msgstr "প্রক্সি পারাপার করতে বিফল।\n"
+
+#: ../src/common/servlist.c:643
+#, c-format
+msgid "Cycling to next server in %s...\n"
+msgstr "%s-র মধ্যে উপস্থিত পরবর্তী সার্ভারে সাইকেল করা হচ্ছে...\n"
+
+#: ../src/common/servlist.c:1074
+#, c-format
+msgid ""
+"Warning: \"%s\" character set is unknown. No conversion will be applied for "
+"network %s."
+msgstr "সতর্কবার্তা: \"%s\" ক্যারেক্টার সের অজানা। %s নেটওয়ার্কের জন্য কোনো তথ্য রূপান্তর করা হবে না।"
+
+#. get rid of the \n
+#: ../src/common/text.c:292
+msgid "Loaded log from"
+msgstr "লগ লোড করার স্থান"
+
+#: ../src/common/text.c:310
+#, c-format
+msgid "**** ENDING LOGGING AT %s\n"
+msgstr "**** %s-এ লগ সমাপ্ত\n"
+
+#: ../src/common/text.c:519
+#, c-format
+msgid "**** BEGIN LOGGING AT %s\n"
+msgstr "**** %s-এ লগ আরম্ভ\n"
+
+#: ../src/common/text.c:538
+#, c-format
+msgid ""
+"* Can't open log file(s) for writing. Check the\n"
+"  permissions on %s/xchatlogs"
+msgstr ""
+"* লেখার জন্য লগ ফাইল খোলা যায়নি। অনুগ্রহ করে\n"
+"  %s/xchatlogs-র অধিকার পরীক্ষা করুন"
+
+#: ../src/common/text.c:876
+msgid "Left message"
+msgstr "বাঁদিকের বার্তা"
+
+#: ../src/common/text.c:877
+msgid "Right message"
+msgstr "ডানদিকের বার্তা"
+
+#: ../src/common/text.c:881
+msgid "The nick of the joining person"
+msgstr "সংযোগকারী ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:882
+msgid "The channel being joined"
+msgstr "যে চ্যানেলের সাথে সংযোগ করা হচ্ছে"
+
+#: ../src/common/text.c:883 ../src/common/text.c:930 ../src/common/text.c:981
+msgid "The host of the person"
+msgstr "ব্যবহারকারী দ্বারা ব্যবহৃত হোস্ট"
+
+#: ../src/common/text.c:888
+msgid "The action"
+msgstr "কর্ম"
+
+#: ../src/common/text.c:889 ../src/common/text.c:895
+msgid "Mode char"
+msgstr "মোড চ্যার"
+
+#: ../src/common/text.c:894
+msgid "The text"
+msgstr "লেখা"
+
+#: ../src/common/text.c:896 ../src/common/text.c:902
+msgid "Identified text"
+msgstr "সনাক্ত করা লেখা"
+
+#: ../src/common/text.c:901 ../src/common/text.c:958 ../src/common/text.c:964
+msgid "The message"
+msgstr "বার্তা"
+
+#: ../src/common/text.c:906 ../src/common/text.c:968
+msgid "Old nickname"
+msgstr "পুরোনো উপনাম"
+
+#: ../src/common/text.c:907 ../src/common/text.c:969
+msgid "New nickname"
+msgstr "নতুন উপনাম"
+
+#: ../src/common/text.c:911
+msgid "Nick of person who changed the topic"
+msgstr "প্রসঙ্গ পরিবর্তনকারী ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:912 ../src/common/text.c:918
+#: ../src/fe-gnome/channel-list-window.c:452
+msgid "Topic"
+msgstr "প্রসঙ্গ"
+
+#: ../src/common/text.c:922 ../src/common/text.c:975
+msgid "The nickname of the kicker"
+msgstr "বিতাড়ণকারী ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:923 ../src/common/text.c:973
+msgid "The person being kicked"
+msgstr "বিতাড়িত ব্যবহারকারী"
+
+#: ../src/common/text.c:924 ../src/common/text.c:931 ../src/common/text.c:935
+#: ../src/common/text.c:940 ../src/common/text.c:974 ../src/common/text.c:982
+#: ../src/common/text.c:989
+msgid "The channel"
+msgstr "চ্যানেল"
+
+#: ../src/common/text.c:925 ../src/common/text.c:976 ../src/common/text.c:983
+msgid "The reason"
+msgstr "কারণ"
+
+#: ../src/common/text.c:929 ../src/common/text.c:980
+msgid "The nick of the person leaving"
+msgstr "প্রস্থানকারী ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:936 ../src/common/text.c:942
+msgid "The time"
+msgstr "সময়"
+
+#: ../src/common/text.c:941
+msgid "The creator"
+msgstr "নির্মাতা"
+
+#: ../src/common/text.c:947 ../src/common/text.c:1200
+msgid "Reason"
+msgstr "কারণ"
+
+#: ../src/common/text.c:948 ../src/common/text.c:1090
+#: ../src/common/text.c:1173
+msgid "Host"
+msgstr "হোস্ট"
+
+#: ../src/common/text.c:952 ../src/common/text.c:957 ../src/common/text.c:962
+msgid "Who it's from"
+msgstr "প্রেরকের নাম"
+
+#: ../src/common/text.c:953
+msgid "The time in x.x format (see below)"
+msgstr "x.x বিন্যাসে চিহ্নিত সময় (নীচে দেখুন)"
+
+#: ../src/common/text.c:963 ../src/common/text.c:1000
+msgid "The Channel it's going to"
+msgstr "উদ্দিষ্ট চ্যানেল"
+
+#: ../src/common/text.c:987
+msgid "The sound"
+msgstr "শব্দ"
+
+#: ../src/common/text.c:988 ../src/common/text.c:994 ../src/common/text.c:999
+msgid "The nick of the person"
+msgstr "ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:993 ../src/common/text.c:998
+msgid "The CTCP event"
+msgstr "CTCP ইভেন্ট"
+
+#: ../src/common/text.c:1004
+msgid "The nick of the person who set the key"
+msgstr "কি নির্ধারণকারী ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:1005
+msgid "The key"
+msgstr "কি"
+
+#: ../src/common/text.c:1009
+msgid "The nick of the person who set the limit"
+msgstr "সীমা নির্ধারণকারী ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:1010
+msgid "The limit"
+msgstr "সীমা"
+
+#: ../src/common/text.c:1014
+msgid "The nick of the person who has been op'ed"
+msgstr "op রূপে ধার্য ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:1015
+msgid "The nick of the person who did the op'ing"
+msgstr "op রূপে ধার্যকারী ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:1019
+msgid "The nick of the person who has been halfop'ed"
+msgstr "halfop রূপে ধার্য ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:1020
+msgid "The nick of the person who did the halfop'ing"
+msgstr "halfop রূপে ধার্যকারী ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:1024
+msgid "The nick of the person who did the voice'ing"
+msgstr "voice ধার্যকারী ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:1025
+msgid "The nick of the person who has been voice'ed"
+msgstr "voice ধার্য ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:1029
+msgid "The nick of the person who did the banning"
+msgstr "প্রতিরোধকারী ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:1030 ../src/common/text.c:1057
+msgid "The ban mask"
+msgstr "প্রতিরোধ করতে ব্যবহৃত মাস্ক"
+
+#: ../src/common/text.c:1034
+msgid "The nick who removed the key"
+msgstr "কি অপসারণকারী ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:1038
+msgid "The nick who removed the limit"
+msgstr "সীমা বাতিলকারী ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:1042
+msgid "The nick of the person who did the deop'ing"
+msgstr "deop নির্ধারণকারী ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:1043
+msgid "The nick of the person who has been deop'ed"
+msgstr "deop রূপে ধার্য ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:1046
+msgid "The nick of the person who did the dehalfop'ing"
+msgstr "dehalfop নির্ধারণকারী ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:1047
+msgid "The nick of the person who has been dehalfop'ed"
+msgstr "dehalfop রূপে ধার্য ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:1051
+msgid "The nick of the person who did the devoice'ing"
+msgstr "devoice নির্ধারণকারী ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:1052
+msgid "The nick of the person who has been devoice'ed"
+msgstr "devoice রূপে ধার্য ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:1056
+msgid "The nick of the person who did the unban'ing"
+msgstr "প্রতিরোধ বাতিলকারী ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:1061
+msgid "The nick of the person who did the exempt"
+msgstr "ব্যাতীক্রম নির্ধারণকারী ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:1062 ../src/common/text.c:1067
+msgid "The exempt mask"
+msgstr "ব্যতীক্রমের মাস্ক"
+
+#: ../src/common/text.c:1066
+msgid "The nick of the person who removed the exempt"
+msgstr "ব্যতীক্রমের অপসারণকারীর উপনাম"
+
+#: ../src/common/text.c:1071
+msgid "The nick of the person who did the invite"
+msgstr "আমন্ত্রণকারী ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:1072 ../src/common/text.c:1077
+msgid "The invite mask"
+msgstr "আমন্ত্রণের মাস্ক"
+
+#: ../src/common/text.c:1076
+msgid "The nick of the person who removed the invite"
+msgstr "আমন্ত্রণ বাতিলকারী ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:1081
+msgid "The nick of the person who set the mode"
+msgstr "মোড নির্ধারণকারী ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:1082
+msgid "The mode's sign (+/-)"
+msgstr "মোডের সংকেত (+/-)"
+
+#: ../src/common/text.c:1083
+msgid "The mode letter"
+msgstr "মোডের অক্ষর"
+
+#: ../src/common/text.c:1084
+msgid "The channel it's being set on"
+msgstr "মোড নির্ধারণের জন্য চিহ্নিত চ্যানেল"
+
+#: ../src/common/text.c:1089
+msgid "Username"
+msgstr "ব্যবহারকারীর নাম"
+
+#: ../src/common/text.c:1091
+msgid "Full name"
+msgstr "সম্পূর্ণ নাম"
+
+#: ../src/common/text.c:1096
+msgid "Channel Membership/\"is an IRC operator\""
+msgstr "চ্যানেলের সদস্যতা/\"IRC অপারেটর হওয়া আবশ্যক\""
+
+#: ../src/common/text.c:1101
+msgid "Server Information"
+msgstr "সার্ভার সংক্রান্ত তথ্য"
+
+#: ../src/common/text.c:1106 ../src/common/text.c:1111
+msgid "Idle time"
+msgstr "কর্মবিহীন অবস্থার অবকাল"
+
+#: ../src/common/text.c:1112
+msgid "Signon time"
+msgstr "প্রবেশের সময়"
+
+#: ../src/common/text.c:1117
+msgid "Away reason"
+msgstr "অনুপস্থিতির কারণ"
+
+#: ../src/common/text.c:1126 ../src/common/text.c:1132
+#: ../src/common/text.c:1140 ../src/common/text.c:1320
+msgid "Message"
+msgstr "বার্তা"
+
+#: ../src/common/text.c:1133
+msgid "Account"
+msgstr "অ্যাকাউন্ট"
+
+#: ../src/common/text.c:1138
+msgid "Real user@host"
+msgstr "প্রকৃত ব্যবহারকারী@হোস্ট"
+
+#: ../src/common/text.c:1139
+msgid "Real IP"
+msgstr "প্রকৃত IP"
+
+#: ../src/common/text.c:1144 ../src/common/text.c:1153
+#: ../src/common/text.c:1159 ../src/common/text.c:1189
+#: ../src/common/text.c:1343 ../src/fe-gnome/channel-list-window.c:442
+msgid "Channel Name"
+msgstr "চ্যানেলের নাম"
+
+#: ../src/common/text.c:1148 ../src/common/text.c:1306
+msgid "Text"
+msgstr "টেক্সট"
+
+#: ../src/common/text.c:1149 ../src/common/text.c:1155
+#: ../src/common/text.c:1184 ../src/common/text.c:1302
+#: ../src/common/text.c:1344
+msgid "Server Name"
+msgstr "সার্ভারের নাম"
+
+#: ../src/common/text.c:1154
+msgid "Nick of person who invited you"
+msgstr "আপনাকে আমন্ত্রণকারী ব্যক্তির উপনাম"
+
+#: ../src/common/text.c:1164
+msgid "Nickname in use"
+msgstr "ব্যবহৃত উপনাম"
+
+#: ../src/common/text.c:1165
+msgid "Nick being tried"
+msgstr "প্রয়োগ করা উপনাম"
+
+#: ../src/common/text.c:1174 ../src/common/text.c:1310
+msgid "IP"
+msgstr "IP"
+
+#: ../src/common/text.c:1175 ../src/common/text.c:1206
+msgid "Port"
+msgstr "পোর্ট"
+
+#: ../src/common/text.c:1185
+msgid "Network"
+msgstr "নেটওয়ার্ক"
+
+#: ../src/common/text.c:1190 ../src/common/text.c:1195
+msgid "Modes string"
+msgstr "মোডের পংক্তি"
+
+#: ../src/common/text.c:1205 ../src/common/text.c:1243
+#: ../src/common/text.c:1248 ../src/common/text.c:1289
+msgid "IP address"
+msgstr "IP ঠিকানা"
+
+#: ../src/common/text.c:1211 ../src/common/text.c:1236
+msgid "DCC Type"
+msgstr "DCC-র ধরন"
+
+#: ../src/common/text.c:1212 ../src/common/text.c:1217
+#: ../src/common/text.c:1222 ../src/common/text.c:1229
+#: ../src/common/text.c:1249 ../src/common/text.c:1253
+#: ../src/common/text.c:1259 ../src/common/text.c:1265
+#: ../src/common/text.c:1272 ../src/common/text.c:1281
+#: ../src/common/text.c:1287
+msgid "Filename"
+msgstr "ফাইলের নাম"
+
+#: ../src/common/text.c:1223 ../src/common/text.c:1230
+msgid "Destination filename"
+msgstr "উদ্দিষ্ট ফাইলের নাম"
+
+#: ../src/common/text.c:1232 ../src/common/text.c:1261
+msgid "CPS"
+msgstr "CPS"
+
+#: ../src/common/text.c:1267
+msgid "Pathname"
+msgstr "পাথের নাম"
+
+#: ../src/common/text.c:1282
+msgid "Position"
+msgstr "অবস্থান"
+
+#: ../src/common/text.c:1288
+msgid "Size"
+msgstr "মাপ"
+
+#: ../src/common/text.c:1293
+msgid "DCC String"
+msgstr "DCC পংক্তি"
+
+#: ../src/common/text.c:1298
+msgid "Number of notify items"
+msgstr "বিজ্ঞপ্তির বস্তুর সংখ্যা"
+
+#: ../src/common/text.c:1314
+msgid "Old Filename"
+msgstr "ফাইলের পুরোনো নাম"
+
+#: ../src/common/text.c:1315
+msgid "New Filename"
+msgstr "নতুন ফাইলের নাম"
+
+#: ../src/common/text.c:1319
+msgid "Receiver"
+msgstr "প্রাপক"
+
+#: ../src/common/text.c:1324
+msgid "Hostmask"
+msgstr "হোস্ট-মাস্ক"
+
+#: ../src/common/text.c:1329
+msgid "Hostname"
+msgstr "হোস্ট-নেম"
+
+#: ../src/common/text.c:1334
+msgid "The Packet"
+msgstr "প্যাকেট"
+
+#: ../src/common/text.c:1338
+msgid "Seconds"
+msgstr "সেকেন্ড"
+
+#: ../src/common/text.c:1342
+msgid "Nick of person who have been invited"
+msgstr "আমন্ত্রিত ব্যক্তিদের উপনাম"
+
+#: ../src/common/text.c:1349
+msgid "Banmask"
+msgstr "প্রতিরোধের জন্য ব্যবহৃত মাস্ক"
+
+#: ../src/common/text.c:1350
+msgid "Who set the ban"
+msgstr "প্রতিরোধকারী"
+
+#: ../src/common/text.c:1351
+msgid "Ban time"
+msgstr "প্রতিরোধের সময়"
+
+#: ../src/common/text.c:1391
+#, c-format
+msgid ""
+"Error parsing event %s.\n"
+"Loading default."
+msgstr ""
+"%s ইভেন্ট পার্স করতে ত্রুটি।\n"
+"ডিফল্ট লোড করা হচ্ছে।"
+
+#: ../src/common/text.c:2084
+#, c-format
+msgid ""
+"Cannot read sound file:\n"
+"%s"
+msgstr ""
+"শব্দের ফাইল পড়তে ব্যর্থ:\n"
+"%s"
+
+#: ../src/common/textevents.h:6
+msgid "-%C10-%C11-%O$t$1 added to notify list."
+msgstr "বিজ্ঞপ্তি প্রদানের উদ্দেশ্যে -%C10-%C11-%O$t$1-কে তালিকার মধ্যে সংযোজন করা হয়েছে।"
+
+#: ../src/common/textevents.h:9
+msgid "-%C10-%C11-%O$t$1 Banlist: %C3$4 %C4$2 %C5$3%O"
+msgstr "-%C10-%C11-%O$t$1 প্রতিরোধের তালিকা: %C3$4 %C4$2 %C5$3%O"
+
+#: ../src/common/textevents.h:12
+msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(You are banned)."
+msgstr "-%C10-%C11-%O$t, %C11 %B$1 %O-র সাথে সংযোগ স্থাপন করতে পারবেন না (আপনাকে প্রতিরোধ করা হয়েছে)।"
+
+#: ../src/common/textevents.h:18
+msgid "-%C10-%C11-%O$t$1 is now known as $2"
+msgstr "-%C10-%C11-%O$t$1 বর্তমানে $2 নামে পরিচিত"
+
+#: ../src/common/textevents.h:21
+msgid "%C13*%O$t$1 $2%O"
+msgstr "%C13*%O$t$1 $2%O"
+
+#: ../src/common/textevents.h:24
+msgid "%C13*%O$t%C8%B$1%B%O $2%O"
+msgstr "%C13*%O$t%C8%B$1%B%O $2%O"
+
+#: ../src/common/textevents.h:27
+msgid "-%C10-%C11-%O$t$1 sets ban on $2"
+msgstr "-%C10-%C11-%O$t$1 দ্বারা $2-কে প্রতিরোধ করা হয়েছে"
+
+#: ../src/common/textevents.h:30
+msgid "-%C10-%C11-%O$tChannel $1 created on $2"
+msgstr "-%C10-%C11-%O$t $1 চ্যানেলটি $2-এ নির্মাণ করা হয়েছে"
+
+#: ../src/common/textevents.h:33
+msgid "-%C10-%C11-%O$t$1 removes channel half-operator status from $2"
+msgstr "-%C10-%C11-%O$t$1 দ্বারা $2 থেকে halfop অধিকার বাতিল করা হয়েছে"
+
+#: ../src/common/textevents.h:36
+msgid "-%C10-%C11-%O$t$1 removes channel operator status from $2"
+msgstr "-%C10-%C11-%O$t$1 দ্বারা $2 থেকে চ্যানেল অপারেটর অধিকার বাতিল করা হয়েছে"
+
+#: ../src/common/textevents.h:39
+msgid "-%C10-%C11-%O$t$1 removes voice from $2"
+msgstr "-%C10-%C11-%O$t$1 দ্বারা $2-র voice বাতিল করা হয়েছে"
+
+#: ../src/common/textevents.h:42
+msgid "-%C10-%C11-%O$t$1 sets exempt on $2"
+msgstr "-%C10-%C11-%O$t$1 দ্বারা $2-র জন্য ব্যতীক্রম ধার্য করা হয়েছে"
+
+#: ../src/common/textevents.h:45
+msgid "-%C10-%C11-%O$t$1 gives channel half-operator status to $2"
+msgstr "-%C10-%C11-%O$t$1 দ্বারা $2-কে চ্যানেল halfop অধিকার প্রদান করা হয়েছে"
+
+#: ../src/common/textevents.h:48
+msgid "-%C10-%C11-%O$t$1 sets invite on $2"
+msgstr "-%C10-%C11-%O$t$1 দ্বারা $2-কে আমন্ত্রণ জানানো হয়েছে"
+
+#: ../src/common/textevents.h:51
+msgid "%UChannel          Users   Topic%O"
+msgstr "%Uচ্যানেল          ব্যবহারকারী   প্রসঙ্গ%O"
+
+#: ../src/common/textevents.h:54 ../src/common/textevents.h:306
+msgid "%C2<%O$1%C2>%O$t$2%O"
+msgstr "%C2<%O$1%C2>%O$t$2%O"
+
+#: ../src/common/textevents.h:57
+msgid "-%C10-%C11-%O$t$1 sets mode $2$3 $4"
+msgstr "-%C10-%C11-%O$t$1 দ্বারা $2$3 $4 মোড নির্ধারণ করা হয়েছে"
+
+#: ../src/common/textevents.h:60
+msgid "-%C10-%C11-%O$tChannel $1 modes: $2"
+msgstr "-%C10-%C11-%O$tচ্যানেল $1 মোড: $2"
+
+#: ../src/common/textevents.h:63
+msgid "%C2<%C8%B$1%B%C2>%O$t$2%O"
+msgstr "%C2<%C8%B$1%B%C2>%O$t$2%O"
+
+#: ../src/common/textevents.h:66
+msgid "%C12-%C13$1/$2%C12-%O$t$3%O"
+msgstr "%C12-%C13$1/$2%C12-%O$t$3%O"
+
+#: ../src/common/textevents.h:69
+msgid "-%C10-%C11-%O$t$1 gives channel operator status to $2"
+msgstr "-%C10-%C11-%O$t$1 দ্বারা $2-কে চ্যানেল অপারেটর অধিকার প্রদান করা হয়েছে"
+
+#: ../src/common/textevents.h:72
+msgid "-%C10-%C11-%O$t$1 removes exempt on $2"
+msgstr "-%C10-%C11-%O$t$1 দ্বারা $2 থেকে ব্যতীক্রম সরিয়ে ফেলা হয়েছে"
+
+#: ../src/common/textevents.h:75
+msgid "-%C10-%C11-%O$t$1 removes invite on $2"
+msgstr "-%C10-%C11-%O$t$1 দ্বারা $2-র আমন্ত্রণ বাতিল করা হয়েছে"
+
+#: ../src/common/textevents.h:78
+msgid "-%C10-%C11-%O$t$1 removes channel keyword"
+msgstr "-%C10-%C11-%O$t$1 দ্বারা চ্যানেলের জন্য নির্ধারিত অভিব্যক্তি বাতিল করা হয়েছে"
+
+#: ../src/common/textevents.h:81
+msgid "-%C10-%C11-%O$t$1 removes user limit"
+msgstr "-%C10-%C11-%O$t$1 দ্বারা ব্যবহারকারীর সীমা মুছে ফেলা হয়েছে"
+
+#: ../src/common/textevents.h:84
+msgid "-%C10-%C11-%O$t$1 sets channel keyword to $2"
+msgstr "-%C10-%C11-%O$t$1 দ্বারা চ্যানেলের অভিব্যক্তি রূপে $2 নির্ধারণ করা হয়েছে"
+
+#: ../src/common/textevents.h:87
+msgid "-%C10-%C11-%O$t$1 sets channel limit to $2"
+msgstr "-%C10-%C11-%O$t$1 দ্বারা চ্যানেলের সীমা রূপে $2 ধার্য করা হয়েছে"
+
+#: ../src/common/textevents.h:90
+msgid "-%C10-%C11-%O$t$1 removes ban on $2"
+msgstr "-%C10-%C11-%O$t$1 দ্বারা $2-র উপর নির্ধারিত প্রতিরোধ বাতিল করা হয়েছে"
+
+#: ../src/common/textevents.h:93
+msgid "-%C10-%C11-%O$t$1 gives voice to $2"
+msgstr "-%C10-%C11-%O$t$1 দ্বারা $2-র জন্য voice প্রদান করা হয়েছে"
+
+#: ../src/common/textevents.h:96
+msgid "-%C10-%C11-%O$tConnected. Now logging in.."
+msgstr "-%C10-%C11-%O$t-র সাথে সংযোগ স্থাপন করা হয়েছে। বর্তমানে লগ-ইন করা হয়েছে.."
+
+#: ../src/common/textevents.h:99
+msgid "-%C10-%C11-%O$tConnecting to %C11$1 %C14(%C11$2%C14)%C port %C11$3%C.."
+msgstr "-%C10-%C11-%O$t, %C11$1 %C14(%C11$2%C14)%C port %C11$3%C-র সাথে সংযোগ স্থাপন করা হয়েছে.."
+
+#: ../src/common/textevents.h:102
+msgid "-%C10-%C11-%O$tConnection failed. Error: $1"
+msgstr "-%C10-%C11-%O$tসংযোগ বিফল। ত্রুটি: $1"
+
+#: ../src/common/textevents.h:105
+msgid "-%C10-%C11-%O$tReceived a CTCP $1 from $2"
+msgstr "-%C10-%C11-%O$t CTCP $1 প্রাপ্ত হয়েছে $2 থেকে"
+
+#: ../src/common/textevents.h:108
+msgid "-%C10-%C11-%O$tReceived a CTCP $1 from $2 (to $3)"
+msgstr "-%C10-%C11-%O$t CTCP $1 প্রাপ্ত হয়েছে $2 থেকে ($3-র উদ্দেশ্যে)"
+
+#: ../src/common/textevents.h:111
+msgid "%C3>%O$1%C3<%O$tCTCP $2%O"
+msgstr "%C3>%O$1%C3<%O$tCTCP $2%O"
+
+#: ../src/common/textevents.h:114
+msgid "-%C10-%C11-%O$tReceived a CTCP Sound $1 from $2"
+msgstr "-%C10-%C11-%O$t CTCP শব্দ $1 প্রাপ্ত হয়েছে $2 থেকে"
+
+#: ../src/common/textevents.h:117
+msgid "%C22*%O$tReceived a CTCP Sound $1 from $2 (to $3)"
+msgstr "-%C10-%C11-%O$t CTCP শব্দ $1 প্রাপ্ত হয়েছে $2 থেকে ($3-র উদ্দেশ্যে)"
+
+#: ../src/common/textevents.h:120
+msgid "-%C10-%C11-%O$tDCC CHAT to %C11$1%O aborted."
+msgstr "-%C10-%C11-%O$tDCC CHAT, %C11$1%O-র উদ্দেশ্যে পরিত্যাগ করা হয়েছে।"
+
+#: ../src/common/textevents.h:123
+msgid "-%C10-%C11-%O$tDCC CHAT connection established to %C11$1 %C14[%O$2%C14]%O"
+msgstr "-%C10-%C11-%O$tDCC CHAT সংযোগ %C11$1 %C14[%O$2%C14]%O-র সাথে স্থাপিত হয়েছে"
+
+#: ../src/common/textevents.h:126
+msgid "-%C10-%C11-%O$tDCC CHAT failed. Connection to $1 %C14[%O$2:$3%C14]%O lost."
+msgstr "-%C10-%C11-%O$tDCC CHAT বিফল। $1 %C14[%O$2:$3%C14]%O-র সাথে সংযোগ বিচ্ছিন্ন হয়েছে।"
+
+#: ../src/common/textevents.h:129
+msgid "-%C10-%C11-%O$tReceived a DCC CHAT offer from $1"
+msgstr "-%C10-%C11-%O$t একটি DCC CHAT অনুরোধ পাওয়া গিয়েছে $1 থেকে"
+
+#: ../src/common/textevents.h:132
+msgid "-%C10-%C11-%O$tOffering DCC CHAT to $1"
+msgstr "-%C10-%C11-%O$t $1-র উদ্দেশ্যে DCC CHAT পেশ করা হয়েছে"
+
+#: ../src/common/textevents.h:135
+msgid "-%C10-%C11-%O$tAlready offering CHAT to $1"
+msgstr "-%C10-%C11-%O$t$1-র জন্য একটি CHAT বর্তমানে পেশ করা হয়েছে"
+
+#: ../src/common/textevents.h:138
+msgid "-%C10-%C11-%O$tDCC $1 connect attempt to %C11$2%O failed (err=$3)."
+msgstr "-%C10-%C11-%O$tDCC $1 সংযোগের একটি প্রয়াস %C11$2%O-র সাথে করা হয়েছে ও বিফল হয়েছে (err=$3)।"
+
+#: ../src/common/textevents.h:141
+msgid "-%C10-%C11-%O$tReceived '$1%O' from $2"
+msgstr "-%C10-%C11-%O$t '$1%O' প্রাপ্ত হয়েছে $2 থেকে"
+
+#: ../src/common/textevents.h:144
+#, c-format
+msgid "%C24,18 Type  To/From    Status  Size    Pos     File         "
+msgstr "%C24,18 ধরন  উদ্দেশ্যে/প্রেরক    অবস্থা  মাপ    অবস্থান     ফাইল         "
+
+#: ../src/common/textevents.h:147
+msgid ""
+"-%C10-%C11-%O$tReceived a malformed DCC request from %C11$1%O.%010-%C10-%C11-"
+"%O$tContents of packet: $2"
+msgstr "-%C10-%C11-%O$t%C11$1%O থেকে ত্রুটিপূর্ণ DCC অনুরোধ প্রাপ্ত হয়েছে।%010-%C10-%C11-%O$tপ্যাকেটের সামগ্রী: $2"
+
+#: ../src/common/textevents.h:150
+msgid "-%C10-%C11-%O$tOffering %C11$1 %Cto %C11$2%O"
+msgstr "-%C10-%C11-%O$t, %C11$1 %C পেশ করা হয়েছে %C11$2%O-কে"
+
+#: ../src/common/textevents.h:153
+msgid "-%C10-%C11-%O$tNo such DCC offer."
+msgstr "-%C10-%C11-%O$tএই ধরনের কোনো DCC পেশ করা হয়নি।"
+
+#: ../src/common/textevents.h:156
+msgid "-%C10-%C11-%O$tDCC RECV %C11$2%O to %C11$1%O aborted."
+msgstr "-%C10-%C11-%O$tDCC RECV %C11$2%O-র জন্য %C11$1%O পরিত্যাগ করা হয়েছে।"
+
+#: ../src/common/textevents.h:159
+msgid ""
+"-%C10-%C11-%O$tDCC RECV %C11$1%O from %C11$3%O complete %C14[%C11$4%O cps%"
+"C14]%O."
+msgstr "-%C10-%C11-%O$tDCC %C11$3%O থেকে %C11$1%O RECV করা হয়েছে, সমাপ্ত %C14[%C11$4%O cps%C14]%O।"
+
+#: ../src/common/textevents.h:162
+msgid "-%C10-%C11-%O$tDCC RECV connection established to %C11$1 %C14[%O$2%C14]%O"
+msgstr "-%C10-%C11-%O$t %C11$1 %C14[%O$2%C14]%O-র সাথে DCC RECV সংযোগ স্থাপন করা হয়েছে"
+
+#: ../src/common/textevents.h:165
+msgid "-%C10-%C11-%O$tDCC RECV $1 ($2) failed. Connection to $3 lost."
+msgstr "-%C10-%C11-%O$tDCC RECV $1 ($2) বিফল। $3-র সাথে সংযোগ বিচ্ছিন্ন হয়েছে।"
+
+#: ../src/common/textevents.h:168
+msgid "-%C10-%C11-%O$tDCC RECV: Cannot open $1 for writing ($2)."
+msgstr "-%C10-%C11-%O$tDCC RECV: লেখার জন্য $1 খোলা যায়নি ($2)।"
+
+#: ../src/common/textevents.h:171
+msgid ""
+"-%C10-%C11-%O$tThe file %C11$1%C already exists, saving it as %C11$2%O "
+"instead."
+msgstr "-%C10-%C11-%O$t %C11$1%C ফাইলটি বর্তমানে উপস্থিত রয়েছে, পরিবর্তে %C11$2%O রূপে সংরক্ষণ করা হচ্ছে।"
+
+#: ../src/common/textevents.h:174
+msgid "-%C10-%C11-%O$t%C11$1 %Chas requested to resume %C11$2 %Cfrom %C11$3%C."
+msgstr "-%C10-%C11-%O$t%C11$1 %Cদ্বারা %C11$2 %C-কে %C11$3%C থেকে পুনরারম্ভ করার অনুরোধ করা হয়েছে।"
+
+#: ../src/common/textevents.h:177
+msgid "-%C10-%C11-%O$tDCC SEND %C11$2%O to %C11$1%O aborted."
+msgstr "-%C10-%C11-%O$t %C11$1%O-র উদ্দেশ্যে DCC SEND %C11$2%O বাতিল করা হয়েছে।"
+
+#: ../src/common/textevents.h:180
+msgid ""
+"-%C10-%C11-%O$tDCC SEND %C11$1%O to %C11$2%O complete %C14[%C11$3%O cps%C14]%"
+"O."
+msgstr ""
+"-%C10-%C11-%O$t %C11$1%O-র উদ্দেশ্যে DCC SEND %C11$2%O সমাপ্ত হয়েছে। %C14[%C11$3%O cps%C14]%"
+"O."
+
+#: ../src/common/textevents.h:183
+msgid "-%C10-%C11-%O$tDCC SEND connection established to %C11$1 %C14[%O$2%C14]%O"
+msgstr "-%C10-%C11-%O$tDCC SEND সংযোগ %C11$1-র সাথে স্থাপন করা হয়েছে %C14[%O$2%C14]%O"
+
+#: ../src/common/textevents.h:186
+msgid "-%C10-%C11-%O$tDCC SEND %C11$1%O failed. Connection to %C11$2%O lost."
+msgstr "-%C10-%C11-%O$tDCC SEND %C11$1%O বিফল। %C11$2%O-র সাথে সংযোগ বিচ্ছিন্ন হয়েছে।"
+
+#: ../src/common/textevents.h:189
+msgid "-%C10-%C11-%O$t%C11$1 %Chas offered %C11$2 %C(%C11$3 %Cbytes)"
+msgstr "-%C10-%C11-%O$t%C11$1 %C দ্বারা %C11$2 পেশ করা হয়েছে %C(%C11$3 %Cbytes)"
+
+#: ../src/common/textevents.h:192
+msgid "-%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Cstalled - aborting."
+msgstr "-%C10-%C11-%O$tDCC $1 %C11$2 %C-র উদ্দেশ্যে %C11$3 %Cস্থগিত হয়েছে - পরিত্যাগ করা হচ্ছে।"
+
+#: ../src/common/textevents.h:195
+msgid "-%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Ctimed out - aborting."
+msgstr "-%C10-%C11-%O$tDCC $1 %C11$2 %C, %C11$3-র উদ্দেশ্যে %C-র সময়সীমা উত্তীর্ণ  - পরিত্যাগ করা হচ্ছে।"
+
+#: ../src/common/textevents.h:198
+msgid "-%C10-%C11-%O$t$1 deleted from notify list."
+msgstr "-%C10-%C11-%O$t$1 মুছে ফেলা হয়েছে বিজ্ঞপ্তির তালিকা থেকে।"
+
+#: ../src/common/textevents.h:201
+msgid "-%C10-%C11-%O$tDisconnected ($1)."
+msgstr "-%C10-%C11-%O$tবিচ্ছিন্ন ($1)"
+
+#: ../src/common/textevents.h:204
+msgid "-%C10-%C11-%O$tFound your IP: [$1]"
+msgstr "-%C10-%C11-%O$tআপনার IP পাওয়া গিয়েছে: [$1]"
+
+#: ../src/common/textevents.h:207
+msgid "$1$t$2"
+msgstr "$1$t$2"
+
+#: ../src/common/textevents.h:210
+msgid "%O%C11$1%O added to ignore list."
+msgstr "%O%C11$1%O-কে উপেক্ষার জন্য চিহ্নিত তালিকার মধ্যে যোগ করা হয়েছে।"
+
+#: ../src/common/textevents.h:213
+msgid "Ignore on %C11$1%O changed."
+msgstr "%C11$1%O-র উদ্দেশ্যে উপেক্ষা পরিবর্তিত করা হয়েছে।"
+
+#: ../src/common/textevents.h:216
+#, c-format
+msgid "%C24,18                                                              "
+msgstr "%C24,18                                                              "
+
+#: ../src/common/textevents.h:219
+#, c-format
+msgid "%C24,18 Hostmask                  PRIV NOTI CHAN CTCP DCC  INVI UNIG "
+msgstr "%C24,18 হোস্ট-মাস্ক                  PRIV NOTI CHAN CTCP DCC  INVI UNIG "
+
+#: ../src/common/textevents.h:222
+msgid "%O%C11$1%O removed from ignore list."
+msgstr "%O%C11$1%O-কে উপেক্ষিতদের তালিকা থেকে মুছে ফেলা হয়েছে।"
+
+#: ../src/common/textevents.h:225
+msgid "  Ignore list is empty."
+msgstr "  উপেক্ষার তালিকা বর্তমানে শূণ্য।"
+
+#: ../src/common/textevents.h:228
+msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(Channel is invite only)."
+msgstr "-%C10-%C11-%O$t%C11 %B$1 %O-এ যোগ দেওয়া সম্ভব নয়(চ্যানেলটি শুধুমাত্র আমন্ত্রিতদের জন্য)।"
+
+#: ../src/common/textevents.h:231
+msgid "-%C10-%C11-%O$tYou have been invited to %C11$1%C by %C11$2%C (%C11$3%C)"
+msgstr "-%C10-%C11-%O$t %C11$1%C-তে %C11$2%C দ্বারা আমন্ত্রণ করা হয়েছে (%C11$3%C)"
+
+#: ../src/common/textevents.h:234
+msgid "-%C10-%C11>%O$t%B$1%B %C14(%C10$3%C14)%C has joined $2"
+msgstr "-%C10-%C11>%O$t%B$1%B %C14(%C10$3%C14)%C $2-এ যোগ দিয়েছেন"
+
+#: ../src/common/textevents.h:237
+msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(Requires keyword)."
+msgstr "-%C10-%C11-%O$t %C11 %B$1 %O-র সাথে সংযোগ করা সম্ভব নয়(অভিব্যক্তি প্রয়োজন)।"
+
+#: ../src/common/textevents.h:240
+msgid "<%C10-%C11-%O$t$1 has kicked $2 from $3 ($4%O)"
+msgstr "<%C10-%C11-%O$t$1 দ্বারা $3 থেকে $2-কে বিতাড়ন করা হয়েছে ($4%O)"
+
+#: ../src/common/textevents.h:243
+msgid "-%C10-%C11-%O$tYou have been killed by $1 ($2%O)"
+msgstr "-%C10-%C11-%O$t $1 দ্বারা আপনাকে kill করা হয়েছে ($2%O)"
+
+#: ../src/common/textevents.h:246 ../src/common/textevents.h:270
+msgid "%C3>%O$1%C3<%O$t$2%O"
+msgstr "%C3>%O$1%C3<%O$t$2%O"
+
+#: ../src/common/textevents.h:249 ../src/common/textevents.h:327
+#: ../src/common/textevents.h:333 ../src/common/textevents.h:336
+msgid "-%C10-%C11-%O$t$1%O"
+msgstr "-%C10-%C11-%O$t$1%O"
+
+#: ../src/common/textevents.h:252
+msgid "-%C10-%C11-%O$tMOTD Skipped."
+msgstr "-%C10-%C11-%O$tMOTD উপেক্ষা করা হয়েছে।"
+
+#: ../src/common/textevents.h:255
+msgid "-%C10-%C11-%O$t$1 already in use. Retrying with $2.."
+msgstr "-%C10-%C11-%O$t$1 বর্তমানে ব্যবহৃত হচ্ছে। $2 সহযোগে পুনরায় প্রচেষ্টা করা হচ্ছে.."
+
+#: ../src/common/textevents.h:258
+msgid "-%C10-%C11-%O$tNickname already in use. Use /NICK to try another."
+msgstr "-%C10-%C11-%O$tউপনাম বর্তমানে ব্যবহৃত হচ্ছে। /NICK কমান্ড সহযোগে একটি ভিন্ন উপনাম ব্যবহার করুন।"
+
+#: ../src/common/textevents.h:261
+msgid "-%C10-%C11-%O$tNo such DCC."
+msgstr "-%C10-%C11-%O$tএই ধরনের DCC উপস্থিত নেই।"
+
+#: ../src/common/textevents.h:264
+msgid "-%C10-%C11-%O$tNo process is currently running"
+msgstr "-%C10-%C11-%O$tবর্তমানে কোনো প্রসেস চলছে না"
+
+#: ../src/common/textevents.h:267
+msgid "%C12-%C13$1%C12-%O$t$2%O"
+msgstr "%C12-%C13$1%C12-%O$t$2%O"
+
+#: ../src/common/textevents.h:273
+msgid "-%C10-%C11-%O$tNotify list is empty."
+msgstr "-%C10-%C11-%O$tবিজ্ঞপ্তির তালিকা বর্তমানে ফাঁকা।"
+
+#: ../src/common/textevents.h:276
+msgid "%C24,18 %B  Notify List                           "
+msgstr "%C24,18 %B  বিজ্ঞপ্তি তালিকা                           "
+
+#: ../src/common/textevents.h:279
+msgid "-%C10-%C11-%O$t$1 users in notify list."
+msgstr "-%C10-%C11-%O$tবিজ্ঞপ্তি তালিকার মধ্যে $1 জন ব্যবহারকারী উপস্থিত।"
+
+#: ../src/common/textevents.h:282
+msgid "-%C10-%C11-%O$tNotify: $1 is offline ($2)."
+msgstr "-%C10-%C11-%O$tবিজ্ঞপ্তি: $1 বর্তমানে অফ-লাইন ($2)।"
+
+#: ../src/common/textevents.h:285
+msgid "-%C10-%C11-%O$tNotify: $1 is online ($2)."
+msgstr "-%C10-%C11-%O$tবিজ্ঞপ্তি: $1 বর্তমানে অন-লাইন ($2)।"
+
+#: ../src/common/textevents.h:291
+msgid "<%C10-%C11-%O$t$1 %C14(%O$2%C14)%C has left $3"
+msgstr "<%C10-%C11-%O$t$1 %C14(%O$2%C14)%C $3 থেকে প্রস্থান করেছেন।"
+
+#: ../src/common/textevents.h:294
+msgid "<%C10-%C11-%O$t$1 %C14(%O$2%C14)%C has left $3 %C14(%O$4%C14)%O"
+msgstr "<%C10-%C11-%O$t$1 %C14(%O$2%C14)%C, $3 থেকে প্রস্থান করেছেন %C14(%O$4%C14)%O"
+
+#: ../src/common/textevents.h:297
+msgid "-%C10-%C11-%O$tPing reply from $1 : $2 second(s)"
+msgstr "-%C10-%C11-%O$t$1 থেকে প্রাপ্ত ping-র উত্তর : $2 সেকেন্ড"
+
+#: ../src/common/textevents.h:300
+msgid "-%C10-%C11-%O$tNo ping reply for $1 seconds, disconnecting."
+msgstr "-%C10-%C11-%O$t $1 সেকেন্ড অবধি কোনো ping উত্তর পাওয়া যায়নি, বিচ্ছিন্ন করা হচ্ছে।"
+
+#: ../src/common/textevents.h:303
+msgid "%C12*%C13$1%C12*$t%O$2%O"
+msgstr "%C12*%C13$1%C12*$t%O$2%O"
+
+#: ../src/common/textevents.h:309
+msgid "-%C10-%C11-%O$tA process is already running"
+msgstr "-%C10-%C11-%O$tA প্রসেস বর্তমানে চলছে"
+
+#: ../src/common/textevents.h:312
+msgid "<%C10-%C11-%O$t$1 has quit %C14(%O$2%O%C14)%O"
+msgstr "<%C10-%C11-%O$t$1 %C14(%O$2%O%C14)%O থেকে প্রস্থান করেছেন"
+
+#: ../src/common/textevents.h:315
+msgid "-%C10-%C11-%O$t$1 sets modes%B %C14[%O$2%B%C14]%O"
+msgstr "-%C10-%C11-%O$t$1 দ্বারা %B %C14[%O$2%B%C14]%O মোড নির্ধারণ করা হয়েছে"
+
+#: ../src/common/textevents.h:318
+msgid "%C12-%C13$1/Wallops%C12-%O$t$2%O"
+msgstr "%C12-%C13$1/Wallops%C12-%O$t$2%O"
+
+#: ../src/common/textevents.h:321
+msgid "-%C10-%C11-%O$tLooking up IP number for%C11 $1%O.."
+msgstr "-%C10-%C11-%O$t%C11 $1%O-র IP সংখ্যা অনুসন্ধান করা হচ্ছে.."
+
+#: ../src/common/textevents.h:324
+msgid "-%C10-%C11-%O$tConnected."
+msgstr "-%C10-%C11-%O$tসংযুক্ত।"
+
+#: ../src/common/textevents.h:330
+msgid "-%C10-%C11-%O$tLooking up %C11$1%C.."
+msgstr "-%C10-%C11-%O$t %C11$1%C অনুসন্ধান করা হচ্ছে.."
+
+#: ../src/common/textevents.h:339
+msgid "-%C10-%C11-%O$tStopped previous connection attempt (pid=$1)"
+msgstr "-%C10-%C11-%O$tসংযোগের পূর্ববর্তী প্রয়াস বন্ধ করা হয়েছে (pid=$1)"
+
+#: ../src/common/textevents.h:342
+msgid "-%C10-%C11-%O$tTopic for %C11$1%C is %C11$2%O"
+msgstr "-%C10-%C11-%O$t%C11$1%C-র জন্য %C11$2%O প্রসঙ্গ ধার্য হয়েছে"
+
+#: ../src/common/textevents.h:345
+msgid "-%C10-%C11-%O$t$1 has changed the topic to: $2%O"
+msgstr "-%C10-%C11-%O$t$1 দ্বারা চিহ্নিত প্রসঙ্গ নির্ধারণ করা হয়েছে: $2%O"
+
+#: ../src/common/textevents.h:348
+msgid "-%C10-%C11-%O$tTopic for %C11$1%C set by %C11$2%C at %C11$3%O"
+msgstr "-%C10-%C11-%O$t%C11$1%C-র জন্য %C11$2%C দ্বারা %C11$3%O সময়ে প্রসঙ্গ নির্ধারণ করা হয়েছে"
+
+#: ../src/common/textevents.h:351
+msgid "-%C10-%C11-%O$tUnknown host. Maybe you misspelled it?"
+msgstr "-%C10-%C11-%O$tঅজানা হোস্ট। বানানে ত্রুটি রয়েছে কি?"
+
+#: ../src/common/textevents.h:354
+msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(User limit reached)."
+msgstr "-%C10-%C11-%O$t%C11-এ যোগ দিতে বিফল %B$1 %O(ব্যবহারকারীর সীমার সংখ্যা পূর্ণ হয়েছে)।"
+
+#: ../src/common/textevents.h:357
+msgid "-%C10-%C11-%O$t%C11Users on $1:%C $2"
+msgstr "-%C10-%C11-%O$t%C11$1-র মধ্যে উপস্থিত ব্যবহারকারী:%C $2"
+
+#: ../src/common/textevents.h:360
+msgid "%C22*%O$t%C28[%O$1%C28] %O$2%C27 $3"
+msgstr "%C22*%O$t%C28[%O$1%C28] %O$2%C27 $3"
+
+#: ../src/common/textevents.h:363
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %Cis away %C14(%O$2%O%C14)"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %Cবর্তমানে অনুপস্থিত %C14(%O$2%O%C14)"
+
+#: ../src/common/textevents.h:366
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%C $2"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%C $2"
+
+#: ../src/common/textevents.h:369
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %CEnd of WHOIS list."
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %CWHOIS তালিকার সমাপ্তি।"
+
+#: ../src/common/textevents.h:372
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %C$2"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %C$2"
+
+#: ../src/common/textevents.h:375
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%O idle %C11$2%O"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%O কর্মবিহীন %C11$2%O"
+
+#: ../src/common/textevents.h:378
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%O idle %C11$2%O, signon: %C11$3%O"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%O কর্মবিহীন %C11$2%O, যোগদান: %C11$3%O"
+
+#: ../src/common/textevents.h:381
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %C14(%O$2@$3%C14) %O: $4%O"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %C14(%O$2@$3%C14) %O: $4%O"
+
+#: ../src/common/textevents.h:384
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %Oreal user@host %C11$2%O, real IP %C11$3%O"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %Oপ্রকৃত user@host %C11$2%O, প্রকৃত IP %C11$3%O"
+
+#: ../src/common/textevents.h:387
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%O $2"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%O $2"
+
+#: ../src/common/textevents.h:390
+msgid "%C22*%O$t%C28[%O$1%C28]%O $2"
+msgstr "%C22*%O$t%C28[%O$1%C28]%O $2"
+
+#: ../src/common/textevents.h:393
+msgid "-%C10-%C11>%O$t%BYou%B are now talking on %C11$2%O"
+msgstr "-%C10-%C11>%O$t%Bআপনি%B বর্তমানে %C11$2%O-এ আলাপন করছেন"
+
+#: ../src/common/textevents.h:396
+msgid "-%C10-%C11-%O$tYou have been kicked from $2 by $3 ($4%O)"
+msgstr "-%C10-%C11-%O$t$2থেকে আপনাকে $3 দ্বারা বিতাড়ন করা হয়েছে ($4%O)"
+
+#: ../src/common/textevents.h:399
+msgid "-%C10-%C11-%O$tYou have left channel $3"
+msgstr "-%C10-%C11-%O$tআপনি $3 চ্যানেল থেকে প্রস্থান করেছেন"
+
+#: ../src/common/textevents.h:402
+msgid "-%C10-%C11-%O$tYou have left channel $3 %C14(%O$4%C14)%O"
+msgstr "-%C10-%C11-%O$tআপনি $3 চ্যানেল থেকে প্রস্থান করেছেন %C14(%O$4%C14)%O"
+
+#: ../src/common/textevents.h:408
+msgid "-%C10-%C11-%O$tYou're inviting %C11$1%C to %C11$2%C (%C11$3%C)"
+msgstr "-%C10-%C11-%O$tআপনি %C11$1%C-কে %C11$2%C-এ আমন্ত্রণ করছেন (%C11$3%C)"
+
+#: ../src/common/textevents.h:411
+msgid "%C6<%O$1%C6>%O$t$2%O"
+msgstr "%C6<%O$1%C6>%O$t$2%O"
+
+#: ../src/common/textevents.h:414
+msgid "-%C10-%C11-%O$tYou are now known as $2"
+msgstr "-%C10-%C11-%O$tআপনি এখন $2 নামে পরিচিত"
+
+#: ../src/common/util.c:296
+msgid "Remote host closed socket"
+msgstr "দূরবর্তী হোস্ট দ্বারা সকেট বন্ধ করা হয়েছে"
+
+#: ../src/common/util.c:301
+msgid "Connection refused"
+msgstr "সংযোগ প্রত্যাখ্যান করা হয়েছে"
+
+#: ../src/common/util.c:304
+msgid "No route to host"
+msgstr "হোস্ট অবধি কোনো পথ পাওয়া যায়নি"
+
+#: ../src/common/util.c:306
+msgid "Connection timed out"
+msgstr "সংযোগের সময়সীমা উত্তীর্ণ হয়েছে"
+
+#: ../src/common/util.c:308
+msgid "Cannot assign that address"
+msgstr "সংশ্লিষ্ট ঠিকানা ধার্য করতে ব্যর্থ"
+
+#: ../src/common/util.c:310
+msgid "Connection reset by peer"
+msgstr "সমতূল্য সার্ভার দ্বারা সংযোগ পুনরায় নির্ধারণ করা হয়েছে"
+
+#: ../src/common/util.c:839
+msgid "Ascension Island"
+msgstr "অ্যাসান্সিয়ান দ্বীপ"
+
+#: ../src/common/util.c:840
+msgid "Andorra"
+msgstr "অ্যান্ডোরা"
+
+#: ../src/common/util.c:841
+msgid "United Arab Emirates"
+msgstr "সংযুক্ত আরব আমিরশাহী"
+
+#: ../src/common/util.c:842
+msgid "Afghanistan"
+msgstr "আফগানিস্তান"
+
+#: ../src/common/util.c:843
+msgid "Antigua and Barbuda"
+msgstr "অ্যান্টিগুয়া ও বারবুডা"
+
+#: ../src/common/util.c:844
+msgid "Anguilla"
+msgstr "অ্যাঙ্গিলা"
+
+#: ../src/common/util.c:845
+msgid "Albania"
+msgstr "আলবেনিয়া"
+
+#: ../src/common/util.c:846
+msgid "Armenia"
+msgstr "আর্মেনিয়া"
+
+#: ../src/common/util.c:847
+msgid "Netherlands Antilles"
+msgstr "নেদারল্যান্ডস অ্যান্টিলিস"
+
+#: ../src/common/util.c:848
+msgid "Angola"
+msgstr "অ্যাঙ্গোলা"
+
+#: ../src/common/util.c:849
+msgid "Antarctica"
+msgstr "আনটার্কটিকা"
+
+#: ../src/common/util.c:850
+msgid "Argentina"
+msgstr "আর্জেনটিনা"
+
+#: ../src/common/util.c:851
+msgid "Reverse DNS"
+msgstr "রিভার্স DNS"
+
+#: ../src/common/util.c:852
+msgid "American Samoa"
+msgstr "আমেরিকান সামোয়া"
+
+#: ../src/common/util.c:853
+msgid "Austria"
+msgstr "অস্ট্রিয়া"
+
+#: ../src/common/util.c:854
+msgid "Nato Fiel"
+msgstr "ন্যাটো ফিয়েল"
+
+#: ../src/common/util.c:855
+msgid "Australia"
+msgstr "অস্ট্রেলিয়া"
+
+#: ../src/common/util.c:856
+msgid "Aruba"
+msgstr "আরুবা"
+
+#: ../src/common/util.c:857
+msgid "Aland Islands"
+msgstr "অ্যাল্যান্ড দ্বীপপুঞ্জ"
+
+#: ../src/common/util.c:858
+msgid "Azerbaijan"
+msgstr "আজারবাইজান"
+
+#: ../src/common/util.c:859
+msgid "Bosnia and Herzegovina"
+msgstr "বসনিয়া ও হার্জগোভিনা"
+
+#: ../src/common/util.c:860
+msgid "Barbados"
+msgstr "বার্বাডোস"
+
+#: ../src/common/util.c:861
+msgid "Bangladesh"
+msgstr "বাংলাদেশ"
+
+#: ../src/common/util.c:862
+msgid "Belgium"
+msgstr "বেলজিয়াম"
+
+#: ../src/common/util.c:863
+msgid "Burkina Faso"
+msgstr "বুর্কিনা ফাসো"
+
+#: ../src/common/util.c:864
+msgid "Bulgaria"
+msgstr "বুলগারিয়া"
+
+#: ../src/common/util.c:865
+msgid "Bahrain"
+msgstr "বাহরেইন"
+
+#: ../src/common/util.c:866
+msgid "Burundi"
+msgstr "বুরুন্ডি"
+
+#: ../src/common/util.c:867
+msgid "Businesses"
+msgstr "বাণিজ্য"
+
+#: ../src/common/util.c:868
+msgid "Benin"
+msgstr "বেনিন"
+
+#: ../src/common/util.c:869
+msgid "Bermuda"
+msgstr "বার্মুডা"
+
+#: ../src/common/util.c:870
+msgid "Brunei Darussalam"
+msgstr "ব্রুনেই দারুসলাম"
+
+#: ../src/common/util.c:871
+msgid "Bolivia"
+msgstr "বোলিভিয়া"
+
+#: ../src/common/util.c:872
+msgid "Brazil"
+msgstr "ব্রাজিল"
+
+#: ../src/common/util.c:873
+msgid "Bahamas"
+msgstr "বাহামাস"
+
+#: ../src/common/util.c:874
+msgid "Bhutan"
+msgstr "ভুটান"
+
+#: ../src/common/util.c:875
+msgid "Bouvet Island"
+msgstr "বুভে দ্বীপ"
+
+#: ../src/common/util.c:876
+msgid "Botswana"
+msgstr "বোটসওয়ানা"
+
+#: ../src/common/util.c:877
+msgid "Belarus"
+msgstr "বেলারুস"
+
+#: ../src/common/util.c:878
+msgid "Belize"
+msgstr "বেলিজে"
+
+#: ../src/common/util.c:879
+msgid "Canada"
+msgstr "কানাডা"
+
+#: ../src/common/util.c:880
+msgid "Cocos Islands"
+msgstr "কোকোস দ্বীপ"
+
+#: ../src/common/util.c:881
+msgid "Democratic Republic of Congo"
+msgstr "গণপ্রজাতন্ত্রী কঙ্গো"
+
+#: ../src/common/util.c:882
+msgid "Central African Republic"
+msgstr "মধ্য আফ্রিকান প্রজাতন্ত্র"
+
+#: ../src/common/util.c:883
+msgid "Congo"
+msgstr "কঙ্গো"
+
+#: ../src/common/util.c:884
+msgid "Switzerland"
+msgstr "সুইৎজারল্যান্ড"
+
+#: ../src/common/util.c:885
+msgid "Cote d'Ivoire"
+msgstr "আইভরি কোস্ট"
+
+#: ../src/common/util.c:886
+msgid "Cook Islands"
+msgstr "কুক দ্বীপপুঞ্জ"
+
+#: ../src/common/util.c:887
+msgid "Chile"
+msgstr "চিলি"
+
+#: ../src/common/util.c:888
+msgid "Cameroon"
+msgstr "ক্যামেরুণ"
+
+#: ../src/common/util.c:889
+msgid "China"
+msgstr "চীন"
+
+#: ../src/common/util.c:890
+msgid "Colombia"
+msgstr "কোলোম্বিয়া"
+
+#: ../src/common/util.c:891
+msgid "Internic Commercial"
+msgstr "ইন্টারনিক কমার্শিয়াল"
+
+#: ../src/common/util.c:892
+msgid "Costa Rica"
+msgstr "কোস্টা রিকা"
+
+#: ../src/common/util.c:893
+msgid "Serbia and Montenegro"
+msgstr "সার্বিয়া ও মন্টেনেগ্রো"
+
+#: ../src/common/util.c:894
+msgid "Cuba"
+msgstr "কিউবা"
+
+#: ../src/common/util.c:895
+msgid "Cape Verde"
+msgstr "কেপ ভার্ডি"
+
+#: ../src/common/util.c:896
+msgid "Christmas Island"
+msgstr "ক্রিস্টমাস দ্বীপপুঞ্জ"
+
+#: ../src/common/util.c:897
+msgid "Cyprus"
+msgstr "সাইপ্রাস"
+
+#: ../src/common/util.c:898
+msgid "Czech Republic"
+msgstr "চেক প্রজাতন্ত্র"
+
+#: ../src/common/util.c:899
+msgid "Germany"
+msgstr "জার্মানি"
+
+#: ../src/common/util.c:900
+msgid "Djibouti"
+msgstr "জিবুতি"
+
+#: ../src/common/util.c:901
+msgid "Denmark"
+msgstr "ডেনমার্ক"
+
+#: ../src/common/util.c:902
+msgid "Dominica"
+msgstr "ডোমিনিকা"
+
+#: ../src/common/util.c:903
+msgid "Dominican Republic"
+msgstr "ডোমিনিকান প্রজান্ত্র"
+
+#: ../src/common/util.c:904
+msgid "Algeria"
+msgstr "অ্যালজিরিয়া"
+
+#: ../src/common/util.c:905
+msgid "Ecuador"
+msgstr "ইকুয়েডোর"
+
+#: ../src/common/util.c:906
+msgid "Educational Institution"
+msgstr "শিক্ষা প্রতিষ্ঠান"
+
+#: ../src/common/util.c:907
+msgid "Estonia"
+msgstr "এস্তোনিয়া"
+
+#: ../src/common/util.c:908
+msgid "Egypt"
+msgstr "মিশর"
+
+#: ../src/common/util.c:909
+msgid "Western Sahara"
+msgstr "পশ্চীম সাহারা"
+
+#: ../src/common/util.c:910
+msgid "Eritrea"
+msgstr "এরিট্রিয়া"
+
+#: ../src/common/util.c:911
+msgid "Spain"
+msgstr "স্পেন"
+
+#: ../src/common/util.c:912
+msgid "Ethiopia"
+msgstr "ইথিওপিয়া"
+
+#: ../src/common/util.c:913
+msgid "European Union"
+msgstr "ইউরোপিয়ান ইউনিয়ান"
+
+#: ../src/common/util.c:914
+msgid "Finland"
+msgstr "ফিনল্যান্ড"
+
+#: ../src/common/util.c:915
+msgid "Fiji"
+msgstr "ফিজি"
+
+#: ../src/common/util.c:916
+msgid "Falkland Islands"
+msgstr "ফল্কল্যান্ড দ্বীপপুঞ্জ"
+
+#: ../src/common/util.c:917
+msgid "Micronesia"
+msgstr "মাইক্রোনেশিয়া"
+
+#: ../src/common/util.c:918
+msgid "Faroe Islands"
+msgstr "ফ্যারো দ্বীপপুঞ্জ"
+
+#: ../src/common/util.c:919
+msgid "France"
+msgstr "ফ্রান্স"
+
+#: ../src/common/util.c:920
+msgid "Gabon"
+msgstr "গেবন"
+
+#: ../src/common/util.c:921
+msgid "Great Britain"
+msgstr "গ্রেট ব্রিটেন"
+
+#: ../src/common/util.c:922
+msgid "Grenada"
+msgstr "গ্রেনাডা"
+
+#: ../src/common/util.c:923
+msgid "Georgia"
+msgstr "জর্জিয়া"
+
+#: ../src/common/util.c:924
+msgid "French Guiana"
+msgstr "ফ্রেঞ্চ গায়ানা"
+
+#: ../src/common/util.c:925
+msgid "British Channel Isles"
+msgstr "ব্রিটিশ চ্যানেল আইল"
+
+#: ../src/common/util.c:926
+msgid "Ghana"
+msgstr "ঘানা"
+
+#: ../src/common/util.c:927
+msgid "Gibraltar"
+msgstr "জিব্রাল্টার"
+
+#: ../src/common/util.c:928
+msgid "Greenland"
+msgstr "গ্রিনল্যান্ড"
+
+#: ../src/common/util.c:929
+msgid "Gambia"
+msgstr "গাম্বিয়া"
+
+#: ../src/common/util.c:930
+msgid "Guinea"
+msgstr "গিনি"
+
+#: ../src/common/util.c:931
+msgid "Government"
+msgstr "সরকারী প্রতিষ্ঠান"
+
+#: ../src/common/util.c:932
+msgid "Guadeloupe"
+msgstr "গুয়াডেল্যুপ"
+
+#: ../src/common/util.c:933
+msgid "Equatorial Guinea"
+msgstr "ইকুয়েটোরিয়াল গিনি"
+
+#: ../src/common/util.c:934
+msgid "Greece"
+msgstr "গ্রিস"
+
+#: ../src/common/util.c:935
+msgid "S. Georgia and S. Sandwich Isles"
+msgstr "দক্ষিণ জর্জিয়া ও দক্ষিণ স্যান্ডউইচ দ্বীপপুঞ্জ"
+
+#: ../src/common/util.c:936
+msgid "Guatemala"
+msgstr "গুয়াতেমালা"
+
+#: ../src/common/util.c:937
+msgid "Guam"
+msgstr "গুয়াম"
+
+#: ../src/common/util.c:938
+msgid "Guinea-Bissau"
+msgstr "গিনি-বিসাউ"
+
+#: ../src/common/util.c:939
+msgid "Guyana"
+msgstr "গায়ানা"
+
+#: ../src/common/util.c:940
+msgid "Hong Kong"
+msgstr "হং কং"
+
+#: ../src/common/util.c:941
+msgid "Heard and McDonald Islands"
+msgstr "হার্ড ও ম্যাকডোনাল্ড দ্বীপপুঞ্জ"
+
+#: ../src/common/util.c:942
+msgid "Honduras"
+msgstr "হন্ডুরাস"
+
+#: ../src/common/util.c:943
+msgid "Croatia"
+msgstr "ক্রোয়েশিয়া"
+
+#: ../src/common/util.c:944
+msgid "Haiti"
+msgstr "হাইতি"
+
+#: ../src/common/util.c:945
+msgid "Hungary"
+msgstr "হাঙ্গেরি"
+
+#: ../src/common/util.c:946
+msgid "Indonesia"
+msgstr "ইন্দোনেশিয়া"
+
+#: ../src/common/util.c:947
+msgid "Ireland"
+msgstr "আয়ারল্যান্ড"
+
+#: ../src/common/util.c:948
+msgid "Israel"
+msgstr "ইজরাইল"
+
+#: ../src/common/util.c:949
+msgid "Isle of Man"
+msgstr "আইল অফ ম্যান"
+
+#: ../src/common/util.c:950
+msgid "India"
+msgstr "ভারত"
+
+#: ../src/common/util.c:951
+msgid "Informational"
+msgstr "তথ্যমূলক"
+
+#: ../src/common/util.c:952
+msgid "International"
+msgstr "আন্তর্জাতিক"
+
+#: ../src/common/util.c:953
+msgid "British Indian Ocean Territory"
+msgstr "ব্রিটিশ ভারতীয় মহাসাগরীয় অঞ্চল"
+
+#: ../src/common/util.c:954
+msgid "Iraq"
+msgstr "ইরাক"
+
+#: ../src/common/util.c:955
+msgid "Iran"
+msgstr "ইরাণ"
+
+#: ../src/common/util.c:956
+msgid "Iceland"
+msgstr "আইসল্যান্ড"
+
+#: ../src/common/util.c:957
+msgid "Italy"
+msgstr "ইটালি"
+
+#: ../src/common/util.c:958
+msgid "Jersey"
+msgstr "জার্সি"
+
+#: ../src/common/util.c:959
+msgid "Jamaica"
+msgstr "জামাইকা"
+
+#: ../src/common/util.c:960
+msgid "Jordan"
+msgstr "জর্ডান"
+
+#: ../src/common/util.c:961
+msgid "Japan"
+msgstr "জাপান"
+
+#: ../src/common/util.c:962
+msgid "Kenya"
+msgstr "কেনিয়া"
+
+#: ../src/common/util.c:963
+msgid "Kyrgyzstan"
+msgstr "কির্গিজস্তান"
+
+#: ../src/common/util.c:964
+msgid "Cambodia"
+msgstr "ক্যাম্বোডিয়া"
+
+#: ../src/common/util.c:965
+msgid "Kiribati"
+msgstr "কিরিবাস"
+
+#: ../src/common/util.c:966
+msgid "Comoros"
+msgstr "কোমোরোস"
+
+#: ../src/common/util.c:967
+msgid "St. Kitts and Nevis"
+msgstr "সেন্ট কিটস ও নেভিস"
+
+#: ../src/common/util.c:968
+msgid "North Korea"
+msgstr "উত্তর কোরিয়া"
+
+#: ../src/common/util.c:969
+msgid "South Korea"
+msgstr "দক্ষিণ কোরিয়া"
+
+#: ../src/common/util.c:970
+msgid "Kuwait"
+msgstr "কুয়েত"
+
+#: ../src/common/util.c:971
+msgid "Cayman Islands"
+msgstr "কেম্যান দ্বীপপুঞ্জ"
+
+#: ../src/common/util.c:972
+msgid "Kazakhstan"
+msgstr "কাজাখস্তান"
+
+#: ../src/common/util.c:973
+msgid "Laos"
+msgstr "লাওস"
+
+#: ../src/common/util.c:974
+msgid "Lebanon"
+msgstr "লেবানন"
+
+#: ../src/common/util.c:975
+msgid "Saint Lucia"
+msgstr "সেন্ট লুসিয়া"
+
+#: ../src/common/util.c:976
+msgid "Liechtenstein"
+msgstr "লিখতেনস্টাইন"
+
+#: ../src/common/util.c:977
+msgid "Sri Lanka"
+msgstr "শ্রীলঙ্কা"
+
+#: ../src/common/util.c:978
+msgid "Liberia"
+msgstr "লাইবেরিয়া"
+
+#: ../src/common/util.c:979
+msgid "Lesotho"
+msgstr "লেসোথো"
+
+#: ../src/common/util.c:980
+msgid "Lithuania"
+msgstr "লিথুয়ানিয়া"
+
+#: ../src/common/util.c:981
+msgid "Luxembourg"
+msgstr "লাক্সেমবুর্গ"
+
+#: ../src/common/util.c:982
+msgid "Latvia"
+msgstr "লাটভিয়া"
+
+#: ../src/common/util.c:983
+msgid "Libya"
+msgstr "লিবিয়া"
+
+#: ../src/common/util.c:984
+msgid "Morocco"
+msgstr "মরোক্কো"
+
+#: ../src/common/util.c:985
+msgid "Monaco"
+msgstr "মোনাকো"
+
+#: ../src/common/util.c:986
+msgid "Moldova"
+msgstr "মোলডোভা"
+
+#: ../src/common/util.c:987
+msgid "United States Medical"
+msgstr "মার্কিন যুক্তরাষ্ট্র মেডিক্যাল"
+
+#: ../src/common/util.c:988
+msgid "Madagascar"
+msgstr "মাদাগাস্কার"
+
+#: ../src/common/util.c:989
+msgid "Marshall Islands"
+msgstr "মার্শাল দ্বীপপুঞ্জ"
+
+#: ../src/common/util.c:990
+msgid "Military"
+msgstr "সামরিক বাহিণী"
+
+#: ../src/common/util.c:991
+msgid "Macedonia"
+msgstr "মেসিডোনিয়া"
+
+#: ../src/common/util.c:992
+msgid "Mali"
+msgstr "মালি"
+
+#: ../src/common/util.c:993
+msgid "Myanmar"
+msgstr "মায়ানমার"
+
+#: ../src/common/util.c:994
+msgid "Mongolia"
+msgstr "মঙ্গোলিয়া"
+
+#: ../src/common/util.c:995
+msgid "Macau"
+msgstr "ম্যাকাও"
+
+#: ../src/common/util.c:996
+msgid "Northern Mariana Islands"
+msgstr "উত্তর মারিয়ানা দ্বীপ"
+
+#: ../src/common/util.c:997
+msgid "Martinique"
+msgstr "মার্টিনিক"
+
+#: ../src/common/util.c:998
+msgid "Mauritania"
+msgstr "মরিটানিয়া"
+
+#: ../src/common/util.c:999
+msgid "Montserrat"
+msgstr "মন্টসেরাত"
+
+#: ../src/common/util.c:1000
+msgid "Malta"
+msgstr "মল্টা"
+
+#: ../src/common/util.c:1001
+msgid "Mauritius"
+msgstr "মরিশাস"
+
+#: ../src/common/util.c:1002
+msgid "Maldives"
+msgstr "মালডিভস"
+
+#: ../src/common/util.c:1003
+msgid "Malawi"
+msgstr "মালাউই"
+
+#: ../src/common/util.c:1004
+msgid "Mexico"
+msgstr "মেক্সিকো"
+
+#: ../src/common/util.c:1005
+msgid "Malaysia"
+msgstr "মালেশিয়া"
+
+#: ../src/common/util.c:1006
+msgid "Mozambique"
+msgstr "মোজাম্বিক"
+
+#: ../src/common/util.c:1007
+msgid "Namibia"
+msgstr "নামিবিয়া"
+
+#: ../src/common/util.c:1008
+msgid "New Caledonia"
+msgstr "নিউ ক্যালেডোনিয়া"
+
+#: ../src/common/util.c:1009
+msgid "Niger"
+msgstr "নাইজার"
+
+#: ../src/common/util.c:1010
+msgid "Internic Network"
+msgstr "ইন্টারনিক নেটওয়ার্ক"
+
+#: ../src/common/util.c:1011
+msgid "Norfolk Island"
+msgstr "নরফোল্ক দ্বীপ"
+
+#: ../src/common/util.c:1012
+msgid "Nigeria"
+msgstr "নাইজেরিয়া"
+
+#: ../src/common/util.c:1013
+msgid "Nicaragua"
+msgstr "নিকারাগুয়া"
+
+#: ../src/common/util.c:1014
+msgid "Netherlands"
+msgstr "নেদারল্যান্ড"
+
+#: ../src/common/util.c:1015
+msgid "Norway"
+msgstr "নরওয়ে"
+
+#: ../src/common/util.c:1016
+msgid "Nepal"
+msgstr "নেপাল"
+
+#: ../src/common/util.c:1017
+msgid "Nauru"
+msgstr "নাউরু"
+
+#: ../src/common/util.c:1018
+msgid "Niue"
+msgstr "নিউ"
+
+#: ../src/common/util.c:1019
+msgid "New Zealand"
+msgstr "নিউজিল্যান্ড"
+
+#: ../src/common/util.c:1020
+msgid "Oman"
+msgstr "ওমান"
+
+#: ../src/common/util.c:1021
+msgid "Internic Non-Profit Organization"
+msgstr "ইন্টারনিক অলাভজনক প্রতিষ্ঠান"
+
+#: ../src/common/util.c:1022
+msgid "Panama"
+msgstr "পানামা"
+
+#: ../src/common/util.c:1023
+msgid "Peru"
+msgstr "পেরু"
+
+#: ../src/common/util.c:1024
+msgid "French Polynesia"
+msgstr "ফ্রেঞ্চ পলিনেশিয়া"
+
+#: ../src/common/util.c:1025
+msgid "Papua New Guinea"
+msgstr "পাপুয়া নিউ গিনি"
+
+#: ../src/common/util.c:1026
+msgid "Philippines"
+msgstr "ফিলিপাইনস"
+
+#: ../src/common/util.c:1027
+msgid "Pakistan"
+msgstr "পাকিস্তান"
+
+#: ../src/common/util.c:1028
+msgid "Poland"
+msgstr "পোল্যান্ড"
+
+#: ../src/common/util.c:1029
+msgid "St. Pierre and Miquelon"
+msgstr "সেন্ট পিয়ের ও মিকেলন"
+
+#: ../src/common/util.c:1030
+msgid "Pitcairn"
+msgstr "পিটকেয়ার্ন"
+
+#: ../src/common/util.c:1031
+msgid "Puerto Rico"
+msgstr "পুয়ের্তো রিকো"
+
+#: ../src/common/util.c:1032
+msgid "Palestinian Territory"
+msgstr "প্যালেস্তিনিয়ান অঞ্চল"
+
+#: ../src/common/util.c:1033
+msgid "Portugal"
+msgstr "পোর্টুগাল"
+
+#: ../src/common/util.c:1034
+msgid "Palau"
+msgstr "পালাউ"
+
+#: ../src/common/util.c:1035
+msgid "Paraguay"
+msgstr "প্যারাগুয়ে"
+
+#: ../src/common/util.c:1036
+msgid "Qatar"
+msgstr "কাতার"
+
+#: ../src/common/util.c:1037
+msgid "Reunion"
+msgstr "রিইউনিয়ান"
+
+#: ../src/common/util.c:1038
+msgid "Romania"
+msgstr "রোমানিয়া"
+
+#: ../src/common/util.c:1039
+msgid "Old School ARPAnet"
+msgstr "পুরোনো ARPAnet"
+
+#: ../src/common/util.c:1040
+msgid "Russian Federation"
+msgstr "রুশ যুক্তরাষ্ট্র"
+
+#: ../src/common/util.c:1041
+msgid "Rwanda"
+msgstr "রওয়ান্ডা"
+
+#: ../src/common/util.c:1042
+msgid "Saudi Arabia"
+msgstr "সৌদি আরব"
+
+#: ../src/common/util.c:1043
+msgid "Solomon Islands"
+msgstr "সলোমান দ্বীপপুঞ্জ"
+
+#: ../src/common/util.c:1044
+msgid "Seychelles"
+msgstr "সেশেলস"
+
+#: ../src/common/util.c:1045
+msgid "Sudan"
+msgstr "সুদান"
+
+#: ../src/common/util.c:1046
+msgid "Sweden"
+msgstr "সুইডেন"
+
+#: ../src/common/util.c:1047
+msgid "Singapore"
+msgstr "সিঙ্গাপুর"
+
+#: ../src/common/util.c:1048
+msgid "St. Helena"
+msgstr "সেন্ট হেলেনা"
+
+#: ../src/common/util.c:1049
+msgid "Slovenia"
+msgstr "স্লোভেনিয়া"
+
+#: ../src/common/util.c:1050
+msgid "Svalbard and Jan Mayen Islands"
+msgstr "সয়ালবার্ড ও ইয়ানমায়েন দ্বীপপুঞ্জ"
+
+#: ../src/common/util.c:1051
+msgid "Slovak Republic"
+msgstr "স্লোভাক প্রজাতন্ত্র"
+
+#: ../src/common/util.c:1052
+msgid "Sierra Leone"
+msgstr "সিয়েরা লিওন"
+
+#: ../src/common/util.c:1053
+msgid "San Marino"
+msgstr "সান মারিনো"
+
+#: ../src/common/util.c:1054
+msgid "Senegal"
+msgstr "সেনেগাল"
+
+#: ../src/common/util.c:1055
+msgid "Somalia"
+msgstr "সোমালিয়া"
+
+#: ../src/common/util.c:1056
+msgid "Suriname"
+msgstr "সুরিনাম"
+
+#: ../src/common/util.c:1057
+msgid "Sao Tome and Principe"
+msgstr "সাও টোমে ও প্রিন্সিপে"
+
+#: ../src/common/util.c:1058
+msgid "Former USSR"
+msgstr "প্রাক্তণ ইউএসএসআর"
+
+#: ../src/common/util.c:1059
+msgid "El Salvador"
+msgstr "এল সালভাডোর"
+
+#: ../src/common/util.c:1060
+msgid "Syria"
+msgstr "সিরিয়া"
+
+#: ../src/common/util.c:1061
+msgid "Swaziland"
+msgstr "সোয়াজিল্যান্ড"
+
+#: ../src/common/util.c:1062
+msgid "Turks and Caicos Islands"
+msgstr "টার্কস ও কেইকোস দ্বীপ"
+
+#: ../src/common/util.c:1063
+msgid "Chad"
+msgstr "চাড"
+
+#: ../src/common/util.c:1064
+msgid "French Southern Territories"
+msgstr "ফ্রেঞ্চ দক্ষিণ অঞ্চল"
+
+#: ../src/common/util.c:1065
+msgid "Togo"
+msgstr "টোগো"
+
+#: ../src/common/util.c:1066
+msgid "Thailand"
+msgstr "থাইল্যান্ড"
+
+#: ../src/common/util.c:1067
+msgid "Tajikistan"
+msgstr "তাজিকিস্তান"
+
+#: ../src/common/util.c:1068
+msgid "Tokelau"
+msgstr "টোকেলাউ"
+
+#: ../src/common/util.c:1069 ../src/common/util.c:1073
+msgid "East Timor"
+msgstr "পূর্ব টিমোর"
+
+#: ../src/common/util.c:1070
+msgid "Turkmenistan"
+msgstr "তুর্কমেনিস্তান"
+
+#: ../src/common/util.c:1071
+msgid "Tunisia"
+msgstr "টিউনিশিয়া"
+
+#: ../src/common/util.c:1072
+msgid "Tonga"
+msgstr "টোঙ্গা"
+
+#: ../src/common/util.c:1074
+msgid "Turkey"
+msgstr "তুর্কি"
+
+#: ../src/common/util.c:1075
+msgid "Trinidad and Tobago"
+msgstr "ত্রিনিদাদ ও টোবাগো"
+
+#: ../src/common/util.c:1076
+msgid "Tuvalu"
+msgstr "টুভালু"
+
+#: ../src/common/util.c:1077
+msgid "Taiwan"
+msgstr "তাইওয়ান"
+
+#: ../src/common/util.c:1078
+msgid "Tanzania"
+msgstr "তানজানিয়া"
+
+#: ../src/common/util.c:1079
+msgid "Ukraine"
+msgstr "ইউক্রেন"
+
+#: ../src/common/util.c:1080
+msgid "Uganda"
+msgstr "উগান্ডা"
+
+#: ../src/common/util.c:1081
+msgid "United Kingdom"
+msgstr "যুক্তরাজ্য"
+
+#: ../src/common/util.c:1082
+msgid "United States of America"
+msgstr "আমেরিকা মার্কিন যুক্তরাষ্ট্র"
+
+#: ../src/common/util.c:1083
+msgid "Uruguay"
+msgstr "উরুগুয়ে"
+
+#: ../src/common/util.c:1084
+msgid "Uzbekistan"
+msgstr "উজবেকিস্তান"
+
+#: ../src/common/util.c:1085
+msgid "Vatican City State"
+msgstr "ভ্যাটিকেন সিটি রাজ্য"
+
+#: ../src/common/util.c:1086
+msgid "St. Vincent and the Grenadines"
+msgstr "সেন্ট ভিনসেন্ট ও গ্রেনাডিনস"
+
+#: ../src/common/util.c:1087
+msgid "Venezuela"
+msgstr "ভেনেজুয়েলা"
+
+#: ../src/common/util.c:1088
+msgid "British Virgin Islands"
+msgstr "ব্রিটিশ ভার্জিন দ্বীপ"
+
+#: ../src/common/util.c:1089
+msgid "US Virgin Islands"
+msgstr "মার্কিন যুক্তরাষ্ট্র ভার্জিন দ্বীপপুঞ্জ"
+
+#: ../src/common/util.c:1090
+msgid "Vietnam"
+msgstr "ভিয়েতনাম"
+
+#: ../src/common/util.c:1091
+msgid "Vanuatu"
+msgstr "ভানুয়াটু"
+
+#: ../src/common/util.c:1092
+msgid "Wallis and Futuna Islands"
+msgstr "ওয়ালিস ও ফুটুনা দ্বীপপুঞ্জ"
+
+#: ../src/common/util.c:1093
+msgid "Samoa"
+msgstr "সামোয়া"
+
+#: ../src/common/util.c:1094
+msgid "Yemen"
+msgstr "ইয়েমেন"
+
+#: ../src/common/util.c:1095
+msgid "Mayotte"
+msgstr "মেওতে"
+
+#: ../src/common/util.c:1096
+msgid "Yugoslavia"
+msgstr "যুগোস্লাভিয়া"
+
+#: ../src/common/util.c:1097
+msgid "South Africa"
+msgstr "দক্ষিণ আফ্রিকা"
+
+#: ../src/common/util.c:1098
+msgid "Zambia"
+msgstr "জাম্বিয়া"
+
+#: ../src/common/util.c:1099
+msgid "Zimbabwe"
+msgstr "জিম্বাবুয়ে"
+
+#: ../src/common/util.c:1109 ../src/common/util.c:1119
+#: ../src/fe-gnome/userlist-gui.c:432
+msgid "Unknown"
+msgstr "অজানা"
+
+#: ../src/common/xchat.c:767 ../src/common/xchat.c:893
+msgid "Open Dialog Window"
+msgstr "ডায়লগ উইন্ডো খুলুন"
+
+#: ../src/common/xchat.c:768
+msgid "Send a File"
+msgstr "একটি ফাইল পাঠান"
+
+#: ../src/common/xchat.c:769
+msgid "User Info (WHOIS)"
+msgstr "ব্যবহারকারী সংক্রান্ত (WHOIS)"
+
+#: ../src/common/xchat.c:770
+msgid "Operator Actions"
+msgstr "অপারেটরের কর্ম"
+
+#: ../src/common/xchat.c:772 ../src/common/xchat.c:863
+msgid "Give Ops"
+msgstr "Ops প্রদান করুন"
+
+#: ../src/common/xchat.c:773 ../src/common/xchat.c:864
+msgid "Take Ops"
+msgstr "Ops প্রত্যাহার করুন"
+
+#: ../src/common/xchat.c:774 ../src/common/xchat.c:867
+msgid "Give Voice"
+msgstr "Voice অধিকার প্রদান করুন"
+
+#: ../src/common/xchat.c:775 ../src/common/xchat.c:868
+msgid "Take Voice"
+msgstr "Voice অধিকার প্রত্যাহার করুন"
+
+#: ../src/common/xchat.c:777 ../src/common/xchat.c:872
+msgid "Kick/Ban"
+msgstr "বিতাড়ন/প্রতিরোধ করুন"
+
+#: ../src/common/xchat.c:778 ../src/common/xchat.c:873
+#: ../src/common/xchat.c:922
+msgid "Kick"
+msgstr "বিতাড়ন করুন"
+
+#: ../src/common/xchat.c:779 ../src/common/xchat.c:780
+#: ../src/common/xchat.c:781 ../src/common/xchat.c:782
+#: ../src/common/xchat.c:783 ../src/common/xchat.c:874
+#: ../src/common/xchat.c:875 ../src/common/xchat.c:876
+#: ../src/common/xchat.c:877 ../src/common/xchat.c:878
+#: ../src/common/xchat.c:921
+msgid "Ban"
+msgstr "প্রতিরোধ করুন"
+
+#: ../src/common/xchat.c:784 ../src/common/xchat.c:785
+#: ../src/common/xchat.c:786 ../src/common/xchat.c:787
+#: ../src/common/xchat.c:879 ../src/common/xchat.c:880
+#: ../src/common/xchat.c:881 ../src/common/xchat.c:882
+msgid "KickBan"
+msgstr "বিতারণ ও প্রতিরোধ"
+
+#: ../src/common/xchat.c:850
+msgid "Direct client-to-client"
+msgstr "সরাসরি ক্লায়েন্ট-থেকে-ক্লায়েন্ট"
+
+#: ../src/common/xchat.c:851
+msgid "Send File"
+msgstr "ফাইল পাঠান"
+
+#: ../src/common/xchat.c:852
+msgid "Offer Chat"
+msgstr "আলাপনের অনুরোধ পেশ করুন"
+
+#: ../src/common/xchat.c:853
+msgid "Abort Chat"
+msgstr "আলাপনের অনুরোধ পরিত্যাগ করুন"
+
+#: ../src/common/xchat.c:854
+msgid "Version"
+msgstr "Version"
+
+#: ../src/common/xchat.c:855
+msgid "Userinfo"
+msgstr "Userinfo"
+
+#: ../src/common/xchat.c:856
+msgid "Clientinfo"
+msgstr "Clientinfo"
+
+#: ../src/common/xchat.c:857 ../src/common/xchat.c:891
+#: ../src/common/xchat.c:939
+msgid "Ping"
+msgstr "Ping"
+
+#: ../src/common/xchat.c:859
+msgid "Finger"
+msgstr "Finger"
+
+#: ../src/common/xchat.c:860
+msgid "Oper"
+msgstr "Oper"
+
+#: ../src/common/xchat.c:861
+msgid "Kill this user"
+msgstr "চিহ্নিত ব্যবহারকারীকে kill করুন"
+
+#: ../src/common/xchat.c:862
+msgid "Mode"
+msgstr "মোড"
+
+#: ../src/common/xchat.c:865
+msgid "Give Half-Ops"
+msgstr "Half-Ops প্রদান করুন"
+
+#: ../src/common/xchat.c:866
+msgid "Take Half-Ops"
+msgstr "Half-Ops প্রত্যাহার করুন"
+
+#: ../src/common/xchat.c:869 ../src/fe-gnome/userlist-gui.c:60
+msgid "Ignore"
+msgstr "Ignore"
+
+#: ../src/common/xchat.c:870
+msgid "Ignore User"
+msgstr "Ignore User"
+
+#: ../src/common/xchat.c:871
+msgid "UnIgnore User"
+msgstr "UnIgnore User"
+
+#: ../src/common/xchat.c:883
+msgid "Info"
+msgstr "Info"
+
+#: ../src/common/xchat.c:884
+msgid "Who"
+msgstr "Who"
+
+#: ../src/common/xchat.c:885 ../src/common/xchat.c:935
+msgid "WhoIs"
+msgstr "WhoIs"
+
+#: ../src/common/xchat.c:886
+msgid "DNS Lookup"
+msgstr "DNS Lookup"
+
+#: ../src/common/xchat.c:887
+msgid "Trace"
+msgstr "Trace"
+
+#: ../src/common/xchat.c:888
+msgid "UserHost"
+msgstr "UserHost"
+
+#: ../src/common/xchat.c:889
+msgid "External"
+msgstr "External"
+
+#: ../src/common/xchat.c:890
+msgid "Traceroute"
+msgstr "Traceroute"
+
+#: ../src/common/xchat.c:892
+msgid "Telnet"
+msgstr "Telnet"
+
+#: ../src/common/xchat.c:904
+msgid "Leave Channel"
+msgstr "চ্যানেল থেকে প্রস্থান করুন"
+
+#: ../src/common/xchat.c:905
+msgid "Join Channel..."
+msgstr "চ্যানেলে যোগ দিন..."
+
+#: ../src/common/xchat.c:906
+msgid "Enter Channel to Join:"
+msgstr "যোগ দেওয়ার উদ্দেশ্যে চ্যানেল নির্বাচন করুন:"
+
+#: ../src/common/xchat.c:907
+msgid "Server Links"
+msgstr "সার্ভারের লিংক"
+
+#: ../src/common/xchat.c:908
+msgid "Ping Server"
+msgstr "সার্ভারে Ping করুন"
+
+#: ../src/common/xchat.c:909
+msgid "Hide Version"
+msgstr "সংস্করণ আড়াল করা হবে"
+
+#: ../src/common/xchat.c:919
+msgid "Op"
+msgstr "Op"
+
+#: ../src/common/xchat.c:920
+msgid "DeOp"
+msgstr "DeOp"
+
+#: ../src/common/xchat.c:923
+msgid "bye"
+msgstr "bye"
+
+#: ../src/common/xchat.c:924
+#, c-format
+msgid "Enter reason to kick %s:"
+msgstr "%s-কে বিতাড়ণের কারণ উল্লেখ করুন:"
+
+#: ../src/common/xchat.c:925
+msgid "Sendfile"
+msgstr "Sendfile"
+
+#: ../src/common/xchat.c:926
+msgid "Dialog"
+msgstr "ডায়লগ"
+
+#: ../src/common/xchat.c:936
+msgid "Send"
+msgstr "প্রেরণ"
+
+#: ../src/common/xchat.c:937
+msgid "Chat"
+msgstr "আলাপন"
+
+#: ../src/common/xchat.c:938
+msgid "Clear"
+msgstr "মুছে ফেলুন"
+
+#: ../src/common/dbus/dbus-plugin.c:31
+msgid "remote access"
+msgstr "দূরবর্তী ব্যবহার"
+
+#: ../src/common/dbus/dbus-plugin.c:32
+msgid "plugin for remote access using DBUS"
+msgstr "DBUS সহযোগে দূরবর্তী ব্যবহারের উদ্দেশ্যে একটি প্লাগ-ইন"
+
+#: ../src/common/dbus/dbus-plugin.c:900
+#, c-format
+msgid "Couldn't connect to session bus: %s\n"
+msgstr "সেশান বাসের সাথে সংযোগ স্থাপন করতে ব্যর্থ: %s\n"
+
+#: ../src/common/dbus/dbus-plugin.c:917
+#, c-format
+msgid "Failed to acquire %s: %s\n"
+msgstr "%s প্রাপ্ত করতে বিফল: %s\n"
+
+#: ../src/common/dbus/url_handler.schemas.in.h:1
+msgid "Run XChat-GNOME in a terminal?"
+msgstr "টার্মিন্যালে XChat-GNOME সঞ্চালিত হবে কি?"
+
+#: ../src/common/dbus/url_handler.schemas.in.h:2
+msgid "Set it at TRUE if you want it activated"
+msgstr "সক্রিয় অবস্থায় স্থাপন করতে ইচ্ছুক হলে এটি TRUE হিসাবে ধার্য করুন"
+
+#: ../src/common/dbus/url_handler.schemas.in.h:3
+msgid "The handler for \"irc://\" URLs"
+msgstr "\"irc://\" রূপের URL-গুলির হ্যান্ডলার"
+
+#: ../src/fe-gnome/about.c:62
+msgid ""
+"X-Chat GNOME is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version."
+msgstr ""
+"X-Chat GNOME একটি মুক্ত সফ্টওয়্যার; Free Software Foundation দ্বারা প্রকাশিত GNU "
+"General Public License-র শর্তানুযায়ী এটি বিতরণ ও পরিবর্তন করা যাবে; লাইসেন্সের "
+"সংস্করণ ২ অথবা (আপনার সুবিধানুযায়ী) ঊর্ধ্বতন কোনো সংস্করণের অধীন।"
+
+#: ../src/fe-gnome/about.c:67
+msgid ""
+"X-Chat GNOME is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details."
+msgstr ""
+"X-Chat GNOME বিতরণ করার মূল উদ্দেশ্য যে ব্যবহারকারীরা এর দ্বারা উপকৃত হবেন, কিন্তু "
+"এটির জন্য কোনো সুস্পষ্ট ওয়ারেন্টি উপস্থিত নেই; বাণিজ্যিক ও কোনো সুনির্দিষ্ট কর্ম সাধনের "
+"জন্য অন্তর্নিহীত ওয়ারেন্টিও অনুপস্থিত। অধিক জানতে GNU General Public License পড়ুন।"
+
+#: ../src/fe-gnome/about.c:72
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"X-Chat GNOME; if not, write to the Free Software Foundation, Inc., 59 Temple "
+"Place, Suite 330, Boston, MA  02111-1307  USA"
+msgstr ""
+"X-Chat GNOME-র সাথে GNU General Public License-র একটি প্রতিলিপি উপলব্ধ হওয়া "
+"উচিত; না থাকলে নিম্নলিখিত ঠিকানায় লিখে তা সংগ্রহ করুন Free Software Foundation, Inc., 59 Temple "
+"Place, Suite 330, Boston, MA  02111-1307  USA"
+
+#: ../src/fe-gnome/about.c:82
+msgid "XChat-GNOME"
+msgstr "XChat-GNOME"
+
+#. Translators: Don't try to translate this literally.
+#. * It is a running gag from a british comedy television
+#. * programme; either leave it as-is or replace it with
+#. * something comparable but inoffensive in your language.
+#.
+#: ../src/fe-gnome/about.c:90
+msgid "“Listen very carefully, I shall say this only once.”"
+msgstr "“শুধু একটিবার বলিব।”"
+
+#: ../src/fe-gnome/about.c:94
+msgid "XChat-GNOME Web Site"
+msgstr "XChat-GNOME ওয়েব সাইট"
+
+#. Translators: This is a special message that shouldn't
+#. * be translated literally. It is used in the about box
+#. * to give credits to the translators. Thus, you should
+#. * translate it to your name and email address. You
+#. * should also include other translators who have
+#. * contributed to this translation; in that case, please
+#. * write each of them on a separated line seperated by
+#. * newlines (\n).
+#.
+#: ../src/fe-gnome/about.c:108
+msgid "translator-credits"
+msgstr "রুণা ভট্টাচার্য্য (runab@redhat.com)"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:1
+msgid "Automatically display the channel list dialog"
+msgstr "স্বয়ংক্রিয়ভাবে চ্যানেলের তালিকার ডায়লগ প্রদর্শন করা হবে"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:2
+msgid "Background image filename"
+msgstr "পটভূমির ছবি রূপে ব্যবহৃত ফাইলের নাম"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:3
+msgid "Background transparency"
+msgstr "পটভূমির স্বচ্ছতা"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:4
+msgid "Colorize nicknames in the main window"
+msgstr "প্রধান উইন্ডোর মধ্যে উপনাম প্রদর্শনের সময় রং ব্যবহার করা হবে"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:5
+msgid "Default nickname used by servers without special options set"
+msgstr "বিশেষ বিকল্প ধার্য না করা হলে সার্ভার দ্বারা ব্যবহারযোগ্য ডিফল্ট উপনাম"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:6
+msgid "Default real name used by servers without special options set"
+msgstr "বিশেষ বিকল্প ধার্য না করা হলে সার্ভার দ্বারা ব্যবহারযোগ্য ডিফল্ট নাম"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:7
+msgid "Display redundant nickstamps"
+msgstr "অপ্রয়োজীয় নিক-স্ট্যাম্প প্রদর্শন করা হবে"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:8
+msgid "Enable spellchecking"
+msgstr "বানান পরীক্ষণ সক্রিয় করা হবে"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:9
+msgid "Font for the main window"
+msgstr "প্রধান উইন্ডোর মধ্যে ব্যবহারযোগ্য ফন্ট"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:10
+msgid "Height of the channel list"
+msgstr "চ্যানেলের তালিকার উচ্চতা"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:11
+msgid "Height of the main window"
+msgstr "প্রধান উইন্ডোর উচ্চতা"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:12
+msgid ""
+"If set to true, when you join a server without automatically joining a "
+"channel, the channel list dialog will be displayed"
+msgstr "মান সত্য হলে, কোনো চ্যানেলে স্বয়ংক্রিয়ভাবে যোগ না দিয়ে একটি সার্ভারের সাথে সংযোগ স্থাপন করা হলে, চ্যানলের তালিকা বিশিষ্ট একটি ডায়লগ বক্স প্রদর্শন করা হবে"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:13
+msgid "Languages to use for spellchecking"
+msgstr "বানান পরীক্ষণের বিভিন্ন ভাষা"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:14
+msgid "List of enabled plugins"
+msgstr "সক্রিয় প্লাগ-ইনের তালিকা"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:15
+msgid "Message sent on away"
+msgstr "অনুপস্থিত থাকলে প্রেরিত বার্তা"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:16
+msgid "Message sent on channel part"
+msgstr "চ্যানেল থেকে প্রস্থানকালে প্রেরিত বার্তা"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:17
+msgid "Message sent on quit"
+msgstr "প্রস্থানকালে প্রেরিত বার্তা"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:18
+msgid "Position of the horizontal pane in the main window"
+msgstr "প্রধান উইন্ডোর মধ্যে অনুভূমিক পেইনের অবস্থান"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:19
+msgid "Selected background type"
+msgstr "নির্বাচিত পটভূমির ধরন"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:20
+msgid "Selected color scheme"
+msgstr "নির্বাচিত রংয়ের বিন্যাস"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:21
+msgid "Show colors in the main window"
+msgstr "প্রধান উইন্ডোর মধ্যে প্রদর্শিত রং"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:22
+msgid "Show timestamps in the main window"
+msgstr "প্রধান উইন্ডোর মধ্যে প্রদর্শিত সময়ের চিহ্ন"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:23
+msgid "Use system fonts"
+msgstr "সিস্টেমের ফন্ট প্রয়োগ করা হবে"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:24
+msgid "Whether the horizontal pane in the main window is shown"
+msgstr "প্রধান উইন্ডোর মধ্যে অনুভূমিক পেইন প্রদর্শন করা হবে কি না"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:25
+msgid "Whether the statusbar in the main window is shown"
+msgstr "প্রধান উইন্ডোর মধ্যে স্ট্যাটাস-বার প্রদর্শন করা হবে কি না"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:26
+msgid "Width of the channel list"
+msgstr "চ্যানেলের তালিকার প্রস্থ"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:27
+msgid "Width of the main window"
+msgstr "প্রধান উইন্ডোর প্রস্থ"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:28
+msgid "X position of the main window on the screen"
+msgstr "পর্দার মধ্যে প্রধান উইন্ডোর X অবস্থান"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:29
+msgid "Y position of the main window on the screen"
+msgstr "পর্দার মধ্যে প্রধান উইন্ডোর Y অবস্থান"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:30
+msgid "xchat configuration version"
+msgstr "xchat কনফিগারেশনের সংস্করণ"
+
+#: ../src/fe-gnome/channel-list-window.c:410
+#, c-format
+msgid "%s Channel List"
+msgstr "%s চ্যানেলের তালিকা"
+
+#: ../src/fe-gnome/connect-dialog.c:110
+msgid "This network doesn't have a server defined."
+msgstr "এই নেটওয়ার্কের ক্ষেত্রে কোনো সার্ভার নির্ধারিত হয়নি।"
+
+#: ../src/fe-gnome/connect-dialog.c:112
+#, c-format
+msgid "Please add at least one server to the %s network."
+msgstr "অনুগ্রহ করে %s নেটওয়ার্কের জন্য অন্তত একটি সার্ভার সংযোজন করুন।"
+
+#: ../src/fe-gnome/conversation-panel.c:168
+msgid "_Open Link in Browser"
+msgstr "ব্রাউজারের মধ্যে লিংক প্রদর্শন করা হবে (_O)"
+
+#: ../src/fe-gnome/conversation-panel.c:169
+msgid "_Copy Link Location"
+msgstr "লিংক দ্বারা চিহ্নিত অবস্থান কপি করুন (_C)"
+
+#: ../src/fe-gnome/conversation-panel.c:173
+msgid "Se_nd Message To..."
+msgstr "চিহ্নিত ব্যবহারকারীকে বার্তা প্রেরণ করুন...(_n)"
+
+#: ../src/fe-gnome/conversation-panel.c:174
+msgid "_Copy Address"
+msgstr "ঠিকানা কপি করুন (_C)"
+
+#: ../src/fe-gnome/conversation-panel.c:178
+msgid "_Send File"
+msgstr "ফাইল পাঠান (_S)"
+
+#: ../src/fe-gnome/conversation-panel.c:179
+msgid "Paste File _Contents"
+msgstr "ফাইলের মধ্যে উপস্থিত সামগ্রী পেস্ট করুন (_C)"
+
+#: ../src/fe-gnome/conversation-panel.c:180
+msgid "Paste File_name"
+msgstr "ফাইলের নাম পেস্ট করুন (_n)"
+
+#: ../src/fe-gnome/conversation-panel.c:181
+msgid "_Cancel"
+msgstr "বাতিল (_C)"
+
+#: ../src/fe-gnome/conversation-panel.c:185 ../src/fe-gnome/main-window.c:113
+msgid "_Copy"
+msgstr "কপি করুন (_C)"
+
+#: ../src/fe-gnome/conversation-panel.c:856
+#, c-format
+msgid "Error reading file \"%s\": %s\n"
+msgstr "\"%s\" ফাইলটি পড়তে ব্যর্থ: %s\n"
+
+#: ../src/fe-gnome/conversation-panel.c:872
+#, c-format
+msgid "Error converting URI \"%s\" into filename: %s\n"
+msgstr "URI \"%s\"-কে ফাইলের নামে হিসাবে রূপান্তর করতে ত্রুটি: %s\n"
+
+#: ../src/fe-gnome/conversation-panel.c:923
+#, c-format
+msgid "Error retrieving file information for \"%s\": %s\n"
+msgstr "\"%s\"-র ক্ষেত্রে ফাইল সংক্রান্ত তথ্য প্রাপ্ত করতে সমস্যা দেখা দিয়েছে: %s\n"
+
+#: ../src/fe-gnome/conversation-panel.c:1021
+msgid "Save Transcript"
+msgstr "ট্রান্সস্ক্রিপ্ট সংরক্ষণ করুন"
+
+#: ../src/fe-gnome/conversation-panel.c:1047
+#: ../src/fe-gnome/conversation-panel.c:1057
+#, c-format
+msgid "Error saving %s"
+msgstr "%s সংরক্ষণ করতে সমস্যা"
+
+#: ../src/fe-gnome/conversation-panel.c:1192
+msgid "Search buffer is empty.\n"
+msgstr "অনুসন্ধানের বাফারের মধ্যে বর্তমানে কোনো তথ্য উপস্থিত নেই।\n"
+
+#. File completion percent
+#: ../src/fe-gnome/dcc-window.c:141
+msgid "%"
+msgstr "%"
+
+#: ../src/fe-gnome/dcc-window.c:142
+msgid "File"
+msgstr "ফাইল"
+
+#: ../src/fe-gnome/dcc-window.c:143
+msgid "Remaining"
+msgstr "অবশিষ্ট"
+
+#: ../src/fe-gnome/dcc-window.c:218
+msgid "Incoming File Transfer"
+msgstr "ফাইল বিনিময় -আগমনকারী সংযোগ"
+
+#: ../src/fe-gnome/dcc-window.c:219 ../src/fe-gnome/fe-gnome.c:507
+msgid "_Accept"
+msgstr "গ্রহণ করুন (_A)"
+
+#: ../src/fe-gnome/dcc-window.c:220
+#, c-format
+msgid ""
+"%s is attempting to send you a file named \"%s\". Do you wish to accept the "
+"transfer?"
+msgstr "%s দ্বারা \"%s\" নামক একটি ফাইল পাঠানোর প্রচেষ্টা করা হয়েছে। আপনি কি এটি গ্রহণ করতে ইচ্ছুক?"
+
+#: ../src/fe-gnome/dcc-window.c:240
+#, c-format
+msgid ""
+"<b>%s</b>\n"
+"<small>from %s</small>\n"
+"%s of %s"
+msgstr ""
+"<b>%s</b>\n"
+"<small>%s থেকে আগত</small>\n"
+"%s, সর্বমোট %s"
+
+#: ../src/fe-gnome/dcc-window.c:251
+msgid "starting"
+msgstr "আরম্ভ করা হয়েছে"
+
+#: ../src/fe-gnome/dcc-window.c:282
+#, c-format
+msgid ""
+"<b>%s</b>\n"
+"<small>from %s</small>\n"
+"%s of %s at %s/s"
+msgstr ""
+"<b>%s</b>\n"
+"<small>%s থেকে আগত</small>\n"
+"%s, সর্বমোট %s %s/s গতিতে"
+
+#: ../src/fe-gnome/dcc-window.c:289
+msgid "queued"
+msgstr "অপেক্ষারত"
+
+#: ../src/fe-gnome/dcc-window.c:294
+#, c-format
+msgid "Transfer of %s to %s failed"
+msgstr "%s-কে %s-এ পরিবহণ করতে বিফল"
+
+#: ../src/fe-gnome/dcc-window.c:296
+#, c-format
+msgid "Transfer of %s from %s failed"
+msgstr "%s-কে %s থেকে পরিবহণ করতে ব্যর্থ"
+
+#: ../src/fe-gnome/dcc-window.c:297
+msgid "Transfer failed"
+msgstr "পরিবহন করতে বিফল"
+
+#: ../src/fe-gnome/dcc-window.c:305
+msgid "aborted"
+msgstr "পরিত্যাক্ত"
+
+#: ../src/fe-gnome/dcc-window.c:308
+msgid "stalled"
+msgstr "স্থগিত"
+
+#: ../src/fe-gnome/dcc-window.c:312
+#, c-format
+msgid "%.2d:%.2d:%.2d"
+msgstr "%.2d:%.2d:%.2d"
+
+#: ../src/fe-gnome/dcc-window.c:314
+#, c-format
+msgid "%.2d:%.2d"
+msgstr "%.2d:%.2d"
+
+#: ../src/fe-gnome/dcc-window.c:418
+msgid "Send File..."
+msgstr "ফাইল পাঠান..."
+
+#: ../src/fe-gnome/fe-gnome.c:63
+msgid "Full-screen the window"
+msgstr "সম্পূর্ণ পর্দাজুড়ে উইন্ডো প্রদর্শন"
+
+#: ../src/fe-gnome/fe-gnome.c:64
+msgid "Use directory instead of the default config dir"
+msgstr "ডিফল্ট কনফিগ ডিরেক্টরির বদলে একটি ডিরেক্টরি ব্যবহার করা হবে"
+
+#: ../src/fe-gnome/fe-gnome.c:65
+msgid "Don't auto-connect to servers"
+msgstr "স্বয়ংক্রিয়ভাবে সার্ভারের সাথে সংযোগ স্থাপন করা হবে না"
+
+#: ../src/fe-gnome/fe-gnome.c:66
+msgid "Don't auto-load plugins"
+msgstr "স্বয়ংক্রিয়ভাবে প্লাগ-ইন লোড করা হবে না"
+
+#: ../src/fe-gnome/fe-gnome.c:67
+msgid "Open an irc:// url"
+msgstr "একটি irc:// url খুলুন"
+
+#: ../src/fe-gnome/fe-gnome.c:68
+msgid "Open URL in an existing XChat-GNOME instance"
+msgstr "একটি উপস্থিত XChat-GNOME ইনস্ট্যান্সের মধ্যে URL খোলা হবে"
+
+#: ../src/fe-gnome/fe-gnome.c:69
+msgid "Show version information"
+msgstr "সংস্করণ সংক্রান্ত তথ্য প্রদর্শন করা হবে"
+
+#: ../src/fe-gnome/fe-gnome.c:111
+#, c-format
+msgid ""
+"xchat-gnome: %s\n"
+"Try `xchat-gnome --help' for more information\n"
+msgstr ""
+"xchat-gnome: %s\n"
+"অধিক বিবরণের জন্য `xchat-gnome --help' প্রয়োগ করুন\n"
+
+#: ../src/fe-gnome/fe-gnome.c:505
+msgid "Incoming DCC Chat"
+msgstr "আগমনকারী DCC চ্যাট"
+
+#: ../src/fe-gnome/fe-gnome.c:510
+#, c-format
+msgid ""
+"%s is attempting to create a direct chat. Do you wish to accept the "
+"connection?"
+msgstr "%s দ্বারা একটি সরাসরি আলাপনের প্রচেষ্টা করা হচ্ছে। আপনি কি এই সংযোগ গ্রহণ করতে ইচ্ছুক?"
+
+#: ../src/fe-gnome/fe-gnome.c:939
+#, c-format
+msgid "Unable to show '%s'"
+msgstr "'%s' প্রদর্শন করতে ব্যর্থ"
+
+#: ../src/fe-gnome/find-bar.c:88
+msgid "Find:"
+msgstr "অনুসন্ধান:"
+
+#: ../src/fe-gnome/find-bar.c:89
+msgid "_Previous"
+msgstr "পূর্ববর্তী (_P)"
+
+#: ../src/fe-gnome/find-bar.c:91
+msgid "_Next"
+msgstr "পরবর্তী (_N)"
+
+#: ../src/fe-gnome/find-bar.c:208
+msgid "<span foreground=\"dark grey\">Reached end, continuing from top</span>"
+msgstr "<span foreground=\"dark grey\">সমাপ্তি ছোঁয়া হয়েছে, পুনরায় উপর থেকে সঞ্চালিত হবে</span>"
+
+#: ../src/fe-gnome/find-bar.c:215
+msgid ""
+"<span foreground=\"dark grey\">Reached beginning, continuing from bottom</"
+"span>"
+msgstr ""
+"<span foreground=\"dark grey\">প্রারম্ভ ছোঁয়া হয়েছে, পুনরায় উপর থেকে সঞ্চালিত হবে</"
+"span>"
+
+#: ../src/fe-gnome/find-bar.c:222
+msgid "<span foreground=\"red\">Search string not found</span>"
+msgstr "<span foreground=\"red\">অনুসন্ধান করা পংক্তিটি পাওয়া যায়নি</span>"
+
+#: ../src/fe-gnome/irc-network-editor.c:313
+msgid "Server"
+msgstr "সার্ভার"
+
+#: ../src/fe-gnome/irc-network-editor.c:322
+msgid "Key"
+msgstr "কি"
+
+#. We're creating a new network. Don't populate things from the structure
+#: ../src/fe-gnome/irc-network-editor.c:456
+msgid "New Network"
+msgstr "নতুন নেটওয়ার্ক"
+
+#: ../src/fe-gnome/irc-network-editor.c:464
+#, c-format
+msgid "%s Network Properties"
+msgstr "%s নেটওয়ার্ক সংক্রান্ত বৈশিষ্ট্য"
+
+#: ../src/fe-gnome/irc-network-editor.c:592
+#: ../src/fe-gnome/irc-network-editor.c:599
+#: ../src/fe-gnome/irc-network-editor.c:605
+msgid "Invalid input"
+msgstr "অবৈধ ইনপুট"
+
+#: ../src/fe-gnome/irc-network-editor.c:592
+msgid "You must enter a network name"
+msgstr "নেটওয়ার্কের নাম লেখা আবশ্যক"
+
+#: ../src/fe-gnome/irc-network-editor.c:599
+msgid "You must enter a nick name"
+msgstr "উপনাম লেখা আবশ্যক"
+
+#: ../src/fe-gnome/irc-network-editor.c:605
+msgid "You must enter a real name"
+msgstr "সঠিক নাম লেখঅ আবশ্যক"
+
+#: ../src/fe-gnome/irc-network-editor.c:612
+msgid "No Servers"
+msgstr "কোনো সার্ভার উপস্থিত নেই"
+
+#: ../src/fe-gnome/irc-network-editor.c:612
+msgid "You must add at least one server for this network"
+msgstr "এই নেটওয়ার্কের জন্য অন্তত একটি সার্ভার যোগ করা আবশ্যক"
+
+#: ../src/fe-gnome/irc-network.c:32
+msgid "UTF-8 (Unicode)"
+msgstr "UTF-8 (Unicode)"
+
+#: ../src/fe-gnome/irc-network.c:33
+msgid "ISO-8859-15 (Western Europe)"
+msgstr "ISO-8859-15 (পশ্চিম ইউরোপ)"
+
+#: ../src/fe-gnome/irc-network.c:34
+msgid "ISO-8859-2 (Central Europe)"
+msgstr "ISO-8859-2 (মধ্য ইউরোপ)"
+
+#: ../src/fe-gnome/irc-network.c:35
+msgid "ISO-8859-7 (Greek)"
+msgstr "ISO-8859-7 (গ্রিক)"
+
+#: ../src/fe-gnome/irc-network.c:36
+msgid "ISO-8859-8 (Hebrew)"
+msgstr "ISO-8859-8 (হিব্রু)"
+
+#: ../src/fe-gnome/irc-network.c:37
+msgid "ISO-8859-9 (Turkish)"
+msgstr "ISO-8859-9 (তুর্কি)"
+
+#: ../src/fe-gnome/irc-network.c:38
+msgid "ISO-2022-JP (Japanese)"
+msgstr "ISO-2022-JP (জাপানি)"
+
+#: ../src/fe-gnome/irc-network.c:39
+msgid "SJIS (Japanese)"
+msgstr "SJIS (জাপানি)"
+
+#: ../src/fe-gnome/irc-network.c:40
+msgid "CP949 (Korean)"
+msgstr "CP949 (কোরিয়ান)"
+
+#: ../src/fe-gnome/irc-network.c:41
+msgid "KOI8-R (Cyrillic)"
+msgstr "KOI8-R (সিরিলিক)"
+
+#: ../src/fe-gnome/irc-network.c:42
+msgid "CP1251 (Cyrillic)"
+msgstr "CP1251 (সিরিলিক)"
+
+#: ../src/fe-gnome/irc-network.c:43
+msgid "CP1256 (Arabic)"
+msgstr "CP1256 (আরবি)"
+
+#: ../src/fe-gnome/irc-network.c:44
+msgid "CP1257 (Baltic)"
+msgstr "CP1257 (বল্টিক)"
+
+#: ../src/fe-gnome/irc-network.c:45
+msgid "GB18030 (Chinese)"
+msgstr "GB18030 (চীনা)"
+
+#: ../src/fe-gnome/irc-network.c:46
+msgid "TIS-620 (Thai)"
+msgstr "TIS-620 (থাই)"
+
+#. Toplevel
+#: ../src/fe-gnome/main-window.c:97
+msgid "_IRC"
+msgstr "_IRC"
+
+#: ../src/fe-gnome/main-window.c:99
+msgid "In_sert"
+msgstr "সন্নিবেশ করুন (_s)"
+
+#: ../src/fe-gnome/main-window.c:100
+msgid "_Network"
+msgstr "নেটওয়ার্ক (_N)"
+
+#: ../src/fe-gnome/main-window.c:101
+msgid "_Discussion"
+msgstr "চর্চা (_D)"
+
+#: ../src/fe-gnome/main-window.c:102
+msgid "_View"
+msgstr "প্রদর্শন (_V)"
+
+#: ../src/fe-gnome/main-window.c:103
+msgid "_Help"
+msgstr "সাহায্য (_H)"
+
+#. IRC menu
+#: ../src/fe-gnome/main-window.c:107
+msgid "_Connect..."
+msgstr "সংযোগ করুন...(_C)"
+
+#: ../src/fe-gnome/main-window.c:108
+msgid "_File Transfers"
+msgstr "ফাইল বিনিময় (_F)"
+
+#: ../src/fe-gnome/main-window.c:109
+msgid "_Quit"
+msgstr "প্রস্থান (_Q)"
+
+#. Edit menu
+#: ../src/fe-gnome/main-window.c:112
+msgid "Cu_t"
+msgstr "কাট করুন (_t)"
+
+#: ../src/fe-gnome/main-window.c:114
+msgid "_Paste"
+msgstr "পেস্ট করুন (_P)"
+
+#: ../src/fe-gnome/main-window.c:115
+msgid "Prefere_nces"
+msgstr "পছন্দ (_n)"
+
+#. Network menu
+#: ../src/fe-gnome/main-window.c:118
+msgid "_Reconnect"
+msgstr "পুনরায় সংযোগ করুন (_R)"
+
+#: ../src/fe-gnome/main-window.c:119
+msgid "_Disconnect"
+msgstr "সংযোগ বিচ্ছিন্ন করুন (_D)"
+
+#: ../src/fe-gnome/main-window.c:120
+msgid "_Close"
+msgstr "বন্ধ করুন (_C)"
+
+#: ../src/fe-gnome/main-window.c:121
+msgid "_Channels..."
+msgstr "চ্যানেল...(_C)"
+
+#. Discussion menu
+#: ../src/fe-gnome/main-window.c:124
+msgid "_Save Transcript"
+msgstr "ট্রান্সস্ক্রিপ্ট সংরক্ষন করুন (_S)"
+
+#: ../src/fe-gnome/main-window.c:125
+msgid "_Leave"
+msgstr "প্রস্থান করুন (_L)"
+
+#: ../src/fe-gnome/main-window.c:126
+msgid "Cl_ose"
+msgstr "বন্ধ করুন (_o)"
+
+#: ../src/fe-gnome/main-window.c:127
+msgid "_Find"
+msgstr "অনুসন্ধান (_F)"
+
+#: ../src/fe-gnome/main-window.c:128
+msgid "Change _Topic"
+msgstr "প্রসঙ্গ পরিবর্তন করুন (_T)"
+
+#: ../src/fe-gnome/main-window.c:129
+msgid "_Bans..."
+msgstr "প্রতিরোধ...(_B)"
+
+#: ../src/fe-gnome/main-window.c:130
+msgid "_Users"
+msgstr "ব্যবহারকারী (_U)"
+
+#. Help menu
+#: ../src/fe-gnome/main-window.c:133
+msgid "_Contents"
+msgstr "সূচি (_C)"
+
+#: ../src/fe-gnome/main-window.c:134
+msgid "_About"
+msgstr "পরিচিতি (_A)"
+
+#. View menu
+#: ../src/fe-gnome/main-window.c:140
+msgid "_Sidebar"
+msgstr "সাইড-বার (_S)"
+
+#: ../src/fe-gnome/main-window.c:141
+msgid "_Statusbar"
+msgstr "অবস্থাসূচক-বার (_S)"
+
+#: ../src/fe-gnome/main-window.c:142
+msgid "_Fullscreen"
+msgstr "সম্পূর্ণ পর্দায় প্রদর্শন (_F)"
+
+#: ../src/fe-gnome/main-window.c:447 ../src/fe-gnome/main-window.c:469
+msgid "Ex-Chat"
+msgstr "বিদায়"
+
+#: ../src/fe-gnome/main-window.c:521
+msgid "Error showing help"
+msgstr "সাহায্য প্রদর্শন করতে ব্যর্থ"
+
+#: ../src/fe-gnome/migration.c:115
+#, c-format
+msgid ""
+"The way the D-Bus plugin works has changed.\n"
+"To avoid problems, you should remove the old plugin file.\n"
+"\n"
+"<b>Please delete %s</b>"
+msgstr ""
+"D-Bus প্লাগ-ইনের কর্ম প্রণালী পরিবর্তিত হয়েছে।\n"
+"সমস্যা এড়ানোর জন্য পুরোনো প্লাগ-ইন ফাইলটি সরিয়ে ফেলা বাঞ্ছনীয়।\n"
+"\n"
+"<b>অনুগ্রহ করে %s মুছে ফেলুন</b>"
+
+#: ../src/fe-gnome/migration.c:117
+msgid "D-Bus plugin is still installed"
+msgstr "D-Bus প্লাগ-ইন এখনও ইনস্টল করা হয়"
+
+#. View menu
+#: ../src/fe-gnome/navigation-tree.c:91
+msgid "Pre_vious Network"
+msgstr "পূর্ববর্তী নেটওয়ার্ক (_v)"
+
+#: ../src/fe-gnome/navigation-tree.c:92
+msgid "Nex_t Network"
+msgstr "পরবর্তী নেটওয়ার্ক (_t)"
+
+#: ../src/fe-gnome/navigation-tree.c:93
+msgid "_Previous Discussion"
+msgstr "পূর্ববর্তী চর্চা (_P)"
+
+#: ../src/fe-gnome/navigation-tree.c:94
+msgid "_Next Discussion"
+msgstr "পরবর্তী চর্চা (_N)"
+
+#. Discussion context menu
+#: ../src/fe-gnome/navigation-tree.c:97
+msgid "_Join"
+msgstr "যোগ দিন (_J)"
+
+#. Server context menu
+#: ../src/fe-gnome/navigation-tree.c:102
+msgid "_Auto-connect on startup"
+msgstr "প্রারম্ভে স্বয়ংক্রিয়ভাবে সংযোগ করা হবে (_A)"
+
+#. Discussion context menu
+#: ../src/fe-gnome/navigation-tree.c:105
+msgid "_Auto-join on connect"
+msgstr "প্রারম্ভে স্বয়ংক্রিয়ভাবে যোগ দেওয়া হবে (_A)"
+
+#: ../src/fe-gnome/navigation-tree.c:106
+msgid "Show join/part messages"
+msgstr "সংযোগ/প্রস্থানের বার্তা প্রদর্শন করা হবে"
+
+#: ../src/fe-gnome/navigation-tree.c:481
+msgid "<none>"
+msgstr "<none>"
+
+#. The name of the default downloads folder,
+#. * Needs to be the same as Epiphany's
+#: ../src/fe-gnome/preferences.c:202
+msgid "Downloads"
+msgstr "Downloads"
+
+#: ../src/fe-gnome/preferences-page-colors.c:255
+msgid "Colors"
+msgstr "রং"
+
+#: ../src/fe-gnome/preferences-page-colors.c:258
+msgid "Black on White"
+msgstr "সাদার উপর কালো"
+
+#: ../src/fe-gnome/preferences-page-colors.c:259
+msgid "White on Black"
+msgstr "কালোর উপর সাদা"
+
+#: ../src/fe-gnome/preferences-page-colors.c:260
+msgid "Custom"
+msgstr "স্বনির্ধারিত"
+
+#: ../src/fe-gnome/preferences-page-colors.c:261
+msgid "System Theme Colors"
+msgstr "সিস্টেমের থিমের রং"
+
+#: ../src/fe-gnome/preferences-page-dcc.c:142
+msgid "File Transfers & DCC"
+msgstr "ফাইল বিনিময় ও DCC"
+
+#: ../src/fe-gnome/preferences-page-effects.c:180
+msgid "Effects"
+msgstr "প্রদর্শনক্ষেত্র"
+
+#: ../src/fe-gnome/preferences-page-irc.c:306
+msgid "IRC Preferences"
+msgstr "IRC সংক্রান্ত পছন্দ"
+
+#: ../src/fe-gnome/preferences-page-networks.c:117
+#, c-format
+msgid "Really remove network \"%s\" and all of its servers?"
+msgstr "\"%s\" নেটওয়ার্ক ও এর সাথে যুক্ত সকল সার্ভারগুলি কি নিশ্চিতরূপে মুছে ফেলা হবে?"
+
+#: ../src/fe-gnome/preferences-page-networks.c:168
+msgid "Networks"
+msgstr "নেটওয়ার্ক"
+
+#: ../src/fe-gnome/preferences-page-networks.c:176
+msgid "Name"
+msgstr "নাম"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:99
+#: ../src/fe-gnome/preferences-page-plugins.c:100
+msgid "unknown"
+msgstr "অজানা"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:192
+#, c-format
+msgid "An error occurred unloading %s"
+msgstr "%s আন-লোড করতে ত্রুটি উৎপন্ন হয়েছে"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:193
+msgid "Plugin Unload Failed"
+msgstr "প্লাগ-ইন আন-লোড করতে ব্যর্থ"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:204
+msgid "Plugin Load Failed"
+msgstr "প্লাগ-ইন লোড করতে ব্যর্থ"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:242
+msgid "Open Plugin"
+msgstr "প্লাগ-ইন খুলুন"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:367
+msgid "Scripts and Plugins"
+msgstr "স্ক্রিপ্ট ও প্লাগ-ইন"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:385
+#: ../src/fe-gnome/preferences-page-spellcheck.c:218
+msgid "Enable"
+msgstr "সক্রিয় করুন"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:387
+msgid "Plugin"
+msgstr "প্লাগ-ইন"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:98
+#, c-format
+msgid "Error in language %s activation: %s\n"
+msgstr "%s ভাষা সক্রিয় করতে ত্রুটি দেখা দিয়েছে: %s\n"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:138
+#, c-format
+msgid "Error in spell checking configuration: %s\n"
+msgstr "বানান পরীক্ষণ ব্যবস্থা কনফিগারেশনে ত্রুটি: %s\n"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:180
+msgid "Spell checking"
+msgstr "বানান পরীক্ষণ"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:184
+msgid ""
+"In order to get spell-checking, you need to have libenchant installed with "
+"at least one dictionary."
+msgstr "বানান পরীক্ষণের সুবিধা উপলব্ধ করার জন্য, অন্তত একটি অভিধান সহ libenchant ইনস্টল থাকা আবশ্যক।"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:195
+msgid "_Check spelling"
+msgstr "বানান পরীক্ষা করুন (_C)"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:196
+msgid "Choose languages to use for spellcheck:"
+msgstr "বানান পরীক্ষণের জন্য ব্যবহারযোগ্য ভাষাগুলি নির্বাচন করুন:"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:223
+msgid "Language"
+msgstr "ভাষা"
+
+#: ../src/fe-gnome/status-bar.c:93
+#, c-format
+msgid "%s%.1fs lag"
+msgstr "%s%.1fs দেরি"
+
+#: ../src/fe-gnome/status-bar.c:107
+#, c-format
+msgid "%d bytes buffered"
+msgstr "%d বাইট বাফার করা হয়েছে"
+
+#: ../src/fe-gnome/text-entry.c:151
+#, c-format
+msgid "Error in spellchecking configuration: %s\n"
+msgstr "বানান পরীক্ষণ কনফিগারেশনের সময় ত্রুটি: %s\n"
+
+#: ../src/fe-gnome/text-entry.c:370
+msgid "I_nsert Color Code"
+msgstr "রংয়ের কোড সন্নিবেশ করুন (_n)"
+
+#: ../src/fe-gnome/text-entry.c:377
+msgid "Black"
+msgstr "কালো"
+
+#: ../src/fe-gnome/text-entry.c:381
+msgid "Dark Blue"
+msgstr "গাঢ় নীল"
+
+#: ../src/fe-gnome/text-entry.c:385
+msgid "Dark Green"
+msgstr "গাঢ় সবুজ"
+
+#: ../src/fe-gnome/text-entry.c:389
+msgid "Red"
+msgstr "লাল"
+
+#: ../src/fe-gnome/text-entry.c:393
+msgid "Brown"
+msgstr "খয়েরি"
+
+#: ../src/fe-gnome/text-entry.c:397
+msgid "Purple"
+msgstr "বেগুনি"
+
+#: ../src/fe-gnome/text-entry.c:401
+msgid "Orange"
+msgstr "কমলা"
+
+#: ../src/fe-gnome/text-entry.c:405
+msgid "Yellow"
+msgstr "হলদে"
+
+#: ../src/fe-gnome/text-entry.c:409
+msgid "Light Green"
+msgstr "হালকা সবুজ"
+
+#: ../src/fe-gnome/text-entry.c:413
+msgid "Aqua"
+msgstr "নীলচে সবুজ"
+
+#: ../src/fe-gnome/text-entry.c:417
+msgid "Light Blue"
+msgstr "হালকা নীল"
+
+#: ../src/fe-gnome/text-entry.c:421
+msgid "Blue"
+msgstr "নীল"
+
+#: ../src/fe-gnome/text-entry.c:425
+msgid "Violet"
+msgstr "বেগুনি"
+
+#: ../src/fe-gnome/text-entry.c:429
+msgid "Grey"
+msgstr "ধুসর"
+
+#: ../src/fe-gnome/text-entry.c:433
+msgid "Light Grey"
+msgstr "হালকা ধুসর"
+
+#: ../src/fe-gnome/text-entry.c:437
+msgid "White"
+msgstr "সাদা"
+
+#: ../src/fe-gnome/topic-label.c:289
+#, c-format
+msgid "Changing topic for %s"
+msgstr "%s-র প্রসঙ্গ পরিবর্তন করা হচ্ছে"
+
+#: ../src/fe-gnome/userlist-gui.c:56
+msgid "_Send File..."
+msgstr "ফাইল পাঠান...(_S)"
+
+#: ../src/fe-gnome/userlist-gui.c:57
+msgid "Private _Chat"
+msgstr "গোপনীয় আলাপন (_C)"
+
+#: ../src/fe-gnome/userlist-gui.c:58
+msgid "_Kick"
+msgstr "বিতাড়ন করুন (_K)"
+
+#: ../src/fe-gnome/userlist-gui.c:59
+msgid "_Ban"
+msgstr "প্রতিরোধ করুন (_B)"
+
+#: ../src/fe-gnome/userlist-gui.c:61
+msgid "_Op"
+msgstr "_Op"
+
+#: ../src/fe-gnome/userlist-gui.c:427
+#, c-format
+msgid ""
+"%s\n"
+"<span weight=\"bold\">Name:</span> %s"
+msgstr ""
+"%s\n"
+"<span weight=\"bold\">নাম:</span> %s"
+
+#: ../src/fe-gnome/userlist-gui.c:434
+#, c-format
+msgid ""
+"%s\n"
+"<span weight=\"bold\">Country:</span> %s"
+msgstr ""
+"%s\n"
+"<span weight=\"bold\">দেশ:</span> %s"
+
+#: ../src/fe-gnome/userlist-gui.c:444
+#, c-format
+msgid ""
+"%s\n"
+"<span weight=\"bold\">Last message:</span> %d minute ago"
+msgid_plural ""
+"%s\n"
+"<span weight=\"bold\">Last message:</span> %d minutes ago"
+msgstr[0] ""
+"%s\n"
+"<span weight=\"bold\">সর্বশেষ বার্তা:</span> %d মিনিট পূর্বে"
+msgstr[1] ""
+"%s\n"
+"<span weight=\"bold\">সর্বশেষ বার্তা:</span> %d মিনিট পূর্বে"
+
+#: ../src/fe-gnome/userlist-gui.c:455
+#, c-format
+msgid ""
+"%s\n"
+"<span weight=\"bold\">Away message:</span> %s"
+msgstr ""
+"%s\n"
+"<span weight=\"bold\">অনুপস্থিত অবস্থার বার্তা:</span> %s"
+
+#: ../src/fe-gnome/userlist.c:308
+#, c-format
+msgid "%d User"
+msgid_plural "%d Users"
+msgstr[0] "%d-জন ব্যবহারকারী"
+msgstr[1] "%d-জন ব্যবহারকারী"
+

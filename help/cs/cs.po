@@ -1,0 +1,1540 @@
+# Czech translation for xchat-gnome help.
+# Copyright (C) 2010 xchat-gnome's COPYRIGHT HOLDER
+# This file is distributed under the same license as the xchat-gnome help.
+#
+# Marek Černocký <marek@manet.cz>, 2010, 2014, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xchat-gnome master\n"
+"POT-Creation-Date: 2015-10-08 06:26+0000\n"
+"PO-Revision-Date: 2015-10-12 00:12+0200\n"
+"Last-Translator: Marek Černocký <marek@manet.cz>\n"
+"Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Gtranslator 2.91.6\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr "Marek Černocký <marek@manet.cz>, 2010, 2014"
+
+#. (itstool) path: imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:228
+msgctxt "_"
+msgid ""
+"external ref='figures/xchat-gnome_main_window.png' "
+"md5='90f93cb74dc838acb02ed7436e0b633f'"
+msgstr ""
+"external ref='figures/xchat-gnome_main_window.png' "
+"md5='90f93cb74dc838acb02ed7436e0b633f'"
+
+#. (itstool) path: articleinfo/title
+#: C/index.docbook:28
+msgid "<application>XChat-GNOME</application> Manual"
+msgstr "Příručka k aplikaci <application>XChat-GNOME</application>"
+
+#. (itstool) path: articleinfo/copyright
+#: C/index.docbook:30
+msgid "<year>2005-2006</year> <holder>Brian Pepple</holder>"
+msgstr "<year>2005 – 2006</year> <holder>Brian Pepple</holder>"
+
+#. (itstool) path: articleinfo/copyright
+#: C/index.docbook:34
+msgid "<year>2006</year> <holder>Joachim Noreiko</holder>"
+msgstr "<year>2006</year> <holder>Joachim Noreiko</holder>"
+
+#. (itstool) path: publisher/publishername
+#: C/index.docbook:50
+msgid "Brian Pepple"
+msgstr "Brian Pepple"
+
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:2
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
+"of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or in "
+"the file COPYING-DOCS distributed with this manual."
+msgstr ""
+"Je povoleno kopírovat, šířit a/nebo upravovat tento dokument za podmínek GNU "
+"Free Documentation License (GFDL) ve verzi 1.1 nebo v jakékoli další verzi "
+"vydané nadací Free Software Foundation; bez neměnných oddílů, bez textů "
+"předních desek a bez textů zadních desek. Kopii licence GFDL naleznete pod "
+"<ulink type=\"help\" url=\"help:fdl\">tímto odkazem</ulink> nebo v souboru "
+"COPYING-DOCS dodávaném s touto příručkou."
+
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:11 C/legal.xml:11
+msgid ""
+"This manual is part of a collection of GNOME manuals distributed under the "
+"GFDL. If you want to distribute this manual separately from the collection, "
+"you can do so by adding a copy of the license to the manual, as described in "
+"section 6 of the license."
+msgstr ""
+"Tato příručka je součástí sbírky příruček GNOME šířených za podmínek licence "
+"GNU FDL. Pokud chcete tento dokument šířit odděleně od sbírky, musíte "
+"přiložit kopii licence dle popisu v oddílu 6 dané licence."
+
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:18 C/legal.xml:18
+msgid ""
+"Many of the names used by companies to distinguish their products and "
+"services are claimed as trademarks. Where those names appear in any GNOME "
+"documentation, and the members of the GNOME Documentation Project are made "
+"aware of those trademarks, then the names are in capital letters or initial "
+"capital letters."
+msgstr ""
+"Mnoho názvů použitých firmami k zviditelnění produktů nebo služeb jsou "
+"ochranné známky. Na místech, kde jsou tyto názvy v dokumentaci použity a "
+"členové Dokumentačního projektu GNOME jsou si vědomi skutečnosti, že se "
+"jedná o ochrannou známku, je takovýto název psán velkými písmeny celý nebo s "
+"velkým písmenem na začátku."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:34 C/legal.xml:34
+msgid ""
+"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
+"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
+"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+msgstr ""
+"DOKUMENT JE POSKYTOVÁN V PODOBĚ „JAK JE“, BEZ ZÁRUKY JAKÉHOKOLIV DRUHU, "
+"NEPOSKYTUJÍ SE ANI ODVOZENÉ ZÁRUKY, ZÁRUKY, ŽE DOKUMENT, NEBO JEHO UPRAVENÁ "
+"VERZE, JE BEZCHYBNÝ, NEBO ZÁRUKY PRODEJNOSTI, VHODNOSTI PRO URČITÝ ÚČEL, "
+"NEBO NEPORUŠENOSTI. RIZIKO NEKVALITY, NEPŘESNOSTI A ŠPATNÉHO PROVEDENÍ "
+"DOKUMENTU, NEBO JEHO UPRAVENÉ VERZE, NESETE VY. POKUD JE TENTO DOKUMENT NEBO "
+"JEHO UPRAVENÁ VERZE VADNÁ V JAKÉMKOLIV SMYSLU, VY (NIKOLIV PŮVODCE, AUTOR "
+"NEBO JAKÝKOLIV PŘISPĚVATEL) PŘEBÍRÁTE ODPOVĚDNOST ZA JAKÉKOLIV NÁKLADY NA "
+"NUTNÉ ÚPRAVY, OPRAVY ČI SLUŽBY. TOTO PROHLÁŠENÍ O ZÁRUCE PŘEDSTAVUJE "
+"ZÁKLADNÍ SOUČÁST TÉTO LICENCE. BEZ TOHOTO PROHLÁŠENÍ NENÍ PODLE TÉTO DOHODY "
+"POVOLENO UŽÍVÁNÍ ANI ÚPRAVY TOHOTO DOKUMENTU; DÁLE"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:54 C/legal.xml:54
+msgid ""
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+"POSSIBILITY OF SUCH DAMAGES."
+msgstr ""
+"ZA ŽÁDNÝCH OKOLNOSTÍ A ŽÁDNÝCH PRÁVNÍCH PŘEDPOKLADŮ, AŤ SE JEDNÁ O PŘEČIN "
+"(VČETNĚ NEDBALOSTNÍCH), SMLOUVU NEBO JINÉ, NENÍ AUTOR, PŮVODNÍ PISATEL, "
+"KTERÝKOLIV PŘISPĚVATEL NEBO KTERÝKOLIV DISTRIBUTOR TOHOTO DOKUMENTU NEBO "
+"UPRAVENÉ VERZE DOKUMENTU NEBO KTERÝKOLIV DODAVATEL NĚKTERÉ Z TĚCHTO STRAN "
+"ODPOVĚDNÝ NĚJAKÉ OSOBĚ ZA PŘÍMÉ, NEPŘÍMÉ, SPECIÁLNÍ, NAHODILÉ NEBO NÁSLEDNÉ "
+"ŠKODY JAKÉHOKOLIV CHARAKTERU, VČETNĚ, ALE NEJEN, ZA POŠKOZENÍ ZE ZTRÁTY "
+"DOBRÉHO JMÉNA, PŘERUŠENÍ PRÁCE, PORUCHY NEBO NESPRÁVNÉ FUNKCE POČÍTAČE NEBO "
+"JINÉHO A VŠECH DALŠÍCH ŠKOD NEBO ZTRÁT VYVSTÁVAJÍCÍCH Z NEBO VZTAHUJÍCÍCH SE "
+"K POUŽÍVÁNÍ TOHOTO DOKUMENTU NEBO UPRAVENÝCH VERZÍ DOKUMENTU, I KDYŽ BY "
+"TAKOVÁTO STRANA BYLA INFORMOVANÁ O MOŽNOSTI TAKOVÉHOTO POŠKOZENÍ."
+
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:27 C/legal.xml:27
+msgid ""
+"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
+"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
+"<_:orderedlist-1/>"
+msgstr ""
+"DOKUMENT A JEHO UPRAVENÉ VERZE JSOU ŠÍŘENY V SOULADU SE ZNĚNÍM LICENCE GNU "
+"FREE DOCUMENTATION LICENSE S NÁSLEDUJÍCÍM USTANOVENÍM: <_:orderedlist-1/>"
+
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:59
+msgid ""
+"<firstname>Brian</firstname> <surname>Pepple</surname> <affiliation> "
+"<orgname>Fedora Project</orgname> <address> <email>bpepple@fedoraproject."
+"org</email> </address> </affiliation>"
+msgstr ""
+"<firstname>Brian</firstname> <surname>Pepple</surname> <affiliation> "
+"<orgname>Projekt Fedora</orgname> <address> <email>bpepple@fedoraproject."
+"org</email> </address> </affiliation>"
+
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:67
+msgid ""
+"<firstname>Joachim</firstname> <surname>Noreiko</surname> <affiliation> "
+"<orgname>GNOME Documentation Project</orgname> <address> "
+"<email>jnoreiko@yahoo.com</email> </address> </affiliation>"
+msgstr ""
+"<firstname>Joachim</firstname> <surname>Noreiko</surname> <affiliation> "
+"<orgname>Dokumentační projekt GNOME</orgname> <address> "
+"<email>jnoreiko@yahoo.com</email> </address> </affiliation>"
+
+#. (itstool) path: revdescription/para
+#: C/index.docbook:110
+msgid "Joachim Noreiko <email>jnoreiko@yahoo.com</email>"
+msgstr "Joachim Noreiko <email>jnoreiko@yahoo.com</email>"
+
+#. (itstool) path: revdescription/para
+#: C/index.docbook:113 C/index.docbook:123
+msgid "GNOME Documentation Project"
+msgstr "Dokumentační projekt GNOME"
+
+#. (itstool) path: revhistory/revision
+#: C/index.docbook:106
+msgid ""
+"<revnumber>XChat-GNOME Manual 2.1</revnumber> <date>December 2006</date> <_:"
+"revdescription-1/>"
+msgstr ""
+"<revnumber>Příručka V2.1 k aplikaci XChat-GNOME</revnumber> <date>prosinec "
+"2006</date> <_:revdescription-1/>"
+
+#. (itstool) path: revdescription/para
+#: C/index.docbook:120
+msgid "Brian Pepple <email>bpepple@fedoraproject.org</email>"
+msgstr "Brian Pepple <email>bpepple@fedoraproject.org</email>"
+
+#. (itstool) path: revhistory/revision
+#: C/index.docbook:116
+msgid ""
+"<revnumber>XChat-GNOME Manual V2.0</revnumber> <date>November 2005</date> <_:"
+"revdescription-1/>"
+msgstr ""
+"<revnumber>Příručka V2.0 k aplikaci XChat-GNOME</revnumber> <date>listopad "
+"2005</date> <_:revdescription-1/>"
+
+#. (itstool) path: articleinfo/releaseinfo
+#: C/index.docbook:128
+msgid "This manual describes version 0.16 of XChat-GNOME."
+msgstr "Tato příručka popisuje aplikaci XChat-GNOME ve verzi 0.16."
+
+#. (itstool) path: legalnotice/title
+#: C/index.docbook:130
+msgid "Feedback"
+msgstr "Ohlasy"
+
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:131
+msgid ""
+"To report a bug or make a suggestion regarding the <application>XChat-GNOME</"
+"application> application or this manual, follow the directions in the "
+"Feedback section of the <ulink url=\"ghelp:user-guide?feedback-bugs\" type="
+"\"help\">GNOME User Guide</ulink>."
+msgstr ""
+"Pokud chcete oznámit chybu nebo navrhnout vylepšení vztahující se k aplikaci "
+"<application>XChat-GNOME</application> nebo této příručce, postupujte dle "
+"instrukcí v oddílu Ohlasy <ulink url=\"ghelp:user-guide?feedback-bugs\" type="
+"\"help\">Uživatelské příručky GNOME</ulink>."
+
+#. (itstool) path: abstract/para
+#: C/index.docbook:139
+msgid "A user manual which describes the use of the XChat-GNOME IRC client."
+msgstr ""
+"Uživatelská příručka, která popisuje používání aplikaci XChat-GNOME, což je "
+"klient IRC."
+
+#. (itstool) path: article/indexterm
+#: C/index.docbook:143
+msgid "<primary>XChat-GNOME</primary>"
+msgstr "<primary>XChat-GNOME</primary>"
+
+#. (itstool) path: article/indexterm
+#: C/index.docbook:146
+msgid "<primary>xchat-gnome</primary>"
+msgstr "<primary>xchat-gnome</primary>"
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:155
+msgid "Introduction"
+msgstr "Úvod"
+
+#. (itstool) path: sect1/para
+#: C/index.docbook:156
+msgid ""
+"The <application>XChat-GNOME</application> application is an Internet Relay "
+"Chat (IRC) program for the GNOME desktop."
+msgstr ""
+"Aplikace <application>XChat-GNOME</application> je program na komunikaci "
+"přes Internet Relay Chat (IRC) pro pracovní prostředí GNOME."
+
+#. (itstool) path: sect1/para
+#: C/index.docbook:159
+msgid "<application>XChat-GNOME</application> provides the following features:"
+msgstr ""
+"Aplikace <application>XChat-GNOME</application> poskytuje následující funkce:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:162
+msgid "Notification Area Icon Plugin"
+msgstr "Zásuvný modul ikony do oznamovací oblasti"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:165
+msgid "Direct Client-To-Client (DCC) Transfers"
+msgstr "Přímé přenosy mezi klienty (DCC = Direct Client-To-Client)"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:168
+msgid "Direct Client-To-Client (DCC) Chats"
+msgstr "Přímé diskuze mezi klienty (DCC = Direct Client-To-Client)"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:171
+msgid "Adherence to GNOME Human Interface Guidelines (HIG)"
+msgstr ""
+"Věrnost GNOME Human Interface Guidelines (HIG, pravidla tvorby rozhraní pro "
+"lidi)"
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:186
+msgid "Getting Started"
+msgstr "Začínáme"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:188
+msgid "Starting <application>XChat-GNOME</application>"
+msgstr "Spuštění aplikace <application>XChat-GNOME</application>"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:189
+msgid ""
+"You can start <application>XChat-GNOME</application> in the following ways:"
+msgstr ""
+"Aplikaci <application>XChat-GNOME</application> můžete spustit následujícími "
+"způsoby:"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:193
+msgid "<guimenu>Applications</guimenu> menu"
+msgstr "Nabídka <guimenu>Aplikace</guimenu>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:195
+msgid ""
+"Choose <menuchoice> <guisubmenu>Internet</guisubmenu> <guimenuitem>XChat-"
+"GNOME IRC Chat</guimenuitem> </menuchoice>."
+msgstr ""
+"Zvolte <menuchoice><guisubmenu>Internet</guisubmenu> <guimenuitem>XChat-"
+"GNOME IRC Chat</guimenuitem></menuchoice>."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:204
+msgid "Command line"
+msgstr "Příkazový řádek"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:206
+msgid ""
+"To start <application>XChat-GNOME</application> from a command line, type "
+"<command>xchat-gnome</command>, then press <keycap>Return</keycap>:"
+msgstr ""
+"Pokud chcete aplikaci <application>XChat-GNOME</application> spustit z "
+"příkazového řádku, napište <command>xchat-gnome</command> a zmáčkněte "
+"<keycap>Enter</keycap>:"
+
+#. (itstool) path: tip/para
+#: C/index.docbook:210
+msgid ""
+"To view other command line options that are available, type <command>xchat-"
+"gnome --help</command>, then press <keycap>Return</keycap>"
+msgstr ""
+"Jestli si chcete zobrazit dostupné přepínače pro příkazový řádek, napište "
+"<command>xchat-gnome --help</command> a stiskněte <keycap>Enter</keycap>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:220
+msgid "When You Start <application>XChat-GNOME</application>"
+msgstr "Když spustíte aplikaci <application>XChat-GNOME</application>"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:221
+msgid ""
+"When you start <application>XChat-GNOME</application>, the following window "
+"is displayed."
+msgstr ""
+"Když spustíte aplikaci <application>XChat-GNOME</application>, zobrazí se "
+"následující okno."
+
+#. (itstool) path: figure/title
+#: C/index.docbook:225
+msgid "<application>XChat-GNOME</application> Main Window"
+msgstr "Hlavní okno aplikace <application>XChat-GNOME</application>"
+
+#. (itstool) path: screenshot/mediaobject
+#: C/index.docbook:227
+msgid ""
+"<imageobject><imagedata fileref=\"figures/xchat-gnome_main_window.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>Shows "
+"<application>XChat-GNOME</application> main window. Contains titlebar, "
+"menubar, display area, and scrollbars. Menubar contains IRC, Edit, Network, "
+"Discussion, Go, and Help menus. </phrase> </textobject>"
+msgstr ""
+"<imageobject><imagedata fileref=\"figures/xchat-gnome_main_window.png\" "
+"format=\"PNG\"/> </imageobject> Ukazuje hlavní okno aplikace <textobject> "
+"<phrase>Shows <application>XChat-GNOME</application>. Obsahuje záhlaví, "
+"nabídkovou lištu, zobrazovací oblast a posuvníky. Nabídková lišta obsahuje "
+"nabídky IRC, Upravit, Síť, Diskuze, Přejít a Nápověda."
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:244
+msgid ""
+"The <application>XChat-GNOME</application> window contains the following "
+"elements:"
+msgstr ""
+"Okno aplikace <application>XChat-GNOME</application> obsahuje následující "
+"části:"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:248
+msgid "Menubar"
+msgstr "Panel nabídek"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:250
+msgid ""
+"The menus on the menubar contain all of the commands you need to use in "
+"<application>XChat-GNOME</application>."
+msgstr ""
+"Nabídky v panelu nabídek obsahují všechny příkazy potřebné pro používání "
+"aplikace <application>XChat-GNOME</application>."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:255
+msgid "Server Pane"
+msgstr "Panel serverů"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:257
+msgid "The Server Pane shows the Servers and Channels currently connected."
+msgstr "Panel serverů zobrazuje v současnosti připojené servery a kanály."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:261
+msgid "User Button"
+msgstr "Tlačítko Uživatelé"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:263
+msgid ""
+"The User Button shows the number of users present in the selected Channel. "
+"Click the User Button to show a list of users. User's in the list marked as "
+"away are \"Grayed out\"."
+msgstr ""
+"Tlačítko uživatelé zobrazuje počet uživatelů připojených ve vybraném kanálu. "
+"Kliknutím na toto tlačítko se vám zobrazí seznam těchto uživatelů. "
+"Uživatelé, kteří mají vybraný stav pryč jsou „zašedlí“."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:267
+msgid "Discussion Area"
+msgstr "Diskuzní oblast"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:269
+msgid ""
+"The Discussion Area presents the discussion occurring in the selected "
+"Channel."
+msgstr "V diskuzní oblasti se ukazuje průběh diskuze ve vybraném kanále."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:271
+msgid ""
+"Type into the message input line at the bottom of the discussion area to "
+"chat in the selected Channel."
+msgstr ""
+"Psaním do řádku vstupní zprávy ve spodní části diskuzní oblasti ze zapojíte "
+"do diskuze na vybraném kanále."
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:281
+msgid "Usage"
+msgstr "Použití"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:285
+msgid "Connecting to an Internet Relay Chat (IRC) Server"
+msgstr "Připojení k serveru IRC"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:286
+msgid ""
+"To connect to an Internet Relay Chat (IRC) Server, choose <menuchoice> "
+"<guimenu>IRC</guimenu> <guimenuitem>Connect</guimenuitem> </menuchoice>. The "
+"<guilabel>Connect</guilabel> dialog is displayed. Select the Server that you "
+"wish to connect to, then click <guibutton>Connect</guibutton>."
+msgstr ""
+"Když se chcete připojit k serveru Internet Relay Chat (IRC), zvolte "
+"<menuchoice><guimenu>IRC</guimenu> <guimenuitem>Připojit</guimenuitem></"
+"menuchoice>. Zobrazí se dialogové okno <guilabel>Připojit</guilabel>. "
+"Vyberte server, ke kterému si přejete připojit a klikněte na "
+"<guibutton>Připojit</guibutton>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:298
+msgid "Viewing Direct Client-To-Client (DCC) File Transfers Information"
+msgstr "Zobrazení informací o přenosu souborů přímo mezi klienty (DCC)"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:299
+msgid ""
+"To view Direct Client-To-Client (DCC) file transfer information, choose "
+"<menuchoice> <guimenu>IRC</guimenu> <guimenuitem>File Transfers</"
+"guimenuitem> </menuchoice>."
+msgstr ""
+"Pokud chcete zobrazit informace o přenosu souborů přímo mezi klienty (DCC = "
+"Direct Client-To-Client), zvolte <menuchoice><guimenu>IRC</guimenu> "
+"<guimenuitem>Přenos souborů</guimenuitem></menuchoice>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:308
+msgid "Editing Text"
+msgstr "Úprava textu"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:309
+msgid "You can edit text in the following ways:"
+msgstr "Text můžete upravovat následujícími způsoby:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:312
+msgid ""
+"To delete the selected text from the file and move the selected text to a "
+"buffer, choose <menuchoice> <guimenu>Edit</guimenu> <guimenuitem>Cut</"
+"guimenuitem> </menuchoice>."
+msgstr ""
+"Pokud chcete vybraný text vymazat ze souboru a přesunout jej do schránky, "
+"zvolte <menuchoice><guimenu>Upravit</guimenu> <guimenuitem>Vyjmout</"
+"guimenuitem></menuchoice>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:317
+msgid ""
+"To copy the selected text to a buffer, choose <menuchoice><guimenu>Edit</"
+"guimenu> <guimenuitem>Copy</guimenuitem> </menuchoice>."
+msgstr ""
+"Pokud chcete vybraný text zkopírovat do schránky, zvolte "
+"<menuchoice><guimenu>Upravit</guimenu> <guimenuitem>Kopírovat</guimenuitem></"
+"menuchoice>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:322
+msgid ""
+"To insert the contents of the buffer at the cursor position, choose "
+"<menuchoice> <guimenu>Edit</guimenu> <guimenuitem>Paste</guimenuitem> </"
+"menuchoice>. You must cut or copy text before you can paste text into the "
+"file."
+msgstr ""
+"Pokud chcete obsah schránky vložit na současnou pozici kurzoru, zvolte "
+"<menuchoice><guimenu>Upravit</guimenu> <guimenuitem>Vložit</guimenuitem></"
+"menuchoice>. Před tím musíte nejdřív text vyjmou nebo zkopírovat, aby bylo "
+"co vkládat."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:328
+msgid ""
+"To clear all text from the Discussion Area for the currently selected "
+"Channel, choose <menuchoice><guimenu>Edit</guimenu> <guimenuitem>Clear</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"Pokud chcete vymazat všechen text aktuálně vybraného kanálu v diskuzní "
+"oblasti, zvolte <menuchoice><guimenu>Upravit</guimenu> <guimenuitem>Vymazat</"
+"guimenuitem></menuchoice>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:337
+msgid "Reconnecting to a Server"
+msgstr "Opětovné připojení k serveru"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:338
+msgid ""
+"To reconnect <application>XChat-GNOME</application> to an Internet Relay "
+"Chat (IRC) server, choose <menuchoice> <guimenu>Network</guimenu> "
+"<guimenuitem>Reconnect</guimenuitem> </menuchoice>."
+msgstr ""
+"Když se chcete aplikací <application>XChat-GNOME</application> znovu "
+"připojit k serveru Internet Relay Chat (IRC), zvolte "
+"<menuchoice><guimenu>Síť</guimenu> <guimenuitem>Znovu připojit</"
+"guimenuitem></menuchoice>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:348
+msgid "Disconnecting from a Server"
+msgstr "Odpojení od serveru"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:349
+msgid ""
+"To disconnect <application>XChat-GNOME</application> from an Internet Relay "
+"Chat (IRC) server, choose <menuchoice> <guimenu>Network</guimenu> "
+"<guimenuitem>Disconnect</guimenuitem> </menuchoice>."
+msgstr ""
+"Když se chcete aplikací <application>XChat-GNOME</application> odpojit od "
+"serveru Internet Relay Chat (IRC), zvolte <menuchoice><guimenu>Síť</guimenu> "
+"<guimenuitem>Odpojit</guimenuitem></menuchoice>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:359
+msgid "Saving a Channel Transcript"
+msgstr "Uložení záznamu kanálu"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:360
+msgid ""
+"To save a transcript of a Channel, choose <menuchoice> <shortcut> <keycombo> "
+"<keycap>Ctrl</keycap> <keycap>S</keycap> </keycombo> </shortcut> "
+"<guimenu>Discussion</guimenu> <guimenuitem>Save Transcript</guimenuitem> </"
+"menuchoice>."
+msgstr ""
+"Pokud si chcete uložit záznam diskuze kanálu, zvolte "
+"<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>S</keycap></"
+"keycombo></shortcut> <guimenu>Diskuze</guimenu> <guimenuitem>Uložit záznam</"
+"guimenuitem></menuchoice>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:375
+msgid "Leaving a Channel"
+msgstr "Opuštění kanálu"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:376
+msgid ""
+"When you leave a channel, you are removed from the participants and can no "
+"longer chat in it, but the discussion up to that point remains in the Server "
+"Pane."
+msgstr ""
+"Když opustíte kanál, jste odebrání z účastníků a nadále již nemůžete "
+"diskutovat, ale diskuze až do tohoto bodu zůstává v panelu serverů."
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:377
+msgid ""
+"To leave a Channel, choose <menuchoice> <shortcut> <keycombo> <keycap>Ctrl</"
+"keycap> <keycap>Q</keycap> </keycombo> </shortcut> <guimenu>Discussion</"
+"guimenu> <guimenuitem>Leave</guimenuitem> </menuchoice>."
+msgstr ""
+"Když chcete kanál opustit, zvolte "
+"<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>Q</keycap></"
+"keycombo></shortcut> <guimenu>Diskuze</guimenu> <guimenuitem>Opustit</"
+"guimenuitem></menuchoice>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:392
+msgid "Closing a Channel"
+msgstr "Zavření kanálu"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:393
+msgid ""
+"When you close a channel, the channel is removed from the list in the Server "
+"Pane."
+msgstr "Když zavřete kanál, je tento odstraněn ze seznamu v panelu serverů."
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:394
+msgid ""
+"To close a Channel, choose <menuchoice> <shortcut> <keycombo> <keycap>Ctrl</"
+"keycap> <keycap>W</keycap> </keycombo> </shortcut> <guimenu>Discussion</"
+"guimenu> <guimenuitem>Close</guimenuitem> </menuchoice>."
+msgstr ""
+"Pokud chcete kanál zavřít, zvolte "
+"<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>W</keycap></"
+"keycombo></shortcut> <guimenu>Diskuze</guimenu> <guimenuitem>Zavřít</"
+"guimenuitem></menuchoice>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:409
+msgid "Navigating through Channels"
+msgstr "Pohyb mezi kanály"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:412
+msgid ""
+"To view previous channel, choose <menuchoice> <shortcut> <keycombo> "
+"<keycap>Alt</keycap> <keycap>Up</keycap> </keycombo> </shortcut> "
+"<guimenu>Go</guimenu> <guimenuitem>Previous Discussion</guimenuitem> </"
+"menuchoice>"
+msgstr ""
+"Pro zobrazení předchozího kanálu zvolte "
+"<menuchoice><shortcut><keycombo><keycap>Alt</keycap><keycap>Up</keycap></"
+"keycombo></shortcut> <guimenu>Zobrazit</guimenu> <guimenuitem>Předchozí "
+"diskuze</guimenuitem></menuchoice>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:426
+msgid ""
+"To view next channel, choose <menuchoice> <shortcut> <keycombo> <keycap>Alt</"
+"keycap> <keycap>Down</keycap> </keycombo> </shortcut> <guimenu>Go</guimenu> "
+"<guimenuitem>Next Discussion</guimenuitem> </menuchoice>"
+msgstr ""
+"Pro zobrazení následujícího kanálu zvolte "
+"<menuchoice><shortcut><keycombo><keycap>Alt</keycap><keycap>Down</keycap></"
+"keycombo></shortcut> <guimenu>Zobrazit</guimenu> <guimenuitem>Následující "
+"diskuze</guimenuitem></menuchoice>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:443
+msgid "Navigating Through Servers"
+msgstr "Pohyb mezi servery"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:446
+msgid ""
+"To view previous server, choose <menuchoice> <shortcut> <keycombo> "
+"<keycap>Ctrl</keycap> <keycap>Up</keycap> </keycombo> </shortcut> "
+"<guimenu>Go</guimenu> <guimenuitem>Previous Network</guimenuitem> </"
+"menuchoice>"
+msgstr ""
+"Pro zobrazení předchozího serveru zvolte "
+"<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>Up</keycap></"
+"keycombo></shortcut> <guimenu>Zobrazit</guimenu> <guimenuitem>Předchozí síť</"
+"guimenuitem></menuchoice>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:460
+msgid ""
+"To view next server, choose <menuchoice> <shortcut> <keycombo> <keycap>Ctrl</"
+"keycap> <keycap>Down</keycap> </keycombo> </shortcut> <guimenu>Go</guimenu> "
+"<guimenuitem>Next Network</guimenuitem> </menuchoice>"
+msgstr ""
+"Pro zobrazení následujícího serveru zvolte "
+"<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>Down</keycap></"
+"keycombo></shortcut> <guimenu>Zobrazit</guimenu> <guimenuitem>Následující "
+"síť</guimenuitem></menuchoice>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:477
+msgid "Quitting XChat-GNOME"
+msgstr "Ukončení XChat-GNOME"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:478
+msgid ""
+"To quit <application>XChat-GNOME</application>, choose <menuchoice> "
+"<shortcut> <keycombo> <keycap>Ctrl</keycap> <keycap>Q</keycap> </keycombo> </"
+"shortcut> <guimenu>IRC</guimenu> <guimenuitem>Quit</guimenuitem> </"
+"menuchoice>."
+msgstr ""
+"Když chcete aplikaci <application>XChat-GNOME</application> ukončit, zvolte "
+"<menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>Q</keycap></"
+"keycombo></shortcut> <guimenu>IRC</guimenu> <guimenuitem>Ukončit</"
+"guimenuitem></menuchoice>."
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:495
+msgid "Preferences"
+msgstr "Předvolby"
+
+#. (itstool) path: sect1/para
+#: C/index.docbook:496
+msgid ""
+"To modify the preferences of <application>XChat-GNOME</application>, choose "
+"<menuchoice> <guimenu>Edit</guimenu> <guimenuitem>Preferences</guimenuitem> "
+"</menuchoice>. The <guilabel>Preferences</guilabel> dialog contains the "
+"following sections:"
+msgstr ""
+"Pokud chcete změnit předvolby aplikace <application>XChat-GNOME</"
+"application>, zvolte <menuchoice><guimenu>Upravit</guimenu> "
+"<guimenuitem>Předvolby</guimenuitem></menuchoice>. Dialogové okno "
+"<guilabel>Předvolby</guilabel> obsahuje následující části:"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:513
+msgid "IRC Preferences"
+msgstr "Předvolby IRC"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:516 C/index.docbook:746
+msgid "<guilabel>General</guilabel>"
+msgstr "<guilabel>Obecné</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:518
+msgid ""
+"Enter the <guilabel>Nickname</guilabel> you wish to use in the Internet "
+"Relay Chat (IRC) channel."
+msgstr ""
+"Zadejte <guilabel>Přezdívku</guilabel>, kterou si přejete používat v "
+"kanálech Internet Relay Chat (IRC)."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:520
+msgid ""
+"Enter your <guilabel>Real Name</guilabel>, which is displayed on <command>/"
+"whois</command> requests."
+msgstr ""
+"Zadejte své <guilabel>Skuteční jméno</guilabel>, které se zobrazí při dotazu "
+"na totožnost <command>/whois</command>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:522
+msgid ""
+"Enter the <guilabel>Quit Message</guilabel> you wish to be shown to other "
+"users when you leave an Internet Relay Chat (IRC) network."
+msgstr ""
+"Zadejte <guilabel>Zprávu při ukončení</guilabel>, kterou si přejete "
+"zobrazovat ostatním uživatelům, když opouštíte síť Internet Relay Chat (IRC)."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:523
+msgid ""
+"Enter the <guilabel>Part Message</guilabel> you wish to be shown to other "
+"users when you leave an Internet Relay Chat (IRC) channel but remain "
+"connected to that channel's network."
+msgstr ""
+"Zadejte <guilabel>Zprávu při odchodu</guilabel>, kterou si přejete "
+"zobrazovat ostatním uživatelům, když opouštíte kanál Internet Relay Chat "
+"(IRC), ale zůstáváte v síti tohoto kanálu."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:524
+msgid ""
+"Enter the <guilabel>Away Message</guilabel> you wish to be shown to people "
+"who try to contact you when you are away."
+msgstr ""
+"Zadejte <guilabel>Zprávu při nepřítomnosti</guilabel>, kterou si přejete "
+"zobrazovat lidem, kteří se vás pokusí kontaktovat, když jste pryč."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:528
+msgid "<guilabel>Highlighting</guilabel>"
+msgstr "<guilabel>Zvýrazňování</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:530
+msgid ""
+"Specify words or phrases that should be highlighted in a different text "
+"colour when another chat user says them. This is in addition to your "
+"nickname, which is always highlighted."
+msgstr ""
+"Zadejte slova nebo fráze, které by se měly zvýrazňovat různou barvou, když "
+"je vysloví některý z diskutujících. Svoji přezdívku zadávat nemusíte, tak se "
+"zvýrazňuje vždy."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:534
+msgid "<guilabel>Use Interface</guilabel>"
+msgstr "<guilabel>Uživatelské rozhraní</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:536
+msgid ""
+"Select the <guilabel>Use System Terminal Font</guilabel> option to use the "
+"same fonts as your system terminal."
+msgstr ""
+"Vyberte volbu <guilabel>Používat systémové písmo terminálu</guilabel>, pokud "
+"chcete použít stejné písmo, jako máte ve svém systémovém terminálu."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:538
+msgid ""
+"Select the <guilabel>Use this font</guilabel> option to open the Font "
+"Selection dialog box."
+msgstr ""
+"Vyberte volbu <guilabel>Používat toto písmo</guilabel>, pokud si chcete "
+"vybrat jiné písmo v dialogovém okně pro výběr písma."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:540
+msgid ""
+"Select the <guilabel>Show colors</guilabel> option to enable color nicknames "
+"in discussion area."
+msgstr ""
+"Vyberte volbu <guilabel>Zobrazovat barvy</guilabel>, pokud chcete povolit "
+"barevné rozlišování přezdívek v diskuzní oblasti."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:542
+msgid ""
+"Select the <guilabel>Show timestamps</guilabel> option to show timestamps of "
+"discussion."
+msgstr ""
+"Vyberte volbu <guilabel>Zobrazovat čas</guilabel>, pokud si přejete "
+"zobrazovat, kdy diskuze proběhla."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:549
+msgid "Colors"
+msgstr "Barvy"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:552
+msgid "<guilabel>Text Colors</guilabel>"
+msgstr "<guilabel>Barvy textu</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:554
+msgid ""
+"Use the <guilabel>Built-in schemes</guilabel> drop-down box to specify how "
+"<application>XChat-GNOME</application> should display the text and "
+"background color. Select one of the following options:"
+msgstr ""
+"Použijte výběrový seznam <guilabel>Zabudovaná schémata</guilabel> k určení, "
+"v jakých barvách by měla aplikace <application>XChat-GNOME</application> "
+"zobrazovat text a pozadí. Vybrat si můžete jednu z těchto možností:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:559
+msgid ""
+"Use the <guilabel>Black on White</guilabel> option to provide black text on "
+"a white background."
+msgstr ""
+"Použijte možnost <guilabel>Černá na bílé</guilabel>, pokud si přejete černý "
+"text na bílém pozadí."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:563
+msgid ""
+"Use the <guilabel>White on Black</guilabel> option to provide white text on "
+"a black background."
+msgstr ""
+"Použijte možnost <guilabel>Bílá na černé</guilabel>, pokud si přejete bílý "
+"text na černém pozadí."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:567
+msgid ""
+"Use the <guilabel>Custom</guilabel> option to create a custom color scheme."
+msgstr ""
+"Použijte možnost <guilabel>Vlastní</guilabel>, pokud si chcete vytvořit "
+"vlastní barevné schéma."
+
+#. (itstool) path: note/para
+#: C/index.docbook:572
+msgid ""
+"The following options are only able to be changed if <guilabel>Built-in "
+"schemes</guilabel> is set to <guilabel>Custom</guilabel>."
+msgstr ""
+"Následující volby jsou dostupné jen v případě, že změníte nastavení "
+"<guilabel>Zabudovaná schémata</guilabel> na hodnotu <guilabel>Vlastní</"
+"guilabel>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:576
+msgid ""
+"Click on the <guilabel>Foreground color</guilabel> button to display the "
+"color selector dialog. Select a foreground color for the <application>XChat-"
+"GNOME</application> discussion area."
+msgstr ""
+"Kliknutím na tlačítko <guilabel>Barva popředí</guilabel> zobrazíte dialogové "
+"okno na výběr barvy. V něm si vyberte barvu textu pro diskuzní oblast "
+"aplikace <application>XChat-GNOME</application>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:579
+msgid ""
+"Click on the <guilabel>Background color</guilabel> button to display the "
+"color selector dialog. Select the background color for the "
+"<application>XChat-GNOME</application> discussion area."
+msgstr ""
+"Kliknutím na tlačítko <guilabel>Barva pozadí</guilabel> zobrazíte dialogové "
+"okno na výběr barvy. V něm si vyberte barvu pozadí pro diskuzní oblast "
+"aplikace <application>XChat-GNOME</application>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:582
+msgid ""
+"Click on the <guilabel>Foreground mark</guilabel> button to display the "
+"color selector dialog. Select the foreground mark color for the "
+"<application>XChat-GNOME</application> discussion area."
+msgstr ""
+"Kliknutím na tlačítko <guilabel>Popředí označení</guilabel> zobrazíte "
+"dialogové okno na výběr barvy. V něm si vyberte barvu textu označení pro "
+"diskuzní oblast aplikace <application>XChat-GNOME</application>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:585
+msgid ""
+"Click on the <guilabel>Background mark</guilabel> button to display the "
+"color selector dialog. Select the background mark color for the "
+"<application>XChat-GNOME</application> discussion area."
+msgstr ""
+"Kliknutím na tlačítko <guilabel>Pozadí označení</guilabel> zobrazíte "
+"dialogové okno na výběr barvy. V něm si vyberte barvu pozadí označení pro "
+"diskuzní oblast aplikace <application>XChat-GNOME</application>."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:591
+msgid "<guilabel>mIRC Colors</guilabel>"
+msgstr "<guilabel>Barvy mIRC</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:593 C/index.docbook:604
+msgid ""
+"Select the buttons of the colors that you wish to change, to display the "
+"color selector dialog."
+msgstr ""
+"Vyberte tlačítko s barvou, kterou si přejete změnit a zobrazí se vám "
+"dialogové okno na výběr barvy."
+
+#. (itstool) path: note/para
+#: C/index.docbook:596 C/index.docbook:607
+msgid ""
+"The colors are only able to be changed if <guilabel>Built-in schemes</"
+"guilabel> is set to <guilabel>Custom</guilabel>."
+msgstr ""
+"Barvy jsou přístupné je v případě, že je položka <guilabel>Zabudovaná "
+"schémata</guilabel> nastavená na <guilabel>Vlastní</guilabel>."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:602
+msgid "<guilabel>Extra Colors</guilabel>"
+msgstr "<guilabel>Další barvy</guilabel>"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:615
+msgid "File Transfers &amp; DCC"
+msgstr "Přenos souborů a DCC"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:618
+msgid "<guilabel>File Transfers</guilabel>"
+msgstr "<guilabel>Přenosy souborů</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:620
+msgid ""
+"Use the <guilabel>Download file to</guilabel> button to select the folder "
+"where you wish to download file."
+msgstr ""
+"Použijte tlačítko <guilabel>Přijímat soubory do</guilabel> k výběru složky, "
+"do které si přejete stahovat soubory."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:622
+msgid ""
+"Use the <guilabel>Move completed files to</guilabel> button to select the "
+"folder where you wish for completed downloads to be moved."
+msgstr ""
+"Použijte tlačítko <guilabel>Přesunout dokončené soubory do</guilabel> k "
+"výběru složky, kam si přejete přesunou soubory, u kterých se dokončí "
+"stahování."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:624
+msgid ""
+"Select <guilabel>Convert spaces to underscore in filenames</guilabel> if you "
+"wish to have spaces converted to underscores in the filename."
+msgstr ""
+"Vyberte <guilabel>Nahrazovat mezery v názvu souboru za podtržítka</"
+"guilabel>, pokud si přejete u přenášených souborů nahradit mezery v názvech "
+"souborů za podtržítka."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:626
+msgid ""
+"Select <guilabel>Save senders nickname in filenames</guilabel> to add the "
+"senders nickname to the downloaded file name."
+msgstr ""
+"Vyberte <guilabel>Uložit přezdívku odesílatele do názvu souborů</guilabel>, "
+"pokud chcete přidat přezdívku odesilatele do názvu staženého souboru."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:631
+msgid "<guilabel>DCC Settings</guilabel>"
+msgstr "<guilabel>Nastavení DCC</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:633
+msgid ""
+"Select the <guilabel>Auto-accept DCC Chat</guilabel> option to automatically "
+"accept Direct Client-to-Client (DCC) chats."
+msgstr ""
+"Vyberte volbu <guilabel>Automaticky přijímat diskuze DCC</guilabel>, pokud "
+"chcete automaticky přijímat diskuze přímo mezi klienty (DCC =Direct Client-"
+"to-Client)."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:635
+msgid ""
+"Select the <guilabel>Auto-accept DCC File Transfers</guilabel> option to "
+"automatically accept Direct Client-to-Client (DCC) file transfers."
+msgstr ""
+"Vyberte volbu <guilabel>Automaticky přijímat přenos souborů DCC</guilabel>, "
+"pokud chcete chcete automaticky přijímat přenosy souborů přímo mezi klienty "
+"(DCC =Direct Client-to-Client)."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:637
+msgid ""
+"Select the <guilabel>Get IP Address From Server</guilabel> option to use "
+"your providers DNS to resolve an IP address."
+msgstr ""
+"Vyberte volbu <guilabel>Získat adresu IP od serveru</guilabel>, pokud chcete "
+"využít server DNS vašeho poskytovatele ke zjišťovaní adres IP."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:639
+msgid ""
+"Select the <guilabel>Use This IP Address</guilabel> option and enter your IP "
+"address, to use a static IP address."
+msgstr ""
+"Vyberte volbu <guilabel>Použít tuto adresu IP</guilabel> a zadejte vaši "
+"adresu IP, pokud chcete použít statickou adresu IP."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:644
+msgid "<guilabel>Throttling</guilabel>"
+msgstr "<guilabel>Omezení</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:646
+msgid ""
+"Use the <guilabel>Individual send KB/s</guilabel> spin box to set your "
+"individual maximum upload speed."
+msgstr ""
+"Použijte číselník <guilabel>Jednotlivě odesílat kB/s</guilabel> k nastavení "
+"své maximální rychlosti jednotlivého odesílání."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:648
+msgid ""
+"Use the <guilabel>Global send KB/s</guilabel> spin box to set your global "
+"maximum upload speed."
+msgstr ""
+"Použijte číselník <guilabel>Celkově odesílat kB/s</guilabel> k nastavení své "
+"celkové maximální rychlosti odesílání."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:650
+msgid ""
+"Use the <guilabel>Individual receive KB/s</guilabel> spin box to set your "
+"individual maximum download speed."
+msgstr ""
+"Použijte číselník <guilabel>Jednotlivě přijímat kB/s</guilabel> k nastavení "
+"své maximální rychlosti jednotlivého stahování."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:652
+msgid ""
+"Use the <guilabel>Global receive KB/s</guilabel> spin box to set your global "
+"maximum download speed."
+msgstr ""
+"Použijte číselník <guilabel>Celkově přijímat kB/s</guilabel> k nastavení své "
+"celkové maximální rychlosti stahování."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:659
+msgid "Networks"
+msgstr "Sítě"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:662
+msgid "Internet Relay Chat (IRC) Servers"
+msgstr "Servery Internet Relay Chat (IRC)"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:664
+msgid ""
+"To add an Internet Relay Chat (IRC) server, click the <guibutton>Add</"
+"guibutton> button to open the <guilabel>Network Properties</guilabel> "
+"dialog. <xref linkend=\"xchat-gnome-network-properties\"/>"
+msgstr ""
+"Pokud chcete přidat server Internet Relay Chat (IRC), klikněte na tlačítko "
+"<guibutton>Přidat</guibutton> a otevře se dialogové okno "
+"<guilabel>Vlastnosti sítě</guilabel>. Viz <xref linkend=\"xchat-gnome-"
+"network-properties\"/>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:667
+msgid ""
+"To edit an Internet Relay Chat (IRC) server, click the <guibutton>Edit</"
+"guibutton> button to open the <guilabel>Network Properties</guilabel> "
+"dialog. <xref linkend=\"xchat-gnome-network-properties\"/>"
+msgstr ""
+"Pokud chcete upravit server Internet Relay Chat (IRC), klikněte na tlačítko "
+"<guibutton>Upravit</guibutton> a otevře se dialogové okno "
+"<guilabel>Vlastnosti sítě</guilabel>. Viz <xref linkend=\"xchat-gnome-"
+"network-properties\"/>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:670
+msgid ""
+"To remove an Internet Relay Chat (IRC) server, click the <guibutton>Remove</"
+"guibutton> button. <xref linkend=\"xchat-gnome-network-properties\"/>"
+msgstr ""
+"Pokud chcete server Internet Relay Chat (IRC) odstranit, klikněte na "
+"tlačítko <guibutton>Odstranit</guibutton>. Viz <xref linkend=\"xchat-gnome-"
+"network-properties\"/>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:677
+msgid "Scripts and Plugins"
+msgstr "Skripty a zásuvné moduly"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:680
+msgid "<guilabel>Script and Plugins</guilabel>"
+msgstr "<guilabel>Skripty a zásuvné moduly</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:682
+msgid ""
+"To enable or disable a plugin or script, select the <guilabel>Enable</"
+"guilabel> option next to the appropriate item."
+msgstr ""
+"Zásuvný modul či skript povolíte, případně zakážete, výběrem zaškrtávacího "
+"políčka <guilabel>Povolit</guilabel> vedle příslušné položky."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:684
+msgid ""
+"To add a new plugin or script, click the <guibutton>Open</guibutton> button "
+"to open the file open dialog."
+msgstr ""
+"Nový zásuvný modul či skript přidáte kliknutím na tlačítko "
+"<guibutton>Otevřít</guibutton>, které otevře dialogové okno pro výběr "
+"souboru."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:686
+msgid ""
+"To remove a plugin or script, select the appropriate item and click on the "
+"<guibutton>Remove</guibutton> button ."
+msgstr ""
+"Zásuvný modul či skript odstraníte tak, že vyberete příslušnou položku a "
+"kliknete na tlačítko <guibutton>Odstranit</guibutton>."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:691
+msgid "<guilabel>Network monitor</guilabel>"
+msgstr "<guilabel>Sledování sítě</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:693
+msgid "Use the Network Manager to control connection state."
+msgstr ""
+"Použít nástroj Správce sítě (Network Manager) ke kontrole stavu připojení."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:697
+msgid "<guilabel>Auto Away</guilabel>"
+msgstr "<guilabel>Automatické nastavení nepřítomnosti</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:699
+msgid "Mark yourself as away when screensaver is active."
+msgstr ""
+"Automaticky vás označí jako nepřítomného, když se aktivuje šetřič obrazovky."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:703
+msgid "<guilabel>Sound notification</guilabel>"
+msgstr "<guilabel>Zvukové oznamování</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:705
+msgid ""
+"Raise an audio notification when a word is highlighted (including your nick) "
+"or when you receive a private message."
+msgstr ""
+"Přehraje zvukové oznámení, když je zvýrazněné slovo (včetně vaší přezdívky) "
+"nebo když obdržíte soukromou zprávu."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:709
+msgid "<guilabel>Notification</guilabel>"
+msgstr "<guilabel>Ikona v oznamovací oblasti</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:711
+msgid ""
+"Add an icon in the notification area informing you of events in xchat-gnome."
+msgstr ""
+"Přidá do oznamovací oblasti ikonu, která vás bude informovat o různých "
+"událostech v xchat-gnome."
+
+#. (itstool) path: note/para
+#: C/index.docbook:713
+msgid ""
+"This allows one to minimize to notification area if <guilabel>Always display "
+"notification icon</guilabel> is selected from <guilabel>Notification</"
+"guilabel> preferences."
+msgstr ""
+"Pokud je v předvolbách <guilabel>Ikona v oznamovací oblasti</guilabel> "
+"vybráno <guilabel>Vždy zobrazovat oznamovací ikonu</guilabel>, umožní vám to "
+"minimalizovat aplikaci do oznamovací oblasti."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:718
+msgid "<guilabel>On-screen display</guilabel>"
+msgstr "<guilabel>Zobrazení na obrazovce</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:720
+msgid ""
+"Display a notification box when a word is highlighted (including your nick) "
+"or when you receive a private message."
+msgstr ""
+"Zobrazí oznamovací bublinu, když je zvýrazněno slovo (včetně vaší přezdívky) "
+"nebo když obdržíte soukromou zprávu."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:724
+msgid "<guilabel>URL scrapper</guilabel>"
+msgstr "<guilabel>Zachytávání URL</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:726
+msgid "Display all the urls from your conversation in a ugly box."
+msgstr ""
+"Zobrazuje v samostatném okně všechny URL vyskytující se ve vaší konverzaci."
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:733
+msgid "Network Properties"
+msgstr "Vlastnosti sítě"
+
+#. (itstool) path: sect1/para
+#: C/index.docbook:734
+msgid ""
+"The <guilabel>Network Properties</guilabel> dialog for <application>XChat-"
+"GNOME</application>, allows you to set the properties for an Internet Relay "
+"Chat (IRC) server, and contains the following tabs:"
+msgstr ""
+"Dialogové okno <guilabel>Vlastnosti sítě</guilabel> pro <application>XChat-"
+"GNOME</application> vám umožňuje nastavit vlastnosti pro server Internet "
+"Relay Chat (IRC) a obsahuje následující karty:"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:743
+msgid "Network Settings"
+msgstr "Nastavení sítě"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:748
+msgid ""
+"Enter the <guilabel>Name</guilabel> for the Internet Relay Chat (IRC) server."
+msgstr ""
+"Zadejte <guilabel>Název</guilabel> pro server Internet Relay Chat (IRC)."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:749
+msgid ""
+"Select the <guilabel>Automatically connect to network</guilabel> option to "
+"connect to a network when starting <application>XChat-GNOME</application>."
+msgstr ""
+"Vyberte volbu <guilabel>Automaticky připojit k této síti při startu</"
+"guilabel>, pokud chcete, aby se aplikace <application>XChat-GNOME</"
+"application> po svém spuštění sama k síti připojila ."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:751
+msgid ""
+"Select the <guilabel>Use secure connection (SSL)</guilabel> option to "
+"connect with Secure Socket Layer (SSL)."
+msgstr ""
+"Vyberte volbu <guilabel>Použít bezpečné připojení (SSL)</guilabel>, pokud se "
+"chcete připojovat s pomocí šifrování Secure Socket Layer (SSL)."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:753
+msgid ""
+"Select the <guilabel>Cycle until connected</guilabel> option to continue "
+"attempts to connect to network, until successful."
+msgstr ""
+"Vyberte volbu <guilabel>Opakovat až do připojení</guilabel>, pokud se chcete "
+"pokoušet připojit k síti, dokud se to nezdaří."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:755
+msgid ""
+"Use the <guilabel>Character encoding</guilabel> drop-down box to specify "
+"which character encoding <application>XChat-GNOME</application> should use."
+msgstr ""
+"Použijte výběrový seznam <guilabel>Znaková sada</guilabel> k určení jaké "
+"kódování znaků by měla aplikace <application>XChat-GNOME</application> "
+"používat."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:757
+msgid ""
+"Enter the <guilabel>Server Password</guilabel>, if the Internet Relay Chat "
+"(IRC) server requires it."
+msgstr ""
+"Zadejte <guilabel>Heslo serveru</guilabel>, pokud jej server Internet Relay "
+"Chat (IRC) požaduje."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:764
+msgid "Users and Channels"
+msgstr "Uživatel a kanály"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:767
+msgid "<guilabel>Users Info</guilabel>"
+msgstr "<guilabel>Údaje o uživateli</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:769
+msgid ""
+"Select the <guilabel>Use global user settings</guilabel> option to use the "
+"global settings used in the <guilabel>General</guilabel> section of <xref "
+"linkend=\"xchat-gnome-prefs-general\"/>."
+msgstr ""
+"Vyberte volbu <guilabel>Použít společné údaje o uživateli</guilabel>, pokud "
+"chcete použít globální nastavení z oddílu <guilabel>Obecné</guilabel> v "
+"<xref linkend=\"xchat-gnome-prefs-general\"/>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:772
+msgid ""
+"Select the <guilabel>Use the user settings</guilabel> option to set the "
+"<guilabel>Nick name</guilabel> and <guilabel>Real Name</guilabel> specific "
+"to this Internet Relay Chat (IRC) server."
+msgstr ""
+"Vyberte volbu <guilabel>Použít tato nastavení uživatele</guilabel>, pokud "
+"chcete údaje <guilabel>Přezdívka</guilabel> a <guilabel>Skutečné jméno</"
+"guilabel> nastavit pro tento server Internet Relay Chat (IRC) odlišně."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:778
+msgid "<guilabel>Automatically Join Channels</guilabel>"
+msgstr "<guilabel>Automaticky se připojit do kanálů</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:780
+msgid "Click the <guibutton>Add</guibutton> button to add a new channel."
+msgstr ""
+"Kliknutím na tlačítko <guibutton>Přidat</guibutton> přidáte nový kanál."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:781
+msgid ""
+"Click the <guibutton>Edit</guibutton> button to edit the selected channel."
+msgstr ""
+"Po kliknutí na tlačítko <guibutton>Upravit</guibutton> budete moci vybraný "
+"kanál upravit."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:782
+msgid ""
+"Click the <guibutton>Remove</guibutton> button to remove the selected "
+"channel."
+msgstr ""
+"Kliknutím na tlačítko <guibutton>Odstranit</guibutton> vybraný kanál "
+"odstraníte."
+
+#. (itstool) path: note/para
+#: C/index.docbook:783
+msgid "The channel name should begin with a pound sign (#)."
+msgstr "Název kanálu by měl začínat znakem mřížky (#)."
+
+#. (itstool) path: sect2/title
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:789 C/index.docbook:792
+msgid "Servers"
+msgstr "Servery"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:794
+msgid ""
+"Click the <guibutton>Add</guibutton> button to add a new Internet Relay Chat "
+"(IRC) server."
+msgstr ""
+"Kliknutím na tlačítko <guibutton>Přidat</guibutton> přidáte nový server "
+"Internet Relay Chat (IRC)."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:796
+msgid ""
+"Click the <guibutton>Edit</guibutton> button to edit the selected Internet "
+"Relay Chat (IRC) server."
+msgstr ""
+"Po kliknutím na tlačítko <guibutton>Upravit</guibutton> budete moci vybraný "
+"server Internet Relay Chat (IRC) upravit."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:798
+msgid ""
+"Click the <guibutton>Remove</guibutton> button to remove the selected "
+"Internet Relay Chat (IRC) server."
+msgstr ""
+"Kliknutím na tlačítko <guibutton>Odstranit</guibutton>vybraný server "
+"Internet Relay Chat (IRC) odstraníte."
+
+#. (itstool) path: note/para
+#: C/index.docbook:800
+msgid "To specify custom port use (/) as separator, as \"host/port\""
+msgstr ""
+"Pokud chcete použít nestandardní port, použijte lomítko (/) a to takto „host/"
+"port“."
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:814
+msgid "About <application>XChat-GNOME</application>"
+msgstr "O aplikaci <application>XChat-GNOME</application>"
+
+#. (itstool) path: sect1/para
+#: C/index.docbook:815
+msgid ""
+"To find more information about <application>XChat-GNOME</application>, "
+"please visit the <ulink url=\"http://live.gnome.org/Xchat-Gnome\" type=\"http"
+"\">XChat-GNOME Web page</ulink>."
+msgstr ""
+"Pokud chcete o aplikaci <application>XChat-GNOME</application> najít více "
+"informací, navštivte prosím <ulink url=\"http://live.gnome.org/Xchat-Gnome\" "
+"type=\"http\">webovou stránku XChat-GNOME</ulink>."
+
+#. (itstool) path: sect1/para
+#: C/index.docbook:819
+msgid ""
+"To report a bug or make a suggestion regarding this application or this "
+"manual, see the Feedback section of the <ulink url=\"ghelp:user-guide?"
+"feedback-bugs\" type=\"help\">GNOME User Guide</ulink>."
+msgstr ""
+"Pokud chcete oznámit chybu nebo navrhnout vylepšení vztahující se k této "
+"aplikaci nebo této příručce, postupujte dle instrukcí v oddíle Ohlasy <ulink "
+"url=\"ghelp:user-guide?feedback-bugs\" type=\"help\">Uživatelské příručky "
+"GNOME</ulink>."
+
+#. (itstool) path: sect1/para
+#: C/index.docbook:825
+msgid ""
+"This program is distributed under the terms of the GNU General Public "
+"license as published by the Free Software Foundation; either version 2 of "
+"the License, or (at your option) any later version. A copy of this license "
+"can be found at this <ulink url=\"ghelp:gpl\" type=\"help\">link</ulink>, or "
+"in the file COPYING included with the source code of this program."
+msgstr ""
+"Tento program je šířen podle ustanovení GNU General Public License, vydávané "
+"Free Software Foundation; a to buď verze 2 této licence anebo (podle "
+"vlastního uvážení) kterékoliv pozdější verze. Kopii této licence naleznete "
+"pod tímto <ulink url=\"http://www.gnu.org/licenses/gpl.html\" type=\"http"
+"\">odkazem</ulink> nebo v souboru COPYING přiloženém ke zdrojovým kódům "
+"tohoto programu. "
+
+#. (itstool) path: para/ulink
+#: C/legal.xml:8
+msgid "link"
+msgstr "odkazem"
+
+#. (itstool) path: legalnotice/para
+#: C/legal.xml:2
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
+"of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
+"with this manual."
+msgstr ""
+"Je povoleno kopírovat, šířit a/nebo upravovat tento dokument za podmínek GNU "
+"Free Documentation License (GFDL) ve verzi 1.1 nebo v jakékoli další verzi "
+"vydané nadací Free Software Foundation; bez neměnných oddílů, bez textů "
+"předních desek a bez textů zadních desek. Kopii licence GFDL naleznete pod "
+"tímto <_:ulink-1/> nebo v souboru COPYING-DOCS dodávaném s touto příručkou."

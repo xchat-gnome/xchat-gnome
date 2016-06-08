@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appversion "0.16">
+<!ENTITY manrevision "2.1">
+<!ENTITY date "December 2006">
+<!ENTITY app "XChat-GNOME">
+<!-- Information about the entities
+       The legal.xml file contains legal information, there is no need to edit the file.
+       Use the appversion entity to specify the version of the application.
+       Use the manrevision entity to specify the revision number of this manual.
+       Use the date entity to specify the release date of this manual.
+       Use the app entity to specify the name of the application. -->]>
+<!--
+      (Do not remove this comment block.)
+  Maintained by the GNOME Documentation Project
+  http://developer.gnome.org/projects/gdp
+  Template version: 2.0 beta
+  Template last modified Apr 11, 2002
+-->
+<!-- =============Document Header ============================= -->
+<article id="index" lang="cs">
+<!-- please do not change the id; for translations, change lang to -->
+<!-- appropriate code -->
+  <articleinfo>
+    <title>Příručka k aplikaci <application>XChat-GNOME</application></title>
+
+    <copyright><year>2005 – 2006</year> <holder>Brian Pepple</holder></copyright>
+    <copyright><year>2006</year> <holder>Joachim Noreiko</holder></copyright>
+<!-- translators: uncomment this:
+
+  <copyright>
+   <year>2002</year>
+   <holder>ME-THE-TRANSLATOR (Latin translation)</holder>
+  </copyright>
+
+   -->
+<!-- An address can be added to the publisher information.  If a role is
+     not specified, the publisher/author is the same for all versions of the
+     document.  -->
+    <publisher>
+      <publishername>Brian Pepple</publishername>
+    </publisher>
+
+   <legalnotice id="legalnotice">
+	<para>Je povoleno kopírovat, šířit a/nebo upravovat tento dokument za podmínek GNU Free Documentation License (GFDL) ve verzi 1.1 nebo v jakékoli další verzi vydané nadací Free Software Foundation; bez neměnných oddílů, bez textů předních desek a bez textů zadních desek. Kopii licence GFDL naleznete pod <ulink type="help" url="help:fdl">tímto odkazem</ulink> nebo v souboru COPYING-DOCS dodávaném s touto příručkou.</para>
+         <para>Tato příručka je součástí sbírky příruček GNOME šířených za podmínek licence GNU FDL. Pokud chcete tento dokument šířit odděleně od sbírky, musíte přiložit kopii licence dle popisu v oddílu 6 dané licence.</para>
+
+	<para>Mnoho názvů použitých firmami k zviditelnění produktů nebo služeb jsou ochranné známky. Na místech, kde jsou tyto názvy v dokumentaci použity a členové Dokumentačního projektu GNOME jsou si vědomi skutečnosti, že se jedná o ochrannou známku, je takovýto název psán velkými písmeny celý nebo s velkým písmenem na začátku.</para>
+
+	<para>DOKUMENT A JEHO UPRAVENÉ VERZE JSOU ŠÍŘENY V SOULADU SE ZNĚNÍM LICENCE GNU FREE DOCUMENTATION LICENSE S NÁSLEDUJÍCÍM USTANOVENÍM: <orderedlist>
+		<listitem>
+		  <para>DOKUMENT JE POSKYTOVÁN V PODOBĚ „JAK JE“, BEZ ZÁRUKY JAKÉHOKOLIV DRUHU, NEPOSKYTUJÍ SE ANI ODVOZENÉ ZÁRUKY, ZÁRUKY, ŽE DOKUMENT, NEBO JEHO UPRAVENÁ VERZE, JE BEZCHYBNÝ, NEBO ZÁRUKY PRODEJNOSTI, VHODNOSTI PRO URČITÝ ÚČEL, NEBO NEPORUŠENOSTI. RIZIKO NEKVALITY, NEPŘESNOSTI A ŠPATNÉHO PROVEDENÍ DOKUMENTU, NEBO JEHO UPRAVENÉ VERZE, NESETE VY. POKUD JE TENTO DOKUMENT NEBO JEHO UPRAVENÁ VERZE VADNÁ V JAKÉMKOLIV SMYSLU, VY (NIKOLIV PŮVODCE, AUTOR NEBO JAKÝKOLIV PŘISPĚVATEL) PŘEBÍRÁTE ODPOVĚDNOST ZA JAKÉKOLIV NÁKLADY NA NUTNÉ ÚPRAVY, OPRAVY ČI SLUŽBY. TOTO PROHLÁŠENÍ O ZÁRUCE PŘEDSTAVUJE ZÁKLADNÍ SOUČÁST TÉTO LICENCE. BEZ TOHOTO PROHLÁŠENÍ NENÍ PODLE TÉTO DOHODY POVOLENO UŽÍVÁNÍ ANI ÚPRAVY TOHOTO DOKUMENTU; DÁLE</para>
+		</listitem>
+		<listitem>
+		  <para>ZA ŽÁDNÝCH OKOLNOSTÍ A ŽÁDNÝCH PRÁVNÍCH PŘEDPOKLADŮ, AŤ SE JEDNÁ O PŘEČIN (VČETNĚ NEDBALOSTNÍCH), SMLOUVU NEBO JINÉ, NENÍ AUTOR, PŮVODNÍ PISATEL, KTERÝKOLIV PŘISPĚVATEL NEBO KTERÝKOLIV DISTRIBUTOR TOHOTO DOKUMENTU NEBO UPRAVENÉ VERZE DOKUMENTU NEBO KTERÝKOLIV DODAVATEL NĚKTERÉ Z TĚCHTO STRAN ODPOVĚDNÝ NĚJAKÉ OSOBĚ ZA PŘÍMÉ, NEPŘÍMÉ, SPECIÁLNÍ, NAHODILÉ NEBO NÁSLEDNÉ ŠKODY JAKÉHOKOLIV CHARAKTERU, VČETNĚ, ALE NEJEN, ZA POŠKOZENÍ ZE ZTRÁTY DOBRÉHO JMÉNA, PŘERUŠENÍ PRÁCE, PORUCHY NEBO NESPRÁVNÉ FUNKCE POČÍTAČE NEBO JINÉHO A VŠECH DALŠÍCH ŠKOD NEBO ZTRÁT VYVSTÁVAJÍCÍCH Z NEBO VZTAHUJÍCÍCH SE K POUŽÍVÁNÍ TOHOTO DOKUMENTU NEBO UPRAVENÝCH VERZÍ DOKUMENTU, I KDYŽ BY TAKOVÁTO STRANA BYLA INFORMOVANÁ O MOŽNOSTI TAKOVÉHOTO POŠKOZENÍ.</para>
+		</listitem>
+	  </orderedlist></para>
+  </legalnotice>
+   <!-- This file  contains link to license for the documentation (GNU FDL), and
+        other legal stuff such as "NO WARRANTY" statement. Please do not change
+	any of this. -->
+
+    <authorgroup>
+      <author role="maintainer"><firstname>Brian</firstname> <surname>Pepple</surname> <affiliation> <orgname>Projekt Fedora</orgname> <address> <email>bpepple@fedoraproject.org</email> </address> </affiliation></author>
+      <author><firstname>Joachim</firstname> <surname>Noreiko</surname> <affiliation> <orgname>Dokumentační projekt GNOME</orgname> <address> <email>jnoreiko@yahoo.com</email> </address> </affiliation></author>
+
+<!-- This is appropriate place for other contributors: translators,
+     maintainers,  etc. Commented out by default.
+
+      <othercredit role="translator">
+		<firstname>Latin</firstname>
+		<surname>Translator 1</surname>
+		<affiliation>
+	  		<orgname>Latin Translation Team</orgname>
+	  		<address> <email>translator@gnome.org</email> </address>
+		</affiliation>
+		<contrib>Latin translation</contrib>
+      </othercredit>
+-->
+    </authorgroup>
+
+
+<!-- According to GNU FDL, revision history is mandatory if you are -->
+<!-- modifying/reusing someone else's document.  If not, you can omit it. -->
+<!-- Remember to remove the &manrevision; entity from the revision entries other
+-->
+<!-- than the current revision. -->
+<!-- The revision numbering system for GNOME manuals is as follows: -->
+<!-- * the revision number consists of two components -->
+<!-- * the first component of the revision number reflects the release version of the GNOME desktop. -->
+<!-- * the second component of the revision number is a decimal unit that is incremented with each revision of the manual. -->
+<!-- For example, if the GNOME desktop release is V2.x, the first version of the manual that -->
+<!-- is written in that desktop timeframe is V2.0, the second version of the manual is V2.1, etc. -->
+<!-- When the desktop release version changes to V3.x, the revision number of the manual changes -->
+<!-- to V3.0, and so on. -->
+    <revhistory>
+      <revision><revnumber>Příručka V2.1 k aplikaci XChat-GNOME</revnumber> <date>prosinec 2006</date> <revdescription>
+	  <para role="author">Joachim Noreiko <email>jnoreiko@yahoo.com</email></para>
+	  <para role="publisher">Dokumentační projekt GNOME</para>
+	  </revdescription></revision>
+      <revision><revnumber>Příručka V2.0 k aplikaci XChat-GNOME</revnumber> <date>listopad 2005</date> <revdescription>
+	  <para role="author">Brian Pepple <email>bpepple@fedoraproject.org</email></para>
+	  <para role="publisher">Dokumentační projekt GNOME</para>
+	</revdescription></revision>
+    </revhistory>
+
+    <releaseinfo>Tato příručka popisuje aplikaci XChat-GNOME ve verzi 0.16.</releaseinfo>
+    <legalnotice>
+      <title>Ohlasy</title>
+      <para>Pokud chcete oznámit chybu nebo navrhnout vylepšení vztahující se k aplikaci <application>XChat-GNOME</application> nebo této příručce, postupujte dle instrukcí v oddílu Ohlasy <ulink url="ghelp:user-guide?feedback-bugs" type="help">Uživatelské příručky GNOME</ulink>.</para>
+<!-- Translators may also add here feedback address for translations -->
+    </legalnotice>
+
+    <abstract role="description">
+      <para>Uživatelská příručka, která popisuje používání aplikaci XChat-GNOME, což je klient IRC.</para>
+    </abstract>
+  
+    <othercredit class="translator">
+      <personname>
+        <firstname>Marek Černocký</firstname>
+      </personname>
+      <email>marek@manet.cz</email>
+    </othercredit>
+    <copyright>
+      
+        <year>2010</year>
+      
+        <year>2014</year>
+      
+      <holder>Marek Černocký</holder>
+    </copyright>
+  </articleinfo>
+
+  <indexterm zone="index"><primary>XChat-GNOME</primary></indexterm>
+  <indexterm zone="index"><primary>xchat-gnome</primary></indexterm>
+
+<!-- ============= Document Body ============================= -->
+<!-- ============= Introduction ============================== -->
+<!-- Use the Introduction section to give a brief overview of what
+     the application is and what it does. -->
+  <sect1 id="xchat-gnome-introduction">
+    <title>Úvod</title>
+    <para>Aplikace <application>XChat-GNOME</application> je program na komunikaci přes Internet Relay Chat (IRC) pro pracovní prostředí GNOME.</para>
+    <para>Aplikace <application>XChat-GNOME</application> poskytuje následující funkce:</para>
+    <itemizedlist>
+      <listitem>
+	<para>Zásuvný modul ikony do oznamovací oblasti</para>
+      </listitem>
+      <listitem>
+	<para>Přímé přenosy mezi klienty (DCC = Direct Client-To-Client)</para>
+      </listitem>
+      <listitem>
+	<para>Přímé diskuze mezi klienty (DCC = Direct Client-To-Client)</para>
+      </listitem>
+      <listitem>
+	<para>Věrnost GNOME Human Interface Guidelines (HIG, pravidla tvorby rozhraní pro lidi)</para>
+      </listitem>
+    </itemizedlist>
+  </sect1>
+
+<!-- =========== Getting Started ============================== -->
+<!-- Use the Getting Started section to describe the steps required
+     to start the application and to describe the user interface components
+     of the application. If there is other information that it is important
+     for readers to know before they start using the application, you should
+     also include this information here.
+     If the information about how to get started is very short, you can
+     include it in the Introduction and omit this section. -->
+
+  <sect1 id="xchat-gnome-getting-started">
+    <title>Začínáme</title>
+    <sect2 id="xchat-gnome-start">
+    <title>Spuštění aplikace <application>XChat-GNOME</application></title>
+    <para>Aplikaci <application>XChat-GNOME</application> můžete spustit následujícími způsoby:</para>
+    <variablelist>
+	<varlistentry>
+	  <term>Nabídka <guimenu>Aplikace</guimenu></term>
+	  <listitem>
+	    <para>Zvolte <menuchoice><guisubmenu>Internet</guisubmenu> <guimenuitem>XChat-GNOME IRC Chat</guimenuitem></menuchoice>.</para>
+	  </listitem>
+    	</varlistentry>
+    	<varlistentry>
+	  <term>Příkazový řádek</term>
+	  <listitem>
+	    <para>Pokud chcete aplikaci <application>XChat-GNOME</application> spustit z příkazového řádku, napište <command>xchat-gnome</command> a zmáčkněte <keycap>Enter</keycap>:</para>
+            <tip>
+	      <para>Jestli si chcete zobrazit dostupné přepínače pro příkazový řádek, napište <command>xchat-gnome --help</command> a stiskněte <keycap>Enter</keycap>.</para>
+            </tip>
+	  </listitem>
+    	</varlistentry>
+    </variablelist>
+    </sect2>
+
+    <sect2 id="xchat-gnome-when-start">
+    <title>Když spustíte aplikaci <application>XChat-GNOME</application></title>
+    <para>Když spustíte aplikaci <application>XChat-GNOME</application>, zobrazí se následující okno.</para>
+
+    <!-- ==== Figure ==== -->
+      <figure id="xchat-gnome-fig">
+	<title>Hlavní okno aplikace <application>XChat-GNOME</application></title>
+	<screenshot>
+	  <mediaobject lang="en">
+	    <imageobject><imagedata fileref="figures/xchat-gnome_main_window.png" format="PNG"/>
+	    </imageobject>
+	    <textobject>
+	      <phrase>Shows <application>XChat-GNOME</application> main window. Contains titlebar,
+                menubar, display area, and scrollbars. Menubar contains IRC, Edit, Network,
+                Discussion, Go, and Help menus.
+              </phrase>
+	    </textobject>
+	  </mediaobject>
+	</screenshot>
+      </figure>
+    <!-- ==== End of Figure ==== -->
+
+    <!-- Include any descriptions of the GUI immediately after the screenshot of the main UI, -->
+    <!-- for example, the items on the menubar and on the toolbar. This section is optional. -->
+
+    <para>Okno aplikace <application>XChat-GNOME</application> obsahuje následující části:</para>
+      <variablelist>
+	<varlistentry>
+	  <term>Panel nabídek</term>
+	  <listitem>
+	    <para>Nabídky v panelu nabídek obsahují všechny příkazy potřebné pro používání aplikace <application>XChat-GNOME</application>.</para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term>Panel serverů</term>
+	  <listitem>
+	    <para>Panel serverů zobrazuje v současnosti připojené servery a kanály.</para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term>Tlačítko Uživatelé</term>
+	  <listitem>
+	    <para>Tlačítko uživatelé zobrazuje počet uživatelů připojených ve vybraném kanálu. Kliknutím na toto tlačítko se vám zobrazí seznam těchto uživatelů. Uživatelé, kteří mají vybraný stav pryč jsou „zašedlí“.</para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term>Diskuzní oblast</term>
+	  <listitem>
+	    <para>V diskuzní oblasti se ukazuje průběh diskuze ve vybraném kanále.</para>
+      <para>Psaním do řádku vstupní zprávy ve spodní části diskuzní oblasti ze zapojíte do diskuze na vybraném kanále.</para>
+	  </listitem>
+	</varlistentry>
+      </variablelist>
+    </sect2>
+  </sect1>
+<!-- ================ Usage ================================ -->
+<!-- Use this section to describe how to use the application to perform the tasks for
+  which the application is designed. -->
+  <sect1 id="xchat-gnome-usage">
+    <title>Použití</title>
+
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-connect">
+      <title>Připojení k serveru IRC</title>
+      <para>Když se chcete připojit k serveru Internet Relay Chat (IRC), zvolte <menuchoice><guimenu>IRC</guimenu> <guimenuitem>Připojit</guimenuitem></menuchoice>. Zobrazí se dialogové okno <guilabel>Připojit</guilabel>. Vyberte server, ke kterému si přejete připojit a klikněte na <guibutton>Připojit</guibutton>.</para>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-transfers">
+      <title>Zobrazení informací o přenosu souborů přímo mezi klienty (DCC)</title>
+      <para>Pokud chcete zobrazit informace o přenosu souborů přímo mezi klienty (DCC = Direct Client-To-Client), zvolte <menuchoice><guimenu>IRC</guimenu> <guimenuitem>Přenos souborů</guimenuitem></menuchoice>.</para>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-edit-text">
+      <title>Úprava textu</title>
+      <para>Text můžete upravovat následujícími způsoby:</para>
+      <itemizedlist>
+	<listitem>
+	  <para>Pokud chcete vybraný text vymazat ze souboru a přesunout jej do schránky, zvolte <menuchoice><guimenu>Upravit</guimenu> <guimenuitem>Vyjmout</guimenuitem></menuchoice>.</para>
+	</listitem>
+	<listitem>
+	  <para>Pokud chcete vybraný text zkopírovat do schránky, zvolte <menuchoice><guimenu>Upravit</guimenu> <guimenuitem>Kopírovat</guimenuitem></menuchoice>.</para>
+	</listitem>
+	<listitem>
+	  <para>Pokud chcete obsah schránky vložit na současnou pozici kurzoru, zvolte <menuchoice><guimenu>Upravit</guimenu> <guimenuitem>Vložit</guimenuitem></menuchoice>. Před tím musíte nejdřív text vyjmou nebo zkopírovat, aby bylo co vkládat.</para>
+	</listitem>
+	<listitem>
+	  <para>Pokud chcete vymazat všechen text aktuálně vybraného kanálu v diskuzní oblasti, zvolte <menuchoice><guimenu>Upravit</guimenu> <guimenuitem>Vymazat</guimenuitem></menuchoice>.</para>
+	</listitem>
+      </itemizedlist>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-network-reconnect">
+      <title>Opětovné připojení k serveru</title>
+      <para>Když se chcete aplikací <application>XChat-GNOME</application> znovu připojit k serveru Internet Relay Chat (IRC), zvolte <menuchoice><guimenu>Síť</guimenu> <guimenuitem>Znovu připojit</guimenuitem></menuchoice>.</para>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-network-disconnect">
+      <title>Odpojení od serveru</title>
+      <para>Když se chcete aplikací <application>XChat-GNOME</application> odpojit od serveru Internet Relay Chat (IRC), zvolte <menuchoice><guimenu>Síť</guimenu> <guimenuitem>Odpojit</guimenuitem></menuchoice>.</para>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-discussion-save">
+      <title>Uložení záznamu kanálu</title>
+      <para>Pokud si chcete uložit záznam diskuze kanálu, zvolte <menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>S</keycap></keycombo></shortcut> <guimenu>Diskuze</guimenu> <guimenuitem>Uložit záznam</guimenuitem></menuchoice>.</para>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-discussion-leave">
+      <title>Opuštění kanálu</title>
+      <para>Když opustíte kanál, jste odebrání z účastníků a nadále již nemůžete diskutovat, ale diskuze až do tohoto bodu zůstává v panelu serverů.</para>
+      <para>Když chcete kanál opustit, zvolte <menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>Q</keycap></keycombo></shortcut> <guimenu>Diskuze</guimenu> <guimenuitem>Opustit</guimenuitem></menuchoice>.</para>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-discussion-close">
+      <title>Zavření kanálu</title>
+      <para>Když zavřete kanál, je tento odstraněn ze seznamu v panelu serverů.</para>
+      <para>Pokud chcete kanál zavřít, zvolte <menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>W</keycap></keycombo></shortcut> <guimenu>Diskuze</guimenu> <guimenuitem>Zavřít</guimenuitem></menuchoice>.</para>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-discussion-navigate">
+      <title>Pohyb mezi kanály</title>
+      <itemizedlist>
+	<listitem>
+	  <para>Pro zobrazení předchozího kanálu zvolte <menuchoice><shortcut><keycombo><keycap>Alt</keycap><keycap>Up</keycap></keycombo></shortcut> <guimenu>Zobrazit</guimenu> <guimenuitem>Předchozí diskuze</guimenuitem></menuchoice>.</para>
+	</listitem>
+	<listitem>
+	  <para>Pro zobrazení následujícího kanálu zvolte <menuchoice><shortcut><keycombo><keycap>Alt</keycap><keycap>Down</keycap></keycombo></shortcut> <guimenu>Zobrazit</guimenu> <guimenuitem>Následující diskuze</guimenuitem></menuchoice>.</para>
+	</listitem>
+      </itemizedlist>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-network-navigate">
+      <title>Pohyb mezi servery</title>
+      <itemizedlist>
+	<listitem>
+	  <para>Pro zobrazení předchozího serveru zvolte <menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>Up</keycap></keycombo></shortcut> <guimenu>Zobrazit</guimenu> <guimenuitem>Předchozí síť</guimenuitem></menuchoice>.</para>
+	</listitem>
+	<listitem>
+	  <para>Pro zobrazení následujícího serveru zvolte <menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>Down</keycap></keycombo></shortcut> <guimenu>Zobrazit</guimenu> <guimenuitem>Následující síť</guimenuitem></menuchoice>.</para>
+	</listitem>
+      </itemizedlist>
+    </sect2>
+    <!-- ================ Usage Subsection ================================ -->
+    <sect2 id="xchat-gnome-quit">
+      <title>Ukončení XChat-GNOME</title>
+      <para>Když chcete aplikaci <application>XChat-GNOME</application> ukončit, zvolte <menuchoice><shortcut><keycombo><keycap>Ctrl</keycap><keycap>Q</keycap></keycombo></shortcut> <guimenu>IRC</guimenu> <guimenuitem>Ukončit</guimenuitem></menuchoice>.</para>
+    </sect2>
+  </sect1>
+  <!-- ============= Customization ============================= -->
+  <!-- Use this section to describe how to customize the application. -->
+  <sect1 id="xchat-gnome-prefs">
+    <title>Předvolby</title>
+    <para>Pokud chcete změnit předvolby aplikace <application>XChat-GNOME</application>, zvolte <menuchoice><guimenu>Upravit</guimenu> <guimenuitem>Předvolby</guimenuitem></menuchoice>. Dialogové okno <guilabel>Předvolby</guilabel> obsahuje následující části:</para>
+    <itemizedlist>
+      <listitem><para><xref linkend="xchat-gnome-prefs-general"/></para></listitem>
+      <listitem><para><xref linkend="xchat-gnome-prefs-colors"/></para></listitem>
+      <listitem><para><xref linkend="xchat-gnome-prefs-transfers"/></para></listitem>
+      <listitem><para><xref linkend="xchat-gnome-prefs-networks"/></para></listitem>
+      <listitem><para><xref linkend="xchat-gnome-prefs-plugins"/></para></listitem>
+    </itemizedlist>
+<!-- =============== Customization Subsection ================ -->
+<!-- Use a new section to describe different tabbed sections on the Settings or Preferences
+	     dialog. -->
+    <sect2 id="xchat-gnome-prefs-general">
+      <title>Předvolby IRC</title>
+      <variablelist>
+	<varlistentry>
+	  <term><guilabel>Obecné</guilabel></term>
+	  <listitem>
+	    <para>Zadejte <guilabel>Přezdívku</guilabel>, kterou si přejete používat v kanálech Internet Relay Chat (IRC).</para>
+	    <para>Zadejte své <guilabel>Skuteční jméno</guilabel>, které se zobrazí při dotazu na totožnost <command>/whois</command>.</para>
+	    <para>Zadejte <guilabel>Zprávu při ukončení</guilabel>, kterou si přejete zobrazovat ostatním uživatelům, když opouštíte síť Internet Relay Chat (IRC).</para>
+	    <para>Zadejte <guilabel>Zprávu při odchodu</guilabel>, kterou si přejete zobrazovat ostatním uživatelům, když opouštíte kanál Internet Relay Chat (IRC), ale zůstáváte v síti tohoto kanálu.</para>
+	    <para>Zadejte <guilabel>Zprávu při nepřítomnosti</guilabel>, kterou si přejete zobrazovat lidem, kteří se vás pokusí kontaktovat, když jste pryč.</para>
+          </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term><guilabel>Zvýrazňování</guilabel></term>
+	  <listitem>
+	    <para>Zadejte slova nebo fráze, které by se měly zvýrazňovat různou barvou, když je vysloví některý z diskutujících. Svoji přezdívku zadávat nemusíte, tak se zvýrazňuje vždy.</para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term><guilabel>Uživatelské rozhraní</guilabel></term>
+	  <listitem>
+	    <para>Vyberte volbu <guilabel>Používat systémové písmo terminálu</guilabel>, pokud chcete použít stejné písmo, jako máte ve svém systémovém terminálu.</para>
+	    <para>Vyberte volbu <guilabel>Používat toto písmo</guilabel>, pokud si chcete vybrat jiné písmo v dialogovém okně pro výběr písma.</para>
+	    <para>Vyberte volbu <guilabel>Zobrazovat barvy</guilabel>, pokud chcete povolit barevné rozlišování přezdívek v diskuzní oblasti.</para>
+	    <para>Vyberte volbu <guilabel>Zobrazovat čas</guilabel>, pokud si přejete zobrazovat, kdy diskuze proběhla.</para>
+	  </listitem>
+	</varlistentry>
+      </variablelist>
+    </sect2>
+    <sect2 id="xchat-gnome-prefs-colors">
+      <title>Barvy</title>
+      <variablelist>
+	<varlistentry>
+	  <term><guilabel>Barvy textu</guilabel></term>
+	  <listitem>
+	    <para>Použijte výběrový seznam <guilabel>Zabudovaná schémata</guilabel> k určení, v jakých barvách by měla aplikace <application>XChat-GNOME</application> zobrazovat text a pozadí. Vybrat si můžete jednu z těchto možností:</para>
+	    <itemizedlist>
+	      <listitem>
+		<para>Použijte možnost <guilabel>Černá na bílé</guilabel>, pokud si přejete černý text na bílém pozadí.</para>
+	      </listitem>
+	      <listitem>
+		<para>Použijte možnost <guilabel>Bílá na černé</guilabel>, pokud si přejete bílý text na černém pozadí.</para>
+	      </listitem>
+	      <listitem>
+		<para>Použijte možnost <guilabel>Vlastní</guilabel>, pokud si chcete vytvořit vlastní barevné schéma.</para>
+	      </listitem>
+	    </itemizedlist>
+	    <note>
+	      <para>Následující volby jsou dostupné jen v případě, že změníte nastavení <guilabel>Zabudovaná schémata</guilabel> na hodnotu <guilabel>Vlastní</guilabel>.</para>
+	    </note>
+	    <para>Kliknutím na tlačítko <guilabel>Barva popředí</guilabel> zobrazíte dialogové okno na výběr barvy. V něm si vyberte barvu textu pro diskuzní oblast aplikace <application>XChat-GNOME</application>.</para>
+	    <para>Kliknutím na tlačítko <guilabel>Barva pozadí</guilabel> zobrazíte dialogové okno na výběr barvy. V něm si vyberte barvu pozadí pro diskuzní oblast aplikace <application>XChat-GNOME</application>.</para>
+	    <para>Kliknutím na tlačítko <guilabel>Popředí označení</guilabel> zobrazíte dialogové okno na výběr barvy. V něm si vyberte barvu textu označení pro diskuzní oblast aplikace <application>XChat-GNOME</application>.</para>
+	    <para>Kliknutím na tlačítko <guilabel>Pozadí označení</guilabel> zobrazíte dialogové okno na výběr barvy. V něm si vyberte barvu pozadí označení pro diskuzní oblast aplikace <application>XChat-GNOME</application>.</para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term><guilabel>Barvy mIRC</guilabel></term>
+	  <listitem>
+	    <para>Vyberte tlačítko s barvou, kterou si přejete změnit a zobrazí se vám dialogové okno na výběr barvy.</para>
+	    <note>
+	      <para>Barvy jsou přístupné je v případě, že je položka <guilabel>Zabudovaná schémata</guilabel> nastavená na <guilabel>Vlastní</guilabel>.</para>
+	    </note>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term><guilabel>Další barvy</guilabel></term>
+	  <listitem>
+	    <para>Vyberte tlačítko s barvou, kterou si přejete změnit a zobrazí se vám dialogové okno na výběr barvy.</para>
+	    <note>
+	      <para>Barvy jsou přístupné je v případě, že je položka <guilabel>Zabudovaná schémata</guilabel> nastavená na <guilabel>Vlastní</guilabel>.</para>
+	    </note>
+	  </listitem>
+	</varlistentry>
+      </variablelist>
+    </sect2>
+    <sect2 id="xchat-gnome-prefs-transfers">
+      <title>Přenos souborů a DCC</title>
+      <variablelist>
+	<varlistentry>
+	  <term><guilabel>Přenosy souborů</guilabel></term>
+	  <listitem>
+	    <para>Použijte tlačítko <guilabel>Přijímat soubory do</guilabel> k výběru složky, do které si přejete stahovat soubory.</para>
+	    <para>Použijte tlačítko <guilabel>Přesunout dokončené soubory do</guilabel> k výběru složky, kam si přejete přesunou soubory, u kterých se dokončí stahování.</para>
+	    <para>Vyberte <guilabel>Nahrazovat mezery v názvu souboru za podtržítka</guilabel>, pokud si přejete u přenášených souborů nahradit mezery v názvech souborů za podtržítka.</para>
+	    <para>Vyberte <guilabel>Uložit přezdívku odesílatele do názvu souborů</guilabel>, pokud chcete přidat přezdívku odesilatele do názvu staženého souboru.</para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term><guilabel>Nastavení DCC</guilabel></term>
+          <listitem>
+	    <para>Vyberte volbu <guilabel>Automaticky přijímat diskuze DCC</guilabel>, pokud chcete automaticky přijímat diskuze přímo mezi klienty (DCC =Direct Client-to-Client).</para>
+	    <para>Vyberte volbu <guilabel>Automaticky přijímat přenos souborů DCC</guilabel>, pokud chcete chcete automaticky přijímat přenosy souborů přímo mezi klienty (DCC =Direct Client-to-Client).</para>
+	    <para>Vyberte volbu <guilabel>Získat adresu IP od serveru</guilabel>, pokud chcete využít server DNS vašeho poskytovatele ke zjišťovaní adres IP.</para>
+	    <para>Vyberte volbu <guilabel>Použít tuto adresu IP</guilabel> a zadejte vaši adresu IP, pokud chcete použít statickou adresu IP.</para>
+	  </listitem>
+	</varlistentry>
+	<varlistentry>
+	  <term><guilabel>Omezení</guilabel></term>
+	  <listitem>
+	    <para>Použijte číselník <guilabel>Jednotlivě odesílat kB/s</guilabel> k nastavení své maximální rychlosti jednotlivého odesílání.</para>
+	    <para>Použijte číselník <guilabel>Celkově odesílat kB/s</guilabel> k nastavení své celkové maximální rychlosti odesílání.</para>
+	    <para>Použijte číselník <guilabel>Jednotlivě přijímat kB/s</guilabel> k nastavení své maximální rychlosti jednotlivého stahování.</para>
+	    <para>Použijte číselník <guilabel>Celkově přijímat kB/s</guilabel> k nastavení své celkové maximální rychlosti stahování.</para>
+	  </listitem>
+	</varlistentry>
+      </variablelist>
+    </sect2>
+    <sect2 id="xchat-gnome-prefs-networks">
+      <title>Sítě</title>
+      <variablelist>
+	<varlistentry>
+	  <term>Servery Internet Relay Chat (IRC)</term>
+	  <listitem>
+	    <para>Pokud chcete přidat server Internet Relay Chat (IRC), klikněte na tlačítko <guibutton>Přidat</guibutton> a otevře se dialogové okno <guilabel>Vlastnosti sítě</guilabel>. Viz <xref linkend="xchat-gnome-network-properties"/>.</para>
+	    <para>Pokud chcete upravit server Internet Relay Chat (IRC), klikněte na tlačítko <guibutton>Upravit</guibutton> a otevře se dialogové okno <guilabel>Vlastnosti sítě</guilabel>. Viz <xref linkend="xchat-gnome-network-properties"/>.</para>
+	    <para>Pokud chcete server Internet Relay Chat (IRC) odstranit, klikněte na tlačítko <guibutton>Odstranit</guibutton>. Viz <xref linkend="xchat-gnome-network-properties"/>.</para>
+	  </listitem>
+	</varlistentry>
+      </variablelist>
+    </sect2>
+    <sect2 id="xchat-gnome-prefs-plugins">
+      <title>Skripty a zásuvné moduly</title>
+      <variablelist>
+	<varlistentry>
+	    <term><guilabel>Skripty a zásuvné moduly</guilabel></term>
+	  <listitem>
+	    <para>Zásuvný modul či skript povolíte, případně zakážete, výběrem zaškrtávacího políčka <guilabel>Povolit</guilabel> vedle příslušné položky.</para>
+	    <para>Nový zásuvný modul či skript přidáte kliknutím na tlačítko <guibutton>Otevřít</guibutton>, které otevře dialogové okno pro výběr souboru.</para>
+	    <para>Zásuvný modul či skript odstraníte tak, že vyberete příslušnou položku a kliknete na tlačítko <guibutton>Odstranit</guibutton>.</para>
+	  </listitem>
+	</varlistentry>
+	  <varlistentry>
+	    <term><guilabel>Sledování sítě</guilabel></term>
+	      <listitem>
+	        <para>Použít nástroj Správce sítě (Network Manager) ke kontrole stavu připojení.</para>
+	      </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term><guilabel>Automatické nastavení nepřítomnosti</guilabel></term>
+	      <listitem>
+	        <para>Automaticky vás označí jako nepřítomného, když se aktivuje šetřič obrazovky.</para>
+	      </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term><guilabel>Zvukové oznamování</guilabel></term>
+	      <listitem>
+	        <para>Přehraje zvukové oznámení, když je zvýrazněné slovo (včetně vaší přezdívky) nebo když obdržíte soukromou zprávu.</para>
+	      </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term><guilabel>Ikona v oznamovací oblasti</guilabel></term>
+	      <listitem>
+	        <para>Přidá do oznamovací oblasti ikonu, která vás bude informovat o různých událostech v xchat-gnome.</para>
+	        <note>
+	          <para>Pokud je v předvolbách <guilabel>Ikona v oznamovací oblasti</guilabel> vybráno <guilabel>Vždy zobrazovat oznamovací ikonu</guilabel>, umožní vám to minimalizovat aplikaci do oznamovací oblasti.</para>
+	        </note>
+	      </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term><guilabel>Zobrazení na obrazovce</guilabel></term>
+	      <listitem>
+	        <para>Zobrazí oznamovací bublinu, když je zvýrazněno slovo (včetně vaší přezdívky) nebo když obdržíte soukromou zprávu.</para>
+	      </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term><guilabel>Zachytávání URL</guilabel></term>
+	      <listitem>
+	        <para>Zobrazuje v samostatném okně všechny URL vyskytující se ve vaší konverzaci.</para>
+	      </listitem>
+	  </varlistentry>
+      </variablelist>
+    </sect2>
+  </sect1>
+  <sect1 id="xchat-gnome-network-properties">
+    <title>Vlastnosti sítě</title>
+    <para>Dialogové okno <guilabel>Vlastnosti sítě</guilabel> pro <application>XChat-GNOME</application> vám umožňuje nastavit vlastnosti pro server Internet Relay Chat (IRC) a obsahuje následující karty:</para>
+    <itemizedlist>
+      <listitem><para><xref linkend="xchat-gnome-network-settings"/></para></listitem>
+      <listitem><para><xref linkend="xchat-gnome-network-users"/></para></listitem>
+      <listitem><para><xref linkend="xchat-gnome-network-servers"/></para></listitem>
+    </itemizedlist>
+    <sect2 id="xchat-gnome-network-settings">
+      <title>Nastavení sítě</title>
+        <variablelist>
+	  <varlistentry>
+	    <term><guilabel>Obecné</guilabel></term>
+	    <listitem>
+	      <para>Zadejte <guilabel>Název</guilabel> pro server Internet Relay Chat (IRC).</para>
+	      <para>Vyberte volbu <guilabel>Automaticky připojit k této síti při startu</guilabel>, pokud chcete, aby se aplikace <application>XChat-GNOME</application> po svém spuštění sama k síti připojila .</para>
+	      <para>Vyberte volbu <guilabel>Použít bezpečné připojení (SSL)</guilabel>, pokud se chcete připojovat s pomocí šifrování Secure Socket Layer (SSL).</para>
+	      <para>Vyberte volbu <guilabel>Opakovat až do připojení</guilabel>, pokud se chcete pokoušet připojit k síti, dokud se to nezdaří.</para>
+	      <para>Použijte výběrový seznam <guilabel>Znaková sada</guilabel> k určení jaké kódování znaků by měla aplikace <application>XChat-GNOME</application> používat.</para>
+	      <para>Zadejte <guilabel>Heslo serveru</guilabel>, pokud jej server Internet Relay Chat (IRC) požaduje.</para>
+	    </listitem>
+	  </varlistentry>
+	</variablelist>
+    </sect2>
+    <sect2 id="xchat-gnome-network-users">
+      <title>Uživatel a kanály</title>
+        <variablelist>
+	  <varlistentry>
+	    <term><guilabel>Údaje o uživateli</guilabel></term>
+	    <listitem>
+	      <para>Vyberte volbu <guilabel>Použít společné údaje o uživateli</guilabel>, pokud chcete použít globální nastavení z oddílu <guilabel>Obecné</guilabel> v <xref linkend="xchat-gnome-prefs-general"/>.</para>
+	      <para>Vyberte volbu <guilabel>Použít tato nastavení uživatele</guilabel>, pokud chcete údaje <guilabel>Přezdívka</guilabel> a <guilabel>Skutečné jméno</guilabel> nastavit pro tento server Internet Relay Chat (IRC) odlišně.</para>
+	    </listitem>
+	  </varlistentry>
+	  <varlistentry>
+	    <term><guilabel>Automaticky se připojit do kanálů</guilabel></term>
+	    <listitem>
+	      <para>Kliknutím na tlačítko <guibutton>Přidat</guibutton> přidáte nový kanál.</para>
+	      <para>Po kliknutí na tlačítko <guibutton>Upravit</guibutton> budete moci vybraný kanál upravit.</para>
+	      <para>Kliknutím na tlačítko <guibutton>Odstranit</guibutton> vybraný kanál odstraníte.</para>
+	      <note><para>Název kanálu by měl začínat znakem mřížky (#).</para></note>
+	    </listitem>
+         </varlistentry>
+        </variablelist>
+      </sect2>
+      <sect2 id="xchat-gnome-network-servers">
+        <title>Servery</title>
+          <variablelist>
+	    <varlistentry>
+	      <term>Servery</term>
+	      <listitem>
+	        <para>Kliknutím na tlačítko <guibutton>Přidat</guibutton> přidáte nový server Internet Relay Chat (IRC).</para>
+	        <para>Po kliknutím na tlačítko <guibutton>Upravit</guibutton> budete moci vybraný server Internet Relay Chat (IRC) upravit.</para>
+	        <para>Kliknutím na tlačítko <guibutton>Odstranit</guibutton>vybraný server Internet Relay Chat (IRC) odstraníte.</para>
+               <note><para>Pokud chcete použít nestandardní port, použijte lomítko (/) a to takto „host/port“.</para></note>
+	      </listitem>
+	    </varlistentry>
+	</variablelist>
+      </sect2>
+    </sect1>
+
+<!-- ============= About ================================== -->
+<!-- This section contains info about the program (not docs), such as
+      author's name(s), web page, license, feedback address. This
+      section is optional: primary place for this info is "About.." box of
+      the program. However, if you do wish to include this info in the
+      manual, this is the place to put it. Alternatively, you can put this information in the title page.-->
+  <sect1 id="xchat-gnome-about">
+    <title>O aplikaci <application>XChat-GNOME</application></title>
+    <para>Pokud chcete o aplikaci <application>XChat-GNOME</application> najít více informací, navštivte prosím <ulink url="http://live.gnome.org/Xchat-Gnome" type="http">webovou stránku XChat-GNOME</ulink>.</para>
+    <para>Pokud chcete oznámit chybu nebo navrhnout vylepšení vztahující se k této aplikaci nebo této příručce, postupujte dle instrukcí v oddíle Ohlasy <ulink url="ghelp:user-guide?feedback-bugs" type="help">Uživatelské příručky GNOME</ulink>.</para>
+
+    <para>Tento program je šířen podle ustanovení GNU General Public License, vydávané Free Software Foundation; a to buď verze 2 této licence anebo (podle vlastního uvážení) kterékoliv pozdější verze. Kopii této licence naleznete pod tímto <ulink url="http://www.gnu.org/licenses/gpl.html" type="http">odkazem</ulink> nebo v souboru COPYING přiloženém ke zdrojovým kódům tohoto programu. </para>
+
+  </sect1>
+</article>

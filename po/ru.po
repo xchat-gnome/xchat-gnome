@@ -1,0 +1,4801 @@
+# translation of xchat-gnome.master.ru.po to Russian
+# Copyright (C) 2004-2005 xchat-gnome team
+# This file is distributed under the same license as the xchat-gnome package.
+#
+# Volosenkov Dmitry <_bil_@mail.ru>, 1999.
+# Valek Filippov <frob@df.ru>, 2001.
+# Peter Astakhov <astakhovp@mail.ru>, 2004, 2005.
+# Yuri Kozlov <yuray@komyakino.ru>, 2010.
+# Yuri Myasoedov <omerta13@yandex.ru>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xchat-gnome\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=xchat-"
+"gnome&keywords=I18N+L10N&component=general\n"
+"POT-Creation-Date: 2012-06-04 10:43+0000\n"
+"PO-Revision-Date: 2012-12-17 09:24+0400\n"
+"Last-Translator: Yuri Myasoedov <omerta13@yandex.ru>\n"
+"Language-Team: русский <gnome-cyr@gnome.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../data/channel-list.glade.h:1
+msgid "Join channel:"
+msgstr "Зайти на канал:"
+
+#: ../data/channel-list.glade.h:2
+msgid "<span weight=\"bold\">List Filtering</span>"
+msgstr "<span weight=\"bold\">Фильтр</span>"
+
+#: ../data/channel-list.glade.h:3
+msgid "Channel _Name"
+msgstr "_Название канала"
+
+#: ../data/channel-list.glade.h:4
+msgid "Channel _Topic"
+msgstr "_Тема канала"
+
+#: ../data/channel-list.glade.h:5
+msgid "in:"
+msgstr "в:"
+
+#: ../data/channel-list.glade.h:6
+msgid "Search for text:"
+msgstr "Искать текст:"
+
+#: ../data/channel-list.glade.h:7
+msgid "users"
+msgstr "пользователей"
+
+#: ../data/channel-list.glade.h:8
+msgid "to"
+msgstr "к"
+
+#: ../data/channel-list.glade.h:9
+msgid "Show channels with:"
+msgstr "Показать каналы с:"
+
+#: ../data/channel-list.glade.h:10
+msgid "Channels list"
+msgstr "Список каналов"
+
+#: ../data/channel-list.glade.h:11
+msgid "_Join Channel"
+msgstr "Зайт_и на канал"
+
+#: ../data/dcc-window.glade.h:1 ../src/fe-gnome/dcc-window.c:117
+msgid "File Transfers"
+msgstr "Передача файлов"
+
+#: ../data/irc-network-editor.glade.h:1
+msgid "_Name:"
+msgstr "_Имя:"
+
+#: ../data/irc-network-editor.glade.h:2
+msgid "Cycle _until connected"
+msgstr "Повтор_ять попытки подключения"
+
+#: ../data/irc-network-editor.glade.h:3
+msgid "Accept invalid _SSL certificate"
+msgstr "Принимать некорректный сертификат SSL"
+
+#: ../data/irc-network-editor.glade.h:4
+msgid "_Use secure connection (SSL)"
+msgstr "Использовать безопасное соединение (SSL)"
+
+#: ../data/irc-network-editor.glade.h:5
+msgid "_Automatically connect to network"
+msgstr "Автоматически подключаться к сети"
+
+#: ../data/irc-network-editor.glade.h:6
+msgid "Nickser_v password:"
+msgstr "Пароль Nickser_v:"
+
+#: ../data/irc-network-editor.glade.h:7
+msgid "Server _password:"
+msgstr "Пар_оль сервера:"
+
+#: ../data/irc-network-editor.glade.h:8
+msgid "Character _encoding:"
+msgstr "Кодировка:"
+
+#: ../data/irc-network-editor.glade.h:9
+msgid "Network Settings"
+msgstr "Настройки сети"
+
+#: ../data/irc-network-editor.glade.h:10
+msgid "<span weight=\"bold\">User Info</span>"
+msgstr "<span weight=\"bold\">О пользователе</span>"
+
+#: ../data/irc-network-editor.glade.h:11
+msgid "Use _global user settings"
+msgstr "Использовать глобальные настройки"
+
+#: ../data/irc-network-editor.glade.h:12
+msgid "Use _these user settings:"
+msgstr "Использовать следующие настройки:"
+
+#: ../data/irc-network-editor.glade.h:13
+msgid "_Real Name:"
+msgstr "Настоящее имя:"
+
+#: ../data/irc-network-editor.glade.h:14 ../data/setup-dialog.glade.h:5
+msgid "_Nick name:"
+msgstr "_Ник:"
+
+#: ../data/irc-network-editor.glade.h:15
+msgid "<span weight=\"bold\">Automatically Join Channels</span>"
+msgstr "<span weight=\"bold\">Автоматически заходить на каналы</span>"
+
+#: ../data/irc-network-editor.glade.h:16
+msgid "User and Channels"
+msgstr "Пользователи и каналы"
+
+#: ../data/irc-network-editor.glade.h:17
+msgid "Servers"
+msgstr "Серверы"
+
+#: ../data/preferences-dialog.glade.h:1
+msgid "Preferences"
+msgstr "Параметры"
+
+#: ../data/preferences-dialog.glade.h:2
+msgid "<span weight=\"bold\">General</span>"
+msgstr "<span weight=\"bold\">Общие</span>"
+
+#: ../data/preferences-dialog.glade.h:3
+msgid "_Nickname:"
+msgstr "_Ник:"
+
+#: ../data/preferences-dialog.glade.h:4
+msgid "Real na_me:"
+msgstr "Настоящее имя:"
+
+#: ../data/preferences-dialog.glade.h:5
+msgid "_Quit message:"
+msgstr "Сообщение при в_ыходе:"
+
+#: ../data/preferences-dialog.glade.h:6
+msgid "_Part message:"
+msgstr "Сообщение ухода с кан_ала:"
+
+#: ../data/preferences-dialog.glade.h:7
+msgid "A_way message:"
+msgstr "Сообщение отсутствия:"
+
+#: ../data/preferences-dialog.glade.h:8
+msgid "<span weight=\"bold\">Highlighting</span>"
+msgstr "<span weight=\"bold\">Выделение</span>"
+
+#: ../data/preferences-dialog.glade.h:9
+msgid "Enter extra words to trigger highlighting"
+msgstr "Дополнительно выделять слова:"
+
+#: ../data/preferences-dialog.glade.h:10
+msgid "<span weight=\"bold\">User Interface</span>"
+msgstr "<span weight=\"bold\">Интерфейс</span>"
+
+#: ../data/preferences-dialog.glade.h:11
+msgid "Use _system terminal font"
+msgstr "Использовать сист_емный шрифт терминала"
+
+#: ../data/preferences-dialog.glade.h:12
+msgid "Use this f_ont:"
+msgstr "Использовать шр_ифт:"
+
+#: ../data/preferences-dialog.glade.h:13
+msgid "_Log conversations"
+msgstr "_Записывать беседы"
+
+#: ../data/preferences-dialog.glade.h:14
+msgid "Show _timestamps"
+msgstr "Показывать время"
+
+#: ../data/preferences-dialog.glade.h:15
+msgid "Show m_arker line"
+msgstr "Показывать линию отметки"
+
+#: ../data/preferences-dialog.glade.h:16
+msgid "Show _user list in main window"
+msgstr "Отображать список пользователей в главном окне"
+
+#: ../data/preferences-dialog.glade.h:17
+msgid "<span weight=\"bold\">Text Colors</span>"
+msgstr "<span weight=\"bold\">Цвет текста</span>"
+
+#: ../data/preferences-dialog.glade.h:18
+msgid "_Show colors"
+msgstr "Показать ц_вета"
+
+#: ../data/preferences-dialog.glade.h:19
+msgid "_Colorize nicknames"
+msgstr "Раскрашивать ники"
+
+#: ../data/preferences-dialog.glade.h:20
+msgid "Buil_t-in schemes:"
+msgstr "Встроенные схе_мы:"
+
+#: ../data/preferences-dialog.glade.h:21
+msgid "_Foreground color:"
+msgstr "Цвет обычного текста:"
+
+#: ../data/preferences-dialog.glade.h:22
+msgid "_Background color:"
+msgstr "Цвет фона:"
+
+#: ../data/preferences-dialog.glade.h:23
+msgid "Foreground mark:"
+msgstr "Цвет выделенного текста:"
+
+#: ../data/preferences-dialog.glade.h:24
+msgid "Background mark:"
+msgstr "Фон выделенного текста:"
+
+#: ../data/preferences-dialog.glade.h:25
+msgid "<span weight=\"bold\">mIRC Colors</span>"
+msgstr "<span weight=\"bold\">Цвета mIRC</span>"
+
+#: ../data/preferences-dialog.glade.h:26
+msgid "<span weight=\"bold\">Extra Colors</span>"
+msgstr "<span weight=\"bold\">Дополнительные цвета</span>"
+
+#: ../data/preferences-dialog.glade.h:27
+msgid "<span weight=\"bold\">Background</span>"
+msgstr "<span weight=\"bold\">Фон</span>"
+
+#: ../data/preferences-dialog.glade.h:28
+msgid "_None (use solid color)"
+msgstr "_Нет (использовать сплошной цвет)"
+
+#: ../data/preferences-dialog.glade.h:29
+msgid "_Background image"
+msgstr "Ф_оновое изображение"
+
+#: ../data/preferences-dialog.glade.h:30
+msgid "I_mage file:"
+msgstr "_Файл изображения:"
+
+#: ../data/preferences-dialog.glade.h:31
+msgid "_Transparent background"
+msgstr "_Прозрачный фон"
+
+#: ../data/preferences-dialog.glade.h:32
+msgid "<span size=\"small\" style=\"italic\">Transparent</span>"
+msgstr "<span size=\"small\" style=\"italic\">Прозрачный</span>"
+
+#: ../data/preferences-dialog.glade.h:33
+msgid "<span size=\"small\" style=\"italic\">Opaque</span>"
+msgstr "<span size=\"small\" style=\"italic\">Непрозрачный</span>"
+
+#: ../data/preferences-dialog.glade.h:34
+msgid "<span weight=\"bold\">File Transfers</span>"
+msgstr "<span weight=\"bold\">Передачи файлов</span>"
+
+#: ../data/preferences-dialog.glade.h:35
+msgid "_Download files to:"
+msgstr "_Загружать файлы в:"
+
+#: ../data/preferences-dialog.glade.h:36
+msgid "Move co_mpleted files to:"
+msgstr "Переместить скачанные файлы в:"
+
+#: ../data/preferences-dialog.glade.h:37
+msgid "Select Download Directory"
+msgstr "Выбрать каталог для скачивания"
+
+#: ../data/preferences-dialog.glade.h:38
+msgid "Select Completed Files Directory"
+msgstr "Выбрать каталог скачанных файлов"
+
+#: ../data/preferences-dialog.glade.h:39
+msgid "Convert spaces to _underscores in filenames"
+msgstr "Менять пробелы на подчеркивания в именах файлов"
+
+#: ../data/preferences-dialog.glade.h:40
+msgid "Save sender _nickname in filenames"
+msgstr "Сохранить ник отправителя в имени файла"
+
+#: ../data/preferences-dialog.glade.h:41
+msgid "<span weight=\"bold\">DCC Settings</span>"
+msgstr "<span weight=\"bold\">Настройки DCC</span>"
+
+#: ../data/preferences-dialog.glade.h:42
+msgid "Auto-accept DCC c_hat"
+msgstr "Автоматически принимать прямой _чат"
+
+#: ../data/preferences-dialog.glade.h:43
+msgid "Auto-accept DCC file tr_ansfers"
+msgstr "Автоматически принимать прямую передачу ф_айлов"
+
+#: ../data/preferences-dialog.glade.h:44
+msgid "Get IP address from _server"
+msgstr "Получить свой IP от _сервера"
+
+#: ../data/preferences-dialog.glade.h:45
+msgid "Use t_his IP address:"
+msgstr "Использовать указанный IP адрес:"
+
+#: ../data/preferences-dialog.glade.h:46
+msgid "<span weight=\"bold\">Throttling</span>"
+msgstr "<span weight=\"bold\">Ограничение</span>"
+
+#: ../data/preferences-dialog.glade.h:47
+msgid "In_dividual send KB/s: "
+msgstr "Скорость отд_ельной передачи кб/с: "
+
+#: ../data/preferences-dialog.glade.h:48
+msgid "_Global send KB/s: "
+msgstr "Полная скорость перед_ачи кБ/с: "
+
+#: ../data/preferences-dialog.glade.h:49
+msgid "Indi_vidual receive KB/s: "
+msgstr "Скорость отд_ельного приёма кБ/с: "
+
+#: ../data/preferences-dialog.glade.h:50
+msgid "Glo_bal receive KB/s: "
+msgstr "О_бщая скорость приёма кБ/с: "
+
+#: ../data/preferences-dialog.glade.h:51 ../src/fe-gnome/main-window.c:99
+msgid "_Edit"
+msgstr "_Правка"
+
+#: ../data/preferences-dialog.glade.h:52
+msgid ""
+"To edit a shortcut key, click on the corresponding row and type a new "
+"accelerator, or press backspace to clear."
+msgstr ""
+"Чтобы отредактировать комбинацию клавиш, щёлкните по соответствующей строке "
+"и введите новый ускоритель или нажмите клавишу Backspace для очистки."
+
+#: ../data/preferences-dialog.glade.h:53
+msgid "spell checking"
+msgstr "проверка правописания"
+
+#: ../data/setup-dialog.glade.h:1
+msgid "XChat-GNOME Setup"
+msgstr "Настройка XChat-GNOME"
+
+#: ../data/setup-dialog.glade.h:2
+msgid ""
+"Welcome to XChat-GNOME! Since this is your first time using this "
+"application, there are a couple things you'll need to configure before you "
+"can get started.\n"
+"\n"
+"These are the names by which you'll be recognized on IRC. Your nick name is "
+"the name by which you'll be known, whereas the real name is useful for "
+"things such as registering with services. You do not have to use your real "
+"name if you do not want to."
+msgstr ""
+"Добро пожаловать в XChat! Поскольку это ваш первый запуск, есть пара вещей, "
+"которые надо настроить перед использованием.\n"
+"\n"
+"Это имена под которыми вы будете известны в IRC. Ваш ник это имя, которое "
+"все будут видеть. Настоящее имя полезно для регистрации в сервисах. Вам не "
+"надо использовать настоящее имя, если вы не хотите."
+
+#: ../data/setup-dialog.glade.h:6
+msgid "_Real name:"
+msgstr "Настоящее _имя:"
+
+#: ../data/topic-change.glade.h:1
+msgid "Change"
+msgstr "Изменить"
+
+#: ../data/xchat-gnome.desktop.in.in.h:1 ../src/fe-gnome/about.c:82
+msgid "XChat-GNOME"
+msgstr "XChat-GNOME"
+
+#: ../data/xchat-gnome.desktop.in.in.h:2
+msgid "IRC Chat"
+msgstr "IRC разговор"
+
+#: ../data/xchat-gnome.desktop.in.in.h:3 ../data/xchat-gnome.glade.h:6
+#: ../plugins/sound-notification/sound-notification.c:45
+msgid "XChat-GNOME IRC Chat"
+msgstr "XChat-GNOME IRC чат"
+
+#: ../data/xchat-gnome.desktop.in.in.h:4
+msgid "Chat with people using IRC"
+msgstr "Общаться с людьми через IRC"
+
+#: ../data/xchat-gnome.glade.h:1 ../src/common/text.c:888
+#: ../src/common/text.c:894 ../src/common/text.c:901 ../src/common/text.c:1089
+#: ../src/common/text.c:1096 ../src/common/text.c:1101
+#: ../src/common/text.c:1106 ../src/common/text.c:1111
+#: ../src/common/text.c:1117 ../src/common/text.c:1122
+#: ../src/common/text.c:1126 ../src/common/text.c:1132
+#: ../src/common/text.c:1138 ../src/common/text.c:1184
+#: ../src/common/text.c:1195 ../src/common/text.c:1200
+#: ../src/common/text.c:1205 ../src/common/text.c:1214
+#: ../src/common/text.c:1225 ../src/common/text.c:1232
+#: ../src/common/text.c:1238 ../src/common/text.c:1243
+#: ../src/common/text.c:1248 ../src/common/text.c:1255
+#: ../src/common/text.c:1261 ../src/common/text.c:1267
+#: ../src/common/text.c:1272 ../src/common/text.c:1277
+#: ../src/common/text.c:1281 ../src/common/text.c:1287
+#: ../src/common/text.c:1295 ../src/common/text.c:1329
+#: ../src/common/text.c:1334
+msgid "Nickname"
+msgstr "Ник"
+
+#: ../data/xchat-gnome.glade.h:2
+msgid "Change _nickname to:"
+msgstr "Сменить _ник на:"
+
+#: ../data/xchat-gnome.glade.h:3
+msgid "Mark as _away"
+msgstr "Пометить как отошёл"
+
+#: ../data/xchat-gnome.glade.h:4
+msgid "Apply on all _servers"
+msgstr "Применить на вс_ех серверах"
+
+#: ../data/xchat-gnome.glade.h:5
+msgid "C_hange"
+msgstr "Измен_ить"
+
+#: ../data/xchat-gnome.glade.h:7 ../src/common/text.c:1161
+#: ../src/fe-gnome/channel-list-window.c:451 ../src/fe-gnome/userlist.c:303
+msgid "Users"
+msgstr "Пользователи"
+
+#: ../data/xchat-gnome.glade.h:8
+msgid "Close this discussion"
+msgstr "Закрыть это обсуждение"
+
+#: ../data/xchat-gnome.glade.h:9
+msgid "nickname"
+msgstr "Ник"
+
+#: ../plugins/autoaway/autoaway.c:216
+msgid "Auto Away"
+msgstr "Авто-статус"
+
+#: ../plugins/autoaway/autoaway.c:217
+msgid "Automatically go away / come back"
+msgstr "Автоматически менять статус Отошёл/Вернулся"
+
+#: ../plugins/net-monitor/net-monitor.c:38
+msgid "Network Monitor"
+msgstr "Монитор сети"
+
+#: ../plugins/net-monitor/net-monitor.c:39
+msgid "NetworkManager 0.9.x connection monitor"
+msgstr "Монитор соединений NetworkManager 0.9.x"
+
+#: ../plugins/net-monitor/net-monitor.c:297
+#, c-format
+msgid "%s loaded successfully\n"
+msgstr "%s успешно загружено\n"
+
+#: ../plugins/notification/notification.c:147
+#: ../plugins/notification/preferences-page-plugin-notification.c:127
+msgid "Notification"
+msgstr "Уведомление"
+
+#: ../plugins/notification/notification.c:148
+msgid "A notification area plugin."
+msgstr "Расширение \"область уведомлений\"."
+
+#: ../plugins/notification/notification.c:211
+msgid "Notification plugin loaded.\n"
+msgstr "Загружено расширение уведомлений.\n"
+
+#: ../plugins/notification/notification.c:232
+msgid "Notification plugin unloaded.\n"
+msgstr "Расширение уведомлений выгружено.\n"
+
+#: ../plugins/notification/notification.schemas.in.h:1
+msgid "Level of the messages that require a notification"
+msgstr "Уровень сообщений, требующих уведомления"
+
+#: ../plugins/notification/notification.schemas.in.h:2
+msgid ""
+"Messages are classified according to their importance. Select level of "
+"messages above which the notification icon will be displayed. Valid values "
+"are: \"0\" (always displayed), \"1\" (all messages including information), "
+"\"2\" (all channel messages), \"3\" (only private or highlighted messages)."
+msgstr ""
+"Сообщения имеют отметку важности. Выберите уровень сообщений, выше которого "
+"будет отображаться иконка уведомления. Правильные значения: "
+"\"0\" (показывать всегда), \"1\" (все сообщения, включая информацию), "
+"\"2\" (все сообщения на каналах), \"3\" (только личные или подсвеченные "
+"сообщения)."
+
+#: ../plugins/notification/preferences-notification.glade.h:1
+msgid "<span weight=\"bold\">Notification level</span>"
+msgstr "<span weight=\"bold\">Уровень уведомлений</span>"
+
+#: ../plugins/notification/preferences-notification.glade.h:2
+msgid "Notify only _private messages"
+msgstr "Уведомлять только о личных сообщениях"
+
+#: ../plugins/notification/preferences-notification.glade.h:3
+msgid "Notify each _message"
+msgstr "Уведомлять о каждом сообщении"
+
+#: ../plugins/notification/preferences-notification.glade.h:4
+msgid "Notify each _event"
+msgstr "Уведомлять о каждом событии"
+
+#: ../plugins/notification/preferences-notification.glade.h:5
+msgid "_Always display notification icon"
+msgstr "Всегда отображать значок уведомления"
+
+#: ../plugins/notify-osd/notify-osd.c:30
+msgid "On-screen display"
+msgstr "OSD"
+
+#: ../plugins/notify-osd/notify-osd.c:32
+msgid ""
+"Pops up notification of important messages when XChat-GNOME doesn't have the "
+"focus"
+msgstr ""
+"Показывает уведомление о важных сообщениях, когда XChat-GNOME вне фокуса"
+
+#: ../plugins/notify-osd/notify-osd.c:77
+#, c-format
+msgid "Error closing notification: %s\n"
+msgstr "Ошибка закрытия уведомления: %s\n"
+
+#: ../plugins/notify-osd/notify-osd.c:99
+#, c-format
+msgid "Failed to send notification: %s\n"
+msgstr "Ошибка отправления уведомления: %s\n"
+
+#: ../plugins/notify-osd/notify-osd.c:141
+#: ../plugins/notify-osd/notify-osd.c:167
+#, c-format
+msgid "Message in %s"
+msgstr "Сообщение в %s"
+
+#: ../plugins/notify-osd/notify-osd.c:143
+#: ../plugins/notify-osd/notify-osd.c:169
+#, c-format
+msgid "Message from %s"
+msgstr "Сообщение от %s"
+
+#: ../plugins/notify-osd/notify-osd.c:188
+#, c-format
+msgid "Private Message from %s"
+msgstr "Личное сообщение от %s"
+
+#: ../plugins/notify-osd/notify-osd.c:235
+msgid "OSD loaded\n"
+msgstr "Загружен OSD\n"
+
+#: ../plugins/notify-osd/notify-osd.c:239
+msgid "OSD initialization failed\n"
+msgstr "Ошибка инициализации OSD\n"
+
+#: ../plugins/perl/perl.c:1372
+msgid "Perl"
+msgstr "Перл"
+
+#: ../plugins/perl/perl.c:1373
+msgid "Perl scripting interface"
+msgstr "Поддержка скриптов на Perl"
+
+#: ../plugins/python/python.c:2095
+msgid "Python"
+msgstr "Питон"
+
+#: ../plugins/python/python.c:2097
+msgid "Python scripting interface"
+msgstr "Поддержка скриптов на Python"
+
+#: ../plugins/url_scraper/urlscraper.c:44
+msgid "xchat URL scraper"
+msgstr "X-Chat: Сборщик URL"
+
+#: ../plugins/url_scraper/urlscraper.c:58 ../src/common/xchat.c:860
+msgid "Time"
+msgstr "Время"
+
+#: ../plugins/url_scraper/urlscraper.c:63 ../src/common/text.c:947
+msgid "Nick"
+msgstr "Ник"
+
+#: ../plugins/url_scraper/urlscraper.c:67 ../src/common/text.c:914
+#: ../src/common/text.c:918 ../src/common/text.c:1349
+#: ../src/fe-gnome/irc-network-editor.c:321
+msgid "Channel"
+msgstr "Канал"
+
+#: ../plugins/url_scraper/urlscraper.c:72
+msgid "URL"
+msgstr "URL"
+
+#: ../plugins/url_scraper/urlscraper.c:154
+msgid "URL Scraper"
+msgstr "Сборщик URL"
+
+#: ../plugins/url_scraper/urlscraper.c:155
+msgid "Grabs URLs and puts them in a separate window for easy viewing."
+msgstr "Собирает ссылки и складывает в отдельное окно для лёгкого просмотра"
+
+#: ../plugins/url_scraper/urlscraper.c:200
+msgid "URL Scraper failed to load: couldn't compile URL regex.\n"
+msgstr ""
+"Сборщик URL не смог загрузиться: ошибка компиляции регулярного выражения для "
+"ссылок.\n"
+
+#: ../plugins/url_scraper/urlscraper.c:206
+msgid "URL Scraper failed to load: couldn't compile e-mail regex.\n"
+msgstr ""
+"Сборщик URL не смог загрузиться: ошибка компиляции регулярного выражения для "
+"e-mail.\n"
+
+#: ../plugins/url_scraper/urlscraper.c:221
+msgid "URL Scraper loaded.\n"
+msgstr "Сборщик URL загружен.\n"
+
+#: ../plugins/url_scraper/urlscraper.c:233
+msgid "URL Scraper unloaded.\n"
+msgstr "Сборщик URL выгружен.\n"
+
+#: ../plugins/url_scraper/urlscraper.schemas.in.h:1
+msgid "URL Scraper history length"
+msgstr "Длина истории сборщика URL"
+
+#: ../plugins/url_scraper/urlscraper.schemas.in.h:2
+msgid "URL Scraper show timestamps"
+msgstr "Показывать время ссылок"
+
+#: ../plugins/sound-notification/sound-notification.c:47
+msgid "New message received"
+msgstr "Пришло новое сообщение"
+
+#: ../plugins/sound-notification/sound-notification.c:56
+msgid "Sound Notification"
+msgstr "Звуковое уведомление"
+
+#: ../plugins/sound-notification/sound-notification.c:57
+msgid ""
+"Play a sound when you receive a private message or your nick is highlighted."
+msgstr ""
+"Проигрывать звук, когда вы получаете личное сообщение или ваш ник выделен."
+
+#: ../plugins/sound-notification/sound-notification.c:89
+msgid "Sound-notification plugin loaded.\n"
+msgstr "Загружено расширение звуковых уведомлений.\n"
+
+#: ../plugins/sound-notification/sound-notification.c:97
+msgid "Sound-notification plugin unloaded.\n"
+msgstr "Выгружено расширение звуковых уведомлений.\n"
+
+#: ../plugins/tcl/tclplugin.c:2233
+msgid "tclplugin"
+msgstr "Модуль TCL"
+
+#: ../plugins/tcl/tclplugin.c:2234
+msgid "Tcl plugin for XChat"
+msgstr "Модуль языка TCL для XChat"
+
+#: ../src/common/cfgfiles.c:356
+msgid "Cannot create ~/.xchat2"
+msgstr "Не удалось создать ~/.xchat2"
+
+#: ../src/common/cfgfiles.c:714
+msgid "I'm busy"
+msgstr "Я занят"
+
+#: ../src/common/cfgfiles.c:715
+msgid "Leaving"
+msgstr "Ухожу я от вас"
+
+#: ../src/common/cfgfiles.c:762
+msgid ""
+"* Running IRC as root is stupid! You should\n"
+"  create a User Account and use that to login.\n"
+msgstr ""
+"* Глупо запускать IRC под пользователем root! Вы должны\n"
+"  создать пользовательский вход и работать под ним.\n"
+
+#: ../src/common/dbus/dbus-client.c:73
+msgid "Couldn't connect to session bus"
+msgstr "Не удалось подключиться к шине dbus текущего сеанса"
+
+#. Used for dbus-based single instance app
+#: ../src/common/dbus/dbus-client.c:88
+msgid "Detection of running instance failed"
+msgstr "Не удалось обнаружить запущенный экземпляр"
+
+#. Used for dbus-based single instance app
+#: ../src/common/dbus/dbus-client.c:110
+msgid "Failed to send \"url\" command to running instance"
+msgstr "Не удалось отправить команду \"url\" запущенному экземпляру"
+
+#: ../src/common/dcc.c:67
+msgid "Waiting"
+msgstr "Ожидание"
+
+#. black
+#: ../src/common/dcc.c:68
+msgid "Active"
+msgstr "Активен"
+
+#. cyan
+#: ../src/common/dcc.c:69
+msgid "Failed"
+msgstr "Сбой"
+
+#. red
+#: ../src/common/dcc.c:70
+msgid "Done"
+msgstr "Готово"
+
+#. green
+#: ../src/common/dcc.c:71 ../src/fe-gnome/connect-dialog.c:183
+msgid "Connect"
+msgstr "Соединение"
+
+#. black
+#: ../src/common/dcc.c:72
+msgid "Aborted"
+msgstr "Остановлено"
+
+#: ../src/common/dcc.c:1886 ../src/common/outbound.c:2452
+#, c-format
+msgid "Cannot access %s\n"
+msgstr "Нет доступа к %s\n"
+
+#. ! if (osvi.dwMajorVersion >= 5)
+#. fallback to error number
+#: ../src/common/dcc.c:1887 ../src/common/text.c:1170
+#: ../src/common/text.c:1208 ../src/common/text.c:1219
+#: ../src/common/text.c:1226 ../src/common/text.c:1239
+#: ../src/common/text.c:1256 ../src/common/text.c:1356
+#: ../src/common/util.c:354
+msgid "Error"
+msgstr "Ошибка"
+
+#: ../src/common/dcc.c:2375
+#, c-format
+msgid "%s is offering \"%s\". Do you want to accept?"
+msgstr "%s предлагает \"%s\". Хотите принять?"
+
+#: ../src/common/dcc.c:2586
+msgid "No active DCCs\n"
+msgstr "Нет активных DCC\n"
+
+#: ../src/common/ignore.c:120 ../src/common/ignore.c:124
+#: ../src/common/ignore.c:128 ../src/common/ignore.c:132
+#: ../src/common/ignore.c:136 ../src/common/ignore.c:140
+#: ../src/common/ignore.c:144
+msgid "YES  "
+msgstr "ДА  "
+
+#: ../src/common/ignore.c:122 ../src/common/ignore.c:126
+#: ../src/common/ignore.c:130 ../src/common/ignore.c:134
+#: ../src/common/ignore.c:138 ../src/common/ignore.c:142
+#: ../src/common/ignore.c:146
+msgid "NO   "
+msgstr "НЕТ   "
+
+#: ../src/common/ignore.c:377
+#, c-format
+msgid "You are being CTCP flooded from %s, ignoring %s\n"
+msgstr "Вас забрасывают CTCP запросами от %s, %s игнорируется.\n"
+
+#: ../src/common/ignore.c:402
+#, c-format
+msgid "You are being MSG flooded from %s, setting gui_auto_open_dialog OFF.\n"
+msgstr "Вас забрасывают сообщениями от %s, выключаем авто-диалог.\n"
+
+#: ../src/common/notify.c:473
+#, c-format
+msgid "  %-20s online\n"
+msgstr "  %-20s на канале\n"
+
+#: ../src/common/notify.c:475
+#, c-format
+msgid "  %-20s offline\n"
+msgstr "  %-20s отключен\n"
+
+#: ../src/common/outbound.c:72
+msgid "No channel joined. Try /join #<channel>\n"
+msgstr "Вы не зашли на канал. Наберите /join #<канал>\n"
+
+#: ../src/common/outbound.c:78
+msgid "Not connected. Try /server <host> [<port>]\n"
+msgstr "Нет соединения. Наберите /server <адрес> [<порт>]\n"
+
+#: ../src/common/outbound.c:339
+#, c-format
+msgid "Already marked away: %s\n"
+msgstr "Уже помечен как \"Отошёл\":%s\n"
+
+#: ../src/common/outbound.c:409
+msgid "Already marked back.\n"
+msgstr "Уже помечен как \"Вернулся\".\n"
+
+#: ../src/common/outbound.c:1814
+msgid "I need /bin/sh to run!\n"
+msgstr "Отсутствует /bin/sh для запуска!\n"
+
+#: ../src/common/outbound.c:2185
+msgid "Commands Available:"
+msgstr "Доступные команды:"
+
+#: ../src/common/outbound.c:2199
+msgid "User defined commands:"
+msgstr "Команды определенные пользователем:"
+
+#: ../src/common/outbound.c:2215
+msgid "Plugin defined commands:"
+msgstr "Команды расширений:"
+
+#: ../src/common/outbound.c:2226
+msgid "Type /HELP <command> for more information, or /HELP -l"
+msgstr "Наберите /HELP <имя команды> для более полной информации, или /HELP -l"
+
+#: ../src/common/outbound.c:2301
+#, c-format
+msgid "Unknown arg '%s' ignored."
+msgstr "Игнорируется неизвестный аргумент \"%s\"."
+
+#: ../src/common/outbound.c:3240
+msgid "No such plugin found.\n"
+msgstr "Расширение не найдено.\n"
+
+#: ../src/common/outbound.c:3245
+msgid "That plugin is refusing to unload.\n"
+msgstr "Расширение отказывается выгружаться.\n"
+
+#: ../src/common/outbound.c:3514
+msgid "ADDBUTTON <name> <action>, adds a button under the user-list"
+msgstr ""
+"ADDBUTTON <название> <действие> - добавляет кнопку под списком пользователей"
+
+#: ../src/common/outbound.c:3516
+msgid "ALLCHAN <cmd>, sends a command to all channels you're in"
+msgstr "ALLCHAN <команда> - посылает команду во всех каналах где вы есть"
+
+#: ../src/common/outbound.c:3518
+msgid "ALLCHANL <cmd>, sends a command to all channels you're in"
+msgstr "ALLCHAN <команда> - посылает команду во всех каналах где вы есть"
+
+#: ../src/common/outbound.c:3520
+msgid "ALLSERV <cmd>, sends a command to all servers you're in"
+msgstr "ALLSERV <cmd> - посылает команду на всех серверах где вы есть"
+
+#: ../src/common/outbound.c:3521
+msgid "AWAY [<reason>], sets you away"
+msgstr "AWAY [<причина>] - устанавливает флаг отсутствия"
+
+#: ../src/common/outbound.c:3522
+msgid "BACK, sets you back (not away)"
+msgstr "Снимает флаг отсутствия"
+
+#: ../src/common/outbound.c:3524
+msgid ""
+"BAN <mask> [<bantype>], bans everyone matching the mask from the current "
+"channel. If they are already on the channel this doesn't kick them (needs "
+"chanop)"
+msgstr ""
+"BAN <маска> [<тип>] - блокирует доступ на текущий канал для каждого, "
+"совпадающего с маской. Если они уже на канале, то они не будут скинуты (для "
+"этого нужно быть оператором канала)"
+
+#: ../src/common/outbound.c:3526
+msgid ""
+"Set per channel options\n"
+"CHANOPT CONFMODE ON|OFF - Toggle conf mode/showing of join and part "
+"messages\n"
+"CHANOPT COLORPASTE ON|OFF - Toggle color paste\n"
+"CHANOPT BEEP ON|OFF - Toggle beep on message\n"
+"CHANOPT TRAY ON|OFF - Toggle tray blink on message"
+msgstr ""
+"Установить параметры на отдельный канал\n"
+"CHANOPT CONFMODE ON|OFF - Изменить режим отображения сообщений о "
+"присоединению к каналу или ухода с него\n"
+"CHANOPT COLORPASTE ON|OFF - Изменить вставку цвета\n"
+"CHANOPT BEEP ON|OFF - Изменить звуковое оповещение о сообщениях\n"
+"CHANOPT TRAY ON|OFF - Изменить мерцание области уведомления при сообщениях"
+
+#: ../src/common/outbound.c:3533
+msgid "CLEAR [ALL|HISTORY], Clears the current text window or command history"
+msgstr "CLEAR [ALL|HISTORY]. Очищает текущее текстовое окно или историю команд"
+
+#: ../src/common/outbound.c:3534
+msgid "CLOSE, Closes the current window/tab"
+msgstr "CLOSE - закрывает текущее окно или вкладку"
+
+#: ../src/common/outbound.c:3537
+msgid "COUNTRY [-s] <code|wildcard>, finds a country code, eg: au = australia"
+msgstr ""
+"COUNTRY [-s] <код|маска> - находит код страны, например: au = Австралия"
+
+#: ../src/common/outbound.c:3539
+msgid ""
+"CTCP <nick> <message>, send the CTCP message to nick, common messages are "
+"VERSION and USERINFO"
+msgstr ""
+"CTCP <ник> <сообщение> - посылает пользователю с указанным ником CCTP-"
+"сообщение, обычные сообщения -- VERSION и USERINFO"
+
+#: ../src/common/outbound.c:3541
+msgid ""
+"CYCLE [<channel>], parts the current or given channel and immediately rejoins"
+msgstr "CYCLE [<канал>] - выйти с текущего канала и немедленно зайти"
+
+#: ../src/common/outbound.c:3543
+msgid ""
+"\n"
+"DCC GET <nick>                      - accept an offered file\n"
+"DCC SEND [-maxcps=#] <nick> [file]  - send a file to someone\n"
+"DCC PSEND [-maxcps=#] <nick> [file] - send a file using passive mode\n"
+"DCC LIST                            - show DCC list\n"
+"DCC CHAT <nick>                     - offer DCC CHAT to someone\n"
+"DCC PCHAT <nick>                    - offer DCC CHAT using passive mode\n"
+"DCC CLOSE <type> <nick> <file>         example:\n"
+"         /dcc close send johnsmith file.tar.gz"
+msgstr ""
+"\n"
+"DCC GET <имя>          - принять отправляемый файл\n"
+"DCC SEND <имя> <имя файла>  - отправить файл получателю\n"
+"DCC LIST                - показать список DCC\n"
+"DCC CHAT <имя>         - запросить разговор через DCC\n"
+"DCC CLOSE <тип> <имя> <файл>         пример:\n"
+"         /dcc close send johnsmith file.tar.gz"
+
+#: ../src/common/outbound.c:3555
+msgid ""
+"DEHOP <nick>, removes chanhalf-op status from the nick on the current "
+"channel (needs chanop)"
+msgstr ""
+"DEHOP <ник> - удаляет статус полу-оператора у пользователя с <ником> на "
+"текущем канале (нужны права администратора канала)"
+
+#: ../src/common/outbound.c:3557
+msgid "DELBUTTON <name>, deletes a button from under the user-list"
+msgstr "DELBUTTON <имя> - удаляет кнопку из-под списка пользователей"
+
+#: ../src/common/outbound.c:3559
+msgid ""
+"DEOP <nick>, removes chanop status from the nick on the current channel "
+"(needs chanop)"
+msgstr ""
+"DEOP <nick> - убирает права администратора канала у пользователя на текущем "
+"канале (требует права администратора)."
+
+#: ../src/common/outbound.c:3561
+msgid ""
+"DEVOICE <nick>, removes voice status from the nick on the current channel "
+"(needs chanop)"
+msgstr ""
+"DEVOICE <nick> - удаляет право голоса у пользователя с переданным именем на "
+"текущем канале. Для использования нужны права администратора канала"
+
+#: ../src/common/outbound.c:3562
+msgid "DISCON, Disconnects from server"
+msgstr "DISCON - отсоединиться от сервера"
+
+#: ../src/common/outbound.c:3563
+msgid "DNS <nick|host|ip>, Finds a users IP number"
+msgstr "DNS <имя,адрес,IP> - поиск IP адреса пользователя"
+
+#: ../src/common/outbound.c:3564
+msgid "ECHO <text>, Prints text locally"
+msgstr "ECHO <текст> - вывести текст на локальной машине"
+
+#: ../src/common/outbound.c:3567
+msgid ""
+"EXEC [-o] <command>, runs the command. If -o flag is used then output is "
+"sent to current channel, else is printed to current text box"
+msgstr ""
+"EXEC [-o] <Команда> - выполняет команду. При передаче опции -o вывод команды "
+"перенаправляется в текущий канал. Иначе вывод печатается в текущем окне"
+
+#: ../src/common/outbound.c:3569
+msgid "EXECCONT, sends the process SIGCONT"
+msgstr "EXECCONT - посылает процессу SIGCONT"
+
+#: ../src/common/outbound.c:3572
+msgid ""
+"EXECKILL [-9], kills a running exec in the current session. If -9 is given "
+"the process is SIGKILL'ed"
+msgstr ""
+"EXECKILL [-9] - уничтожает выполняющийся процесс в текущей сессии. Если -9 "
+"процессу передается сигнал SIGKILL"
+
+#: ../src/common/outbound.c:3574
+msgid "EXECSTOP, sends the process SIGSTOP"
+msgstr "EXECSTOP - посылает процессу сигнал SIGSTOP"
+
+#: ../src/common/outbound.c:3575
+msgid "EXECWRITE, sends data to the processes stdin"
+msgstr "EXECWRITE - посылает процессу данные на стандартный ввод"
+
+#: ../src/common/outbound.c:3579
+msgid "FLUSHQ, flushes the current server's send queue"
+msgstr "FLUSHQ - сбрасывает текущую очередь отправки сервера"
+
+#: ../src/common/outbound.c:3581
+msgid "GATE <host> [<port>], proxies through a host, port defaults to 23"
+msgstr "GATE <адрес> [<порт>] - прокси через узел, порт по умолчанию - 23"
+
+#: ../src/common/outbound.c:3585
+msgid "GHOST <nick> <password>, Kills a ghosted nickname"
+msgstr "GHOST <ник> <пароль> - отключает ник-\"призрак\""
+
+#: ../src/common/outbound.c:3590
+msgid "HOP <nick>, gives chanhalf-op status to the nick (needs chanop)"
+msgstr ""
+"HOP <Ник> - дает статус полу-оператора канала пользователю (требуются права "
+"оператора)"
+
+#: ../src/common/outbound.c:3591
+msgid "ID <password>, identifies yourself to nickserv"
+msgstr "ID <пароль> - идентифицировать себя на сервере ников"
+
+#: ../src/common/outbound.c:3593
+msgid ""
+"IGNORE <mask> <types..> <options..>\n"
+"    mask - host mask to ignore, eg: *!*@*.aol.com\n"
+"    types - types of data to ignore, one or all of:\n"
+"            PRIV, CHAN, NOTI, CTCP, DCC, INVI, ALL\n"
+"    options - NOSAVE, QUIET"
+msgstr ""
+"IGNORE <маска> <типы..> <параметры..>\n"
+"    маска - маска игнорируемого хоста, например: *!*@*.aol.com\n"
+"    типы - типы игнорируемых данных, один или несколько из следующих:\n"
+"            PRIV, CHAN, NOTI, CTCP, DCC, INVI, ALL\n"
+"    параметры - NOSAVE, QUIET"
+
+#: ../src/common/outbound.c:3600
+msgid ""
+"INVITE <nick> [<channel>], invites someone to a channel, by default the "
+"current channel (needs chanop)"
+msgstr ""
+"INVITE <Ник> [<канал>] - пригласить кого-либо на канал, по умолчанию, на "
+"текущий (требует права оператора)"
+
+#: ../src/common/outbound.c:3601
+msgid "JOIN <channel>, joins the channel"
+msgstr "JOIN <канал> - зайти на канал"
+
+#: ../src/common/outbound.c:3603
+msgid "KICK <nick>, kicks the nick from the current channel (needs chanop)"
+msgstr ""
+"KICK <Ник> - выгнать человека с текущего канала (нужны права оператора)"
+
+#: ../src/common/outbound.c:3605
+msgid ""
+"KICKBAN <nick>, bans then kicks the nick from the current channel (needs "
+"chanop)"
+msgstr ""
+"KICKBAN <Ник> - забанить и выгнать человека с текущего канала (требуются "
+"права оператора)"
+
+#: ../src/common/outbound.c:3608
+msgid "LAGCHECK, forces a new lag check"
+msgstr "LAGCHECK - инициирует новую проверку задержек"
+
+#: ../src/common/outbound.c:3610
+msgid "LASTLOG <string>, searches for a string in the buffer"
+msgstr "LASTLOG <Строка> - ищет строку в буфере"
+
+#: ../src/common/outbound.c:3612
+msgid "LOAD [-e] <file>, loads a plugin or script"
+msgstr "LOAD <ИмяФайла> - загружает скрипт или расширение"
+
+#: ../src/common/outbound.c:3615
+msgid ""
+"MDEHOP, Mass deop's all chanhalf-ops in the current channel (needs chanop)"
+msgstr ""
+"MDEHOP - убирает у всех на текущем канале права полу-оператора (требуются "
+"права оператора)"
+
+#: ../src/common/outbound.c:3617
+msgid "MDEOP, Mass deop's all chanops in the current channel (needs chanop)"
+msgstr ""
+"MDEOP - убирает у всех права оператора на текущем канале (требуются права "
+"оператора)"
+
+#: ../src/common/outbound.c:3619
+msgid ""
+"ME <action>, sends the action to the current channel (actions are written in "
+"the 3rd person, like /me jumps)"
+msgstr ""
+"ME <action> - посылает действие на текущий канал (действие пишется от "
+"третьего лица, например, /me прыгает)"
+
+#: ../src/common/outbound.c:3623
+msgid ""
+"MKICK, Mass kicks everyone except you in the current channel (needs chanop)"
+msgstr "MKICK - удаляет всех, кроме себя, с канала (требуются права оператора)"
+
+#: ../src/common/outbound.c:3626
+msgid "MOP, Mass op's all users in the current channel (needs chanop)"
+msgstr ""
+"MOP - Устанавливает всем пользователям текущего канала права оператора "
+"(требуются права оператора канала)"
+
+#: ../src/common/outbound.c:3627
+msgid "MSG <nick> <message>, sends a private message"
+msgstr "MSG <Ник> <сообщение> - отправляет приватное сообщение"
+
+#: ../src/common/outbound.c:3630
+msgid "NAMES, Lists the nicks on the current channel"
+msgstr "NAMES - показывает список посетителей текущего канала"
+
+#: ../src/common/outbound.c:3632
+msgid "NCTCP <nick> <message>, Sends a CTCP notice"
+msgstr "NCTCP <Ник> <сообщение> - отправляет CTCP сообщение"
+
+#: ../src/common/outbound.c:3633
+msgid "NEWSERVER [-noconnect] <hostname> [<port>]"
+msgstr "NEWSERVER [-noconnect] <ИмяСервера> [<порт>]"
+
+#: ../src/common/outbound.c:3634
+msgid "NICK <nickname>, sets your nick"
+msgstr "/NICK <Ник> - поменять свой ник"
+
+#: ../src/common/outbound.c:3637
+msgid ""
+"NOTICE <nick/channel> <message>, sends a notice. Notices are a type of "
+"message that should be auto reacted to"
+msgstr ""
+"NOTICE <Ник/канал> <сообщение> - посылает уведомление. Уведомления - тип "
+"сообщений на которые должно быть установлена автоматический ответ."
+
+#: ../src/common/outbound.c:3639
+msgid ""
+"NOTIFY [-n network1[,network2,...]] [<nick>], displays your notify list or "
+"adds someone to it"
+msgstr ""
+"NOTIFY [-n сеть,[,сеть,...]] [<ник>],  показывает список ваших уведомлений "
+"или добавляет что-либо к ним"
+
+#: ../src/common/outbound.c:3641
+msgid "OP <nick>, gives chanop status to the nick (needs chanop)"
+msgstr ""
+"OP <Ник> - даёт пользователю статус оператора канала (требуются права "
+"администратора)"
+
+#: ../src/common/outbound.c:3643
+msgid ""
+"PART [<channel>] [<reason>], leaves the channel, by default the current one"
+msgstr "PART [<Канал>] [<Причина>] - выйти с канала, по умолчанию - с текущего"
+
+#: ../src/common/outbound.c:3645
+msgid "PING <nick | channel>, CTCP pings nick or channel"
+msgstr "PING <Ник | канал> - CTCP-пинг пользователя или канала"
+
+#: ../src/common/outbound.c:3647
+msgid "QUERY [-nofocus] <nick>, opens up a new privmsg window to someone"
+msgstr ""
+"QUERY [-nofocus] <nick>, открывает новое окно беседы с выбранным "
+"пользователем"
+
+#: ../src/common/outbound.c:3649
+msgid "QUIT [<reason>], disconnects from the current server"
+msgstr "QUIT [<причина>] - отсоединение от текущего сервера"
+
+#: ../src/common/outbound.c:3651
+msgid "QUOTE <text>, sends the text in raw form to the server"
+msgstr "QUOTE <Текст> - отсылает текст в чистом виде на сервер"
+
+#: ../src/common/outbound.c:3654
+msgid ""
+"RECONNECT [-ssl] [<host>] [<port>] [<password>], Can be called just as /"
+"RECONNECT to reconnect to the current server or with /RECONNECT ALL to "
+"reconnect to all the open servers"
+msgstr ""
+"RECONNECT [-ssl] [<Сервер>] [<Порт>] [<Пароль>]. Может использоваться только "
+"как /RECONNECT для переподключения к текущему серверу или с /RECONNECT ALL "
+"для переподключения ко всем серверам"
+
+#: ../src/common/outbound.c:3657
+msgid ""
+"RECONNECT [<host>] [<port>] [<password>], Can be called just as /RECONNECT "
+"to reconnect to the current server or with /RECONNECT ALL to reconnect to "
+"all the open servers"
+msgstr ""
+"RECONNECT [-ssl] [<Сервер>] [<Порт>] [<Пароль>]. Может использоваться только "
+"как /RECONNECT для переподключения к текущему серверу или с /RECONNECT ALL "
+"для переподключения ко всем серверам"
+
+#: ../src/common/outbound.c:3659
+msgid ""
+"RECV <text>, send raw data to xchat, as if it was received from the irc "
+"server"
+msgstr ""
+"RECV <Текст> - посылает данные в xchat, как если бы они были получены от "
+"сервера"
+
+#: ../src/common/outbound.c:3662
+msgid "SAY <text>, sends the text to the object in the current window"
+msgstr "SAY <Текст> - посылает текст объекту в текущем окне"
+
+#: ../src/common/outbound.c:3663
+msgid "SEND <nick> [<file>]"
+msgstr "SEND <ник> [<файл>]"
+
+#: ../src/common/outbound.c:3666
+msgid "SERVCHAN [-ssl] <host> <port> <channel>, connects and joins a channel"
+msgstr ""
+"SERVCHAN [-ssl] <Сервер> <порт> <канал> - подключиться к серверу, а затем к "
+"каналу"
+
+#: ../src/common/outbound.c:3669
+msgid "SERVCHAN <host> <port> <channel>, connects and joins a channel"
+msgstr ""
+"SERVCHAN [-ssl] <Сервер> <порт> <канал> - подключиться к серверу, а затем к "
+"каналу"
+
+#: ../src/common/outbound.c:3673
+msgid ""
+"SERVER [-ssl] <host> [<port>] [<password>], connects to a server, the "
+"default port is 6667 for normal connections, and 9999 for ssl connections"
+msgstr ""
+"SERVER [-ssl] <адрес> [<порт>] [<пароль>] соединяет с сервером. Порт по "
+"умолчанию 6667 для нормальных соединений и 9999 для соединений через SSL"
+
+#: ../src/common/outbound.c:3676
+msgid ""
+"SERVER <host> [<port>] [<password>], connects to a server, the default port "
+"is 6667"
+msgstr ""
+"SERVER <адрес> [<порт>] [<пароль>] - соединяет с сервером. Порт по умолчанию "
+"6667"
+
+#: ../src/common/outbound.c:3678
+msgid "SET [-e] [-or] [-quiet] <variable> [<value>]"
+msgstr "SET [-e] [-or] [-quiet] <переменная> [<значение>]"
+
+#: ../src/common/outbound.c:3679
+msgid "SETCURSOR [-|+]<position>"
+msgstr "SETCURSOR [-|+]<позиция>"
+
+#: ../src/common/outbound.c:3684
+msgid ""
+"TOPIC [<topic>], sets the topic if one is given, else shows the current topic"
+msgstr ""
+"TOPIC [<тема>] - устанавливает тему, если она указана. Иначе отображает "
+"текущую тему"
+
+#: ../src/common/outbound.c:3686
+msgid ""
+"\n"
+"TRAY -f <timeout> <file1> [<file2>] Blink tray between two icons.\n"
+"TRAY -f <filename>                  Set tray to a fixed icon.\n"
+"TRAY -i <number>                    Blink tray with an internal icon.\n"
+"TRAY -t <text>                      Set the tray tooltip.\n"
+"TRAY -b <title> <text>              Set the tray balloon."
+msgstr ""
+"\n"
+"TRAY -f <timeout> <file1> [<file2>] Изменять значок в области уведомления, "
+"используя заданный файлы изображения.\n"
+"TRAY -f <filename>                  Установить значок области уведомления.\n"
+"TRAY -i <number>                    Области уведомлений мигает, используя "
+"программный значок.\n"
+"TRAY -t <text>                      Установит всплывающую подсказку области "
+"уведомлений.\n"
+"TRAY -b <title> <text>              Установить текст области уведомлений."
+
+#: ../src/common/outbound.c:3693
+msgid "UNBAN <mask> [<mask>...], unbans the specified masks."
+msgstr "UNBAN <маска> [<маска>...] - снять запрет для специфической маски"
+
+#: ../src/common/outbound.c:3694
+msgid "UNIGNORE <mask> [QUIET]"
+msgstr ""
+"UNIGNORE <маска> [QUIET] - снять игнорирование сообщений с определенной маски"
+
+#: ../src/common/outbound.c:3695
+msgid "UNLOAD <name>, unloads a plugin or script"
+msgstr "UNLOAD <имя> - выгрузить расширение или сценарий"
+
+#: ../src/common/outbound.c:3696
+msgid "URL <url>, opens a URL in your browser"
+msgstr "URL <url> - открывает заданный URL в вашем браузере"
+
+#: ../src/common/outbound.c:3698
+msgid ""
+"USELECT [-a] [-s] <nick1> <nick2> etc, highlights nick(s) in channel userlist"
+msgstr ""
+"USELECT [-a] [-s] <ник1> <ник2> и т.д., выделяет ник(и) в списке "
+"пользователей канала"
+
+#: ../src/common/outbound.c:3701
+msgid "VOICE <nick>, gives voice status to someone (needs chanop)"
+msgstr "VOICE <Ник> - дает право голоса кому-либо (требуются права оператора)"
+
+#: ../src/common/outbound.c:3703
+msgid "WALLCHAN <message>, writes the message to all channels"
+msgstr "WALLCHAN <Сообщение> - посылает сообщение на все каналы"
+
+#: ../src/common/outbound.c:3705
+msgid ""
+"WALLCHOP <message>, sends the message to all chanops on the current channel"
+msgstr ""
+"WALLCHOP <Сообщение> - посылает сообщение всем операторам текущего канала"
+
+#: ../src/common/outbound.c:3738
+#, c-format
+msgid "Usage: %s\n"
+msgstr "Использование: %s\n"
+
+#: ../src/common/outbound.c:3743
+msgid ""
+"\n"
+"No help available on that command.\n"
+msgstr ""
+"\n"
+"По этой команде нет помощи.\n"
+
+#: ../src/common/outbound.c:3749
+msgid "No such command.\n"
+msgstr "Команда не существует.\n"
+
+#: ../src/common/outbound.c:4079
+msgid "Bad arguments for user command.\n"
+msgstr "Недопустимые аргументы команды пользователя.\n"
+
+#: ../src/common/outbound.c:4235
+msgid "Too many recursive usercommands, aborting."
+msgstr "Очень много рекурсивных команд пользователя, прерывание."
+
+#: ../src/common/outbound.c:4312
+msgid "Unknown Command. Try /help\n"
+msgstr "Неизвестная команда. Попробуйте /help\n"
+
+#: ../src/common/plugin.c:359 ../src/common/plugin.c:400
+msgid "No xchat_plugin_init symbol; is this really an xchat plugin?"
+msgstr "Нет символа xchat_plugin_init; вы уверены, что это плагин для xchat?"
+
+#: ../src/common/server.c:634
+msgid "Are you sure this is a SSL capable server and port?\n"
+msgstr "Вы уверены, что сервер и порт поддерживают SSL?\n"
+
+#: ../src/common/server.c:1024
+#, c-format
+msgid ""
+"Cannot resolve hostname %s\n"
+"Check your IP Settings!\n"
+msgstr ""
+"Не удалось определить имя %s\n"
+"Проверьте ваши сетевые настройки!\n"
+
+#: ../src/common/server.c:1029
+msgid "Proxy traversal failed.\n"
+msgstr "Ошибка прохождения через прокси.\n"
+
+#: ../src/common/servlist.c:652
+#, c-format
+msgid "Cycling to next server in %s...\n"
+msgstr "Переключаемся к следующему серверу %s...\n"
+
+#: ../src/common/servlist.c:1083
+#, c-format
+msgid ""
+"Warning: \"%s\" character set is unknown. No conversion will be applied for "
+"network %s."
+msgstr ""
+"Предупреждение: кодировка \"%s\" неизвестна. Преобразования для сети %s не "
+"будет."
+
+#. get rid of the \n
+#: ../src/common/text.c:293
+msgid "Loaded log from"
+msgstr "Загружен журнал из"
+
+#: ../src/common/text.c:311
+#, c-format
+msgid "**** ENDING LOGGING AT %s\n"
+msgstr "**** ОКОНЧАНИЕ ЖУРНАЛА %s\n"
+
+#: ../src/common/text.c:520
+#, c-format
+msgid "**** BEGIN LOGGING AT %s\n"
+msgstr "**** НАЧАЛО ЖУРНАЛА %s\n"
+
+#: ../src/common/text.c:539
+#, c-format
+msgid ""
+"* Can't open log file(s) for writing. Check the\n"
+"  permissions on %s/xchatlogs"
+msgstr ""
+"* Не удалось открыть файл(ы) журналов для записи. Проверьте\n"
+"  права доступа на %s/xchatlogs"
+
+#: ../src/common/text.c:877
+msgid "Left message"
+msgstr "Сообщение слева"
+
+#: ../src/common/text.c:878
+msgid "Right message"
+msgstr "Сообщение справа"
+
+#: ../src/common/text.c:882
+msgid "The nick of the joining person"
+msgstr "Имя зашедшего пользователя"
+
+#: ../src/common/text.c:883
+msgid "The channel being joined"
+msgstr "Заходим на канал"
+
+#: ../src/common/text.c:884 ../src/common/text.c:931 ../src/common/text.c:982
+msgid "The host of the person"
+msgstr "Адрес компьютера пользователя"
+
+#: ../src/common/text.c:889
+msgid "The action"
+msgstr "Действие"
+
+#: ../src/common/text.c:890 ../src/common/text.c:896
+msgid "Mode char"
+msgstr "Символ режима"
+
+#: ../src/common/text.c:895
+msgid "The text"
+msgstr "Текст"
+
+#: ../src/common/text.c:897 ../src/common/text.c:903
+msgid "Identified text"
+msgstr "Информация"
+
+#: ../src/common/text.c:902 ../src/common/text.c:959 ../src/common/text.c:965
+msgid "The message"
+msgstr "Сообщение"
+
+#: ../src/common/text.c:907 ../src/common/text.c:969
+msgid "Old nickname"
+msgstr "Старый ник"
+
+#: ../src/common/text.c:908 ../src/common/text.c:970
+msgid "New nickname"
+msgstr "Новый ник"
+
+#: ../src/common/text.c:912
+msgid "Nick of person who changed the topic"
+msgstr "Ник пользователя, который поменял тему"
+
+#: ../src/common/text.c:913 ../src/common/text.c:919
+#: ../src/fe-gnome/channel-list-window.c:456
+msgid "Topic"
+msgstr "Тема"
+
+#: ../src/common/text.c:923 ../src/common/text.c:976
+msgid "The nickname of the kicker"
+msgstr "Ник выгнавшего"
+
+#: ../src/common/text.c:924 ../src/common/text.c:974
+msgid "The person being kicked"
+msgstr "Выгоняемый пользователь"
+
+#: ../src/common/text.c:925 ../src/common/text.c:932 ../src/common/text.c:936
+#: ../src/common/text.c:941 ../src/common/text.c:975 ../src/common/text.c:983
+#: ../src/common/text.c:990
+msgid "The channel"
+msgstr "Канал"
+
+#: ../src/common/text.c:926 ../src/common/text.c:977 ../src/common/text.c:984
+msgid "The reason"
+msgstr "Причина"
+
+#: ../src/common/text.c:930 ../src/common/text.c:981
+msgid "The nick of the person leaving"
+msgstr "Ник уходящего пользователя"
+
+#: ../src/common/text.c:937 ../src/common/text.c:943
+msgid "The time"
+msgstr "Время"
+
+#: ../src/common/text.c:942
+msgid "The creator"
+msgstr "Создатель"
+
+#: ../src/common/text.c:948 ../src/common/text.c:1201
+msgid "Reason"
+msgstr "Причина"
+
+#: ../src/common/text.c:949 ../src/common/text.c:1091
+#: ../src/common/text.c:1174
+msgid "Host"
+msgstr "Узел"
+
+#: ../src/common/text.c:953 ../src/common/text.c:958 ../src/common/text.c:963
+msgid "Who it's from"
+msgstr "От кого"
+
+#: ../src/common/text.c:954
+msgid "The time in x.x format (see below)"
+msgstr "Время в формате x.x (см. ниже)"
+
+#: ../src/common/text.c:964 ../src/common/text.c:1001
+msgid "The Channel it's going to"
+msgstr "Канал, куда будет направлено"
+
+#: ../src/common/text.c:988
+msgid "The sound"
+msgstr "Звук"
+
+#: ../src/common/text.c:989 ../src/common/text.c:995 ../src/common/text.c:1000
+msgid "The nick of the person"
+msgstr "Ник пользователя"
+
+#: ../src/common/text.c:994 ../src/common/text.c:999
+msgid "The CTCP event"
+msgstr "Событие CTCP"
+
+#: ../src/common/text.c:1005
+msgid "The nick of the person who set the key"
+msgstr "Ник пользователя, установившего пароль"
+
+#: ../src/common/text.c:1006
+msgid "The key"
+msgstr "Пароль"
+
+#: ../src/common/text.c:1010
+msgid "The nick of the person who set the limit"
+msgstr "Ник пользователя, установившего ограничение"
+
+#: ../src/common/text.c:1011
+msgid "The limit"
+msgstr "Ограничение"
+
+#: ../src/common/text.c:1015
+msgid "The nick of the person who has been op'ed"
+msgstr "Ник пользователя, которому дали права оператора"
+
+#: ../src/common/text.c:1016
+msgid "The nick of the person who did the op'ing"
+msgstr "Ник пользователя, который назначил оператора"
+
+#: ../src/common/text.c:1020
+msgid "The nick of the person who has been halfop'ed"
+msgstr "Ник пользователя, которому дали права полу-оператора"
+
+#: ../src/common/text.c:1021
+msgid "The nick of the person who did the halfop'ing"
+msgstr "Ник пользователя, который дал права полу-оператора"
+
+#: ../src/common/text.c:1025
+msgid "The nick of the person who did the voice'ing"
+msgstr "Ник пользователя, который дал право голоса"
+
+#: ../src/common/text.c:1026
+msgid "The nick of the person who has been voice'ed"
+msgstr "Ник пользователя, которому дали право голоса"
+
+#: ../src/common/text.c:1030
+msgid "The nick of the person who did the banning"
+msgstr "Ник забанившего"
+
+#: ../src/common/text.c:1031 ../src/common/text.c:1058
+msgid "The ban mask"
+msgstr "Маска бана"
+
+#: ../src/common/text.c:1035
+msgid "The nick who removed the key"
+msgstr "Ник удалившего пароль"
+
+#: ../src/common/text.c:1039
+msgid "The nick who removed the limit"
+msgstr "Ник снявшего ограничение"
+
+#: ../src/common/text.c:1043
+msgid "The nick of the person who did the deop'ing"
+msgstr "Ник пользователя, который снял права оператора"
+
+#: ../src/common/text.c:1044
+msgid "The nick of the person who has been deop'ed"
+msgstr "Ник пользователя, с которого сняли права оператора"
+
+#: ../src/common/text.c:1047
+msgid "The nick of the person who did the dehalfop'ing"
+msgstr "Ник пользователя, который снял права полу-оператора"
+
+#: ../src/common/text.c:1048
+msgid "The nick of the person who has been dehalfop'ed"
+msgstr "Ник пользователя, с которой сняли статус полу-оператора"
+
+#: ../src/common/text.c:1052
+msgid "The nick of the person who did the devoice'ing"
+msgstr "Ник пользователя, который отобрал право голоса"
+
+#: ../src/common/text.c:1053
+msgid "The nick of the person who has been devoice'ed"
+msgstr "Ник пользователя, с которого сняли право голоса"
+
+#: ../src/common/text.c:1057
+msgid "The nick of the person who did the unban'ing"
+msgstr "Ник пользователя, который снял бан"
+
+#: ../src/common/text.c:1062
+msgid "The nick of the person who did the exempt"
+msgstr "Ник пользователя, который вызвал исключение"
+
+#: ../src/common/text.c:1063 ../src/common/text.c:1068
+msgid "The exempt mask"
+msgstr "Маска исключения"
+
+#: ../src/common/text.c:1067
+msgid "The nick of the person who removed the exempt"
+msgstr "Ник пользователя, который убрал исключение"
+
+#: ../src/common/text.c:1072
+msgid "The nick of the person who did the invite"
+msgstr "Ник пользователя, который сделал приглашение"
+
+#: ../src/common/text.c:1073 ../src/common/text.c:1078
+msgid "The invite mask"
+msgstr "Маска приглашения"
+
+#: ../src/common/text.c:1077
+msgid "The nick of the person who removed the invite"
+msgstr "Ник пользователя, который удалил приглашение"
+
+#: ../src/common/text.c:1082
+msgid "The nick of the person who set the mode"
+msgstr "Ник пользователя, который установил режим"
+
+#: ../src/common/text.c:1083
+msgid "The mode's sign (+/-)"
+msgstr "Знаки режима (+/-)"
+
+#: ../src/common/text.c:1084
+msgid "The mode letter"
+msgstr "Буквы режима"
+
+#: ../src/common/text.c:1085
+msgid "The channel it's being set on"
+msgstr "Канал установки"
+
+#: ../src/common/text.c:1090
+msgid "Username"
+msgstr "Пользователь"
+
+#: ../src/common/text.c:1092
+msgid "Full name"
+msgstr "Полное имя"
+
+#: ../src/common/text.c:1097
+msgid "Channel Membership/\"is an IRC operator\""
+msgstr "Член канала/\"IRC - оператор\""
+
+#: ../src/common/text.c:1102
+msgid "Server Information"
+msgstr "Информация о сервере"
+
+#: ../src/common/text.c:1107 ../src/common/text.c:1112
+msgid "Idle time"
+msgstr "Время простоя"
+
+#: ../src/common/text.c:1113
+msgid "Signon time"
+msgstr "Время захода"
+
+#: ../src/common/text.c:1118
+msgid "Away reason"
+msgstr "Причина ухода"
+
+#: ../src/common/text.c:1127 ../src/common/text.c:1133
+#: ../src/common/text.c:1141 ../src/common/text.c:1321
+msgid "Message"
+msgstr "Сообщение"
+
+#: ../src/common/text.c:1134
+msgid "Account"
+msgstr "Учетная запись"
+
+#: ../src/common/text.c:1139
+msgid "Real user@host"
+msgstr "Настоящий пользователь@узел"
+
+#: ../src/common/text.c:1140
+msgid "Real IP"
+msgstr "Настоящий IP"
+
+#: ../src/common/text.c:1145 ../src/common/text.c:1154
+#: ../src/common/text.c:1160 ../src/common/text.c:1190
+#: ../src/common/text.c:1344 ../src/fe-gnome/channel-list-window.c:446
+msgid "Channel Name"
+msgstr "Название канала"
+
+#: ../src/common/text.c:1149 ../src/common/text.c:1307
+msgid "Text"
+msgstr "Текст"
+
+#: ../src/common/text.c:1150 ../src/common/text.c:1156
+#: ../src/common/text.c:1185 ../src/common/text.c:1303
+#: ../src/common/text.c:1345
+msgid "Server Name"
+msgstr "Имя сервера"
+
+#: ../src/common/text.c:1155
+msgid "Nick of person who invited you"
+msgstr "Ник пригласившего вас"
+
+#: ../src/common/text.c:1165
+msgid "Nickname in use"
+msgstr "Ник используется"
+
+#: ../src/common/text.c:1166
+msgid "Nick being tried"
+msgstr "Пробуем ник"
+
+#: ../src/common/text.c:1175 ../src/common/text.c:1311
+msgid "IP"
+msgstr "IP"
+
+#: ../src/common/text.c:1176 ../src/common/text.c:1207
+msgid "Port"
+msgstr "Порт"
+
+#: ../src/common/text.c:1186
+msgid "Network"
+msgstr "Сеть"
+
+#: ../src/common/text.c:1191 ../src/common/text.c:1196
+msgid "Modes string"
+msgstr "Строка режимов"
+
+#: ../src/common/text.c:1206 ../src/common/text.c:1244
+#: ../src/common/text.c:1249 ../src/common/text.c:1290
+msgid "IP address"
+msgstr "IP Адрес"
+
+#: ../src/common/text.c:1212 ../src/common/text.c:1237
+msgid "DCC Type"
+msgstr "Тип DCC"
+
+#: ../src/common/text.c:1213 ../src/common/text.c:1218
+#: ../src/common/text.c:1223 ../src/common/text.c:1230
+#: ../src/common/text.c:1250 ../src/common/text.c:1254
+#: ../src/common/text.c:1260 ../src/common/text.c:1266
+#: ../src/common/text.c:1273 ../src/common/text.c:1282
+#: ../src/common/text.c:1288
+msgid "Filename"
+msgstr "Имя файла"
+
+#: ../src/common/text.c:1224 ../src/common/text.c:1231
+msgid "Destination filename"
+msgstr "Имя файла у получателя"
+
+#: ../src/common/text.c:1233 ../src/common/text.c:1262
+msgid "CPS"
+msgstr "CPS"
+
+#: ../src/common/text.c:1268
+msgid "Pathname"
+msgstr "Путь"
+
+#: ../src/common/text.c:1283
+msgid "Position"
+msgstr "Положение"
+
+#: ../src/common/text.c:1289
+msgid "Size"
+msgstr "Размер"
+
+#: ../src/common/text.c:1294
+msgid "DCC String"
+msgstr "Строка DCC"
+
+#: ../src/common/text.c:1299
+msgid "Number of notify items"
+msgstr "Количество уведомлений"
+
+#: ../src/common/text.c:1315
+msgid "Old Filename"
+msgstr "Старое имя файла"
+
+#: ../src/common/text.c:1316
+msgid "New Filename"
+msgstr "Новое имя файла"
+
+#: ../src/common/text.c:1320
+msgid "Receiver"
+msgstr "Получатель"
+
+#: ../src/common/text.c:1325
+msgid "Hostmask"
+msgstr "Маска узла"
+
+#: ../src/common/text.c:1330
+msgid "Hostname"
+msgstr "Имя машины"
+
+#: ../src/common/text.c:1335
+msgid "The Packet"
+msgstr "Пакет"
+
+#: ../src/common/text.c:1339
+msgid "Seconds"
+msgstr "Секунд."
+
+#: ../src/common/text.c:1343
+msgid "Nick of person who have been invited"
+msgstr "Ник приглашенного"
+
+#: ../src/common/text.c:1350
+msgid "Banmask"
+msgstr "Маска бана"
+
+#: ../src/common/text.c:1351
+msgid "Who set the ban"
+msgstr "Кто установил бан"
+
+#: ../src/common/text.c:1352
+msgid "Ban time"
+msgstr "Продолжительность бана"
+
+#: ../src/common/text.c:1392
+#, c-format
+msgid ""
+"Error parsing event %s.\n"
+"Loading default."
+msgstr ""
+"Ошибка обработки события %s.\n"
+"Загружаем по умолчанию."
+
+#: ../src/common/text.c:2085
+#, c-format
+msgid ""
+"Cannot read sound file:\n"
+"%s"
+msgstr ""
+"Не удалось прочитать звуковой файл:\n"
+"%s"
+
+#: ../src/common/textevents.h:6
+msgid "-%C10-%C11-%O$t$1 added to notify list."
+msgstr "%C22*%O$t$1 добавлен в список извещений."
+
+#: ../src/common/textevents.h:9
+msgid "-%C10-%C11-%O$t$1 Banlist: %C3$4 %C4$2 %C5$3%O"
+msgstr "%C22*%O$t$1 список банов:%C19 $4%C20 $2%C21 $3"
+
+#: ../src/common/textevents.h:12
+msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(You are banned)."
+msgstr "%C22*%O$tНе получается войти%C26 %B$1 %O(Вы забанены)."
+
+#: ../src/common/textevents.h:18
+msgid "-%C10-%C11-%O$t$1 is now known as $2"
+msgstr "%C22*%O$t$1 теперь известен как $2"
+
+#: ../src/common/textevents.h:21
+msgid "%C13*%O$t$1 $2%O"
+msgstr "%C16*%O$t$1%O"
+
+#: ../src/common/textevents.h:24
+msgid "%C13*%O$t%C8%B$1%B%O $2%O"
+msgstr "%C21*%O$t%C21%B$1%O%C21 $2"
+
+#: ../src/common/textevents.h:27
+msgid "-%C10-%C11-%O$t$1 sets ban on $2"
+msgstr "%C22*%O$t$1 забанил некоего $2"
+
+#: ../src/common/textevents.h:30
+msgid "-%C10-%C11-%O$tChannel $1 created on $2"
+msgstr "%C22*%O$tКанал $1 создан в $2"
+
+#: ../src/common/textevents.h:33
+msgid "-%C10-%C11-%O$t$1 removes channel half-operator status from $2"
+msgstr "%C22*%O$t%C26$1%O убрал права полу-оператора с%C26 $2"
+
+#: ../src/common/textevents.h:36
+msgid "-%C10-%C11-%O$t$1 removes channel operator status from $2"
+msgstr "%C22*%O$t%C26$1%O убрал права оператора канала с%C26 $2"
+
+#: ../src/common/textevents.h:39
+msgid "-%C10-%C11-%O$t$1 removes voice from $2"
+msgstr "%C22*%O$t%C26$1%O забрал право голоса у%C26 $2"
+
+#: ../src/common/textevents.h:42
+msgid "-%C10-%C11-%O$t$1 sets exempt on $2"
+msgstr "%C22*%O$t$1 установил исключение на $2"
+
+#: ../src/common/textevents.h:45
+msgid "-%C10-%C11-%O$t$1 gives channel half-operator status to $2"
+msgstr "%C22*%O$t%C26$1%O дал права полу-оператора канала для%C26 $2"
+
+#: ../src/common/textevents.h:48
+msgid "-%C10-%C11-%O$t$1 sets invite on $2"
+msgstr "%C22*%O$t$1 приглашает на $2"
+
+#: ../src/common/textevents.h:51
+msgid "%UChannel          Users   Topic%O"
+msgstr "%UКанал          Пользователи   Тема"
+
+#: ../src/common/textevents.h:54 ../src/common/textevents.h:306
+msgid "%C2<%O$1%C2>%O$t$2%O"
+msgstr "%C19>%O$1%C19<%O$t$2%O"
+
+#: ../src/common/textevents.h:57
+msgid "-%C10-%C11-%O$t$1 sets mode $2$3 $4"
+msgstr "%C22*%O$t$1 установил режим $2$3 $4"
+
+#: ../src/common/textevents.h:60
+msgid "-%C10-%C11-%O$tChannel $1 modes: $2"
+msgstr "%C22*%O$t%C22Канал $1 режимы: $2"
+
+#: ../src/common/textevents.h:63
+msgid "%C2<%C8%B$1%B%C2>%O$t$2%O"
+msgstr "%C28-%C29$1%C28-%O$t$2"
+
+#: ../src/common/textevents.h:66
+msgid "%C12-%C13$1/$2%C12-%O$t$3%O"
+msgstr "%C28-%C29$1/$2%C28-%O$t$3"
+
+#: ../src/common/textevents.h:69
+msgid "-%C10-%C11-%O$t$1 gives channel operator status to $2"
+msgstr "%C22*%O$t%C26$1%O дал статус оператора канала %C26 $2"
+
+#: ../src/common/textevents.h:72
+msgid "-%C10-%C11-%O$t$1 removes exempt on $2"
+msgstr "%C22*%O$t$1 убрал освобождение с $2"
+
+#: ../src/common/textevents.h:75
+msgid "-%C10-%C11-%O$t$1 removes invite on $2"
+msgstr "%C22*%O$t$1 снял приглашение для $2"
+
+#: ../src/common/textevents.h:78
+msgid "-%C10-%C11-%O$t$1 removes channel keyword"
+msgstr "%C22*%O$t$1 убрал ключевые слова канала"
+
+#: ../src/common/textevents.h:81
+msgid "-%C10-%C11-%O$t$1 removes user limit"
+msgstr "%C22*%O$t$1 убрал ограничение пользователей"
+
+#: ../src/common/textevents.h:84
+msgid "-%C10-%C11-%O$t$1 sets channel keyword to $2"
+msgstr "%C22*%O$t$1 установил следующие ключевые слова канала $2"
+
+#: ../src/common/textevents.h:87
+msgid "-%C10-%C11-%O$t$1 sets channel limit to $2"
+msgstr "%C22*%O$t$1 установил ограничение канала в $2"
+
+#: ../src/common/textevents.h:90
+msgid "-%C10-%C11-%O$t$1 removes ban on $2"
+msgstr "%C22*%O$t$1 убрал бан с $2"
+
+#: ../src/common/textevents.h:93
+msgid "-%C10-%C11-%O$t$1 gives voice to $2"
+msgstr "%C22*%O$t%C26$1%O дал право голоса%C26 $2"
+
+#: ../src/common/textevents.h:96
+msgid "-%C10-%C11-%O$tConnected. Now logging in.."
+msgstr "%C22*%O$t%C22Соединение установлено. Входим в сеть..."
+
+#: ../src/common/textevents.h:99
+msgid "-%C10-%C11-%O$tConnecting to %C11$1 %C14(%C11$2%C14)%C port %C11$3%C.."
+msgstr "%C22*%O$t%C22Соединение с $1 ($2) порт $3%O..."
+
+#: ../src/common/textevents.h:102
+msgid "-%C10-%C11-%O$tConnection failed. Error: $1"
+msgstr "%C21*%O$t%C21Соединение не удалось. Ошибка: $1"
+
+#: ../src/common/textevents.h:105
+msgid "-%C10-%C11-%O$tReceived a CTCP $1 from $2"
+msgstr "%C22*%O$tПолучен CTCP $1 от $2"
+
+#: ../src/common/textevents.h:108
+msgid "-%C10-%C11-%O$tReceived a CTCP $1 from $2 (to $3)"
+msgstr "%C22*%O$tПолучен CTCP $1 от $2 (для $3)"
+
+#: ../src/common/textevents.h:111
+msgid "%C3>%O$1%C3<%O$tCTCP $2%O"
+msgstr "%C19>%O$1%C19<%O$tCTCP $2"
+
+#: ../src/common/textevents.h:114
+msgid "-%C10-%C11-%O$tReceived a CTCP Sound $1 from $2"
+msgstr "%C22*%O$tПолучен CTCP $1 от $2"
+
+#: ../src/common/textevents.h:117
+msgid "%C22*%O$tReceived a CTCP Sound $1 from $2 (to $3)"
+msgstr "%C22*%O$tПолучен CTCP $1 от $2 (для $3)"
+
+#: ../src/common/textevents.h:120
+msgid "-%C10-%C11-%O$tDCC CHAT to %C11$1%O aborted."
+msgstr "%C22*%O$tDCC CHAT с %C26$1%O прерван."
+
+#: ../src/common/textevents.h:123
+msgid ""
+"-%C10-%C11-%O$tDCC CHAT connection established to %C11$1 %C14[%O$2%C14]%O"
+msgstr "%C22*%O$tDCC CHAT соединение установлено с %C26$1 %C30[%O$2%C30]"
+
+#: ../src/common/textevents.h:126
+msgid ""
+"-%C10-%C11-%O$tDCC CHAT failed. Connection to $1 %C14[%O$2:$3%C14]%O lost."
+msgstr ""
+"-%C10-%C11-%O$tОшибка в DCC CHAT. Потеряно соединение с $1 %C14[%O$2:"
+"$3%C14]%O"
+
+#: ../src/common/textevents.h:129
+msgid "-%C10-%C11-%O$tReceived a DCC CHAT offer from $1"
+msgstr "%C22*%O$tПринят запрос на DCC CHAT от $1"
+
+#: ../src/common/textevents.h:132
+msgid "-%C10-%C11-%O$tOffering DCC CHAT to $1"
+msgstr "%C22*%O$tПредлагаем DCC CHAT для $1"
+
+#: ../src/common/textevents.h:135
+msgid "-%C10-%C11-%O$tAlready offering CHAT to $1"
+msgstr "%C22*%O$tУже предложен CHAT с $1"
+
+#: ../src/common/textevents.h:138
+msgid "-%C10-%C11-%O$tDCC $1 connect attempt to %C11$2%O failed (err=$3)."
+msgstr "%C22*%O$tDCC $1 попытка соединения с%C26 $2%O неудачна (err=$3)."
+
+#: ../src/common/textevents.h:141
+msgid "-%C10-%C11-%O$tReceived '$1%O' from $2"
+msgstr "%C22*%O$tПринято '$1%O' от $2"
+
+#: ../src/common/textevents.h:144
+#, c-format
+msgid "%C24,18 Type  To/From    Status  Size    Pos     File         "
+msgstr "%C24,18 Тип  В/От    Состояние  Размер    Позиция     Файл         "
+
+#: ../src/common/textevents.h:147
+msgid ""
+"-%C10-%C11-%O$tReceived a malformed DCC request from %C11$1%O.%010-%C10-%C11-"
+"%O$tContents of packet: $2"
+msgstr ""
+"%C22*%O$tПринят неправильно сформированный DCC запрос от %C26$1%O.%010%C22*%O"
+"$tСодержимое пакета: $2"
+
+#: ../src/common/textevents.h:150
+msgid "-%C10-%C11-%O$tOffering %C11$1 %Cto %C11$2%O"
+msgstr "%C22*%O$tПредлагаем%C26 $1%O для%C26 $2"
+
+#: ../src/common/textevents.h:153
+msgid "-%C10-%C11-%O$tNo such DCC offer."
+msgstr "%C22*%O$tНет такого DCC предложения."
+
+#: ../src/common/textevents.h:156
+msgid "-%C10-%C11-%O$tDCC RECV %C11$2%O to %C11$1%O aborted."
+msgstr "%C22*%O$tDCC RECV%C26 $2%O с%C26 $1%O прервано."
+
+#: ../src/common/textevents.h:159
+msgid ""
+"-%C10-%C11-%O$tDCC RECV %C11$1%O from %C11$3%O complete %C14[%C11$4%O cps"
+"%C14]%O."
+msgstr ""
+"%C22*%O$tDCC RECV%C26 $1%O от%C26 $3%O завершено %C30[%C26$4%O cps%C30]%O."
+
+#: ../src/common/textevents.h:162
+msgid ""
+"-%C10-%C11-%O$tDCC RECV connection established to %C11$1 %C14[%O$2%C14]%O"
+msgstr "%C22*%O$tDCC RECV соединение установлено с%C26 $1 %C30[%O$2%C30]"
+
+#: ../src/common/textevents.h:165
+msgid "-%C10-%C11-%O$tDCC RECV $1 ($2) failed. Connection to $3 lost."
+msgstr ""
+"-%C10-%C11-%O$tDCC приём файла $1 ($2) прерван. Соединение с $3 потеряно."
+
+#: ../src/common/textevents.h:168
+msgid "-%C10-%C11-%O$tDCC RECV: Cannot open $1 for writing ($2)."
+msgstr "%C22*%O$tDCC RECV: Не удалось открыть $1 для записи ($2)."
+
+#: ../src/common/textevents.h:171
+msgid ""
+"-%C10-%C11-%O$tThe file %C11$1%C already exists, saving it as %C11$2%O "
+"instead."
+msgstr ""
+"%C22*%O$tФайл%C26 $1%C уже существует, сохраняем его как%C26 $2%O вместо "
+"этого."
+
+#: ../src/common/textevents.h:174
+msgid "-%C10-%C11-%O$t%C11$1 %Chas requested to resume %C11$2 %Cfrom %C11$3%C."
+msgstr "%C22*%O$t%C26$1 %Oзапрос на продолжение%C26 $2 %Cот%C26 $3%C."
+
+#: ../src/common/textevents.h:177
+msgid "-%C10-%C11-%O$tDCC SEND %C11$2%O to %C11$1%O aborted."
+msgstr "%C22*%O$tDCC SEND%C26 $2%O к%C26 $1%O прервано."
+
+#: ../src/common/textevents.h:180
+msgid ""
+"-%C10-%C11-%O$tDCC SEND %C11$1%O to %C11$2%O complete %C14[%C11$3%O cps"
+"%C14]%O."
+msgstr ""
+"%C22*%O$tDCC SEND%C26 $1%O к%C26 $2%O завершено %C30[%C26$3%O cps%C30]%O."
+
+#: ../src/common/textevents.h:183
+msgid ""
+"-%C10-%C11-%O$tDCC SEND connection established to %C11$1 %C14[%O$2%C14]%O"
+msgstr "%C22*%O$tDCC SEND соединение установлено с%C26 $1 %C30[%O$2%C30]"
+
+#: ../src/common/textevents.h:186
+msgid "-%C10-%C11-%O$tDCC SEND %C11$1%O failed. Connection to %C11$2%O lost."
+msgstr ""
+"-%C10-%C11-%O$tОшибка при DCC SEND%C11$1%O соединение с %C11$2%O утеряно."
+
+#: ../src/common/textevents.h:189
+msgid "-%C10-%C11-%O$t%C11$1 %Chas offered %C11$2 %C(%C11$3 %Cbytes)"
+msgstr "-%C10-%C11-%O$t%C11$1 %C предложил %C11$2 %C(%C11$3 %Cbytes)"
+
+#: ../src/common/textevents.h:192
+msgid "-%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Cstalled - aborting."
+msgstr "-%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Cпрерывание по таймауту."
+
+#: ../src/common/textevents.h:195
+msgid "-%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Ctimed out - aborting."
+msgstr "%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Cпрерывание по таймауту."
+
+#: ../src/common/textevents.h:198
+msgid "-%C10-%C11-%O$t$1 deleted from notify list."
+msgstr "-%C10-%C11-%O$t$1 удалено из списка уведомлений."
+
+#: ../src/common/textevents.h:201
+msgid "-%C10-%C11-%O$tDisconnected ($1)."
+msgstr "-%C10-%C11-%O$tСоединение разорвано ($1)."
+
+#: ../src/common/textevents.h:204
+msgid "-%C10-%C11-%O$tFound your IP: [$1]"
+msgstr "-%C10-%C11-%O$tНайден ваш IP: [$1]"
+
+#: ../src/common/textevents.h:207
+msgid "$1$t$2"
+msgstr "$1$t$2"
+
+#: ../src/common/textevents.h:210
+msgid "%O%C11$1%O added to ignore list."
+msgstr "%O%C11$1%O добавлен в список игнорирования."
+
+#: ../src/common/textevents.h:213
+msgid "Ignore on %C11$1%O changed."
+msgstr "Игнорирование %C11$1%O изменено."
+
+#: ../src/common/textevents.h:216
+#, c-format
+msgid "%C24,18                                                              "
+msgstr ""
+"%C24,18pan class=\"po-message-special"
+"\">                                                              "
+
+#: ../src/common/textevents.h:219
+#, c-format
+msgid "%C24,18 Hostmask                  PRIV NOTI CHAN CTCP DCC  INVI UNIG "
+msgstr ""
+"%C24,18 Узел                        PRIV NOTI CHAN CTCP DCC  INVI UNIG "
+
+#: ../src/common/textevents.h:222
+msgid "%O%C11$1%O removed from ignore list."
+msgstr "%O%C11$1%O удален из списка игнорирования."
+
+#: ../src/common/textevents.h:225
+msgid "  Ignore list is empty."
+msgstr "  Список игнорирования пуст."
+
+#: ../src/common/textevents.h:228
+msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(Channel is invite only)."
+msgstr ""
+"%C11*%O$tНе удаётся подключиться%C11 %B$1 %O(Канал только по приглашениям)."
+
+#: ../src/common/textevents.h:231
+msgid "-%C10-%C11-%O$tYou have been invited to %C11$1%C by %C11$2%C (%C11$3%C)"
+msgstr "%C11*%O$t %C11 $2%C (%C11$3%C) пригласил вас на %C11 $1%O "
+
+#: ../src/common/textevents.h:234
+msgid "-%C10-%C11>%O$t%B$1%B %C14(%C10$3%C14)%C has joined $2"
+msgstr "%C10*%O$t%C11%B$1 %B($3) зашел на канал $2"
+
+#: ../src/common/textevents.h:237
+msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(Requires keyword)."
+msgstr ""
+"-%C10-%C11-%O$tНе удаётся подключится%C11 %B$1 %O(Требуется ключевое слово)."
+
+#: ../src/common/textevents.h:240
+msgid "<%C10-%C11-%O$t$1 has kicked $2 from $3 ($4%O)"
+msgstr "<%C10-%C11-%O$t$1 выкинул $2 с $3 ($4%O)"
+
+#: ../src/common/textevents.h:243
+msgid "-%C10-%C11-%O$tYou have been killed by $1 ($2%O)"
+msgstr "-%C10-%C11-%O$t$1выкинул вас с канала ($2%O)"
+
+#: ../src/common/textevents.h:246 ../src/common/textevents.h:270
+msgid "%C3>%O$1%C3<%O$t$2%O"
+msgstr "%C3>%O$1%C3<%O$t$2%O"
+
+#: ../src/common/textevents.h:249 ../src/common/textevents.h:327
+#: ../src/common/textevents.h:333 ../src/common/textevents.h:336
+msgid "-%C10-%C11-%O$t$1%O"
+msgstr "-%C10-%C11-%O$t$1%O"
+
+#: ../src/common/textevents.h:252
+msgid "-%C10-%C11-%O$tMOTD Skipped."
+msgstr "-%C10-%C11-%O$tMOTD Пропущен."
+
+#: ../src/common/textevents.h:255
+msgid "-%C10-%C11-%O$t$1 already in use. Retrying with $2.."
+msgstr "-%C10-%C11-%O$t$1уже используется. Пытаемся как $2..."
+
+#: ../src/common/textevents.h:258
+msgid "-%C10-%C11-%O$tNickname already in use. Use /NICK to try another."
+msgstr ""
+"-%C10-%C11-%O$tНик уже используется. Используйте /NICK, чтобы попробовать "
+"другой."
+
+#: ../src/common/textevents.h:261
+msgid "-%C10-%C11-%O$tNo such DCC."
+msgstr "-%C10-%C11-%O$tНет такого DCC."
+
+#: ../src/common/textevents.h:264
+msgid "-%C10-%C11-%O$tNo process is currently running"
+msgstr "-%C10-%C11-%O$tНет запущенного процесса"
+
+#: ../src/common/textevents.h:267
+msgid "%C12-%C13$1%C12-%O$t$2%O"
+msgstr "%C12-%C13$1%C12-%O$t$2%O"
+
+#: ../src/common/textevents.h:273
+msgid "-%C10-%C11-%O$tNotify list is empty."
+msgstr "-%C10-%C11-%O$tСписок уведомлений пуст."
+
+#: ../src/common/textevents.h:276
+msgid "%C24,18 %B  Notify List                           "
+msgstr "%C24,18 %B  Список уведомлений                           "
+
+#: ../src/common/textevents.h:279
+msgid "-%C10-%C11-%O$t$1 users in notify list."
+msgstr "-%C10-%C11-%O$t$1 пользователей в списке уведомлений."
+
+#: ../src/common/textevents.h:282
+msgid "-%C10-%C11-%O$tNotify: $1 is offline ($2)."
+msgstr "-%C10-%C11-%O$tУведомление: $1 отключен ($2)."
+
+#: ../src/common/textevents.h:285
+msgid "-%C10-%C11-%O$tNotify: $1 is online ($2)."
+msgstr "-%C10-%C11-%O$tУведомление: $1 подключен ($2)."
+
+#: ../src/common/textevents.h:291
+msgid "<%C10-%C11-%O$t$1 %C14(%O$2%C14)%C has left $3"
+msgstr "<%C10-%C11-%O$t$1 %C14(%O$2%C14)%C покинул $3"
+
+#: ../src/common/textevents.h:294
+msgid "<%C10-%C11-%O$t$1 %C14(%O$2%C14)%C has left $3 %C14(%O$4%C14)%O"
+msgstr "<%C10-%C11-%O$t$1 %C14(%O$2%C14)%C покинул $3 %C14(%O$4%C14)%O"
+
+#: ../src/common/textevents.h:297
+msgid "-%C10-%C11-%O$tPing reply from $1 : $2 second(s)"
+msgstr "-%C10-%C11-%O$tPing ответ от $1 : $2 секунд(ы)"
+
+#: ../src/common/textevents.h:300
+msgid "-%C10-%C11-%O$tNo ping reply for $1 seconds, disconnecting."
+msgstr "-%C10-%C11-%O$tНе получено ответов в течении $1 секунд.Отсоединение."
+
+#: ../src/common/textevents.h:303
+msgid "%C12*%C13$1%C12*$t%O$2%O"
+msgstr "%C12*%C13$1%C12*$t%O$2%O"
+
+#: ../src/common/textevents.h:309
+msgid "-%C10-%C11-%O$tA process is already running"
+msgstr "-%C10-%C11-%O$t Процесс уже запущен"
+
+#: ../src/common/textevents.h:312
+msgid "<%C10-%C11-%O$t$1 has quit %C14(%O$2%O%C14)%O"
+msgstr "<%C10-%C11-%O$t$1 ушел %C14(%O$2%O%C14)%O"
+
+#: ../src/common/textevents.h:315
+msgid "-%C10-%C11-%O$t$1 sets modes%B %C14[%O$2%B%C14]%O"
+msgstr "-%C10-%C11-%O$t$1 установил режимы%B %C14[%O$2%B%C14]%O"
+
+#: ../src/common/textevents.h:318
+msgid "%C12-%C13$1/Wallops%C12-%O$t$2%O"
+msgstr "%C12-%C13$1/Wallops%C12-%O$t$2%O"
+
+#: ../src/common/textevents.h:321
+msgid "-%C10-%C11-%O$tLooking up IP number for%C11 $1%O.."
+msgstr "-%C10-%C11-%O$t Поиск IP-адреса для%C11 $1%O.."
+
+#: ../src/common/textevents.h:324
+msgid "-%C10-%C11-%O$tConnected."
+msgstr "-%C10-%C11-%O$t Соединение установлено."
+
+#: ../src/common/textevents.h:330
+msgid "-%C10-%C11-%O$tLooking up %C11$1%C.."
+msgstr "-%C10-%C11-%O$t Ищу сервер %C11$1%C.."
+
+#: ../src/common/textevents.h:339
+msgid "-%C10-%C11-%O$tStopped previous connection attempt (pid=$1)"
+msgstr "-%C10-%C11-%O$t Остановлена предыдущая попытка соединения (pid=$1)"
+
+#: ../src/common/textevents.h:342
+msgid "-%C10-%C11-%O$tTopic for %C11$1%C is %C11$2%O"
+msgstr "-%C10-%C11-%O$t Тема для %C11$1%C: %C11$2%O"
+
+#: ../src/common/textevents.h:345
+msgid "-%C10-%C11-%O$t$1 has changed the topic to: $2%O"
+msgstr "-%C10-%C11-%O$t$1 изменил тему на: $2%O"
+
+#: ../src/common/textevents.h:348
+msgid "-%C10-%C11-%O$tTopic for %C11$1%C set by %C11$2%C at %C11$3%O"
+msgstr "-%C10-%C11-%O$t Тема для %C11$1%C установлена %C11$2%C в %C11$3%O"
+
+#: ../src/common/textevents.h:351
+msgid "-%C10-%C11-%O$tUnknown host. Maybe you misspelled it?"
+msgstr "-%C10-%C11-%O$t Неизвестный узел. Возможно, вы ошиблись?"
+
+#: ../src/common/textevents.h:354
+msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(User limit reached)."
+msgstr ""
+"-%C10-%C11-%O$t Не удаётся зайти на %C11 %B$1 %O(Лимит пользователей "
+"исчерпан)."
+
+#: ../src/common/textevents.h:357
+msgid "-%C10-%C11-%O$t%C11Users on $1:%C $2"
+msgstr "-%C10-%C11-%O$t%C11Пользователей на $1:%C $2"
+
+#: ../src/common/textevents.h:360
+msgid "%C22*%O$t%C28[%O$1%C28] %O$2%C27 $3"
+msgstr "%C22*%O$t%C28[%O$1%C28] %O$2%C27 $3"
+
+#: ../src/common/textevents.h:363
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %Cis away %C14(%O$2%O%C14)"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %C недоступен %C14(%O$2%O%C14)"
+
+#: ../src/common/textevents.h:366
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%C $2"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%C $2"
+
+#: ../src/common/textevents.h:369
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %CEnd of WHOIS list."
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %C Конец списка WHOIS."
+
+#: ../src/common/textevents.h:372
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %C$2"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %C$2"
+
+#: ../src/common/textevents.h:375
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%O idle %C11$2%O"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%O бездействует %C11$2%O"
+
+#: ../src/common/textevents.h:378
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%O idle %C11$2%O, signon: %C11$3%O"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%O бездействует %C11$2%O, вошёл: %C11$3%O"
+
+#: ../src/common/textevents.h:381
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %C14(%O$2@$3%C14) %O: $4%O"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %C14(%O$2@$3%C14) %O: $4%O"
+
+#: ../src/common/textevents.h:384
+msgid ""
+"-%C10-%C11-%O$t%C12[%O$1%C12] %Oreal user@host %C11$2%O, real IP %C11$3%O"
+msgstr ""
+"-%C10-%C11-%O$t%C12[%O$1%C12] %O Настоящий пользователь@домен %C11$2%O, "
+"настоящий IP %C11$3%O"
+
+#: ../src/common/textevents.h:387
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%O $2"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%O $2"
+
+#: ../src/common/textevents.h:390
+msgid "%C22*%O$t%C28[%O$1%C28]%O $2"
+msgstr "%C22*%O$t%C28[%O$1%C28]%O $2"
+
+#: ../src/common/textevents.h:393
+msgid "-%C10-%C11>%O$t%BYou%B are now talking on %C11$2%O"
+msgstr "-%C10-%C11>%O$t Вы зашли на канал %C11$2%O"
+
+#: ../src/common/textevents.h:396
+msgid "-%C10-%C11-%O$tYou have been kicked from $2 by $3 ($4%O)"
+msgstr "-%C10-%C11-%O$tВас вышвырнул $3 с канала $2 ($4%O)"
+
+#: ../src/common/textevents.h:399
+msgid "-%C10-%C11-%O$tYou have left channel $3"
+msgstr "-%C10-%C11-%O$tВы ушли с канала $3"
+
+#: ../src/common/textevents.h:402
+msgid "-%C10-%C11-%O$tYou have left channel $3 %C14(%O$4%C14)%O"
+msgstr "-%C10-%C11-%O$tВы ушли с канала $3 %C14(%O$4%C14)%O"
+
+#: ../src/common/textevents.h:408
+msgid "-%C10-%C11-%O$tYou're inviting %C11$1%C to %C11$2%C (%C11$3%C)"
+msgstr "-%C10-%C11-%O$tВы приглашаете %C11$1%C на %C11$2%C (%C11$3%C)"
+
+#: ../src/common/textevents.h:411
+msgid "%C6<%O$1%C6>%O$t$2%O"
+msgstr "%C6<%O$1%C6>%O$t$2%O"
+
+#: ../src/common/textevents.h:414
+msgid "-%C10-%C11-%O$tYou are now known as $2"
+msgstr "-%C10-%C11-%O$tТеперь вы известны как $2"
+
+#: ../src/common/util.c:298
+msgid "Remote host closed socket"
+msgstr "Удаленная машина закрыла подключение"
+
+#: ../src/common/util.c:303
+msgid "Connection refused"
+msgstr "Соединение отвергнуто"
+
+#: ../src/common/util.c:306
+msgid "No route to host"
+msgstr "Нет маршрута к узлу"
+
+#: ../src/common/util.c:308
+msgid "Connection timed out"
+msgstr "Время ожидания для соединения истекло"
+
+#: ../src/common/util.c:310
+msgid "Cannot assign that address"
+msgstr "Не удалось назначить этот адрес"
+
+#: ../src/common/util.c:312
+msgid "Connection reset by peer"
+msgstr "Соединение оборвано"
+
+#: ../src/common/util.c:841
+msgid "Ascension Island"
+msgstr "Остров Вознесения"
+
+#: ../src/common/util.c:842
+msgid "Andorra"
+msgstr "Андорра"
+
+#: ../src/common/util.c:843
+msgid "United Arab Emirates"
+msgstr "Объединенные арабские эмираты"
+
+#: ../src/common/util.c:844
+msgid "Afghanistan"
+msgstr "Афганистан"
+
+#: ../src/common/util.c:845
+msgid "Antigua and Barbuda"
+msgstr "Антигуа и Барбуда"
+
+#: ../src/common/util.c:846
+msgid "Anguilla"
+msgstr "Ангилья"
+
+#: ../src/common/util.c:847
+msgid "Albania"
+msgstr "Албания"
+
+#: ../src/common/util.c:848
+msgid "Armenia"
+msgstr "Армения"
+
+#: ../src/common/util.c:849
+msgid "Netherlands Antilles"
+msgstr "Нидерландские Антиллы"
+
+#: ../src/common/util.c:850
+msgid "Angola"
+msgstr "Ангола"
+
+#: ../src/common/util.c:851
+msgid "Antarctica"
+msgstr "Антарктика"
+
+#: ../src/common/util.c:852
+msgid "Argentina"
+msgstr "Аргентина"
+
+#: ../src/common/util.c:853
+msgid "Reverse DNS"
+msgstr "Обратный DNS"
+
+#: ../src/common/util.c:854
+msgid "American Samoa"
+msgstr "Американское Самоа"
+
+#: ../src/common/util.c:855
+msgid "Austria"
+msgstr "Австрия"
+
+#: ../src/common/util.c:856
+msgid "Nato Fiel"
+msgstr "Nato Fiel"
+
+#: ../src/common/util.c:857
+msgid "Australia"
+msgstr "Австралия"
+
+#: ../src/common/util.c:858
+msgid "Aruba"
+msgstr "Аруба"
+
+#: ../src/common/util.c:859
+msgid "Aland Islands"
+msgstr "Острова Аланда"
+
+#: ../src/common/util.c:860
+msgid "Azerbaijan"
+msgstr "Азербайджан"
+
+#: ../src/common/util.c:861
+msgid "Bosnia and Herzegovina"
+msgstr "Босния и Герцеговина"
+
+#: ../src/common/util.c:862
+msgid "Barbados"
+msgstr "Барбадос"
+
+#: ../src/common/util.c:863
+msgid "Bangladesh"
+msgstr "Бангладеш"
+
+#: ../src/common/util.c:864
+msgid "Belgium"
+msgstr "Бельгия"
+
+#: ../src/common/util.c:865
+msgid "Burkina Faso"
+msgstr "Буркина Фасо"
+
+#: ../src/common/util.c:866
+msgid "Bulgaria"
+msgstr "Болгария"
+
+#: ../src/common/util.c:867
+msgid "Bahrain"
+msgstr "Бахрейн"
+
+#: ../src/common/util.c:868
+msgid "Burundi"
+msgstr "Бурунди"
+
+#: ../src/common/util.c:869
+msgid "Businesses"
+msgstr "Бизнес"
+
+#: ../src/common/util.c:870
+msgid "Benin"
+msgstr "Бенин"
+
+#: ../src/common/util.c:871
+msgid "Bermuda"
+msgstr "Бермуды"
+
+#: ../src/common/util.c:872
+msgid "Brunei Darussalam"
+msgstr "Дар-эс-Салам"
+
+#: ../src/common/util.c:873
+msgid "Bolivia"
+msgstr "Боливия"
+
+#: ../src/common/util.c:874
+msgid "Brazil"
+msgstr "Бразилия"
+
+#: ../src/common/util.c:875
+msgid "Bahamas"
+msgstr "Багамы"
+
+#: ../src/common/util.c:876
+msgid "Bhutan"
+msgstr "Бутан"
+
+#: ../src/common/util.c:877
+msgid "Bouvet Island"
+msgstr "Острова Буве"
+
+#: ../src/common/util.c:878
+msgid "Botswana"
+msgstr "Ботсвана"
+
+#: ../src/common/util.c:879
+msgid "Belarus"
+msgstr "Беларусь"
+
+#: ../src/common/util.c:880
+msgid "Belize"
+msgstr "Белиз"
+
+#: ../src/common/util.c:881
+msgid "Canada"
+msgstr "Канада"
+
+#: ../src/common/util.c:882
+msgid "Cocos Islands"
+msgstr "Кокосовые о-ва"
+
+#: ../src/common/util.c:883
+msgid "Democratic Republic of Congo"
+msgstr "Республика Конго"
+
+#: ../src/common/util.c:884
+msgid "Central African Republic"
+msgstr "Центральная Африканская Республика"
+
+#: ../src/common/util.c:885
+msgid "Congo"
+msgstr "Конго"
+
+#: ../src/common/util.c:886
+msgid "Switzerland"
+msgstr "Швейцария"
+
+#: ../src/common/util.c:887
+msgid "Cote d'Ivoire"
+msgstr "Кот-д-Ивуар"
+
+#: ../src/common/util.c:888
+msgid "Cook Islands"
+msgstr "Острова Кука"
+
+#: ../src/common/util.c:889
+msgid "Chile"
+msgstr "Чили"
+
+#: ../src/common/util.c:890
+msgid "Cameroon"
+msgstr "Камерун"
+
+#: ../src/common/util.c:891
+msgid "China"
+msgstr "Китай"
+
+#: ../src/common/util.c:892
+msgid "Colombia"
+msgstr "Колумбия"
+
+#: ../src/common/util.c:893
+msgid "Internic Commercial"
+msgstr "Коммерческие"
+
+#: ../src/common/util.c:894
+msgid "Costa Rica"
+msgstr "Коста Рика"
+
+#: ../src/common/util.c:895
+msgid "Serbia and Montenegro"
+msgstr "Сербия и Черногория"
+
+#: ../src/common/util.c:896
+msgid "Cuba"
+msgstr "Куба"
+
+#: ../src/common/util.c:897
+msgid "Cape Verde"
+msgstr "Капо-Верде"
+
+#: ../src/common/util.c:898
+msgid "Christmas Island"
+msgstr "Рождественские острова"
+
+#: ../src/common/util.c:899
+msgid "Cyprus"
+msgstr "Кипр"
+
+#: ../src/common/util.c:900
+msgid "Czech Republic"
+msgstr "Чешская республика"
+
+#: ../src/common/util.c:901
+msgid "Germany"
+msgstr "Германия"
+
+#: ../src/common/util.c:902
+msgid "Djibouti"
+msgstr "Джибути"
+
+#: ../src/common/util.c:903
+msgid "Denmark"
+msgstr "Дания"
+
+#: ../src/common/util.c:904
+msgid "Dominica"
+msgstr "Доминика"
+
+#: ../src/common/util.c:905
+msgid "Dominican Republic"
+msgstr "Доминиканская республика"
+
+#: ../src/common/util.c:906
+msgid "Algeria"
+msgstr "Алжир"
+
+#: ../src/common/util.c:907
+msgid "Ecuador"
+msgstr "Эквадор"
+
+#: ../src/common/util.c:908
+msgid "Educational Institution"
+msgstr "Образовательные учреждения"
+
+#: ../src/common/util.c:909
+msgid "Estonia"
+msgstr "Эстония"
+
+#: ../src/common/util.c:910
+msgid "Egypt"
+msgstr "Египет"
+
+#: ../src/common/util.c:911
+msgid "Western Sahara"
+msgstr "Западная сахара"
+
+#: ../src/common/util.c:912
+msgid "Eritrea"
+msgstr "Эритрея"
+
+#: ../src/common/util.c:913
+msgid "Spain"
+msgstr "Испания"
+
+#: ../src/common/util.c:914
+msgid "Ethiopia"
+msgstr "Эфиопия"
+
+#: ../src/common/util.c:915
+msgid "European Union"
+msgstr "Европейский Союз"
+
+#: ../src/common/util.c:916
+msgid "Finland"
+msgstr "Финляндия"
+
+#: ../src/common/util.c:917
+msgid "Fiji"
+msgstr "Фиджи"
+
+#: ../src/common/util.c:918
+msgid "Falkland Islands"
+msgstr "Фолклендские о-ва"
+
+#: ../src/common/util.c:919
+msgid "Micronesia"
+msgstr "Микронезия"
+
+#: ../src/common/util.c:920
+msgid "Faroe Islands"
+msgstr "Фарерские острова"
+
+#: ../src/common/util.c:921
+msgid "France"
+msgstr "Франция"
+
+#: ../src/common/util.c:922
+msgid "Gabon"
+msgstr "Габон"
+
+#: ../src/common/util.c:923
+msgid "Great Britain"
+msgstr "Великобритания"
+
+#: ../src/common/util.c:924
+msgid "Grenada"
+msgstr "Гренада"
+
+#: ../src/common/util.c:925
+msgid "Georgia"
+msgstr "Грузия"
+
+#: ../src/common/util.c:926
+msgid "French Guiana"
+msgstr "Французская Гвиана"
+
+#: ../src/common/util.c:927
+msgid "British Channel Isles"
+msgstr "Британские острова"
+
+#: ../src/common/util.c:928
+msgid "Ghana"
+msgstr "Гана"
+
+#: ../src/common/util.c:929
+msgid "Gibraltar"
+msgstr "Гибралтар"
+
+#: ../src/common/util.c:930
+msgid "Greenland"
+msgstr "Гренландия"
+
+#: ../src/common/util.c:931
+msgid "Gambia"
+msgstr "Гамбия"
+
+#: ../src/common/util.c:932
+msgid "Guinea"
+msgstr "Гвинея"
+
+#: ../src/common/util.c:933
+msgid "Government"
+msgstr "Правительственные"
+
+#: ../src/common/util.c:934
+msgid "Guadeloupe"
+msgstr "Гваделупа"
+
+#: ../src/common/util.c:935
+msgid "Equatorial Guinea"
+msgstr "Экваториальная Гвинея"
+
+#: ../src/common/util.c:936
+msgid "Greece"
+msgstr "Греция"
+
+#: ../src/common/util.c:937
+msgid "S. Georgia and S. Sandwich Isles"
+msgstr "Южная Георгия и Южные Сандвичевы острова"
+
+#: ../src/common/util.c:938
+msgid "Guatemala"
+msgstr "Гватемала"
+
+#: ../src/common/util.c:939
+msgid "Guam"
+msgstr "Гуам"
+
+#: ../src/common/util.c:940
+msgid "Guinea-Bissau"
+msgstr "Гвинея-Биссау"
+
+#: ../src/common/util.c:941
+msgid "Guyana"
+msgstr "Гайаня"
+
+#: ../src/common/util.c:942
+msgid "Hong Kong"
+msgstr "Гонк Конг"
+
+#: ../src/common/util.c:943
+msgid "Heard and McDonald Islands"
+msgstr "Острова Херд и Макдональд"
+
+#: ../src/common/util.c:944
+msgid "Honduras"
+msgstr "Гондурас"
+
+#: ../src/common/util.c:945
+msgid "Croatia"
+msgstr "Хорватия"
+
+#: ../src/common/util.c:946
+msgid "Haiti"
+msgstr "Гаити"
+
+#: ../src/common/util.c:947
+msgid "Hungary"
+msgstr "Венгрия"
+
+#: ../src/common/util.c:948
+msgid "Indonesia"
+msgstr "Индонезия"
+
+#: ../src/common/util.c:949
+msgid "Ireland"
+msgstr "Ирландия"
+
+#: ../src/common/util.c:950
+msgid "Israel"
+msgstr "Израиль"
+
+#: ../src/common/util.c:951
+msgid "Isle of Man"
+msgstr "Остров Мэн"
+
+#: ../src/common/util.c:952
+msgid "India"
+msgstr "Индия"
+
+#: ../src/common/util.c:953
+msgid "Informational"
+msgstr "Информационные"
+
+#: ../src/common/util.c:954
+msgid "International"
+msgstr "Международные"
+
+#: ../src/common/util.c:955
+msgid "British Indian Ocean Territory"
+msgstr "Британская индоокеанская территория"
+
+#: ../src/common/util.c:956
+msgid "Iraq"
+msgstr "Ирак"
+
+#: ../src/common/util.c:957
+msgid "Iran"
+msgstr "Иран"
+
+#: ../src/common/util.c:958
+msgid "Iceland"
+msgstr "Исландия"
+
+#: ../src/common/util.c:959
+msgid "Italy"
+msgstr "Италия"
+
+#: ../src/common/util.c:960
+msgid "Jersey"
+msgstr "Джерси"
+
+#: ../src/common/util.c:961
+msgid "Jamaica"
+msgstr "Ямайка"
+
+#: ../src/common/util.c:962
+msgid "Jordan"
+msgstr "Иордания"
+
+#: ../src/common/util.c:963
+msgid "Japan"
+msgstr "Япония"
+
+#: ../src/common/util.c:964
+msgid "Kenya"
+msgstr "Кения"
+
+#: ../src/common/util.c:965
+msgid "Kyrgyzstan"
+msgstr "Киргизстан"
+
+#: ../src/common/util.c:966
+msgid "Cambodia"
+msgstr "Камбоджа"
+
+#: ../src/common/util.c:967
+msgid "Kiribati"
+msgstr "Кирибати"
+
+#: ../src/common/util.c:968
+msgid "Comoros"
+msgstr "Коморос"
+
+#: ../src/common/util.c:969
+msgid "St. Kitts and Nevis"
+msgstr "Федерация Сент-Китс и Невис"
+
+#: ../src/common/util.c:970
+msgid "North Korea"
+msgstr "Северная Корея"
+
+#: ../src/common/util.c:971
+msgid "South Korea"
+msgstr "Южная Корея"
+
+#: ../src/common/util.c:972
+msgid "Kuwait"
+msgstr "Кувейт"
+
+#: ../src/common/util.c:973
+msgid "Cayman Islands"
+msgstr "Каймановы о-ва"
+
+#: ../src/common/util.c:974
+msgid "Kazakhstan"
+msgstr "Казахстан"
+
+#: ../src/common/util.c:975
+msgid "Laos"
+msgstr "Лаос"
+
+#: ../src/common/util.c:976
+msgid "Lebanon"
+msgstr "Ливан"
+
+#: ../src/common/util.c:977
+msgid "Saint Lucia"
+msgstr "Санта Лючия"
+
+#: ../src/common/util.c:978
+msgid "Liechtenstein"
+msgstr "Лихтенштейн"
+
+#: ../src/common/util.c:979
+msgid "Sri Lanka"
+msgstr "Шри Ланка"
+
+#: ../src/common/util.c:980
+msgid "Liberia"
+msgstr "Либерия"
+
+#: ../src/common/util.c:981
+msgid "Lesotho"
+msgstr "Лесото"
+
+#: ../src/common/util.c:982
+msgid "Lithuania"
+msgstr "Литва"
+
+#: ../src/common/util.c:983
+msgid "Luxembourg"
+msgstr "Люксембург"
+
+#: ../src/common/util.c:984
+msgid "Latvia"
+msgstr "Латвия"
+
+#: ../src/common/util.c:985
+msgid "Libya"
+msgstr "Ливия"
+
+#: ../src/common/util.c:986
+msgid "Morocco"
+msgstr "Марокко"
+
+#: ../src/common/util.c:987
+msgid "Monaco"
+msgstr "Монако"
+
+#: ../src/common/util.c:988
+msgid "Moldova"
+msgstr "Молдова"
+
+#: ../src/common/util.c:989
+msgid "United States Medical"
+msgstr "Мед. учреждения США"
+
+#: ../src/common/util.c:990
+msgid "Madagascar"
+msgstr "Мадагаскар"
+
+#: ../src/common/util.c:991
+msgid "Marshall Islands"
+msgstr "Маршалловы о-ва"
+
+#: ../src/common/util.c:992
+msgid "Military"
+msgstr "Военные"
+
+#: ../src/common/util.c:993
+msgid "Macedonia"
+msgstr "Македония"
+
+#: ../src/common/util.c:994
+msgid "Mali"
+msgstr "Мали"
+
+#: ../src/common/util.c:995
+msgid "Myanmar"
+msgstr "Мьянма"
+
+#: ../src/common/util.c:996
+msgid "Mongolia"
+msgstr "Монголия"
+
+#: ../src/common/util.c:997
+msgid "Macau"
+msgstr "Макао"
+
+#: ../src/common/util.c:998
+msgid "Northern Mariana Islands"
+msgstr "Северные Марианские острова"
+
+#: ../src/common/util.c:999
+msgid "Martinique"
+msgstr "Мартиника"
+
+#: ../src/common/util.c:1000
+msgid "Mauritania"
+msgstr "Мавритания"
+
+#: ../src/common/util.c:1001
+msgid "Montserrat"
+msgstr "Монтсерат"
+
+#: ../src/common/util.c:1002
+msgid "Malta"
+msgstr "Мальта"
+
+#: ../src/common/util.c:1003
+msgid "Mauritius"
+msgstr "Маврикий"
+
+#: ../src/common/util.c:1004
+msgid "Maldives"
+msgstr "Мальдивы"
+
+#: ../src/common/util.c:1005
+msgid "Malawi"
+msgstr "Малави"
+
+#: ../src/common/util.c:1006
+msgid "Mexico"
+msgstr "Мексика"
+
+#: ../src/common/util.c:1007
+msgid "Malaysia"
+msgstr "Малайзия"
+
+#: ../src/common/util.c:1008
+msgid "Mozambique"
+msgstr "Мозамбик"
+
+#: ../src/common/util.c:1009
+msgid "Namibia"
+msgstr "Намибия"
+
+#: ../src/common/util.c:1010
+msgid "New Caledonia"
+msgstr "Новая Каледония"
+
+#: ../src/common/util.c:1011
+msgid "Niger"
+msgstr "Нигер"
+
+#: ../src/common/util.c:1012
+msgid "Internic Network"
+msgstr "Сети"
+
+#: ../src/common/util.c:1013
+msgid "Norfolk Island"
+msgstr "Острова Норфолк"
+
+#: ../src/common/util.c:1014
+msgid "Nigeria"
+msgstr "Нигерия"
+
+#: ../src/common/util.c:1015
+msgid "Nicaragua"
+msgstr "Никарагуа"
+
+#: ../src/common/util.c:1016
+msgid "Netherlands"
+msgstr "Нидерланды"
+
+#: ../src/common/util.c:1017
+msgid "Norway"
+msgstr "Норвегия"
+
+#: ../src/common/util.c:1018
+msgid "Nepal"
+msgstr "Непал"
+
+#: ../src/common/util.c:1019
+msgid "Nauru"
+msgstr "Науру"
+
+#: ../src/common/util.c:1020
+msgid "Niue"
+msgstr "Ниуе"
+
+#: ../src/common/util.c:1021
+msgid "New Zealand"
+msgstr "Новая Зеландия"
+
+#: ../src/common/util.c:1022
+msgid "Oman"
+msgstr "Оман"
+
+#: ../src/common/util.c:1023
+msgid "Internic Non-Profit Organization"
+msgstr "Сетевые некоммерческие организации"
+
+#: ../src/common/util.c:1024
+msgid "Panama"
+msgstr "Панама"
+
+#: ../src/common/util.c:1025
+msgid "Peru"
+msgstr "Перу"
+
+#: ../src/common/util.c:1026
+msgid "French Polynesia"
+msgstr "Французская Полинезия"
+
+#: ../src/common/util.c:1027
+msgid "Papua New Guinea"
+msgstr "Новая Гвинея"
+
+#: ../src/common/util.c:1028
+msgid "Philippines"
+msgstr "Филлипины"
+
+#: ../src/common/util.c:1029
+msgid "Pakistan"
+msgstr "Пакистан"
+
+#: ../src/common/util.c:1030
+msgid "Poland"
+msgstr "Польша"
+
+#: ../src/common/util.c:1031
+msgid "St. Pierre and Miquelon"
+msgstr "Сен-Пьер и Микелон"
+
+#: ../src/common/util.c:1032
+msgid "Pitcairn"
+msgstr "Питкерн"
+
+#: ../src/common/util.c:1033
+msgid "Puerto Rico"
+msgstr "Пуэрто-Рико"
+
+#: ../src/common/util.c:1034
+msgid "Palestinian Territory"
+msgstr "Палестинские территории"
+
+#: ../src/common/util.c:1035
+msgid "Portugal"
+msgstr "Португалия"
+
+#: ../src/common/util.c:1036
+msgid "Palau"
+msgstr "Палау"
+
+#: ../src/common/util.c:1037
+msgid "Paraguay"
+msgstr "Парагвай"
+
+#: ../src/common/util.c:1038
+msgid "Qatar"
+msgstr "Катар"
+
+#: ../src/common/util.c:1039
+msgid "Reunion"
+msgstr "Реюньон"
+
+#: ../src/common/util.c:1040
+msgid "Romania"
+msgstr "Румыния"
+
+#: ../src/common/util.c:1041
+msgid "Old School ARPAnet"
+msgstr "Старая сеть ARPAnet"
+
+#: ../src/common/util.c:1042
+msgid "Russian Federation"
+msgstr "Российская Федерация"
+
+#: ../src/common/util.c:1043
+msgid "Rwanda"
+msgstr "Руанда"
+
+#: ../src/common/util.c:1044
+msgid "Saudi Arabia"
+msgstr "Саудовская Аравия"
+
+#: ../src/common/util.c:1045
+msgid "Solomon Islands"
+msgstr "Соломоновы о-ва"
+
+#: ../src/common/util.c:1046
+msgid "Seychelles"
+msgstr "Сейшеллы"
+
+#: ../src/common/util.c:1047
+msgid "Sudan"
+msgstr "Судан"
+
+#: ../src/common/util.c:1048
+msgid "Sweden"
+msgstr "Швеция"
+
+#: ../src/common/util.c:1049
+msgid "Singapore"
+msgstr "Сингапур"
+
+#: ../src/common/util.c:1050
+msgid "St. Helena"
+msgstr "Остров Святой Елены"
+
+#: ../src/common/util.c:1051
+msgid "Slovenia"
+msgstr "Словения"
+
+#: ../src/common/util.c:1052
+msgid "Svalbard and Jan Mayen Islands"
+msgstr "Острова Свалбард и Ян Мэйен"
+
+#: ../src/common/util.c:1053
+msgid "Slovak Republic"
+msgstr "Словацкая Республика"
+
+#: ../src/common/util.c:1054
+msgid "Sierra Leone"
+msgstr "Сьерра-Леоне"
+
+#: ../src/common/util.c:1055
+msgid "San Marino"
+msgstr "Сан-Марино"
+
+#: ../src/common/util.c:1056
+msgid "Senegal"
+msgstr "Сенегал"
+
+#: ../src/common/util.c:1057
+msgid "Somalia"
+msgstr "Сомали"
+
+#: ../src/common/util.c:1058
+msgid "Suriname"
+msgstr "Суринам"
+
+#: ../src/common/util.c:1059
+msgid "Sao Tome and Principe"
+msgstr "Сен-Томе и Принсипи"
+
+#: ../src/common/util.c:1060
+msgid "Former USSR"
+msgstr "экс-СССР"
+
+#: ../src/common/util.c:1061
+msgid "El Salvador"
+msgstr "Сальвадор"
+
+#: ../src/common/util.c:1062
+msgid "Syria"
+msgstr "Сирия"
+
+#: ../src/common/util.c:1063
+msgid "Swaziland"
+msgstr "Свазиленд"
+
+#: ../src/common/util.c:1064
+msgid "Turks and Caicos Islands"
+msgstr "о-ва Тёркс и Кайкос"
+
+#: ../src/common/util.c:1065
+msgid "Chad"
+msgstr "Чад"
+
+#: ../src/common/util.c:1066
+msgid "French Southern Territories"
+msgstr "Южные французские территории"
+
+#: ../src/common/util.c:1067
+msgid "Togo"
+msgstr "Того"
+
+#: ../src/common/util.c:1068
+msgid "Thailand"
+msgstr "Таиланд"
+
+#: ../src/common/util.c:1069
+msgid "Tajikistan"
+msgstr "Таджикистан"
+
+#: ../src/common/util.c:1070
+msgid "Tokelau"
+msgstr "Токелау"
+
+#: ../src/common/util.c:1071 ../src/common/util.c:1075
+msgid "East Timor"
+msgstr "Восточный Тимор"
+
+#: ../src/common/util.c:1072
+msgid "Turkmenistan"
+msgstr "Туркменистан"
+
+#: ../src/common/util.c:1073
+msgid "Tunisia"
+msgstr "Тунис"
+
+#: ../src/common/util.c:1074
+msgid "Tonga"
+msgstr "Тонга"
+
+#: ../src/common/util.c:1076
+msgid "Turkey"
+msgstr "Турция"
+
+#: ../src/common/util.c:1077
+msgid "Trinidad and Tobago"
+msgstr "Тринидад и Тобаго"
+
+#: ../src/common/util.c:1078
+msgid "Tuvalu"
+msgstr "Тувалу"
+
+#: ../src/common/util.c:1079
+msgid "Taiwan"
+msgstr "Тайвань"
+
+#: ../src/common/util.c:1080
+msgid "Tanzania"
+msgstr "Танзания"
+
+#: ../src/common/util.c:1081
+msgid "Ukraine"
+msgstr "Украина"
+
+#: ../src/common/util.c:1082
+msgid "Uganda"
+msgstr "Уганда"
+
+#: ../src/common/util.c:1083
+msgid "United Kingdom"
+msgstr "Соединенное Королевство"
+
+#: ../src/common/util.c:1084
+msgid "United States of America"
+msgstr "США"
+
+#: ../src/common/util.c:1085
+msgid "Uruguay"
+msgstr "Уругвай"
+
+#: ../src/common/util.c:1086
+msgid "Uzbekistan"
+msgstr "Узбекистан"
+
+#: ../src/common/util.c:1087
+msgid "Vatican City State"
+msgstr "Ватикан"
+
+#: ../src/common/util.c:1088
+msgid "St. Vincent and the Grenadines"
+msgstr "Сен-Винсент и Гренадины"
+
+#: ../src/common/util.c:1089
+msgid "Venezuela"
+msgstr "Венесуэла"
+
+#: ../src/common/util.c:1090
+msgid "British Virgin Islands"
+msgstr "Британские Виргинские о-ва"
+
+#: ../src/common/util.c:1091
+msgid "US Virgin Islands"
+msgstr "Американские Виргинские о-ва"
+
+#: ../src/common/util.c:1092
+msgid "Vietnam"
+msgstr "Вьетнам"
+
+#: ../src/common/util.c:1093
+msgid "Vanuatu"
+msgstr "Вануату"
+
+#: ../src/common/util.c:1094
+msgid "Wallis and Futuna Islands"
+msgstr "Острова Уоллис и Футуна"
+
+#: ../src/common/util.c:1095
+msgid "Samoa"
+msgstr "Самоа"
+
+#: ../src/common/util.c:1096
+msgid "Yemen"
+msgstr "Йемен"
+
+#: ../src/common/util.c:1097
+msgid "Mayotte"
+msgstr "Майот"
+
+#: ../src/common/util.c:1098
+msgid "Yugoslavia"
+msgstr "Югославия"
+
+#: ../src/common/util.c:1099
+msgid "South Africa"
+msgstr "Южная Африка"
+
+#: ../src/common/util.c:1100
+msgid "Zambia"
+msgstr "Замбия"
+
+#: ../src/common/util.c:1101
+msgid "Zimbabwe"
+msgstr "Зимбабве"
+
+#: ../src/common/util.c:1111 ../src/common/util.c:1121
+#: ../src/fe-gnome/userlist-gui.c:439
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: ../src/common/xchat.c:769 ../src/common/xchat.c:895
+msgid "Open Dialog Window"
+msgstr "Открыть диалоговое окно"
+
+#: ../src/common/xchat.c:770
+msgid "Send a File"
+msgstr "Послать файл"
+
+#: ../src/common/xchat.c:771
+msgid "User Info (WHOIS)"
+msgstr "Информация о пользователе (WHOIS)"
+
+#: ../src/common/xchat.c:772
+msgid "Operator Actions"
+msgstr "Действия Оператора"
+
+#: ../src/common/xchat.c:774 ../src/common/xchat.c:865
+msgid "Give Ops"
+msgstr "Дать оператора"
+
+#: ../src/common/xchat.c:775 ../src/common/xchat.c:866
+msgid "Take Ops"
+msgstr "Снять оператора"
+
+#: ../src/common/xchat.c:776 ../src/common/xchat.c:869
+msgid "Give Voice"
+msgstr "Дать голос"
+
+#: ../src/common/xchat.c:777 ../src/common/xchat.c:870
+msgid "Take Voice"
+msgstr "Забрать голос"
+
+#: ../src/common/xchat.c:779 ../src/common/xchat.c:874
+msgid "Kick/Ban"
+msgstr "Выгнать и забанить"
+
+#: ../src/common/xchat.c:780 ../src/common/xchat.c:875
+#: ../src/common/xchat.c:924
+msgid "Kick"
+msgstr "Выгнать"
+
+#: ../src/common/xchat.c:781 ../src/common/xchat.c:782
+#: ../src/common/xchat.c:783 ../src/common/xchat.c:784
+#: ../src/common/xchat.c:785 ../src/common/xchat.c:876
+#: ../src/common/xchat.c:877 ../src/common/xchat.c:878
+#: ../src/common/xchat.c:879 ../src/common/xchat.c:880
+#: ../src/common/xchat.c:923
+msgid "Ban"
+msgstr "Забанить"
+
+#: ../src/common/xchat.c:786 ../src/common/xchat.c:787
+#: ../src/common/xchat.c:788 ../src/common/xchat.c:789
+#: ../src/common/xchat.c:881 ../src/common/xchat.c:882
+#: ../src/common/xchat.c:883 ../src/common/xchat.c:884
+msgid "KickBan"
+msgstr "Выгнать и забанить"
+
+#: ../src/common/xchat.c:852
+msgid "Direct client-to-client"
+msgstr "Прямое соединение"
+
+#: ../src/common/xchat.c:853
+msgid "Send File"
+msgstr "Послать файл"
+
+#: ../src/common/xchat.c:854
+msgid "Offer Chat"
+msgstr "Предложить разговор"
+
+#: ../src/common/xchat.c:855
+msgid "Abort Chat"
+msgstr "Прервать Разговор"
+
+#: ../src/common/xchat.c:856
+msgid "Version"
+msgstr "Версия"
+
+#: ../src/common/xchat.c:857
+msgid "Userinfo"
+msgstr "Информация о пользователе"
+
+#: ../src/common/xchat.c:858
+msgid "Clientinfo"
+msgstr "Информация о клиенте"
+
+#: ../src/common/xchat.c:859 ../src/common/xchat.c:893
+#: ../src/common/xchat.c:941
+msgid "Ping"
+msgstr "Пинг"
+
+#: ../src/common/xchat.c:861
+msgid "Finger"
+msgstr "Finger"
+
+#: ../src/common/xchat.c:862
+msgid "Oper"
+msgstr "Оператор"
+
+#: ../src/common/xchat.c:863
+msgid "Kill this user"
+msgstr "Убить этого пользователя"
+
+#: ../src/common/xchat.c:864
+msgid "Mode"
+msgstr "Режим"
+
+#: ../src/common/xchat.c:867
+msgid "Give Half-Ops"
+msgstr "Дать полу-оператора"
+
+#: ../src/common/xchat.c:868
+msgid "Take Half-Ops"
+msgstr "Снять полу-оператора"
+
+#: ../src/common/xchat.c:871 ../src/fe-gnome/userlist-gui.c:60
+msgid "Ignore"
+msgstr "Игнорировать"
+
+#: ../src/common/xchat.c:872
+msgid "Ignore User"
+msgstr "Игнорировать пользователя"
+
+#: ../src/common/xchat.c:873
+msgid "UnIgnore User"
+msgstr "Снять игнорирование пользователя"
+
+#: ../src/common/xchat.c:885
+msgid "Info"
+msgstr "Информация"
+
+#: ../src/common/xchat.c:886
+msgid "Who"
+msgstr "Кто"
+
+#: ../src/common/xchat.c:887 ../src/common/xchat.c:937
+msgid "WhoIs"
+msgstr "КтоЕсть"
+
+#: ../src/common/xchat.c:888
+msgid "DNS Lookup"
+msgstr "Просмотр DNS:"
+
+#: ../src/common/xchat.c:889
+msgid "Trace"
+msgstr "Трассировка"
+
+#: ../src/common/xchat.c:890
+msgid "UserHost"
+msgstr "Узел"
+
+#: ../src/common/xchat.c:891
+msgid "External"
+msgstr "Внешний"
+
+#: ../src/common/xchat.c:892
+msgid "Traceroute"
+msgstr "Трассировка"
+
+#: ../src/common/xchat.c:894
+msgid "Telnet"
+msgstr "Telnet"
+
+#: ../src/common/xchat.c:906
+msgid "Leave Channel"
+msgstr "Уйти с канала"
+
+#: ../src/common/xchat.c:907
+msgid "Join Channel..."
+msgstr "Зайти на канал..."
+
+#: ../src/common/xchat.c:908
+msgid "Enter Channel to Join:"
+msgstr "Введите канал для входа:"
+
+#: ../src/common/xchat.c:909
+msgid "Server Links"
+msgstr "Ссылки сервера"
+
+#: ../src/common/xchat.c:910
+msgid "Ping Server"
+msgstr "Ping Server"
+
+#: ../src/common/xchat.c:911
+msgid "Hide Version"
+msgstr "Скрывать версию"
+
+#: ../src/common/xchat.c:921
+msgid "Op"
+msgstr "Оператор"
+
+#: ../src/common/xchat.c:922
+msgid "DeOp"
+msgstr "Снять оператора"
+
+#: ../src/common/xchat.c:925
+msgid "bye"
+msgstr "пока"
+
+#: ../src/common/xchat.c:926
+#, c-format
+msgid "Enter reason to kick %s:"
+msgstr "Введите причину выкидывания  %s:"
+
+#: ../src/common/xchat.c:927
+msgid "Sendfile"
+msgstr "Послать файл"
+
+#: ../src/common/xchat.c:928
+msgid "Dialog"
+msgstr "Диалог"
+
+#: ../src/common/xchat.c:938
+msgid "Send"
+msgstr "Отправить"
+
+#: ../src/common/xchat.c:939
+msgid "Chat"
+msgstr "Чат"
+
+#: ../src/common/xchat.c:940
+msgid "Clear"
+msgstr "Очистить"
+
+#: ../src/common/dbus/dbus-plugin.c:31
+msgid "remote access"
+msgstr "удалённый доступ"
+
+#: ../src/common/dbus/dbus-plugin.c:32
+msgid "plugin for remote access using DBUS"
+msgstr "Расширение удалённого доступа через DBUS"
+
+#: ../src/common/dbus/dbus-plugin.c:900
+#, c-format
+msgid "Couldn't connect to session bus: %s\n"
+msgstr "Не удалось подключиться к шине dbus текущего сеанса: %s\n"
+
+#: ../src/common/dbus/dbus-plugin.c:917
+#, c-format
+msgid "Failed to acquire %s: %s\n"
+msgstr "Не удалось заполучить %s: %s\n"
+
+#: ../src/common/dbus/url_handler.schemas.in.h:1
+msgid "The handler for \"irc://\" URLs"
+msgstr "Обработчик URL \"irc://\""
+
+#: ../src/common/dbus/url_handler.schemas.in.h:2
+msgid "Set it at TRUE if you want it activated"
+msgstr "Пометьте для активации"
+
+#: ../src/common/dbus/url_handler.schemas.in.h:3
+msgid "Run XChat-GNOME in a terminal?"
+msgstr "Запускать XChat-GNOME в терминале?"
+
+#: ../src/fe-gnome/about.c:62
+msgid ""
+"X-Chat GNOME is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version."
+msgstr ""
+"X-Chat GNOME - свободное программное обеспечение; вы можете распространять "
+"его и/или изменять на условиях 2-й или более поздней (на ваше усмотрение) "
+"версии лицензии GNU General Public License, опубликованной Фондом Свободного "
+"Программного Обеспечения (Free Software Foundation)."
+
+#: ../src/fe-gnome/about.c:67
+msgid ""
+"X-Chat GNOME is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details."
+msgstr ""
+"X-Chat GNOME распространяется с надеждой, что он будет полезен, но БЕЗ КАКОЙ "
+"ЛИБО ГАРАНТИИ, даже без подразумеваемой гарантии ГОДНОСТИ или СООТВЕТСТВИИ "
+"КОНКРЕТНОЙ ЦЕЛИ. Смотрите лицензию GNU General Public License для деталей."
+
+#: ../src/fe-gnome/about.c:72
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"X-Chat GNOME; if not, write to the Free Software Foundation, Inc., 59 Temple "
+"Place, Suite 330, Boston, MA  02111-1307  USA"
+msgstr ""
+"Вы должны были получить копию лицензии GNU GPL вместе с X-Chat GNOME; если "
+"это не так, напишите по адресу the Free Software Foundation, Inc., 59 Temple "
+"Place, Suite 330, Boston, MA  02111-1307 USA"
+
+# Не переводим
+#. Translators: Don't try to translate this literally.
+#. * It is a running gag from a british comedy television
+#. * programme; either leave it as-is or replace it with
+#. * something comparable but inoffensive in your language.
+#.
+#: ../src/fe-gnome/about.c:90
+msgid "“Ni cho lyen, yo may yo ?”"
+msgstr "«Ni cho lyen, yo may yo ?»"
+
+#: ../src/fe-gnome/about.c:94
+msgid "XChat-GNOME Web Site"
+msgstr "Сайт XChat-GNOME"
+
+#. Translators: This is a special message that shouldn't
+#. * be translated literally. It is used in the about box
+#. * to give credits to the translators. Thus, you should
+#. * translate it to your name and email address. You
+#. * should also include other translators who have
+#. * contributed to this translation; in that case, please
+#. * write each of them on a separated line seperated by
+#. * newlines (\n).
+#.
+#: ../src/fe-gnome/about.c:108
+msgid "translator-credits"
+msgstr ""
+"wiz <aenor.realm@gmail.com>\n"
+"jg <gdeshko@gmail.com>\n"
+"Юрий Мясоедов <omerta13@yandex.ru>, 2012"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:1
+msgid "xchat configuration version"
+msgstr "версия конфигурации xchat"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:2
+msgid "Default nickname used by servers without special options set"
+msgstr ""
+"Ник по умолчанию используемый для серверов без установленных специальных "
+"опций"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:3
+msgid "Default real name used by servers without special options set"
+msgstr ""
+"Имя по умолчанию используемое серверами без установленных специальных опций"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:4
+msgid "Message sent on quit"
+msgstr "Сообщение при выходе из программы"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:5
+msgid "Message sent on channel part"
+msgstr "Сообщение при уходе с канала"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:6
+msgid "Message sent on away"
+msgstr "Сообщение при отсутствии"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:7
+msgid "Show colors in the main window"
+msgstr "Отображать цвета в главном окне"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:8
+msgid "Colorize nicknames in the main window"
+msgstr "Раскрашивать ники в главном окне"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:9
+msgid "Show timestamps in the main window"
+msgstr "Показывать отметки времени в главном окне"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:10
+msgid "Selected color scheme"
+msgstr "Выбранная цветовая схема"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:11
+msgid "Selected background type"
+msgstr "Тип выбранного фона"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:12
+msgid "Background image filename"
+msgstr "Файл фонового изображения"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:13
+msgid "Background transparency"
+msgstr "Фоновая прозрачность"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:14
+msgid "Use system fonts"
+msgstr "Использовать системные шрифты"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:15
+msgid "Font for the main window"
+msgstr "Шрифт главного окна"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:16
+msgid "Width of the main window"
+msgstr "Ширина основного окна"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:17
+msgid "Height of the main window"
+msgstr "Высота главного окна"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:18
+msgid "X position of the main window on the screen"
+msgstr "Горизонтальное положение главного окна на экране"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:19
+msgid "Y position of the main window on the screen"
+msgstr "Вертикальное положение главного окна на экране"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:20
+msgid "Whether the horizontal pane in the main window is shown"
+msgstr "Нужно ли показывать горизонтальную панель в главном окне"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:21
+msgid "Whether the statusbar in the main window is shown"
+msgstr "Нужно ли показывать панель состояния в главном окне"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:22
+msgid "Position of the horizontal pane in the main window"
+msgstr "Положение горизонтальной панели главного окна"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:23
+msgid "Display redundant nickstamps"
+msgstr "Отображать ники полностью"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:24
+msgid "Show user list in main window"
+msgstr "Показывать список пользователей в главном окне"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:25
+msgid "Width of the channel list"
+msgstr "Ширина списка каналов"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:26
+msgid "Height of the channel list"
+msgstr "Высота списка каналов"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:27
+msgid "Automatically display the channel list dialog"
+msgstr "Автоматически отображать диалог списка каналов"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:28
+msgid ""
+"If set to true, when you join a server without automatically joining a "
+"channel, the channel list dialog will be displayed"
+msgstr ""
+"Если флаг установлен, то при подключении к серверу без автоматического "
+"присоединения к каналу, будет изображён диалог списка каналов"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:29
+msgid "List of enabled plugins"
+msgstr "Список включённых расширений"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:30
+msgid "Enable spellchecking"
+msgstr "Включить проверку правописания"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:31
+msgid "Languages to use for spellchecking"
+msgstr "Используемые языки для проверки орфографии"
+
+#: ../src/fe-gnome/channel-list-window.c:413
+#, c-format
+msgid "%s Channel List"
+msgstr "%s Список каналов"
+
+#: ../src/fe-gnome/connect-dialog.c:110
+msgid "This network doesn't have a server defined."
+msgstr "У этой сети нет заданного сервера"
+
+#: ../src/fe-gnome/connect-dialog.c:112
+#, c-format
+msgid "Please add at least one server to the %s network."
+msgstr "Необходимо добавить как минимум один сервер к сети %s."
+
+#: ../src/fe-gnome/connect-dialog.c:157
+msgid "C_onnect"
+msgstr "П_одключить"
+
+#: ../src/fe-gnome/conversation-panel.c:163
+msgid "_Open Link in Browser"
+msgstr "_Открыть ссылку в браузере"
+
+#: ../src/fe-gnome/conversation-panel.c:164
+msgid "_Copy Link Location"
+msgstr "_Копировать ссылку"
+
+#: ../src/fe-gnome/conversation-panel.c:168
+msgid "Se_nd Message To..."
+msgstr "Отправить сообщ_ение..."
+
+#: ../src/fe-gnome/conversation-panel.c:169
+msgid "_Copy Address"
+msgstr "_Копировать адрес"
+
+#: ../src/fe-gnome/conversation-panel.c:173
+msgid "_Send File"
+msgstr "Отпра_вить файл"
+
+#: ../src/fe-gnome/conversation-panel.c:174
+msgid "Paste File _Contents"
+msgstr "Вставить содержимое файла"
+
+#: ../src/fe-gnome/conversation-panel.c:175
+msgid "Paste File_name"
+msgstr "Вставить имя ф_айла"
+
+#: ../src/fe-gnome/conversation-panel.c:176
+msgid "_Cancel"
+msgstr "Отмена"
+
+#: ../src/fe-gnome/conversation-panel.c:180 ../src/fe-gnome/main-window.c:114
+msgid "_Copy"
+msgstr "_Копировать"
+
+#: ../src/fe-gnome/conversation-panel.c:812
+#, c-format
+msgid "Error reading file \"%s\": %s\n"
+msgstr "Ошибка чтения файла \"%s\": %s\n"
+
+#: ../src/fe-gnome/conversation-panel.c:828
+#, c-format
+msgid "Error converting URI \"%s\" into filename: %s\n"
+msgstr ""
+"Произошла ошибка перевода идентификатора (URI) \"%s\" в имя файла: %s\n"
+
+#: ../src/fe-gnome/conversation-panel.c:879
+#, c-format
+msgid "Error retrieving file information for \"%s\": %s\n"
+msgstr "Ошибка получения информации о \"%s\": %s\n"
+
+#: ../src/fe-gnome/conversation-panel.c:976
+msgid "Save Transcript"
+msgstr "Сохранить разговор"
+
+#: ../src/fe-gnome/conversation-panel.c:1002
+#: ../src/fe-gnome/conversation-panel.c:1012
+#, c-format
+msgid "Error saving %s"
+msgstr "Ошибка сохранения %s"
+
+#: ../src/fe-gnome/conversation-panel.c:1149
+msgid "Search buffer is empty.\n"
+msgstr "Буфер поиска пуст.\n"
+
+#. File completion percent
+#: ../src/fe-gnome/dcc-window.c:142
+msgid "%"
+msgstr "%"
+
+#: ../src/fe-gnome/dcc-window.c:143
+msgid "File"
+msgstr "Файл"
+
+#: ../src/fe-gnome/dcc-window.c:144
+msgid "Remaining"
+msgstr "Осталось"
+
+#: ../src/fe-gnome/dcc-window.c:219
+msgid "Incoming File Transfer"
+msgstr "Входящая передача файла"
+
+#: ../src/fe-gnome/dcc-window.c:220 ../src/fe-gnome/fe-gnome.c:542
+msgid "_Accept"
+msgstr "Подтвердить"
+
+#: ../src/fe-gnome/dcc-window.c:221
+#, c-format
+msgid ""
+"%s is attempting to send you a file named \"%s\". Do you wish to accept the "
+"transfer?"
+msgstr "%s собирается отправить вам файл \"%s\". Вы хотите его принять?"
+
+#: ../src/fe-gnome/dcc-window.c:241
+#, c-format
+msgid ""
+"<b>%s</b>\n"
+"<small>from %s</small>\n"
+"%s of %s"
+msgstr ""
+"<b> %s </b>\n"
+"<small>от %s </small>\n"
+"%s of %s"
+
+#: ../src/fe-gnome/dcc-window.c:252
+msgid "starting"
+msgstr "начало"
+
+#: ../src/fe-gnome/dcc-window.c:283
+#, c-format
+msgid ""
+"<b>%s</b>\n"
+"<small>from %s</small>\n"
+"%s of %s at %s/s"
+msgstr ""
+"<b> %s </b>\n"
+"<small>от %s </small>\n"
+"%s из %s на %s /s"
+
+#: ../src/fe-gnome/dcc-window.c:290
+msgid "queued"
+msgstr "в очереди"
+
+#: ../src/fe-gnome/dcc-window.c:295
+#, c-format
+msgid "Transfer of %s to %s failed"
+msgstr "Передача %s к %s не удалась"
+
+#: ../src/fe-gnome/dcc-window.c:297
+#, c-format
+msgid "Transfer of %s from %s failed"
+msgstr "Передача %s от %s не удалась"
+
+#: ../src/fe-gnome/dcc-window.c:298
+msgid "Transfer failed"
+msgstr "Ошибка передачи"
+
+#: ../src/fe-gnome/dcc-window.c:306
+msgid "aborted"
+msgstr "отменено"
+
+#: ../src/fe-gnome/dcc-window.c:309
+msgid "stalled"
+msgstr "застряло"
+
+#: ../src/fe-gnome/dcc-window.c:313
+#, c-format
+msgid "%.2d:%.2d:%.2d"
+msgstr "%.2d:%.2d:%.2d"
+
+#: ../src/fe-gnome/dcc-window.c:315
+#, c-format
+msgid "%.2d:%.2d"
+msgstr "%.2d:%.2d"
+
+#: ../src/fe-gnome/dcc-window.c:419
+msgid "Send File..."
+msgstr "Отправить файл..."
+
+#: ../src/fe-gnome/fe-gnome.c:67
+msgid "Full-screen the window"
+msgstr "Окно на весь экран"
+
+#: ../src/fe-gnome/fe-gnome.c:68
+msgid "Use directory instead of the default config dir"
+msgstr "Использовать этот каталог вместо каталога настроек по умолчанию"
+
+#: ../src/fe-gnome/fe-gnome.c:69
+msgid "Don't auto-connect to servers"
+msgstr "Не подключаться автоматически к серверу"
+
+#: ../src/fe-gnome/fe-gnome.c:70
+msgid "Don't auto-load plugins"
+msgstr "Не загружать автоматически расширения"
+
+#: ../src/fe-gnome/fe-gnome.c:71
+msgid "Open an irc:// url"
+msgstr "Открыть URL irc://"
+
+#: ../src/fe-gnome/fe-gnome.c:72
+msgid "Open URL in an existing XChat-GNOME instance"
+msgstr "Открывать URL в уже открытом XChat-GNOME"
+
+#: ../src/fe-gnome/fe-gnome.c:73
+msgid "Show version information"
+msgstr "Показать информацию о версии"
+
+#: ../src/fe-gnome/fe-gnome.c:142
+#, c-format
+msgid "Failed to parse arguments: %s\n"
+msgstr "Не удалось разобрать параметры: %s\n"
+
+#: ../src/fe-gnome/fe-gnome.c:540
+msgid "Incoming DCC Chat"
+msgstr "Входящий прямой запрос на беседу"
+
+#: ../src/fe-gnome/fe-gnome.c:545
+#, c-format
+msgid ""
+"%s is attempting to create a direct chat. Do you wish to accept the "
+"connection?"
+msgstr "%s пытается начать беседу. Вы хотите принять прямое соединение?"
+
+#: ../src/fe-gnome/fe-gnome.c:980
+#, c-format
+msgid "Unable to show '%s'"
+msgstr "Нельзя показать '%s'"
+
+#: ../src/fe-gnome/find-bar.c:88
+msgid "Find:"
+msgstr "Найти:"
+
+#: ../src/fe-gnome/find-bar.c:89
+msgid "_Previous"
+msgstr "Назад"
+
+#: ../src/fe-gnome/find-bar.c:91
+msgid "_Next"
+msgstr "Да_лее"
+
+#: ../src/fe-gnome/find-bar.c:208
+msgid "<span foreground=\"dark grey\">Reached end, continuing from top</span>"
+msgstr ""
+"<span foreground=\"dark grey\">Достигнут конец, продолжаем с начала</span>"
+
+#: ../src/fe-gnome/find-bar.c:215
+msgid ""
+"<span foreground=\"dark grey\">Reached beginning, continuing from bottom</"
+"span>"
+msgstr ""
+"<span foreground=\"dark grey\">Достигнуто начало, продолжаем с конца</span>"
+
+#: ../src/fe-gnome/find-bar.c:222
+msgid "<span foreground=\"red\">Search string not found</span>"
+msgstr "<span foreground=\"red\">Строка не найдена</span>"
+
+#: ../src/fe-gnome/irc-network-editor.c:316
+msgid "Server"
+msgstr "Сервер"
+
+#: ../src/fe-gnome/irc-network-editor.c:325
+msgid "Key"
+msgstr "Ключ"
+
+#. We're creating a new network. Don't populate things from the structure
+#: ../src/fe-gnome/irc-network-editor.c:460
+msgid "New Network"
+msgstr "Новая сеть"
+
+#: ../src/fe-gnome/irc-network-editor.c:468
+#, c-format
+msgid "%s Network Properties"
+msgstr "%s Настройки сети"
+
+#: ../src/fe-gnome/irc-network-editor.c:594
+#: ../src/fe-gnome/irc-network-editor.c:601
+#: ../src/fe-gnome/irc-network-editor.c:607
+msgid "Invalid input"
+msgstr "Неправильный ввод"
+
+#: ../src/fe-gnome/irc-network-editor.c:594
+msgid "You must enter a network name"
+msgstr "Необходимо ввести название сети"
+
+#: ../src/fe-gnome/irc-network-editor.c:601
+msgid "You must enter a nick name"
+msgstr "Необходимо ввести ник"
+
+#: ../src/fe-gnome/irc-network-editor.c:607
+msgid "You must enter a real name"
+msgstr "Необходимо ввести настоящее имя"
+
+#: ../src/fe-gnome/irc-network-editor.c:614
+msgid "No Servers"
+msgstr "Не указаны сервера"
+
+#: ../src/fe-gnome/irc-network-editor.c:614
+msgid "You must add at least one server for this network"
+msgstr "Необходимо добавить как минимум один сервер для этой сети"
+
+#: ../src/fe-gnome/irc-network.c:32
+msgid "UTF-8 (Unicode)"
+msgstr "UTF-8 (юникод)"
+
+#: ../src/fe-gnome/irc-network.c:33
+msgid "ISO-8859-15 (Western Europe)"
+msgstr "ISO-8859-15 (Западная Европа)"
+
+#: ../src/fe-gnome/irc-network.c:34
+msgid "ISO-8859-2 (Central Europe)"
+msgstr "ISO-8859-2 (Центральная Европа)"
+
+#: ../src/fe-gnome/irc-network.c:35
+msgid "ISO-8859-7 (Greek)"
+msgstr "ISO-8859-7 (Греческая)"
+
+#: ../src/fe-gnome/irc-network.c:36
+msgid "ISO-8859-8 (Hebrew)"
+msgstr "ISO-8859-8 (Иврит)"
+
+#: ../src/fe-gnome/irc-network.c:37
+msgid "ISO-8859-9 (Turkish)"
+msgstr "ISO-8859-9 (Турецкая)"
+
+#: ../src/fe-gnome/irc-network.c:38
+msgid "ISO-2022-JP (Japanese)"
+msgstr "ISO-2022-JP (Японская)"
+
+#: ../src/fe-gnome/irc-network.c:39
+msgid "SJIS (Japanese)"
+msgstr "Shift JIS (Японская)"
+
+#: ../src/fe-gnome/irc-network.c:40
+msgid "CP949 (Korean)"
+msgstr "CP949 (Корейская)"
+
+#: ../src/fe-gnome/irc-network.c:41
+msgid "KOI8-R (Cyrillic)"
+msgstr "KOI8-R (Кириллица)"
+
+#: ../src/fe-gnome/irc-network.c:42
+msgid "CP1251 (Cyrillic)"
+msgstr "CP1251 (Кириллица Windows)"
+
+#: ../src/fe-gnome/irc-network.c:43
+msgid "CP1256 (Arabic)"
+msgstr "CP1256 (Арабская)"
+
+#: ../src/fe-gnome/irc-network.c:44
+msgid "CP1257 (Baltic)"
+msgstr "CP1257 (Балтийская)"
+
+#: ../src/fe-gnome/irc-network.c:45
+msgid "GB18030 (Chinese)"
+msgstr "GB18030 (Китайская)"
+
+#: ../src/fe-gnome/irc-network.c:46
+msgid "TIS-620 (Thai)"
+msgstr "TIS-620 (Тайская)"
+
+#. Toplevel
+#: ../src/fe-gnome/main-window.c:98
+msgid "_IRC"
+msgstr "_IRC"
+
+#: ../src/fe-gnome/main-window.c:100
+msgid "In_sert"
+msgstr "Вставка"
+
+#: ../src/fe-gnome/main-window.c:101
+msgid "_Network"
+msgstr "Сеть"
+
+#: ../src/fe-gnome/main-window.c:102
+msgid "_Discussion"
+msgstr "Обсу_ждение"
+
+#: ../src/fe-gnome/main-window.c:103
+msgid "_View"
+msgstr "_Вид"
+
+#: ../src/fe-gnome/main-window.c:104
+msgid "_Help"
+msgstr "_Справка"
+
+#. IRC menu
+#: ../src/fe-gnome/main-window.c:108
+msgid "_Connect..."
+msgstr "_Соединить..."
+
+#: ../src/fe-gnome/main-window.c:109
+msgid "_File Transfers"
+msgstr "Передачи ф_айла"
+
+#: ../src/fe-gnome/main-window.c:110
+msgid "_Quit"
+msgstr "В_ыход"
+
+#. Edit menu
+#: ../src/fe-gnome/main-window.c:113
+msgid "Cu_t"
+msgstr "_Вырезать"
+
+#: ../src/fe-gnome/main-window.c:115
+msgid "_Paste"
+msgstr "Вст_авить"
+
+#: ../src/fe-gnome/main-window.c:116
+msgid "Prefere_nces"
+msgstr "Па_раметры"
+
+#. Network menu
+#: ../src/fe-gnome/main-window.c:119
+msgid "_Reconnect"
+msgstr "Пе_ресоединить"
+
+#: ../src/fe-gnome/main-window.c:120
+msgid "_Disconnect"
+msgstr "_Отключить"
+
+#: ../src/fe-gnome/main-window.c:121
+msgid "_Close"
+msgstr "_Закрыть"
+
+#: ../src/fe-gnome/main-window.c:122
+msgid "_Channels..."
+msgstr "Ка_налы..."
+
+#. Discussion menu
+#: ../src/fe-gnome/main-window.c:125
+msgid "_Save Transcript"
+msgstr "_Сохранить беседу"
+
+#: ../src/fe-gnome/main-window.c:126
+msgid "_Leave"
+msgstr "Пок_инуть"
+
+#: ../src/fe-gnome/main-window.c:127
+msgid "Cl_ose"
+msgstr "Закр_ыть"
+
+#: ../src/fe-gnome/main-window.c:128
+msgid "_Find"
+msgstr "П_оиск"
+
+#: ../src/fe-gnome/main-window.c:129
+msgid "Change _Topic"
+msgstr "Сменить _тему"
+
+#: ../src/fe-gnome/main-window.c:130
+msgid "_Bans..."
+msgstr "Список _заблокированных..."
+
+#: ../src/fe-gnome/main-window.c:131
+msgid "_Users"
+msgstr "П_ользователи"
+
+#. Help menu
+#: ../src/fe-gnome/main-window.c:134
+msgid "_Contents"
+msgstr "_Содержание"
+
+#: ../src/fe-gnome/main-window.c:135
+msgid "_About"
+msgstr "_О программе"
+
+#. View menu
+#: ../src/fe-gnome/main-window.c:141
+msgid "_Sidebar"
+msgstr "_Боковая панель"
+
+#: ../src/fe-gnome/main-window.c:142
+msgid "Status_bar"
+msgstr "Панель _состояния"
+
+#: ../src/fe-gnome/main-window.c:143
+msgid "_Fullscreen"
+msgstr "_Полный экран"
+
+#: ../src/fe-gnome/main-window.c:459 ../src/fe-gnome/main-window.c:481
+msgid "Ex-Chat"
+msgstr "Ex-Chat"
+
+#: ../src/fe-gnome/main-window.c:533
+msgid "Error showing help"
+msgstr "Ошибка отображения справки"
+
+#: ../src/fe-gnome/migration.c:115
+#, c-format
+msgid ""
+"The way the D-Bus plugin works has changed.\n"
+"To avoid problems, you should remove the old plugin file.\n"
+"\n"
+"<b>Please delete %s</b>"
+msgstr ""
+"Расширение D-Bus теперь работает не так, как раньше.\n"
+"Чтобы избежать проблем, вы должны удалить старый файл расширения.\n"
+"\n"
+"<b>Пожалуйста, удалите %s</b>"
+
+#: ../src/fe-gnome/migration.c:117
+msgid "D-Bus plugin is still installed"
+msgstr "Плагин D-Bus до сих пор установлен"
+
+#. View menu
+#: ../src/fe-gnome/navigation-tree.c:91
+msgid "Pre_vious Network"
+msgstr "Предыдущая сеть"
+
+#: ../src/fe-gnome/navigation-tree.c:92
+msgid "Nex_t Network"
+msgstr "Следующая сеть"
+
+#: ../src/fe-gnome/navigation-tree.c:93
+msgid "_Previous Discussion"
+msgstr "Предыдущее обсуждение"
+
+#: ../src/fe-gnome/navigation-tree.c:94
+msgid "_Next Discussion"
+msgstr "Следующее обсуждение"
+
+#. Discussion context menu
+#: ../src/fe-gnome/navigation-tree.c:97
+msgid "_Join"
+msgstr "П_рисоединиться"
+
+#. Server context menu
+#: ../src/fe-gnome/navigation-tree.c:102
+msgid "_Auto-connect on startup"
+msgstr "_Авто-соединение при запуске"
+
+#. Discussion context menu
+#: ../src/fe-gnome/navigation-tree.c:105
+msgid "_Auto-join on connect"
+msgstr "_Автоматически заходить на каналы"
+
+#: ../src/fe-gnome/navigation-tree.c:106
+msgid "Show join/part messages"
+msgstr "Показывать сообщения о подключении/уходе"
+
+#: ../src/fe-gnome/navigation-tree.c:481
+msgid "<none>"
+msgstr "<пусто>"
+
+#: ../src/fe-gnome/preferences-page-colors.c:255
+msgid "Colors"
+msgstr "Цвета"
+
+#: ../src/fe-gnome/preferences-page-colors.c:258
+msgid "Black on White"
+msgstr "Чёрный на белом"
+
+#: ../src/fe-gnome/preferences-page-colors.c:259
+msgid "White on Black"
+msgstr "Белый на чёрном"
+
+#: ../src/fe-gnome/preferences-page-colors.c:260
+msgid "Custom"
+msgstr "Особый"
+
+#: ../src/fe-gnome/preferences-page-colors.c:261
+msgid "System Theme Colors"
+msgstr "Брать цвета из системных настроек"
+
+#: ../src/fe-gnome/preferences-page-dcc.c:146
+msgid "File Transfers & DCC"
+msgstr "DCC и передача файлов"
+
+#: ../src/fe-gnome/preferences-page-effects.c:180
+msgid "Effects"
+msgstr "Эффекты"
+
+#: ../src/fe-gnome/preferences-page-irc.c:321
+msgid "IRC Preferences"
+msgstr "Настройки IRC"
+
+#: ../src/fe-gnome/preferences-page-networks.c:117
+#, c-format
+msgid "Really remove network \"%s\" and all of its servers?"
+msgstr "Действительно удалить сеть \"%s\" и все ее сервера?"
+
+#: ../src/fe-gnome/preferences-page-networks.c:168
+msgid "Networks"
+msgstr "Сети"
+
+#: ../src/fe-gnome/preferences-page-networks.c:176
+msgid "Name"
+msgstr "Имя"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:99
+#: ../src/fe-gnome/preferences-page-plugins.c:100
+msgid "unknown"
+msgstr "неизвестно"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:192
+#, c-format
+msgid "An error occurred unloading %s"
+msgstr "Ошибка при выгрузке %s"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:193
+msgid "Plugin Unload Failed"
+msgstr "Ошибка выгрузки расширения"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:204
+msgid "Plugin Load Failed"
+msgstr "Ошибка загрузки расширения"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:242
+msgid "Open Plugin"
+msgstr "Открыть расширение"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:367
+msgid "Scripts and Plugins"
+msgstr "Сценарии и расширения"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:385
+#: ../src/fe-gnome/preferences-page-spellcheck.c:220
+msgid "Enable"
+msgstr "Включить"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:387
+msgid "Plugin"
+msgstr "Расширение"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:97
+#, c-format
+msgid "Error in language %s activation: %s\n"
+msgstr "Ошибка в активации языка %s: %s\n"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:138
+#, c-format
+msgid "Error in spell checking configuration: %s\n"
+msgstr "Ошибка в конфигурации проверки правописания: %s\n"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:181
+msgid "Spell checking"
+msgstr "Проверка правописания"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:186
+msgid ""
+"In order to get spell-checking, you need to have libenchant installed with "
+"at least one dictionary."
+msgstr ""
+"Чтобы проверка орфографии работала, вы должны установить libenchant и хотя "
+"бы один словарь"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:197
+msgid "_Check spelling"
+msgstr "_проверка правописания"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:198
+msgid "Choose languages to use for spellcheck:"
+msgstr "Выберите языки для проверки правописания:"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:225
+msgid "Language"
+msgstr "Язык"
+
+#: ../src/fe-gnome/status-bar.c:93
+#, c-format
+msgid "%s%.1fs lag"
+msgstr "%s %.1fс лаг"
+
+#: ../src/fe-gnome/status-bar.c:107
+#, c-format
+msgid "%d bytes buffered"
+msgstr "%d байт в буфере"
+
+#: ../src/fe-gnome/text-entry.c:176
+msgid "I_nsert Color Code"
+msgstr "Вставить код цвета"
+
+#: ../src/fe-gnome/text-entry.c:183
+msgid "Black"
+msgstr "Чёрный"
+
+#: ../src/fe-gnome/text-entry.c:187
+msgid "Dark Blue"
+msgstr "Тёмно-синий"
+
+#: ../src/fe-gnome/text-entry.c:191
+msgid "Dark Green"
+msgstr "Тёмно-зелёный"
+
+#: ../src/fe-gnome/text-entry.c:195
+msgid "Red"
+msgstr "Красный"
+
+#: ../src/fe-gnome/text-entry.c:199
+msgid "Brown"
+msgstr "Коричневый"
+
+#: ../src/fe-gnome/text-entry.c:203
+msgid "Purple"
+msgstr "Пурпурный"
+
+#: ../src/fe-gnome/text-entry.c:207
+msgid "Orange"
+msgstr "Оранжевый"
+
+#: ../src/fe-gnome/text-entry.c:211
+msgid "Yellow"
+msgstr "Жёлтый"
+
+#: ../src/fe-gnome/text-entry.c:215
+msgid "Light Green"
+msgstr "Светло-зелёный"
+
+#: ../src/fe-gnome/text-entry.c:219
+msgid "Aqua"
+msgstr "Тёмно-голубой"
+
+#: ../src/fe-gnome/text-entry.c:223
+msgid "Light Blue"
+msgstr "Светло-синий"
+
+#: ../src/fe-gnome/text-entry.c:227
+msgid "Blue"
+msgstr "Синий"
+
+#: ../src/fe-gnome/text-entry.c:231
+msgid "Violet"
+msgstr "Фиолетовый"
+
+#: ../src/fe-gnome/text-entry.c:235
+msgid "Grey"
+msgstr "Серый"
+
+#: ../src/fe-gnome/text-entry.c:239
+msgid "Light Grey"
+msgstr "Светло-серый"
+
+#: ../src/fe-gnome/text-entry.c:243
+msgid "White"
+msgstr "Белый"
+
+#: ../src/fe-gnome/topic-label.c:263
+#, c-format
+msgid "Changing topic for %s"
+msgstr "Смена темы на %s"
+
+#: ../src/fe-gnome/userlist-gui.c:56
+msgid "_Send File..."
+msgstr "Отправить ф_айл..."
+
+#: ../src/fe-gnome/userlist-gui.c:57
+msgid "Private _Chat"
+msgstr "Л_ичный разговор"
+
+#: ../src/fe-gnome/userlist-gui.c:58
+msgid "_Kick"
+msgstr "_Выкинуть"
+
+#: ../src/fe-gnome/userlist-gui.c:59
+msgid "_Ban"
+msgstr "Запрет_ить"
+
+#: ../src/fe-gnome/userlist-gui.c:61
+msgid "_Op"
+msgstr "Дать права _оператора"
+
+#: ../src/fe-gnome/userlist-gui.c:434
+#, c-format
+msgid ""
+"%s\n"
+"<span weight=\"bold\">Name:</span> %s"
+msgstr ""
+"%s\n"
+"<span weight=\"bold\">Имя:</span> %s"
+
+#: ../src/fe-gnome/userlist-gui.c:441
+#, c-format
+msgid ""
+"%s\n"
+"<span weight=\"bold\">Country:</span> %s"
+msgstr ""
+"%s\n"
+"<span weight=\"bold\">Страна:</span> %s"
+
+#: ../src/fe-gnome/userlist-gui.c:451
+#, c-format
+msgid ""
+"%s\n"
+"<span weight=\"bold\">Last message:</span> %d minute ago"
+msgid_plural ""
+"%s\n"
+"<span weight=\"bold\">Last message:</span> %d minutes ago"
+msgstr[0] ""
+"%s\n"
+"<span weight=\"bold\">Последнее сообщение:</span> %d минута назад"
+msgstr[1] ""
+"%s\n"
+"<span weight=\"bold\">Последнее сообщение:</span> %d минуты назад"
+msgstr[2] ""
+"%s\n"
+"<span weight=\"bold\">Последнее сообщение:</span> %d минут назад"
+
+#: ../src/fe-gnome/userlist-gui.c:462
+#, c-format
+msgid ""
+"%s\n"
+"<span weight=\"bold\">Away message:</span> %s"
+msgstr ""
+"%s\n"
+"<span weight=\"bold\">Сообщение об отсутствие:</span> %s"
+
+#: ../src/fe-gnome/userlist.c:299
+#, c-format
+msgid "%d User"
+msgid_plural "%d Users"
+msgstr[0] "%d пользователь"
+msgstr[1] "%d пользователя"
+msgstr[2] "%d пользователей"
+
+#: ../src/libeggsmclient/eggdesktopfile.c:165
+#, c-format
+msgid "File is not a valid .desktop file"
+msgstr "Файл не является корректным файлом .desktop"
+
+#: ../src/libeggsmclient/eggdesktopfile.c:188
+#, c-format
+msgid "Unrecognized desktop file Version '%s'"
+msgstr "Неизвестная версия файла .desktop «%s»"
+
+#: ../src/libeggsmclient/eggdesktopfile.c:958
+#, c-format
+msgid "Starting %s"
+msgstr "Запуск %s"
+
+#: ../src/libeggsmclient/eggdesktopfile.c:1100
+#, c-format
+msgid "Application does not accept documents on command line"
+msgstr "Приложение не поддерживает открытие документов через командную строку"
+
+#: ../src/libeggsmclient/eggdesktopfile.c:1168
+#, c-format
+msgid "Unrecognized launch option: %d"
+msgstr "Неизвестный параметр запуска: %d"
+
+#: ../src/libeggsmclient/eggdesktopfile.c:1373
+#, c-format
+msgid "Can't pass document URIs to a 'Type=Link' desktop entry"
+msgstr "Невозможно передать URI в запись «Type=Link» файла .desktop"
+
+#: ../src/libeggsmclient/eggdesktopfile.c:1394
+#, c-format
+msgid "Not a launchable item"
+msgstr "Не может быть запущено"
+
+#: ../src/libeggsmclient/eggsmclient.c:225
+msgid "Disable connection to session manager"
+msgstr "Запретить подключение к диспетчеру сеансов"
+
+#: ../src/libeggsmclient/eggsmclient.c:228
+msgid "Specify file containing saved configuration"
+msgstr "Указать файл, содержащий сохранённые настройки"
+
+#: ../src/libeggsmclient/eggsmclient.c:228
+msgid "FILE"
+msgstr "ФАЙЛ"
+
+#: ../src/libeggsmclient/eggsmclient.c:231
+msgid "Specify session management ID"
+msgstr "Укажите ID диспетчера сеанса"
+
+#: ../src/libeggsmclient/eggsmclient.c:231
+msgid "ID"
+msgstr "ID"
+
+#: ../src/libeggsmclient/eggsmclient.c:252
+msgid "Session management options:"
+msgstr "Параметры управления сеансом:"
+
+#: ../src/libeggsmclient/eggsmclient.c:253
+msgid "Show session management options"
+msgstr "Показать параметры управления сеансом"
+
+#~ msgid "“Listen very carefully, I shall say this only once.”"
+#~ msgstr "“Слушай внимательно, повторять не будут.”"
+
+#~ msgid "Error in spellchecking configuration: %s\n"
+#~ msgstr "Ошибка в настройках проверки орфографии: %s\n"

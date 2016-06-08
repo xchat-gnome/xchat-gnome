@@ -1,0 +1,4571 @@
+# Hebrew translation for xchat-gnome
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the xchat-gnome package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xchat-gnome\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-01-27 03:49+0000\n"
+"PO-Revision-Date: 2007-11-23 21:40+0000\n"
+"Last-Translator: Omri\n"
+"Language-Team: Hebrew Translators <blueomega@gmailc.om>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2008-01-25 15:20+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+"X-Poedit-Language: Hebrew\n"
+
+#: ../data/channel-list.glade.h:1
+msgid "<span weight=\"bold\">List Filtering</span>"
+msgstr "<span weight=\"bold\">סינון רשימה</span>"
+
+#: ../data/channel-list.glade.h:2
+msgid "Channel _Name"
+msgstr "שם _ערוץ"
+
+#: ../data/channel-list.glade.h:3
+msgid "Channel _Topic"
+msgstr "כותרת _ערוץ"
+
+#: ../data/channel-list.glade.h:4
+msgid "Channels list"
+msgstr "רשימת ערוצים"
+
+#: ../data/channel-list.glade.h:5
+msgid "Join channel:"
+msgstr "הצטרף לערוץ:"
+
+#: ../data/channel-list.glade.h:6
+msgid "Search for text:"
+msgstr "חפש טקסט:"
+
+#: ../data/channel-list.glade.h:7
+msgid "Show channels with:"
+msgstr ""
+
+#: ../data/channel-list.glade.h:8
+msgid "_Join Channel"
+msgstr "הצטרף ל_ערוץ"
+
+#. Part of channel filtering, to select whether to filter "in  [ ] channel topic  [ ] channel name".  Yes, I know it's hard to translate.  Send suggestions to trowbrds@gmail.com :P
+#: ../data/channel-list.glade.h:10
+msgid "in:"
+msgstr ""
+
+#. Part of "Show channels with [  ] to [  ] users".  Yes, I know it's hard to translate.  Send suggestions to trowbrds@gmail.com :P
+#: ../data/channel-list.glade.h:12
+msgid "to"
+msgstr ""
+
+#: ../data/channel-list.glade.h:13
+msgid "users"
+msgstr "משתמשים"
+
+#: ../data/connect-dialog.glade.h:1 ../src/fe-gnome/connect-dialog.c:157
+msgid "C_onnect"
+msgstr "ה_תחבר"
+
+#: ../data/dcc-window.glade.h:1 ../src/fe-gnome/dcc-window.c:117
+msgid "File Transfers"
+msgstr "משלוח קבצים"
+
+#: ../data/irc-network-editor.glade.h:1
+msgid "<span weight=\"bold\">Automatically Join Channels</span>"
+msgstr ""
+
+#: ../data/irc-network-editor.glade.h:2
+msgid "<span weight=\"bold\">User Info</span>"
+msgstr "span weight=\"bold\">מידע משתמש</span>"
+
+#: ../data/irc-network-editor.glade.h:3
+msgid "Accept invalid _SSL certificate"
+msgstr "קבל תעודות _SSL לא תקינות"
+
+#: ../data/irc-network-editor.glade.h:4
+msgid "Character _encoding:"
+msgstr "_קידוד תווים:"
+
+#: ../data/irc-network-editor.glade.h:5
+msgid "Cycle _until connected"
+msgstr "חזור _עד שתתחבר"
+
+#: ../data/irc-network-editor.glade.h:6
+msgid "Network Settings"
+msgstr "הגדרות רשת"
+
+#: ../data/irc-network-editor.glade.h:7
+msgid "Nickser_v password:"
+msgstr ""
+
+#: ../data/irc-network-editor.glade.h:8
+msgid "Server _password:"
+msgstr "_סיסמת שרת:"
+
+#: ../data/irc-network-editor.glade.h:9
+msgid "Servers"
+msgstr "שרתים"
+
+#: ../data/irc-network-editor.glade.h:10
+msgid "Use _global user settings"
+msgstr "השתמש בהגדרות משתמש _גלובליות"
+
+#: ../data/irc-network-editor.glade.h:11
+msgid "Use _these user settings:"
+msgstr "השתמש בגדרות משתמש _אלו:"
+
+#: ../data/irc-network-editor.glade.h:12
+msgid "User and Channels"
+msgstr "משתמש וערוצים"
+
+#: ../data/irc-network-editor.glade.h:13
+msgid "_Automatically connect to network"
+msgstr "_התחבר אוטומטית לרשת"
+
+#: ../data/irc-network-editor.glade.h:14
+msgid "_Name:"
+msgstr "_שם:"
+
+#: ../data/irc-network-editor.glade.h:15 ../data/setup-dialog.glade.h:5
+msgid "_Nick name:"
+msgstr "_כינוי:"
+
+#: ../data/irc-network-editor.glade.h:16
+msgid "_Real Name:"
+msgstr "_שם אמיתי:"
+
+#: ../data/irc-network-editor.glade.h:17
+msgid "_Use secure connection (SSL)"
+msgstr "_השתמש בחיבור מאובטח (SSL)"
+
+#: ../data/preferences-dialog.glade.h:1
+msgid "<span size=\"small\" style=\"italic\">Opaque</span>"
+msgstr "<span size=\"small\" style=\"italic\">אטום</span>"
+
+#: ../data/preferences-dialog.glade.h:2
+msgid "<span size=\"small\" style=\"italic\">Transparent</span>"
+msgstr "<span size=\"small\" style=\"italic\">שקוף</span>"
+
+#: ../data/preferences-dialog.glade.h:3
+msgid "<span weight=\"bold\">Background</span>"
+msgstr "<span weight=\"bold\">רקע</span>"
+
+#: ../data/preferences-dialog.glade.h:4
+msgid "<span weight=\"bold\">DCC Settings</span>"
+msgstr "<span weight=\"bold\">הגדרות DCC</span>"
+
+#: ../data/preferences-dialog.glade.h:5
+msgid "<span weight=\"bold\">Extra Colors</span>"
+msgstr "<span weight=\"bold\">צבעים נוספים</span>"
+
+#: ../data/preferences-dialog.glade.h:6
+msgid "<span weight=\"bold\">File Transfers</span>"
+msgstr "<span weight=\"bold\">העברות קבצים</span>"
+
+#: ../data/preferences-dialog.glade.h:7
+msgid "<span weight=\"bold\">General</span>"
+msgstr "<span weight=\"bold\">כללי</span>"
+
+#: ../data/preferences-dialog.glade.h:8
+msgid "<span weight=\"bold\">Highlighting</span>"
+msgstr "<span weight=\"bold\">הדגשה</span>"
+
+#: ../data/preferences-dialog.glade.h:9
+msgid "<span weight=\"bold\">Text Colors</span>"
+msgstr "<span weight=\"bold\">צבעי טקסט</span>"
+
+#: ../data/preferences-dialog.glade.h:10
+msgid "<span weight=\"bold\">Throttling</span>"
+msgstr ""
+
+#: ../data/preferences-dialog.glade.h:11
+msgid "<span weight=\"bold\">User Interface</span>"
+msgstr "<span weight=\"bold\">מנשק משתמש</span>"
+
+#: ../data/preferences-dialog.glade.h:12
+msgid "<span weight=\"bold\">mIRC Colors</span>"
+msgstr "<span weight=\"bold\">צבעי mIRC</span>"
+
+#: ../data/preferences-dialog.glade.h:13
+msgid "A_way message:"
+msgstr "הודעת מ_רוחק:"
+
+#: ../data/preferences-dialog.glade.h:14
+msgid "Auto-accept DCC c_hat"
+msgstr "קבל-אוטומטית ש_יחת DCC"
+
+#: ../data/preferences-dialog.glade.h:15
+msgid "Auto-accept DCC file tr_ansfers"
+msgstr "קבל-אוטומטית הע_ברת קבצים באמצעות DCC"
+
+#: ../data/preferences-dialog.glade.h:16
+msgid "Background mark:"
+msgstr "סימן רקע:"
+
+#: ../data/preferences-dialog.glade.h:17
+msgid "Buil_t-in schemes:"
+msgstr "סכמות מוב_נות:"
+
+#: ../data/preferences-dialog.glade.h:18
+msgid "Convert spaces to _underscores in filenames"
+msgstr "המר רווחים ל_קו-תחתון בשמות קבצים"
+
+#: ../data/preferences-dialog.glade.h:19
+msgid "Display a red line after the last read text"
+msgstr "הצג קו אדום אחרי הטקסט האחרון שנקרא"
+
+#: ../data/preferences-dialog.glade.h:20
+msgid "Enter extra words to trigger highlighting"
+msgstr "הכנס מילים נוספות לגירוי הדגשה"
+
+#: ../data/preferences-dialog.glade.h:21
+msgid "Foreground mark:"
+msgstr "סימן קדמה:"
+
+#: ../data/preferences-dialog.glade.h:22
+msgid "Get IP address from _server"
+msgstr "קבל כתובת IP מ_השרת"
+
+#: ../data/preferences-dialog.glade.h:23
+msgid "Glo_bal receive KB/s: "
+msgstr "KB/s שנתקבלו גלובלית: "
+
+#: ../data/preferences-dialog.glade.h:24
+msgid "I_mage file:"
+msgstr "קובץ ת_מונה:"
+
+#: ../data/preferences-dialog.glade.h:25
+msgid "In_dividual send KB/s: "
+msgstr "KB/s שנשלחו אינדיוידואלית: "
+
+#: ../data/preferences-dialog.glade.h:26
+msgid "Indi_vidual receive KB/s: "
+msgstr "KB/s שנתקבלו אינדיוידואלית: "
+
+#: ../data/preferences-dialog.glade.h:27
+msgid "Move co_mpleted files to:"
+msgstr "העבר קבצים שה_סתיימו ל:"
+
+#: ../data/preferences-dialog.glade.h:28
+msgid "Preferences"
+msgstr "העדפות"
+
+#: ../data/preferences-dialog.glade.h:29
+msgid "Real na_me:"
+msgstr "ש_ם אמיתי:"
+
+#: ../data/preferences-dialog.glade.h:30
+msgid "Save sender _nickname in filenames"
+msgstr "שמור את _כינוי השולח בשמות הקבצים"
+
+#: ../data/preferences-dialog.glade.h:31
+msgid "Select A File"
+msgstr "בחר קובץ"
+
+#: ../data/preferences-dialog.glade.h:32
+msgid "Select Completed Files Directory"
+msgstr "בחר את תיקיית הקבצים שהסתיימו"
+
+#: ../data/preferences-dialog.glade.h:33
+msgid "Select Download Directory"
+msgstr "בחר את תיקיית ההורדות"
+
+#: ../data/preferences-dialog.glade.h:34
+msgid "Show _timestamps"
+msgstr "הצג _מראי זמן"
+
+#: ../data/preferences-dialog.glade.h:35
+msgid "Show m_arker line"
+msgstr "הצג ס_מן שורה"
+
+#: ../data/preferences-dialog.glade.h:36
+msgid ""
+"To edit a shortcut key, click on the corresponding row and type a new "
+"accelerator, or press backspace to clear."
+msgstr ""
+"כדי לערוך מקש קיצור, לחץ על השורה המתאימה והקלד על המקש המפעיל, או לחץ "
+"על מקש החזר כדי למחוק."
+
+#: ../data/preferences-dialog.glade.h:37
+msgid "Use _system terminal font"
+msgstr "השתמש בגופן מסוף _מערכת"
+
+#: ../data/preferences-dialog.glade.h:38
+msgid "Use t_his IP address:"
+msgstr "השתמש בכתובת IP ז_ו:"
+
+#: ../data/preferences-dialog.glade.h:39
+msgid "Use this f_ont:"
+msgstr "השתמש ב_גופן זה:"
+
+#: ../data/preferences-dialog.glade.h:40
+msgid "_Background color:"
+msgstr "_צבע רקע:"
+
+#: ../data/preferences-dialog.glade.h:41
+msgid "_Background image"
+msgstr "_תמונת רקע"
+
+#: ../data/preferences-dialog.glade.h:42
+msgid "_Colorize nicknames"
+msgstr ""
+
+#: ../data/preferences-dialog.glade.h:43
+msgid "_Download files to:"
+msgstr "_הורד קבצים ל:"
+
+#: ../data/preferences-dialog.glade.h:44 ../src/fe-gnome/main-window.c:95
+msgid "_Edit"
+msgstr "_ערוך"
+
+#: ../data/preferences-dialog.glade.h:45
+msgid "_Foreground color:"
+msgstr "_צבע קדמה:"
+
+#: ../data/preferences-dialog.glade.h:46
+msgid "_Global send KB/s: "
+msgstr "_KB/s שנשלחו גלובלית: "
+
+#: ../data/preferences-dialog.glade.h:47
+msgid "_Log conversations"
+msgstr ""
+
+#: ../data/preferences-dialog.glade.h:48
+msgid "_Nickname:"
+msgstr "_כינוי:"
+
+#: ../data/preferences-dialog.glade.h:49
+msgid "_None (use solid color)"
+msgstr "_ללא (השתמש בצבע אחיד)"
+
+#: ../data/preferences-dialog.glade.h:50
+msgid "_Part message:"
+msgstr "_הודעת יציאה:"
+
+#: ../data/preferences-dialog.glade.h:51
+msgid "_Quit message:"
+msgstr "_הודעת התנתקות:"
+
+#: ../data/preferences-dialog.glade.h:52
+msgid "_Show colors"
+msgstr "_הצג צבעים"
+
+#: ../data/preferences-dialog.glade.h:53
+msgid "_Transparent background"
+msgstr "_רקע שקוף"
+
+#: ../data/preferences-dialog.glade.h:54
+msgid "spell checking"
+msgstr "בדיקת איות"
+
+#: ../data/setup-dialog.glade.h:1
+msgid ""
+"Welcome to XChat-GNOME! Since this is your first time using this "
+"application, there are a couple things you'll need to configure before you "
+"can get started.\n"
+"\n"
+"These are the names by which you'll be recognized on IRC. Your nick name is "
+"the name by which you'll be known, whereas the real name is useful for "
+"things such as registering with services. You do not have to use your real "
+"name if you do not want to."
+msgstr ""
+"ברוך הבא ל-XChat-GNOME! מאחר וזו הפעם הראשונה שאתה משתמש ביישום זה, יש כמה "
+"דברים שאתה צריך להגדיר לפני שתוכל להתחיל.\n"
+"\n"
+"אלו השמות שלפיהם אתה תזוהה ב-IRC. הכינוי שלך הוא השם שיציג אותך, בעוד שהשם "
+"האמיתי שלך שימושי עבור דברים כמו רישום לשירותים. אתה לא חייב להשתמש בשמך "
+"האמיתי אם אינך רוצה."
+
+#: ../data/setup-dialog.glade.h:4
+msgid "XChat-GNOME Setup"
+msgstr "התקנת XChat-GNOME"
+
+#: ../data/setup-dialog.glade.h:6
+msgid "_Real name:"
+msgstr "_שם אמיתי:"
+
+#: ../data/topic-change.glade.h:1
+msgid "Change"
+msgstr "שנה"
+
+#: ../data/xchat-gnome.desktop.in.in.h:1
+msgid "Chat with people using IRC"
+msgstr "שוחח עם אנשים באמצעות IRC"
+
+#: ../data/xchat-gnome.desktop.in.in.h:2
+msgid "IRC Chat"
+msgstr "שיחת IRC"
+
+#: ../data/xchat-gnome.desktop.in.in.h:3
+msgid "XChat-GNOME IRC Chat"
+msgstr "שיחת XChat-GNOME IRC"
+
+#: ../data/xchat-gnome.glade.h:1
+msgid "Apply on all _servers"
+msgstr "החל על כל _השרתים"
+
+#: ../data/xchat-gnome.glade.h:2
+msgid "C_hange"
+msgstr "ש_נה"
+
+#: ../data/xchat-gnome.glade.h:3
+msgid "Change _nickname to:"
+msgstr "שנה את _הכינוי ל:"
+
+#: ../data/xchat-gnome.glade.h:4
+msgid "Mark as _away"
+msgstr "סמן _כלא נמצא"
+
+#: ../data/xchat-gnome.glade.h:5 ../src/common/text.c:887
+#: ../src/common/text.c:893 ../src/common/text.c:900 ../src/common/text.c:1088
+#: ../src/common/text.c:1095 ../src/common/text.c:1100
+#: ../src/common/text.c:1105 ../src/common/text.c:1110
+#: ../src/common/text.c:1116 ../src/common/text.c:1121
+#: ../src/common/text.c:1125 ../src/common/text.c:1131
+#: ../src/common/text.c:1137 ../src/common/text.c:1183
+#: ../src/common/text.c:1194 ../src/common/text.c:1199
+#: ../src/common/text.c:1204 ../src/common/text.c:1213
+#: ../src/common/text.c:1224 ../src/common/text.c:1231
+#: ../src/common/text.c:1237 ../src/common/text.c:1242
+#: ../src/common/text.c:1247 ../src/common/text.c:1254
+#: ../src/common/text.c:1260 ../src/common/text.c:1266
+#: ../src/common/text.c:1271 ../src/common/text.c:1276
+#: ../src/common/text.c:1280 ../src/common/text.c:1286
+#: ../src/common/text.c:1294 ../src/common/text.c:1328
+#: ../src/common/text.c:1333
+msgid "Nickname"
+msgstr "כינוי"
+
+#: ../data/xchat-gnome.glade.h:6 ../src/common/text.c:1160
+#: ../src/fe-gnome/channel-list-window.c:447 ../src/fe-gnome/userlist.c:312
+msgid "Users"
+msgstr "משתמשים"
+
+#: ../data/xchat-gnome.glade.h:7
+msgid "nickname"
+msgstr "כינוי"
+
+#: ../plugins/autoaway/autoaway.c:216
+msgid "Auto Away"
+msgstr "לא נמצא אוטומטי"
+
+#: ../plugins/autoaway/autoaway.c:217
+msgid "Automatically go away / come back"
+msgstr "הפוך ללא נמצא/חזור אוטומטית"
+
+#: ../plugins/net-monitor/net-monitor.c:39
+msgid "Network Monitor"
+msgstr "מנטר רשת"
+
+#: ../plugins/net-monitor/net-monitor.c:40
+msgid "NetworkManager connection monitor"
+msgstr "מנטר חיבור NetworkManager"
+
+#: ../plugins/net-monitor/net-monitor.c:352
+#, c-format
+msgid "%s loaded successfully\n"
+msgstr "%s נטען בהצלחה\n"
+
+#: ../plugins/notification/notification.c:146
+#: ../plugins/notification/preferences-page-plugin-notification.c:128
+msgid "Notification"
+msgstr "התראה"
+
+#: ../plugins/notification/notification.c:147
+msgid "A notification area plugin."
+msgstr "תוסף אזור ההתראה"
+
+#: ../plugins/notification/notification.c:211
+msgid "Notification plugin loaded.\n"
+msgstr "תוסף התראות נטען.\n"
+
+#: ../plugins/notification/notification.c:232
+msgid "Notification plugin unloaded.\n"
+msgstr "תוסף התראות הוסר.\n"
+
+#: ../plugins/notification/notification.schemas.in.h:1
+msgid "Level of the messages that require a notification"
+msgstr "Level of the messages that require a notification"
+
+#: ../plugins/notification/notification.schemas.in.h:2
+msgid ""
+"Messages are classified according to their importance. Select level of "
+"messages above which the notification icon will be displayed. Valid values "
+"are: \"0\" (always displayed), \"1\" (all messages including information), "
+"\"2\" (all channel messages), \"3\" (only private or highlighted messages)."
+msgstr ""
+"Messages are classified according to their importance. Select level of "
+"messages above which the notification icon will be displayed. Valid values "
+"are: \"0\" (always displayed), \"1\" (all messages including information), "
+"\"2\" (all channel messages), \"3\" (only private or highlighted messages)."
+
+#: ../plugins/notification/preferences-notification.glade.h:1
+msgid "<span weight=\"bold\">Notification level</span>"
+msgstr ""
+
+#: ../plugins/notification/preferences-notification.glade.h:2
+msgid "Notify each _event"
+msgstr ""
+
+#: ../plugins/notification/preferences-notification.glade.h:3
+msgid "Notify each _message"
+msgstr ""
+
+#: ../plugins/notification/preferences-notification.glade.h:4
+msgid "Notify only _private messages"
+msgstr ""
+
+#: ../plugins/notification/preferences-notification.glade.h:5
+msgid "_Always display notification icon"
+msgstr ""
+
+#: ../plugins/notify-osd/notify-osd.c:30
+msgid "On-screen display"
+msgstr ""
+
+#: ../plugins/notify-osd/notify-osd.c:32
+msgid ""
+"Pops up notification of important messages when XChat-GNOME doesn't have the "
+"focus"
+msgstr ""
+
+#: ../plugins/notify-osd/notify-osd.c:57
+#, c-format
+msgid "Error closing notification: %s\n"
+msgstr ""
+
+#: ../plugins/notify-osd/notify-osd.c:74
+#, c-format
+msgid "Failed to send notification: %s\n"
+msgstr ""
+
+#: ../plugins/notify-osd/notify-osd.c:116
+#: ../plugins/notify-osd/notify-osd.c:142
+#, c-format
+msgid "Message in %s"
+msgstr ""
+
+#: ../plugins/notify-osd/notify-osd.c:118
+#: ../plugins/notify-osd/notify-osd.c:144
+#, c-format
+msgid "Message from %s"
+msgstr ""
+
+#: ../plugins/notify-osd/notify-osd.c:163
+#, c-format
+msgid "Private Message from %s"
+msgstr ""
+
+#: ../plugins/notify-osd/notify-osd.c:209
+msgid "OSD loaded\n"
+msgstr ""
+
+#: ../plugins/notify-osd/notify-osd.c:213
+msgid "OSD initialization failed\n"
+msgstr ""
+
+#: ../plugins/perl/perl.c:1372
+msgid "Perl"
+msgstr ""
+
+#: ../plugins/perl/perl.c:1373
+msgid "Perl scripting interface"
+msgstr ""
+
+#: ../plugins/python/python.c:2083
+msgid "Python"
+msgstr ""
+
+#: ../plugins/python/python.c:2085
+msgid "Python scripting interface"
+msgstr ""
+
+#: ../plugins/url_scraper/urlscraper.c:45
+msgid "xchat URL scraper"
+msgstr ""
+
+#: ../plugins/url_scraper/urlscraper.c:59 ../src/common/xchat.c:858
+msgid "Time"
+msgstr "שעה"
+
+#: ../plugins/url_scraper/urlscraper.c:64 ../src/common/text.c:946
+msgid "Nick"
+msgstr "כינוי"
+
+#: ../plugins/url_scraper/urlscraper.c:68 ../src/common/text.c:913
+#: ../src/common/text.c:917 ../src/common/text.c:1348
+#: ../src/fe-gnome/irc-network-editor.c:318
+msgid "Channel"
+msgstr "ערוץ"
+
+#: ../plugins/url_scraper/urlscraper.c:73
+msgid "URL"
+msgstr "כתובת"
+
+#: ../plugins/url_scraper/urlscraper.c:155
+msgid "URL Scraper"
+msgstr "מגרד כתובת"
+
+#: ../plugins/url_scraper/urlscraper.c:156
+msgid "Grabs URLs and puts them in a separate window for easy viewing."
+msgstr ""
+
+#: ../plugins/url_scraper/urlscraper.c:196
+msgid "URL Scraper failed to load: couldn't compile URL regex.\n"
+msgstr ""
+
+#: ../plugins/url_scraper/urlscraper.c:202
+msgid "URL Scraper failed to load: couldn't compile e-mail regex.\n"
+msgstr ""
+
+#: ../plugins/url_scraper/urlscraper.c:217
+msgid "URL Scraper loaded.\n"
+msgstr ""
+
+#: ../plugins/url_scraper/urlscraper.c:229
+msgid "URL Scraper unloaded.\n"
+msgstr ""
+
+#: ../plugins/url_scraper/urlscraper.schemas.in.h:1
+msgid "URL Scraper history length"
+msgstr "URL Scraper history length"
+
+#: ../plugins/url_scraper/urlscraper.schemas.in.h:2
+msgid "URL Scraper show timestamps"
+msgstr "URL Scraper show timestamps"
+
+#: ../plugins/sound-notification/sound-notification.c:55
+msgid "Sound Notification"
+msgstr "צליל התראה"
+
+#: ../plugins/sound-notification/sound-notification.c:56
+msgid ""
+"Play a sound when you receive a private message or your nick is highlighted."
+msgstr ""
+
+#: ../plugins/sound-notification/sound-notification.c:87
+msgid "Sound-notification plugin loaded.\n"
+msgstr ""
+
+#: ../plugins/sound-notification/sound-notification.c:96
+msgid "Sound-notification plugin unloaded.\n"
+msgstr ""
+
+#: ../plugins/tcl/tclplugin.c:2232
+msgid "tclplugin"
+msgstr ""
+
+#: ../plugins/tcl/tclplugin.c:2233
+msgid "Tcl plugin for XChat"
+msgstr ""
+
+#: ../src/common/cfgfiles.c:354
+msgid "Cannot create ~/.xchat2"
+msgstr "נכשל ביצירת ~/.xchat2"
+
+#: ../src/common/cfgfiles.c:712
+msgid "I'm busy"
+msgstr "אני עסוק"
+
+#: ../src/common/cfgfiles.c:713
+msgid "Leaving"
+msgstr "עוזב"
+
+#: ../src/common/cfgfiles.c:760
+msgid ""
+"* Running IRC as root is stupid! You should\n"
+"  create a User Account and use that to login.\n"
+msgstr ""
+
+#: ../src/common/dbus/dbus-client.c:73
+msgid "Couldn't connect to session bus"
+msgstr ""
+
+#. Used for dbus-based single instance app
+#: ../src/common/dbus/dbus-client.c:88
+msgid "Detection of running instance failed"
+msgstr ""
+
+#. Used for dbus-based single instance app
+#: ../src/common/dbus/dbus-client.c:110
+msgid "Failed to send \"url\" command to running instance"
+msgstr ""
+
+#: ../src/common/dcc.c:67
+msgid "Waiting"
+msgstr "מחכה"
+
+#. black
+#: ../src/common/dcc.c:68
+msgid "Active"
+msgstr "פעיל"
+
+#. cyan
+#: ../src/common/dcc.c:69
+msgid "Failed"
+msgstr "נכשל"
+
+#. red
+#: ../src/common/dcc.c:70
+msgid "Done"
+msgstr "הסתיים"
+
+#. green
+#: ../src/common/dcc.c:71 ../src/fe-gnome/connect-dialog.c:182
+msgid "Connect"
+msgstr "התחבר"
+
+#. black
+#: ../src/common/dcc.c:72
+msgid "Aborted"
+msgstr "בוטל"
+
+#: ../src/common/dcc.c:1886 ../src/common/outbound.c:2452
+#, c-format
+msgid "Cannot access %s\n"
+msgstr "לא יכול לגשת ל %s\n"
+
+#. ! if (osvi.dwMajorVersion >= 5)
+#. fallback to error number
+#: ../src/common/dcc.c:1887 ../src/common/text.c:1169
+#: ../src/common/text.c:1207 ../src/common/text.c:1218
+#: ../src/common/text.c:1225 ../src/common/text.c:1238
+#: ../src/common/text.c:1255 ../src/common/text.c:1355
+#: ../src/common/util.c:352
+msgid "Error"
+msgstr "שגיאה"
+
+#: ../src/common/dcc.c:2375
+#, c-format
+msgid "%s is offering \"%s\". Do you want to accept?"
+msgstr ""
+
+#: ../src/common/dcc.c:2586
+msgid "No active DCCs\n"
+msgstr ""
+
+#: ../src/common/ignore.c:120 ../src/common/ignore.c:124
+#: ../src/common/ignore.c:128 ../src/common/ignore.c:132
+#: ../src/common/ignore.c:136 ../src/common/ignore.c:140
+#: ../src/common/ignore.c:144
+msgid "YES  "
+msgstr "כן  "
+
+#: ../src/common/ignore.c:122 ../src/common/ignore.c:126
+#: ../src/common/ignore.c:130 ../src/common/ignore.c:134
+#: ../src/common/ignore.c:138 ../src/common/ignore.c:142
+#: ../src/common/ignore.c:146
+msgid "NO   "
+msgstr "לא   "
+
+#: ../src/common/ignore.c:377
+#, c-format
+msgid "You are being CTCP flooded from %s, ignoring %s\n"
+msgstr ""
+
+#: ../src/common/ignore.c:402
+#, c-format
+msgid "You are being MSG flooded from %s, setting gui_auto_open_dialog OFF.\n"
+msgstr ""
+
+#: ../src/common/notify.c:473
+#, c-format
+msgid "  %-20s online\n"
+msgstr "  %-20s מקוון\n"
+
+#: ../src/common/notify.c:475
+#, c-format
+msgid "  %-20s offline\n"
+msgstr "  %-20s לא מקוון\n"
+
+#: ../src/common/outbound.c:72
+msgid "No channel joined. Try /join #<channel>\n"
+msgstr "לא מצורף לערוצים. נסה /join #<ערוץ>\n"
+
+#: ../src/common/outbound.c:78
+msgid "Not connected. Try /server <host> [<port>]\n"
+msgstr "לא מחובר. נסה /server <מארח> [<יציאה>]\n"
+
+#: ../src/common/outbound.c:339
+#, c-format
+msgid "Already marked away: %s\n"
+msgstr ""
+
+#: ../src/common/outbound.c:409
+msgid "Already marked back.\n"
+msgstr ""
+
+#: ../src/common/outbound.c:1814
+msgid "I need /bin/sh to run!\n"
+msgstr "אני צריך /bin/sh כדי לרוץ!\n"
+
+#: ../src/common/outbound.c:2185
+msgid "Commands Available:"
+msgstr "פקודות זמינות:"
+
+#: ../src/common/outbound.c:2199
+msgid "User defined commands:"
+msgstr "פקודות המוגדרות על ידי המשתמש:"
+
+#: ../src/common/outbound.c:2215
+msgid "Plugin defined commands:"
+msgstr "פקודות המוגדרות על ידי תוספים:"
+
+#: ../src/common/outbound.c:2226
+msgid "Type /HELP <command> for more information, or /HELP -l"
+msgstr ""
+
+#: ../src/common/outbound.c:2301
+#, c-format
+msgid "Unknown arg '%s' ignored."
+msgstr ""
+
+#: ../src/common/outbound.c:3235
+msgid "No such plugin found.\n"
+msgstr ""
+
+#: ../src/common/outbound.c:3240
+msgid "That plugin is refusing to unload.\n"
+msgstr ""
+
+#: ../src/common/outbound.c:3509
+msgid "ADDBUTTON <name> <action>, adds a button under the user-list"
+msgstr ""
+
+#: ../src/common/outbound.c:3511
+msgid "ALLCHAN <cmd>, sends a command to all channels you're in"
+msgstr ""
+
+#: ../src/common/outbound.c:3513
+msgid "ALLCHANL <cmd>, sends a command to all channels you're in"
+msgstr ""
+
+#: ../src/common/outbound.c:3515
+msgid "ALLSERV <cmd>, sends a command to all servers you're in"
+msgstr ""
+
+#: ../src/common/outbound.c:3516
+msgid "AWAY [<reason>], sets you away"
+msgstr ""
+
+#: ../src/common/outbound.c:3517
+msgid "BACK, sets you back (not away)"
+msgstr ""
+
+#: ../src/common/outbound.c:3519
+msgid ""
+"BAN <mask> [<bantype>], bans everyone matching the mask from the current "
+"channel. If they are already on the channel this doesn't kick them (needs "
+"chanop)"
+msgstr ""
+
+#: ../src/common/outbound.c:3521
+msgid ""
+"Set per channel options\n"
+"CHANOPT CONFMODE ON|OFF - Toggle conf mode/showing of join and part "
+"messages\n"
+"CHANOPT COLORPASTE ON|OFF - Toggle color paste\n"
+"CHANOPT BEEP ON|OFF - Toggle beep on message\n"
+"CHANOPT TRAY ON|OFF - Toggle tray blink on message"
+msgstr ""
+
+#: ../src/common/outbound.c:3528
+msgid "CLEAR [ALL|HISTORY], Clears the current text window or command history"
+msgstr ""
+
+#: ../src/common/outbound.c:3529
+msgid "CLOSE, Closes the current window/tab"
+msgstr ""
+
+#: ../src/common/outbound.c:3532
+msgid "COUNTRY [-s] <code|wildcard>, finds a country code, eg: au = australia"
+msgstr ""
+
+#: ../src/common/outbound.c:3534
+msgid ""
+"CTCP <nick> <message>, send the CTCP message to nick, common messages are "
+"VERSION and USERINFO"
+msgstr ""
+
+#: ../src/common/outbound.c:3536
+msgid ""
+"CYCLE [<channel>], parts the current or given channel and immediately rejoins"
+msgstr ""
+
+#: ../src/common/outbound.c:3538
+msgid ""
+"\n"
+"DCC GET <nick>                      - accept an offered file\n"
+"DCC SEND [-maxcps=#] <nick> [file]  - send a file to someone\n"
+"DCC PSEND [-maxcps=#] <nick> [file] - send a file using passive mode\n"
+"DCC LIST                            - show DCC list\n"
+"DCC CHAT <nick>                     - offer DCC CHAT to someone\n"
+"DCC PCHAT <nick>                    - offer DCC CHAT using passive mode\n"
+"DCC CLOSE <type> <nick> <file>         example:\n"
+"         /dcc close send johnsmith file.tar.gz"
+msgstr ""
+
+#: ../src/common/outbound.c:3550
+msgid ""
+"DEHOP <nick>, removes chanhalf-op status from the nick on the current "
+"channel (needs chanop)"
+msgstr ""
+
+#: ../src/common/outbound.c:3552
+msgid "DELBUTTON <name>, deletes a button from under the user-list"
+msgstr ""
+
+#: ../src/common/outbound.c:3554
+msgid ""
+"DEOP <nick>, removes chanop status from the nick on the current channel "
+"(needs chanop)"
+msgstr ""
+
+#: ../src/common/outbound.c:3556
+msgid ""
+"DEVOICE <nick>, removes voice status from the nick on the current channel "
+"(needs chanop)"
+msgstr ""
+
+#: ../src/common/outbound.c:3557
+msgid "DISCON, Disconnects from server"
+msgstr ""
+
+#: ../src/common/outbound.c:3558
+msgid "DNS <nick|host|ip>, Finds a users IP number"
+msgstr ""
+
+#: ../src/common/outbound.c:3559
+msgid "ECHO <text>, Prints text locally"
+msgstr ""
+
+#: ../src/common/outbound.c:3562
+msgid ""
+"EXEC [-o] <command>, runs the command. If -o flag is used then output is "
+"sent to current channel, else is printed to current text box"
+msgstr ""
+
+#: ../src/common/outbound.c:3564
+msgid "EXECCONT, sends the process SIGCONT"
+msgstr ""
+
+#: ../src/common/outbound.c:3567
+msgid ""
+"EXECKILL [-9], kills a running exec in the current session. If -9 is given "
+"the process is SIGKILL'ed"
+msgstr ""
+
+#: ../src/common/outbound.c:3569
+msgid "EXECSTOP, sends the process SIGSTOP"
+msgstr ""
+
+#: ../src/common/outbound.c:3570
+msgid "EXECWRITE, sends data to the processes stdin"
+msgstr ""
+
+#: ../src/common/outbound.c:3574
+msgid "FLUSHQ, flushes the current server's send queue"
+msgstr ""
+
+#: ../src/common/outbound.c:3576
+msgid "GATE <host> [<port>], proxies through a host, port defaults to 23"
+msgstr ""
+
+#: ../src/common/outbound.c:3580
+msgid "GHOST <nick> <password>, Kills a ghosted nickname"
+msgstr ""
+
+#: ../src/common/outbound.c:3585
+msgid "HOP <nick>, gives chanhalf-op status to the nick (needs chanop)"
+msgstr ""
+
+#: ../src/common/outbound.c:3586
+msgid "ID <password>, identifies yourself to nickserv"
+msgstr ""
+
+#: ../src/common/outbound.c:3588
+msgid ""
+"IGNORE <mask> <types..> <options..>\n"
+"    mask - host mask to ignore, eg: *!*@*.aol.com\n"
+"    types - types of data to ignore, one or all of:\n"
+"            PRIV, CHAN, NOTI, CTCP, DCC, INVI, ALL\n"
+"    options - NOSAVE, QUIET"
+msgstr ""
+
+#: ../src/common/outbound.c:3595
+msgid ""
+"INVITE <nick> [<channel>], invites someone to a channel, by default the "
+"current channel (needs chanop)"
+msgstr ""
+
+#: ../src/common/outbound.c:3596
+msgid "JOIN <channel>, joins the channel"
+msgstr ""
+
+#: ../src/common/outbound.c:3598
+msgid "KICK <nick>, kicks the nick from the current channel (needs chanop)"
+msgstr ""
+
+#: ../src/common/outbound.c:3600
+msgid ""
+"KICKBAN <nick>, bans then kicks the nick from the current channel (needs "
+"chanop)"
+msgstr ""
+
+#: ../src/common/outbound.c:3603
+msgid "LAGCHECK, forces a new lag check"
+msgstr ""
+
+#: ../src/common/outbound.c:3605
+msgid "LASTLOG <string>, searches for a string in the buffer"
+msgstr ""
+
+#: ../src/common/outbound.c:3607
+msgid "LOAD [-e] <file>, loads a plugin or script"
+msgstr ""
+
+#: ../src/common/outbound.c:3610
+msgid ""
+"MDEHOP, Mass deop's all chanhalf-ops in the current channel (needs chanop)"
+msgstr ""
+
+#: ../src/common/outbound.c:3612
+msgid "MDEOP, Mass deop's all chanops in the current channel (needs chanop)"
+msgstr ""
+
+#: ../src/common/outbound.c:3614
+msgid ""
+"ME <action>, sends the action to the current channel (actions are written in "
+"the 3rd person, like /me jumps)"
+msgstr ""
+
+#: ../src/common/outbound.c:3618
+msgid ""
+"MKICK, Mass kicks everyone except you in the current channel (needs chanop)"
+msgstr ""
+
+#: ../src/common/outbound.c:3621
+msgid "MOP, Mass op's all users in the current channel (needs chanop)"
+msgstr ""
+
+#: ../src/common/outbound.c:3622
+msgid "MSG <nick> <message>, sends a private message"
+msgstr ""
+
+#: ../src/common/outbound.c:3625
+msgid "NAMES, Lists the nicks on the current channel"
+msgstr ""
+
+#: ../src/common/outbound.c:3627
+msgid "NCTCP <nick> <message>, Sends a CTCP notice"
+msgstr ""
+
+#: ../src/common/outbound.c:3628
+msgid "NEWSERVER [-noconnect] <hostname> [<port>]"
+msgstr ""
+
+#: ../src/common/outbound.c:3629
+msgid "NICK <nickname>, sets your nick"
+msgstr ""
+
+#: ../src/common/outbound.c:3632
+msgid ""
+"NOTICE <nick/channel> <message>, sends a notice. Notices are a type of "
+"message that should be auto reacted to"
+msgstr ""
+
+#: ../src/common/outbound.c:3634
+msgid ""
+"NOTIFY [-n network1[,network2,...]] [<nick>], displays your notify list or "
+"adds someone to it"
+msgstr ""
+
+#: ../src/common/outbound.c:3636
+msgid "OP <nick>, gives chanop status to the nick (needs chanop)"
+msgstr ""
+
+#: ../src/common/outbound.c:3638
+msgid ""
+"PART [<channel>] [<reason>], leaves the channel, by default the current one"
+msgstr ""
+
+#: ../src/common/outbound.c:3640
+msgid "PING <nick | channel>, CTCP pings nick or channel"
+msgstr ""
+
+#: ../src/common/outbound.c:3642
+msgid "QUERY [-nofocus] <nick>, opens up a new privmsg window to someone"
+msgstr ""
+
+#: ../src/common/outbound.c:3644
+msgid "QUIT [<reason>], disconnects from the current server"
+msgstr ""
+
+#: ../src/common/outbound.c:3646
+msgid "QUOTE <text>, sends the text in raw form to the server"
+msgstr ""
+
+#: ../src/common/outbound.c:3649
+msgid ""
+"RECONNECT [-ssl] [<host>] [<port>] [<password>], Can be called just as /"
+"RECONNECT to reconnect to the current server or with /RECONNECT ALL to "
+"reconnect to all the open servers"
+msgstr ""
+
+#: ../src/common/outbound.c:3652
+msgid ""
+"RECONNECT [<host>] [<port>] [<password>], Can be called just as /RECONNECT "
+"to reconnect to the current server or with /RECONNECT ALL to reconnect to "
+"all the open servers"
+msgstr ""
+
+#: ../src/common/outbound.c:3654
+msgid ""
+"RECV <text>, send raw data to xchat, as if it was received from the irc "
+"server"
+msgstr ""
+
+#: ../src/common/outbound.c:3657
+msgid "SAY <text>, sends the text to the object in the current window"
+msgstr ""
+
+#: ../src/common/outbound.c:3658
+msgid "SEND <nick> [<file>]"
+msgstr ""
+
+#: ../src/common/outbound.c:3661
+msgid "SERVCHAN [-ssl] <host> <port> <channel>, connects and joins a channel"
+msgstr ""
+
+#: ../src/common/outbound.c:3664
+msgid "SERVCHAN <host> <port> <channel>, connects and joins a channel"
+msgstr ""
+
+#: ../src/common/outbound.c:3668
+msgid ""
+"SERVER [-ssl] <host> [<port>] [<password>], connects to a server, the "
+"default port is 6667 for normal connections, and 9999 for ssl connections"
+msgstr ""
+
+#: ../src/common/outbound.c:3671
+msgid ""
+"SERVER <host> [<port>] [<password>], connects to a server, the default port "
+"is 6667"
+msgstr ""
+
+#: ../src/common/outbound.c:3673
+msgid "SET [-e] [-or] [-quiet] <variable> [<value>]"
+msgstr ""
+
+#: ../src/common/outbound.c:3674
+msgid "SETCURSOR [-|+]<position>"
+msgstr ""
+
+#: ../src/common/outbound.c:3679
+msgid ""
+"TOPIC [<topic>], sets the topic if one is given, else shows the current topic"
+msgstr ""
+
+#: ../src/common/outbound.c:3681
+msgid ""
+"\n"
+"TRAY -f <timeout> <file1> [<file2>] Blink tray between two icons.\n"
+"TRAY -f <filename>                  Set tray to a fixed icon.\n"
+"TRAY -i <number>                    Blink tray with an internal icon.\n"
+"TRAY -t <text>                      Set the tray tooltip.\n"
+"TRAY -b <title> <text>              Set the tray balloon."
+msgstr ""
+
+#: ../src/common/outbound.c:3688
+msgid "UNBAN <mask> [<mask>...], unbans the specified masks."
+msgstr ""
+
+#: ../src/common/outbound.c:3689
+msgid "UNIGNORE <mask> [QUIET]"
+msgstr ""
+
+#: ../src/common/outbound.c:3690
+msgid "UNLOAD <name>, unloads a plugin or script"
+msgstr ""
+
+#: ../src/common/outbound.c:3691
+msgid "URL <url>, opens a URL in your browser"
+msgstr ""
+
+#: ../src/common/outbound.c:3693
+msgid ""
+"USELECT [-a] [-s] <nick1> <nick2> etc, highlights nick(s) in channel userlist"
+msgstr ""
+
+#: ../src/common/outbound.c:3696
+msgid "VOICE <nick>, gives voice status to someone (needs chanop)"
+msgstr ""
+
+#: ../src/common/outbound.c:3698
+msgid "WALLCHAN <message>, writes the message to all channels"
+msgstr ""
+
+#: ../src/common/outbound.c:3700
+msgid ""
+"WALLCHOP <message>, sends the message to all chanops on the current channel"
+msgstr ""
+
+#: ../src/common/outbound.c:3733
+#, c-format
+msgid "Usage: %s\n"
+msgstr ""
+
+#: ../src/common/outbound.c:3738
+msgid ""
+"\n"
+"No help available on that command.\n"
+msgstr ""
+"\n"
+"לא קיימת עזרה לפקודה הנ\"ל.\n"
+
+#: ../src/common/outbound.c:3744
+msgid "No such command.\n"
+msgstr "אין כזו פקודה.\n"
+
+#: ../src/common/outbound.c:4074
+msgid "Bad arguments for user command.\n"
+msgstr "ארגומנט שגוי עבור פקודת משתמש.\n"
+
+#: ../src/common/outbound.c:4230
+msgid "Too many recursive usercommands, aborting."
+msgstr ""
+
+#: ../src/common/outbound.c:4307
+msgid "Unknown Command. Try /help\n"
+msgstr "פקודה לא ידועה. נסה /help\n"
+
+#: ../src/common/plugin.c:356 ../src/common/plugin.c:397
+msgid "No xchat_plugin_init symbol; is this really an xchat plugin?"
+msgstr ""
+
+#: ../src/common/server.c:634
+msgid "Are you sure this is a SSL capable server and port?\n"
+msgstr ""
+
+#: ../src/common/server.c:1025
+#, c-format
+msgid ""
+"Cannot resolve hostname %s\n"
+"Check your IP Settings!\n"
+msgstr ""
+
+#: ../src/common/server.c:1030
+msgid "Proxy traversal failed.\n"
+msgstr ""
+
+#: ../src/common/servlist.c:643
+#, c-format
+msgid "Cycling to next server in %s...\n"
+msgstr ""
+
+#: ../src/common/servlist.c:1074
+#, c-format
+msgid ""
+"Warning: \"%s\" character set is unknown. No conversion will be applied for "
+"network %s."
+msgstr ""
+
+#. get rid of the \n
+#: ../src/common/text.c:292
+msgid "Loaded log from"
+msgstr ""
+
+#: ../src/common/text.c:310
+#, c-format
+msgid "**** ENDING LOGGING AT %s\n"
+msgstr ""
+
+#: ../src/common/text.c:519
+#, c-format
+msgid "**** BEGIN LOGGING AT %s\n"
+msgstr ""
+
+#: ../src/common/text.c:538
+#, c-format
+msgid ""
+"* Can't open log file(s) for writing. Check the\n"
+"  permissions on %s/xchatlogs"
+msgstr ""
+
+#: ../src/common/text.c:876
+msgid "Left message"
+msgstr ""
+
+#: ../src/common/text.c:877
+msgid "Right message"
+msgstr ""
+
+#: ../src/common/text.c:881
+msgid "The nick of the joining person"
+msgstr ""
+
+#: ../src/common/text.c:882
+msgid "The channel being joined"
+msgstr ""
+
+#: ../src/common/text.c:883 ../src/common/text.c:930 ../src/common/text.c:981
+msgid "The host of the person"
+msgstr ""
+
+#: ../src/common/text.c:888
+msgid "The action"
+msgstr ""
+
+#: ../src/common/text.c:889 ../src/common/text.c:895
+msgid "Mode char"
+msgstr ""
+
+#: ../src/common/text.c:894
+msgid "The text"
+msgstr "הטקסט"
+
+#: ../src/common/text.c:896 ../src/common/text.c:902
+msgid "Identified text"
+msgstr ""
+
+#: ../src/common/text.c:901 ../src/common/text.c:958 ../src/common/text.c:964
+msgid "The message"
+msgstr "ההודעה"
+
+#: ../src/common/text.c:906 ../src/common/text.c:968
+msgid "Old nickname"
+msgstr "כינוי ישן"
+
+#: ../src/common/text.c:907 ../src/common/text.c:969
+msgid "New nickname"
+msgstr "כינוי חדש"
+
+#: ../src/common/text.c:911
+msgid "Nick of person who changed the topic"
+msgstr ""
+
+#: ../src/common/text.c:912 ../src/common/text.c:918
+#: ../src/fe-gnome/channel-list-window.c:452
+msgid "Topic"
+msgstr "כותרת"
+
+#: ../src/common/text.c:922 ../src/common/text.c:975
+msgid "The nickname of the kicker"
+msgstr ""
+
+#: ../src/common/text.c:923 ../src/common/text.c:973
+msgid "The person being kicked"
+msgstr ""
+
+#: ../src/common/text.c:924 ../src/common/text.c:931 ../src/common/text.c:935
+#: ../src/common/text.c:940 ../src/common/text.c:974 ../src/common/text.c:982
+#: ../src/common/text.c:989
+msgid "The channel"
+msgstr "הערוץ"
+
+#: ../src/common/text.c:925 ../src/common/text.c:976 ../src/common/text.c:983
+msgid "The reason"
+msgstr "הסיבה"
+
+#: ../src/common/text.c:929 ../src/common/text.c:980
+msgid "The nick of the person leaving"
+msgstr ""
+
+#: ../src/common/text.c:936 ../src/common/text.c:942
+msgid "The time"
+msgstr "השעה"
+
+#: ../src/common/text.c:941
+msgid "The creator"
+msgstr "היוצר"
+
+#: ../src/common/text.c:947 ../src/common/text.c:1200
+msgid "Reason"
+msgstr "סיבה"
+
+#: ../src/common/text.c:948 ../src/common/text.c:1090
+#: ../src/common/text.c:1173
+msgid "Host"
+msgstr "מארח"
+
+#: ../src/common/text.c:952 ../src/common/text.c:957 ../src/common/text.c:962
+msgid "Who it's from"
+msgstr ""
+
+#: ../src/common/text.c:953
+msgid "The time in x.x format (see below)"
+msgstr ""
+
+#: ../src/common/text.c:963 ../src/common/text.c:1000
+msgid "The Channel it's going to"
+msgstr ""
+
+#: ../src/common/text.c:987
+msgid "The sound"
+msgstr "הצליל"
+
+#: ../src/common/text.c:988 ../src/common/text.c:994 ../src/common/text.c:999
+msgid "The nick of the person"
+msgstr ""
+
+#: ../src/common/text.c:993 ../src/common/text.c:998
+msgid "The CTCP event"
+msgstr "ארוע ה-CTCP"
+
+#: ../src/common/text.c:1004
+msgid "The nick of the person who set the key"
+msgstr ""
+
+#: ../src/common/text.c:1005
+msgid "The key"
+msgstr "המפתח"
+
+#: ../src/common/text.c:1009
+msgid "The nick of the person who set the limit"
+msgstr ""
+
+#: ../src/common/text.c:1010
+msgid "The limit"
+msgstr "ההגבלה"
+
+#: ../src/common/text.c:1014
+msgid "The nick of the person who did the op'ing"
+msgstr ""
+
+#: ../src/common/text.c:1015
+msgid "The nick of the person who has been op'ed"
+msgstr ""
+
+#: ../src/common/text.c:1019
+msgid "The nick of the person who has been halfop'ed"
+msgstr ""
+
+#: ../src/common/text.c:1020
+msgid "The nick of the person who did the halfop'ing"
+msgstr ""
+
+#: ../src/common/text.c:1024
+msgid "The nick of the person who did the voice'ing"
+msgstr ""
+
+#: ../src/common/text.c:1025
+msgid "The nick of the person who has been voice'ed"
+msgstr ""
+
+#: ../src/common/text.c:1029
+msgid "The nick of the person who did the banning"
+msgstr ""
+
+#: ../src/common/text.c:1030 ../src/common/text.c:1057
+msgid "The ban mask"
+msgstr ""
+
+#: ../src/common/text.c:1034
+msgid "The nick who removed the key"
+msgstr ""
+
+#: ../src/common/text.c:1038
+msgid "The nick who removed the limit"
+msgstr ""
+
+#: ../src/common/text.c:1042
+msgid "The nick of the person of did the deop'ing"
+msgstr ""
+
+#: ../src/common/text.c:1043
+msgid "The nick of the person who has been deop'ed"
+msgstr ""
+
+#: ../src/common/text.c:1046
+msgid "The nick of the person of did the dehalfop'ing"
+msgstr ""
+
+#: ../src/common/text.c:1047
+msgid "The nick of the person who has been dehalfop'ed"
+msgstr ""
+
+#: ../src/common/text.c:1051
+msgid "The nick of the person of did the devoice'ing"
+msgstr ""
+
+#: ../src/common/text.c:1052
+msgid "The nick of the person who has been devoice'ed"
+msgstr ""
+
+#: ../src/common/text.c:1056
+msgid "The nick of the person of did the unban'ing"
+msgstr ""
+
+#: ../src/common/text.c:1061
+msgid "The nick of the person who did the exempt"
+msgstr ""
+
+#: ../src/common/text.c:1062 ../src/common/text.c:1067
+msgid "The exempt mask"
+msgstr ""
+
+#: ../src/common/text.c:1066
+msgid "The nick of the person removed the exempt"
+msgstr ""
+
+#: ../src/common/text.c:1071
+msgid "The nick of the person who did the invite"
+msgstr ""
+
+#: ../src/common/text.c:1072 ../src/common/text.c:1077
+msgid "The invite mask"
+msgstr ""
+
+#: ../src/common/text.c:1076
+msgid "The nick of the person removed the invite"
+msgstr ""
+
+#: ../src/common/text.c:1081
+msgid "The nick of the person setting the mode"
+msgstr ""
+
+#: ../src/common/text.c:1082
+msgid "The mode's sign (+/-)"
+msgstr ""
+
+#: ../src/common/text.c:1083
+msgid "The mode letter"
+msgstr ""
+
+#: ../src/common/text.c:1084
+msgid "The channel it's being set on"
+msgstr ""
+
+#: ../src/common/text.c:1089
+msgid "Username"
+msgstr "שם משתמש"
+
+#: ../src/common/text.c:1091
+msgid "Full name"
+msgstr "שם מלא"
+
+#: ../src/common/text.c:1096
+msgid "Channel Membership/\"is an IRC operator\""
+msgstr ""
+
+#: ../src/common/text.c:1101
+msgid "Server Information"
+msgstr "מידע שרת"
+
+#: ../src/common/text.c:1106 ../src/common/text.c:1111
+msgid "Idle time"
+msgstr ""
+
+#: ../src/common/text.c:1112
+msgid "Signon time"
+msgstr ""
+
+#: ../src/common/text.c:1117
+msgid "Away reason"
+msgstr ""
+
+#: ../src/common/text.c:1126 ../src/common/text.c:1132
+#: ../src/common/text.c:1140 ../src/common/text.c:1320
+msgid "Message"
+msgstr "הודעה"
+
+#: ../src/common/text.c:1133
+msgid "Account"
+msgstr "חשבון"
+
+#: ../src/common/text.c:1138
+msgid "Real user@host"
+msgstr "משתמש@מארח מיתי"
+
+#: ../src/common/text.c:1139
+msgid "Real IP"
+msgstr "IP אמיתי"
+
+#: ../src/common/text.c:1144 ../src/common/text.c:1153
+#: ../src/common/text.c:1159 ../src/common/text.c:1189
+#: ../src/common/text.c:1343 ../src/fe-gnome/channel-list-window.c:442
+msgid "Channel Name"
+msgstr "שם ערוץ"
+
+#: ../src/common/text.c:1148 ../src/common/text.c:1306
+msgid "Text"
+msgstr "טקסט"
+
+#: ../src/common/text.c:1149 ../src/common/text.c:1155
+#: ../src/common/text.c:1184 ../src/common/text.c:1302
+#: ../src/common/text.c:1344
+msgid "Server Name"
+msgstr "שם שרת"
+
+#: ../src/common/text.c:1154
+msgid "Nick of person who invited you"
+msgstr ""
+
+#: ../src/common/text.c:1164
+msgid "Nickname in use"
+msgstr ""
+
+#: ../src/common/text.c:1165
+msgid "Nick being tried"
+msgstr ""
+
+#: ../src/common/text.c:1174 ../src/common/text.c:1310
+msgid "IP"
+msgstr "IP"
+
+#: ../src/common/text.c:1175 ../src/common/text.c:1206
+msgid "Port"
+msgstr ""
+
+#: ../src/common/text.c:1185
+msgid "Network"
+msgstr "רשת"
+
+#: ../src/common/text.c:1190 ../src/common/text.c:1195
+msgid "Modes string"
+msgstr ""
+
+#: ../src/common/text.c:1205 ../src/common/text.c:1243
+#: ../src/common/text.c:1248 ../src/common/text.c:1289
+msgid "IP address"
+msgstr "כתובת IP"
+
+#: ../src/common/text.c:1211 ../src/common/text.c:1236
+msgid "DCC Type"
+msgstr "סוג DCC"
+
+#: ../src/common/text.c:1212 ../src/common/text.c:1217
+#: ../src/common/text.c:1222 ../src/common/text.c:1229
+#: ../src/common/text.c:1249 ../src/common/text.c:1253
+#: ../src/common/text.c:1259 ../src/common/text.c:1265
+#: ../src/common/text.c:1272 ../src/common/text.c:1281
+#: ../src/common/text.c:1287
+msgid "Filename"
+msgstr "שם-קובץ"
+
+#: ../src/common/text.c:1223 ../src/common/text.c:1230
+msgid "Destination filename"
+msgstr ""
+
+#: ../src/common/text.c:1232 ../src/common/text.c:1261
+msgid "CPS"
+msgstr "CPS"
+
+#: ../src/common/text.c:1267
+msgid "Pathname"
+msgstr ""
+
+#: ../src/common/text.c:1282
+msgid "Position"
+msgstr "מיקום"
+
+#: ../src/common/text.c:1288
+msgid "Size"
+msgstr "גודל"
+
+#: ../src/common/text.c:1293
+msgid "DCC String"
+msgstr ""
+
+#: ../src/common/text.c:1298
+msgid "Number of notify items"
+msgstr ""
+
+#: ../src/common/text.c:1314
+msgid "Old Filename"
+msgstr ""
+
+#: ../src/common/text.c:1315
+msgid "New Filename"
+msgstr ""
+
+#: ../src/common/text.c:1319
+msgid "Receiver"
+msgstr "מקבל"
+
+#: ../src/common/text.c:1324
+msgid "Hostmask"
+msgstr ""
+
+#: ../src/common/text.c:1329
+msgid "Hostname"
+msgstr ""
+
+#: ../src/common/text.c:1334
+msgid "The Packet"
+msgstr ""
+
+#: ../src/common/text.c:1338
+msgid "Seconds"
+msgstr "שניות"
+
+#: ../src/common/text.c:1342
+msgid "Nick of person who have been invited"
+msgstr ""
+
+#: ../src/common/text.c:1349
+msgid "Banmask"
+msgstr ""
+
+#: ../src/common/text.c:1350
+msgid "Who set the ban"
+msgstr ""
+
+#: ../src/common/text.c:1351
+msgid "Ban time"
+msgstr ""
+
+#: ../src/common/text.c:1391
+#, c-format
+msgid ""
+"Error parsing event %s.\n"
+"Loading default."
+msgstr ""
+
+#: ../src/common/text.c:2084
+#, c-format
+msgid ""
+"Cannot read sound file:\n"
+"%s"
+msgstr ""
+
+#: ../src/common/textevents.h:6
+msgid "-%C10-%C11-%O$t$1 added to notify list."
+msgstr ""
+
+#: ../src/common/textevents.h:9
+msgid "-%C10-%C11-%O$t$1 Banlist: %C3$4 %C4$2 %C5$3%O"
+msgstr ""
+
+#: ../src/common/textevents.h:12
+msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(You are banned)."
+msgstr ""
+
+#: ../src/common/textevents.h:18
+msgid "-%C10-%C11-%O$t$1 is now known as $2"
+msgstr ""
+
+#: ../src/common/textevents.h:21
+msgid "%C13*%O$t$1 $2%O"
+msgstr ""
+
+#: ../src/common/textevents.h:24
+msgid "%C13*%O$t%C8%B$1%B%O $2%O"
+msgstr ""
+
+#: ../src/common/textevents.h:27
+msgid "-%C10-%C11-%O$t$1 sets ban on $2"
+msgstr ""
+
+#: ../src/common/textevents.h:30
+msgid "-%C10-%C11-%O$tChannel $1 created on $2"
+msgstr ""
+
+#: ../src/common/textevents.h:33
+msgid "-%C10-%C11-%O$t$1 removes channel half-operator status from $2"
+msgstr ""
+
+#: ../src/common/textevents.h:36
+msgid "-%C10-%C11-%O$t$1 removes channel operator status from $2"
+msgstr ""
+
+#: ../src/common/textevents.h:39
+msgid "-%C10-%C11-%O$t$1 removes voice from $2"
+msgstr ""
+
+#: ../src/common/textevents.h:42
+msgid "-%C10-%C11-%O$t$1 sets exempt on $2"
+msgstr ""
+
+#: ../src/common/textevents.h:45
+msgid "-%C10-%C11-%O$t$1 gives channel half-operator status to $2"
+msgstr ""
+
+#: ../src/common/textevents.h:48
+msgid "-%C10-%C11-%O$t$1 sets invite on $2"
+msgstr ""
+
+#: ../src/common/textevents.h:51
+msgid "%UChannel          Users   Topic%O"
+msgstr ""
+
+#: ../src/common/textevents.h:54 ../src/common/textevents.h:306
+msgid "%C2<%O$1%C2>%O$t$2%O"
+msgstr ""
+
+#: ../src/common/textevents.h:57
+msgid "-%C10-%C11-%O$t$1 sets mode $2$3 $4"
+msgstr ""
+
+#: ../src/common/textevents.h:60
+msgid "-%C10-%C11-%O$tChannel $1 modes: $2"
+msgstr ""
+
+#: ../src/common/textevents.h:63
+msgid "%C2<%C8%B$1%B%C2>%O$t$2%O"
+msgstr ""
+
+#: ../src/common/textevents.h:66
+msgid "%C12-%C13$1/$2%C12-%O$t$3%O"
+msgstr ""
+
+#: ../src/common/textevents.h:69
+msgid "-%C10-%C11-%O$t$1 gives channel operator status to $2"
+msgstr ""
+
+#: ../src/common/textevents.h:72
+msgid "-%C10-%C11-%O$t$1 removes exempt on $2"
+msgstr ""
+
+#: ../src/common/textevents.h:75
+msgid "-%C10-%C11-%O$t$1 removes invite on $2"
+msgstr ""
+
+#: ../src/common/textevents.h:78
+msgid "-%C10-%C11-%O$t$1 removes channel keyword"
+msgstr ""
+
+#: ../src/common/textevents.h:81
+msgid "-%C10-%C11-%O$t$1 removes user limit"
+msgstr ""
+
+#: ../src/common/textevents.h:84
+msgid "-%C10-%C11-%O$t$1 sets channel keyword to $2"
+msgstr ""
+
+#: ../src/common/textevents.h:87
+msgid "-%C10-%C11-%O$t$1 sets channel limit to $2"
+msgstr ""
+
+#: ../src/common/textevents.h:90
+msgid "-%C10-%C11-%O$t$1 removes ban on $2"
+msgstr ""
+
+#: ../src/common/textevents.h:93
+msgid "-%C10-%C11-%O$t$1 gives voice to $2"
+msgstr ""
+
+#: ../src/common/textevents.h:96
+msgid "-%C10-%C11-%O$tConnected. Now logging in.."
+msgstr ""
+
+#: ../src/common/textevents.h:99
+msgid "-%C10-%C11-%O$tConnecting to %C11$1 %C14(%C11$2%C14)%C port %C11$3%C.."
+msgstr ""
+
+#: ../src/common/textevents.h:102
+msgid "-%C10-%C11-%O$tConnection failed. Error: $1"
+msgstr ""
+
+#: ../src/common/textevents.h:105
+msgid "-%C10-%C11-%O$tReceived a CTCP $1 from $2"
+msgstr ""
+
+#: ../src/common/textevents.h:108
+msgid "-%C10-%C11-%O$tReceived a CTCP $1 from $2 (to $3)"
+msgstr ""
+
+#: ../src/common/textevents.h:111
+msgid "%C3>%O$1%C3<%O$tCTCP $2%O"
+msgstr ""
+
+#: ../src/common/textevents.h:114
+msgid "-%C10-%C11-%O$tReceived a CTCP Sound $1 from $2"
+msgstr ""
+
+#: ../src/common/textevents.h:117
+msgid "%C22*%O$tReceived a CTCP Sound $1 from $2 (to $3)"
+msgstr ""
+
+#: ../src/common/textevents.h:120
+msgid "-%C10-%C11-%O$tDCC CHAT to %C11$1%O aborted."
+msgstr ""
+
+#: ../src/common/textevents.h:123
+msgid ""
+"-%C10-%C11-%O$tDCC CHAT connection established to %C11$1 %C14[%O$2%C14]%O"
+msgstr ""
+
+#: ../src/common/textevents.h:126
+msgid ""
+"-%C10-%C11-%O$tDCC CHAT failed. Connection to $1 %C14[%O$2:$3%C14]%O lost."
+msgstr ""
+
+#: ../src/common/textevents.h:129
+msgid "-%C10-%C11-%O$tReceived a DCC CHAT offer from $1"
+msgstr ""
+
+#: ../src/common/textevents.h:132
+msgid "-%C10-%C11-%O$tOffering DCC CHAT to $1"
+msgstr ""
+
+#: ../src/common/textevents.h:135
+msgid "-%C10-%C11-%O$tAlready offering CHAT to $1"
+msgstr ""
+
+#: ../src/common/textevents.h:138
+msgid "-%C10-%C11-%O$tDCC $1 connect attempt to %C11$2%O failed (err=$3)."
+msgstr ""
+
+#: ../src/common/textevents.h:141
+msgid "-%C10-%C11-%O$tReceived '$1%O' from $2"
+msgstr ""
+
+#: ../src/common/textevents.h:144
+#, c-format
+msgid "%C24,18 Type  To/From    Status  Size    Pos     File         "
+msgstr ""
+
+#: ../src/common/textevents.h:147
+msgid ""
+"-%C10-%C11-%O$tReceived a malformed DCC request from %C11$1%O.%010-%C10-%C11-"
+"%O$tContents of packet: $2"
+msgstr ""
+
+#: ../src/common/textevents.h:150
+msgid "-%C10-%C11-%O$tOffering %C11$1 %Cto %C11$2%O"
+msgstr ""
+
+#: ../src/common/textevents.h:153
+msgid "-%C10-%C11-%O$tNo such DCC offer."
+msgstr ""
+
+#: ../src/common/textevents.h:156
+msgid "-%C10-%C11-%O$tDCC RECV %C11$2%O to %C11$1%O aborted."
+msgstr ""
+
+#: ../src/common/textevents.h:159
+msgid ""
+"-%C10-%C11-%O$tDCC RECV %C11$1%O from %C11$3%O complete %C14[%C11$4%O cps%"
+"C14]%O."
+msgstr ""
+
+#: ../src/common/textevents.h:162
+msgid ""
+"-%C10-%C11-%O$tDCC RECV connection established to %C11$1 %C14[%O$2%C14]%O"
+msgstr ""
+
+#: ../src/common/textevents.h:165
+msgid "-%C10-%C11-%O$tDCC RECV $1 ($2) failed. Connection to $3 lost."
+msgstr ""
+
+#: ../src/common/textevents.h:168
+msgid "-%C10-%C11-%O$tDCC RECV: Cannot open $1 for writing ($2)."
+msgstr ""
+
+#: ../src/common/textevents.h:171
+msgid ""
+"-%C10-%C11-%O$tThe file %C11$1%C already exists, saving it as %C11$2%O "
+"instead."
+msgstr ""
+
+#: ../src/common/textevents.h:174
+msgid "-%C10-%C11-%O$t%C11$1 %Chas requested to resume %C11$2 %Cfrom %C11$3%C."
+msgstr ""
+
+#: ../src/common/textevents.h:177
+msgid "-%C10-%C11-%O$tDCC SEND %C11$2%O to %C11$1%O aborted."
+msgstr ""
+
+#: ../src/common/textevents.h:180
+msgid ""
+"-%C10-%C11-%O$tDCC SEND %C11$1%O to %C11$2%O complete %C14[%C11$3%O cps%C14]%"
+"O."
+msgstr ""
+
+#: ../src/common/textevents.h:183
+msgid ""
+"-%C10-%C11-%O$tDCC SEND connection established to %C11$1 %C14[%O$2%C14]%O"
+msgstr ""
+
+#: ../src/common/textevents.h:186
+msgid "-%C10-%C11-%O$tDCC SEND %C11$1%O failed. Connection to %C11$2%O lost."
+msgstr ""
+
+#: ../src/common/textevents.h:189
+msgid "-%C10-%C11-%O$t%C11$1 %Chas offered %C11$2 %C(%C11$3 %Cbytes)"
+msgstr ""
+
+#: ../src/common/textevents.h:192
+msgid "-%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Cstalled - aborting."
+msgstr ""
+
+#: ../src/common/textevents.h:195
+msgid "-%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Ctimed out - aborting."
+msgstr ""
+
+#: ../src/common/textevents.h:198
+msgid "-%C10-%C11-%O$t$1 deleted from notify list."
+msgstr ""
+
+#: ../src/common/textevents.h:201
+msgid "-%C10-%C11-%O$tDisconnected ($1)."
+msgstr ""
+
+#: ../src/common/textevents.h:204
+msgid "-%C10-%C11-%O$tFound your IP: [$1]"
+msgstr ""
+
+#: ../src/common/textevents.h:207
+msgid "$1$t$2"
+msgstr ""
+
+#: ../src/common/textevents.h:210
+msgid "%O%C11$1%O added to ignore list."
+msgstr ""
+
+#: ../src/common/textevents.h:213
+msgid "Ignore on %C11$1%O changed."
+msgstr ""
+
+#: ../src/common/textevents.h:216
+#, c-format
+msgid "%C24,18                                                              "
+msgstr "%C24,18                                                              "
+
+#: ../src/common/textevents.h:219
+#, c-format
+msgid "%C24,18 Hostmask                  PRIV NOTI CHAN CTCP DCC  INVI UNIG "
+msgstr ""
+
+#: ../src/common/textevents.h:222
+msgid "%O%C11$1%O removed from ignore list."
+msgstr ""
+
+#: ../src/common/textevents.h:225
+msgid "  Ignore list is empty."
+msgstr ""
+
+#: ../src/common/textevents.h:228
+msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(Channel is invite only)."
+msgstr ""
+
+#: ../src/common/textevents.h:231
+msgid "-%C10-%C11-%O$tYou have been invited to %C11$1%C by %C11$2%C (%C11$3%C)"
+msgstr ""
+
+#: ../src/common/textevents.h:234
+msgid "-%C10-%C11>%O$t%B$1%B %C14(%C10$3%C14)%C has joined $2"
+msgstr ""
+
+#: ../src/common/textevents.h:237
+msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(Requires keyword)."
+msgstr ""
+
+#: ../src/common/textevents.h:240
+msgid "<%C10-%C11-%O$t$1 has kicked $2 from $3 ($4%O)"
+msgstr ""
+
+#: ../src/common/textevents.h:243
+msgid "-%C10-%C11-%O$tYou have been killed by $1 ($2%O)"
+msgstr ""
+
+#: ../src/common/textevents.h:246 ../src/common/textevents.h:270
+msgid "%C3>%O$1%C3<%O$t$2%O"
+msgstr ""
+
+#: ../src/common/textevents.h:249 ../src/common/textevents.h:327
+#: ../src/common/textevents.h:333 ../src/common/textevents.h:336
+msgid "-%C10-%C11-%O$t$1%O"
+msgstr ""
+
+#: ../src/common/textevents.h:252
+msgid "-%C10-%C11-%O$tMOTD Skipped."
+msgstr ""
+
+#: ../src/common/textevents.h:255
+msgid "-%C10-%C11-%O$t$1 already in use. Retrying with $2.."
+msgstr ""
+
+#: ../src/common/textevents.h:258
+msgid "-%C10-%C11-%O$tNickname already in use. Use /NICK to try another."
+msgstr ""
+
+#: ../src/common/textevents.h:261
+msgid "-%C10-%C11-%O$tNo such DCC."
+msgstr ""
+
+#: ../src/common/textevents.h:264
+msgid "-%C10-%C11-%O$tNo process is currently running"
+msgstr ""
+
+#: ../src/common/textevents.h:267
+msgid "%C12-%C13$1%C12-%O$t$2%O"
+msgstr ""
+
+#: ../src/common/textevents.h:273
+msgid "-%C10-%C11-%O$tNotify list is empty."
+msgstr ""
+
+#: ../src/common/textevents.h:276
+msgid "%C24,18 %B  Notify List                           "
+msgstr ""
+
+#: ../src/common/textevents.h:279
+msgid "-%C10-%C11-%O$t$1 users in notify list."
+msgstr ""
+
+#: ../src/common/textevents.h:282
+msgid "-%C10-%C11-%O$tNotify: $1 is offline ($2)."
+msgstr ""
+
+#: ../src/common/textevents.h:285
+msgid "-%C10-%C11-%O$tNotify: $1 is online ($2)."
+msgstr ""
+
+#: ../src/common/textevents.h:291
+msgid "<%C10-%C11-%O$t$1 %C14(%O$2%C14)%C has left $3"
+msgstr ""
+
+#: ../src/common/textevents.h:294
+msgid "<%C10-%C11-%O$t$1 %C14(%O$2%C14)%C has left $3 %C14(%O$4%C14)%O"
+msgstr ""
+
+#: ../src/common/textevents.h:297
+msgid "-%C10-%C11-%O$tPing reply from $1 : $2 second(s)"
+msgstr ""
+
+#: ../src/common/textevents.h:300
+msgid "-%C10-%C11-%O$tNo ping reply for $1 seconds, disconnecting."
+msgstr ""
+
+#: ../src/common/textevents.h:303
+msgid "%C12*%C13$1%C12*$t%O$2%O"
+msgstr ""
+
+#: ../src/common/textevents.h:309
+msgid "-%C10-%C11-%O$tA process is already running"
+msgstr ""
+
+#: ../src/common/textevents.h:312
+msgid "<%C10-%C11-%O$t$1 has quit %C14(%O$2%O%C14)%O"
+msgstr ""
+
+#: ../src/common/textevents.h:315
+msgid "-%C10-%C11-%O$t$1 sets modes%B %C14[%O$2%B%C14]%O"
+msgstr ""
+
+#: ../src/common/textevents.h:318
+msgid "%C12-%C13$1/Wallops%C12-%O$t$2%O"
+msgstr ""
+
+#: ../src/common/textevents.h:321
+msgid "-%C10-%C11-%O$tLooking up IP number for%C11 $1%O.."
+msgstr ""
+
+#: ../src/common/textevents.h:324
+msgid "-%C10-%C11-%O$tConnected."
+msgstr ""
+
+#: ../src/common/textevents.h:330
+msgid "-%C10-%C11-%O$tLooking up %C11$1%C.."
+msgstr ""
+
+#: ../src/common/textevents.h:339
+msgid "-%C10-%C11-%O$tStopped previous connection attempt (pid=$1)"
+msgstr ""
+
+#: ../src/common/textevents.h:342
+msgid "-%C10-%C11-%O$tTopic for %C11$1%C is %C11$2%O"
+msgstr ""
+
+#: ../src/common/textevents.h:345
+msgid "-%C10-%C11-%O$t$1 has changed the topic to: $2%O"
+msgstr ""
+
+#: ../src/common/textevents.h:348
+msgid "-%C10-%C11-%O$tTopic for %C11$1%C set by %C11$2%C at %C11$3%O"
+msgstr ""
+
+#: ../src/common/textevents.h:351
+msgid "-%C10-%C11-%O$tUnknown host. Maybe you misspelled it?"
+msgstr ""
+
+#: ../src/common/textevents.h:354
+msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(User limit reached)."
+msgstr ""
+
+#: ../src/common/textevents.h:357
+msgid "-%C10-%C11-%O$t%C11Users on $1:%C $2"
+msgstr ""
+
+#: ../src/common/textevents.h:360
+msgid "%C22*%O$t%C28[%O$1%C28] %O$2%C27 $3"
+msgstr ""
+
+#: ../src/common/textevents.h:363
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %Cis away %C14(%O$2%O%C14)"
+msgstr ""
+
+#: ../src/common/textevents.h:366
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%C $2"
+msgstr ""
+
+#: ../src/common/textevents.h:369
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %CEnd of WHOIS list."
+msgstr ""
+
+#: ../src/common/textevents.h:372
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %C$2"
+msgstr ""
+
+#: ../src/common/textevents.h:375
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%O idle %C11$2%O"
+msgstr ""
+
+#: ../src/common/textevents.h:378
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%O idle %C11$2%O, signon: %C11$3%O"
+msgstr ""
+
+#: ../src/common/textevents.h:381
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %C14(%O$2@$3%C14) %O: $4%O"
+msgstr ""
+
+#: ../src/common/textevents.h:384
+msgid ""
+"-%C10-%C11-%O$t%C12[%O$1%C12] %Oreal user@host %C11$2%O, real IP %C11$3%O"
+msgstr ""
+
+#: ../src/common/textevents.h:387
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%O $2"
+msgstr ""
+
+#: ../src/common/textevents.h:390
+msgid "%C22*%O$t%C28[%O$1%C28]%O $2"
+msgstr ""
+
+#: ../src/common/textevents.h:393
+msgid "-%C10-%C11>%O$t%BYou%B are now talking on %C11$2%O"
+msgstr ""
+
+#: ../src/common/textevents.h:396
+msgid "-%C10-%C11-%O$tYou have been kicked from $2 by $3 ($4%O)"
+msgstr ""
+
+#: ../src/common/textevents.h:399
+msgid "-%C10-%C11-%O$tYou have left channel $3"
+msgstr ""
+
+#: ../src/common/textevents.h:402
+msgid "-%C10-%C11-%O$tYou have left channel $3 %C14(%O$4%C14)%O"
+msgstr ""
+
+#: ../src/common/textevents.h:408
+msgid "-%C10-%C11-%O$tYou're inviting %C11$1%C to %C11$2%C (%C11$3%C)"
+msgstr ""
+
+#: ../src/common/textevents.h:411
+msgid "%C6<%O$1%C6>%O$t$2%O"
+msgstr ""
+
+#: ../src/common/textevents.h:414
+msgid "-%C10-%C11-%O$tYou are now known as $2"
+msgstr ""
+
+#: ../src/common/util.c:296
+msgid "Remote host closed socket"
+msgstr ""
+
+#: ../src/common/util.c:301
+msgid "Connection refused"
+msgstr "החיבור נדחה"
+
+#: ../src/common/util.c:304
+msgid "No route to host"
+msgstr "אין נתיב למארח"
+
+#: ../src/common/util.c:306
+msgid "Connection timed out"
+msgstr "עבר זמן החיבור"
+
+#: ../src/common/util.c:308
+msgid "Cannot assign that address"
+msgstr ""
+
+#: ../src/common/util.c:310
+msgid "Connection reset by peer"
+msgstr ""
+
+#: ../src/common/util.c:839
+msgid "Ascension Island"
+msgstr ""
+
+#: ../src/common/util.c:840
+msgid "Andorra"
+msgstr "אנדורה"
+
+#: ../src/common/util.c:841
+msgid "United Arab Emirates"
+msgstr "איחוד האמירויות הערביות"
+
+#: ../src/common/util.c:842
+msgid "Afghanistan"
+msgstr "אפגניסטן"
+
+#: ../src/common/util.c:843
+msgid "Antigua and Barbuda"
+msgstr "אנטיגואה וברבודה"
+
+#: ../src/common/util.c:844
+msgid "Anguilla"
+msgstr "אנגווילה"
+
+#: ../src/common/util.c:845
+msgid "Albania"
+msgstr "אלבניה"
+
+#: ../src/common/util.c:846
+msgid "Armenia"
+msgstr "ארמניה"
+
+#: ../src/common/util.c:847
+msgid "Netherlands Antilles"
+msgstr "אנטילים הולנדיים"
+
+#: ../src/common/util.c:848
+msgid "Angola"
+msgstr "אנגולה"
+
+#: ../src/common/util.c:849
+msgid "Antarctica"
+msgstr "אנטארקטיקה"
+
+#: ../src/common/util.c:850
+msgid "Argentina"
+msgstr "ארגנטינה"
+
+#: ../src/common/util.c:851
+msgid "Reverse DNS"
+msgstr ""
+
+#: ../src/common/util.c:852
+msgid "American Samoa"
+msgstr "סמואה האמריקאית"
+
+#: ../src/common/util.c:853
+msgid "Austria"
+msgstr "אוסטריה"
+
+#: ../src/common/util.c:854
+msgid "Nato Fiel"
+msgstr ""
+
+#: ../src/common/util.c:855
+msgid "Australia"
+msgstr "אוסטרליה"
+
+#: ../src/common/util.c:856
+msgid "Aruba"
+msgstr "ארובה"
+
+#: ../src/common/util.c:857
+msgid "Aland Islands"
+msgstr "איי אלאנדה"
+
+#: ../src/common/util.c:858
+msgid "Azerbaijan"
+msgstr "אזרבייג'ן"
+
+#: ../src/common/util.c:859
+msgid "Bosnia and Herzegovina"
+msgstr "בוסניה והרצגובינה"
+
+#: ../src/common/util.c:860
+msgid "Barbados"
+msgstr "בארבדוס"
+
+#: ../src/common/util.c:861
+msgid "Bangladesh"
+msgstr "בנגלאדש"
+
+#: ../src/common/util.c:862
+msgid "Belgium"
+msgstr "בלגיה"
+
+#: ../src/common/util.c:863
+msgid "Burkina Faso"
+msgstr ""
+
+#: ../src/common/util.c:864
+msgid "Bulgaria"
+msgstr "בולגריה"
+
+#: ../src/common/util.c:865
+msgid "Bahrain"
+msgstr "בחאריין"
+
+#: ../src/common/util.c:866
+msgid "Burundi"
+msgstr ""
+
+#: ../src/common/util.c:867
+msgid "Businesses"
+msgstr "עסקים"
+
+#: ../src/common/util.c:868
+msgid "Benin"
+msgstr ""
+
+#: ../src/common/util.c:869
+msgid "Bermuda"
+msgstr "ברמודה"
+
+#: ../src/common/util.c:870
+msgid "Brunei Darussalam"
+msgstr ""
+
+#: ../src/common/util.c:871
+msgid "Bolivia"
+msgstr "בוליביה"
+
+#: ../src/common/util.c:872
+msgid "Brazil"
+msgstr "ברזיל"
+
+#: ../src/common/util.c:873
+msgid "Bahamas"
+msgstr ""
+
+#: ../src/common/util.c:874
+msgid "Bhutan"
+msgstr ""
+
+#: ../src/common/util.c:875
+msgid "Bouvet Island"
+msgstr ""
+
+#: ../src/common/util.c:876
+msgid "Botswana"
+msgstr ""
+
+#: ../src/common/util.c:877
+msgid "Belarus"
+msgstr "בלרוס"
+
+#: ../src/common/util.c:878
+msgid "Belize"
+msgstr "בליז"
+
+#: ../src/common/util.c:879
+msgid "Canada"
+msgstr "קנדה"
+
+#: ../src/common/util.c:880
+msgid "Cocos Islands"
+msgstr "איי קוקוס"
+
+#: ../src/common/util.c:881
+msgid "Democratic Republic of Congo"
+msgstr ""
+
+#: ../src/common/util.c:882
+msgid "Central African Republic"
+msgstr "הרפובליקה המרכז-אפריקאית"
+
+#: ../src/common/util.c:883
+msgid "Congo"
+msgstr "קונגו"
+
+#: ../src/common/util.c:884
+msgid "Switzerland"
+msgstr "שוויץ"
+
+#: ../src/common/util.c:885
+msgid "Cote d'Ivoire"
+msgstr ""
+
+#: ../src/common/util.c:886
+msgid "Cook Islands"
+msgstr "איי קוק"
+
+#: ../src/common/util.c:887
+msgid "Chile"
+msgstr "צ'ילה"
+
+#: ../src/common/util.c:888
+msgid "Cameroon"
+msgstr "קמרון"
+
+#: ../src/common/util.c:889
+msgid "China"
+msgstr "סין"
+
+#: ../src/common/util.c:890
+msgid "Colombia"
+msgstr "קולומביה"
+
+#: ../src/common/util.c:891
+msgid "Internic Commercial"
+msgstr ""
+
+#: ../src/common/util.c:892
+msgid "Costa Rica"
+msgstr "קוסטה ריקה"
+
+#: ../src/common/util.c:893
+msgid "Serbia and Montenegro"
+msgstr "סרביה ומונטנגרו"
+
+#: ../src/common/util.c:894
+msgid "Cuba"
+msgstr "קובה"
+
+#: ../src/common/util.c:895
+msgid "Cape Verde"
+msgstr ""
+
+#: ../src/common/util.c:896
+msgid "Christmas Island"
+msgstr "איי הפסחא"
+
+#: ../src/common/util.c:897
+msgid "Cyprus"
+msgstr "קפריסין"
+
+#: ../src/common/util.c:898
+msgid "Czech Republic"
+msgstr "צ'כיה"
+
+#: ../src/common/util.c:899
+msgid "Germany"
+msgstr "גרמניה"
+
+#: ../src/common/util.c:900
+msgid "Djibouti"
+msgstr ""
+
+#: ../src/common/util.c:901
+msgid "Denmark"
+msgstr "דנמרק"
+
+#: ../src/common/util.c:902
+msgid "Dominica"
+msgstr "דומיניקה"
+
+#: ../src/common/util.c:903
+msgid "Dominican Republic"
+msgstr "הרפובליקה הדומיניקנית"
+
+#: ../src/common/util.c:904
+msgid "Algeria"
+msgstr "אלג'יריה"
+
+#: ../src/common/util.c:905
+msgid "Ecuador"
+msgstr "אקוואדור"
+
+#: ../src/common/util.c:906
+msgid "Educational Institution"
+msgstr ""
+
+#: ../src/common/util.c:907
+msgid "Estonia"
+msgstr "אסטוניה"
+
+#: ../src/common/util.c:908
+msgid "Egypt"
+msgstr "מצרים"
+
+#: ../src/common/util.c:909
+msgid "Western Sahara"
+msgstr "הסהרה המערבית"
+
+#: ../src/common/util.c:910
+msgid "Eritrea"
+msgstr "אריתריאה"
+
+#: ../src/common/util.c:911
+msgid "Spain"
+msgstr "ספרד"
+
+#: ../src/common/util.c:912
+msgid "Ethiopia"
+msgstr "אתיופיה"
+
+#: ../src/common/util.c:913
+msgid "European Union"
+msgstr "האיחוד האירופאי"
+
+#: ../src/common/util.c:914
+msgid "Finland"
+msgstr "פינלנד"
+
+#: ../src/common/util.c:915
+msgid "Fiji"
+msgstr "פיג'י"
+
+#: ../src/common/util.c:916
+msgid "Falkland Islands"
+msgstr "איי פוקלנד"
+
+#: ../src/common/util.c:917
+msgid "Micronesia"
+msgstr "מיקרונזיה"
+
+#: ../src/common/util.c:918
+msgid "Faroe Islands"
+msgstr "איי פארו"
+
+#: ../src/common/util.c:919
+msgid "France"
+msgstr "צרפת"
+
+#: ../src/common/util.c:920
+msgid "Gabon"
+msgstr ""
+
+#: ../src/common/util.c:921
+msgid "Great Britain"
+msgstr "בריטניה"
+
+#: ../src/common/util.c:922
+msgid "Grenada"
+msgstr ""
+
+#: ../src/common/util.c:923
+msgid "Georgia"
+msgstr ""
+
+#: ../src/common/util.c:924
+msgid "French Guiana"
+msgstr ""
+
+#: ../src/common/util.c:925
+msgid "British Channel Isles"
+msgstr ""
+
+#: ../src/common/util.c:926
+msgid "Ghana"
+msgstr "גאנה"
+
+#: ../src/common/util.c:927
+msgid "Gibraltar"
+msgstr ""
+
+#: ../src/common/util.c:928
+msgid "Greenland"
+msgstr ""
+
+#: ../src/common/util.c:929
+msgid "Gambia"
+msgstr "גמביה"
+
+#: ../src/common/util.c:930
+msgid "Guinea"
+msgstr ""
+
+#: ../src/common/util.c:931
+msgid "Government"
+msgstr ""
+
+#: ../src/common/util.c:932
+msgid "Guadeloupe"
+msgstr ""
+
+#: ../src/common/util.c:933
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: ../src/common/util.c:934
+msgid "Greece"
+msgstr "יוון"
+
+#: ../src/common/util.c:935
+msgid "S. Georgia and S. Sandwich Isles"
+msgstr ""
+
+#: ../src/common/util.c:936
+msgid "Guatemala"
+msgstr "גואטמלה"
+
+#: ../src/common/util.c:937
+msgid "Guam"
+msgstr ""
+
+#: ../src/common/util.c:938
+msgid "Guinea-Bissau"
+msgstr ""
+
+#: ../src/common/util.c:939
+msgid "Guyana"
+msgstr ""
+
+#: ../src/common/util.c:940
+msgid "Hong Kong"
+msgstr "הונג קונג"
+
+#: ../src/common/util.c:941
+msgid "Heard and McDonald Islands"
+msgstr ""
+
+#: ../src/common/util.c:942
+msgid "Honduras"
+msgstr ""
+
+#: ../src/common/util.c:943
+msgid "Croatia"
+msgstr "קרואטיה"
+
+#: ../src/common/util.c:944
+msgid "Haiti"
+msgstr ""
+
+#: ../src/common/util.c:945
+msgid "Hungary"
+msgstr "הונגריה"
+
+#: ../src/common/util.c:946
+msgid "Indonesia"
+msgstr "אינדונזיה"
+
+#: ../src/common/util.c:947
+msgid "Ireland"
+msgstr "אירלנד"
+
+#: ../src/common/util.c:948
+msgid "Israel"
+msgstr "ישראל"
+
+#: ../src/common/util.c:949
+msgid "Isle of Man"
+msgstr ""
+
+#: ../src/common/util.c:950
+msgid "India"
+msgstr "הודו"
+
+#: ../src/common/util.c:951
+msgid "Informational"
+msgstr ""
+
+#: ../src/common/util.c:952
+msgid "International"
+msgstr ""
+
+#: ../src/common/util.c:953
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: ../src/common/util.c:954
+msgid "Iraq"
+msgstr "עירק"
+
+#: ../src/common/util.c:955
+msgid "Iran"
+msgstr "אירן"
+
+#: ../src/common/util.c:956
+msgid "Iceland"
+msgstr "איסלנד"
+
+#: ../src/common/util.c:957
+msgid "Italy"
+msgstr "איטליה"
+
+#: ../src/common/util.c:958
+msgid "Jersey"
+msgstr ""
+
+#: ../src/common/util.c:959
+msgid "Jamaica"
+msgstr "ג'מייקה"
+
+#: ../src/common/util.c:960
+msgid "Jordan"
+msgstr "ירדן"
+
+#: ../src/common/util.c:961
+msgid "Japan"
+msgstr "יפן"
+
+#: ../src/common/util.c:962
+msgid "Kenya"
+msgstr "קניה"
+
+#: ../src/common/util.c:963
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: ../src/common/util.c:964
+msgid "Cambodia"
+msgstr "קמבודיה"
+
+#: ../src/common/util.c:965
+msgid "Kiribati"
+msgstr ""
+
+#: ../src/common/util.c:966
+msgid "Comoros"
+msgstr ""
+
+#: ../src/common/util.c:967
+msgid "St. Kitts and Nevis"
+msgstr ""
+
+#: ../src/common/util.c:968
+msgid "North Korea"
+msgstr "צפון קוריאה"
+
+#: ../src/common/util.c:969
+msgid "South Korea"
+msgstr "דרום קוריאה"
+
+#: ../src/common/util.c:970
+msgid "Kuwait"
+msgstr "כווית"
+
+#: ../src/common/util.c:971
+msgid "Cayman Islands"
+msgstr ""
+
+#: ../src/common/util.c:972
+msgid "Kazakhstan"
+msgstr "קזחסטן"
+
+#: ../src/common/util.c:973
+msgid "Laos"
+msgstr "לאוס"
+
+#: ../src/common/util.c:974
+msgid "Lebanon"
+msgstr "לבנון"
+
+#: ../src/common/util.c:975
+msgid "Saint Lucia"
+msgstr ""
+
+#: ../src/common/util.c:976
+msgid "Liechtenstein"
+msgstr "ליכטנשטיין"
+
+#: ../src/common/util.c:977
+msgid "Sri Lanka"
+msgstr "סרי לאנקה"
+
+#: ../src/common/util.c:978
+msgid "Liberia"
+msgstr "ליבריה"
+
+#: ../src/common/util.c:979
+msgid "Lesotho"
+msgstr "לסוטו"
+
+#: ../src/common/util.c:980
+msgid "Lithuania"
+msgstr "ליטא"
+
+#: ../src/common/util.c:981
+msgid "Luxembourg"
+msgstr "לוקסנבורג"
+
+#: ../src/common/util.c:982
+msgid "Latvia"
+msgstr "לטביה"
+
+#: ../src/common/util.c:983
+msgid "Libya"
+msgstr ""
+
+#: ../src/common/util.c:984
+msgid "Morocco"
+msgstr "מרוקו"
+
+#: ../src/common/util.c:985
+msgid "Monaco"
+msgstr "מונקו"
+
+#: ../src/common/util.c:986
+msgid "Moldova"
+msgstr "מולדובה"
+
+#: ../src/common/util.c:987
+msgid "United States Medical"
+msgstr ""
+
+#: ../src/common/util.c:988
+msgid "Madagascar"
+msgstr "מדגסקר"
+
+#: ../src/common/util.c:989
+msgid "Marshall Islands"
+msgstr "איי מארשל"
+
+#: ../src/common/util.c:990
+msgid "Military"
+msgstr ""
+
+#: ../src/common/util.c:991
+msgid "Macedonia"
+msgstr "מקדוניה"
+
+#: ../src/common/util.c:992
+msgid "Mali"
+msgstr ""
+
+#: ../src/common/util.c:993
+msgid "Myanmar"
+msgstr "מיאנמר"
+
+#: ../src/common/util.c:994
+msgid "Mongolia"
+msgstr "מונגוליה"
+
+#: ../src/common/util.c:995
+msgid "Macau"
+msgstr ""
+
+#: ../src/common/util.c:996
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: ../src/common/util.c:997
+msgid "Martinique"
+msgstr ""
+
+#: ../src/common/util.c:998
+msgid "Mauritania"
+msgstr "מאוריטניה"
+
+#: ../src/common/util.c:999
+msgid "Montserrat"
+msgstr ""
+
+#: ../src/common/util.c:1000
+msgid "Malta"
+msgstr "מאלטה"
+
+#: ../src/common/util.c:1001
+msgid "Mauritius"
+msgstr ""
+
+#: ../src/common/util.c:1002
+msgid "Maldives"
+msgstr "האיים המלדיביים"
+
+#: ../src/common/util.c:1003
+msgid "Malawi"
+msgstr ""
+
+#: ../src/common/util.c:1004
+msgid "Mexico"
+msgstr "מקסיקו"
+
+#: ../src/common/util.c:1005
+msgid "Malaysia"
+msgstr "מלזיה"
+
+#: ../src/common/util.c:1006
+msgid "Mozambique"
+msgstr "מוזמביק"
+
+#: ../src/common/util.c:1007
+msgid "Namibia"
+msgstr "נמיביה"
+
+#: ../src/common/util.c:1008
+msgid "New Caledonia"
+msgstr ""
+
+#: ../src/common/util.c:1009
+msgid "Niger"
+msgstr ""
+
+#: ../src/common/util.c:1010
+msgid "Internic Network"
+msgstr ""
+
+#: ../src/common/util.c:1011
+msgid "Norfolk Island"
+msgstr ""
+
+#: ../src/common/util.c:1012
+msgid "Nigeria"
+msgstr "ניגריה"
+
+#: ../src/common/util.c:1013
+msgid "Nicaragua"
+msgstr ""
+
+#: ../src/common/util.c:1014
+msgid "Netherlands"
+msgstr "הולנד"
+
+#: ../src/common/util.c:1015
+msgid "Norway"
+msgstr "נורווגיה"
+
+#: ../src/common/util.c:1016
+msgid "Nepal"
+msgstr "נפאל"
+
+#: ../src/common/util.c:1017
+msgid "Nauru"
+msgstr ""
+
+#: ../src/common/util.c:1018
+msgid "Niue"
+msgstr ""
+
+#: ../src/common/util.c:1019
+msgid "New Zealand"
+msgstr "ניו-זילנד"
+
+#: ../src/common/util.c:1020
+msgid "Oman"
+msgstr ""
+
+#: ../src/common/util.c:1021
+msgid "Internic Non-Profit Organization"
+msgstr ""
+
+#: ../src/common/util.c:1022
+msgid "Panama"
+msgstr ""
+
+#: ../src/common/util.c:1023
+msgid "Peru"
+msgstr "פרו"
+
+#: ../src/common/util.c:1024
+msgid "French Polynesia"
+msgstr ""
+
+#: ../src/common/util.c:1025
+msgid "Papua New Guinea"
+msgstr "פאפואה-גינאה החדשה"
+
+#: ../src/common/util.c:1026
+msgid "Philippines"
+msgstr "פיליפינים"
+
+#: ../src/common/util.c:1027
+msgid "Pakistan"
+msgstr "פאקיסטן"
+
+#: ../src/common/util.c:1028
+msgid "Poland"
+msgstr "פולין"
+
+#: ../src/common/util.c:1029
+msgid "St. Pierre and Miquelon"
+msgstr ""
+
+#: ../src/common/util.c:1030
+msgid "Pitcairn"
+msgstr ""
+
+#: ../src/common/util.c:1031
+msgid "Puerto Rico"
+msgstr "פורטו ריקו"
+
+#: ../src/common/util.c:1032
+msgid "Palestinian Territory"
+msgstr "השטחים הפלסטינאים"
+
+#: ../src/common/util.c:1033
+msgid "Portugal"
+msgstr "פורטוגל"
+
+#: ../src/common/util.c:1034
+msgid "Palau"
+msgstr ""
+
+#: ../src/common/util.c:1035
+msgid "Paraguay"
+msgstr ""
+
+#: ../src/common/util.c:1036
+msgid "Qatar"
+msgstr "קאטר"
+
+#: ../src/common/util.c:1037
+msgid "Reunion"
+msgstr ""
+
+#: ../src/common/util.c:1038
+msgid "Romania"
+msgstr "רומניה"
+
+#: ../src/common/util.c:1039
+msgid "Old School ARPAnet"
+msgstr ""
+
+#: ../src/common/util.c:1040
+msgid "Russian Federation"
+msgstr ""
+
+#: ../src/common/util.c:1041
+msgid "Rwanda"
+msgstr ""
+
+#: ../src/common/util.c:1042
+msgid "Saudi Arabia"
+msgstr "ערב הסעודית"
+
+#: ../src/common/util.c:1043
+msgid "Solomon Islands"
+msgstr ""
+
+#: ../src/common/util.c:1044
+msgid "Seychelles"
+msgstr ""
+
+#: ../src/common/util.c:1045
+msgid "Sudan"
+msgstr "סודן"
+
+#: ../src/common/util.c:1046
+msgid "Sweden"
+msgstr "שוודיה"
+
+#: ../src/common/util.c:1047
+msgid "Singapore"
+msgstr "סינגפור"
+
+#: ../src/common/util.c:1048
+msgid "St. Helena"
+msgstr ""
+
+#: ../src/common/util.c:1049
+msgid "Slovenia"
+msgstr "סלובניה"
+
+#: ../src/common/util.c:1050
+msgid "Svalbard and Jan Mayen Islands"
+msgstr ""
+
+#: ../src/common/util.c:1051
+msgid "Slovak Republic"
+msgstr "סלובקיה"
+
+#: ../src/common/util.c:1052
+msgid "Sierra Leone"
+msgstr "סיירה ליאונה"
+
+#: ../src/common/util.c:1053
+msgid "San Marino"
+msgstr ""
+
+#: ../src/common/util.c:1054
+msgid "Senegal"
+msgstr "סנגל"
+
+#: ../src/common/util.c:1055
+msgid "Somalia"
+msgstr "סומליה"
+
+#: ../src/common/util.c:1056
+msgid "Suriname"
+msgstr "סורינאם"
+
+#: ../src/common/util.c:1057
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: ../src/common/util.c:1058
+msgid "Former USSR"
+msgstr ""
+
+#: ../src/common/util.c:1059
+msgid "El Salvador"
+msgstr "אל סלוודור"
+
+#: ../src/common/util.c:1060
+msgid "Syria"
+msgstr "סוריה"
+
+#: ../src/common/util.c:1061
+msgid "Swaziland"
+msgstr ""
+
+#: ../src/common/util.c:1062
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: ../src/common/util.c:1063
+msgid "Chad"
+msgstr ""
+
+#: ../src/common/util.c:1064
+msgid "French Southern Territories"
+msgstr ""
+
+#: ../src/common/util.c:1065
+msgid "Togo"
+msgstr ""
+
+#: ../src/common/util.c:1066
+msgid "Thailand"
+msgstr "תאילנד"
+
+#: ../src/common/util.c:1067
+msgid "Tajikistan"
+msgstr ""
+
+#: ../src/common/util.c:1068
+msgid "Tokelau"
+msgstr ""
+
+#: ../src/common/util.c:1069 ../src/common/util.c:1073
+msgid "East Timor"
+msgstr "מזרח טימור"
+
+#: ../src/common/util.c:1070
+msgid "Turkmenistan"
+msgstr "טורקמניסטאן"
+
+#: ../src/common/util.c:1071
+msgid "Tunisia"
+msgstr "טוניסיה"
+
+#: ../src/common/util.c:1072
+msgid "Tonga"
+msgstr ""
+
+#: ../src/common/util.c:1074
+msgid "Turkey"
+msgstr "טורקיה"
+
+#: ../src/common/util.c:1075
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: ../src/common/util.c:1076
+msgid "Tuvalu"
+msgstr ""
+
+#: ../src/common/util.c:1077
+msgid "Taiwan"
+msgstr "טייוואן"
+
+#: ../src/common/util.c:1078
+msgid "Tanzania"
+msgstr "טנזניה"
+
+#: ../src/common/util.c:1079
+msgid "Ukraine"
+msgstr "אוקראינה"
+
+#: ../src/common/util.c:1080
+msgid "Uganda"
+msgstr "אוגנדה"
+
+#: ../src/common/util.c:1081
+msgid "United Kingdom"
+msgstr ""
+
+#: ../src/common/util.c:1082
+msgid "United States of America"
+msgstr "ארצות הברית של אמריקה"
+
+#: ../src/common/util.c:1083
+msgid "Uruguay"
+msgstr "אורוגוואי"
+
+#: ../src/common/util.c:1084
+msgid "Uzbekistan"
+msgstr "אוזבקיסטן"
+
+#: ../src/common/util.c:1085
+msgid "Vatican City State"
+msgstr ""
+
+#: ../src/common/util.c:1086
+msgid "St. Vincent and the Grenadines"
+msgstr ""
+
+#: ../src/common/util.c:1087
+msgid "Venezuela"
+msgstr "ונצואלה"
+
+#: ../src/common/util.c:1088
+msgid "British Virgin Islands"
+msgstr ""
+
+#: ../src/common/util.c:1089
+msgid "US Virgin Islands"
+msgstr ""
+
+#: ../src/common/util.c:1090
+msgid "Vietnam"
+msgstr "ויאטנאם"
+
+#: ../src/common/util.c:1091
+msgid "Vanuatu"
+msgstr ""
+
+#: ../src/common/util.c:1092
+msgid "Wallis and Futuna Islands"
+msgstr ""
+
+#: ../src/common/util.c:1093
+msgid "Samoa"
+msgstr "סמואה"
+
+#: ../src/common/util.c:1094
+msgid "Yemen"
+msgstr "תימן"
+
+#: ../src/common/util.c:1095
+msgid "Mayotte"
+msgstr ""
+
+#: ../src/common/util.c:1096
+msgid "Yugoslavia"
+msgstr "יוגוסלביה"
+
+#: ../src/common/util.c:1097
+msgid "South Africa"
+msgstr "דרום אפריקה"
+
+#: ../src/common/util.c:1098
+msgid "Zambia"
+msgstr "זמביה"
+
+#: ../src/common/util.c:1099
+msgid "Zimbabwe"
+msgstr ""
+
+#: ../src/common/util.c:1109 ../src/common/util.c:1119
+#: ../src/fe-gnome/userlist-gui.c:425
+msgid "Unknown"
+msgstr "לא ידוע"
+
+#: ../src/common/xchat.c:767 ../src/common/xchat.c:893
+msgid "Open Dialog Window"
+msgstr ""
+
+#: ../src/common/xchat.c:768
+msgid "Send a File"
+msgstr "שלח קובץ"
+
+#: ../src/common/xchat.c:769
+msgid "User Info (WHOIS)"
+msgstr "מידע משתמש (WHOIS)"
+
+#: ../src/common/xchat.c:770
+msgid "Operator Actions"
+msgstr ""
+
+#: ../src/common/xchat.c:772 ../src/common/xchat.c:863
+msgid "Give Ops"
+msgstr ""
+
+#: ../src/common/xchat.c:773 ../src/common/xchat.c:864
+msgid "Take Ops"
+msgstr ""
+
+#: ../src/common/xchat.c:774 ../src/common/xchat.c:867
+msgid "Give Voice"
+msgstr ""
+
+#: ../src/common/xchat.c:775 ../src/common/xchat.c:868
+msgid "Take Voice"
+msgstr ""
+
+#: ../src/common/xchat.c:777 ../src/common/xchat.c:872
+msgid "Kick/Ban"
+msgstr ""
+
+#: ../src/common/xchat.c:778 ../src/common/xchat.c:873
+#: ../src/common/xchat.c:922
+msgid "Kick"
+msgstr "בעט"
+
+#: ../src/common/xchat.c:779 ../src/common/xchat.c:780
+#: ../src/common/xchat.c:781 ../src/common/xchat.c:782
+#: ../src/common/xchat.c:783 ../src/common/xchat.c:874
+#: ../src/common/xchat.c:875 ../src/common/xchat.c:876
+#: ../src/common/xchat.c:877 ../src/common/xchat.c:878
+#: ../src/common/xchat.c:921
+msgid "Ban"
+msgstr "השעה"
+
+#: ../src/common/xchat.c:784 ../src/common/xchat.c:785
+#: ../src/common/xchat.c:786 ../src/common/xchat.c:787
+#: ../src/common/xchat.c:879 ../src/common/xchat.c:880
+#: ../src/common/xchat.c:881 ../src/common/xchat.c:882
+msgid "KickBan"
+msgstr ""
+
+#: ../src/common/xchat.c:850
+msgid "Direct client-to-client"
+msgstr ""
+
+#: ../src/common/xchat.c:851
+msgid "Send File"
+msgstr "שלח קובץ"
+
+#: ../src/common/xchat.c:852
+msgid "Offer Chat"
+msgstr "הצע שיחה"
+
+#: ../src/common/xchat.c:853
+msgid "Abort Chat"
+msgstr "בטל שיחה"
+
+#: ../src/common/xchat.c:854
+msgid "Version"
+msgstr "גירסה"
+
+#: ../src/common/xchat.c:855
+msgid "Userinfo"
+msgstr "מידע משתמש"
+
+#: ../src/common/xchat.c:856
+msgid "Clientinfo"
+msgstr ""
+
+#: ../src/common/xchat.c:857 ../src/common/xchat.c:891
+#: ../src/common/xchat.c:939
+msgid "Ping"
+msgstr ""
+
+#: ../src/common/xchat.c:859
+msgid "Finger"
+msgstr ""
+
+#: ../src/common/xchat.c:860
+msgid "Oper"
+msgstr ""
+
+#: ../src/common/xchat.c:861
+msgid "Kill this user"
+msgstr ""
+
+#: ../src/common/xchat.c:862
+msgid "Mode"
+msgstr "מצב"
+
+#: ../src/common/xchat.c:865
+msgid "Give Half-Ops"
+msgstr ""
+
+#: ../src/common/xchat.c:866
+msgid "Take Half-Ops"
+msgstr ""
+
+#: ../src/common/xchat.c:869 ../src/fe-gnome/userlist-gui.c:60
+msgid "Ignore"
+msgstr "התעלם"
+
+#: ../src/common/xchat.c:870
+msgid "Ignore User"
+msgstr "התעלם ממשתמש"
+
+#: ../src/common/xchat.c:871
+msgid "UnIgnore User"
+msgstr ""
+
+#: ../src/common/xchat.c:883
+msgid "Info"
+msgstr "מידע"
+
+#: ../src/common/xchat.c:884
+msgid "Who"
+msgstr ""
+
+#: ../src/common/xchat.c:885 ../src/common/xchat.c:935
+msgid "WhoIs"
+msgstr ""
+
+#: ../src/common/xchat.c:886
+msgid "DNS Lookup"
+msgstr ""
+
+#: ../src/common/xchat.c:887
+msgid "Trace"
+msgstr ""
+
+#: ../src/common/xchat.c:888
+msgid "UserHost"
+msgstr ""
+
+#: ../src/common/xchat.c:889
+msgid "External"
+msgstr "חיצוני"
+
+#: ../src/common/xchat.c:890
+msgid "Traceroute"
+msgstr ""
+
+#: ../src/common/xchat.c:892
+msgid "Telnet"
+msgstr ""
+
+#: ../src/common/xchat.c:904
+msgid "Leave Channel"
+msgstr "עזוב ערוץ"
+
+#: ../src/common/xchat.c:905
+msgid "Join Channel..."
+msgstr "הצטרף לערוץ..."
+
+#: ../src/common/xchat.c:906
+msgid "Enter Channel to Join:"
+msgstr ""
+
+#: ../src/common/xchat.c:907
+msgid "Server Links"
+msgstr ""
+
+#: ../src/common/xchat.c:908
+msgid "Ping Server"
+msgstr ""
+
+#: ../src/common/xchat.c:909
+msgid "Hide Version"
+msgstr "הסתר גירסה"
+
+#: ../src/common/xchat.c:919
+msgid "Op"
+msgstr ""
+
+#: ../src/common/xchat.c:920
+msgid "DeOp"
+msgstr ""
+
+#: ../src/common/xchat.c:923
+msgid "bye"
+msgstr "ביי"
+
+#: ../src/common/xchat.c:924
+#, c-format
+msgid "Enter reason to kick %s:"
+msgstr ""
+
+#: ../src/common/xchat.c:925
+msgid "Sendfile"
+msgstr ""
+
+#: ../src/common/xchat.c:926
+msgid "Dialog"
+msgstr "דו-שיח"
+
+#: ../src/common/xchat.c:936
+msgid "Send"
+msgstr "שלח"
+
+#: ../src/common/xchat.c:937
+msgid "Chat"
+msgstr "שיחה"
+
+#: ../src/common/xchat.c:938
+msgid "Clear"
+msgstr "נקה"
+
+#: ../src/common/dbus/dbus-plugin.c:30
+msgid "remote access"
+msgstr ""
+
+#: ../src/common/dbus/dbus-plugin.c:31
+msgid "plugin for remote access using DBUS"
+msgstr ""
+
+#: ../src/common/dbus/dbus-plugin.c:897
+#, c-format
+msgid "Couldn't connect to session bus: %s\n"
+msgstr ""
+
+#: ../src/common/dbus/dbus-plugin.c:914
+#, c-format
+msgid "Failed to acquire %s: %s\n"
+msgstr ""
+
+#: ../src/common/dbus/url_handler.schemas.in.h:1
+msgid "Run XChat-GNOME in a terminal?"
+msgstr "Run XChat-GNOME in a terminal?"
+
+#: ../src/common/dbus/url_handler.schemas.in.h:2
+msgid "Set it at TRUE if you want it activated"
+msgstr "Set it at TRUE if you want it activated"
+
+#: ../src/common/dbus/url_handler.schemas.in.h:3
+msgid "The handler for \"irc://\" URLs"
+msgstr "The handler for \"irc://\" URLs"
+
+#: ../src/fe-gnome/about.c:61
+msgid ""
+"X-Chat GNOME is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version."
+msgstr ""
+"X-Chat GNOME is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version."
+
+#: ../src/fe-gnome/about.c:66
+msgid ""
+"X-Chat GNOME is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details."
+msgstr ""
+"X-Chat GNOME is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details."
+
+#: ../src/fe-gnome/about.c:71
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"X-Chat GNOME; if not, write to the Free Software Foundation, Inc., 59 Temple "
+"Place, Suite 330, Boston, MA  02111-1307  USA"
+msgstr ""
+"You should have received a copy of the GNU General Public License along with "
+"X-Chat GNOME; if not, write to the Free Software Foundation, Inc., 59 Temple "
+"Place, Suite 330, Boston, MA  02111-1307  USA"
+
+#: ../src/fe-gnome/about.c:83
+msgid "Copyright © 2004-2007"
+msgstr "Copyright © 2004-2007"
+
+#. Translators: This is a random, mostly-meaningless
+#. * quotation from Jeeves & Wooster.  Either leave it
+#. * be or replace it with something funny (but inoffensive)
+#. * in your own language, but don't translate it literally.
+#.
+#: ../src/fe-gnome/about.c:89
+msgid ""
+"It has been well observed that a trombone is not a suitable instrument for a "
+"gentleman"
+msgstr ""
+
+#: ../src/fe-gnome/about.c:93
+msgid "XChat-GNOME Web Site"
+msgstr "אתר Xchat-GNOME"
+
+#. Translators: This is a special message that shouldn't
+#. * be translated literally. It is used in the about box
+#. * to give credits to the translators. Thus, you should
+#. * translate it to your name and email address. You
+#. * should also include other translators who have
+#. * contributed to this translation; in that case, please
+#. * write each of them on a separated line seperated by
+#. * newlines (\n).
+#.
+#: ../src/fe-gnome/about.c:107
+msgid "translator-credits"
+msgstr ""
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:1
+msgid "Automatically display the channel list dialog"
+msgstr "Automatically display the channel list dialog"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:2
+msgid "Background image filename"
+msgstr "Background image filename"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:3
+msgid "Background transparency"
+msgstr "Background transparency"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:4
+msgid "Colorize nicknames in the main window"
+msgstr "Colorize nicknames in the main window"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:5
+msgid "Default nickname used by servers without special options set"
+msgstr "Default nickname used by servers without special options set"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:6
+msgid "Default real name used by servers without special options set"
+msgstr "Default real name used by servers without special options set"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:7
+msgid "Display redundant nickstamps"
+msgstr "Display redundant nickstamps"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:8
+msgid "Enable spellchecking"
+msgstr "Enable spellchecking"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:9
+msgid "Font for the main window"
+msgstr "Font for the main window"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:10
+msgid "Height of the channel list"
+msgstr "Height of the channel list"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:11
+msgid "Height of the main window"
+msgstr "Height of the main window"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:12
+msgid ""
+"If set to true, when you join a server without automatically joining a "
+"channel, the channel list dialog will be displayed"
+msgstr ""
+"If set to true, when you join a server without automatically joining a "
+"channel, the channel list dialog will be displayed"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:13
+msgid "Languages to use for spellchecking"
+msgstr "Languages to use for spellchecking"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:14
+msgid "List of enabled plugins"
+msgstr "List of enabled plugins"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:15
+msgid "Message sent on away"
+msgstr "Message sent on away"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:16
+msgid "Message sent on channel part"
+msgstr "Message sent on channel part"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:17
+msgid "Message sent on quit"
+msgstr "Message sent on quit"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:18
+msgid "Position of the horizontal pane in the main window"
+msgstr "Position of the horizontal pane in the main window"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:19
+msgid "Selected background type"
+msgstr "Selected background type"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:20
+msgid "Selected color scheme"
+msgstr "Selected color scheme"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:21
+msgid "Show colors in the main window"
+msgstr "Show colors in the main window"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:22
+msgid "Show timestamps in the main window"
+msgstr "Show timestamps in the main window"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:23
+msgid "Use system fonts"
+msgstr "Use system fonts"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:24
+msgid "Whether the horizontal pane in the main window is shown"
+msgstr "Whether the horizontal pane in the main window is shown"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:25
+msgid "Width of the channel list"
+msgstr "Width of the channel list"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:26
+msgid "Width of the main window"
+msgstr "Width of the main window"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:27
+msgid "X position of the main window on the screen"
+msgstr "X position of the main window on the screen"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:28
+msgid "Y position of the main window on the screen"
+msgstr "Y position of the main window on the screen"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:29
+msgid "xchat configuration version"
+msgstr "xchat configuration version"
+
+#: ../src/fe-gnome/channel-list-window.c:410
+#, c-format
+msgid "%s Channel List"
+msgstr "%s רשימת ערוצים"
+
+#: ../src/fe-gnome/connect-dialog.c:110
+msgid "This network doesn't have a server defined."
+msgstr ""
+
+#: ../src/fe-gnome/connect-dialog.c:112
+#, c-format
+msgid "Please add at least one server to the %s network."
+msgstr ""
+
+#: ../src/fe-gnome/conversation-panel.c:167
+msgid "_Open Link in Browser"
+msgstr "_פתח קישור בדפדפן"
+
+#: ../src/fe-gnome/conversation-panel.c:168
+msgid "_Copy Link Location"
+msgstr "_העתק מיקום הקישור"
+
+#: ../src/fe-gnome/conversation-panel.c:172
+msgid "Se_nd Message To..."
+msgstr "ש_לח הודעה ל..."
+
+#: ../src/fe-gnome/conversation-panel.c:173
+msgid "_Copy Address"
+msgstr "_העתק כתובת"
+
+#: ../src/fe-gnome/conversation-panel.c:177
+msgid "_Send File"
+msgstr "_שלח קובץ"
+
+#: ../src/fe-gnome/conversation-panel.c:178
+msgid "Paste File _Contents"
+msgstr ""
+
+#: ../src/fe-gnome/conversation-panel.c:179
+msgid "Paste File_name"
+msgstr ""
+
+#: ../src/fe-gnome/conversation-panel.c:180
+msgid "_Cancel"
+msgstr "_בטל"
+
+#: ../src/fe-gnome/conversation-panel.c:184 ../src/fe-gnome/main-window.c:110
+msgid "_Copy"
+msgstr "_העתק"
+
+#: ../src/fe-gnome/conversation-panel.c:781
+#, c-format
+msgid "URI list dropped on XChat-GNOME had wrong format (%d) or length (%d)\n"
+msgstr ""
+
+#: ../src/fe-gnome/conversation-panel.c:879
+#, c-format
+msgid "Error reading file \"%s\": %s\n"
+msgstr "שגיאה בקריאת קובץ \"%s\": %s\n"
+
+#: ../src/fe-gnome/conversation-panel.c:894
+#, c-format
+msgid "Error converting URI \"%s\" into filename: %s\n"
+msgstr ""
+
+#: ../src/fe-gnome/conversation-panel.c:937
+#, c-format
+msgid "Error retrieving file information for \"%s\": %s\n"
+msgstr ""
+
+#: ../src/fe-gnome/conversation-panel.c:1027
+msgid "Save Transcript"
+msgstr ""
+
+#: ../src/fe-gnome/conversation-panel.c:1053
+#: ../src/fe-gnome/conversation-panel.c:1063
+#, c-format
+msgid "Error saving %s"
+msgstr "שגיאה בשמירת %s"
+
+#: ../src/fe-gnome/conversation-panel.c:1198
+msgid "Search buffer is empty.\n"
+msgstr ""
+
+#. File completion percent
+#: ../src/fe-gnome/dcc-window.c:142
+msgid "%"
+msgstr "%"
+
+#: ../src/fe-gnome/dcc-window.c:143
+msgid "File"
+msgstr "קובץ"
+
+#: ../src/fe-gnome/dcc-window.c:144
+msgid "Remaining"
+msgstr "נשאר"
+
+#: ../src/fe-gnome/dcc-window.c:223
+msgid "Incoming File Transfer"
+msgstr "העברת קובץ נכנס"
+
+#: ../src/fe-gnome/dcc-window.c:224 ../src/fe-gnome/fe-gnome.c:504
+msgid "_Accept"
+msgstr "_קבל"
+
+#: ../src/fe-gnome/dcc-window.c:225
+#, c-format
+msgid ""
+"%s is attempting to send you a file named \"%s\". Do you wish to accept the "
+"transfer?"
+msgstr ""
+
+#: ../src/fe-gnome/dcc-window.c:245
+#, c-format
+msgid ""
+"<b>%s</b>\n"
+"<small>from %s</small>\n"
+"%s of %s"
+msgstr ""
+
+#: ../src/fe-gnome/dcc-window.c:256
+msgid "starting"
+msgstr "מתחיל"
+
+#: ../src/fe-gnome/dcc-window.c:287
+#, c-format
+msgid ""
+"<b>%s</b>\n"
+"<small>from %s</small>\n"
+"%s of %s at %s/s"
+msgstr ""
+
+#: ../src/fe-gnome/dcc-window.c:294
+msgid "queued"
+msgstr ""
+
+#: ../src/fe-gnome/dcc-window.c:299
+#, c-format
+msgid "Transfer of %s to %s failed"
+msgstr ""
+
+#: ../src/fe-gnome/dcc-window.c:301
+#, c-format
+msgid "Transfer of %s from %s failed"
+msgstr ""
+
+#: ../src/fe-gnome/dcc-window.c:302
+msgid "Transfer failed"
+msgstr ""
+
+#: ../src/fe-gnome/dcc-window.c:310
+msgid "aborted"
+msgstr ""
+
+#: ../src/fe-gnome/dcc-window.c:313
+msgid "stalled"
+msgstr ""
+
+#: ../src/fe-gnome/dcc-window.c:317
+#, c-format
+msgid "%.2d:%.2d:%.2d"
+msgstr "%.2d:%.2d:%.2d"
+
+#: ../src/fe-gnome/dcc-window.c:319
+#, c-format
+msgid "%.2d:%.2d"
+msgstr "%.2d:%.2d"
+
+#: ../src/fe-gnome/dcc-window.c:440
+msgid "Send File..."
+msgstr "שלח קובץ..."
+
+#: ../src/fe-gnome/fe-gnome.c:63
+msgid "Use directory instead of the default config dir"
+msgstr "Use directory instead of the default config dir"
+
+#: ../src/fe-gnome/fe-gnome.c:64
+msgid "Don't auto-connect to servers"
+msgstr "Don't auto-connect to servers"
+
+#: ../src/fe-gnome/fe-gnome.c:65
+msgid "Don't auto-load plugins"
+msgstr "Don't auto-load plugins"
+
+#: ../src/fe-gnome/fe-gnome.c:66
+msgid "Open an irc:// url"
+msgstr "Open an irc:// url"
+
+#: ../src/fe-gnome/fe-gnome.c:67
+msgid "Open URL in an existing XChat-GNOME instance"
+msgstr "Open URL in an existing XChat-GNOME instance"
+
+#: ../src/fe-gnome/fe-gnome.c:68
+msgid "Show version information"
+msgstr "Show version information"
+
+#: ../src/fe-gnome/fe-gnome.c:110
+#, c-format
+msgid ""
+"xchat-gnome: %s\n"
+"Try `xchat-gnome --help' for more information\n"
+msgstr ""
+"xchat-gnome: %s\n"
+"Try `xchat-gnome --help' for more information\n"
+
+#: ../src/fe-gnome/fe-gnome.c:502
+msgid "Incoming DCC Chat"
+msgstr "שיחת DCC נכנסת"
+
+#: ../src/fe-gnome/fe-gnome.c:507
+#, c-format
+msgid ""
+"%s is attempting to create a direct chat. Do you wish to accept the "
+"connection?"
+msgstr ""
+
+#: ../src/fe-gnome/fe-gnome.c:935
+#, c-format
+msgid "Unable to show '%s'"
+msgstr ""
+
+#: ../src/fe-gnome/find-bar.c:88
+msgid "Find:"
+msgstr "חפש:"
+
+#: ../src/fe-gnome/find-bar.c:89
+msgid "_Previous"
+msgstr "_הקודם"
+
+#: ../src/fe-gnome/find-bar.c:91
+msgid "_Next"
+msgstr "_הבא"
+
+#: ../src/fe-gnome/find-bar.c:208
+msgid "<span foreground=\"dark grey\">Reached end, continuing from top</span>"
+msgstr ""
+
+#: ../src/fe-gnome/find-bar.c:215
+msgid ""
+"<span foreground=\"dark grey\">Reached beginning, continuing from bottom</"
+"span>"
+msgstr ""
+
+#: ../src/fe-gnome/find-bar.c:222
+msgid "<span foreground=\"red\">Search string not found</span>"
+msgstr ""
+
+#: ../src/fe-gnome/irc-network-editor.c:313
+msgid "Server"
+msgstr "שרת"
+
+#: ../src/fe-gnome/irc-network-editor.c:322
+msgid "Key"
+msgstr "מפתח"
+
+#. We're creating a new network. Don't populate things from the structure
+#: ../src/fe-gnome/irc-network-editor.c:456
+msgid "New Network"
+msgstr "רשת חדשה"
+
+#: ../src/fe-gnome/irc-network-editor.c:464
+#, c-format
+msgid "%s Network Properties"
+msgstr ""
+
+#: ../src/fe-gnome/irc-network-editor.c:592
+#: ../src/fe-gnome/irc-network-editor.c:599
+#: ../src/fe-gnome/irc-network-editor.c:605
+msgid "Invalid input"
+msgstr "קלט לא חוקי"
+
+#: ../src/fe-gnome/irc-network-editor.c:592
+msgid "You must enter a network name"
+msgstr "אתה חייב להכניס את שם הרשת"
+
+#: ../src/fe-gnome/irc-network-editor.c:599
+msgid "You must enter a nick name"
+msgstr "אתה חייב להכניס כינוי"
+
+#: ../src/fe-gnome/irc-network-editor.c:605
+msgid "You must enter a real name"
+msgstr "אתה חייב להכניס שם אמיתי"
+
+#: ../src/fe-gnome/irc-network-editor.c:612
+msgid "No Servers"
+msgstr "אין שרתים"
+
+#: ../src/fe-gnome/irc-network-editor.c:612
+msgid "You must add at least one server for this network"
+msgstr "אתה חייב להוסיף לפחות שרת אחד לרשת"
+
+#: ../src/fe-gnome/irc-network.c:32
+msgid "UTF-8 (Unicode)"
+msgstr "UTF-8 (יוניקוד)"
+
+#: ../src/fe-gnome/irc-network.c:33
+msgid "ISO-8859-15 (Western Europe)"
+msgstr "ISO-8859-15 (מערב אירופה)"
+
+#: ../src/fe-gnome/irc-network.c:34
+msgid "ISO-8859-2 (Central Europe)"
+msgstr "ISO-8859-2 (מרכז אירופה)"
+
+#: ../src/fe-gnome/irc-network.c:35
+msgid "ISO-8859-7 (Greek)"
+msgstr "ISO-8859-7 (יוונית)"
+
+#: ../src/fe-gnome/irc-network.c:36
+msgid "ISO-8859-8 (Hebrew)"
+msgstr "ISO-8859-8 (עברית)"
+
+#: ../src/fe-gnome/irc-network.c:37
+msgid "ISO-8859-9 (Turkish)"
+msgstr "ISO-8859-9 (טורקית)"
+
+#: ../src/fe-gnome/irc-network.c:38
+msgid "ISO-2022-JP (Japanese)"
+msgstr "ISO-2022-JP (יפנית)"
+
+#: ../src/fe-gnome/irc-network.c:39
+msgid "SJIS (Japanese)"
+msgstr "SJIS (יפנית)"
+
+#: ../src/fe-gnome/irc-network.c:40
+msgid "CP949 (Korean)"
+msgstr "CP949 (קוראנית)"
+
+#: ../src/fe-gnome/irc-network.c:41
+msgid "KOI8-R (Cyrillic)"
+msgstr "KOI8-R (קירילית)"
+
+#: ../src/fe-gnome/irc-network.c:42
+msgid "CP1251 (Cyrillic)"
+msgstr "CP1251 (קירילית)"
+
+#: ../src/fe-gnome/irc-network.c:43
+msgid "CP1256 (Arabic)"
+msgstr "CP1256 (ערבית)"
+
+#: ../src/fe-gnome/irc-network.c:44
+msgid "CP1257 (Baltic)"
+msgstr "CP1257 (בלטית)"
+
+#: ../src/fe-gnome/irc-network.c:45
+msgid "GB18030 (Chinese)"
+msgstr "GB18030 (סינית)"
+
+#: ../src/fe-gnome/irc-network.c:46
+msgid "TIS-620 (Thai)"
+msgstr "TIS-620 (תאילנדית)"
+
+#. Toplevel
+#: ../src/fe-gnome/main-window.c:94
+msgid "_IRC"
+msgstr "_IRC"
+
+#: ../src/fe-gnome/main-window.c:96
+msgid "In_sert"
+msgstr "ה_כנס"
+
+#: ../src/fe-gnome/main-window.c:97
+msgid "_Network"
+msgstr "_רשת"
+
+#: ../src/fe-gnome/main-window.c:98
+msgid "_Discussion"
+msgstr "_דיון"
+
+#: ../src/fe-gnome/main-window.c:99
+msgid "_View"
+msgstr "_תצוגה"
+
+#: ../src/fe-gnome/main-window.c:100
+msgid "_Help"
+msgstr "_עזרה"
+
+#. IRC menu
+#: ../src/fe-gnome/main-window.c:104
+msgid "_Connect..."
+msgstr "_התחבר..."
+
+#: ../src/fe-gnome/main-window.c:105
+msgid "_File Transfers"
+msgstr "_העברות קבצים"
+
+#: ../src/fe-gnome/main-window.c:106
+msgid "_Quit"
+msgstr "_יציאה"
+
+#. Edit menu
+#: ../src/fe-gnome/main-window.c:109
+msgid "Cu_t"
+msgstr "_גזור"
+
+#: ../src/fe-gnome/main-window.c:111
+msgid "_Paste"
+msgstr "_הדבק"
+
+#: ../src/fe-gnome/main-window.c:112
+msgid "Prefere_nces"
+msgstr "העד_פות"
+
+#. Network menu
+#: ../src/fe-gnome/main-window.c:115
+msgid "_Reconnect"
+msgstr "_התחבר מחדש"
+
+#: ../src/fe-gnome/main-window.c:116
+msgid "_Disconnect"
+msgstr "_התנתק"
+
+#: ../src/fe-gnome/main-window.c:117
+msgid "_Close"
+msgstr "_סגור"
+
+#: ../src/fe-gnome/main-window.c:118
+msgid "_Channels..."
+msgstr "_ערוצים..."
+
+#. Discussion menu
+#: ../src/fe-gnome/main-window.c:121
+msgid "_Save Transcript"
+msgstr ""
+
+#: ../src/fe-gnome/main-window.c:122
+msgid "_Leave"
+msgstr "_עזוב"
+
+#: ../src/fe-gnome/main-window.c:123
+msgid "Cl_ose"
+msgstr "ס_גור"
+
+#: ../src/fe-gnome/main-window.c:124
+msgid "_Find"
+msgstr "_חפש"
+
+#: ../src/fe-gnome/main-window.c:125
+msgid "Change _Topic"
+msgstr "החלף _נושא"
+
+#: ../src/fe-gnome/main-window.c:126
+msgid "_Bans..."
+msgstr ""
+
+#: ../src/fe-gnome/main-window.c:127
+msgid "_Users"
+msgstr "_משתמשים"
+
+#. Help menu
+#: ../src/fe-gnome/main-window.c:130
+msgid "_Contents"
+msgstr "_תוכן"
+
+#: ../src/fe-gnome/main-window.c:131
+msgid "_About"
+msgstr "_אודות"
+
+#. View menu
+#: ../src/fe-gnome/main-window.c:137
+msgid "_Sidebar"
+msgstr ""
+
+#: ../src/fe-gnome/main-window.c:432 ../src/fe-gnome/main-window.c:454
+msgid "Ex-Chat"
+msgstr "Ex-Chat"
+
+#: ../src/fe-gnome/main-window.c:504
+msgid "Error showing help"
+msgstr "שגיאה בהצגת עזרה"
+
+#: ../src/fe-gnome/migration.c:115
+#, c-format
+msgid ""
+"The way the D-Bus plugin works has changed.\n"
+"To avoid problems, you should remove the old plugin file.\n"
+"\n"
+"<b>Please delete %s</b>"
+msgstr ""
+
+#: ../src/fe-gnome/migration.c:117
+msgid "D-Bus plugin is still installed"
+msgstr ""
+
+#. View menu
+#: ../src/fe-gnome/navigation-tree.c:91
+msgid "Pre_vious Network"
+msgstr ""
+
+#: ../src/fe-gnome/navigation-tree.c:92
+msgid "Nex_t Network"
+msgstr ""
+
+#: ../src/fe-gnome/navigation-tree.c:93
+msgid "_Previous Discussion"
+msgstr ""
+
+#: ../src/fe-gnome/navigation-tree.c:94
+msgid "_Next Discussion"
+msgstr ""
+
+#. Discussion context menu
+#: ../src/fe-gnome/navigation-tree.c:97
+msgid "_Join"
+msgstr "_הצטרף"
+
+#. Server context menu
+#: ../src/fe-gnome/navigation-tree.c:102
+msgid "_Auto-connect on startup"
+msgstr ""
+
+#. Discussion context menu
+#: ../src/fe-gnome/navigation-tree.c:105
+msgid "_Auto-join on connect"
+msgstr ""
+
+#: ../src/fe-gnome/navigation-tree.c:106
+msgid "Show join/part messages"
+msgstr ""
+
+#: ../src/fe-gnome/navigation-tree.c:481
+msgid "<none>"
+msgstr "<ללא>"
+
+#. The name of the default downloads folder,
+#. * Needs to be the same as Epiphany's
+#: ../src/fe-gnome/preferences.c:202
+msgid "Downloads"
+msgstr ""
+
+#: ../src/fe-gnome/preferences-page-colors.c:255
+msgid "Colors"
+msgstr "צבעים"
+
+#: ../src/fe-gnome/preferences-page-colors.c:258
+msgid "Black on White"
+msgstr "שחור על לבן"
+
+#: ../src/fe-gnome/preferences-page-colors.c:259
+msgid "White on Black"
+msgstr "לבן על שחור"
+
+#: ../src/fe-gnome/preferences-page-colors.c:260
+msgid "Custom"
+msgstr "מותאם אישית"
+
+#: ../src/fe-gnome/preferences-page-colors.c:261
+msgid "System Theme Colors"
+msgstr "צבעי ערכת נושא המערכת"
+
+#: ../src/fe-gnome/preferences-page-dcc.c:142
+msgid "File Transfers & DCC"
+msgstr "העברות קבצים ו-DCC"
+
+#: ../src/fe-gnome/preferences-page-effects.c:180
+msgid "Effects"
+msgstr "אפקטים"
+
+#: ../src/fe-gnome/preferences-page-irc.c:306
+msgid "IRC Preferences"
+msgstr "העדפות IRC"
+
+#: ../src/fe-gnome/preferences-page-networks.c:117
+#, c-format
+msgid "Really remove network \"%s\" and all of its servers?"
+msgstr ""
+
+#: ../src/fe-gnome/preferences-page-networks.c:168
+msgid "Networks"
+msgstr "רשתות"
+
+#: ../src/fe-gnome/preferences-page-networks.c:176
+msgid "Name"
+msgstr "שם"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:99
+#: ../src/fe-gnome/preferences-page-plugins.c:100
+msgid "unknown"
+msgstr "לא ידוע"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:192
+#, c-format
+msgid "An error occurred unloading %s"
+msgstr ""
+
+#: ../src/fe-gnome/preferences-page-plugins.c:193
+msgid "Plugin Unload Failed"
+msgstr ""
+
+#: ../src/fe-gnome/preferences-page-plugins.c:204
+msgid "Plugin Load Failed"
+msgstr ""
+
+#: ../src/fe-gnome/preferences-page-plugins.c:242
+msgid "Open Plugin"
+msgstr ""
+
+#: ../src/fe-gnome/preferences-page-plugins.c:367
+msgid "Scripts and Plugins"
+msgstr ""
+
+#: ../src/fe-gnome/preferences-page-plugins.c:385
+#: ../src/fe-gnome/preferences-page-spellcheck.c:218
+msgid "Enable"
+msgstr ""
+
+#: ../src/fe-gnome/preferences-page-plugins.c:387
+msgid "Plugin"
+msgstr "תוסף"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:98
+#, c-format
+msgid "Error in language %s activation: %s\n"
+msgstr ""
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:138
+#, c-format
+msgid "Error in spell checking configuration: %s\n"
+msgstr ""
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:180
+msgid "Spell checking"
+msgstr ""
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:184
+msgid ""
+"In order to get spell-checking, you need to have libenchant installed with "
+"at least one dictionary."
+msgstr ""
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:195
+msgid "_Check spelling"
+msgstr ""
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:196
+msgid "Choose languages to use for spellcheck:"
+msgstr ""
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:223
+msgid "Language"
+msgstr "שפה"
+
+#: ../src/fe-gnome/status-bar.c:93
+#, c-format
+msgid "%s%.1fs lag"
+msgstr ""
+
+#: ../src/fe-gnome/status-bar.c:107
+#, c-format
+msgid "%d bytes buffered"
+msgstr ""
+
+#: ../src/fe-gnome/text-entry.c:133
+#, c-format
+msgid "Error in spellchecking configuration: %s\n"
+msgstr ""
+
+#: ../src/fe-gnome/text-entry.c:352
+msgid "I_nsert Color Code"
+msgstr ""
+
+#: ../src/fe-gnome/text-entry.c:359
+msgid "Black"
+msgstr "שחור"
+
+#: ../src/fe-gnome/text-entry.c:363
+msgid "Dark Blue"
+msgstr "כחול כהה"
+
+#: ../src/fe-gnome/text-entry.c:367
+msgid "Dark Green"
+msgstr "ירוק כהה"
+
+#: ../src/fe-gnome/text-entry.c:371
+msgid "Red"
+msgstr "אדום"
+
+#: ../src/fe-gnome/text-entry.c:375
+msgid "Brown"
+msgstr "חום"
+
+#: ../src/fe-gnome/text-entry.c:379
+msgid "Purple"
+msgstr "סגול"
+
+#: ../src/fe-gnome/text-entry.c:383
+msgid "Orange"
+msgstr "כתום"
+
+#: ../src/fe-gnome/text-entry.c:387
+msgid "Yellow"
+msgstr "צהוב"
+
+#: ../src/fe-gnome/text-entry.c:391
+msgid "Light Green"
+msgstr "ירוק בהיר"
+
+#: ../src/fe-gnome/text-entry.c:395
+msgid "Aqua"
+msgstr "כחול מים"
+
+#: ../src/fe-gnome/text-entry.c:399
+msgid "Light Blue"
+msgstr "כחול בהיר"
+
+#: ../src/fe-gnome/text-entry.c:403
+msgid "Blue"
+msgstr "כחול"
+
+#: ../src/fe-gnome/text-entry.c:407
+msgid "Violet"
+msgstr "סגלגל"
+
+#: ../src/fe-gnome/text-entry.c:411
+msgid "Grey"
+msgstr "אפור"
+
+#: ../src/fe-gnome/text-entry.c:415
+msgid "Light Grey"
+msgstr "אפור בהיר"
+
+#: ../src/fe-gnome/text-entry.c:419
+msgid "White"
+msgstr "לבן"
+
+#: ../src/fe-gnome/topic-label.c:265
+#, c-format
+msgid "Changing topic for %s"
+msgstr ""
+
+#: ../src/fe-gnome/userlist-gui.c:56
+msgid "_Send File..."
+msgstr "_שלח קובץ..."
+
+#: ../src/fe-gnome/userlist-gui.c:57
+msgid "Private _Chat"
+msgstr ""
+
+#: ../src/fe-gnome/userlist-gui.c:58
+msgid "_Kick"
+msgstr "_בעט"
+
+#: ../src/fe-gnome/userlist-gui.c:59
+msgid "_Ban"
+msgstr "_השעה"
+
+#: ../src/fe-gnome/userlist-gui.c:61
+msgid "_Op"
+msgstr ""
+
+#: ../src/fe-gnome/userlist-gui.c:420
+#, c-format
+msgid ""
+"%s\n"
+"<span weight=\"bold\">Name:</span> %s"
+msgstr ""
+"%s\n"
+"<span weight=\"bold\">שם:</span> %s"
+
+#: ../src/fe-gnome/userlist-gui.c:427
+#, c-format
+msgid ""
+"%s\n"
+"<span weight=\"bold\">Country:</span> %s"
+msgstr ""
+"%s\n"
+"<span weight=\"bold\">מדינה:</span> %s"
+
+#: ../src/fe-gnome/userlist-gui.c:437
+#, c-format
+msgid ""
+"%s\n"
+"<span weight=\"bold\">Last message:</span> %d minute ago"
+msgid_plural ""
+"%s\n"
+"<span weight=\"bold\">Last message:</span> %d minutes ago"
+msgstr[0] ""
+"%s\n"
+"<span weight=\"bold\">ההודעה האחרונה:</span> לפני דקה אחת"
+msgstr[1] ""
+"%s\n"
+"<span weight=\"bold\">ההודעה האחרונה:</span> לפני %d דקות"
+
+#: ../src/fe-gnome/userlist-gui.c:448
+#, c-format
+msgid ""
+"%s\n"
+"<span weight=\"bold\">Away message:</span> %s"
+msgstr ""
+
+#: ../src/fe-gnome/userlist.c:308
+#, c-format
+msgid "%d User"
+msgid_plural "%d Users"
+msgstr[0] "משתמש אחד"
+msgstr[1] "%d משתמשים"
+

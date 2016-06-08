@@ -1,0 +1,15 @@
+[Desktop Entry]
+_Name=XChat-GNOME
+_GenericName=IRC Chat
+_X-GNOME-FullName=XChat-GNOME IRC Chat
+_Comment=Chat with people using IRC
+Exec=xchat-gnome
+Icon=xchat-gnome
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=GNOME;GTK;Network;IRCClient;
+X-GNOME-Bugzilla-Bugzilla=GNOME
+X-GNOME-Bugzilla-Product=xchat-gnome
+X-GNOME-Bugzilla-Component=general
+X-GNOME-Bugzilla-Version=@VERSION@

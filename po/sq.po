@@ -1,0 +1,4778 @@
+# Translation of xchat-gnome into the Albanian language
+# Copyright (C) 2004-2008 xchat-gnome team
+# This file is distributed under the same license as the xchat-gnome package.
+# Përkthimi në Shqip i mesazheve të `xchat-it'
+# Besnik Bleta <besnik@programeshqip.org>, 2004-2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: xchat-gnome\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2008-11-19 11:33+0100\n"
+"PO-Revision-Date: 2008-11-18 21:29+0200\n"
+"Last-Translator: Besnik Bleta <besnik@programeshqip.org>\n"
+"Language-Team: Albanian <translation-team-sq@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Launchpad-Export-Date: 2008-11-16 19:58+0000\n"
+"X-Generator: Launchpad (build Unknown)\n"
+
+#: ../data/channel-list.glade.h:1
+msgid "<span weight=\"bold\">List Filtering</span>"
+msgstr "<span weight=\"bold\">Filtrim Liste</span>"
+
+#: ../data/channel-list.glade.h:2
+msgid "Channel _Name"
+msgstr "_Emër Kanali"
+
+#: ../data/channel-list.glade.h:3
+msgid "Channel _Topic"
+msgstr "_Temë Kanali"
+
+#: ../data/channel-list.glade.h:4
+msgid "Channels list"
+msgstr "Listë kanalesh"
+
+#: ../data/channel-list.glade.h:5
+msgid "Join channel:"
+msgstr "Hyni në kanal:"
+
+#: ../data/channel-list.glade.h:6
+msgid "Search for text:"
+msgstr "Kërko për tekst:"
+
+#: ../data/channel-list.glade.h:7
+msgid "Show channels with:"
+msgstr "Shfaq kanale me:"
+
+#: ../data/channel-list.glade.h:8
+msgid "_Join Channel"
+msgstr "_Hyni në Kanal"
+
+#. Part of channel filtering, to select whether to filter "in  [ ] channel topic  [ ] channel name".  Yes, I know it's hard to translate.  Send suggestions to trowbrds@gmail.com :P
+#: ../data/channel-list.glade.h:10
+msgid "in:"
+msgstr "te:"
+
+#. Part of "Show channels with [  ] to [  ] users".  Yes, I know it's hard to translate.  Send suggestions to trowbrds@gmail.com :P
+#: ../data/channel-list.glade.h:12
+msgid "to"
+msgstr "te"
+
+#: ../data/channel-list.glade.h:13
+msgid "users"
+msgstr "përdoruesa"
+
+#: ../data/connect-dialog.glade.h:1 ../src/fe-gnome/connect-dialog.c:157
+msgid "C_onnect"
+msgstr "_Lidhu"
+
+#: ../data/dcc-window.glade.h:1 ../src/fe-gnome/dcc-window.c:116
+msgid "File Transfers"
+msgstr "Shpërngulje Kartelash"
+
+#: ../data/irc-network-editor.glade.h:1
+msgid "<span weight=\"bold\">Automatically Join Channels</span>"
+msgstr "<span weight=\"bold\">Futu Vetvetiu te Kanalet</span>"
+
+#: ../data/irc-network-editor.glade.h:2
+msgid "<span weight=\"bold\">User Info</span>"
+msgstr "<span weight=\"bold\">Të dhëna Përdoruesi</span>"
+
+#: ../data/irc-network-editor.glade.h:3
+msgid "Accept invalid _SSL certificate"
+msgstr "Prano dëshmi _SSL të mangët"
+
+#: ../data/irc-network-editor.glade.h:4
+msgid "Character _encoding:"
+msgstr "_Kodim gërmash:"
+
+#: ../data/irc-network-editor.glade.h:5
+msgid "Cycle _until connected"
+msgstr "Cikloje _deri sa të lidhet"
+
+#: ../data/irc-network-editor.glade.h:6
+msgid "Network Settings"
+msgstr "Rregullime Rrjeti"
+
+#: ../data/irc-network-editor.glade.h:7
+msgid "Nickser_v password:"
+msgstr "Fjalëkalim Nickser_v:"
+
+#: ../data/irc-network-editor.glade.h:8
+msgid "Server _password:"
+msgstr "_Fjalëkalim shërbyesi:"
+
+#: ../data/irc-network-editor.glade.h:9
+msgid "Servers"
+msgstr "Shërbyesa"
+
+#: ../data/irc-network-editor.glade.h:10
+msgid "Use _global user settings"
+msgstr "Përdor rregullime të _përgjithshme përdoruesi"
+
+#: ../data/irc-network-editor.glade.h:11
+msgid "Use _these user settings:"
+msgstr "Përdor _këto rregullime përdoruesi:"
+
+#: ../data/irc-network-editor.glade.h:12
+msgid "User and Channels"
+msgstr "Përdorues dhe Kanale"
+
+#: ../data/irc-network-editor.glade.h:13
+msgid "_Automatically connect to network"
+msgstr "Lidhu _vetvetiu në rrjet"
+
+#: ../data/irc-network-editor.glade.h:14
+msgid "_Name:"
+msgstr "_Emri:"
+
+#: ../data/irc-network-editor.glade.h:15 ../data/setup-dialog.glade.h:5
+msgid "_Nick name:"
+msgstr "_Nofkë:"
+
+#: ../data/irc-network-editor.glade.h:16
+msgid "_Real Name:"
+msgstr "Emër i _Vërtetë:"
+
+#: ../data/irc-network-editor.glade.h:17
+msgid "_Use secure connection (SSL)"
+msgstr "_Përdor lidhje të sigurt (SSL)"
+
+#: ../data/preferences-dialog.glade.h:1
+msgid "<span size=\"small\" style=\"italic\">Opaque</span>"
+msgstr "<span size=\"small\" style=\"italic\">I marrtë</span>"
+
+#: ../data/preferences-dialog.glade.h:2
+msgid "<span size=\"small\" style=\"italic\">Transparent</span>"
+msgstr "<span size=\"small\" style=\"italic\">I tejdukshëm</span>"
+
+#: ../data/preferences-dialog.glade.h:3
+msgid "<span weight=\"bold\">Background</span>"
+msgstr "<span weight=\"bold\">Sfond</span>"
+
+#: ../data/preferences-dialog.glade.h:4
+msgid "<span weight=\"bold\">DCC Settings</span>"
+msgstr "<span weight=\"bold\">Rregullime DCC-je</span>"
+
+#: ../data/preferences-dialog.glade.h:5
+msgid "<span weight=\"bold\">Extra Colors</span>"
+msgstr "<span weight=\"bold\">Ngjyra Ekstra</span>"
+
+#: ../data/preferences-dialog.glade.h:6
+msgid "<span weight=\"bold\">File Transfers</span>"
+msgstr "<span weight=\"bold\">Shpërngulje Kartelash</span>"
+
+#: ../data/preferences-dialog.glade.h:7
+msgid "<span weight=\"bold\">General</span>"
+msgstr "<span weight=\"bold\">E përgjithshme</span>"
+
+#: ../data/preferences-dialog.glade.h:8
+msgid "<span weight=\"bold\">Highlighting</span>"
+msgstr "<span weight=\"bold\">Theksim</span>"
+
+#: ../data/preferences-dialog.glade.h:9
+msgid "<span weight=\"bold\">Text Colors</span>"
+msgstr "<span weight=\"bold\">Ngjyra Teksti</span>"
+
+#: ../data/preferences-dialog.glade.h:10
+msgid "<span weight=\"bold\">Throttling</span>"
+msgstr ""
+
+#: ../data/preferences-dialog.glade.h:11
+msgid "<span weight=\"bold\">User Interface</span>"
+msgstr "<span weight=\"bold\">Ndërfaqe Përdoruesi</span>"
+
+#: ../data/preferences-dialog.glade.h:12
+msgid "<span weight=\"bold\">mIRC Colors</span>"
+msgstr "<span weight=\"bold\">Ngjyra mIRC</span>"
+
+#: ../data/preferences-dialog.glade.h:13
+msgid "A_way message:"
+msgstr "Mesazh për i _larguar:"
+
+#: ../data/preferences-dialog.glade.h:14
+msgid "Auto-accept DCC c_hat"
+msgstr "Vetëprano _fjalosje DCC"
+
+#: ../data/preferences-dialog.glade.h:15
+msgid "Auto-accept DCC file tr_ansfers"
+msgstr "Vetëprano _shpërngulje DCC kartelash"
+
+#: ../data/preferences-dialog.glade.h:16
+msgid "Background mark:"
+msgstr "Shenjë sfondi:"
+
+#: ../data/preferences-dialog.glade.h:17
+msgid "Buil_t-in schemes:"
+msgstr "Skema të _trupëzuara:"
+
+#: ../data/preferences-dialog.glade.h:18
+msgid "Convert spaces to _underscores in filenames"
+msgstr "Te emrat e kartelave shndërroji hapësirat në _nënvija"
+
+#: ../data/preferences-dialog.glade.h:19
+msgid "Display a red line after the last read text"
+msgstr "Fut një vijë të kuqe pas tekstit të lexuar së fundmi"
+
+#: ../data/preferences-dialog.glade.h:20
+msgid "Enter extra words to trigger highlighting"
+msgstr "Jep fjalë ekstra për të cytur theksimin"
+
+#: ../data/preferences-dialog.glade.h:21
+msgid "Foreground mark:"
+msgstr "Shenjë për përpara:"
+
+#: ../data/preferences-dialog.glade.h:22
+msgid "Get IP address from _server"
+msgstr "Vendndodhjen IP merre prej _shërbyesit"
+
+#: ../data/preferences-dialog.glade.h:23
+msgid "Glo_bal receive KB/s: "
+msgstr ""
+
+#: ../data/preferences-dialog.glade.h:24
+msgid "I_mage file:"
+msgstr "Kartelë _pamje:"
+
+#: ../data/preferences-dialog.glade.h:25
+msgid "In_dividual send KB/s: "
+msgstr ""
+
+#: ../data/preferences-dialog.glade.h:26
+msgid "Indi_vidual receive KB/s: "
+msgstr ""
+
+#: ../data/preferences-dialog.glade.h:27
+msgid "Move co_mpleted files to:"
+msgstr "Kartelat e _plotësuara shpjeri te:"
+
+#: ../data/preferences-dialog.glade.h:28
+msgid "Preferences"
+msgstr "Parapëlqime"
+
+#: ../data/preferences-dialog.glade.h:29
+msgid "Real na_me:"
+msgstr "Em_ër i Vërtetë:"
+
+#: ../data/preferences-dialog.glade.h:30
+msgid "Save sender _nickname in filenames"
+msgstr "Ruaj _nofka dërguesish te emra kartelash"
+
+#: ../data/preferences-dialog.glade.h:31
+msgid "Select A File"
+msgstr "Përzgjidhni Një Kartelë"
+
+#: ../data/preferences-dialog.glade.h:32
+msgid "Select Completed Files Directory"
+msgstr "Përzgjidhni Drejtori Kartelash të Plotësuara"
+
+#: ../data/preferences-dialog.glade.h:33
+msgid "Select Download Directory"
+msgstr "Përzgjidhni Drejtori Shkarkimesh"
+
+#: ../data/preferences-dialog.glade.h:34
+msgid "Show _timestamps"
+msgstr "Shfaq _vula kohore"
+
+#: ../data/preferences-dialog.glade.h:35
+msgid "Show m_arker line"
+msgstr "Shfaq vijë _shënimi"
+
+#: ../data/preferences-dialog.glade.h:36
+msgid ""
+"To edit a shortcut key, click on the corresponding row and type a new "
+"accelerator, or press backspace to clear."
+msgstr ""
+"Për përpunimin e një tasti shkurtoreje, klikoni te rreshti përkatës dhe "
+"shtypni një përshpejtues të ri, ose shtypni Backspace për ta fshirë."
+
+#: ../data/preferences-dialog.glade.h:37
+msgid "Use _system terminal font"
+msgstr "Përdor gërma terminali _sistemi"
+
+#: ../data/preferences-dialog.glade.h:38
+msgid "Use t_his IP address:"
+msgstr "Përdor _këtë vendndodhje IP:"
+
+#: ../data/preferences-dialog.glade.h:39
+msgid "Use this f_ont:"
+msgstr "Përdor këto _gërma:"
+
+#: ../data/preferences-dialog.glade.h:40
+msgid "_Background color:"
+msgstr "Ngjyrë _sfondi:"
+
+#: ../data/preferences-dialog.glade.h:41
+msgid "_Background image"
+msgstr "Pamje _sfondi:"
+
+#: ../data/preferences-dialog.glade.h:42
+msgid "_Colorize nicknames"
+msgstr "_Ngjyrosi nofkat"
+
+#: ../data/preferences-dialog.glade.h:43
+msgid "_Download files to:"
+msgstr "_Shkarkoji kartelat te:"
+
+#: ../data/preferences-dialog.glade.h:44
+msgid "_Foreground color:"
+msgstr "Ngjyrë e përpar_me:"
+
+#: ../data/preferences-dialog.glade.h:45
+msgid "_Global send KB/s: "
+msgstr ""
+
+#: ../data/preferences-dialog.glade.h:46
+msgid "_Log conversations"
+msgstr "_Regjistro bashkëbisedimet"
+
+#: ../data/preferences-dialog.glade.h:47
+msgid "_Nickname:"
+msgstr "_Nofkë:"
+
+#: ../data/preferences-dialog.glade.h:48
+msgid "_None (use solid color)"
+msgstr "_Asnjë (përdor një ngjyrë)"
+
+#: ../data/preferences-dialog.glade.h:49
+msgid "_Part message:"
+msgstr "Mesazh _ikjeje:"
+
+#: ../data/preferences-dialog.glade.h:50
+msgid "_Quit message:"
+msgstr "Mesazh _daljeje:"
+
+#: ../data/preferences-dialog.glade.h:51
+msgid "_Show colors"
+msgstr "_Shfaq ngjyra"
+
+#: ../data/preferences-dialog.glade.h:52
+msgid "_Transparent background"
+msgstr "Sfond i _tejdukshëm"
+
+#.
+#. This is the text that should appear on a button. Don't include the prefix 'button|' in the translation.
+#: ../data/preferences-dialog.glade.h:55
+msgid "button|_Edit"
+msgstr "buton|_Përpunoni"
+
+#: ../data/preferences-dialog.glade.h:56
+msgid "spell checking"
+msgstr "kontroll drejtshkrimi"
+
+#: ../data/setup-dialog.glade.h:1
+msgid ""
+"Welcome to XChat-GNOME! Since this is your first time using this "
+"application, there are a couple things you'll need to configure before you "
+"can get started.\n"
+"\n"
+"These are the names by which you'll be recognized on IRC. Your nick name is "
+"the name by which you'll be known, whereas the real name is useful for "
+"things such as registering with services. You do not have to use your real "
+"name if you do not want to."
+msgstr ""
+"Mirësevini te XChat-GNOME! Meqë kjo është hera e parë që përdorni këtë "
+"zbatim, ka një dorë gjërash që duhet t'i formësoni përpara se t'i hyni "
+"punës.\n"
+"\n"
+"Këta janë emrat me të cilët do t'ju njohin në IRC. Nofka është emri me të "
+"cilin do të njiheni, ndërkohë që emri real do të nevojitet për gjëra të "
+"tilla si regjistrimi me shërbimet. Nuk ka pse përdorni emrin tuaj real, nëse "
+"nuk e dëshironi një gjë të tillë."
+
+#: ../data/setup-dialog.glade.h:4
+msgid "XChat-GNOME Setup"
+msgstr "Rregullimi i XChat-GNOME-s"
+
+#: ../data/setup-dialog.glade.h:6
+msgid "_Real name:"
+msgstr "Emër i _vërtetë:"
+
+#: ../data/topic-change.glade.h:1
+msgid "Change"
+msgstr "Ndrysho"
+
+#: ../data/xchat-gnome.desktop.in.in.h:1
+msgid "Chat with people using IRC"
+msgstr "Fjalosuni me njerëzit përmes IRC-së"
+
+#: ../data/xchat-gnome.desktop.in.in.h:2 ../src/fe-gnome/fe-gnome.c:119
+msgid "IRC Chat"
+msgstr "Fjalosje IRC"
+
+#: ../data/xchat-gnome.desktop.in.in.h:3
+#: ../plugins/sound-notification/sound-notification.c:45
+msgid "XChat-GNOME IRC Chat"
+msgstr "Fjalosje IRC XChat-GNOME"
+
+#: ../data/xchat-gnome.glade.h:1
+msgid "Apply on all _servers"
+msgstr "Zbatoje te tërë _shërbyesit"
+
+#: ../data/xchat-gnome.glade.h:2
+msgid "C_hange"
+msgstr "_Ndryshoje"
+
+#: ../data/xchat-gnome.glade.h:3
+msgid "Change _nickname to:"
+msgstr "Ndërroje _nofkën në:"
+
+#: ../data/xchat-gnome.glade.h:4
+msgid "Mark as _away"
+msgstr "Shënoje si të _larguar"
+
+#: ../data/xchat-gnome.glade.h:5 ../src/common/text.c:887
+#: ../src/common/text.c:893 ../src/common/text.c:900 ../src/common/text.c:1088
+#: ../src/common/text.c:1095 ../src/common/text.c:1100
+#: ../src/common/text.c:1105 ../src/common/text.c:1110
+#: ../src/common/text.c:1116 ../src/common/text.c:1121
+#: ../src/common/text.c:1125 ../src/common/text.c:1131
+#: ../src/common/text.c:1137 ../src/common/text.c:1183
+#: ../src/common/text.c:1194 ../src/common/text.c:1199
+#: ../src/common/text.c:1204 ../src/common/text.c:1213
+#: ../src/common/text.c:1224 ../src/common/text.c:1231
+#: ../src/common/text.c:1237 ../src/common/text.c:1242
+#: ../src/common/text.c:1247 ../src/common/text.c:1254
+#: ../src/common/text.c:1260 ../src/common/text.c:1266
+#: ../src/common/text.c:1271 ../src/common/text.c:1276
+#: ../src/common/text.c:1280 ../src/common/text.c:1286
+#: ../src/common/text.c:1294 ../src/common/text.c:1328
+#: ../src/common/text.c:1333
+msgid "Nickname"
+msgstr "Nofkë"
+
+#: ../data/xchat-gnome.glade.h:6 ../src/common/text.c:1160
+#: ../src/fe-gnome/channel-list-window.c:447 ../src/fe-gnome/userlist.c:312
+msgid "Users"
+msgstr "Përdoruesa"
+
+#: ../data/xchat-gnome.glade.h:7
+msgid "nickname"
+msgstr "nofkë"
+
+#: ../plugins/autoaway/autoaway.c:216
+msgid "Auto Away"
+msgstr "I vetëlarguar"
+
+#: ../plugins/autoaway/autoaway.c:217
+msgid "Automatically go away / come back"
+msgstr "Kalo i larguar / rikthehu vetvetiu"
+
+#: ../plugins/net-monitor/net-monitor.c:39
+msgid "Network Monitor"
+msgstr "Mbikëqyrës Rrjeti"
+
+#: ../plugins/net-monitor/net-monitor.c:40
+msgid "NetworkManager connection monitor"
+msgstr "Mbikëqyrës lidhjeje NetworkManager"
+
+#: ../plugins/net-monitor/net-monitor.c:352
+#, c-format
+msgid "%s loaded successfully\n"
+msgstr "%s u ngarkua me sukses\n"
+
+#: ../plugins/notification/notification.c:147
+#: ../plugins/notification/preferences-page-plugin-notification.c:128
+msgid "Notification"
+msgstr "Njoftim"
+
+#: ../plugins/notification/notification.c:148
+msgid "A notification area plugin."
+msgstr "Shtojcë zone njoftimesh."
+
+#: ../plugins/notification/notification.c:209
+msgid "Notification plugin loaded.\n"
+msgstr "U ngarkua shtojca e njoftimeve.\n"
+
+#: ../plugins/notification/notification.c:230
+msgid "Notification plugin unloaded.\n"
+msgstr "U çngarkua shtojca e njoftimeve.\n"
+
+#: ../plugins/notification/notification.schemas.in.h:1
+msgid "Level of the messages that require a notification"
+msgstr "Nivel i mesazheve që kërkojnë njoftim"
+
+#: ../plugins/notification/notification.schemas.in.h:2
+msgid ""
+"Messages are classified according to their importance. Select level of "
+"messages above which the notification icon will be displayed. Valid values "
+"are: \"0\" (always displayed), \"1\" (all messages including information), "
+"\"2\" (all channel messages), \"3\" (only private or highlighted messages)."
+msgstr ""
+"Mesazhet klasifikohen sipas rëndësisë së tyre. Përzgjidhni nivel mesazhi "
+"sipër të cilit ikona e njoftimit do të shfaqet. Vlera të vlefshme janë: \"0"
+"\" (shfaqur përherë), \"1\" (tërë mesazhet, përfshi të dhëna), \"2\" (tërë "
+"mesazhet nga kanali), \"3\" (vetëm mesazhet vetjake ose me theksim)."
+
+#: ../plugins/notification/preferences-notification.glade.h:1
+msgid "<span weight=\"bold\">Notification level</span>"
+msgstr "<span weight=\"bold\">Shkallë njoftimesh</span>"
+
+#: ../plugins/notification/preferences-notification.glade.h:2
+msgid "Notify each _event"
+msgstr "Njofto për çdo _ngjarje"
+
+#: ../plugins/notification/preferences-notification.glade.h:3
+msgid "Notify each _message"
+msgstr "Njofto për çdo _mesazh"
+
+#: ../plugins/notification/preferences-notification.glade.h:4
+msgid "Notify only _private messages"
+msgstr "Njofto vetëm për mesazhe _vetjake"
+
+#: ../plugins/notification/preferences-notification.glade.h:5
+msgid "_Always display notification icon"
+msgstr "Shfaq _përherë ikonë njoftimesh"
+
+#: ../plugins/notify-osd/notify-osd.c:30
+msgid "On-screen display"
+msgstr ""
+
+#: ../plugins/notify-osd/notify-osd.c:32
+msgid ""
+"Pops up notification of important messages when XChat-GNOME doesn't have the "
+"focus"
+msgstr ""
+"Shfaq njoftime për mesazhe të rëndësishme kur  fokusin nuk e ka XChat-GNOME"
+
+#: ../plugins/notify-osd/notify-osd.c:57
+#, c-format
+msgid "Error closing notification: %s\n"
+msgstr "Njoftim gabimi mbylljeje: %s\n"
+
+#: ../plugins/notify-osd/notify-osd.c:74
+#, c-format
+msgid "Failed to send notification: %s\n"
+msgstr "Dështoi në dërgim njoftimi: %s\n"
+
+#: ../plugins/notify-osd/notify-osd.c:116
+#: ../plugins/notify-osd/notify-osd.c:142
+#, c-format
+msgid "Message in %s"
+msgstr "Mesazh te %s"
+
+#: ../plugins/notify-osd/notify-osd.c:118
+#: ../plugins/notify-osd/notify-osd.c:144
+#, c-format
+msgid "Message from %s"
+msgstr "Mesazh prej %s"
+
+#: ../plugins/notify-osd/notify-osd.c:163
+#, c-format
+msgid "Private Message from %s"
+msgstr "Mesazh Vetjak prej %s"
+
+#: ../plugins/notify-osd/notify-osd.c:210
+msgid "OSD loaded\n"
+msgstr "U ngarkua OSD-ja\n"
+
+#: ../plugins/notify-osd/notify-osd.c:214
+msgid "OSD initialization failed\n"
+msgstr "Dështoi gatitja e OSD-së\n"
+
+#: ../plugins/perl/perl.c:1372
+msgid "Perl"
+msgstr "Perl"
+
+#: ../plugins/perl/perl.c:1373
+msgid "Perl scripting interface"
+msgstr "Ndërfaqe programimi Perl"
+
+#: ../plugins/python/python.c:2090
+msgid "Python"
+msgstr "Python"
+
+#: ../plugins/python/python.c:2092
+msgid "Python scripting interface"
+msgstr "Ndërfaqe programimi Python"
+
+#: ../plugins/url_scraper/urlscraper.c:44
+msgid "xchat URL scraper"
+msgstr ""
+
+#: ../plugins/url_scraper/urlscraper.c:58 ../src/common/xchat.c:858
+msgid "Time"
+msgstr "Kohë"
+
+#: ../plugins/url_scraper/urlscraper.c:63 ../src/common/text.c:946
+msgid "Nick"
+msgstr "Nofkë"
+
+#: ../plugins/url_scraper/urlscraper.c:67 ../src/common/text.c:913
+#: ../src/common/text.c:917 ../src/common/text.c:1348
+#: ../src/fe-gnome/irc-network-editor.c:318
+msgid "Channel"
+msgstr "Kanal"
+
+#: ../plugins/url_scraper/urlscraper.c:72
+msgid "URL"
+msgstr "URL"
+
+#: ../plugins/url_scraper/urlscraper.c:154
+msgid "URL Scraper"
+msgstr ""
+
+#: ../plugins/url_scraper/urlscraper.c:155
+msgid "Grabs URLs and puts them in a separate window for easy viewing."
+msgstr ""
+"Përlan URL-ra dhe i vendos në dritare të veçantë për shikim të kollajtë."
+
+#: ../plugins/url_scraper/urlscraper.c:200
+msgid "URL Scraper failed to load: couldn't compile URL regex.\n"
+msgstr ""
+
+#: ../plugins/url_scraper/urlscraper.c:206
+msgid "URL Scraper failed to load: couldn't compile e-mail regex.\n"
+msgstr ""
+
+#: ../plugins/url_scraper/urlscraper.c:221
+msgid "URL Scraper loaded.\n"
+msgstr ""
+
+#: ../plugins/url_scraper/urlscraper.c:233
+msgid "URL Scraper unloaded.\n"
+msgstr ""
+
+#: ../plugins/url_scraper/urlscraper.schemas.in.h:1
+msgid "URL Scraper history length"
+msgstr ""
+
+#: ../plugins/url_scraper/urlscraper.schemas.in.h:2
+msgid "URL Scraper show timestamps"
+msgstr ""
+
+#: ../plugins/sound-notification/sound-notification.c:47
+msgid "New message received"
+msgstr "U mor mesazh i ri"
+
+#: ../plugins/sound-notification/sound-notification.c:56
+msgid "Sound Notification"
+msgstr "Njoftim Zanor"
+
+#: ../plugins/sound-notification/sound-notification.c:57
+msgid ""
+"Play a sound when you receive a private message or your nick is highlighted."
+msgstr ""
+"Të luajë një tingull kur ju vjen një mesazh vetjak ose kur përmendet nofka "
+"juaj."
+
+#: ../plugins/sound-notification/sound-notification.c:86
+msgid "Sound-notification plugin loaded.\n"
+msgstr "Shtojca për njoftime zanore u ngarkua.\n"
+
+#: ../plugins/sound-notification/sound-notification.c:94
+msgid "Sound-notification plugin unloaded.\n"
+msgstr "Shtojca për njoftime zanore u çngarkua.\n"
+
+#: ../plugins/tcl/tclplugin.c:2233
+msgid "tclplugin"
+msgstr "tclplugin"
+
+#: ../plugins/tcl/tclplugin.c:2234
+msgid "Tcl plugin for XChat"
+msgstr "Shtojcë Tcl për XChat-in"
+
+#: ../src/common/cfgfiles.c:354
+msgid "Cannot create ~/.xchat2"
+msgstr "S'krijohet dot ~/.xchat2"
+
+#: ../src/common/cfgfiles.c:712
+msgid "I'm busy"
+msgstr "Jam i zënë"
+
+#: ../src/common/cfgfiles.c:713
+msgid "Leaving"
+msgstr "Po iki"
+
+#: ../src/common/cfgfiles.c:760
+msgid ""
+"* Running IRC as root is stupid! You should\n"
+"  create a User Account and use that to login.\n"
+msgstr ""
+"* Xhirimi i IRC-së si rrënjë është budallallëk! Do të duhej\n"
+"   të krijonit Llogari Përdoruesi dhe ta përdorni për t'u futur.\n"
+
+#: ../src/common/dbus/dbus-client.c:73
+msgid "Couldn't connect to session bus"
+msgstr "S'u lidha dot me busin e sesionit"
+
+#. Used for dbus-based single instance app
+#: ../src/common/dbus/dbus-client.c:88
+msgid "Detection of running instance failed"
+msgstr "Zbulimi i një instance tjetër dështoi"
+
+#. Used for dbus-based single instance app
+#: ../src/common/dbus/dbus-client.c:110
+msgid "Failed to send \"url\" command to running instance"
+msgstr "Dështoi në dërgim urdhri \"url\" te instanca xhiruese"
+
+#: ../src/common/dcc.c:67
+msgid "Waiting"
+msgstr "Po pritet"
+
+#. black
+#: ../src/common/dcc.c:68
+msgid "Active"
+msgstr "Veprues"
+
+#. cyan
+#: ../src/common/dcc.c:69
+msgid "Failed"
+msgstr "Dështoi"
+
+#. red
+#: ../src/common/dcc.c:70
+msgid "Done"
+msgstr "Përmbushur"
+
+#. green
+#: ../src/common/dcc.c:71 ../src/fe-gnome/connect-dialog.c:182
+msgid "Connect"
+msgstr "Lidhu"
+
+#. black
+#: ../src/common/dcc.c:72
+msgid "Aborted"
+msgstr "U ndërpre"
+
+#: ../src/common/dcc.c:1886 ../src/common/outbound.c:2452
+#, c-format
+msgid "Cannot access %s\n"
+msgstr "S'hyhet dot te %s\n"
+
+#. ! if (osvi.dwMajorVersion >= 5)
+#. fallback to error number
+#: ../src/common/dcc.c:1887 ../src/common/text.c:1169
+#: ../src/common/text.c:1207 ../src/common/text.c:1218
+#: ../src/common/text.c:1225 ../src/common/text.c:1238
+#: ../src/common/text.c:1255 ../src/common/text.c:1355
+#: ../src/common/util.c:352
+msgid "Error"
+msgstr "Gabim"
+
+#: ../src/common/dcc.c:2375
+#, c-format
+msgid "%s is offering \"%s\". Do you want to accept?"
+msgstr "%s po ju ofron \"%s\". Doni të pranohet?"
+
+#: ../src/common/dcc.c:2586
+msgid "No active DCCs\n"
+msgstr "S'ka DCC-ra vepruese\n"
+
+#: ../src/common/ignore.c:120 ../src/common/ignore.c:124
+#: ../src/common/ignore.c:128 ../src/common/ignore.c:132
+#: ../src/common/ignore.c:136 ../src/common/ignore.c:140
+#: ../src/common/ignore.c:144
+msgid "YES  "
+msgstr "PO  "
+
+#: ../src/common/ignore.c:122 ../src/common/ignore.c:126
+#: ../src/common/ignore.c:130 ../src/common/ignore.c:134
+#: ../src/common/ignore.c:138 ../src/common/ignore.c:142
+#: ../src/common/ignore.c:146
+msgid "NO   "
+msgstr "JO   "
+
+#: ../src/common/ignore.c:377
+#, c-format
+msgid "You are being CTCP flooded from %s, ignoring %s\n"
+msgstr "Po CTCP përmbyteni prej %s, po shpërfillet %s\n"
+
+#: ../src/common/ignore.c:402
+#, c-format
+msgid "You are being MSG flooded from %s, setting gui_auto_open_dialog OFF.\n"
+msgstr "Po MSG përmbyteni prej %s, po vendoset gui_auto_open_dialog në OFF.\n"
+
+#: ../src/common/notify.c:473
+#, c-format
+msgid "  %-20s online\n"
+msgstr "  %-20s të lidhur\n"
+
+#: ../src/common/notify.c:475
+#, c-format
+msgid "  %-20s offline\n"
+msgstr "  %-20s të palidhur\n"
+
+#: ../src/common/outbound.c:72
+msgid "No channel joined. Try /join #<channel>\n"
+msgstr "Nuk u hy në ndonjë kanal. Provoni /join #<kanal>\n"
+
+#: ../src/common/outbound.c:78
+msgid "Not connected. Try /server <host> [<port>]\n"
+msgstr "I palidhur. Provoni /server <strehë> [<portë>]\n"
+
+#: ../src/common/outbound.c:339
+#, c-format
+msgid "Already marked away: %s\n"
+msgstr "I shënuar si i larguar tashmë: %s\n"
+
+#: ../src/common/outbound.c:409
+msgid "Already marked back.\n"
+msgstr "I shënuar njëherë si i kthyer.\n"
+
+#: ../src/common/outbound.c:1814
+msgid "I need /bin/sh to run!\n"
+msgstr "Më duhet /bin/sh për të xhiruar!\n"
+
+#: ../src/common/outbound.c:2185
+msgid "Commands Available:"
+msgstr "Urdhra të Passhëm:"
+
+#: ../src/common/outbound.c:2199
+msgid "User defined commands:"
+msgstr "Urdhra të përkufizuar nga përdoruesi:"
+
+#: ../src/common/outbound.c:2215
+msgid "Plugin defined commands:"
+msgstr "Urdhra të përkufizuar nga shtojca:"
+
+#: ../src/common/outbound.c:2226
+msgid "Type /HELP <command> for more information, or /HELP -l"
+msgstr "Për më tepër të dhëna, shtypni /HELP <urdhër>  ose /HELP -l"
+
+#: ../src/common/outbound.c:2301
+#, c-format
+msgid "Unknown arg '%s' ignored."
+msgstr "U shpërfill argument i panjohur '%s'."
+
+#: ../src/common/outbound.c:3235
+msgid "No such plugin found.\n"
+msgstr "S'gjendet shtojcë e tillë.\n"
+
+#: ../src/common/outbound.c:3240
+msgid "That plugin is refusing to unload.\n"
+msgstr "Ajo shtojcë nuk pranon të çngarkohet.\n"
+
+#: ../src/common/outbound.c:3509
+msgid "ADDBUTTON <name> <action>, adds a button under the user-list"
+msgstr "ADDBUTON <emër> <veprim>, shton një buton nën një listë përdoruesi"
+
+#: ../src/common/outbound.c:3511
+msgid "ALLCHAN <cmd>, sends a command to all channels you're in"
+msgstr "ALLCHAN <urd>,  u dërgon një urdhër tërë kanaleve gjendeni i futur"
+
+#: ../src/common/outbound.c:3513
+msgid "ALLCHANL <cmd>, sends a command to all channels you're in"
+msgstr "ALLCHAN <urd>,  u dërgon një urdhër tërë kanaleve ku gjendeni i futur"
+
+#: ../src/common/outbound.c:3515
+msgid "ALLSERV <cmd>, sends a command to all servers you're in"
+msgstr "ALLSERV <urd>, u dërgon një urdhër tërë shërbyesve ku gjendeni i futur"
+
+#: ../src/common/outbound.c:3516
+msgid "AWAY [<reason>], sets you away"
+msgstr "AWAY [<arsye>], ju tregon të larguar"
+
+#: ../src/common/outbound.c:3517
+msgid "BACK, sets you back (not away)"
+msgstr "BACK, ju tregon të kthyer (pra jo më të larguar)"
+
+#: ../src/common/outbound.c:3519
+msgid ""
+"BAN <mask> [<bantype>], bans everyone matching the mask from the current "
+"channel. If they are already on the channel this doesn't kick them (needs "
+"chanop)"
+msgstr ""
+"BAN <maskë> [<llojndalimi>], i ndalon kanalin e çastit kujtdo që përputhet "
+"me maskën. Nëse tashmë janë në kanal, kjo nuk i përzë (lyp chanop)"
+
+#: ../src/common/outbound.c:3521
+msgid ""
+"Set per channel options\n"
+"CHANOPT CONFMODE ON|OFF - Toggle conf mode/showing of join and part "
+"messages\n"
+"CHANOPT COLORPASTE ON|OFF - Toggle color paste\n"
+"CHANOPT BEEP ON|OFF - Toggle beep on message\n"
+"CHANOPT TRAY ON|OFF - Toggle tray blink on message"
+msgstr ""
+"Mundësi të caktueshme për kanalet\n"
+"CHANOPT CONFMODE ON|OFF - Me ose mënyrë formësimi/shfajeje mesazhesh hyrjeje "
+"dhe dalje\n"
+"CHANOPT COLORPASTE ON|OFF - Me ose pa ngjitje ngjyrash\n"
+"CHANOPT BEEP ON|OFF - Me ose pa bip gjatë mesazhesh\n"
+"CHANOPT TRAY ON|OFF - Me ose pa xixëllim paneli gjatë mesazhesh"
+
+#: ../src/common/outbound.c:3528
+msgid "CLEAR [ALL|HISTORY], Clears the current text window or command history"
+msgstr ""
+"CLEAR [ALL|HISTORY], Pastron dritaren e tanishme të teksteve ose historikun "
+"e urdhërave"
+
+#: ../src/common/outbound.c:3529
+msgid "CLOSE, Closes the current window/tab"
+msgstr "CLOSE, Mbyll dritaren/skedën e tanishme"
+
+#: ../src/common/outbound.c:3532
+msgid "COUNTRY [-s] <code|wildcard>, finds a country code, eg: au = australia"
+msgstr "COUNTRY [-s] <code|wildcard>, gjen një kod vendi, p.sh.: sq = Shqipëri"
+
+#: ../src/common/outbound.c:3534
+msgid ""
+"CTCP <nick> <message>, send the CTCP message to nick, common messages are "
+"VERSION and USERINFO"
+msgstr ""
+"CTCP <nofkë> <mesazh>, i dërgon nofkës një mesazh CTCP, mesazhe të rëndomtë "
+"janë VERSION dhe USERINFO"
+
+#: ../src/common/outbound.c:3536
+msgid ""
+"CYCLE [<channel>], parts the current or given channel and immediately rejoins"
+msgstr ""
+"CYCLE, del dhe menjëherë ribashkohet me kanalin e tanishëm ose me atë që i "
+"tregohet"
+
+#: ../src/common/outbound.c:3538
+msgid ""
+"\n"
+"DCC GET <nick>                      - accept an offered file\n"
+"DCC SEND [-maxcps=#] <nick> [file]  - send a file to someone\n"
+"DCC PSEND [-maxcps=#] <nick> [file] - send a file using passive mode\n"
+"DCC LIST                            - show DCC list\n"
+"DCC CHAT <nick>                     - offer DCC CHAT to someone\n"
+"DCC PCHAT <nick>                    - offer DCC CHAT using passive mode\n"
+"DCC CLOSE <type> <nick> <file>         example:\n"
+"         /dcc close send johnsmith file.tar.gz"
+msgstr ""
+"\n"
+"DCC GET <nofkë>                        - prano një kartelë të ofruar\n"
+"DCC SEND [-maxcps=#] <nofkë> [kartelë] - dërgo një kartelë te dikush\n"
+"DCC PSEND [-maxcps=#] <nick> [file]    - dërgo një kartelë duke përdorur "
+"mënyrën pasive\n"
+"DCC LIST                               - shfaq listë DCC\n"
+"DCC CHAT <nofkë>                       - ofro FJALOSJE DCC për dikë\n"
+"DCC PCHAT <nick>                       - ofro FJALOSJE DCC duke përdorur "
+"mënyrën pasive\n"
+"DCC CLOSE <lloj> <nofkë> <kartelë>         shembull:\n"
+"         /dcc close send hasanqerja kartelë.tar.gz"
+
+#: ../src/common/outbound.c:3550
+msgid ""
+"DEHOP <nick>, removes chanhalf-op status from the nick on the current "
+"channel (needs chanop)"
+msgstr ""
+"DEOP <nofkë>, i heq nofkës gjendjen chanhalf-op për kanalin e çastit (lyp "
+"chanop)"
+
+#: ../src/common/outbound.c:3552
+msgid "DELBUTTON <name>, deletes a button from under the user-list"
+msgstr "DELBUTON <emër>, fshin një buton prej që poshtë liste përdoruesish"
+
+#: ../src/common/outbound.c:3554
+msgid ""
+"DEOP <nick>, removes chanop status from the nick on the current channel "
+"(needs chanop)"
+msgstr ""
+"DEOP <nofkë>, i heq nofkës gjendjen chanop në kanalin e çastit (lyp chanop)"
+
+#: ../src/common/outbound.c:3556
+msgid ""
+"DEVOICE <nick>, removes voice status from the nick on the current channel "
+"(needs chanop)"
+msgstr ""
+"DEVOICE <nofkë>, i heq nofkës gjendjen i zëshëm në kanalin e çasti (lyp "
+"chanop)"
+
+#: ../src/common/outbound.c:3557
+msgid "DISCON, Disconnects from server"
+msgstr "DISCON, Shkëputet prej shërbyesit"
+
+#: ../src/common/outbound.c:3558
+msgid "DNS <nick|host|ip>, Finds a users IP number"
+msgstr "DNS <nofkë|strehë|ip>, Gjen numër IP të një përdoruesi"
+
+#: ../src/common/outbound.c:3559
+msgid "ECHO <text>, Prints text locally"
+msgstr "ECHO <text>, Shfaq tekst lokalisht"
+
+#: ../src/common/outbound.c:3562
+msgid ""
+"EXEC [-o] <command>, runs the command. If -o flag is used then output is "
+"sent to current channel, else is printed to current text box"
+msgstr ""
+"EXEC [-o] <urdhër>, përmbush urdhrin. Nëse përdoret flamurka -o, atëherë "
+"përfundimi dërgohet në kanalin e çastit, në të kundërt jepet te kuti e "
+"çastit për tekstet "
+
+#: ../src/common/outbound.c:3564
+msgid "EXECCONT, sends the process SIGCONT"
+msgstr "EXECCONT, i dërgon procesit SIGCONT"
+
+#: ../src/common/outbound.c:3567
+msgid ""
+"EXECKILL [-9], kills a running exec in the current session. If -9 is given "
+"the process is SIGKILL'ed"
+msgstr ""
+"EXECKILL [-9], asgjëson një përmbushje që po kryhet në kanalin e çastit. "
+"Nëse jepet -9 procesi është \"SIGKILL'ed\""
+
+#: ../src/common/outbound.c:3569
+msgid "EXECSTOP, sends the process SIGSTOP"
+msgstr "EXECSTOP, i dërgon procesit SIGSTOP"
+
+#: ../src/common/outbound.c:3570
+msgid "EXECWRITE, sends data to the processes stdin"
+msgstr "EXECWRITE, i dërgon të dhënat te proceset \"stdin\""
+
+#: ../src/common/outbound.c:3574
+msgid "FLUSHQ, flushes the current server's send queue"
+msgstr "FLUSHQ, asgjëson mesazhe të çastit që prisnin të dërgoheshin"
+
+#: ../src/common/outbound.c:3576
+msgid "GATE <host> [<port>], proxies through a host, port defaults to 23"
+msgstr ""
+"GATE <strehë> [<portë>], ndërmjetëson te një strehë përmes një porte, me "
+"portë parazgjedhje 23"
+
+#: ../src/common/outbound.c:3580
+msgid "GHOST <nick> <password>, Kills a ghosted nickname"
+msgstr "GHOST <nofkë> <fjalëkalim>, Asgjëson një emër nofke fantazmë"
+
+#: ../src/common/outbound.c:3585
+msgid "HOP <nick>, gives chanhalf-op status to the nick (needs chanop)"
+msgstr "HOP <nofkë>, i jep nofkës gjendjen chanhalf-op (lyp chanop)"
+
+#: ../src/common/outbound.c:3586
+msgid "ID <password>, identifies yourself to nickserv"
+msgstr "ID <password>, ju identifikon karshi nickserv"
+
+#: ../src/common/outbound.c:3588
+msgid ""
+"IGNORE <mask> <types..> <options..>\n"
+"    mask - host mask to ignore, eg: *!*@*.aol.com\n"
+"    types - types of data to ignore, one or all of:\n"
+"            PRIV, CHAN, NOTI, CTCP, DCC, INVI, ALL\n"
+"    options - NOSAVE, QUIET"
+msgstr ""
+"IGNORE <maskë> <lloje..> <mundësi..>\n"
+"    maskë - maskë strehe për t'u shpërfillur, p.sh.: *!*@*.aol.com\n"
+"    lloje - lloje të dhënash për t'u shpërfillur, një ose të tërë prej:\n"
+"            PRIV, CHAN, NOTI, CTCP, DCC, INVI, ALL\n"
+"    mundësi - NOSAVE, QUIET"
+
+#: ../src/common/outbound.c:3595
+msgid ""
+"INVITE <nick> [<channel>], invites someone to a channel, by default the "
+"current channel (needs chanop)"
+msgstr ""
+"INVITE <nofkë> [<kanal>], fton dikë në një kanal, si parazgjedhje tek kanali "
+"i çastit (lyp chanop)"
+
+#: ../src/common/outbound.c:3596
+msgid "JOIN <channel>, joins the channel"
+msgstr "JOIN <kanal>, hyhet te kanali"
+
+#: ../src/common/outbound.c:3598
+msgid "KICK <nick>, kicks the nick from the current channel (needs chanop)"
+msgstr "KICK <nofkë>, përzë nofkën prej kanalit të çastit (ly chanop)"
+
+#: ../src/common/outbound.c:3600
+msgid ""
+"KICKBAN <nick>, bans then kicks the nick from the current channel (needs "
+"chanop)"
+msgstr ""
+"KICKBAN <nofkë>, i ndalon hyrjen e mandej përzë nofkën prej kanalit të "
+"çastit (lyp chanop)"
+
+#: ../src/common/outbound.c:3603
+msgid "LAGCHECK, forces a new lag check"
+msgstr "LAGCHECK, detyron një kontroll të ri vonese"
+
+#: ../src/common/outbound.c:3605
+msgid "LASTLOG <string>, searches for a string in the buffer"
+msgstr "LASTLOG <varg>, kërkon në shtytëz për një varg"
+
+#: ../src/common/outbound.c:3607
+msgid "LOAD [-e] <file>, loads a plugin or script"
+msgstr "LOAD [e] <kartelë>, ngarkon një shtojcë ose një programth"
+
+#: ../src/common/outbound.c:3610
+msgid ""
+"MDEHOP, Mass deop's all chanhalf-ops in the current channel (needs chanop)"
+msgstr ""
+"MDEHOP, Heq gjendje operatori për tërë gjysmëoperatorët e kanalit në kanalin "
+"e çastit (lyp chanop)"
+
+#: ../src/common/outbound.c:3612
+msgid "MDEOP, Mass deop's all chanops in the current channel (needs chanop)"
+msgstr ""
+"MDEOP, Heq gjendje operatori për tërë chanop-ët në kanalin e çastit (lyp "
+"chanop)"
+
+#: ../src/common/outbound.c:3614
+msgid ""
+"ME <action>, sends the action to the current channel (actions are written in "
+"the 3rd person, like /me jumps)"
+msgstr ""
+"ME <veprim>, dërgon veprimin te kanali i çastit (veprimet shprehen në vetën "
+"e tretë, si /unë hidhet)"
+
+#: ../src/common/outbound.c:3618
+msgid ""
+"MKICK, Mass kicks everyone except you in the current channel (needs chanop)"
+msgstr ""
+"MKICK, Përzë në masë cilindo, veç jush, nga kanali i çastit (lyp chanop)"
+
+#: ../src/common/outbound.c:3621
+msgid "MOP, Mass op's all users in the current channel (needs chanop)"
+msgstr "MOP, Op-on në masë tërë përdoruesit në kanalin e çastit (lyp kanop)"
+
+#: ../src/common/outbound.c:3622
+msgid "MSG <nick> <message>, sends a private message"
+msgstr "MSG <nofkë> <mesazh>, dërgon një mesazh vetjak"
+
+#: ../src/common/outbound.c:3625
+msgid "NAMES, Lists the nicks on the current channel"
+msgstr "NAMES, Radhit nofkat në kanalin e çastit"
+
+#: ../src/common/outbound.c:3627
+msgid "NCTCP <nick> <message>, Sends a CTCP notice"
+msgstr "NCTCP <nofkë> <mesazh>, Dërgon një njoftim CTCP"
+
+#: ../src/common/outbound.c:3628
+msgid "NEWSERVER [-noconnect] <hostname> [<port>]"
+msgstr "NEWSERVER [-noconnect] <strehëemër> [<portë>]"
+
+#: ../src/common/outbound.c:3629
+msgid "NICK <nickname>, sets your nick"
+msgstr "NICK <nofkë>, cakton nofkën tuaj"
+
+#: ../src/common/outbound.c:3632
+msgid ""
+"NOTICE <nick/channel> <message>, sends a notice. Notices are a type of "
+"message that should be auto reacted to"
+msgstr ""
+"NOTICE <nofkë/kanal> <mesazh>, dërgon një njoftim. Njoftimet janë një lloj "
+"mesazhi ndaj të cilëve vetëreagohet"
+
+#: ../src/common/outbound.c:3634
+msgid ""
+"NOTIFY [-n network1[,network2,...]] [<nick>], displays your notify list or "
+"adds someone to it"
+msgstr ""
+"NOTIFY [-n rrjeti1[,rrjeti2,...]] [<nofkë>], shfaq listën tuaj të njoftimeve "
+"ose shton dikë në të"
+
+#: ../src/common/outbound.c:3636
+msgid "OP <nick>, gives chanop status to the nick (needs chanop)"
+msgstr "OP <nofkë>, i jep nofkës gjendje chanop (lyp chanop)"
+
+#: ../src/common/outbound.c:3638
+msgid ""
+"PART [<channel>] [<reason>], leaves the channel, by default the current one"
+msgstr "PART [<kanal>] [<arsye>], lë kanalin, si parazgjedhje atë të çastit"
+
+#: ../src/common/outbound.c:3640
+msgid "PING <nick | channel>, CTCP pings nick or channel"
+msgstr "PING <nofkë | kanal>, CTCP ping për nofkë ose kanal"
+
+#: ../src/common/outbound.c:3642
+msgid "QUERY [-nofocus] <nick>, opens up a new privmsg window to someone"
+msgstr "QUERY [-nofocus] <nofkë>, i hap dikujt dritare mesazhesh vetjake"
+
+#: ../src/common/outbound.c:3644
+msgid "QUIT [<reason>], disconnects from the current server"
+msgstr "QUIT [<arsye>], shkëputet prej shërbyesit të çastit"
+
+#: ../src/common/outbound.c:3646
+msgid "QUOTE <text>, sends the text in raw form to the server"
+msgstr "QUOTE <tekst>, dërgon te shërbyesi tekstin e patrajtuar"
+
+#: ../src/common/outbound.c:3649
+msgid ""
+"RECONNECT [-ssl] [<host>] [<port>] [<password>], Can be called just as /"
+"RECONNECT to reconnect to the current server or with /RECONNECT ALL to "
+"reconnect to all the open servers"
+msgstr ""
+"RECONNECT [-ssl] [<strehë>] [<portë>] [<fjalëkalim>], Mund të jepet thjesht "
+"si /RECONNECT për t'u rilidhur me shërbyesin e çastit ose si /RECONNECT ALL "
+"për t'u rilidhur me tërë shërbyesat e hapur"
+
+#: ../src/common/outbound.c:3652
+msgid ""
+"RECONNECT [<host>] [<port>] [<password>], Can be called just as /RECONNECT "
+"to reconnect to the current server or with /RECONNECT ALL to reconnect to "
+"all the open servers"
+msgstr ""
+"RECONNECT [<strehë>] [<portë>] [<fjalëkalim>], Mund të jepet thjesht si /"
+"RECONNECT për t'u rilidhur me shërbyesin e çastit ose si /RECONNECT ALL për "
+"t'u rilidhur me tërë shërbyesat e hapur"
+
+#: ../src/common/outbound.c:3654
+msgid ""
+"RECV <text>, send raw data to xchat, as if it was received from the irc "
+"server"
+msgstr ""
+"RECV <tekst>, i dërgon xchat-it të dhëna bruto, si të merreshin prej "
+"shërbyesit irc"
+
+#: ../src/common/outbound.c:3657
+msgid "SAY <text>, sends the text to the object in the current window"
+msgstr "SAY <tekst>, dërgon tekstin te objekti në dritaren e çastit"
+
+#: ../src/common/outbound.c:3658
+msgid "SEND <nick> [<file>]"
+msgstr "SEND <nofkë [<kartelë>]"
+
+#: ../src/common/outbound.c:3661
+msgid "SERVCHAN [-ssl] <host> <port> <channel>, connects and joins a channel"
+msgstr ""
+"SERVCHAN [-ssl] <strehë> <portë> <kanal>, lidhet te dhe bashkohet me një "
+"kanal"
+
+#: ../src/common/outbound.c:3664
+msgid "SERVCHAN <host> <port> <channel>, connects and joins a channel"
+msgstr ""
+"SERVCHAN <strehë> <portë> <kanal>, lidhet te dhe bashkohet me një kanal"
+
+#: ../src/common/outbound.c:3668
+msgid ""
+"SERVER [-ssl] <host> [<port>] [<password>], connects to a server, the "
+"default port is 6667 for normal connections, and 9999 for ssl connections"
+msgstr ""
+"SERVER [-ssl] <strehë> [<portë>] [<fjalëkalim>], lidhet me një shërbyes, "
+"porta parazgjedhje është 6667 për lidhje normale, dhe 9999 për lidhje ssl"
+
+#: ../src/common/outbound.c:3671
+msgid ""
+"SERVER <host> [<port>] [<password>], connects to a server, the default port "
+"is 6667"
+msgstr ""
+"SERVER <strehë> [<portë>] [<fjalëkalim>], lidhet me një shërbyes, porta "
+"parazgjedhje është 6667"
+
+#: ../src/common/outbound.c:3673
+msgid "SET [-e] [-or] [-quiet] <variable> [<value>]"
+msgstr "SET [-e] [-or] [-quiet] <ndryshore> [<vlerë>]"
+
+#: ../src/common/outbound.c:3674
+msgid "SETCURSOR [-|+]<position>"
+msgstr "SETCURSOR [-|+]<pozicion>"
+
+#: ../src/common/outbound.c:3679
+msgid ""
+"TOPIC [<topic>], sets the topic if one is given, else shows the current topic"
+msgstr ""
+"TOPIC [<temë>], e cakton si temë nëse jepet një, përndryshe shfaq temën e "
+"çastit"
+
+#: ../src/common/outbound.c:3681
+msgid ""
+"\n"
+"TRAY -f <timeout> <file1> [<file2>] Blink tray between two icons.\n"
+"TRAY -f <filename>                  Set tray to a fixed icon.\n"
+"TRAY -i <number>                    Blink tray with an internal icon.\n"
+"TRAY -t <text>                      Set the tray tooltip.\n"
+"TRAY -b <title> <text>              Set the tray balloon."
+msgstr ""
+"\n"
+"TRAY -f <skadencë> <kartelë1> [<kartelë2>] Xixëllo pjesën e panelit mes dy "
+"ikonave.\n"
+"TRAY -f <emër kartele>                  Caktoje panelin sa një ionë fikse.\n"
+"TRAY -i <numër>                    Xixëllo panelin me një ikonë të "
+"brendshme.\n"
+"TRAY -t <tekst>                      Cakto ndihmëz paneli.\n"
+"TRAY -b <titull> <tekst>              Cakto ballon paneli."
+
+#: ../src/common/outbound.c:3688
+msgid "UNBAN <mask> [<mask>...], unbans the specified masks."
+msgstr "UNBAN <maskë> [<maskë>...], heq ndalimin për maskat e treguara."
+
+#: ../src/common/outbound.c:3689
+msgid "UNIGNORE <mask> [QUIET]"
+msgstr "UNIGNORE <maskë> [URTË]"
+
+#: ../src/common/outbound.c:3690
+msgid "UNLOAD <name>, unloads a plugin or script"
+msgstr "UNLOAD <emër>, çngarkon një shtojcë ose një programth"
+
+#: ../src/common/outbound.c:3691
+msgid "URL <url>, opens a URL in your browser"
+msgstr "URL <url>, hap një URL në shfletuesin tuaj"
+
+#: ../src/common/outbound.c:3693
+msgid ""
+"USELECT [-a] [-s] <nick1> <nick2> etc, highlights nick(s) in channel userlist"
+msgstr ""
+"USELECT [-a] [-s] <nofka1> <nofka2> etj, thekson nofkën(at) në listën e "
+"përdoruesve të kanalit"
+
+#: ../src/common/outbound.c:3696
+msgid "VOICE <nick>, gives voice status to someone (needs chanop)"
+msgstr "VOICE <nofkë>, jep gjendje i zëshëm për dikë (lyp kanop)"
+
+#: ../src/common/outbound.c:3698
+msgid "WALLCHAN <message>, writes the message to all channels"
+msgstr "WALLCHAN <mesazh>, shkruan mesazhin te tërë kanalet"
+
+#: ../src/common/outbound.c:3700
+msgid ""
+"WALLCHOP <message>, sends the message to all chanops on the current channel"
+msgstr "WALLCHOP <mesazh>, dërgon mesazhin te tërë kanopët në kanalin e çastit"
+
+#: ../src/common/outbound.c:3733
+#, c-format
+msgid "Usage: %s\n"
+msgstr "Përdorimi: %s\n"
+
+#: ../src/common/outbound.c:3738
+msgid ""
+"\n"
+"No help available on that command.\n"
+msgstr ""
+"\n"
+"S'ka ndihmë rreth këtij urdhri.\n"
+
+#: ../src/common/outbound.c:3744
+msgid "No such command.\n"
+msgstr "S'ka të tillë urdhër.\n"
+
+#: ../src/common/outbound.c:4074
+msgid "Bad arguments for user command.\n"
+msgstr "Argumente të gabuar për urdhër përdoruesi.\n"
+
+#: ../src/common/outbound.c:4230
+msgid "Too many recursive usercommands, aborting."
+msgstr "Shumë urdhra përdoruesi ripërsëritës, po e ndërpret."
+
+#: ../src/common/outbound.c:4307
+msgid "Unknown Command. Try /help\n"
+msgstr "Urdhër i Panjohur. Provoni /help\n"
+
+#: ../src/common/plugin.c:356 ../src/common/plugin.c:397
+msgid "No xchat_plugin_init symbol; is this really an xchat plugin?"
+msgstr "S'ka shenjë xchat_plugin_init; është kjo vërtet një shtojcë xchat-i?"
+
+#: ../src/common/server.c:634
+msgid "Are you sure this is a SSL capable server and port?\n"
+msgstr "Jeni i sigurt se ky është një shërbyes dhe portë me mundësi SSL?\n"
+
+#: ../src/common/server.c:1024
+#, c-format
+msgid ""
+"Cannot resolve hostname %s\n"
+"Check your IP Settings!\n"
+msgstr ""
+"Nuk ftillohet dot emërstreha %s\n"
+"Kontrolloni Rregullimet tuaj IP!\n"
+
+#: ../src/common/server.c:1029
+msgid "Proxy traversal failed.\n"
+msgstr "Ndërmjetësi traversal dështoi.\n"
+
+#: ../src/common/servlist.c:643
+#, c-format
+msgid "Cycling to next server in %s...\n"
+msgstr "Po ciklohet te shërbyesi pasues në %s...\n"
+
+#: ../src/common/servlist.c:1074
+#, c-format
+msgid ""
+"Warning: \"%s\" character set is unknown. No conversion will be applied for "
+"network %s."
+msgstr ""
+"Kujdes: Gërmat \"%s\" janë të panjohura. Nuk do të zbatohet ndonjë shndërrim "
+"për rrjetin %s."
+
+#. get rid of the \n
+#: ../src/common/text.c:292
+msgid "Loaded log from"
+msgstr "U ngarkua regjistrim prej"
+
+#: ../src/common/text.c:310
+#, c-format
+msgid "**** ENDING LOGGING AT %s\n"
+msgstr "**** PO PËRFUNDOHET REGJISTRIMI NË %s\n"
+
+#: ../src/common/text.c:519
+#, c-format
+msgid "**** BEGIN LOGGING AT %s\n"
+msgstr "**** PO FILLOHET REGJISTRIMI NË %s\n"
+
+#: ../src/common/text.c:538
+#, c-format
+msgid ""
+"* Can't open log file(s) for writing. Check the\n"
+"  permissions on %s/xchatlogs"
+msgstr ""
+"* S'hapet dot kartelë(a) për shkrim. Kontrolloni\n"
+"  lejet tek %s/xchatlogs"
+
+#: ../src/common/text.c:876
+msgid "Left message"
+msgstr "Mesazh majtas"
+
+#: ../src/common/text.c:877
+msgid "Right message"
+msgstr "Mesazh djathtas"
+
+#: ../src/common/text.c:881
+msgid "The nick of the joining person"
+msgstr "Nofka e personit që po hyn"
+
+#: ../src/common/text.c:882
+msgid "The channel being joined"
+msgstr "Kanali ku po hyhet"
+
+#: ../src/common/text.c:883 ../src/common/text.c:930 ../src/common/text.c:981
+msgid "The host of the person"
+msgstr "Streha e personit"
+
+#: ../src/common/text.c:888
+msgid "The action"
+msgstr "Veprimi"
+
+#: ../src/common/text.c:889 ../src/common/text.c:895
+msgid "Mode char"
+msgstr "Gërma mënyre"
+
+#: ../src/common/text.c:894
+msgid "The text"
+msgstr "Teksti"
+
+#: ../src/common/text.c:896 ../src/common/text.c:902
+msgid "Identified text"
+msgstr "Tekst i identifikuar"
+
+#: ../src/common/text.c:901 ../src/common/text.c:958 ../src/common/text.c:964
+msgid "The message"
+msgstr "Mesazhi"
+
+#: ../src/common/text.c:906 ../src/common/text.c:968
+msgid "Old nickname"
+msgstr "Nofkë e vjetër"
+
+#: ../src/common/text.c:907 ../src/common/text.c:969
+msgid "New nickname"
+msgstr "Nofkë e re"
+
+#: ../src/common/text.c:911
+msgid "Nick of person who changed the topic"
+msgstr "Nofkë e personit që ndryshoi temë"
+
+#: ../src/common/text.c:912 ../src/common/text.c:918
+#: ../src/fe-gnome/channel-list-window.c:452
+msgid "Topic"
+msgstr "Temë"
+
+#: ../src/common/text.c:922 ../src/common/text.c:975
+msgid "The nickname of the kicker"
+msgstr "Nofka e përzënësit"
+
+#: ../src/common/text.c:923 ../src/common/text.c:973
+msgid "The person being kicked"
+msgstr "Personi që po përzihet"
+
+#: ../src/common/text.c:924 ../src/common/text.c:931 ../src/common/text.c:935
+#: ../src/common/text.c:940 ../src/common/text.c:974 ../src/common/text.c:982
+#: ../src/common/text.c:989
+msgid "The channel"
+msgstr "Kanali"
+
+#: ../src/common/text.c:925 ../src/common/text.c:976 ../src/common/text.c:983
+msgid "The reason"
+msgstr "Arsyeja"
+
+#: ../src/common/text.c:929 ../src/common/text.c:980
+msgid "The nick of the person leaving"
+msgstr "Nofka e personit që po ikën"
+
+#: ../src/common/text.c:936 ../src/common/text.c:942
+msgid "The time"
+msgstr "Koha"
+
+#: ../src/common/text.c:941
+msgid "The creator"
+msgstr "Krijuesi"
+
+#: ../src/common/text.c:947 ../src/common/text.c:1200
+msgid "Reason"
+msgstr "Arsye"
+
+#: ../src/common/text.c:948 ../src/common/text.c:1090
+#: ../src/common/text.c:1173
+msgid "Host"
+msgstr "Strehë"
+
+#: ../src/common/text.c:952 ../src/common/text.c:957 ../src/common/text.c:962
+msgid "Who it's from"
+msgstr "Kush është prej"
+
+#: ../src/common/text.c:953
+msgid "The time in x.x format (see below)"
+msgstr "Koha në format x.x (shihni më poshtë)"
+
+#: ../src/common/text.c:963 ../src/common/text.c:1000
+msgid "The Channel it's going to"
+msgstr "Kanali ku po shkohet"
+
+#: ../src/common/text.c:987
+msgid "The sound"
+msgstr "Tingulli"
+
+#: ../src/common/text.c:988 ../src/common/text.c:994 ../src/common/text.c:999
+msgid "The nick of the person"
+msgstr "Nofka e personit"
+
+#: ../src/common/text.c:993 ../src/common/text.c:998
+msgid "The CTCP event"
+msgstr "Ngjarja CTCP"
+
+#: ../src/common/text.c:1004
+msgid "The nick of the person who set the key"
+msgstr "Nofka e personit që caktoi kyçin"
+
+#: ../src/common/text.c:1005
+msgid "The key"
+msgstr "Kyçi"
+
+#: ../src/common/text.c:1009
+msgid "The nick of the person who set the limit"
+msgstr "Nofka e personit që caktoi kufirin"
+
+#: ../src/common/text.c:1010
+msgid "The limit"
+msgstr "Kufiri"
+
+#: ../src/common/text.c:1014
+msgid "The nick of the person who did the op'ing"
+msgstr "Nofka e personit që bëri op-im"
+
+#: ../src/common/text.c:1015
+msgid "The nick of the person who has been op'ed"
+msgstr "Nofka e personit që u op-ua"
+
+#: ../src/common/text.c:1019
+msgid "The nick of the person who has been halfop'ed"
+msgstr "Nofka e personit që është gjysmëop-uar"
+
+#: ../src/common/text.c:1020
+msgid "The nick of the person who did the halfop'ing"
+msgstr "Nofka e personit që bëri gjysmëop-im"
+
+#: ../src/common/text.c:1024
+msgid "The nick of the person who did the voice'ing"
+msgstr "Nofka e personit që dha zë"
+
+#: ../src/common/text.c:1025
+msgid "The nick of the person who has been voice'ed"
+msgstr "Nofka e personit që u bë i zëshëm"
+
+#: ../src/common/text.c:1029
+msgid "The nick of the person who did the banning"
+msgstr "Nofka e personit që bëri ndalimin"
+
+#: ../src/common/text.c:1030 ../src/common/text.c:1057
+msgid "The ban mask"
+msgstr "Maska e ndalimit"
+
+#: ../src/common/text.c:1034
+msgid "The nick who removed the key"
+msgstr "Nofka që hoqi kyçin"
+
+#: ../src/common/text.c:1038
+msgid "The nick who removed the limit"
+msgstr "Nofka që hoqi kufirin"
+
+#: ../src/common/text.c:1042
+msgid "The nick of the person of did the deop'ing"
+msgstr "Nofka e personit që bëri deopimin"
+
+#: ../src/common/text.c:1043
+msgid "The nick of the person who has been deop'ed"
+msgstr "Nofka e personit që u deopua"
+
+#: ../src/common/text.c:1046
+msgid "The nick of the person of did the dehalfop'ing"
+msgstr "Nofka e personit që bëri gjysmëdeopimin"
+
+#: ../src/common/text.c:1047
+msgid "The nick of the person who has been dehalfop'ed"
+msgstr "Nofka e personit që u gjysmëdeopua"
+
+#: ../src/common/text.c:1051
+msgid "The nick of the person of did the devoice'ing"
+msgstr "Nofka e personit që bëri çzanimin"
+
+#: ../src/common/text.c:1052
+msgid "The nick of the person who has been devoice'ed"
+msgstr "Nofka e personit që u çzanua"
+
+#: ../src/common/text.c:1056
+msgid "The nick of the person of did the unban'ing"
+msgstr "Nofka e personit që hoqi ndalimin"
+
+#: ../src/common/text.c:1061
+msgid "The nick of the person who did the exempt"
+msgstr "Nofka e personit që bëri përjashtimin"
+
+#: ../src/common/text.c:1062 ../src/common/text.c:1067
+msgid "The exempt mask"
+msgstr "Maska e përjashtimit"
+
+#: ../src/common/text.c:1066
+msgid "The nick of the person removed the exempt"
+msgstr "Nofka e personit që hoqi përjashtimin"
+
+#: ../src/common/text.c:1071
+msgid "The nick of the person who did the invite"
+msgstr "Nofka e personit që bëri ftesën"
+
+#: ../src/common/text.c:1072 ../src/common/text.c:1077
+msgid "The invite mask"
+msgstr "Maska e ftesës"
+
+#: ../src/common/text.c:1076
+msgid "The nick of the person removed the invite"
+msgstr "Nofka e personit që hoqi ftesën"
+
+#: ../src/common/text.c:1081
+msgid "The nick of the person setting the mode"
+msgstr "Nofka e personit që po cakton mënyrën"
+
+#: ../src/common/text.c:1082
+msgid "The mode's sign (+/-)"
+msgstr "Shenja mënyre (+/-)"
+
+#: ../src/common/text.c:1083
+msgid "The mode letter"
+msgstr "Gërma e mënyrës"
+
+#: ../src/common/text.c:1084
+msgid "The channel it's being set on"
+msgstr "Kanali është duke u bërë gati"
+
+#: ../src/common/text.c:1089
+msgid "Username"
+msgstr "Emër përdoruesi"
+
+#: ../src/common/text.c:1091
+msgid "Full name"
+msgstr "Emër i plotë"
+
+#: ../src/common/text.c:1096
+msgid "Channel Membership/\"is an IRC operator\""
+msgstr "Anëtarësi Kanali/\"është një operator IRC\""
+
+#: ../src/common/text.c:1101
+msgid "Server Information"
+msgstr "Të dhëna Shërbyesi"
+
+#: ../src/common/text.c:1106 ../src/common/text.c:1111
+msgid "Idle time"
+msgstr "Kohë bosh"
+
+#: ../src/common/text.c:1112
+msgid "Signon time"
+msgstr "Kohë nënshkrimi"
+
+#: ../src/common/text.c:1117
+msgid "Away reason"
+msgstr "Arsye largimi"
+
+#: ../src/common/text.c:1126 ../src/common/text.c:1132
+#: ../src/common/text.c:1140 ../src/common/text.c:1320
+msgid "Message"
+msgstr "Mesazh"
+
+#: ../src/common/text.c:1133
+msgid "Account"
+msgstr "Llogari"
+
+#: ../src/common/text.c:1138
+msgid "Real user@host"
+msgstr "përdorues@strehë e vërtetë"
+
+#: ../src/common/text.c:1139
+msgid "Real IP"
+msgstr "IP reale"
+
+#: ../src/common/text.c:1144 ../src/common/text.c:1153
+#: ../src/common/text.c:1159 ../src/common/text.c:1189
+#: ../src/common/text.c:1343 ../src/fe-gnome/channel-list-window.c:442
+msgid "Channel Name"
+msgstr "Emër Kanali"
+
+#: ../src/common/text.c:1148 ../src/common/text.c:1306
+msgid "Text"
+msgstr "Tekst"
+
+#: ../src/common/text.c:1149 ../src/common/text.c:1155
+#: ../src/common/text.c:1184 ../src/common/text.c:1302
+#: ../src/common/text.c:1344
+msgid "Server Name"
+msgstr "Emër Shërbyesi"
+
+#: ../src/common/text.c:1154
+msgid "Nick of person who invited you"
+msgstr "Nofkë e personit që ju ftoi"
+
+#: ../src/common/text.c:1164
+msgid "Nickname in use"
+msgstr "Nofkë në përdorim"
+
+#: ../src/common/text.c:1165
+msgid "Nick being tried"
+msgstr "Nofkë që po provohet"
+
+#: ../src/common/text.c:1174 ../src/common/text.c:1310
+msgid "IP"
+msgstr "IP"
+
+#: ../src/common/text.c:1175 ../src/common/text.c:1206
+msgid "Port"
+msgstr "Portë"
+
+#: ../src/common/text.c:1185
+msgid "Network"
+msgstr "Rrjet"
+
+#: ../src/common/text.c:1190 ../src/common/text.c:1195
+msgid "Modes string"
+msgstr "Varg mënyrash"
+
+#: ../src/common/text.c:1205 ../src/common/text.c:1243
+#: ../src/common/text.c:1248 ../src/common/text.c:1289
+msgid "IP address"
+msgstr "Vendndodhje IP"
+
+#: ../src/common/text.c:1211 ../src/common/text.c:1236
+msgid "DCC Type"
+msgstr "Lloj DCC-je"
+
+#: ../src/common/text.c:1212 ../src/common/text.c:1217
+#: ../src/common/text.c:1222 ../src/common/text.c:1229
+#: ../src/common/text.c:1249 ../src/common/text.c:1253
+#: ../src/common/text.c:1259 ../src/common/text.c:1265
+#: ../src/common/text.c:1272 ../src/common/text.c:1281
+#: ../src/common/text.c:1287
+msgid "Filename"
+msgstr "Emër kartele"
+
+#: ../src/common/text.c:1223 ../src/common/text.c:1230
+msgid "Destination filename"
+msgstr "Emër kartele vendmbrritjeje"
+
+#: ../src/common/text.c:1232 ../src/common/text.c:1261
+msgid "CPS"
+msgstr "CPS"
+
+#: ../src/common/text.c:1267
+msgid "Pathname"
+msgstr "Emër shtegu"
+
+#: ../src/common/text.c:1282
+msgid "Position"
+msgstr "Vendndodhje"
+
+#: ../src/common/text.c:1288
+msgid "Size"
+msgstr "Madhësi"
+
+#: ../src/common/text.c:1293
+msgid "DCC String"
+msgstr "Varg DCC"
+
+#: ../src/common/text.c:1298
+msgid "Number of notify items"
+msgstr "Numër objektesh njofto"
+
+#: ../src/common/text.c:1314
+msgid "Old Filename"
+msgstr "Emër i Vjetër kartele"
+
+#: ../src/common/text.c:1315
+msgid "New Filename"
+msgstr "Emër i Ri kartele"
+
+#: ../src/common/text.c:1319
+msgid "Receiver"
+msgstr "Marrës"
+
+#: ../src/common/text.c:1324
+msgid "Hostmask"
+msgstr "Strehëmaskë"
+
+#: ../src/common/text.c:1329
+msgid "Hostname"
+msgstr "Emërstrehë"
+
+#: ../src/common/text.c:1334
+msgid "The Packet"
+msgstr "Paketa"
+
+#: ../src/common/text.c:1338
+msgid "Seconds"
+msgstr "Sekonda"
+
+#: ../src/common/text.c:1342
+msgid "Nick of person who have been invited"
+msgstr "Nofkë e personit që është ftuar"
+
+#: ../src/common/text.c:1349
+msgid "Banmask"
+msgstr "Maskë ndalimesh"
+
+#: ../src/common/text.c:1350
+msgid "Who set the ban"
+msgstr "Kush vendosi ndalimin"
+
+#: ../src/common/text.c:1351
+msgid "Ban time"
+msgstr "Kohë ndalimi"
+
+#: ../src/common/text.c:1391
+#, c-format
+msgid ""
+"Error parsing event %s.\n"
+"Loading default."
+msgstr ""
+"Gabim në trajtimin e ngjarjes %s.\n"
+"Po ngarkohet parazgjedhja."
+
+#: ../src/common/text.c:2084
+#, c-format
+msgid ""
+"Cannot read sound file:\n"
+"%s"
+msgstr ""
+"S'lexohet dot kartelë tingulli:\n"
+"%s"
+
+#: ../src/common/textevents.h:6
+msgid "-%C10-%C11-%O$t$1 added to notify list."
+msgstr "-%C10-%C11-%O$t$1 u shtua te lista e njoftimeve."
+
+#: ../src/common/textevents.h:9
+msgid "-%C10-%C11-%O$t$1 Banlist: %C3$4 %C4$2 %C5$3%O"
+msgstr "-%C10-%C11-%O$t$1 Listë ndalimesh: %C3$4 %C4$2 %C5$3%O"
+
+#: ../src/common/textevents.h:12
+msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(You are banned)."
+msgstr "-%C10-%C11-%O$tNuk hyn dot te%C11 %B$1 %O(Iu është ndaluar)."
+
+#: ../src/common/textevents.h:18
+msgid "-%C10-%C11-%O$t$1 is now known as $2"
+msgstr "-%C10-%C11-%O$t$1 tani njihet si $2"
+
+#: ../src/common/textevents.h:21
+msgid "%C13*%O$t$1 $2%O"
+msgstr "%C13*%O$t$1 $2%O"
+
+#: ../src/common/textevents.h:24
+msgid "%C13*%O$t%C8%B$1%B%O $2%O"
+msgstr "%C13*%O$t%C8%B$1%B%O $2%O"
+
+#: ../src/common/textevents.h:27
+msgid "-%C10-%C11-%O$t$1 sets ban on $2"
+msgstr "-%C10-%C11-%O$t$1 vendos ndalim mbi $2"
+
+#: ../src/common/textevents.h:30
+msgid "-%C10-%C11-%O$tChannel $1 created on $2"
+msgstr "-%C10-%C11-%O$tKanali $1 krijuar më $2"
+
+#: ../src/common/textevents.h:33
+msgid "-%C10-%C11-%O$t$1 removes channel half-operator status from $2"
+msgstr "-%C10-%C11-%O$t$1 i heq $2 gjendjen gjysmë-operator kanali"
+
+#: ../src/common/textevents.h:36
+msgid "-%C10-%C11-%O$t$1 removes channel operator status from $2"
+msgstr "-%C10-%C11-%O$t$1 i heq $2 gjendjen operator kanali"
+
+#: ../src/common/textevents.h:39
+msgid "-%C10-%C11-%O$t$1 removes voice from $2"
+msgstr "-%C10-%C11-%O$t$1 i heq $2 zërin"
+
+#: ../src/common/textevents.h:42
+msgid "-%C10-%C11-%O$t$1 sets exempt on $2"
+msgstr "-%C10-%C11-%O$t$1 vendos përjashtim ndaj $2"
+
+#: ../src/common/textevents.h:45
+msgid "-%C10-%C11-%O$t$1 gives channel half-operator status to $2"
+msgstr "-%C10-%C11-%O$t$1 i jep $2 gjendjen gjysmë-operator kanali"
+
+#: ../src/common/textevents.h:48
+msgid "-%C10-%C11-%O$t$1 sets invite on $2"
+msgstr "-%C10-%C11-%O$t$1 cakton ftesë mbi $2"
+
+#: ../src/common/textevents.h:51
+msgid "%UChannel          Users   Topic%O"
+msgstr "%UKanal          Përdoruesa   Temë%O"
+
+#: ../src/common/textevents.h:54 ../src/common/textevents.h:306
+msgid "%C2<%O$1%C2>%O$t$2%O"
+msgstr "%C2<%O$1%C2>%O$t$2%O"
+
+#: ../src/common/textevents.h:57
+msgid "-%C10-%C11-%O$t$1 sets mode $2$3 $4"
+msgstr "-%C10-%C11-%O$t$1 cakton mënyrën $2$3 $4"
+
+#: ../src/common/textevents.h:60
+msgid "-%C10-%C11-%O$tChannel $1 modes: $2"
+msgstr "-%C10-%C11-%O$tKanal $1 mënyra: $2"
+
+#: ../src/common/textevents.h:63
+msgid "%C2<%C8%B$1%B%C2>%O$t$2%O"
+msgstr "%C2<%C8%B$1%B%C2>%O$t$2%O"
+
+#: ../src/common/textevents.h:66
+msgid "%C12-%C13$1/$2%C12-%O$t$3%O"
+msgstr "%C12-%C13$1/$2%C12-%O$t$3%O"
+
+#: ../src/common/textevents.h:69
+msgid "-%C10-%C11-%O$t$1 gives channel operator status to $2"
+msgstr "-%C10-%C11-%O$t$1 i jep %2 gjendjen operator kanali"
+
+#: ../src/common/textevents.h:72
+msgid "-%C10-%C11-%O$t$1 removes exempt on $2"
+msgstr "-%C10-%C11-%O$t$1 heq përjashtimin mbi $2"
+
+#: ../src/common/textevents.h:75
+msgid "-%C10-%C11-%O$t$1 removes invite on $2"
+msgstr "-%C10-%C11-%O$t$1 heq ftesën për $2"
+
+#: ../src/common/textevents.h:78
+msgid "-%C10-%C11-%O$t$1 removes channel keyword"
+msgstr "-%C10-%C11-%O$t$1 heq fjalëkyç kanali"
+
+#: ../src/common/textevents.h:81
+msgid "-%C10-%C11-%O$t$1 removes user limit"
+msgstr "-%C10-%C11-%O$t$1 heq kufi përdoruesi"
+
+#: ../src/common/textevents.h:84
+msgid "-%C10-%C11-%O$t$1 sets channel keyword to $2"
+msgstr "-%C10-%C11-%O$t$1 cakton si fjalëkyç kanali $2"
+
+#: ../src/common/textevents.h:87
+msgid "-%C10-%C11-%O$t$1 sets channel limit to $2"
+msgstr "-%C10-%C11-%O$t$1 cakton si kufi kanali $2"
+
+#: ../src/common/textevents.h:90
+msgid "-%C10-%C11-%O$t$1 removes ban on $2"
+msgstr "-%C10-%C11-%O$t$1 heq ndalimin mbi $2"
+
+#: ../src/common/textevents.h:93
+msgid "-%C10-%C11-%O$t$1 gives voice to $2"
+msgstr "-%C10-%C11-%O$t$1 i jep zë $2"
+
+#: ../src/common/textevents.h:96
+msgid "-%C10-%C11-%O$tConnected. Now logging in.."
+msgstr "-%C10-%C11-%O$tI lidhur. Tani po hyhet.."
+
+#: ../src/common/textevents.h:99
+msgid "-%C10-%C11-%O$tConnecting to %C11$1 %C14(%C11$2%C14)%C port %C11$3%C.."
+msgstr "-%C10-%C11-%O$tPo lidhet me %C11$1 %C14(%C11$2%C14)%C porta %C11$3%C.."
+
+#: ../src/common/textevents.h:102
+msgid "-%C10-%C11-%O$tConnection failed. Error: $1"
+msgstr "-%C10-%C11-%O$tDështoi lidhja. Gabim: $1"
+
+#: ../src/common/textevents.h:105
+msgid "-%C10-%C11-%O$tReceived a CTCP $1 from $2"
+msgstr "-%C10-%C11-%O$tU mor CTCP $1 prej $2"
+
+#: ../src/common/textevents.h:108
+msgid "-%C10-%C11-%O$tReceived a CTCP $1 from $2 (to $3)"
+msgstr "-%C10-%C11-%O$tU mor CTCP $1 prej $2 (te $3)"
+
+#: ../src/common/textevents.h:111
+msgid "%C3>%O$1%C3<%O$tCTCP $2%O"
+msgstr "%C3>%O$1%C3<%O$tCTCP $2%O"
+
+#: ../src/common/textevents.h:114
+msgid "-%C10-%C11-%O$tReceived a CTCP Sound $1 from $2"
+msgstr "-%C10-%C11-%O$tU mor Tingull CTCP $1 prej $2"
+
+#: ../src/common/textevents.h:117
+msgid "%C22*%O$tReceived a CTCP Sound $1 from $2 (to $3)"
+msgstr "%C22*%O$tU mor Tingull CTCP $1 prej $2 (te $3)"
+
+#: ../src/common/textevents.h:120
+msgid "-%C10-%C11-%O$tDCC CHAT to %C11$1%O aborted."
+msgstr "Dështoi -%C10-%C11-%O$tDCC CHAT me %C11$1%O."
+
+#: ../src/common/textevents.h:123
+msgid ""
+"-%C10-%C11-%O$tDCC CHAT connection established to %C11$1 %C14[%O$2%C14]%O"
+msgstr "-%C10-%C11-%O$tU vendos lidhje DCC CHAT me %C11$1 %C14[%O$2%C14]%O"
+
+#: ../src/common/textevents.h:126
+msgid ""
+"-%C10-%C11-%O$tDCC CHAT failed. Connection to $1 %C14[%O$2:$3%C14]%O lost."
+msgstr ""
+"-%C10-%C11-%O$tDCC CHAT dështoi. U humb lidhja me $1 %C14[%O$2:$3%C14]%O."
+
+#: ../src/common/textevents.h:129
+msgid "-%C10-%C11-%O$tReceived a DCC CHAT offer from $1"
+msgstr "-%C10-%C11-%O$tU mor ofertë për DCC CHAT nga $1"
+
+#: ../src/common/textevents.h:132
+msgid "-%C10-%C11-%O$tOffering DCC CHAT to $1"
+msgstr "-%C10-%C11-%O$tPo ofron DCC CHAT për $1"
+
+#: ../src/common/textevents.h:135
+msgid "-%C10-%C11-%O$tAlready offering CHAT to $1"
+msgstr "-%C10-%C11-%O$tCHAT i ofruar tashmë për $1"
+
+#: ../src/common/textevents.h:138
+msgid "-%C10-%C11-%O$tDCC $1 connect attempt to %C11$2%O failed (err=$3)."
+msgstr ""
+"-%C10-%C11-%O$tDCC $1 dështoi përpjekja për lidhje me %C11$2%O (err=$3)."
+
+#: ../src/common/textevents.h:141
+msgid "-%C10-%C11-%O$tReceived '$1%O' from $2"
+msgstr "-%C10-%C11-%O$tU mor '$1%O' prej $2"
+
+#: ../src/common/textevents.h:144
+#, c-format
+msgid "%C24,18 Type  To/From    Status  Size    Pos     File         "
+msgstr "%C24,18 Lloj  Prej/Për    Gjendje  Madhësi    Pos     Kartelë         "
+
+#: ../src/common/textevents.h:147
+msgid ""
+"-%C10-%C11-%O$tReceived a malformed DCC request from %C11$1%O.%010-%C10-%C11-"
+"%O$tContents of packet: $2"
+msgstr ""
+"-%C10-%C11-%O$tU mor kërkesë DCC e keqformuar prej %C11$1%O.%010-%C10-%C11-%O"
+"$tPërmbajtje pakete: $2"
+
+#: ../src/common/textevents.h:150
+msgid "-%C10-%C11-%O$tOffering %C11$1 %Cto %C11$2%O"
+msgstr "-%C10-%C11-%O$tPo i ofrohet %C11$1 %Cte %C11$2%O"
+
+#: ../src/common/textevents.h:153
+msgid "-%C10-%C11-%O$tNo such DCC offer."
+msgstr "-%C10-%C11-%O$tNuk ka ofertë DCC të tillë."
+
+#: ../src/common/textevents.h:156
+msgid "-%C10-%C11-%O$tDCC RECV %C11$2%O to %C11$1%O aborted."
+msgstr "-%C10-%C11-%O$tDCC RECV %C11$2%O për %C11$1%O dështoi."
+
+#: ../src/common/textevents.h:159
+msgid ""
+"-%C10-%C11-%O$tDCC RECV %C11$1%O from %C11$3%O complete %C14[%C11$4%O cps%"
+"C14]%O."
+msgstr ""
+"-%C10-%C11-%O$tDCC RECV %C11$1%O prej %C11$3%O e plotësuar %C14[%C11$4%O cps%"
+"C14]%O."
+
+#: ../src/common/textevents.h:162
+msgid ""
+"-%C10-%C11-%O$tDCC RECV connection established to %C11$1 %C14[%O$2%C14]%O"
+msgstr "-%C10-%C11-%O$tLidhje DCC RECV me %C11$1 %C14[%O$2%C14]%O e vendosur"
+
+#: ../src/common/textevents.h:165
+msgid "-%C10-%C11-%O$tDCC RECV $1 ($2) failed. Connection to $3 lost."
+msgstr "-%C10-%C11-%O$tDCC RECV $1 ($2) dështoi. Humbi lidhja me $3."
+
+#: ../src/common/textevents.h:168
+msgid "-%C10-%C11-%O$tDCC RECV: Cannot open $1 for writing ($2)."
+msgstr "-%C10-%C11-%O$tDCC RECV: Nuk hapet dot $1 për shkrim ($2)."
+
+#: ../src/common/textevents.h:171
+msgid ""
+"-%C10-%C11-%O$tThe file %C11$1%C already exists, saving it as %C11$2%O "
+"instead."
+msgstr ""
+"-%C10-%C11-%O$tKa tashmë një kartelë %C11$1%C, ndaj po ruhet si %C11$2%O më "
+"mirë."
+
+#: ../src/common/textevents.h:174
+msgid "-%C10-%C11-%O$t%C11$1 %Chas requested to resume %C11$2 %Cfrom %C11$3%C."
+msgstr "-%C10-%C11-%O$t%C11$1 %Cka kërkuar të rimarrë %C11$2 %Cprej %C11$3%C."
+
+#: ../src/common/textevents.h:177
+msgid "-%C10-%C11-%O$tDCC SEND %C11$2%O to %C11$1%O aborted."
+msgstr "-%C10-%C11-%O$tDCC SEND %C11$2%O te %C11$1%O u ndërpre."
+
+#: ../src/common/textevents.h:180
+msgid ""
+"-%C10-%C11-%O$tDCC SEND %C11$1%O to %C11$2%O complete %C14[%C11$3%O cps%C14]%"
+"O."
+msgstr ""
+"-%C10-%C11-%O$tDCC SEND %C11$1%O te %C11$2%O i plotësuar %C14[%C11$3%O cps%"
+"C14]%O."
+
+#: ../src/common/textevents.h:183
+msgid ""
+"-%C10-%C11-%O$tDCC SEND connection established to %C11$1 %C14[%O$2%C14]%O"
+msgstr "-%C10-%C11-%O$tU vendos lidhja DCC SEND me %C11$1 %C14[%O$2%C14]%O"
+
+#: ../src/common/textevents.h:186
+msgid "-%C10-%C11-%O$tDCC SEND %C11$1%O failed. Connection to %C11$2%O lost."
+msgstr "-%C10-%C11-%O$tDCC SEND %C11$1%O dështoi. Humbi lidhja me %C11$2%O."
+
+#: ../src/common/textevents.h:189
+msgid "-%C10-%C11-%O$t%C11$1 %Chas offered %C11$2 %C(%C11$3 %Cbytes)"
+msgstr "-%C10-%C11-%O$t%C11$1 %Cka ofruar %C11$2 %C(%C11$3 %Cbajte)"
+
+#: ../src/common/textevents.h:192
+msgid "-%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Cstalled - aborting."
+msgstr "-%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Cngeci - po ndërpritet."
+
+#: ../src/common/textevents.h:195
+msgid "-%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Ctimed out - aborting."
+msgstr ""
+"-%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Ci mbaroi koha - po ndërpritet."
+
+#: ../src/common/textevents.h:198
+msgid "-%C10-%C11-%O$t$1 deleted from notify list."
+msgstr "-%C10-%C11-%O$t$1 u fshi nga lista e njoftimeve."
+
+#: ../src/common/textevents.h:201
+msgid "-%C10-%C11-%O$tDisconnected ($1)."
+msgstr "-%C10-%C11-%O$tU shkëput ($1)."
+
+#: ../src/common/textevents.h:204
+msgid "-%C10-%C11-%O$tFound your IP: [$1]"
+msgstr "-%C10-%C11-%O$tU gjet IP-ja juaj: [$1]"
+
+#: ../src/common/textevents.h:207
+msgid "$1$t$2"
+msgstr "$1$t$2"
+
+#: ../src/common/textevents.h:210
+msgid "%O%C11$1%O added to ignore list."
+msgstr "%O%C11$1%O u shtua te lista e shpërfilljeve."
+
+#: ../src/common/textevents.h:213
+msgid "Ignore on %C11$1%O changed."
+msgstr "Shpërfillja mbi %C11$1%O u ndryshua."
+
+#: ../src/common/textevents.h:216
+#, c-format
+msgid "%C24,18                                                              "
+msgstr "%C24,18                                                              "
+
+#: ../src/common/textevents.h:219
+#, c-format
+msgid "%C24,18 Hostmask                  PRIV NOTI CHAN CTCP DCC  INVI UNIG "
+msgstr ""
+"%C24,18 Strehëmaskë                  PRIV NOTI CHAN CTCP DCC  INVI UNIG "
+
+#: ../src/common/textevents.h:222
+msgid "%O%C11$1%O removed from ignore list."
+msgstr "%O%C11$1%O u hoq prej listës së shpërfilljeve."
+
+#: ../src/common/textevents.h:225
+msgid "  Ignore list is empty."
+msgstr "  Lista shpërfill është e zbrazët."
+
+#: ../src/common/textevents.h:228
+msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(Channel is invite only)."
+msgstr ""
+"-%C10-%C11-%O$tNuk mund të hyhet te%C11 %B$1 %O(Kanali është vetëm me ftesa)."
+
+#: ../src/common/textevents.h:231
+msgid "-%C10-%C11-%O$tYou have been invited to %C11$1%C by %C11$2%C (%C11$3%C)"
+msgstr "-%C10-%C11-%O$tJeni ftuar te %C11$1%C prej %C11$2%C (%C11$3%C)"
+
+#: ../src/common/textevents.h:234
+msgid "-%C10-%C11>%O$t%B$1%B %C14(%C10$3%C14)%C has joined $2"
+msgstr "-%C10-%C11>%O$t%B$1%B %C14(%C10$3%C14)%C ka hyrë te $2"
+
+#: ../src/common/textevents.h:237
+msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(Requires keyword)."
+msgstr "-%C10-%C11-%O$tNuk hyn dot te%C11 %B$1 %O(Lypset fjalëkyç)."
+
+#: ../src/common/textevents.h:240
+msgid "<%C10-%C11-%O$t$1 has kicked $2 from $3 ($4%O)"
+msgstr "<%C10-%C11-%O$t$1 ka përzënë $2 prej $3 ($4%O)"
+
+#: ../src/common/textevents.h:243
+msgid "-%C10-%C11-%O$tYou have been killed by $1 ($2%O)"
+msgstr "-%C10-%C11-%O$tJeni asgjësuar prej $1 ($2%O)"
+
+#: ../src/common/textevents.h:246 ../src/common/textevents.h:270
+msgid "%C3>%O$1%C3<%O$t$2%O"
+msgstr "%C3>%O$1%C3<%O$t$2%O"
+
+#: ../src/common/textevents.h:249 ../src/common/textevents.h:327
+#: ../src/common/textevents.h:333 ../src/common/textevents.h:336
+msgid "-%C10-%C11-%O$t$1%O"
+msgstr "-%C10-%C11-%O$t$1%O"
+
+#: ../src/common/textevents.h:252
+msgid "-%C10-%C11-%O$tMOTD Skipped."
+msgstr "-%C10-%C11-%O$tU anashkalua MOTD."
+
+#: ../src/common/textevents.h:255
+msgid "-%C10-%C11-%O$t$1 already in use. Retrying with $2.."
+msgstr "-%C10-%C11-%O$t$1 tashmë në përdorim. Po provohet me $2.."
+
+#: ../src/common/textevents.h:258
+msgid "-%C10-%C11-%O$tNickname already in use. Use /NICK to try another."
+msgstr ""
+"-%C10-%C11-%O$tNofkë tashmë në përdorim. Përdorni /NICK për të provuar një "
+"tjetër."
+
+#: ../src/common/textevents.h:261
+msgid "-%C10-%C11-%O$tNo such DCC."
+msgstr "-%C10-%C11-%O$tNuk ka DCC të tillë."
+
+#: ../src/common/textevents.h:264
+msgid "-%C10-%C11-%O$tNo process is currently running"
+msgstr "-%C10-%C11-%O$tNuk ka proces në xhirim e sipër"
+
+#: ../src/common/textevents.h:267
+msgid "%C12-%C13$1%C12-%O$t$2%O"
+msgstr "%C12-%C13$1%C12-%O$t$2%O"
+
+#: ../src/common/textevents.h:273
+msgid "-%C10-%C11-%O$tNotify list is empty."
+msgstr "-%C10-%C11-%O$tLista e njoftimeve është bosh."
+
+#: ../src/common/textevents.h:276
+msgid "%C24,18 %B  Notify List                           "
+msgstr "%C24,18 %B  Listë Njoftimesh                "
+
+#: ../src/common/textevents.h:279
+msgid "-%C10-%C11-%O$t$1 users in notify list."
+msgstr "-%C10-%C11-%O$t$1 përdoruesa te lista e njoftimeve."
+
+#: ../src/common/textevents.h:282
+msgid "-%C10-%C11-%O$tNotify: $1 is offline ($2)."
+msgstr "-%C10-%C11-%O$tNjoftoje: $1 është i palidhur ($2)."
+
+#: ../src/common/textevents.h:285
+msgid "-%C10-%C11-%O$tNotify: $1 is online ($2)."
+msgstr "-%C10-%C11-%O$tNjoftoje: $1 është i lidhur ($2)."
+
+#: ../src/common/textevents.h:291
+msgid "<%C10-%C11-%O$t$1 %C14(%O$2%C14)%C has left $3"
+msgstr "<%C10-%C11-%O$t$1 %C14(%O$2%C14)%C doli prej $3"
+
+#: ../src/common/textevents.h:294
+msgid "<%C10-%C11-%O$t$1 %C14(%O$2%C14)%C has left $3 %C14(%O$4%C14)%O"
+msgstr "<%C10-%C11-%O$t$1 %C14(%O$2%C14)%C doli prej $3 %C14(%O$4%C14)%O"
+
+#: ../src/common/textevents.h:297
+msgid "-%C10-%C11-%O$tPing reply from $1 : $2 second(s)"
+msgstr "-%C10-%C11-%O$tPërgjigje ping prej $1 : $2 sekondë(a)"
+
+#: ../src/common/textevents.h:300
+msgid "-%C10-%C11-%O$tNo ping reply for $1 seconds, disconnecting."
+msgstr "-%C10-%C11-%O$tPa përgjigje ndaj pingut për $1 sekonda, po shkëputet."
+
+#: ../src/common/textevents.h:303
+msgid "%C12*%C13$1%C12*$t%O$2%O"
+msgstr "%C12*%C13$1%C12*$t%O$2%O"
+
+#: ../src/common/textevents.h:309
+msgid "-%C10-%C11-%O$tA process is already running"
+msgstr "-%C10-%C11-%O$tKa një proces në xhirim e sipër"
+
+#: ../src/common/textevents.h:312
+msgid "<%C10-%C11-%O$t$1 has quit %C14(%O$2%O%C14)%O"
+msgstr "<%C10-%C11-%O$t$1 ka lënë %C14(%O$2%O%C14)%O"
+
+#: ../src/common/textevents.h:315
+msgid "-%C10-%C11-%O$t$1 sets modes%B %C14[%O$2%B%C14]%O"
+msgstr "-%C10-%C11-%O$t$1 cakton mënyra%B %C14[%O$2%B%C14]%O"
+
+#: ../src/common/textevents.h:318
+msgid "%C12-%C13$1/Wallops%C12-%O$t$2%O"
+msgstr "%C12-%C13$1/Wallops%C12-%O$t$2%O"
+
+#: ../src/common/textevents.h:321
+msgid "-%C10-%C11-%O$tLooking up IP number for%C11 $1%O.."
+msgstr "-%C10-%C11-%O$tPo kërkohen numra IP për%C11 $1%O.."
+
+#: ../src/common/textevents.h:324
+msgid "-%C10-%C11-%O$tConnected."
+msgstr "-%C10-%C11-%O$tI lidhur."
+
+#: ../src/common/textevents.h:330
+msgid "-%C10-%C11-%O$tLooking up %C11$1%C.."
+msgstr "-%C10-%C11-%O$tPo kërkohet %C11$1%C.."
+
+#: ../src/common/textevents.h:339
+msgid "-%C10-%C11-%O$tStopped previous connection attempt (pid=$1)"
+msgstr "-%C10-%C11-%O$tU ndalua përpjekja e mëparshme për lidhje (pid=$1)"
+
+#: ../src/common/textevents.h:342
+msgid "-%C10-%C11-%O$tTopic for %C11$1%C is %C11$2%O"
+msgstr "-%C10-%C11-%O$tTemë për %C11$1%C is %C11$2%O"
+
+#: ../src/common/textevents.h:345
+msgid "-%C10-%C11-%O$t$1 has changed the topic to: $2%O"
+msgstr "-%C10-%C11-%O$t$1 ka ndryshuar temën në: $2%O"
+
+#: ../src/common/textevents.h:348
+msgid "-%C10-%C11-%O$tTopic for %C11$1%C set by %C11$2%C at %C11$3%O"
+msgstr "-%C10-%C11-%O$tTema për %C11$1%C u caktua nga %C11$2%C më %C11$3%O"
+
+#: ../src/common/textevents.h:351
+msgid "-%C10-%C11-%O$tUnknown host. Maybe you misspelled it?"
+msgstr "-%C10-%C11-%O$tStrehë e panjohur. Mos e keqshqiptuat?"
+
+#: ../src/common/textevents.h:354
+msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(User limit reached)."
+msgstr ""
+"-%C10-%C11-%O$tNuk mund të hyhet te%C11 %B$1 %O(U mbërrit në kufi "
+"përdoruesish)."
+
+#: ../src/common/textevents.h:357
+msgid "-%C10-%C11-%O$t%C11Users on $1:%C $2"
+msgstr "-%C10-%C11-%O$t%C11Përdoruesa te $1:%C $2"
+
+#: ../src/common/textevents.h:360
+msgid "%C22*%O$t%C28[%O$1%C28] %O$2%C27 $3"
+msgstr "%C22*%O$t%C28[%O$1%C28] %O$2%C27 $3"
+
+#: ../src/common/textevents.h:363
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %Cis away %C14(%O$2%O%C14)"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %Cështë i larguar %C14(%O$2%O%C14)"
+
+#: ../src/common/textevents.h:366
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%C $2"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%C $2"
+
+#: ../src/common/textevents.h:369
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %CEnd of WHOIS list."
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %CFund i listës WHOIS."
+
+#: ../src/common/textevents.h:372
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %C$2"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %C$2"
+
+#: ../src/common/textevents.h:375
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%O idle %C11$2%O"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%O i plogësht %C11$2%O"
+
+#: ../src/common/textevents.h:378
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%O idle %C11$2%O, signon: %C11$3%O"
+msgstr ""
+"-%C10-%C11-%O$t%C12[%O$1%C12]%O i plogësht %C11$2%O, nënshkrim: %C11$3%O"
+
+#: ../src/common/textevents.h:381
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %C14(%O$2@$3%C14) %O: $4%O"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %C14(%O$2@$3%C14) %O: $4%O"
+
+#: ../src/common/textevents.h:384
+msgid ""
+"-%C10-%C11-%O$t%C12[%O$1%C12] %Oreal user@host %C11$2%O, real IP %C11$3%O"
+msgstr ""
+"-%C10-%C11-%O$t%C12[%O$1%C12] %Opërdorues real@host %C11$2%O, IP reale %C11"
+"$3%O"
+
+#: ../src/common/textevents.h:387
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%O $2"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%O $2"
+
+#: ../src/common/textevents.h:390
+msgid "%C22*%O$t%C28[%O$1%C28]%O $2"
+msgstr "%C22*%O$t%C28[%O$1%C28]%O $2"
+
+#: ../src/common/textevents.h:393
+msgid "-%C10-%C11>%O$t%BYou%B are now talking on %C11$2%O"
+msgstr "-%C10-%C11>%O$tTani %Bpo%B flisni te %C11$2%O"
+
+#: ../src/common/textevents.h:396
+msgid "-%C10-%C11-%O$tYou have been kicked from $2 by $3 ($4%O)"
+msgstr "-%C10-%C11-%O$tJeni përzënë prej $2 prej $3 ($4%O)"
+
+#: ../src/common/textevents.h:399
+msgid "-%C10-%C11-%O$tYou have left channel $3"
+msgstr "-%C10-%C11-%O$tKeni lënë kanalin $3"
+
+#: ../src/common/textevents.h:402
+msgid "-%C10-%C11-%O$tYou have left channel $3 %C14(%O$4%C14)%O"
+msgstr "-%C10-%C11-%O$tKeni lënë kanalin $3 %C14(%O$4%C14)%O"
+
+#: ../src/common/textevents.h:408
+msgid "-%C10-%C11-%O$tYou're inviting %C11$1%C to %C11$2%C (%C11$3%C)"
+msgstr "-%C10-%C11-%O$tPo ftoni %C11$1%C te %C11$2%C (%C11$3%C)"
+
+#: ../src/common/textevents.h:411
+msgid "%C6<%O$1%C6>%O$t$2%O"
+msgstr "%C6<%O$1%C6>%O$t$2%O"
+
+#: ../src/common/textevents.h:414
+msgid "-%C10-%C11-%O$tYou are now known as $2"
+msgstr "-%C10-%C11-%O$tTani njiheni si $2"
+
+#: ../src/common/util.c:296
+msgid "Remote host closed socket"
+msgstr "Streha e largët e mbylli \"socket\"-in"
+
+#: ../src/common/util.c:301
+msgid "Connection refused"
+msgstr "Ndërlidhje e papranuar"
+
+#: ../src/common/util.c:304
+msgid "No route to host"
+msgstr "S'ka udhë për te streha"
+
+#: ../src/common/util.c:306
+msgid "Connection timed out"
+msgstr "Ndërlidhjes i mbaroi koha"
+
+#: ../src/common/util.c:308
+msgid "Cannot assign that address"
+msgstr "Nuk mund të caktohet ajo vendndodhje"
+
+#: ../src/common/util.c:310
+msgid "Connection reset by peer"
+msgstr "Lidhje e rivendosur nga tjetri"
+
+#: ../src/common/util.c:839
+msgid "Ascension Island"
+msgstr "Ishulli Ascension"
+
+#: ../src/common/util.c:840
+msgid "Andorra"
+msgstr "Andorra"
+
+#: ../src/common/util.c:841
+msgid "United Arab Emirates"
+msgstr "Emiratet e Bashkuar Arabe"
+
+#: ../src/common/util.c:842
+msgid "Afghanistan"
+msgstr "Afganistan"
+
+#: ../src/common/util.c:843
+msgid "Antigua and Barbuda"
+msgstr "Antigua dhe Barbuda"
+
+#: ../src/common/util.c:844
+msgid "Anguilla"
+msgstr "Anguila"
+
+#: ../src/common/util.c:845
+msgid "Albania"
+msgstr "Shqipëri"
+
+#: ../src/common/util.c:846
+msgid "Armenia"
+msgstr "Armeni"
+
+#: ../src/common/util.c:847
+msgid "Netherlands Antilles"
+msgstr "Antilet Holandeze"
+
+#: ../src/common/util.c:848
+msgid "Angola"
+msgstr "Angolë"
+
+#: ../src/common/util.c:849
+msgid "Antarctica"
+msgstr "Antarktidë"
+
+#: ../src/common/util.c:850
+msgid "Argentina"
+msgstr "Argjentinë"
+
+#: ../src/common/util.c:851
+msgid "Reverse DNS"
+msgstr "Përmbyse DNS-në"
+
+#: ../src/common/util.c:852
+msgid "American Samoa"
+msgstr "Samoa Amerikane"
+
+#: ../src/common/util.c:853
+msgid "Austria"
+msgstr "Austri"
+
+#: ../src/common/util.c:854
+msgid "Nato Fiel"
+msgstr "Nato Fiel"
+
+#: ../src/common/util.c:855
+msgid "Australia"
+msgstr "Australi"
+
+#: ../src/common/util.c:856
+msgid "Aruba"
+msgstr "Aruba"
+
+#: ../src/common/util.c:857
+msgid "Aland Islands"
+msgstr "Ishujt Aland"
+
+#: ../src/common/util.c:858
+msgid "Azerbaijan"
+msgstr "Azerbaixhan"
+
+#: ../src/common/util.c:859
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnjë-Hercegovinë"
+
+#: ../src/common/util.c:860
+msgid "Barbados"
+msgstr "Barbados"
+
+#: ../src/common/util.c:861
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: ../src/common/util.c:862
+msgid "Belgium"
+msgstr "Belgjikë"
+
+#: ../src/common/util.c:863
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: ../src/common/util.c:864
+msgid "Bulgaria"
+msgstr "Bullgari"
+
+#: ../src/common/util.c:865
+msgid "Bahrain"
+msgstr "Bahrein"
+
+#: ../src/common/util.c:866
+msgid "Burundi"
+msgstr "Burundi"
+
+#: ../src/common/util.c:867
+msgid "Businesses"
+msgstr "Biznese"
+
+#: ../src/common/util.c:868
+msgid "Benin"
+msgstr "Benin"
+
+#: ../src/common/util.c:869
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: ../src/common/util.c:870
+msgid "Brunei Darussalam"
+msgstr "Brunei Darussalam"
+
+#: ../src/common/util.c:871
+msgid "Bolivia"
+msgstr "Bolivi"
+
+#: ../src/common/util.c:872
+msgid "Brazil"
+msgstr "Brazil"
+
+#: ../src/common/util.c:873
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: ../src/common/util.c:874
+msgid "Bhutan"
+msgstr "Butan"
+
+#: ../src/common/util.c:875
+msgid "Bouvet Island"
+msgstr "Ishulli Bouvet"
+
+#: ../src/common/util.c:876
+msgid "Botswana"
+msgstr "Botsvana"
+
+#: ../src/common/util.c:877
+msgid "Belarus"
+msgstr "Bjelorusi"
+
+#: ../src/common/util.c:878
+msgid "Belize"
+msgstr "Belize"
+
+#: ../src/common/util.c:879
+msgid "Canada"
+msgstr "Kanada"
+
+#: ../src/common/util.c:880
+msgid "Cocos Islands"
+msgstr "Ishujt Kokos"
+
+#: ../src/common/util.c:881
+msgid "Democratic Republic of Congo"
+msgstr "Republika Demokratike e Kongos"
+
+#: ../src/common/util.c:882
+msgid "Central African Republic"
+msgstr "Republika e Afrikës Qendrore"
+
+#: ../src/common/util.c:883
+msgid "Congo"
+msgstr "Kongo"
+
+#: ../src/common/util.c:884
+msgid "Switzerland"
+msgstr "Zvicër"
+
+#: ../src/common/util.c:885
+msgid "Cote d'Ivoire"
+msgstr "Bregu i Fildishtë"
+
+#: ../src/common/util.c:886
+msgid "Cook Islands"
+msgstr "Ishujt Kuk"
+
+#: ../src/common/util.c:887
+msgid "Chile"
+msgstr "Kili"
+
+#: ../src/common/util.c:888
+msgid "Cameroon"
+msgstr "Kamerun"
+
+#: ../src/common/util.c:889
+msgid "China"
+msgstr "Kinë"
+
+#: ../src/common/util.c:890
+msgid "Colombia"
+msgstr "Kolumbi"
+
+#: ../src/common/util.c:891
+msgid "Internic Commercial"
+msgstr "Tregtar Internic"
+
+#: ../src/common/util.c:892
+msgid "Costa Rica"
+msgstr "Kosta Rika"
+
+#: ../src/common/util.c:893
+msgid "Serbia and Montenegro"
+msgstr "Serbi dhe Mal i Zi"
+
+#: ../src/common/util.c:894
+msgid "Cuba"
+msgstr "Kubë"
+
+#: ../src/common/util.c:895
+msgid "Cape Verde"
+msgstr "Kepi i Gjelbër"
+
+#: ../src/common/util.c:896
+msgid "Christmas Island"
+msgstr "Ishulli i Kërshnellave"
+
+#: ../src/common/util.c:897
+msgid "Cyprus"
+msgstr "Qipro"
+
+#: ../src/common/util.c:898
+msgid "Czech Republic"
+msgstr "Republika Çeke"
+
+#: ../src/common/util.c:899
+msgid "Germany"
+msgstr "Gjermani"
+
+#: ../src/common/util.c:900
+msgid "Djibouti"
+msgstr "Xhibut"
+
+#: ../src/common/util.c:901
+msgid "Denmark"
+msgstr "Danimarkë"
+
+#: ../src/common/util.c:902
+msgid "Dominica"
+msgstr "Dominika"
+
+#: ../src/common/util.c:903
+msgid "Dominican Republic"
+msgstr "Republika Dominikane"
+
+#: ../src/common/util.c:904
+msgid "Algeria"
+msgstr "Algjeri"
+
+#: ../src/common/util.c:905
+msgid "Ecuador"
+msgstr "Ekuador"
+
+#: ../src/common/util.c:906
+msgid "Educational Institution"
+msgstr "Institucione Edukimi"
+
+#: ../src/common/util.c:907
+msgid "Estonia"
+msgstr "Estoni"
+
+#: ../src/common/util.c:908
+msgid "Egypt"
+msgstr "Egjypt"
+
+#: ../src/common/util.c:909
+msgid "Western Sahara"
+msgstr "Sahara Perëndimore"
+
+#: ../src/common/util.c:910
+msgid "Eritrea"
+msgstr "Eritre"
+
+#: ../src/common/util.c:911
+msgid "Spain"
+msgstr "Spanjë"
+
+#: ../src/common/util.c:912
+msgid "Ethiopia"
+msgstr "Etiopi"
+
+#: ../src/common/util.c:913
+msgid "European Union"
+msgstr "Bashkimi Europian"
+
+#: ../src/common/util.c:914
+msgid "Finland"
+msgstr "Finlandë"
+
+#: ../src/common/util.c:915
+msgid "Fiji"
+msgstr "Fixhi"
+
+#: ../src/common/util.c:916
+msgid "Falkland Islands"
+msgstr "Ishujt Falkland"
+
+#: ../src/common/util.c:917
+msgid "Micronesia"
+msgstr "Mikronezi"
+
+#: ../src/common/util.c:918
+msgid "Faroe Islands"
+msgstr "Ishujt Faroe"
+
+#: ../src/common/util.c:919
+msgid "France"
+msgstr "Francë"
+
+#: ../src/common/util.c:920
+msgid "Gabon"
+msgstr "Gabon"
+
+#: ../src/common/util.c:921
+msgid "Great Britain"
+msgstr "Britani e Madhe"
+
+#: ../src/common/util.c:922
+msgid "Grenada"
+msgstr "Grenada"
+
+#: ../src/common/util.c:923
+msgid "Georgia"
+msgstr "Gjeorgji"
+
+#: ../src/common/util.c:924
+msgid "French Guiana"
+msgstr "Guajana Franceze"
+
+#: ../src/common/util.c:925
+msgid "British Channel Isles"
+msgstr "Ishujt e Kanalit Britanik"
+
+#: ../src/common/util.c:926
+msgid "Ghana"
+msgstr "Gana"
+
+#: ../src/common/util.c:927
+msgid "Gibraltar"
+msgstr "Gjibraltar"
+
+#: ../src/common/util.c:928
+msgid "Greenland"
+msgstr "Groenlandë"
+
+#: ../src/common/util.c:929
+msgid "Gambia"
+msgstr "Gambia"
+
+#: ../src/common/util.c:930
+msgid "Guinea"
+msgstr "Guinea"
+
+#: ../src/common/util.c:931
+msgid "Government"
+msgstr "Qeveri"
+
+#: ../src/common/util.c:932
+msgid "Guadeloupe"
+msgstr "Guadalup"
+
+#: ../src/common/util.c:933
+msgid "Equatorial Guinea"
+msgstr "Guinea Ekuatoriale"
+
+#: ../src/common/util.c:934
+msgid "Greece"
+msgstr "Greqi"
+
+#: ../src/common/util.c:935
+msgid "S. Georgia and S. Sandwich Isles"
+msgstr "Ishujt S. Georgia dhe S. Sandwich"
+
+#: ../src/common/util.c:936
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: ../src/common/util.c:937
+msgid "Guam"
+msgstr "Guam"
+
+#: ../src/common/util.c:938
+msgid "Guinea-Bissau"
+msgstr "Guinea-Bissau"
+
+#: ../src/common/util.c:939
+msgid "Guyana"
+msgstr "Guajana"
+
+#: ../src/common/util.c:940
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: ../src/common/util.c:941
+msgid "Heard and McDonald Islands"
+msgstr "Ishujt Heard dhe McDonald"
+
+#: ../src/common/util.c:942
+msgid "Honduras"
+msgstr "Honduras"
+
+#: ../src/common/util.c:943
+msgid "Croatia"
+msgstr "Kroaci"
+
+#: ../src/common/util.c:944
+msgid "Haiti"
+msgstr "Haiti"
+
+#: ../src/common/util.c:945
+msgid "Hungary"
+msgstr "Hungari"
+
+#: ../src/common/util.c:946
+msgid "Indonesia"
+msgstr "Indonezi"
+
+#: ../src/common/util.c:947
+msgid "Ireland"
+msgstr "Irlandë"
+
+#: ../src/common/util.c:948
+msgid "Israel"
+msgstr "Izrael"
+
+#: ../src/common/util.c:949
+msgid "Isle of Man"
+msgstr "Ishulli i Robit"
+
+#: ../src/common/util.c:950
+msgid "India"
+msgstr "Indi"
+
+#: ../src/common/util.c:951
+msgid "Informational"
+msgstr "Informativ"
+
+#: ../src/common/util.c:952
+msgid "International"
+msgstr "Ndërkombëtar"
+
+#: ../src/common/util.c:953
+msgid "British Indian Ocean Territory"
+msgstr "Territoret Britanike të Oqeanit Indian"
+
+#: ../src/common/util.c:954
+msgid "Iraq"
+msgstr "Irak"
+
+#: ../src/common/util.c:955
+msgid "Iran"
+msgstr "Iran"
+
+#: ../src/common/util.c:956
+msgid "Iceland"
+msgstr "Islandë"
+
+#: ../src/common/util.c:957
+msgid "Italy"
+msgstr "Itali"
+
+#: ../src/common/util.c:958
+msgid "Jersey"
+msgstr "Xhersi"
+
+#: ../src/common/util.c:959
+msgid "Jamaica"
+msgstr "Xhamaika"
+
+#: ../src/common/util.c:960
+msgid "Jordan"
+msgstr "Jordani"
+
+#: ../src/common/util.c:961
+msgid "Japan"
+msgstr "Japoni"
+
+#: ../src/common/util.c:962
+msgid "Kenya"
+msgstr "Kenia"
+
+#: ../src/common/util.c:963
+msgid "Kyrgyzstan"
+msgstr "Kirgizstan"
+
+#: ../src/common/util.c:964
+msgid "Cambodia"
+msgstr "Kamboxhia"
+
+#: ../src/common/util.c:965
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: ../src/common/util.c:966
+msgid "Comoros"
+msgstr "Komore"
+
+#: ../src/common/util.c:967
+msgid "St. Kitts and Nevis"
+msgstr "Shën Kits dhe Nevis"
+
+#: ../src/common/util.c:968
+msgid "North Korea"
+msgstr "Kore e Veriut"
+
+#: ../src/common/util.c:969
+msgid "South Korea"
+msgstr "Kore e Jugut"
+
+#: ../src/common/util.c:970
+msgid "Kuwait"
+msgstr "Kuvait"
+
+#: ../src/common/util.c:971
+msgid "Cayman Islands"
+msgstr "Ishujt Kajman"
+
+#: ../src/common/util.c:972
+msgid "Kazakhstan"
+msgstr "Kazakistan"
+
+#: ../src/common/util.c:973
+msgid "Laos"
+msgstr "Laos"
+
+#: ../src/common/util.c:974
+msgid "Lebanon"
+msgstr "Liban"
+
+#: ../src/common/util.c:975
+msgid "Saint Lucia"
+msgstr "Shën Luçia"
+
+#: ../src/common/util.c:976
+msgid "Liechtenstein"
+msgstr "Lihtenshtein"
+
+#: ../src/common/util.c:977
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: ../src/common/util.c:978
+msgid "Liberia"
+msgstr "Liberi"
+
+#: ../src/common/util.c:979
+msgid "Lesotho"
+msgstr "Lesoto"
+
+#: ../src/common/util.c:980
+msgid "Lithuania"
+msgstr "Lituani"
+
+#: ../src/common/util.c:981
+msgid "Luxembourg"
+msgstr "Luksemburg"
+
+#: ../src/common/util.c:982
+msgid "Latvia"
+msgstr "Latvi"
+
+#: ../src/common/util.c:983
+msgid "Libya"
+msgstr "Libi"
+
+#: ../src/common/util.c:984
+msgid "Morocco"
+msgstr "Marok"
+
+#: ../src/common/util.c:985
+msgid "Monaco"
+msgstr "Monako"
+
+#: ../src/common/util.c:986
+msgid "Moldova"
+msgstr "Moldavi"
+
+#: ../src/common/util.c:987
+msgid "United States Medical"
+msgstr "Mjeksor i Shteteve të Bashkuara"
+
+#: ../src/common/util.c:988
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+#: ../src/common/util.c:989
+msgid "Marshall Islands"
+msgstr "Ishujt Marshall"
+
+#: ../src/common/util.c:990
+msgid "Military"
+msgstr "Ushtarake"
+
+#: ../src/common/util.c:991
+msgid "Macedonia"
+msgstr "Maqedoni"
+
+#: ../src/common/util.c:992
+msgid "Mali"
+msgstr "Mali"
+
+#: ../src/common/util.c:993
+msgid "Myanmar"
+msgstr "Mianmar"
+
+#: ../src/common/util.c:994
+msgid "Mongolia"
+msgstr "Mongoli"
+
+#: ../src/common/util.c:995
+msgid "Macau"
+msgstr "Makau"
+
+#: ../src/common/util.c:996
+msgid "Northern Mariana Islands"
+msgstr "Ishujt Veriorë Mariana"
+
+#: ../src/common/util.c:997
+msgid "Martinique"
+msgstr "Martinikë"
+
+#: ../src/common/util.c:998
+msgid "Mauritania"
+msgstr "Mauritani"
+
+#: ../src/common/util.c:999
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: ../src/common/util.c:1000
+msgid "Malta"
+msgstr "Maltë"
+
+#: ../src/common/util.c:1001
+msgid "Mauritius"
+msgstr "Mauricius"
+
+#: ../src/common/util.c:1002
+msgid "Maldives"
+msgstr "Maldive"
+
+#: ../src/common/util.c:1003
+msgid "Malawi"
+msgstr "Malaui"
+
+#: ../src/common/util.c:1004
+msgid "Mexico"
+msgstr "Meksikë"
+
+#: ../src/common/util.c:1005
+msgid "Malaysia"
+msgstr "Malajzi"
+
+#: ../src/common/util.c:1006
+msgid "Mozambique"
+msgstr "Mozambik"
+
+#: ../src/common/util.c:1007
+msgid "Namibia"
+msgstr "Namibi"
+
+#: ../src/common/util.c:1008
+msgid "New Caledonia"
+msgstr "Kaledonia e Re"
+
+#: ../src/common/util.c:1009
+msgid "Niger"
+msgstr "Niger"
+
+#: ../src/common/util.c:1010
+msgid "Internic Network"
+msgstr "Rrjet Internic"
+
+#: ../src/common/util.c:1011
+msgid "Norfolk Island"
+msgstr "Ishujt Norfolk"
+
+#: ../src/common/util.c:1012
+msgid "Nigeria"
+msgstr "Nigeri"
+
+#: ../src/common/util.c:1013
+msgid "Nicaragua"
+msgstr "Nikaragua"
+
+#: ../src/common/util.c:1014
+msgid "Netherlands"
+msgstr "Holandë"
+
+#: ../src/common/util.c:1015
+msgid "Norway"
+msgstr "Norvegji"
+
+#: ../src/common/util.c:1016
+msgid "Nepal"
+msgstr "Nepal"
+
+#: ../src/common/util.c:1017
+msgid "Nauru"
+msgstr "Nauru"
+
+#: ../src/common/util.c:1018
+msgid "Niue"
+msgstr "Niue"
+
+#: ../src/common/util.c:1019
+msgid "New Zealand"
+msgstr "Zelandë e Re"
+
+#: ../src/common/util.c:1020
+msgid "Oman"
+msgstr "Oman"
+
+#: ../src/common/util.c:1021
+msgid "Internic Non-Profit Organization"
+msgstr "Organizëm Jofitimprurës Internic"
+
+#: ../src/common/util.c:1022
+msgid "Panama"
+msgstr "Panama"
+
+#: ../src/common/util.c:1023
+msgid "Peru"
+msgstr "Peru"
+
+#: ../src/common/util.c:1024
+msgid "French Polynesia"
+msgstr "Polinezia Franceze"
+
+#: ../src/common/util.c:1025
+msgid "Papua New Guinea"
+msgstr "Papua Guinea e Re"
+
+#: ../src/common/util.c:1026
+msgid "Philippines"
+msgstr "Filipine"
+
+#: ../src/common/util.c:1027
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: ../src/common/util.c:1028
+msgid "Poland"
+msgstr "Poloni"
+
+#: ../src/common/util.c:1029
+msgid "St. Pierre and Miquelon"
+msgstr "Shën. Pier dhe Mikëlon"
+
+#: ../src/common/util.c:1030
+msgid "Pitcairn"
+msgstr "Pitkern"
+
+#: ../src/common/util.c:1031
+msgid "Puerto Rico"
+msgstr "Porto Riko"
+
+#: ../src/common/util.c:1032
+msgid "Palestinian Territory"
+msgstr "Territoret Palestinez"
+
+#: ../src/common/util.c:1033
+msgid "Portugal"
+msgstr "Portugali"
+
+#: ../src/common/util.c:1034
+msgid "Palau"
+msgstr "Palau"
+
+#: ../src/common/util.c:1035
+msgid "Paraguay"
+msgstr "Paraguaj"
+
+#: ../src/common/util.c:1036
+msgid "Qatar"
+msgstr "Katar"
+
+#: ../src/common/util.c:1037
+msgid "Reunion"
+msgstr "Ribashkim"
+
+#: ../src/common/util.c:1038
+msgid "Romania"
+msgstr "Rumani"
+
+#: ../src/common/util.c:1039
+msgid "Old School ARPAnet"
+msgstr "Old School ARPAnet"
+
+#: ../src/common/util.c:1040
+msgid "Russian Federation"
+msgstr "Federata Ruse"
+
+#: ../src/common/util.c:1041
+msgid "Rwanda"
+msgstr "Ruandë"
+
+#: ../src/common/util.c:1042
+msgid "Saudi Arabia"
+msgstr "Arabi Saudite"
+
+#: ../src/common/util.c:1043
+msgid "Solomon Islands"
+msgstr "Ishujt Solomon"
+
+#: ../src/common/util.c:1044
+msgid "Seychelles"
+msgstr "Sejshelle"
+
+#: ../src/common/util.c:1045
+msgid "Sudan"
+msgstr "Sudan"
+
+#: ../src/common/util.c:1046
+msgid "Sweden"
+msgstr "Suedi"
+
+#: ../src/common/util.c:1047
+msgid "Singapore"
+msgstr "Singapor"
+
+#: ../src/common/util.c:1048
+msgid "St. Helena"
+msgstr "Shën Helena"
+
+#: ../src/common/util.c:1049
+msgid "Slovenia"
+msgstr "Slloveni"
+
+#: ../src/common/util.c:1050
+msgid "Svalbard and Jan Mayen Islands"
+msgstr "Ishujt Svalbard dhe Jan Mayen"
+
+#: ../src/common/util.c:1051
+msgid "Slovak Republic"
+msgstr "Republika Slovake"
+
+#: ../src/common/util.c:1052
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: ../src/common/util.c:1053
+msgid "San Marino"
+msgstr "San Marino"
+
+#: ../src/common/util.c:1054
+msgid "Senegal"
+msgstr "Senegal"
+
+#: ../src/common/util.c:1055
+msgid "Somalia"
+msgstr "Somali"
+
+#: ../src/common/util.c:1056
+msgid "Suriname"
+msgstr "Surinam"
+
+#: ../src/common/util.c:1057
+msgid "Sao Tome and Principe"
+msgstr "Sao Tome dhe Principe"
+
+#: ../src/common/util.c:1058
+msgid "Former USSR"
+msgstr "Ish USSR"
+
+#: ../src/common/util.c:1059
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: ../src/common/util.c:1060
+msgid "Syria"
+msgstr "Siri"
+
+#: ../src/common/util.c:1061
+msgid "Swaziland"
+msgstr "Svaziland"
+
+#: ../src/common/util.c:1062
+msgid "Turks and Caicos Islands"
+msgstr "Ishujt Turks dhe Caicos"
+
+#: ../src/common/util.c:1063
+msgid "Chad"
+msgstr "Çad"
+
+#: ../src/common/util.c:1064
+msgid "French Southern Territories"
+msgstr "Territoret Franceze Jugore"
+
+#: ../src/common/util.c:1065
+msgid "Togo"
+msgstr "Togo"
+
+#: ../src/common/util.c:1066
+msgid "Thailand"
+msgstr "Tailandë"
+
+#: ../src/common/util.c:1067
+msgid "Tajikistan"
+msgstr "Taxhikistan"
+
+#: ../src/common/util.c:1068
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: ../src/common/util.c:1069 ../src/common/util.c:1073
+msgid "East Timor"
+msgstr "Timori Lindor"
+
+#: ../src/common/util.c:1070
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: ../src/common/util.c:1071
+msgid "Tunisia"
+msgstr "Tunizi"
+
+#: ../src/common/util.c:1072
+msgid "Tonga"
+msgstr "Tonga"
+
+#: ../src/common/util.c:1074
+msgid "Turkey"
+msgstr "Turqi"
+
+#: ../src/common/util.c:1075
+msgid "Trinidad and Tobago"
+msgstr "Trinidad dhe Tobago"
+
+#: ../src/common/util.c:1076
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: ../src/common/util.c:1077
+msgid "Taiwan"
+msgstr "Taivan"
+
+#: ../src/common/util.c:1078
+msgid "Tanzania"
+msgstr "Tanzani"
+
+#: ../src/common/util.c:1079
+msgid "Ukraine"
+msgstr "Ukrainë"
+
+#: ../src/common/util.c:1080
+msgid "Uganda"
+msgstr "Uganda"
+
+#: ../src/common/util.c:1081
+msgid "United Kingdom"
+msgstr "Mbretëri e Bashkuar"
+
+#: ../src/common/util.c:1082
+msgid "United States of America"
+msgstr "Shtetet e Bashkuar të Amerikës"
+
+#: ../src/common/util.c:1083
+msgid "Uruguay"
+msgstr "Uruguaj"
+
+#: ../src/common/util.c:1084
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+#: ../src/common/util.c:1085
+msgid "Vatican City State"
+msgstr "Qytetshteti i Vatikanit"
+
+#: ../src/common/util.c:1086
+msgid "St. Vincent and the Grenadines"
+msgstr "Shën. Vincent dhe Grenadinet"
+
+#: ../src/common/util.c:1087
+msgid "Venezuela"
+msgstr "Venezuelë"
+
+#: ../src/common/util.c:1088
+msgid "British Virgin Islands"
+msgstr "Ishujt e Virgjër Britanikë"
+
+#: ../src/common/util.c:1089
+msgid "US Virgin Islands"
+msgstr "Ishujt e Virgjër të SHBA-ve"
+
+#: ../src/common/util.c:1090
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: ../src/common/util.c:1091
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: ../src/common/util.c:1092
+msgid "Wallis and Futuna Islands"
+msgstr "Ishujt Wallis dhe Futuna"
+
+#: ../src/common/util.c:1093
+msgid "Samoa"
+msgstr "Samoa"
+
+#: ../src/common/util.c:1094
+msgid "Yemen"
+msgstr "Jemen"
+
+#: ../src/common/util.c:1095
+msgid "Mayotte"
+msgstr "Majot"
+
+#: ../src/common/util.c:1096
+msgid "Yugoslavia"
+msgstr "Serbi dhe Mali i Zi"
+
+#: ../src/common/util.c:1097
+msgid "South Africa"
+msgstr "Afrikë e Jugut"
+
+#: ../src/common/util.c:1098
+msgid "Zambia"
+msgstr "Zambia"
+
+#: ../src/common/util.c:1099
+msgid "Zimbabwe"
+msgstr "Zimbabve"
+
+#: ../src/common/util.c:1109 ../src/common/util.c:1119
+#: ../src/fe-gnome/userlist-gui.c:432
+msgid "Unknown"
+msgstr "I panjohur"
+
+#: ../src/common/xchat.c:767 ../src/common/xchat.c:893
+msgid "Open Dialog Window"
+msgstr "Hap Dritare Dialogu"
+
+#: ../src/common/xchat.c:768
+msgid "Send a File"
+msgstr "Dërgo Kartelë"
+
+#: ../src/common/xchat.c:769
+msgid "User Info (WHOIS)"
+msgstr "Të dhëna Përdoruesi (WHOIS)"
+
+#: ../src/common/xchat.c:770
+msgid "Operator Actions"
+msgstr "Veprime Operatori"
+
+#: ../src/common/xchat.c:772 ../src/common/xchat.c:863
+msgid "Give Ops"
+msgstr "Jepi Op"
+
+#: ../src/common/xchat.c:773 ../src/common/xchat.c:864
+msgid "Take Ops"
+msgstr "Hiqi Op"
+
+#: ../src/common/xchat.c:774 ../src/common/xchat.c:867
+msgid "Give Voice"
+msgstr "Jepi Zë"
+
+#: ../src/common/xchat.c:775 ../src/common/xchat.c:868
+msgid "Take Voice"
+msgstr "Hiqi Zë"
+
+#: ../src/common/xchat.c:777 ../src/common/xchat.c:872
+msgid "Kick/Ban"
+msgstr "Përzër/Ndalo"
+
+#: ../src/common/xchat.c:778 ../src/common/xchat.c:873
+#: ../src/common/xchat.c:922
+msgid "Kick"
+msgstr "Përzëre"
+
+#: ../src/common/xchat.c:779 ../src/common/xchat.c:780
+#: ../src/common/xchat.c:781 ../src/common/xchat.c:782
+#: ../src/common/xchat.c:783 ../src/common/xchat.c:874
+#: ../src/common/xchat.c:875 ../src/common/xchat.c:876
+#: ../src/common/xchat.c:877 ../src/common/xchat.c:878
+#: ../src/common/xchat.c:921
+msgid "Ban"
+msgstr "Ndaloje"
+
+#: ../src/common/xchat.c:784 ../src/common/xchat.c:785
+#: ../src/common/xchat.c:786 ../src/common/xchat.c:787
+#: ../src/common/xchat.c:879 ../src/common/xchat.c:880
+#: ../src/common/xchat.c:881 ../src/common/xchat.c:882
+msgid "KickBan"
+msgstr "Përzënie"
+
+#: ../src/common/xchat.c:850
+msgid "Direct client-to-client"
+msgstr "Drejtpërdrejt klient-me-klient"
+
+#: ../src/common/xchat.c:851
+msgid "Send File"
+msgstr "Dërgo Kartelë"
+
+#: ../src/common/xchat.c:852
+msgid "Offer Chat"
+msgstr "Ofro Fjalosje"
+
+#: ../src/common/xchat.c:853
+msgid "Abort Chat"
+msgstr "Ndërprit Fjalosje"
+
+#: ../src/common/xchat.c:854
+msgid "Version"
+msgstr "Version"
+
+#: ../src/common/xchat.c:855
+msgid "Userinfo"
+msgstr "Të dhëna përdoruesi"
+
+#: ../src/common/xchat.c:856
+msgid "Clientinfo"
+msgstr "Të dhëna klienti"
+
+#: ../src/common/xchat.c:857 ../src/common/xchat.c:891
+#: ../src/common/xchat.c:939
+msgid "Ping"
+msgstr "Ping"
+
+#: ../src/common/xchat.c:859
+msgid "Finger"
+msgstr "Gisht"
+
+#: ../src/common/xchat.c:860
+msgid "Oper"
+msgstr "Oper"
+
+#: ../src/common/xchat.c:861
+msgid "Kill this user"
+msgstr "Asgjëso këtë përdorues"
+
+#: ../src/common/xchat.c:862
+msgid "Mode"
+msgstr "Mënyrë"
+
+#: ../src/common/xchat.c:865
+msgid "Give Half-Ops"
+msgstr "Jepi Gjysmë-Op"
+
+#: ../src/common/xchat.c:866
+msgid "Take Half-Ops"
+msgstr "Hiqi Gjysmë-Op"
+
+#: ../src/common/xchat.c:869 ../src/fe-gnome/userlist-gui.c:60
+msgid "Ignore"
+msgstr "Shpërfille"
+
+#: ../src/common/xchat.c:870
+msgid "Ignore User"
+msgstr "Shpërfille Përdoruesin"
+
+#: ../src/common/xchat.c:871
+msgid "UnIgnore User"
+msgstr "Çshpërfille Përdoruesin"
+
+#: ../src/common/xchat.c:883
+msgid "Info"
+msgstr "Të dhëna"
+
+#: ../src/common/xchat.c:884
+msgid "Who"
+msgstr "Kush"
+
+#: ../src/common/xchat.c:885 ../src/common/xchat.c:935
+msgid "WhoIs"
+msgstr "WhoIs"
+
+#: ../src/common/xchat.c:886
+msgid "DNS Lookup"
+msgstr "Kërkim DNS-je"
+
+#: ../src/common/xchat.c:887
+msgid "Trace"
+msgstr "Gjurmo"
+
+#: ../src/common/xchat.c:888
+msgid "UserHost"
+msgstr "StrehëPërdoruesi"
+
+#: ../src/common/xchat.c:889
+msgid "External"
+msgstr "I jashtëm"
+
+#: ../src/common/xchat.c:890
+msgid "Traceroute"
+msgstr "Traceroute"
+
+#: ../src/common/xchat.c:892
+msgid "Telnet"
+msgstr "Telnet"
+
+#: ../src/common/xchat.c:904
+msgid "Leave Channel"
+msgstr "Lëre Kanalin"
+
+#: ../src/common/xchat.c:905
+msgid "Join Channel..."
+msgstr "Hyni në Kanal..."
+
+#: ../src/common/xchat.c:906
+msgid "Enter Channel to Join:"
+msgstr "Jepni Kanal ku të Hyhet:"
+
+#: ../src/common/xchat.c:907
+msgid "Server Links"
+msgstr "Lidhje Shërbyesish"
+
+#: ../src/common/xchat.c:908
+msgid "Ping Server"
+msgstr "Ping Shërbyesin"
+
+#: ../src/common/xchat.c:909
+msgid "Hide Version"
+msgstr "Fshihe Versionin"
+
+#: ../src/common/xchat.c:919
+msgid "Op"
+msgstr "Op"
+
+#: ../src/common/xchat.c:920
+msgid "DeOp"
+msgstr "DeOp"
+
+#: ../src/common/xchat.c:923
+msgid "bye"
+msgstr "bye"
+
+#: ../src/common/xchat.c:924
+#, c-format
+msgid "Enter reason to kick %s:"
+msgstr "Jepni arsye për të përzënë %s:"
+
+#: ../src/common/xchat.c:925
+msgid "Sendfile"
+msgstr "Dërgokartelë"
+
+#: ../src/common/xchat.c:926
+msgid "Dialog"
+msgstr "Dialog"
+
+#: ../src/common/xchat.c:936
+msgid "Send"
+msgstr "Dërgoje"
+
+#: ../src/common/xchat.c:937
+msgid "Chat"
+msgstr "Fjalosje"
+
+#: ../src/common/xchat.c:938
+msgid "Clear"
+msgstr "Pastroje"
+
+#: ../src/common/dbus/dbus-plugin.c:31
+msgid "remote access"
+msgstr "hyrje në largësi"
+
+#: ../src/common/dbus/dbus-plugin.c:32
+msgid "plugin for remote access using DBUS"
+msgstr "shtojcë për hyrje në largësi përmes përdorimit të DBUS-it"
+
+#: ../src/common/dbus/dbus-plugin.c:900
+#, c-format
+msgid "Couldn't connect to session bus: %s\n"
+msgstr "S'u lidh dot me busin e sesionit: %s\n"
+
+#: ../src/common/dbus/dbus-plugin.c:917
+#, c-format
+msgid "Failed to acquire %s: %s\n"
+msgstr "Dështoi në pasjen %s: %s\n"
+
+#: ../src/common/dbus/url_handler.schemas.in.h:1
+msgid "Run XChat-GNOME in a terminal?"
+msgstr "Ta xhiroj XCchat-GNOME-n në terminal?"
+
+#: ../src/common/dbus/url_handler.schemas.in.h:2
+msgid "Set it at TRUE if you want it activated"
+msgstr "Po e deshët të aktivizuar vëreni si TRUE"
+
+#: ../src/common/dbus/url_handler.schemas.in.h:3
+msgid "The handler for \"irc://\" URLs"
+msgstr "Trajtuesi për URL-ra \"irc://\""
+
+#: ../src/fe-gnome/about.c:61
+msgid ""
+"X-Chat GNOME is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version."
+msgstr ""
+"X-Chat GNOME është \"software\" falas; mund ta rishpërndani dhe/ose "
+"ndryshoni sipas termave të Lincencës së Përgjithshme Publike GNU, ashtu siç "
+"botohet prej Free Software Foundation; ose versioni 2 i Licencës, ose (në "
+"dorën tuaj) cilido version i mëvonshëm."
+
+#: ../src/fe-gnome/about.c:66
+msgid ""
+"X-Chat GNOME is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details."
+msgstr ""
+"X-Chat GNOME shpërndahet me shpresë se do të jetë i dobishëm, por PA ASNJË "
+"GARANCI; pa as garancinë e nënkuptuar të të qenit i TREGTUESHËM apo i "
+"PËRSHTATSHMË PËR NDONJË QËLLIM TË CAKTUAR.  Për më tepër hollësi, shihni "
+"Lincencën e Përgjithshme Publike GNU."
+
+#: ../src/fe-gnome/about.c:71
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"X-Chat GNOME; if not, write to the Free Software Foundation, Inc., 59 Temple "
+"Place, Suite 330, Boston, MA  02111-1307  USA"
+msgstr ""
+"Një kopje e Licencës së Përgjithshme Publike GNU duhej t'ju kishte ardhur "
+"bashkë me X-Chat GNOME-en; në të kundërt, i shkruani Free Software "
+"Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA"
+
+#: ../src/fe-gnome/about.c:81
+msgid "XChat-GNOME"
+msgstr "XChat-GNOME"
+
+#. Translators: Don't try to translate this literally.
+#. * It is a running gag from a british comedy television
+#. * programme; either leave it as-is or replace it with
+#. * something comparable but inoffensive in your language.
+#.
+#: ../src/fe-gnome/about.c:89
+msgid "“Listen very carefully, I shall say this only once.”"
+msgstr "“Hapi veshët, këtë do ta them vetëm njëherë.”"
+
+#: ../src/fe-gnome/about.c:93
+msgid "XChat-GNOME Web Site"
+msgstr "\"Site\"-i Web i XChat-GNOME-s"
+
+#. Translators: This is a special message that shouldn't
+#. * be translated literally. It is used in the about box
+#. * to give credits to the translators. Thus, you should
+#. * translate it to your name and email address. You
+#. * should also include other translators who have
+#. * contributed to this translation; in that case, please
+#. * write each of them on a separated line seperated by
+#. * newlines (\n).
+#.
+#: ../src/fe-gnome/about.c:107
+msgid "translator-credits"
+msgstr ""
+"Launchpad Contributions:\n"
+"  Besnik Bleta https://launchpad.net/~besnik\n"
+"  David Trowbridge https://launchpad.net/~trowbrds"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:1
+msgid "Automatically display the channel list dialog"
+msgstr "Shfaq vetvetiu dialogun e listës së kanaleve"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:2
+msgid "Background image filename"
+msgstr "Emër kartele pamjeje sfond"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:3
+msgid "Background transparency"
+msgstr "Tejdukshmëri pamjeje sfond"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:4
+msgid "Colorize nicknames in the main window"
+msgstr "Ngjyrosi nofkat te dritarja kryesore"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:5
+msgid "Default nickname used by servers without special options set"
+msgstr ""
+"Nofkë parazgjedhje e përdorur nga shërbyesit pa caktim opsionesh speciale"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:6
+msgid "Default real name used by servers without special options set"
+msgstr ""
+"Emër i vërtetë parazgjedhje i përdorur nga shërbyesit pa caktim opsionesh "
+"speciale"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:7
+msgid "Display redundant nickstamps"
+msgstr ""
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:8
+msgid "Enable spellchecking"
+msgstr "Aktivizo kontroll drejtshkrimi"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:9
+msgid "Font for the main window"
+msgstr "Gërma për dritaren kryesore"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:10
+msgid "Height of the channel list"
+msgstr "Lartësi e listës së kanaleve"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:11
+msgid "Height of the main window"
+msgstr "Lartësi e dritares kryesore"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:12
+msgid ""
+"If set to true, when you join a server without automatically joining a "
+"channel, the channel list dialog will be displayed"
+msgstr ""
+"Po u vendos si TRUE, kur lidheni me një shërbyes pa hyrë vetvetiu në një "
+"kanal, do të shfaqet dialogu i listës së kanaleve"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:13
+msgid "Languages to use for spellchecking"
+msgstr "Gjuhë për t'u përdorur për kontroll drejtshkrimi"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:14
+msgid "List of enabled plugins"
+msgstr "Listë e  shtojcave vepruese"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:15
+msgid "Message sent on away"
+msgstr "Mesazh i dërguar gjatë largimesh"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:16
+msgid "Message sent on channel part"
+msgstr ""
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:17
+msgid "Message sent on quit"
+msgstr "Mesazh i dërguar gjatë daljesh"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:18
+msgid "Position of the horizontal pane in the main window"
+msgstr "Vend për kuadratin horizontal te dritarja kryesore"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:19
+msgid "Selected background type"
+msgstr "Lloj sfondi i përzgjedhur"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:20
+msgid "Selected color scheme"
+msgstr "Skemë ngjyrash e përzgjedhur"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:21
+msgid "Show colors in the main window"
+msgstr "Shfaq ngjyra te dritarja kryesore"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:22
+msgid "Show timestamps in the main window"
+msgstr "Tregoji vulat kohore te dritarja kryesore"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:23
+msgid "Use system fonts"
+msgstr "Përdor gërma përdoruesi"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:24
+msgid "Whether the horizontal pane in the main window is shown"
+msgstr "Në tregohet a jo kuadrati horizontal te dritarja kryesore"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:25
+msgid "Width of the channel list"
+msgstr "Gjerësi e listës së kanaleve"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:26
+msgid "Width of the main window"
+msgstr "Gjerësi e dritares kryesore"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:27
+msgid "X position of the main window on the screen"
+msgstr "Vend për X te dritarja kryesore në ekran"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:28
+msgid "Y position of the main window on the screen"
+msgstr "Vend për Y te dritarja kryesore në ekran"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:29
+msgid "xchat configuration version"
+msgstr "Version formësimi xchat-i"
+
+#: ../src/fe-gnome/channel-list-window.c:410
+#, c-format
+msgid "%s Channel List"
+msgstr "Listë Kanalesh %s"
+
+#: ../src/fe-gnome/connect-dialog.c:110
+msgid "This network doesn't have a server defined."
+msgstr "Ky rrjet nuk shërbyes të përcaktuar."
+
+#: ../src/fe-gnome/connect-dialog.c:112
+#, c-format
+msgid "Please add at least one server to the %s network."
+msgstr "Ju lutem shtoni të paktën një shërbyes te rrjeti %s."
+
+#: ../src/fe-gnome/conversation-panel.c:167
+msgid "_Open Link in Browser"
+msgstr "_Hape Lidhjen në Shfletues"
+
+#: ../src/fe-gnome/conversation-panel.c:168
+msgid "_Copy Link Location"
+msgstr "_Kopjo Vendndodhje Lidhjeje"
+
+#: ../src/fe-gnome/conversation-panel.c:172
+msgid "Se_nd Message To..."
+msgstr "_Dërgo Mesazh Te..."
+
+#: ../src/fe-gnome/conversation-panel.c:173
+msgid "_Copy Address"
+msgstr "_Kopjo Vendndodhjen"
+
+#: ../src/fe-gnome/conversation-panel.c:177
+msgid "_Send File"
+msgstr "_Dërgo Kartelë"
+
+#: ../src/fe-gnome/conversation-panel.c:178
+msgid "Paste File _Contents"
+msgstr "Ngjit _Përmbajtje kartele"
+
+#: ../src/fe-gnome/conversation-panel.c:179
+msgid "Paste File_name"
+msgstr "Ngjit _Emër kartele"
+
+#: ../src/fe-gnome/conversation-panel.c:180
+msgid "_Cancel"
+msgstr "_Anuloje"
+
+#: ../src/fe-gnome/conversation-panel.c:184 ../src/fe-gnome/main-window.c:111
+msgid "_Copy"
+msgstr "_Kopjoje"
+
+#: ../src/fe-gnome/conversation-panel.c:855
+#, c-format
+msgid "Error reading file \"%s\": %s\n"
+msgstr "Gabim në leximin e kartelës \"%s\": %s\n"
+
+#: ../src/fe-gnome/conversation-panel.c:871
+#, c-format
+msgid "Error converting URI \"%s\" into filename: %s\n"
+msgstr "Gabim në shndërrimin e URI-t \"%s\" në emër kartele: %s\n"
+
+#: ../src/fe-gnome/conversation-panel.c:922
+#, c-format
+msgid "Error retrieving file information for \"%s\": %s\n"
+msgstr "Gabim në marrje të dhënash kartele për \"%s\": %s\n"
+
+#: ../src/fe-gnome/conversation-panel.c:1020
+msgid "Save Transcript"
+msgstr "Ruaje Transkriptin"
+
+#: ../src/fe-gnome/conversation-panel.c:1046
+#: ../src/fe-gnome/conversation-panel.c:1056
+#, c-format
+msgid "Error saving %s"
+msgstr "Gabim në ruajtjen e %s "
+
+#: ../src/fe-gnome/conversation-panel.c:1191
+msgid "Search buffer is empty.\n"
+msgstr "Shtytëza e kërkimeve është e zbrazët.\n"
+
+#. File completion percent
+#: ../src/fe-gnome/dcc-window.c:141
+msgid "%"
+msgstr "%"
+
+#: ../src/fe-gnome/dcc-window.c:142
+msgid "File"
+msgstr "Kartelë"
+
+#: ../src/fe-gnome/dcc-window.c:143
+msgid "Remaining"
+msgstr "Akoma"
+
+#: ../src/fe-gnome/dcc-window.c:218
+msgid "Incoming File Transfer"
+msgstr "Shpërngulje Ardhëse Kartele"
+
+#: ../src/fe-gnome/dcc-window.c:219 ../src/fe-gnome/fe-gnome.c:505
+msgid "_Accept"
+msgstr "_Pranoje"
+
+#: ../src/fe-gnome/dcc-window.c:220
+#, c-format
+msgid ""
+"%s is attempting to send you a file named \"%s\". Do you wish to accept the "
+"transfer?"
+msgstr ""
+"%s po përpiqet t'ju dërgojë një kartelë të quajtur \"%s\". Doni ta pranoni "
+"shpërnguljen?"
+
+#: ../src/fe-gnome/dcc-window.c:240
+#, c-format
+msgid ""
+"<b>%s</b>\n"
+"<small>from %s</small>\n"
+"%s of %s"
+msgstr ""
+"<b>%s</b>\n"
+"<small>prej %s</small>\n"
+"%s nga %s"
+
+#: ../src/fe-gnome/dcc-window.c:251
+msgid "starting"
+msgstr "po niset"
+
+#: ../src/fe-gnome/dcc-window.c:282
+#, c-format
+msgid ""
+"<b>%s</b>\n"
+"<small>from %s</small>\n"
+"%s of %s at %s/s"
+msgstr ""
+"<b>%s</b>\n"
+"<small>prej %s</small>\n"
+"%s nga %s te %s/s"
+
+#: ../src/fe-gnome/dcc-window.c:289
+msgid "queued"
+msgstr "në radhë"
+
+#: ../src/fe-gnome/dcc-window.c:294
+#, c-format
+msgid "Transfer of %s to %s failed"
+msgstr "Dështoi shpërngulja e %s për te %s"
+
+#: ../src/fe-gnome/dcc-window.c:296
+#, c-format
+msgid "Transfer of %s from %s failed"
+msgstr "Dështoi shpërngulja e kartelës %s prej %s"
+
+#: ../src/fe-gnome/dcc-window.c:297
+msgid "Transfer failed"
+msgstr "Shpërngulja dështoi"
+
+#: ../src/fe-gnome/dcc-window.c:305
+msgid "aborted"
+msgstr "ndërprerë"
+
+#: ../src/fe-gnome/dcc-window.c:308
+msgid "stalled"
+msgstr "u bajatos"
+
+#: ../src/fe-gnome/dcc-window.c:312
+#, c-format
+msgid "%.2d:%.2d:%.2d"
+msgstr "%.2d:%.2d:%.2d"
+
+#: ../src/fe-gnome/dcc-window.c:314
+#, c-format
+msgid "%.2d:%.2d"
+msgstr "%.2d:%.2d"
+
+#: ../src/fe-gnome/dcc-window.c:416
+msgid "Send File..."
+msgstr "Dërgo Kartelë..."
+
+#: ../src/fe-gnome/fe-gnome.c:62
+msgid "Use directory instead of the default config dir"
+msgstr ""
+"Përdor drejtori më mirë, në vend të drejtorisë parazgjedhje të formësimeve"
+
+#: ../src/fe-gnome/fe-gnome.c:63
+msgid "Don't auto-connect to servers"
+msgstr "Mos u vetërilidh me shërbyesa"
+
+#: ../src/fe-gnome/fe-gnome.c:64
+msgid "Don't auto-load plugins"
+msgstr "Mos vetëngarko shtojca"
+
+#: ../src/fe-gnome/fe-gnome.c:65
+msgid "Open an irc:// url"
+msgstr "Hap një url irc://"
+
+#: ../src/fe-gnome/fe-gnome.c:66
+msgid "Open URL in an existing XChat-GNOME instance"
+msgstr "Hape URL-në në një XChat-GNOME ekzistuese"
+
+#: ../src/fe-gnome/fe-gnome.c:67
+msgid "Show version information"
+msgstr "Shfaq të dhëna versioni"
+
+#: ../src/fe-gnome/fe-gnome.c:109
+#, c-format
+msgid ""
+"xchat-gnome: %s\n"
+"Try `xchat-gnome --help' for more information\n"
+msgstr ""
+"xchat-gnome: %s\n"
+"Për më tepër të dhëna, provoni `xchat-gnome --help'\n"
+
+#: ../src/fe-gnome/fe-gnome.c:503
+msgid "Incoming DCC Chat"
+msgstr "Fjalosje DCC Ardhëse"
+
+#: ../src/fe-gnome/fe-gnome.c:508
+#, c-format
+msgid ""
+"%s is attempting to create a direct chat. Do you wish to accept the "
+"connection?"
+msgstr ""
+"%s po përpiqet të krijojë fjalosje të drejtpërdrejtë. Dëshironi të pranoni "
+"lidhjen?"
+
+#: ../src/fe-gnome/fe-gnome.c:937
+#, c-format
+msgid "Unable to show '%s'"
+msgstr "I pazoti të shfaqë '%s'"
+
+#: ../src/fe-gnome/find-bar.c:88
+msgid "Find:"
+msgstr "Gjej:"
+
+#: ../src/fe-gnome/find-bar.c:89
+msgid "_Previous"
+msgstr "I _mëparshmi"
+
+#: ../src/fe-gnome/find-bar.c:91
+msgid "_Next"
+msgstr "_Pasues"
+
+#: ../src/fe-gnome/find-bar.c:208
+msgid "<span foreground=\"dark grey\">Reached end, continuing from top</span>"
+msgstr ""
+"<span foreground=\"dark grey\">U mbërrit në fund, po vazhdohet prej ndalesës "
+"e tutje</span>"
+
+#: ../src/fe-gnome/find-bar.c:215
+msgid ""
+"<span foreground=\"dark grey\">Reached beginning, continuing from bottom</"
+"span>"
+msgstr ""
+"<span foreground=\"dark grey\">U mbërrit në fillim, po vazhdohet prej fundit "
+"e tutje</span>"
+
+#: ../src/fe-gnome/find-bar.c:222
+msgid "<span foreground=\"red\">Search string not found</span>"
+msgstr "<span foreground=\"red\">Vargu i kërkuar nuk u gjet</span>"
+
+#: ../src/fe-gnome/irc-network-editor.c:313
+msgid "Server"
+msgstr "Shërbyes"
+
+#: ../src/fe-gnome/irc-network-editor.c:322
+msgid "Key"
+msgstr "Kyç"
+
+#. We're creating a new network. Don't populate things from the structure
+#: ../src/fe-gnome/irc-network-editor.c:456
+msgid "New Network"
+msgstr "Rrjet i Ri"
+
+#: ../src/fe-gnome/irc-network-editor.c:464
+#, c-format
+msgid "%s Network Properties"
+msgstr "Veti të Rrjetit %s"
+
+#: ../src/fe-gnome/irc-network-editor.c:592
+#: ../src/fe-gnome/irc-network-editor.c:599
+#: ../src/fe-gnome/irc-network-editor.c:605
+msgid "Invalid input"
+msgstr "Futje e pavlefshme."
+
+#: ../src/fe-gnome/irc-network-editor.c:592
+msgid "You must enter a network name"
+msgstr "Duhet të jepni një emër rrjeti"
+
+#: ../src/fe-gnome/irc-network-editor.c:599
+msgid "You must enter a nick name"
+msgstr "Duhet të jepni një nofkë"
+
+#: ../src/fe-gnome/irc-network-editor.c:605
+msgid "You must enter a real name"
+msgstr "Duhet të jepni një emër të vërtetë"
+
+#: ../src/fe-gnome/irc-network-editor.c:612
+msgid "No Servers"
+msgstr "Pa Shërbyesa"
+
+#: ../src/fe-gnome/irc-network-editor.c:612
+msgid "You must add at least one server for this network"
+msgstr "Duhet të shtoni të paktën një shërbyes për këtë rrjet"
+
+#: ../src/fe-gnome/irc-network.c:32
+msgid "UTF-8 (Unicode)"
+msgstr "UTF-8 (Unicode)"
+
+#: ../src/fe-gnome/irc-network.c:33
+msgid "ISO-8859-15 (Western Europe)"
+msgstr "ISO-8859-15 (Europia Perëndimore)"
+
+#: ../src/fe-gnome/irc-network.c:34
+msgid "ISO-8859-2 (Central Europe)"
+msgstr "ISO-8859-2 (Europia Qendrore)"
+
+#: ../src/fe-gnome/irc-network.c:35
+msgid "ISO-8859-7 (Greek)"
+msgstr "ISO-8859-7 (Greke)"
+
+#: ../src/fe-gnome/irc-network.c:36
+msgid "ISO-8859-8 (Hebrew)"
+msgstr "ISO-8859-8 (Hebraishte)"
+
+#: ../src/fe-gnome/irc-network.c:37
+msgid "ISO-8859-9 (Turkish)"
+msgstr "ISO-8859-9 (Turke)"
+
+#: ../src/fe-gnome/irc-network.c:38
+msgid "ISO-2022-JP (Japanese)"
+msgstr "ISO-2022-JP (Japoneze)"
+
+#: ../src/fe-gnome/irc-network.c:39
+msgid "SJIS (Japanese)"
+msgstr "SJIS (Japoneze)"
+
+#: ../src/fe-gnome/irc-network.c:40
+msgid "CP949 (Korean)"
+msgstr "CP949 (Koreane)"
+
+#: ../src/fe-gnome/irc-network.c:41
+msgid "KOI8-R (Cyrillic)"
+msgstr "KOI8-R (Cirilike)"
+
+#: ../src/fe-gnome/irc-network.c:42
+msgid "CP1251 (Cyrillic)"
+msgstr "CP1251 (Cirilike)"
+
+#: ../src/fe-gnome/irc-network.c:43
+msgid "CP1256 (Arabic)"
+msgstr "CP1256 (Arabe)"
+
+#: ../src/fe-gnome/irc-network.c:44
+msgid "CP1257 (Baltic)"
+msgstr "CP1257 (Baltike)"
+
+#: ../src/fe-gnome/irc-network.c:45
+msgid "GB18030 (Chinese)"
+msgstr "GB18030 (Kineze)"
+
+#: ../src/fe-gnome/irc-network.c:46
+msgid "TIS-620 (Thai)"
+msgstr "TIS-620 (Tailandeze)"
+
+#. Toplevel
+#: ../src/fe-gnome/main-window.c:95
+msgid "_IRC"
+msgstr "_IRC"
+
+#: ../src/fe-gnome/main-window.c:96
+msgid "_Edit"
+msgstr "_Përpunoni"
+
+#: ../src/fe-gnome/main-window.c:97
+msgid "In_sert"
+msgstr "_Fut"
+
+#: ../src/fe-gnome/main-window.c:98
+msgid "_Network"
+msgstr "_Rrjet"
+
+#: ../src/fe-gnome/main-window.c:99
+msgid "_Discussion"
+msgstr "_Diskutim"
+
+#: ../src/fe-gnome/main-window.c:100
+msgid "_View"
+msgstr "_Parje"
+
+#: ../src/fe-gnome/main-window.c:101
+msgid "_Help"
+msgstr "_Ndihmë"
+
+#. IRC menu
+#: ../src/fe-gnome/main-window.c:105
+msgid "_Connect..."
+msgstr "_Lidhu..."
+
+#: ../src/fe-gnome/main-window.c:106
+msgid "_File Transfers"
+msgstr "Shpërngulje _Kartelash"
+
+#: ../src/fe-gnome/main-window.c:107
+msgid "_Quit"
+msgstr "_Dil"
+
+#. Edit menu
+#: ../src/fe-gnome/main-window.c:110
+msgid "Cu_t"
+msgstr "_Prije"
+
+#: ../src/fe-gnome/main-window.c:112
+msgid "_Paste"
+msgstr "_Ngjite"
+
+#: ../src/fe-gnome/main-window.c:113
+msgid "Prefere_nces"
+msgstr "_Parapëlqime"
+
+#. Network menu
+#: ../src/fe-gnome/main-window.c:116
+msgid "_Reconnect"
+msgstr "_Rilidhu"
+
+#: ../src/fe-gnome/main-window.c:117
+msgid "_Disconnect"
+msgstr "_Shkëputu"
+
+#: ../src/fe-gnome/main-window.c:118
+msgid "_Close"
+msgstr "_Mbylle"
+
+#: ../src/fe-gnome/main-window.c:119
+msgid "_Channels..."
+msgstr "_Kanale..."
+
+#. Discussion menu
+#: ../src/fe-gnome/main-window.c:122
+msgid "_Save Transcript"
+msgstr "_Ruaje Transkriptimin"
+
+#: ../src/fe-gnome/main-window.c:123
+msgid "_Leave"
+msgstr "_Largohuni"
+
+#: ../src/fe-gnome/main-window.c:124
+msgid "Cl_ose"
+msgstr "_Mbyll"
+
+#: ../src/fe-gnome/main-window.c:125
+msgid "_Find"
+msgstr "_Gjej"
+
+#: ../src/fe-gnome/main-window.c:126
+msgid "Change _Topic"
+msgstr "Ndryshoni _Temën"
+
+#: ../src/fe-gnome/main-window.c:127
+msgid "_Bans..."
+msgstr "_Ndalime..."
+
+#: ../src/fe-gnome/main-window.c:128
+msgid "_Users"
+msgstr "_Përdoruesa"
+
+#. Help menu
+#: ../src/fe-gnome/main-window.c:131
+msgid "_Contents"
+msgstr "_Përmbajtje"
+
+#: ../src/fe-gnome/main-window.c:132
+msgid "_About"
+msgstr "_Rreth"
+
+#. View menu
+#: ../src/fe-gnome/main-window.c:138
+msgid "_Sidebar"
+msgstr "_Anështyllë"
+
+#: ../src/fe-gnome/main-window.c:434 ../src/fe-gnome/main-window.c:456
+msgid "Ex-Chat"
+msgstr "Ex-Chat"
+
+#: ../src/fe-gnome/main-window.c:508
+msgid "Error showing help"
+msgstr "Gabim në shfaqjen e ndihmës"
+
+#: ../src/fe-gnome/migration.c:115
+#, c-format
+msgid ""
+"The way the D-Bus plugin works has changed.\n"
+"To avoid problems, you should remove the old plugin file.\n"
+"\n"
+"<b>Please delete %s</b>"
+msgstr ""
+"Mënyra se si punon shtojca D-Bus ka ndryshuar.\n"
+"Për të shmangur probleme, do të duhej ta hiqnit kartelën e shtojcës së "
+"vjetër.\n"
+"\n"
+"<b>Ju lutem fshijeni %s</b>"
+
+#: ../src/fe-gnome/migration.c:117
+msgid "D-Bus plugin is still installed"
+msgstr "Shtojca D-Bus është ende e instaluar"
+
+#. View menu
+#: ../src/fe-gnome/navigation-tree.c:91
+msgid "Pre_vious Network"
+msgstr "Rrjet i _Mëparshëm"
+
+#: ../src/fe-gnome/navigation-tree.c:92
+msgid "Nex_t Network"
+msgstr "Rrjet _Pasues"
+
+#: ../src/fe-gnome/navigation-tree.c:93
+msgid "_Previous Discussion"
+msgstr "Diskutimi i _Mëparshëm"
+
+#: ../src/fe-gnome/navigation-tree.c:94
+msgid "_Next Discussion"
+msgstr "Diskutimi _Pasues"
+
+#. Discussion context menu
+#: ../src/fe-gnome/navigation-tree.c:97
+msgid "_Join"
+msgstr "_Hyni"
+
+#. Server context menu
+#: ../src/fe-gnome/navigation-tree.c:102
+msgid "_Auto-connect on startup"
+msgstr "_Vetëfutu gjatë nisjesh"
+
+#. Discussion context menu
+#: ../src/fe-gnome/navigation-tree.c:105
+msgid "_Auto-join on connect"
+msgstr "_Vetëfutu gjatë lidhjesh"
+
+#: ../src/fe-gnome/navigation-tree.c:106
+msgid "Show join/part messages"
+msgstr "Shfaq mesazhe hyrjesh/daljesh "
+
+#: ../src/fe-gnome/navigation-tree.c:481
+msgid "<none>"
+msgstr "<asnjë>"
+
+#. The name of the default downloads folder,
+#. * Needs to be the same as Epiphany's
+#: ../src/fe-gnome/preferences.c:202
+msgid "Downloads"
+msgstr "Shkarkime"
+
+#: ../src/fe-gnome/preferences-page-colors.c:255
+msgid "Colors"
+msgstr "Ngjyra"
+
+#: ../src/fe-gnome/preferences-page-colors.c:258
+msgid "Black on White"
+msgstr "E bardhë në të Zezë"
+
+#: ../src/fe-gnome/preferences-page-colors.c:259
+msgid "White on Black"
+msgstr "E Zezë në të Bardhë"
+
+#: ../src/fe-gnome/preferences-page-colors.c:260
+msgid "Custom"
+msgstr "Vetjake"
+
+#: ../src/fe-gnome/preferences-page-colors.c:261
+msgid "System Theme Colors"
+msgstr "Ngjyra Teme Sistemi"
+
+#: ../src/fe-gnome/preferences-page-dcc.c:142
+msgid "File Transfers & DCC"
+msgstr "Shpërngulje Kartelash & DCC"
+
+#: ../src/fe-gnome/preferences-page-effects.c:180
+msgid "Effects"
+msgstr "Efekte"
+
+#: ../src/fe-gnome/preferences-page-irc.c:306
+msgid "IRC Preferences"
+msgstr "Parapëlqime IRC-je"
+
+#: ../src/fe-gnome/preferences-page-networks.c:117
+#, c-format
+msgid "Really remove network \"%s\" and all of its servers?"
+msgstr "Të hiqet vërtet rrjeti \"%s\" dhe tërë shërbyesit e tij?"
+
+#: ../src/fe-gnome/preferences-page-networks.c:168
+msgid "Networks"
+msgstr "Rrjete"
+
+#: ../src/fe-gnome/preferences-page-networks.c:176
+msgid "Name"
+msgstr "Emër"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:99
+#: ../src/fe-gnome/preferences-page-plugins.c:100
+msgid "unknown"
+msgstr "i panjohur"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:192
+#, c-format
+msgid "An error occurred unloading %s"
+msgstr "Ndodhi një gabim gjatë çngarkimit %s"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:193
+msgid "Plugin Unload Failed"
+msgstr "Dështoi Çngarkimi i Shtojcës"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:204
+msgid "Plugin Load Failed"
+msgstr "Dështoi Ngarkimi i Shtojcës"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:242
+msgid "Open Plugin"
+msgstr "Hap Shtojcë"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:367
+msgid "Scripts and Plugins"
+msgstr "Shtojca dhe Programthe"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:385
+#: ../src/fe-gnome/preferences-page-spellcheck.c:218
+msgid "Enable"
+msgstr "Aktivizo"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:387
+msgid "Plugin"
+msgstr "Shtojcë"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:98
+#, c-format
+msgid "Error in language %s activation: %s\n"
+msgstr "Gabim në aktivizim gjuhe %s: %s\n"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:138
+#, c-format
+msgid "Error in spell checking configuration: %s\n"
+msgstr "Gabim te formësimi i kontrollit të drejtshkrimit: %s\n"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:180
+msgid "Spell checking"
+msgstr "Kontroll drejtshkrimi"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:184
+msgid ""
+"In order to get spell-checking, you need to have libenchant installed with "
+"at least one dictionary."
+msgstr ""
+"Që të mund të bëni kontrolle drejtshkrimi, lypset të jetë e instaluar "
+"libenchant me të paktën një fjalor."
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:195
+msgid "_Check spelling"
+msgstr "_Kontrollo drejtshkrimin"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:196
+msgid "Choose languages to use for spellcheck:"
+msgstr "Zgjidhni gjuhë për t'u përdorur për kontroll drejtshkrimi:"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:223
+msgid "Language"
+msgstr "Gjuhë"
+
+#: ../src/fe-gnome/status-bar.c:93
+#, c-format
+msgid "%s%.1fs lag"
+msgstr "vonesë %s%.1fs"
+
+#: ../src/fe-gnome/status-bar.c:107
+#, c-format
+msgid "%d bytes buffered"
+msgstr "U shtytën %d bajte"
+
+#: ../src/fe-gnome/text-entry.c:151
+#, c-format
+msgid "Error in spellchecking configuration: %s\n"
+msgstr "Gabim te formësimi i kontrollit të drejtshkrimit: %s\n"
+
+#: ../src/fe-gnome/text-entry.c:370
+msgid "I_nsert Color Code"
+msgstr "_Fut Kod Ngjyre"
+
+#: ../src/fe-gnome/text-entry.c:377
+msgid "Black"
+msgstr "i Zi"
+
+#: ../src/fe-gnome/text-entry.c:381
+msgid "Dark Blue"
+msgstr "Blu e Errët"
+
+#: ../src/fe-gnome/text-entry.c:385
+msgid "Dark Green"
+msgstr "E gjelbër e Errët"
+
+#: ../src/fe-gnome/text-entry.c:389
+msgid "Red"
+msgstr "E kuqe"
+
+#: ../src/fe-gnome/text-entry.c:393
+msgid "Brown"
+msgstr "Kafe"
+
+#: ../src/fe-gnome/text-entry.c:397
+msgid "Purple"
+msgstr "E purpurt"
+
+#: ../src/fe-gnome/text-entry.c:401
+msgid "Orange"
+msgstr "Portokalli"
+
+#: ../src/fe-gnome/text-entry.c:405
+msgid "Yellow"
+msgstr "E verdhë"
+
+#: ../src/fe-gnome/text-entry.c:409
+msgid "Light Green"
+msgstr "E gjelbër e Hapur"
+
+#: ../src/fe-gnome/text-entry.c:413
+msgid "Aqua"
+msgstr "Ujëse"
+
+#: ../src/fe-gnome/text-entry.c:417
+msgid "Light Blue"
+msgstr "Blu e Hapur"
+
+#: ../src/fe-gnome/text-entry.c:421
+msgid "Blue"
+msgstr "Blu"
+
+#: ../src/fe-gnome/text-entry.c:425
+msgid "Violet"
+msgstr "Vjollcë"
+
+#: ../src/fe-gnome/text-entry.c:429
+msgid "Grey"
+msgstr "Gri"
+
+#: ../src/fe-gnome/text-entry.c:433
+msgid "Light Grey"
+msgstr "Gri e Hapur"
+
+#: ../src/fe-gnome/text-entry.c:437
+msgid "White"
+msgstr "e Bardhë"
+
+#: ../src/fe-gnome/topic-label.c:265
+#, c-format
+msgid "Changing topic for %s"
+msgstr "Po ndryshohet tema për %s"
+
+#: ../src/fe-gnome/userlist-gui.c:56
+msgid "_Send File..."
+msgstr "_Dërgo Kartelë..."
+
+#: ../src/fe-gnome/userlist-gui.c:57
+msgid "Private _Chat"
+msgstr "_Fjalosje Vetjake"
+
+#: ../src/fe-gnome/userlist-gui.c:58
+msgid "_Kick"
+msgstr "_Përzëre"
+
+#: ../src/fe-gnome/userlist-gui.c:59
+msgid "_Ban"
+msgstr "_Ndaloje"
+
+#: ../src/fe-gnome/userlist-gui.c:61
+msgid "_Op"
+msgstr "_Op"
+
+#: ../src/fe-gnome/userlist-gui.c:427
+#, c-format
+msgid ""
+"%s\n"
+"<span weight=\"bold\">Name:</span> %s"
+msgstr ""
+"%s\n"
+"<span weight=\"bold\">Emër:</span> %s"
+
+#: ../src/fe-gnome/userlist-gui.c:434
+#, c-format
+msgid ""
+"%s\n"
+"<span weight=\"bold\">Country:</span> %s"
+msgstr ""
+"%s\n"
+"<span weight=\"bold\">Vend:</span> %s"
+
+#: ../src/fe-gnome/userlist-gui.c:444
+#, c-format
+msgid ""
+"%s\n"
+"<span weight=\"bold\">Last message:</span> %d minute ago"
+msgid_plural ""
+"%s\n"
+"<span weight=\"bold\">Last message:</span> %d minutes ago"
+msgstr[0] ""
+"%s\n"
+"<span weight=\"bold\">Mesazhi i fundit:</span> %d minutë më parë"
+msgstr[1] ""
+"%s\n"
+"<span weight=\"bold\">Mesazhi i fundit:</span> %d minuta më parë"
+
+#: ../src/fe-gnome/userlist-gui.c:455
+#, c-format
+msgid ""
+"%s\n"
+"<span weight=\"bold\">Away message:</span> %s"
+msgstr ""
+"%s\n"
+"<span weight=\"bold\">Mesazh për i larguar:</span> %s"
+
+#: ../src/fe-gnome/userlist.c:308
+#, c-format
+msgid "%d User"
+msgid_plural "%d Users"
+msgstr[0] "%d User"
+msgstr[1] "%d Përdoruesa"
+
+#~ msgid "Maximum Users:"
+#~ msgstr "Përdoruesa Maksimum:"
+
+#~ msgid "Minimum Users:"
+#~ msgstr "Përdoruesa Minimum:"
+
+#~ msgid "Text Filter:"
+#~ msgstr "Filtër Teksti:"
+
+#~ msgid "Close this discussion"
+#~ msgstr "Mbylle këtë diskutim"
+
+#~ msgid "Screensaver activated, going away."
+#~ msgstr "Ekrankursyesi u aktivizua, po iket prej këtej."
+
+#~ msgid "Screensaver is off, welcome back"
+#~ msgstr "Ekrankursyesi u mbyll, mirë se u kthyet."
+
+#~ msgid "Auto-away plugin unloaded\n"
+#~ msgstr "Shtojca e vetëlargimeve u  çngarkua\n"
+
+#~ msgid "PID"
+#~ msgstr "PID"
+
+#~ msgid "US Minor Outlying Islands"
+#~ msgstr "Ishujt e Vegjël të Përtejmë të US-it"
+
+#~ msgid "%s loaded successfully!\n"
+#~ msgstr "%s u ngarkua me sukses!\n"
+
+#~ msgid "Copyright © 2004-2006"
+#~ msgstr "Të drejta kopjimi (c) 2004-2006"
+
+#~ msgid ""
+#~ "It has been well observed that a trombone is not a suitable instrument "
+#~ "for a gentleman"
+#~ msgstr ""
+#~ "Është vërejtur se tromboni nuk ësht instrument i përshtatshëm për një "
+#~ "zotni"
+
+#~ msgid "_Connect"
+#~ msgstr "Lidhu"
+
+#~ msgid "_Go"
+#~ msgstr "_Shko"
+
+#~ msgid "_Information"
+#~ msgstr "_Të dhëna"
+
+#~ msgid "_Find..."
+#~ msgstr "_Gjej..."

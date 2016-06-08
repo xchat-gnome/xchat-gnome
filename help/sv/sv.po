@@ -1,0 +1,1593 @@
+# Swedish translation for xchat help.
+# Copyright © 2007-2016 xchat-help's COPYRIGHT HOLDER
+# This file is distributed under the same license as the xchat package.
+# Daniel Nylander <po@danielnylander.se>, 2007.
+# Josef Andersson <josef.andersson@fripost.org>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: xchat-gnome doc\n"
+"POT-Creation-Date: 2016-03-23 15:35+0000\n"
+"PO-Revision-Date: 2016-04-23 22:05+0200\n"
+"Last-Translator: Josef Andersson <josef.andersson@fripost.org>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Project-Style: gnome\n"
+
+#. Put one translator per line, in the form NAME <EMAIL>, YEAR1, YEAR2
+msgctxt "_"
+msgid "translator-credits"
+msgstr ""
+"Daniel Nylander <po@danielnylander.se>, 2007\n"
+"Josef Andersson <josef.andersson@fripost.org>, 2016"
+
+#. (itstool) path: imagedata
+#. This is a reference to an external file such as an image or video. When
+#. the file changes, the md5 hash will change to let you know you need to
+#. update your localized copy. The msgstr is not used at all. Set it to
+#. whatever you like once you have updated your copy of the file.
+#: C/index.docbook:228
+msgctxt "_"
+msgid ""
+"external ref='figures/xchat-gnome_main_window.png' "
+"md5='90f93cb74dc838acb02ed7436e0b633f'"
+msgstr ""
+"external ref='figures/xchat-gnome_main_window.png' "
+"md5='90f93cb74dc838acb02ed7436e0b633f'"
+
+#. (itstool) path: articleinfo/title
+#: C/index.docbook:28
+msgid "<application>XChat-GNOME</application> Manual"
+msgstr "Handbok för <application>XChat-GNOME</application>"
+
+#. (itstool) path: articleinfo/copyright
+#: C/index.docbook:30
+msgid "<year>2005-2006</year> <holder>Brian Pepple</holder>"
+msgstr "<year>2005-2006</year> <holder>Brian Pepple</holder>"
+
+#. (itstool) path: articleinfo/copyright
+#: C/index.docbook:34
+msgid "<year>2006</year> <holder>Joachim Noreiko</holder>"
+msgstr "<year>2006</year> <holder>Joachim Noreiko</holder>"
+
+#. (itstool) path: publisher/publishername
+#: C/index.docbook:50
+msgid "Brian Pepple"
+msgstr "Brian Pepple"
+
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:2
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
+"of the GFDL at this <ulink type=\"help\" url=\"help:fdl\">link</ulink> or in "
+"the file COPYING-DOCS distributed with this manual."
+msgstr ""
+"Tillstånd att kopiera, distribuera och/eller modifiera detta dokument ges "
+"under villkoren i GNU Free Documentation License (GFDL), version 1.1 eller "
+"senare, utgivet av Free Software Foundation utan standardavsnitt och "
+"omslagstexter.  En kopia av GFDL finns att hämta på denna <ulink type=\"help"
+"\" url=\"help:fdl\">länk</ulink> eller i filen COPYING-DOCS som medföljer "
+"denna handbok."
+
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:11 C/legal.xml:11
+msgid ""
+"This manual is part of a collection of GNOME manuals distributed under the "
+"GFDL. If you want to distribute this manual separately from the collection, "
+"you can do so by adding a copy of the license to the manual, as described in "
+"section 6 of the license."
+msgstr ""
+"Denna handbok utgör en av flera GNOME-handböcker som distribueras under "
+"villkoren i GFDL.  Om du vill distribuera denna handbok separat från övriga "
+"handböcker kan du göra detta genom att lägga till en kopia av licensavtalet "
+"i handboken enligt instruktionerna i avsnitt 6 i licensavtalet."
+
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:18 C/legal.xml:18
+msgid ""
+"Many of the names used by companies to distinguish their products and "
+"services are claimed as trademarks. Where those names appear in any GNOME "
+"documentation, and the members of the GNOME Documentation Project are made "
+"aware of those trademarks, then the names are in capital letters or initial "
+"capital letters."
+msgstr ""
+"Flera namn på produkter och tjänster är registrerade varumärken. I de fall "
+"dessa namn förekommer i GNOME-dokumentation - och medlemmarna i GNOME-"
+"dokumentationsprojektet är medvetna om dessa varumärken - är de skrivna med "
+"versaler eller med inledande versal."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:34 C/legal.xml:34
+msgid ""
+"DOCUMENT IS PROVIDED ON AN \"AS IS\" BASIS, WITHOUT WARRANTY OF ANY KIND, "
+"EITHER EXPRESSED OR IMPLIED, INCLUDING, WITHOUT LIMITATION, WARRANTIES THAT "
+"THE DOCUMENT OR MODIFIED VERSION OF THE DOCUMENT IS FREE OF DEFECTS "
+"MERCHANTABLE, FIT FOR A PARTICULAR PURPOSE OR NON-INFRINGING. THE ENTIRE "
+"RISK AS TO THE QUALITY, ACCURACY, AND PERFORMANCE OF THE DOCUMENT OR "
+"MODIFIED VERSION OF THE DOCUMENT IS WITH YOU. SHOULD ANY DOCUMENT OR "
+"MODIFIED VERSION PROVE DEFECTIVE IN ANY RESPECT, YOU (NOT THE INITIAL "
+"WRITER, AUTHOR OR ANY CONTRIBUTOR) ASSUME THE COST OF ANY NECESSARY "
+"SERVICING, REPAIR OR CORRECTION. THIS DISCLAIMER OF WARRANTY CONSTITUTES AN "
+"ESSENTIAL PART OF THIS LICENSE. NO USE OF ANY DOCUMENT OR MODIFIED VERSION "
+"OF THE DOCUMENT IS AUTHORIZED HEREUNDER EXCEPT UNDER THIS DISCLAIMER; AND"
+msgstr ""
+"DOKUMENTET TILLHANDAHÅLLS I \"BEFINTLIGT SKICK\" UTAN NÅGRA SOM HELST "
+"GARANTIER, VARE SIG UTTRYCKLIGA ELLER UNDERFÖRSTÅDDA, INKLUSIVE, MEN INTE "
+"BEGRÄNSAT TILL, GARANTIER ATT DOKUMENTET ELLER EN MODIFIERAD VERSION AV "
+"DOKUMENTET INTE INNEHÅLLER NÅGRA FELAKTIGHETER, ÄR LÄMPLIGT FÖR ETT VISST "
+"ÄNDAMÅL ELLER INTE STRIDER MOT LAG. HELA RISKEN VAD GÄLLER KVALITET, "
+"EXAKTHET OCH UTFÖRANDE AV DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET "
+"LIGGER HELT OCH HÅLLET PÅ ANVÄNDAREN. OM ETT DOKUMENT ELLER EN MODIFIERAD "
+"VERSION AV ETT DOKUMENT SKULLE VISA SIG INNEHÅLLA FELAKTIGHETER I NÅGOT "
+"HÄNSEENDE ÄR DET DU (INTE DEN URSPRUNGLIGA SKRIBENTEN, FÖRFATTAREN ELLER "
+"NÅGON ANNAN MEDARBETARE) SOM FÅR STÅ FÖR ALLA EVENTUELLA KOSTNADER FÖR "
+"SERVICE, REPARATIONER ELLER KORRIGERINGAR. DENNA GARANTIFRISKRIVNING UTGÖR "
+"EN VÄSENTLIG DEL AV DETTA LICENSAVTAL. DETTA INNEBÄR ATT ALL ANVÄNDNING AV "
+"ETT DOKUMENT ELLER EN MODIFIERAD VERSION AV ETT DOKUMENT BEVILJAS ENDAST "
+"UNDER DENNA ANSVARSFRISKRIVNING;"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:54 C/legal.xml:54
+msgid ""
+"UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY, WHETHER IN TORT (INCLUDING "
+"NEGLIGENCE), CONTRACT, OR OTHERWISE, SHALL THE AUTHOR, INITIAL WRITER, ANY "
+"CONTRIBUTOR, OR ANY DISTRIBUTOR OF THE DOCUMENT OR MODIFIED VERSION OF THE "
+"DOCUMENT, OR ANY SUPPLIER OF ANY OF SUCH PARTIES, BE LIABLE TO ANY PERSON "
+"FOR ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES OF "
+"ANY CHARACTER INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS OF GOODWILL, "
+"WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION, OR ANY AND ALL OTHER DAMAGES "
+"OR LOSSES ARISING OUT OF OR RELATING TO USE OF THE DOCUMENT AND MODIFIED "
+"VERSIONS OF THE DOCUMENT, EVEN IF SUCH PARTY SHALL HAVE BEEN INFORMED OF THE "
+"POSSIBILITY OF SUCH DAMAGES."
+msgstr ""
+"UNDER INGA OMSTÄNDIGHETER ELLER INOM RAMEN FÖR NÅGON LAGSTIFTNING, OAVSETT "
+"OM DET GÄLLER KRÄNKNING (INKLUSIVE VÅRDSLÖSHET), KONTRAKT ELLER DYLIKT, SKA "
+"FÖRFATTAREN, DEN URSPRUNGLIGA SKRIBENTEN ELLER ANNAN MEDARBETARE ELLER "
+"ÅTERFÖRSÄLJARE AV DOKUMENTET ELLER AV EN MODIFIERAD VERSION AV DOKUMENTET "
+"ELLER NÅGON LEVERANTÖR TILL NÅGON AV NÄMNDA PARTER STÄLLAS ANSVARIG GENTEMOT "
+"NÅGON FÖR NÅGRA DIREKTA, INDIREKTA, SÄRSKILDA ELLER OFÖRUTSEDDA SKADOR ELLER "
+"FÖLJDSKADOR AV NÅGOT SLAG, INKLUSIVE, MEN INTE BEGRÄNSAT TILL, SKADOR "
+"BETRÄFFANDE FÖRLORAD GOODWILL, HINDER I ARBETET, DATORHAVERI ELLER NÅGRA "
+"ANDRA TÄNKBARA SKADOR ELLER FÖRLUSTER SOM KAN UPPKOMMA PÅ GRUND AV ELLER "
+"RELATERAT TILL ANVÄNDNINGEN AV DOKUMENTET ELLER MODIFIERADE VERSIONER AV "
+"DOKUMENTET, ÄVEN OM PART SKA HA BLIVIT INFORMERAD OM MÖJLIGHETEN TILL SÅDANA "
+"SKADOR."
+
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:27 C/legal.xml:27
+msgid ""
+"DOCUMENT AND MODIFIED VERSIONS OF THE DOCUMENT ARE PROVIDED UNDER THE TERMS "
+"OF THE GNU FREE DOCUMENTATION LICENSE WITH THE FURTHER UNDERSTANDING THAT: "
+"<_:orderedlist-1/>"
+msgstr ""
+"DOKUMENTET OCH MODIFIERADE VERSIONER AV DOKUMENTET TILLHANDAHÅLLS UNDER "
+"VILLKOREN I GNU FREE DOCUMENTATION LICENSE ENDAST UNDER FÖLJANDE "
+"FÖRUTSÄTTNINGAR: <_:orderedlist-1/>"
+
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:59
+msgid ""
+"<firstname>Brian</firstname> <surname>Pepple</surname> <affiliation> "
+"<orgname>Fedora Project</orgname> <address> <email>bpepple@fedoraproject."
+"org</email> </address> </affiliation>"
+msgstr ""
+"<firstname>Brian</firstname> <surname>Pepple</surname> <affiliation> "
+"<orgname>Fedora Project</orgname> <address> <email>bpepple@fedoraproject."
+"org</email> </address> </affiliation>"
+
+#. (itstool) path: authorgroup/author
+#: C/index.docbook:67
+msgid ""
+"<firstname>Joachim</firstname> <surname>Noreiko</surname> <affiliation> "
+"<orgname>GNOME Documentation Project</orgname> <address> "
+"<email>jnoreiko@yahoo.com</email> </address> </affiliation>"
+msgstr ""
+"<firstname>Joachim</firstname> <surname>Noreiko</surname> <affiliation> "
+"<orgname>GNOME:s dokumentationsprojekt</orgname> <address> "
+"<email>jnoreiko@yahoo.com</email> </address> </affiliation>"
+
+#. (itstool) path: revdescription/para
+#: C/index.docbook:110
+msgid "Joachim Noreiko <email>jnoreiko@yahoo.com</email>"
+msgstr "Joachim Noreiko <email>jnoreiko@yahoo.com</email>"
+
+#. (itstool) path: revdescription/para
+#: C/index.docbook:113 C/index.docbook:123
+msgid "GNOME Documentation Project"
+msgstr "GNOME:s dokumentationsprojekt"
+
+#. (itstool) path: revhistory/revision
+#: C/index.docbook:106
+msgid ""
+"<revnumber>XChat-GNOME Manual 2.1</revnumber> <date>December 2006</date> <_:"
+"revdescription-1/>"
+msgstr ""
+"<revnumber>Handbok för XChat-GNOME 2.1</revnumber> <date>December 2006</"
+"date> <_:revdescription-1/>"
+
+#. (itstool) path: revdescription/para
+#: C/index.docbook:120
+msgid "Brian Pepple <email>bpepple@fedoraproject.org</email>"
+msgstr "Brian Pepple <email>bpepple@fedoraproject.org</email>"
+
+#. (itstool) path: revhistory/revision
+#: C/index.docbook:116
+msgid ""
+"<revnumber>XChat-GNOME Manual V2.0</revnumber> <date>November 2005</date> <_:"
+"revdescription-1/>"
+msgstr ""
+"<revnumber>Handbok för XChat-GNOME V2.0</revnumber> <date>November 2005</"
+"date> <_:revdescription-1/>"
+
+#. (itstool) path: articleinfo/releaseinfo
+#: C/index.docbook:128
+msgid "This manual describes version 0.16 of XChat-GNOME."
+msgstr "Den här handboken beskriver version 0.16 av XChat-GNOME."
+
+#. (itstool) path: legalnotice/title
+#: C/index.docbook:130
+msgid "Feedback"
+msgstr "Återkoppling"
+
+#. (itstool) path: legalnotice/para
+#: C/index.docbook:131
+msgid ""
+"To report a bug or make a suggestion regarding the <application>XChat-GNOME</"
+"application> application or this manual, follow the directions in the "
+"Feedback section of the <ulink url=\"ghelp:user-guide?feedback-bugs\" type="
+"\"help\">GNOME User Guide</ulink>."
+msgstr ""
+"För att rapportera ett fel eller komma med ett förslag angående programmet "
+"<application>XChat-GNOME</application> eller denna handbok, följ "
+"instruktionerna i återkopplingsavsnittet i <ulink url=\"ghelp:user-guide?"
+"feedback-bugs\" type=\"help\">användarguiden för GNOME</ulink>."
+
+#. (itstool) path: abstract/para
+#: C/index.docbook:139
+msgid "A user manual which describes the use of the XChat-GNOME IRC client."
+msgstr ""
+"En användarhandbok som beskriver användningen av irc-klienten XChat-GNOME."
+
+#. (itstool) path: article/indexterm
+#: C/index.docbook:143
+msgid "<primary>XChat-GNOME</primary>"
+msgstr "<primary>XChat-GNOME</primary>"
+
+#. (itstool) path: article/indexterm
+#: C/index.docbook:146
+msgid "<primary>xchat-gnome</primary>"
+msgstr "<primary>xchat-gnome</primary>"
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:155
+msgid "Introduction"
+msgstr "Introduktion"
+
+#. (itstool) path: sect1/para
+#: C/index.docbook:156
+msgid ""
+"The <application>XChat-GNOME</application> application is an Internet Relay "
+"Chat (IRC) program for the GNOME desktop."
+msgstr ""
+"Programmet <application>XChat-GNOME</application> är ett Internet Relay Chat-"
+"program (IRC) för GNOME-skrivbordet."
+
+#. (itstool) path: sect1/para
+#: C/index.docbook:159
+msgid "<application>XChat-GNOME</application> provides the following features:"
+msgstr ""
+"<application>XChat-GNOME</application> tillhandahåller följande funktioner:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:162
+msgid "Notification Area Icon Plugin"
+msgstr "Ikoninsticksmodul för aviseringsytan"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:165
+msgid "Direct Client-To-Client (DCC) Transfers"
+msgstr "Direct Client-To-Client (DCC)-överföringar"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:168
+msgid "Direct Client-To-Client (DCC) Chats"
+msgstr "Direct Client-To-Client (DCC)-chattar"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:171
+msgid "Adherence to GNOME Human Interface Guidelines (HIG)"
+msgstr "Uppfyllelse av GNOME Human Interface Guidelines (HIG)"
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:186
+msgid "Getting Started"
+msgstr "Komma igång"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:188
+msgid "Starting <application>XChat-GNOME</application>"
+msgstr "Starta <application>XChat-GNOME</application>"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:189
+msgid ""
+"You can start <application>XChat-GNOME</application> in the following ways:"
+msgstr "Du kan starta <application>XChat-GNOME</application> på följande sätt:"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:193
+msgid "<guimenu>Applications</guimenu> menu"
+msgstr "<guimenu>Program</guimenu>menyn"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:195
+msgid ""
+"Choose <menuchoice> <guisubmenu>Internet</guisubmenu> <guimenuitem>XChat-"
+"GNOME IRC Chat</guimenuitem> </menuchoice>."
+msgstr ""
+"Välj <menuchoice> <guisubmenu>Internet</guisubmenu> <guimenuitem>XChat-GNOME "
+"IRC-chatt</guimenuitem></menuchoice>."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:204
+msgid "Command line"
+msgstr "Kommandorad"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:206
+msgid ""
+"To start <application>XChat-GNOME</application> from a command line, type "
+"<command>xchat-gnome</command>, then press <keycap>Return</keycap>:"
+msgstr ""
+"För att starta <application>XChat-GNOME</application> från en kommandorad, "
+"skriv <command>xchat-gnome</command> och tryck sedan <keycap>Retur</keycap>:"
+
+#. (itstool) path: tip/para
+#: C/index.docbook:210
+msgid ""
+"To view other command line options that are available, type <command>xchat-"
+"gnome --help</command>, then press <keycap>Return</keycap>"
+msgstr ""
+"För att visa andra tillgängliga kommandoradsflaggor, skriv <command>xchat-"
+"gnome --help</command> och tryck sedan <keycap>Retur</keycap>"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:220
+msgid "When You Start <application>XChat-GNOME</application>"
+msgstr "När du startar <application>XChat-GNOME</application>"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:221
+msgid ""
+"When you start <application>XChat-GNOME</application>, the following window "
+"is displayed."
+msgstr ""
+"När du startar <application>XChat-GNOME</application> visas följande fönster."
+
+#. (itstool) path: figure/title
+#: C/index.docbook:225
+msgid "<application>XChat-GNOME</application> Main Window"
+msgstr "<application>XChat-GNOME</application>-huvudfönster"
+
+#. (itstool) path: screenshot/mediaobject
+#: C/index.docbook:227
+msgid ""
+"<imageobject><imagedata fileref=\"figures/xchat-gnome_main_window.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>Shows "
+"<application>XChat-GNOME</application> main window. Contains titlebar, "
+"menubar, display area, and scrollbars. Menubar contains IRC, Edit, Network, "
+"Discussion, Go, and Help menus. </phrase> </textobject>"
+msgstr ""
+"<imageobject><imagedata fileref=\"figures/xchat-gnome_main_window.png\" "
+"format=\"PNG\"/> </imageobject> <textobject> <phrase>Visar huvudfönstret för "
+"<application>XChat-GNOME</application>. Innehåller titelrad, menyrad, "
+"visningsområde och rullningslister. Menyraden innehåller menyerna IRC, "
+"redigera, nätverk, diskussion, gå till samt hjälp. </phrase> </textobject>"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:244
+msgid ""
+"The <application>XChat-GNOME</application> window contains the following "
+"elements:"
+msgstr ""
+"<application>XChat-GNOME</application>-fönstret innehåller följande element:"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:248
+msgid "Menubar"
+msgstr "Menyrad"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:250
+msgid ""
+"The menus on the menubar contain all of the commands you need to use in "
+"<application>XChat-GNOME</application>."
+msgstr ""
+"Menyerna på menyraden innehåller alla kommandon du behöver använda i "
+"<application>XChat-GNOME</application>."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:255
+msgid "Server Pane"
+msgstr "Serverpanel"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:257
+msgid "The Server Pane shows the Servers and Channels currently connected."
+msgstr "Serverpanelen visar anslutna servrar och kanaler."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:261
+msgid "User Button"
+msgstr "Användarknapp"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:263
+msgid ""
+"The User Button shows the number of users present in the selected Channel. "
+"Click the User Button to show a list of users. User's in the list marked as "
+"away are \"Grayed out\"."
+msgstr ""
+"Användarknappen visar antalet närvarande användare i den valda kanalen. "
+"Klicka på användarknappen för att visa en lista över användare. Användare i "
+"listan som är markerade som borta är ”utgråade”."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:267
+msgid "Discussion Area"
+msgstr "Diskussionsytan"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:269
+msgid ""
+"The Discussion Area presents the discussion occurring in the selected "
+"Channel."
+msgstr "Diskussionsytan visar diskussionen som pågår i den valda kanalen."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:271
+msgid ""
+"Type into the message input line at the bottom of the discussion area to "
+"chat in the selected Channel."
+msgstr ""
+"Skriv i meddelandets inmatningsrad längst ned i diskussionsytan för att "
+"chatta i den valda kanalen."
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:281
+msgid "Usage"
+msgstr "Användning"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:285
+msgid "Connecting to an Internet Relay Chat (IRC) Server"
+msgstr "Ansluta till en Internet Relay Chat (IRC)-server"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:286
+msgid ""
+"To connect to an Internet Relay Chat (IRC) Server, choose <menuchoice> "
+"<guimenu>IRC</guimenu> <guimenuitem>Connect</guimenuitem> </menuchoice>. The "
+"<guilabel>Connect</guilabel> dialog is displayed. Select the Server that you "
+"wish to connect to, then click <guibutton>Connect</guibutton>."
+msgstr ""
+"För att ansluta till en Internet Relay Chat (IRC)-server, välj <menuchoice> "
+"<guimenu>IRC</guimenu> <guimenuitem>Anslut</guimenuitem> </menuchoice>. "
+"Dialogen <guilabel>Anslut</guilabel> visas. Välj den server du vill ansluta "
+"till och klicka sedan på <guibutton>Anslut</guibutton>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:298
+msgid "Viewing Direct Client-To-Client (DCC) File Transfers Information"
+msgstr ""
+"Visa filöverföringsinformation för Direct Client-To-Client (DCC)-överföringar"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:299
+msgid ""
+"To view Direct Client-To-Client (DCC) file transfer information, choose "
+"<menuchoice> <guimenu>IRC</guimenu> <guimenuitem>File Transfers</"
+"guimenuitem> </menuchoice>."
+msgstr ""
+"För att visa filöverföringsinformation för Direct Client-To-Client (DCC)-"
+"överföringar, välj <menuchoice> <guimenu>IRC</guimenu> "
+"<guimenuitem>Filöverföringar</guimenuitem> </menuchoice>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:308
+msgid "Editing Text"
+msgstr "Redigera text"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:309
+msgid "You can edit text in the following ways:"
+msgstr "Du kan redigera text på följande sätt:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:312
+msgid ""
+"To delete the selected text from the file and move the selected text to a "
+"buffer, choose <menuchoice> <guimenu>Edit</guimenu> <guimenuitem>Cut</"
+"guimenuitem> </menuchoice>."
+msgstr ""
+"För att ta bort den markerade texten från filen och flytta den till en "
+"buffert, välj <menuchoice> <guimenu>Redigera</guimenu> <guimenuitem>Klipp "
+"ut</guimenuitem> </menuchoice>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:317
+msgid ""
+"To copy the selected text to a buffer, choose <menuchoice><guimenu>Edit</"
+"guimenu> <guimenuitem>Copy</guimenuitem> </menuchoice>."
+msgstr ""
+"För att kopiera den markerade texten till en buffert, välj "
+"<menuchoice><guimenu>Redigera</guimenu><guimenuitem>Kopiera</guimenuitem> </"
+"menuchoice>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:322
+msgid ""
+"To insert the contents of the buffer at the cursor position, choose "
+"<menuchoice> <guimenu>Edit</guimenu> <guimenuitem>Paste</guimenuitem> </"
+"menuchoice>. You must cut or copy text before you can paste text into the "
+"file."
+msgstr ""
+"För att redigera innehållet i bufferten vid markörpositionen, välj "
+"<menuchoice> <guimenu>Redigera</guimenu> <guimenuitem>Klistra in</"
+"guimenuitem> </menuchoice>. Du måste klippa ut eller kopiera text innan du "
+"kan klistra in text i filen."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:328
+msgid ""
+"To clear all text from the Discussion Area for the currently selected "
+"Channel, choose <menuchoice><guimenu>Edit</guimenu> <guimenuitem>Clear</"
+"guimenuitem></menuchoice>."
+msgstr ""
+"För att rensa all text från diskussionsytan för den valda kanalen, välj "
+"<menuchoice><guimenu>Redigera</guimenu> <guimenuitem>Töm text</guimenuitem></"
+"menuchoice>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:337
+msgid "Reconnecting to a Server"
+msgstr "Återanslut till en server"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:338
+msgid ""
+"To reconnect <application>XChat-GNOME</application> to an Internet Relay "
+"Chat (IRC) server, choose <menuchoice> <guimenu>Network</guimenu> "
+"<guimenuitem>Reconnect</guimenuitem> </menuchoice>."
+msgstr ""
+"För att återansluta <application>XChat-GNOME</application> till en Internet "
+"Relay Chat (IRC)-server, använd <menuchoice> <guimenu>Nätverk</guimenu> "
+"<guimenuitem>Återanslut</guimenuitem> </menuchoice>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:348
+msgid "Disconnecting from a Server"
+msgstr "Koppla från en server"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:349
+msgid ""
+"To disconnect <application>XChat-GNOME</application> from an Internet Relay "
+"Chat (IRC) server, choose <menuchoice> <guimenu>Network</guimenu> "
+"<guimenuitem>Disconnect</guimenuitem> </menuchoice>."
+msgstr ""
+"För att koppla från <application>XChat-GNOME</application> från en Internet "
+"Relay Chat (IRC)-server, välj <menuchoice> <guimenu>Nätverk</guimenu> "
+"<guimenuitem>Koppla från</guimenuitem> </menuchoice>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:359
+msgid "Saving a Channel Transcript"
+msgstr "Spara en kanalutskrift"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:360
+msgid ""
+"To save a transcript of a Channel, choose <menuchoice> <shortcut> <keycombo> "
+"<keycap>Ctrl</keycap> <keycap>S</keycap> </keycombo> </shortcut> "
+"<guimenu>Discussion</guimenu> <guimenuitem>Save Transcript</guimenuitem> </"
+"menuchoice>."
+msgstr ""
+"För att spara en kanalutskrift, välj <menuchoice> <shortcut> <keycombo> "
+"<keycap>Ctrl</keycap> <keycap>S</keycap> </keycombo> </shortcut> "
+"<guimenu>Diskussion</guimenu> <guimenuitem>Spara utskrift</guimenuitem> </"
+"menuchoice>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:375
+msgid "Leaving a Channel"
+msgstr "Lämna en kanal"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:376
+msgid ""
+"When you leave a channel, you are removed from the participants and can no "
+"longer chat in it, but the discussion up to that point remains in the Server "
+"Pane."
+msgstr ""
+"När du lämnar en kanal tas du bort från deltagandelistan och kan inte längre "
+"chatta i den, men diskussionen fram till denna punkt finns kvar i "
+"serverpanelen."
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:377
+msgid ""
+"To leave a Channel, choose <menuchoice> <shortcut> <keycombo> <keycap>Ctrl</"
+"keycap> <keycap>Q</keycap> </keycombo> </shortcut> <guimenu>Discussion</"
+"guimenu> <guimenuitem>Leave</guimenuitem> </menuchoice>."
+msgstr ""
+"För att lämna en kanal välj <menuchoice> <shortcut> <keycombo> <keycap>Ctrl</"
+"keycap> <keycap>Q</keycap> </keycombo> </shortcut> <guimenu>Diskussion</"
+"guimenu> <guimenuitem>Lämna</guimenuitem> </menuchoice>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:392
+msgid "Closing a Channel"
+msgstr "Stäng en kanal"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:393
+msgid ""
+"When you close a channel, the channel is removed from the list in the Server "
+"Pane."
+msgstr "När du stänger en kanal tas kanalen bort från listan i serverpanelen."
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:394
+msgid ""
+"To close a Channel, choose <menuchoice> <shortcut> <keycombo> <keycap>Ctrl</"
+"keycap> <keycap>W</keycap> </keycombo> </shortcut> <guimenu>Discussion</"
+"guimenu> <guimenuitem>Close</guimenuitem> </menuchoice>."
+msgstr ""
+"För att stänga en kanal välj <menuchoice> <shortcut> <keycombo> "
+"<keycap>Ctrl</keycap> <keycap>W</keycap> </keycombo> </shortcut> "
+"<guimenu>Diskussion</guimenu> <guimenuitem>Stäng</guimenuitem> </menuchoice>."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:409
+msgid "Navigating through Channels"
+msgstr "Navigera genom kanaler"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:412
+msgid ""
+"To view previous channel, choose <menuchoice> <shortcut> <keycombo> "
+"<keycap>Alt</keycap> <keycap>Up</keycap> </keycombo> </shortcut> "
+"<guimenu>Go</guimenu> <guimenuitem>Previous Discussion</guimenuitem> </"
+"menuchoice>"
+msgstr ""
+"För att visa tidigare kanaler visa <menuchoice> <shortcut> <keycombo> "
+"<keycap>Alt</keycap> <keycap>Upp</keycap> </keycombo> </shortcut> "
+"<guimenu>Gå till</guimenu> <guimenuitem>Föregående diskussion</guimenuitem> "
+"</menuchoice>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:426
+msgid ""
+"To view next channel, choose <menuchoice> <shortcut> <keycombo> <keycap>Alt</"
+"keycap> <keycap>Down</keycap> </keycombo> </shortcut> <guimenu>Go</guimenu> "
+"<guimenuitem>Next Discussion</guimenuitem> </menuchoice>"
+msgstr ""
+"För att visa nästa kanal välj <menuchoice> <shortcut> <keycombo> "
+"<keycap>Alt</keycap> <keycap>Ned</keycap> </keycombo> </shortcut> "
+"<guimenu>Gå till</guimenu> <guimenuitem>Nästa diskussion</guimenuitem> </"
+"menuchoice>"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:443
+msgid "Navigating Through Servers"
+msgstr "Navigera i servrar"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:446
+msgid ""
+"To view previous server, choose <menuchoice> <shortcut> <keycombo> "
+"<keycap>Ctrl</keycap> <keycap>Up</keycap> </keycombo> </shortcut> "
+"<guimenu>Go</guimenu> <guimenuitem>Previous Network</guimenuitem> </"
+"menuchoice>"
+msgstr ""
+"För att visa föregående server, visa <menuchoice> <shortcut> <keycombo> "
+"<keycap>Ctrl</keycap> <keycap>Upp</keycap> </keycombo> </shortcut> "
+"<guimenu>Gå till</guimenu> <guimenuitem>Föregående nätverk</guimenuitem> </"
+"menuchoice>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:460
+msgid ""
+"To view next server, choose <menuchoice> <shortcut> <keycombo> <keycap>Ctrl</"
+"keycap> <keycap>Down</keycap> </keycombo> </shortcut> <guimenu>Go</guimenu> "
+"<guimenuitem>Next Network</guimenuitem> </menuchoice>"
+msgstr ""
+"För att visa nästa server, välj <menuchoice> <shortcut> <keycombo> "
+"<keycap>Ctrl</keycap> <keycap>Ned</keycap> </keycombo> </shortcut> "
+"<guimenu>Gå till</guimenu> <guimenuitem>Nästa nätverk</guimenuitem> </"
+"menuchoice>"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:477
+msgid "Quitting XChat-GNOME"
+msgstr "Avsluta XChat-GNOME"
+
+#. (itstool) path: sect2/para
+#: C/index.docbook:478
+msgid ""
+"To quit <application>XChat-GNOME</application>, choose <menuchoice> "
+"<shortcut> <keycombo> <keycap>Ctrl</keycap> <keycap>Q</keycap> </keycombo> </"
+"shortcut> <guimenu>IRC</guimenu> <guimenuitem>Quit</guimenuitem> </"
+"menuchoice>."
+msgstr ""
+"För att avsluta <application>XChat-GNOME</application>, välj <menuchoice> "
+"<shortcut> <keycombo> <keycap>Ctrl</keycap> <keycap>Q</keycap> </keycombo> </"
+"shortcut> <guimenu>IRC</guimenu> <guimenuitem>Avsluta</guimenuitem> </"
+"menuchoice>."
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:495
+msgid "Preferences"
+msgstr "Inställningar"
+
+#. (itstool) path: sect1/para
+#: C/index.docbook:496
+msgid ""
+"To modify the preferences of <application>XChat-GNOME</application>, choose "
+"<menuchoice> <guimenu>Edit</guimenu> <guimenuitem>Preferences</guimenuitem> "
+"</menuchoice>. The <guilabel>Preferences</guilabel> dialog contains the "
+"following sections:"
+msgstr ""
+"För att ändra inställningarna för <application>XChat-GNOME</application>, "
+"välj <menuchoice> <guimenu>Redigera</guimenu> <guimenuitem>Inställningar</"
+"guimenuitem> </menuchoice>. Dialogen <guilabel>Inställningar</guilabel> "
+"innehåller följande avsnitt:"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:513
+msgid "IRC Preferences"
+msgstr "IRC-inställningar"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:516 C/index.docbook:746
+msgid "<guilabel>General</guilabel>"
+msgstr "<guilabel>Allmänt</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:518
+msgid ""
+"Enter the <guilabel>Nickname</guilabel> you wish to use in the Internet "
+"Relay Chat (IRC) channel."
+msgstr ""
+"Ange det <guilabel>Smeknamn</guilabel> du vill använda i Internet Relay Chat "
+"(IRC)-kanalen."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:520
+msgid ""
+"Enter your <guilabel>Real Name</guilabel>, which is displayed on <command>/"
+"whois</command> requests."
+msgstr ""
+"Ange ditt <guilabel>Verkliga namn</guilabel>, vilket visas på <command>/"
+"whois</command>-begäran."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:522
+msgid ""
+"Enter the <guilabel>Quit Message</guilabel> you wish to be shown to other "
+"users when you leave an Internet Relay Chat (IRC) network."
+msgstr ""
+"Ange det <guilabel>Avslutningsmeddelande</guilabel> du vill ska visas för "
+"andra användare när du lämnar ett Internet Relay Chat (IRC)-nätverk."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:523
+msgid ""
+"Enter the <guilabel>Part Message</guilabel> you wish to be shown to other "
+"users when you leave an Internet Relay Chat (IRC) channel but remain "
+"connected to that channel's network."
+msgstr ""
+"Ange det <guilabel>Meddelande vid kanallämning</guilabel> du önskar ska "
+"visas för andra användare när du lämnar en Internet Relay Chat (IRC)-kanal "
+"men fortfarande är ansluten till kanalens nätverk."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:524
+msgid ""
+"Enter the <guilabel>Away Message</guilabel> you wish to be shown to people "
+"who try to contact you when you are away."
+msgstr ""
+"Ange det <guilabel>Frånvaromeddelande</guilabel> du önskar ska visas för "
+"andra användare som försöker kontakta dig när du är frånvarande."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:528
+msgid "<guilabel>Highlighting</guilabel>"
+msgstr "<guilabel>Markering</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:530
+msgid ""
+"Specify words or phrases that should be highlighted in a different text "
+"colour when another chat user says them. This is in addition to your "
+"nickname, which is always highlighted."
+msgstr ""
+"Ange ord eller fraser som ska färgmarkeras i en annan textfärg när en annan "
+"chattanvändare nämner dem. Detta är som tillägg till ditt smeknamn, vilket "
+"alltid färgmarkeras."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:534
+msgid "<guilabel>Use Interface</guilabel>"
+msgstr "<guilabel>Använd gränssnitt</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:536
+msgid ""
+"Select the <guilabel>Use System Terminal Font</guilabel> option to use the "
+"same fonts as your system terminal."
+msgstr ""
+"Använd alternativet <guilabel>Använd systemterminaltypsnitt</guilabel> för "
+"att använda samma typsnitt som i systemterminalen."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:538
+msgid ""
+"Select the <guilabel>Use this font</guilabel> option to open the Font "
+"Selection dialog box."
+msgstr ""
+"Använd alternativet <guilabel>Använd det här typsnittet</guilabel> för att "
+"öppna dialogrutan typsnittsväljaren."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:540
+msgid ""
+"Select the <guilabel>Show colors</guilabel> option to enable color nicknames "
+"in discussion area."
+msgstr ""
+"Välj alternativet <guilabel>Visa färger</guilabel> för att aktivera "
+"färgsmeknamn i diskussionsytan."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:542
+msgid ""
+"Select the <guilabel>Show timestamps</guilabel> option to show timestamps of "
+"discussion."
+msgstr ""
+"Välj alternativet <guilabel>Visa tidsstämplar</guilabel> för att visa "
+"tidsstämplar för en diskussion."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:549
+msgid "Colors"
+msgstr "Färger"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:552
+msgid "<guilabel>Text Colors</guilabel>"
+msgstr "<guilabel>Textfärger</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:554
+msgid ""
+"Use the <guilabel>Built-in schemes</guilabel> drop-down box to specify how "
+"<application>XChat-GNOME</application> should display the text and "
+"background color. Select one of the following options:"
+msgstr ""
+"Använd rullgardinslisten <guilabel>Inbyggda scheman</guilabel> för att ange "
+"hur <application>XChat-GNOME</application> ska visa text- och "
+"bakgrundsfärger. Välj ett av följande alternativ:"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:559
+msgid ""
+"Use the <guilabel>Black on White</guilabel> option to provide black text on "
+"a white background."
+msgstr ""
+"Använd alternativet <guilabel>Svart på vitt</guilabel> för att ge svart text "
+"på vit bakgrund."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:563
+msgid ""
+"Use the <guilabel>White on Black</guilabel> option to provide white text on "
+"a black background."
+msgstr ""
+"Använd alternativet <guilabel>Vitt på svart</guilabel> för att ge vit text "
+"på svart bakgrund."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:567
+msgid ""
+"Use the <guilabel>Custom</guilabel> option to create a custom color scheme."
+msgstr ""
+"Använd alternativet <guilabel>Anpassad</guilabel> för att skapa anpassat "
+"färgschema."
+
+#. (itstool) path: note/para
+#: C/index.docbook:572
+msgid ""
+"The following options are only able to be changed if <guilabel>Built-in "
+"schemes</guilabel> is set to <guilabel>Custom</guilabel>."
+msgstr ""
+"Följande alternativ kan bara ändras om <guilabel>Inbyggda scheman</guilabel> "
+"är satt till <guilabel>Anpassad</guilabel>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:576
+msgid ""
+"Click on the <guilabel>Foreground color</guilabel> button to display the "
+"color selector dialog. Select a foreground color for the <application>XChat-"
+"GNOME</application> discussion area."
+msgstr ""
+"Klicka på knappen <guilabel>Förgrundsfärg</guilabel> för att visa "
+"färgväljardialogen. Välj en förgrundsfärg för diskussionsytan i "
+"<application>XChat-GNOME</application>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:579
+msgid ""
+"Click on the <guilabel>Background color</guilabel> button to display the "
+"color selector dialog. Select the background color for the "
+"<application>XChat-GNOME</application> discussion area."
+msgstr ""
+"Klicka på knappen <guilabel>bakgrundsfärg</guilabel> för att visa "
+"färgväljardialogen. Välj en bakgrundsfärg för diskussionsytan i "
+"<application>XChat-GNOME</application>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:582
+msgid ""
+"Click on the <guilabel>Foreground mark</guilabel> button to display the "
+"color selector dialog. Select the foreground mark color for the "
+"<application>XChat-GNOME</application> discussion area."
+msgstr ""
+"Klicka på knappen <guilabel>Förgrundsmarkering</guilabel> för att visa "
+"färgväljardialogen. Välj färgen för diskussionsytans förgrundsmarkering i "
+"<application>XChat-GNOME</application>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:585
+msgid ""
+"Click on the <guilabel>Background mark</guilabel> button to display the "
+"color selector dialog. Select the background mark color for the "
+"<application>XChat-GNOME</application> discussion area."
+msgstr ""
+"Klicka på knappen <guilabel>Bakgrundsmarkering</guilabel> för att visa "
+"färgväljardialogen. Välj färgen för diskussionsytans bakgrundsmarkering i "
+"<application>XChat-GNOME</application>."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:591
+msgid "<guilabel>mIRC Colors</guilabel>"
+msgstr "<guilabel>mIRC-färger</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:593 C/index.docbook:604
+msgid ""
+"Select the buttons of the colors that you wish to change, to display the "
+"color selector dialog."
+msgstr ""
+"Välj knapparna för de färger du vill ändra för att visa färgväljardialogen."
+
+#. (itstool) path: note/para
+#: C/index.docbook:596 C/index.docbook:607
+msgid ""
+"The colors are only able to be changed if <guilabel>Built-in schemes</"
+"guilabel> is set to <guilabel>Custom</guilabel>."
+msgstr ""
+"Färgerna kan bara ändras om <guilabel>Inbyggda scheman</guilabel> är satt "
+"till <guilabel>Anpassad</guilabel>."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:602
+msgid "<guilabel>Extra Colors</guilabel>"
+msgstr "<guilabel>Extra färger</guilabel>"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:615
+msgid "File Transfers &amp; DCC"
+msgstr "Filöverföringar &amp; DCC"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:618
+msgid "<guilabel>File Transfers</guilabel>"
+msgstr "<guilabel>Filöverföringar</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:620
+msgid ""
+"Use the <guilabel>Download file to</guilabel> button to select the folder "
+"where you wish to download file."
+msgstr ""
+"Använd knappen <guilabel>Spara hämtade filer i</guilabel> för att välja "
+"mappen dit du vill hämta filen."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:622
+msgid ""
+"Use the <guilabel>Move completed files to</guilabel> button to select the "
+"folder where you wish for completed downloads to be moved."
+msgstr ""
+"Använd knappen <guilabel>Flytta färdiga filer till</guilabel> för att välja "
+"mappen dit du vill flytta färdiga filhämtningar."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:624
+msgid ""
+"Select <guilabel>Convert spaces to underscore in filenames</guilabel> if you "
+"wish to have spaces converted to underscores in the filename."
+msgstr ""
+"Välj <guilabel>Konvertera blanksteg till understreck i filnamn</guilabel> om "
+"du vill att tomt utrymme ska konverteras till understreck i filnamnet."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:626
+msgid ""
+"Select <guilabel>Save senders nickname in filenames</guilabel> to add the "
+"senders nickname to the downloaded file name."
+msgstr ""
+"Välj <guilabel>Spara avsändarens smeknamn i filnamn </guilabel> för att "
+"lägga till sändarens smeknamn till namnet på den hämtade filen."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:631
+msgid "<guilabel>DCC Settings</guilabel>"
+msgstr "<guilabel>DCC-inställningar</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:633
+msgid ""
+"Select the <guilabel>Auto-accept DCC Chat</guilabel> option to automatically "
+"accept Direct Client-to-Client (DCC) chats."
+msgstr ""
+"Välj alternativet <guilabel>Acceptera automatiskt DCC-chatt</guilabel> för "
+"att automatiskt acceptera Direct Client-to-Client (DCC)-chattar."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:635
+msgid ""
+"Select the <guilabel>Auto-accept DCC File Transfers</guilabel> option to "
+"automatically accept Direct Client-to-Client (DCC) file transfers."
+msgstr ""
+"Välj alternativet <guilabel>Acceptera automatiskt DCC-filöverföringar</"
+"guilabel> för att automatiskt acceptera Direct Client-to-Client (DCC)-"
+"filöverföringar."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:637
+msgid ""
+"Select the <guilabel>Get IP Address From Server</guilabel> option to use "
+"your providers DNS to resolve an IP address."
+msgstr ""
+"Välj alternativet <guilabel>Få IP-adress från servern</guilabel> för att "
+"använda din leverantörs DNS till att slå upp en IP-adress."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:639
+msgid ""
+"Select the <guilabel>Use This IP Address</guilabel> option and enter your IP "
+"address, to use a static IP address."
+msgstr ""
+"Välj alternativet <guilabel>Använd den här IP-adressen</guilabel> och ange "
+"din IP-adress för att använda en statisk IP-adress."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:644
+msgid "<guilabel>Throttling</guilabel>"
+msgstr "<guilabel>Begränsning</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:646
+msgid ""
+"Use the <guilabel>Individual send KB/s</guilabel> spin box to set your "
+"individual maximum upload speed."
+msgstr ""
+"Använd snurrväljaren <guilabel>Individuell sändning KB/s</guilabel> för att "
+"ange din individuella högsta sändningsfart."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:648
+msgid ""
+"Use the <guilabel>Global send KB/s</guilabel> spin box to set your global "
+"maximum upload speed."
+msgstr ""
+"Använd snurrväljaren <guilabel>Global sändning KB/s</guilabel> för att ange "
+"din högsta globala sändningsfart."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:650
+msgid ""
+"Use the <guilabel>Individual receive KB/s</guilabel> spin box to set your "
+"individual maximum download speed."
+msgstr ""
+"Använd snurrväljaren <guilabel>Individuell mottagning KB/s</guilabel> för "
+"att ange din individuella högsta hämtningsfart."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:652
+msgid ""
+"Use the <guilabel>Global receive KB/s</guilabel> spin box to set your global "
+"maximum download speed."
+msgstr ""
+"Använd snurrväljaren <guilabel>Global mottagning KB/s</guilabel> för att "
+"ange din globala högsta hämtningsfart."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:659
+msgid "Networks"
+msgstr "Nätverk"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:662
+msgid "Internet Relay Chat (IRC) Servers"
+msgstr "Internet Relay Chat (IRC)-servrar"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:664
+msgid ""
+"To add an Internet Relay Chat (IRC) server, click the <guibutton>Add</"
+"guibutton> button to open the <guilabel>Network Properties</guilabel> "
+"dialog. <xref linkend=\"xchat-gnome-network-properties\"/>"
+msgstr ""
+"För att lägga till en Internet Relay Chat (IRC)-server, klicka på knappen "
+"<guibutton>Lägg till</guibutton> för att öppna dialogen "
+"<guilabel>Nätverksegenskaper</guilabel>. <xref linkend=\"xchat-gnome-network-"
+"properties\"/>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:667
+msgid ""
+"To edit an Internet Relay Chat (IRC) server, click the <guibutton>Edit</"
+"guibutton> button to open the <guilabel>Network Properties</guilabel> "
+"dialog. <xref linkend=\"xchat-gnome-network-properties\"/>"
+msgstr ""
+"För att redigera en Internet Relay Chat (IRC)-server, klicka på knappen "
+"<guibutton>Redigera</guibutton> för att öppna dialogen "
+"<guilabel>Nätverksegenskaper</guilabel>. <xref linkend=\"xchat-gnome-network-"
+"properties\"/>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:670
+msgid ""
+"To remove an Internet Relay Chat (IRC) server, click the <guibutton>Remove</"
+"guibutton> button. <xref linkend=\"xchat-gnome-network-properties\"/>"
+msgstr ""
+"För att ta bort en Internet Relay Chat (IRC)-server, klicka på knappen "
+"<guibutton>Ta bort</guibutton>. <xref linkend=\"xchat-gnome-network-"
+"properties\"/>"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:677
+msgid "Scripts and Plugins"
+msgstr "Skript och insticksmoduler"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:680
+msgid "<guilabel>Script and Plugins</guilabel>"
+msgstr "<guilabel>Skript och insticksmoduler</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:682
+msgid ""
+"To enable or disable a plugin or script, select the <guilabel>Enable</"
+"guilabel> option next to the appropriate item."
+msgstr ""
+"För att aktivera eller inaktivera ett instick eller ett skript, välj "
+"alternativet <guilabel>Aktivera</guilabel> intill passande objekt."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:684
+msgid ""
+"To add a new plugin or script, click the <guibutton>Open</guibutton> button "
+"to open the file open dialog."
+msgstr ""
+"För att lägga till ett instick eller ett skript, välj alternativet "
+"<guibutton>Öppna</guibutton> för att öppna filöppnardialogen."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:686
+msgid ""
+"To remove a plugin or script, select the appropriate item and click on the "
+"<guibutton>Remove</guibutton> button ."
+msgstr ""
+"För att ta bort ett instick eller ett skript, välj önskat objekt och klicka "
+"på knappen <guibutton>Ta bort</guibutton> ."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:691
+msgid "<guilabel>Network monitor</guilabel>"
+msgstr "<guilabel>Nätverksövervakare</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:693
+msgid "Use the Network Manager to control connection state."
+msgstr "Använd Nätverkshanteraren för att kontrollera anslutningstillstånd."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:697
+msgid "<guilabel>Auto Away</guilabel>"
+msgstr "<guilabel>Automatisk frånvaro</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:699
+msgid "Mark yourself as away when screensaver is active."
+msgstr "Sätt dig själv som frånvarande när skärmsläckaren är aktiv."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:703
+msgid "<guilabel>Sound notification</guilabel>"
+msgstr "<guilabel>Ljudavisering</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:705
+msgid ""
+"Raise an audio notification when a word is highlighted (including your nick) "
+"or when you receive a private message."
+msgstr ""
+"Skicka en ljudavisering när ett ord är färgmarkerat (inklusive ditt "
+"smeknamn) eller när du tar emot ett privat meddelande."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:709
+msgid "<guilabel>Notification</guilabel>"
+msgstr "<guilabel>Avisering</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:711
+msgid ""
+"Add an icon in the notification area informing you of events in xchat-gnome."
+msgstr ""
+"Lägg till en ikon i aviseringsytan för att informera dig om händelser i "
+"xchat-gnome."
+
+#. (itstool) path: note/para
+#: C/index.docbook:713
+msgid ""
+"This allows one to minimize to notification area if <guilabel>Always display "
+"notification icon</guilabel> is selected from <guilabel>Notification</"
+"guilabel> preferences."
+msgstr ""
+"Detta låter dig minimera till aviseringsytan om <guilabel>Visa alltid "
+"aviseringsikon</guilabel> är vald från <guilabel>Aviseringar</guilabel>-"
+"inställningarna."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:718
+msgid "<guilabel>On-screen display</guilabel>"
+msgstr "<guilabel>Visa på skärmen</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:720
+msgid ""
+"Display a notification box when a word is highlighted (including your nick) "
+"or when you receive a private message."
+msgstr ""
+"Visa en aviseringsruta när ett ord är färgmarkerat (inklusive ditt smeknamn) "
+"eller när du tar emot ett privat meddelande."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:724
+msgid "<guilabel>URL scrapper</guilabel>"
+msgstr "<guilabel>URL-fångare</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:726
+msgid "Display all the urls from your conversation in a ugly box."
+msgstr "Visar alla URL:er från din konversation i en ful ruta."
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:733
+msgid "Network Properties"
+msgstr "Nätverksegenskaper"
+
+#. (itstool) path: sect1/para
+#: C/index.docbook:734
+msgid ""
+"The <guilabel>Network Properties</guilabel> dialog for <application>XChat-"
+"GNOME</application>, allows you to set the properties for an Internet Relay "
+"Chat (IRC) server, and contains the following tabs:"
+msgstr ""
+"Dialogen <guilabel>Nätverksegenskaper</guilabel> för <application>XChat-"
+"GNOME</application> låter dig ange egenskaperna för en Internet Relay Chat "
+"(IRC)-server och innehåller följande flikar:"
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:743
+msgid "Network Settings"
+msgstr "Nätverksinställningar"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:748
+msgid ""
+"Enter the <guilabel>Name</guilabel> for the Internet Relay Chat (IRC) server."
+msgstr "Ange <guilabel>Namn</guilabel> för Internet Relay Chat (IRC)-servern."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:749
+msgid ""
+"Select the <guilabel>Automatically connect to network</guilabel> option to "
+"connect to a network when starting <application>XChat-GNOME</application>."
+msgstr ""
+"Välj alternativet <guilabel>Anslut automatiskt till nätverk</guilabel> för "
+"att ansluta till ett nätverk vid start av <application>XChat-GNOME</"
+"application>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:751
+msgid ""
+"Select the <guilabel>Use secure connection (SSL)</guilabel> option to "
+"connect with Secure Socket Layer (SSL)."
+msgstr ""
+"Välj alternativet <guilabel>Använd säker anslutning (SSL)</guilabel> för att "
+"ansluta med Secure Socket Layer (SSL)."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:753
+msgid ""
+"Select the <guilabel>Cycle until connected</guilabel> option to continue "
+"attempts to connect to network, until successful."
+msgstr ""
+"Välj alternativet <guilabel>Försök tills ansluten</guilabel> för att "
+"fortsätta försöka ansluta till ett nätverk till det lyckas."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:755
+msgid ""
+"Use the <guilabel>Character encoding</guilabel> drop-down box to specify "
+"which character encoding <application>XChat-GNOME</application> should use."
+msgstr ""
+"Välj rullgardinsrutan <guilabel>Teckenkodning</guilabel> för att ange vilken "
+"teckenkodning <application>XChat-GNOME</application> ska använda."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:757
+msgid ""
+"Enter the <guilabel>Server Password</guilabel>, if the Internet Relay Chat "
+"(IRC) server requires it."
+msgstr ""
+"Ange <guilabel>Serverlösenord</guilabel> om Internet Relay Chat (IRC)-"
+"servern kräver det."
+
+#. (itstool) path: sect2/title
+#: C/index.docbook:764
+msgid "Users and Channels"
+msgstr "Användare och kanaler"
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:767
+msgid "<guilabel>Users Info</guilabel>"
+msgstr "<guilabel>Användarinfo</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:769
+msgid ""
+"Select the <guilabel>Use global user settings</guilabel> option to use the "
+"global settings used in the <guilabel>General</guilabel> section of <xref "
+"linkend=\"xchat-gnome-prefs-general\"/>."
+msgstr ""
+"Välj alternativet <guilabel>Använd globala användarinställningar</guilabel> "
+"för att använda de globala inställningar som används i "
+"avsnittet<guilabel>Allmänt</guilabel> för <xref linkend=\"xchat-gnome-prefs-"
+"general\"/>."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:772
+msgid ""
+"Select the <guilabel>Use the user settings</guilabel> option to set the "
+"<guilabel>Nick name</guilabel> and <guilabel>Real Name</guilabel> specific "
+"to this Internet Relay Chat (IRC) server."
+msgstr ""
+"Välj alternativet <guilabel>Använd användarinställningarna</guilabel> för "
+"att ange <guilabel>Smeknamn</guilabel> och <guilabel>Verkligt namn</"
+"guilabel> specifikt för denna Internet Relay Chat (IRC)-server."
+
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:778
+msgid "<guilabel>Automatically Join Channels</guilabel>"
+msgstr "<guilabel>Gå automatiskt in i kanaler</guilabel>"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:780
+msgid "Click the <guibutton>Add</guibutton> button to add a new channel."
+msgstr ""
+"Klicka på knappen <guibutton>Lägg till</guibutton> för att lägga till en ny "
+"kanal."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:781
+msgid ""
+"Click the <guibutton>Edit</guibutton> button to edit the selected channel."
+msgstr ""
+"Klicka på knappen <guibutton>Redigera</guibutton> för att redigera den valda "
+"kanalen."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:782
+msgid ""
+"Click the <guibutton>Remove</guibutton> button to remove the selected "
+"channel."
+msgstr ""
+"Klicka på knappen <guibutton>Ta bort</guibutton> för att ta bort den valda "
+"kanalen."
+
+#. (itstool) path: note/para
+#: C/index.docbook:783
+msgid "The channel name should begin with a pound sign (#)."
+msgstr "Kanalnamnet bör börja med brädgårdstecken (#)."
+
+#. (itstool) path: sect2/title
+#. (itstool) path: varlistentry/term
+#: C/index.docbook:789 C/index.docbook:792
+msgid "Servers"
+msgstr "Servrar"
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:794
+msgid ""
+"Click the <guibutton>Add</guibutton> button to add a new Internet Relay Chat "
+"(IRC) server."
+msgstr ""
+"Klicka på knappen <guibutton>Lägg till</guibutton> för att lägga till en ny "
+"Internet Relay Chat (IRC)-server."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:796
+msgid ""
+"Click the <guibutton>Edit</guibutton> button to edit the selected Internet "
+"Relay Chat (IRC) server."
+msgstr ""
+"Klicka på knappen <guibutton>Redigera</guibutton> för att redigera den valda "
+"Internet Relay Chat (IRC)-servern."
+
+#. (itstool) path: listitem/para
+#: C/index.docbook:798
+msgid ""
+"Click the <guibutton>Remove</guibutton> button to remove the selected "
+"Internet Relay Chat (IRC) server."
+msgstr ""
+"Klicka på knappen <guibutton>Ta bort</guibutton> för att ta bort den valda "
+"Internet Relay Chat (IRC)-servern."
+
+#. (itstool) path: note/para
+#: C/index.docbook:800
+msgid "To specify custom port use (/) as separator, as \"host/port\""
+msgstr ""
+"För att ange en anpassad port, använd (/) som avgränsare, likt ”värd/port”"
+
+#. (itstool) path: sect1/title
+#: C/index.docbook:814
+msgid "About <application>XChat-GNOME</application>"
+msgstr "Om <application>XChat-GNOME</application>"
+
+#. (itstool) path: sect1/para
+#: C/index.docbook:815
+msgid ""
+"To find more information about <application>XChat-GNOME</application>, "
+"please visit the <ulink url=\"http://live.gnome.org/Xchat-Gnome\" type=\"http"
+"\">XChat-GNOME Web page</ulink>."
+msgstr ""
+"För att hitta mer information om <application>XChat-GNOME</application>, "
+"besök <ulink url=\"http://live.gnome.org/Xchat-Gnome\" type=\"http\">XChat-"
+"GNOME-webbplatsen</ulink>."
+
+#. (itstool) path: sect1/para
+#: C/index.docbook:819
+msgid ""
+"To report a bug or make a suggestion regarding this application or this "
+"manual, see the Feedback section of the <ulink url=\"ghelp:user-guide?"
+"feedback-bugs\" type=\"help\">GNOME User Guide</ulink>."
+msgstr ""
+"För att rapportera ett fel eller föreslå en förbättring i detta program "
+"eller denna handbok, se återkopplingsavsnittet för <ulink url=\"ghelp:user-"
+"guide?feedback-bugs\" type=\"help\">användarguiden för GNOME</ulink>."
+
+#. (itstool) path: sect1/para
+#: C/index.docbook:825
+msgid ""
+"This program is distributed under the terms of the GNU General Public "
+"license as published by the Free Software Foundation; either version 2 of "
+"the License, or (at your option) any later version. A copy of this license "
+"can be found at this <ulink url=\"ghelp:gpl\" type=\"help\">link</ulink>, or "
+"in the file COPYING included with the source code of this program."
+msgstr ""
+"Detta program distribueras under villkoren i GNU General Public License, "
+"publicerad av Free Software Foundation, antingen version 2 eller (om du så "
+"vill) någon senare version. En kopia av denna licens kan hittas på denna "
+"<ulink url=\"ghelp:gpl\" type=\"help\">länk</ulink> eller i filen COPYING "
+"inkluderad med källkoden i detta program."
+
+#. (itstool) path: para/ulink
+#: C/legal.xml:8
+msgid "link"
+msgstr "länk"
+
+#. (itstool) path: legalnotice/para
+#: C/legal.xml:2
+msgid ""
+"Permission is granted to copy, distribute and/or modify this document under "
+"the terms of the GNU Free Documentation License (GFDL), Version 1.1 or any "
+"later version published by the Free Software Foundation with no Invariant "
+"Sections, no Front-Cover Texts, and no Back-Cover Texts. You can find a copy "
+"of the GFDL at this <_:ulink-1/> or in the file COPYING-DOCS distributed "
+"with this manual."
+msgstr ""
+"Tillstånd att kopiera, distribuera och/eller modifiera detta dokument ges "
+"under villkoren i GNU Free Documentation License (GFDL), version 1.1 eller "
+"senare, utgivet av Free Software Foundation utan standardavsnitt och "
+"omslagstexter.  En kopia av GFDL finns att hämta på denna <_:ulink-1/> eller "
+"i filen COPYING-DOCS som medföljer denna handbok."
+
+#~ msgid "2005-2006"
+#~ msgstr "2005-2006"
+
+#~ msgid "2006"
+#~ msgstr "2006"
+
+#~ msgid "Joachim Noreiko"
+#~ msgstr "Joachim Noreiko"
+
+#~ msgid "Brian"
+#~ msgstr "Brian"
+
+#~ msgid "Pepple"
+#~ msgstr "Pepple"
+
+#~ msgid "Fedora Project"
+#~ msgstr "Fedora Project"
+
+#~ msgid "bpepple@fedoraproject.org"
+#~ msgstr "bpepple@fedoraproject.org"
+
+#~ msgid "Joachim"
+#~ msgstr "Joachim"
+
+#~ msgid "Noreiko"
+#~ msgstr "Noreiko"
+
+#~ msgid "jnoreiko@yahoo.com"
+#~ msgstr "jnoreiko@yahoo.com"
+
+#~ msgid "XChat-GNOME Manual 2.1"
+#~ msgstr "Handbok för XChat-GNOME 2.1"
+
+#~ msgid "December 2006"
+#~ msgstr "December 2006"
+
+#~ msgid "XChat-GNOME Manual V2.0"
+#~ msgstr "Handbok för XChat-GNOME v2.0"
+
+#~ msgid "November 2005"
+#~ msgstr "November 2005"
+
+#~ msgid "XChat-GNOME"
+#~ msgstr "XChat-GNOME"
+
+#~ msgid "xchat-gnome"
+#~ msgstr "xchat-gnome"
+
+#~ msgid "General"
+#~ msgstr "Allmänt"
+
+#~ msgid "Text Colors"
+#~ msgstr "Textfärger"
+
+#~ msgid "mIRC Colors"
+#~ msgstr "mIRC-färger"
+
+#~ msgid "Extra Colors"
+#~ msgstr "Extrafärger"
+
+#~ msgid "File Transfers"
+#~ msgstr "Filöverföringar"
+
+#~ msgid "DCC Settings"
+#~ msgstr "DCC-inställningar"

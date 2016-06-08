@@ -1,0 +1,4782 @@
+# Copyright (c) 2007 Rosetta Contributors and Canonical Ltd 2007
+# This file is distributed under the same license as the xchat-gnome package.
+# Laurențiu Ion <me_lawr@yahoo.com>, 2010.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2007.
+# laurion <me_lawr@yahoo.com>, 2010, 2011.
+# Daniel Șerbănescu <cyber19rider@gmail.com>, 2011.
+# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: xchat-gnome\n"
+"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=xchat-"
+"gnome&component=general\n"
+"POT-Creation-Date: 2011-02-23 06:59+0000\n"
+"PO-Revision-Date: 2011-03-18 23:31+0200\n"
+"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
+"Language-Team: Romanian Gnome Team <gnomero-list@lists.sourceforge.net>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);;\n"
+"X-Generator: Virtaal 0.6.1\n"
+"X-Launchpad-Export-Date: 2010-12-04 14:20+0000\n"
+
+#: ../data/channel-list.glade.h:1
+msgid "<span weight=\"bold\">List Filtering</span>"
+msgstr "<span weight=\"bold\">Filtrarea listei</span>"
+
+#: ../data/channel-list.glade.h:2
+msgid "Channel _Name"
+msgstr "_Numele canalului"
+
+#: ../data/channel-list.glade.h:3
+msgid "Channel _Topic"
+msgstr "_Subiectul canalului"
+
+#: ../data/channel-list.glade.h:4
+msgid "Channels list"
+msgstr "Listă de canale"
+
+#: ../data/channel-list.glade.h:5
+msgid "Join channel:"
+msgstr "Alăturare canal:"
+
+#: ../data/channel-list.glade.h:6
+msgid "Search for text:"
+msgstr "Caută după text:"
+
+#: ../data/channel-list.glade.h:7
+msgid "Show channels with:"
+msgstr "Arată canalele cu:"
+
+#: ../data/channel-list.glade.h:8
+msgid "_Join Channel"
+msgstr "_Alăturare la canal"
+
+#. Part of channel filtering, to select whether to filter "in  [ ] channel topic  [ ] channel name".  Yes, I know it's hard to translate.  Send suggestions to trowbrds@gmail.com :P
+#: ../data/channel-list.glade.h:10
+msgid "in:"
+msgstr "în:"
+
+#. Part of "Show channels with [  ] to [  ] users".  Yes, I know it's hard to translate.  Send suggestions to trowbrds@gmail.com :P
+#: ../data/channel-list.glade.h:12
+msgid "to"
+msgstr "până la"
+
+#: ../data/channel-list.glade.h:13
+msgid "users"
+msgstr "utilizatori"
+
+#: ../data/connect-dialog.glade.h:1 ../src/fe-gnome/connect-dialog.c:157
+msgid "C_onnect"
+msgstr "C_onectează"
+
+#: ../data/dcc-window.glade.h:1 ../src/fe-gnome/dcc-window.c:116
+msgid "File Transfers"
+msgstr "Transferuri de fișiere"
+
+#: ../data/irc-network-editor.glade.h:1
+msgid "<span weight=\"bold\">Automatically Join Channels</span>"
+msgstr "<span weight=\"bold\">Conectare automată la canale</span>"
+
+#: ../data/irc-network-editor.glade.h:2
+msgid "<span weight=\"bold\">User Info</span>"
+msgstr "<span weight=\"bold\">Informații utilizator</span>"
+
+#: ../data/irc-network-editor.glade.h:3
+msgid "Accept invalid _SSL certificate"
+msgstr "Acceptă certificate SSL nevalide"
+
+#: ../data/irc-network-editor.glade.h:4
+msgid "Character _encoding:"
+msgstr "Codificar_e caractere:"
+
+#: ../data/irc-network-editor.glade.h:5
+msgid "Cycle _until connected"
+msgstr "Repetă _până este conectat"
+
+#: ../data/irc-network-editor.glade.h:6
+msgid "Network Settings"
+msgstr "Configurările rețelei"
+
+#: ../data/irc-network-editor.glade.h:7
+msgid "Nickser_v password:"
+msgstr "Parolă nickser_v:"
+
+#: ../data/irc-network-editor.glade.h:8
+msgid "Server _password:"
+msgstr "_Parola serverului:"
+
+#: ../data/irc-network-editor.glade.h:9
+msgid "Servers"
+msgstr "Servere"
+
+#: ../data/irc-network-editor.glade.h:10
+msgid "Use _global user settings"
+msgstr "Folosește configurările _globale ale utilizatorului"
+
+#: ../data/irc-network-editor.glade.h:11
+msgid "Use _these user settings:"
+msgstr "Folosește aces_te configurații de utilizator:"
+
+#: ../data/irc-network-editor.glade.h:12
+msgid "User and Channels"
+msgstr "Utilizatori și canale"
+
+#: ../data/irc-network-editor.glade.h:13
+msgid "_Automatically connect to network"
+msgstr "Conect_are automată la rețea"
+
+#: ../data/irc-network-editor.glade.h:14
+msgid "_Name:"
+msgstr "_Nume:"
+
+#: ../data/irc-network-editor.glade.h:15 ../data/setup-dialog.glade.h:5
+msgid "_Nick name:"
+msgstr "Pseudo_nim:"
+
+#: ../data/irc-network-editor.glade.h:16
+msgid "_Real Name:"
+msgstr "Nume _real:"
+
+#: ../data/irc-network-editor.glade.h:17
+msgid "_Use secure connection (SSL)"
+msgstr "Folosește conexiune sec_urizată (SSL)"
+
+#: ../data/preferences-dialog.glade.h:1
+msgid "<span size=\"small\" style=\"italic\">Opaque</span>"
+msgstr "<span size=\"small\" style=\"italic\">Opac</span>"
+
+#: ../data/preferences-dialog.glade.h:2
+msgid "<span size=\"small\" style=\"italic\">Transparent</span>"
+msgstr "<span size=\"small\" style=\"italic\">Transparent</span>"
+
+#: ../data/preferences-dialog.glade.h:3
+msgid "<span weight=\"bold\">Background</span>"
+msgstr "<span weight=\"bold\">Fundal</span>"
+
+#: ../data/preferences-dialog.glade.h:4
+msgid "<span weight=\"bold\">DCC Settings</span>"
+msgstr "<span weight=\"bold\">Configurări DCC</span>"
+
+#: ../data/preferences-dialog.glade.h:5
+msgid "<span weight=\"bold\">Extra Colors</span>"
+msgstr "<span weight=\"bold\">Alte culori</span>"
+
+#: ../data/preferences-dialog.glade.h:6
+msgid "<span weight=\"bold\">File Transfers</span>"
+msgstr "<span weight=\"bold\">Transferuri de fișiere</span>"
+
+#: ../data/preferences-dialog.glade.h:7
+msgid "<span weight=\"bold\">General</span>"
+msgstr "<span weight=\"bold\">Generale</span>"
+
+#: ../data/preferences-dialog.glade.h:8
+msgid "<span weight=\"bold\">Highlighting</span>"
+msgstr "<span weight=\"bold\">Evidențiere</span>"
+
+#: ../data/preferences-dialog.glade.h:9
+msgid "<span weight=\"bold\">Text Colors</span>"
+msgstr "<span weight=\"bold\">Culorile textului</span>"
+
+#: ../data/preferences-dialog.glade.h:10
+msgid "<span weight=\"bold\">Throttling</span>"
+msgstr "<span weight=\"bold\">Încetinire</span>"
+
+#: ../data/preferences-dialog.glade.h:11
+msgid "<span weight=\"bold\">User Interface</span>"
+msgstr "<span weight=\"bold\">Interfața pentru utilizator</span>"
+
+#: ../data/preferences-dialog.glade.h:12
+msgid "<span weight=\"bold\">mIRC Colors</span>"
+msgstr "<span weight=\"bold\">Culori mIRC</span>"
+
+#: ../data/preferences-dialog.glade.h:13
+msgid "A_way message:"
+msgstr "Mesaj de a_bsență:"
+
+#: ../data/preferences-dialog.glade.h:14
+msgid "Auto-accept DCC c_hat"
+msgstr "Auto-acceptă con_versații DCC"
+
+#: ../data/preferences-dialog.glade.h:15
+msgid "Auto-accept DCC file tr_ansfers"
+msgstr "Auto-acceptă tr_ansferurile de fișiere DCC"
+
+#: ../data/preferences-dialog.glade.h:16
+msgid "Background mark:"
+msgstr "Marcaj de fundal:"
+
+#: ../data/preferences-dialog.glade.h:17
+msgid "Buil_t-in schemes:"
+msgstr "Scheme integra_te:"
+
+#: ../data/preferences-dialog.glade.h:18
+msgid "Convert spaces to _underscores in filenames"
+msgstr "Convertește spațiile în linii de s_ubliniere în numele fișierelor"
+
+#: ../data/preferences-dialog.glade.h:19
+msgid "Enter extra words to trigger highlighting"
+msgstr "Introduceți alte cuvinte care să declanșeze evidențierea"
+
+#: ../data/preferences-dialog.glade.h:20
+msgid "Foreground mark:"
+msgstr "Marcaj de prim plan:"
+
+#: ../data/preferences-dialog.glade.h:21
+msgid "Get IP address from _server"
+msgstr "Obține adresa IP de la _server"
+
+#: ../data/preferences-dialog.glade.h:22
+msgid "Glo_bal receive KB/s: "
+msgstr "Viteza de primire glo_bală în KB/s:"
+
+#: ../data/preferences-dialog.glade.h:23
+msgid "I_mage file:"
+msgstr "Fișier i_magine:"
+
+#: ../data/preferences-dialog.glade.h:24
+msgid "In_dividual send KB/s: "
+msgstr "Viteza de trimitere in_dividuală în KB/s: "
+
+#: ../data/preferences-dialog.glade.h:25
+msgid "Indi_vidual receive KB/s: "
+msgstr "Viteza de primire indi_viduală în KB/s: "
+
+#: ../data/preferences-dialog.glade.h:26
+msgid "Move co_mpleted files to:"
+msgstr "Mută fișierele co_mplete în:"
+
+#: ../data/preferences-dialog.glade.h:27
+msgid "Preferences"
+msgstr "Preferințe"
+
+#: ../data/preferences-dialog.glade.h:28
+msgid "Real na_me:"
+msgstr "Nu_me real:"
+
+#: ../data/preferences-dialog.glade.h:29
+msgid "Save sender _nickname in filenames"
+msgstr "Salvează pseudo_nimul expeditorului în numele fișierelor"
+
+#: ../data/preferences-dialog.glade.h:30
+msgid "Select Completed Files Directory"
+msgstr "Alegeți dosarul pentru fișiere complete"
+
+#: ../data/preferences-dialog.glade.h:31
+msgid "Select Download Directory"
+msgstr "Alegeți dosarul pentru descărcări"
+
+#: ../data/preferences-dialog.glade.h:32
+msgid "Show _timestamps"
+msgstr "Arată marcaje de _timp"
+
+#: ../data/preferences-dialog.glade.h:33
+msgid "Show _user list in main window"
+msgstr "Arată lista de _utilizatori în fereastra principală"
+
+#: ../data/preferences-dialog.glade.h:34
+msgid "Show m_arker line"
+msgstr "Arată linia de m_arcaj"
+
+#: ../data/preferences-dialog.glade.h:35
+msgid ""
+"To edit a shortcut key, click on the corresponding row and type a new "
+"accelerator, or press backspace to clear."
+msgstr ""
+"Pentru a modifica o scurtătură de taste, apăsați pe rândul corespunzător și "
+"tastați un accelerator nou, sau apăsați „backspace” pentru a șterge "
+"combinația de taste."
+
+#: ../data/preferences-dialog.glade.h:36
+msgid "Use _system terminal font"
+msgstr "Folosește fontul terminalului de _sistem"
+
+#: ../data/preferences-dialog.glade.h:37
+msgid "Use t_his IP address:"
+msgstr "Fo_losește această adresă IP:"
+
+#: ../data/preferences-dialog.glade.h:38
+msgid "Use this f_ont:"
+msgstr "Folosește acest f_ont:"
+
+#: ../data/preferences-dialog.glade.h:39
+msgid "_Background color:"
+msgstr "Culoare fun_dal:"
+
+#: ../data/preferences-dialog.glade.h:40
+msgid "_Background image"
+msgstr "Imagine fun_dal"
+
+#: ../data/preferences-dialog.glade.h:41
+msgid "_Colorize nicknames"
+msgstr "_Colorează pseudonimele"
+
+#: ../data/preferences-dialog.glade.h:42
+msgid "_Download files to:"
+msgstr "_Descarcă fișierele în:"
+
+#: ../data/preferences-dialog.glade.h:43 ../src/fe-gnome/main-window.c:100
+msgid "_Edit"
+msgstr "_Editare"
+
+#: ../data/preferences-dialog.glade.h:44
+msgid "_Foreground color:"
+msgstr "Culoare de _prim plan:"
+
+#: ../data/preferences-dialog.glade.h:45
+msgid "_Global send KB/s: "
+msgstr "Viteza de trimitere _globală în KB/s:"
+
+#: ../data/preferences-dialog.glade.h:46
+msgid "_Log conversations"
+msgstr "Înregistrează conversații_le"
+
+#: ../data/preferences-dialog.glade.h:47
+msgid "_Nickname:"
+msgstr "Pseudo_nim:"
+
+#: ../data/preferences-dialog.glade.h:48
+msgid "_None (use solid color)"
+msgstr "Fără fu_ndal (folosește o culoare)"
+
+#: ../data/preferences-dialog.glade.h:49
+msgid "_Part message:"
+msgstr "Mesaj de _părăsire:"
+
+#: ../data/preferences-dialog.glade.h:50
+msgid "_Quit message:"
+msgstr "Mesaj de ieșire:"
+
+#: ../data/preferences-dialog.glade.h:51
+msgid "_Show colors"
+msgstr "_Arată culorile"
+
+#: ../data/preferences-dialog.glade.h:52
+msgid "_Transparent background"
+msgstr "Fundal _transparent"
+
+#: ../data/preferences-dialog.glade.h:53
+msgid "spell checking"
+msgstr "corectare ortografică"
+
+#: ../data/setup-dialog.glade.h:1
+msgid ""
+"Welcome to XChat-GNOME! Since this is your first time using this "
+"application, there are a couple things you'll need to configure before you "
+"can get started.\n"
+"\n"
+"These are the names by which you'll be recognized on IRC. Your nick name is "
+"the name by which you'll be known, whereas the real name is useful for "
+"things such as registering with services. You do not have to use your real "
+"name if you do not want to."
+msgstr ""
+"Bun venit la XChat-GNOME! Deoarece aceasta este prima folosire a aplicației, "
+"sunt câteva elemente pe care trebuie să le configurați înainte de a începe.\n"
+"\n"
+"Acestea sunt numele prin care veți fi recunoscut pe IRC. Pseudonimul este "
+"numele prin care veți fi cunoscut, pe când numele real este folositor pentru "
+"lucruri precum înregistrarea cu diferite servicii. Nu trebuie să folosiți "
+"numele real dacă nu doriți acest lucru."
+
+#: ../data/setup-dialog.glade.h:4
+msgid "XChat-GNOME Setup"
+msgstr "Instalare XChat-GNOME"
+
+#: ../data/setup-dialog.glade.h:6
+msgid "_Real name:"
+msgstr "Nume _real:"
+
+#: ../data/topic-change.glade.h:1
+msgid "Change"
+msgstr "Schimbă"
+
+#: ../data/xchat-gnome.desktop.in.in.h:1
+msgid "Chat with people using IRC"
+msgstr "Discutați cu persoane folosind IRC"
+
+#: ../data/xchat-gnome.desktop.in.in.h:2
+msgid "IRC Chat"
+msgstr "Discuție IRC"
+
+#: ../data/xchat-gnome.desktop.in.in.h:3 ../src/fe-gnome/about.c:82
+msgid "XChat-GNOME"
+msgstr "XChat-GNOME"
+
+#: ../data/xchat-gnome.desktop.in.in.h:4 ../data/xchat-gnome.glade.h:8
+#: ../plugins/sound-notification/sound-notification.c:45
+msgid "XChat-GNOME IRC Chat"
+msgstr "XChat-GNOME - Discuții IRC"
+
+#: ../data/xchat-gnome.glade.h:1
+msgid "Apply on all _servers"
+msgstr "Aplică tuturor _serverelor"
+
+#: ../data/xchat-gnome.glade.h:2
+msgid "C_hange"
+msgstr "Sc_himbă"
+
+#: ../data/xchat-gnome.glade.h:3
+msgid "Change _nickname to:"
+msgstr "Schimbă pseudo_nimul la:"
+
+#: ../data/xchat-gnome.glade.h:4
+msgid "Close this discussion"
+msgstr "Închide această discuție"
+
+#: ../data/xchat-gnome.glade.h:5
+msgid "Mark as _away"
+msgstr "Marchează ca _absent"
+
+#: ../data/xchat-gnome.glade.h:6 ../src/common/text.c:887
+#: ../src/common/text.c:893 ../src/common/text.c:900 ../src/common/text.c:1088
+#: ../src/common/text.c:1095 ../src/common/text.c:1100
+#: ../src/common/text.c:1105 ../src/common/text.c:1110
+#: ../src/common/text.c:1116 ../src/common/text.c:1121
+#: ../src/common/text.c:1125 ../src/common/text.c:1131
+#: ../src/common/text.c:1137 ../src/common/text.c:1183
+#: ../src/common/text.c:1194 ../src/common/text.c:1199
+#: ../src/common/text.c:1204 ../src/common/text.c:1213
+#: ../src/common/text.c:1224 ../src/common/text.c:1231
+#: ../src/common/text.c:1237 ../src/common/text.c:1242
+#: ../src/common/text.c:1247 ../src/common/text.c:1254
+#: ../src/common/text.c:1260 ../src/common/text.c:1266
+#: ../src/common/text.c:1271 ../src/common/text.c:1276
+#: ../src/common/text.c:1280 ../src/common/text.c:1286
+#: ../src/common/text.c:1294 ../src/common/text.c:1328
+#: ../src/common/text.c:1333
+msgid "Nickname"
+msgstr "Pseudonim"
+
+#: ../data/xchat-gnome.glade.h:7 ../src/common/text.c:1160
+#: ../src/fe-gnome/channel-list-window.c:447 ../src/fe-gnome/userlist.c:312
+msgid "Users"
+msgstr "Utilizatori"
+
+#: ../data/xchat-gnome.glade.h:9
+msgid "nickname"
+msgstr "pseudonim"
+
+#: ../plugins/autoaway/autoaway.c:216
+msgid "Auto Away"
+msgstr "Declanșare automată a absenței"
+
+#: ../plugins/autoaway/autoaway.c:217
+msgid "Automatically go away / come back"
+msgstr "Marchează automat ca absent / revenit"
+
+#: ../plugins/net-monitor/net-monitor.c:39
+msgid "Network Monitor"
+msgstr "Monitor de rețea"
+
+#: ../plugins/net-monitor/net-monitor.c:40
+msgid "NetworkManager connection monitor"
+msgstr "Monitor de conexiuni NetworkManager"
+
+#: ../plugins/net-monitor/net-monitor.c:352
+#, c-format
+msgid "%s loaded successfully\n"
+msgstr "%s s-a încărcat cu succes\n"
+
+#: ../plugins/notification/notification.c:150
+#: ../plugins/notification/preferences-page-plugin-notification.c:127
+msgid "Notification"
+msgstr "Notificări"
+
+#: ../plugins/notification/notification.c:151
+msgid "A notification area plugin."
+msgstr "Un modul pentru zona de notificare."
+
+#: ../plugins/notification/notification.c:214
+msgid "Notification plugin loaded.\n"
+msgstr "Modul pentru notificări activat.\n"
+
+#: ../plugins/notification/notification.c:235
+msgid "Notification plugin unloaded.\n"
+msgstr "Modul pentru notificări dezactivat.\n"
+
+#: ../plugins/notification/notification.schemas.in.h:1
+msgid "Level of the messages that require a notification"
+msgstr "Nivelul mesajelor ce necesită notificare"
+
+#: ../plugins/notification/notification.schemas.in.h:2
+msgid ""
+"Messages are classified according to their importance. Select level of "
+"messages above which the notification icon will be displayed. Valid values "
+"are: \"0\" (always displayed), \"1\" (all messages including information), "
+"\"2\" (all channel messages), \"3\" (only private or highlighted messages)."
+msgstr ""
+"Mesajele sunt clasificate după importanță. Alegeți nivelul mesajelor la care "
+"iconița de notificare va fi afișată. Valori valide sunt: „0” (afișează "
+"întotdeauna), „1” (toate mesajele inclusiv informațiile), „2” (toate "
+"mesajele din canale), „3” (doar la mesaje private sau evidențiate)."
+
+#: ../plugins/notification/preferences-notification.glade.h:1
+msgid "<span weight=\"bold\">Notification level</span>"
+msgstr "<span weight=\"bold\">Nivel de notificare</span>"
+
+#: ../plugins/notification/preferences-notification.glade.h:2
+msgid "Notify each _event"
+msgstr "Notifică fiecare _eveniment"
+
+#: ../plugins/notification/preferences-notification.glade.h:3
+msgid "Notify each _message"
+msgstr "Notifică fiecare _mesaj"
+
+#: ../plugins/notification/preferences-notification.glade.h:4
+msgid "Notify only _private messages"
+msgstr "Notifică doar mesajele _private"
+
+#: ../plugins/notification/preferences-notification.glade.h:5
+msgid "_Always display notification icon"
+msgstr "_Afișează iconița de notificare întotdeauna"
+
+#: ../plugins/notify-osd/notify-osd.c:30
+msgid "On-screen display"
+msgstr "Afișare pe ecran"
+
+#: ../plugins/notify-osd/notify-osd.c:32
+msgid ""
+"Pops up notification of important messages when XChat-GNOME doesn't have the "
+"focus"
+msgstr ""
+"Deschide ferestre de notificare pentru mesajele importante când XChat-GNOME "
+"nu este focalizat."
+
+#: ../plugins/notify-osd/notify-osd.c:77
+#, c-format
+msgid "Error closing notification: %s\n"
+msgstr "Eroare la închiderea notificării: %s\n"
+
+#: ../plugins/notify-osd/notify-osd.c:103
+#, c-format
+msgid "Failed to send notification: %s\n"
+msgstr "Trimiterea notificării a eșuat: %s\n"
+
+#: ../plugins/notify-osd/notify-osd.c:145
+#: ../plugins/notify-osd/notify-osd.c:171
+#, c-format
+msgid "Message in %s"
+msgstr "Mesaj în %s"
+
+#: ../plugins/notify-osd/notify-osd.c:147
+#: ../plugins/notify-osd/notify-osd.c:173
+#, c-format
+msgid "Message from %s"
+msgstr "Mesaj de la %s"
+
+#: ../plugins/notify-osd/notify-osd.c:192
+#, c-format
+msgid "Private Message from %s"
+msgstr "Mesaj privat de la %s"
+
+#: ../plugins/notify-osd/notify-osd.c:239
+msgid "OSD loaded\n"
+msgstr "OSD încărcat\n"
+
+#: ../plugins/notify-osd/notify-osd.c:243
+msgid "OSD initialization failed\n"
+msgstr "Inițializarea OSD a eșuat\n"
+
+#: ../plugins/perl/perl.c:1372
+msgid "Perl"
+msgstr "Perl"
+
+#: ../plugins/perl/perl.c:1373
+msgid "Perl scripting interface"
+msgstr "Interfață de scripting Perl"
+
+#: ../plugins/python/python.c:2090
+msgid "Python"
+msgstr "Python"
+
+#: ../plugins/python/python.c:2092
+msgid "Python scripting interface"
+msgstr "Interfață de scripting Python"
+
+#: ../plugins/url_scraper/urlscraper.c:44
+msgid "xchat URL scraper"
+msgstr "extractor de URL-uri XChat"
+
+#: ../plugins/url_scraper/urlscraper.c:58 ../src/common/xchat.c:858
+msgid "Time"
+msgstr "Timp"
+
+#: ../plugins/url_scraper/urlscraper.c:63 ../src/common/text.c:946
+msgid "Nick"
+msgstr "Pseudonim"
+
+#: ../plugins/url_scraper/urlscraper.c:67 ../src/common/text.c:913
+#: ../src/common/text.c:917 ../src/common/text.c:1348
+#: ../src/fe-gnome/irc-network-editor.c:318
+msgid "Channel"
+msgstr "Canal"
+
+#: ../plugins/url_scraper/urlscraper.c:72
+msgid "URL"
+msgstr "URL"
+
+#: ../plugins/url_scraper/urlscraper.c:154
+msgid "URL Scraper"
+msgstr "Extractor de URL-uri"
+
+#: ../plugins/url_scraper/urlscraper.c:155
+msgid "Grabs URLs and puts them in a separate window for easy viewing."
+msgstr ""
+"Capturează URL-uri și le pune într-o fereastră separată pentru vizualizare "
+"facilă."
+
+#: ../plugins/url_scraper/urlscraper.c:200
+msgid "URL Scraper failed to load: couldn't compile URL regex.\n"
+msgstr "Încărcarea extractorului de URL-uri a eșuat: nu s-a putut compila expresia "
+"regulată pentru URL.\n"
+
+#: ../plugins/url_scraper/urlscraper.c:206
+msgid "URL Scraper failed to load: couldn't compile e-mail regex.\n"
+msgstr "Încărcarea extractorului de URL-uri a eșuat: nu s-a putut compila expresia "
+"regulată pentru email.\n"
+
+#: ../plugins/url_scraper/urlscraper.c:221
+msgid "URL Scraper loaded.\n"
+msgstr "Extractorul de URL-uri a fost încărcat.\n"
+
+#: ../plugins/url_scraper/urlscraper.c:233
+msgid "URL Scraper unloaded.\n"
+msgstr "Extractorul de URL-uri a fost închis.\n"
+
+#: ../plugins/url_scraper/urlscraper.schemas.in.h:1
+msgid "URL Scraper history length"
+msgstr "Lungimea istoricului extractorului de URL-uri"
+
+#: ../plugins/url_scraper/urlscraper.schemas.in.h:2
+msgid "URL Scraper show timestamps"
+msgstr "Arată marcajele de timp în extractorul de URL-uri"
+
+#: ../plugins/sound-notification/sound-notification.c:47
+msgid "New message received"
+msgstr "Mesaj nou primit"
+
+#: ../plugins/sound-notification/sound-notification.c:56
+msgid "Sound Notification"
+msgstr "Notificări sunet"
+
+#: ../plugins/sound-notification/sound-notification.c:57
+msgid ""
+"Play a sound when you receive a private message or your nick is highlighted."
+msgstr ""
+"Redă un sunet la primirea unui mesaj privat sau când pseudonimul este "
+"evidențiat."
+
+#: ../plugins/sound-notification/sound-notification.c:89
+msgid "Sound-notification plugin loaded.\n"
+msgstr "Modulul Sound-notification a fost încărcat.\n"
+
+#: ../plugins/sound-notification/sound-notification.c:97
+msgid "Sound-notification plugin unloaded.\n"
+msgstr "Modulul Sound-notification a fost descărcat.\n"
+
+#: ../plugins/tcl/tclplugin.c:2233
+msgid "tclplugin"
+msgstr "tclplugin"
+
+#: ../plugins/tcl/tclplugin.c:2234
+msgid "Tcl plugin for XChat"
+msgstr "Modul tcl pentru XChat"
+
+#: ../src/common/cfgfiles.c:356
+msgid "Cannot create ~/.xchat2"
+msgstr "Nu s-a putut crea ~/.xchat2"
+
+#: ../src/common/cfgfiles.c:714
+msgid "I'm busy"
+msgstr "Sunt ocupat"
+
+#: ../src/common/cfgfiles.c:715
+msgid "Leaving"
+msgstr "Plecat"
+
+#: ../src/common/cfgfiles.c:762
+msgid ""
+"* Running IRC as root is stupid! You should\n"
+"  create a User Account and use that to login.\n"
+msgstr ""
+"* Nu este indicată executarea IRC-ului cu drepturi de root!\n"
+"  Ar trebui să creați un cont utilizator și să-l folosiți\n"
+"  pentru a vă autentifica.\n"
+
+#: ../src/common/dbus/dbus-client.c:73
+msgid "Couldn't connect to session bus"
+msgstr "Nu s-a putut stabili conexiunea către magistrala sesiunii"
+
+#. Used for dbus-based single instance app
+#: ../src/common/dbus/dbus-client.c:88
+msgid "Detection of running instance failed"
+msgstr "Detectarea instanței pornite a eșuat"
+
+#. Used for dbus-based single instance app
+#: ../src/common/dbus/dbus-client.c:110
+msgid "Failed to send \"url\" command to running instance"
+msgstr "Trimiterea comenzii „url” instanței pornite a eșuat"
+
+#: ../src/common/dcc.c:67
+msgid "Waiting"
+msgstr "Se așteaptă"
+
+#. black
+#: ../src/common/dcc.c:68
+msgid "Active"
+msgstr "Activ"
+
+#. cyan
+#: ../src/common/dcc.c:69
+msgid "Failed"
+msgstr "Eșuat"
+
+#. red
+#: ../src/common/dcc.c:70
+msgid "Done"
+msgstr "Finalizat"
+
+#. green
+#: ../src/common/dcc.c:71 ../src/fe-gnome/connect-dialog.c:184
+msgid "Connect"
+msgstr "Conectare"
+
+#. black
+#: ../src/common/dcc.c:72
+msgid "Aborted"
+msgstr "Abandonat"
+
+#: ../src/common/dcc.c:1886 ../src/common/outbound.c:2452
+#, c-format
+msgid "Cannot access %s\n"
+msgstr "Nu se poate accesa %s\n"
+
+#. ! if (osvi.dwMajorVersion >= 5)
+#. fallback to error number
+#: ../src/common/dcc.c:1887 ../src/common/text.c:1169
+#: ../src/common/text.c:1207 ../src/common/text.c:1218
+#: ../src/common/text.c:1225 ../src/common/text.c:1238
+#: ../src/common/text.c:1255 ../src/common/text.c:1355
+#: ../src/common/util.c:354
+msgid "Error"
+msgstr "Eroare"
+
+#: ../src/common/dcc.c:2375
+#, c-format
+msgid "%s is offering \"%s\". Do you want to accept?"
+msgstr "%s oferă „%s”. Doriți să acceptați?"
+
+#: ../src/common/dcc.c:2586
+msgid "No active DCCs\n"
+msgstr "Niciun DCC activ\n"
+
+#: ../src/common/ignore.c:120 ../src/common/ignore.c:124
+#: ../src/common/ignore.c:128 ../src/common/ignore.c:132
+#: ../src/common/ignore.c:136 ../src/common/ignore.c:140
+#: ../src/common/ignore.c:144
+msgid "YES  "
+msgstr "DA  "
+
+#: ../src/common/ignore.c:122 ../src/common/ignore.c:126
+#: ../src/common/ignore.c:130 ../src/common/ignore.c:134
+#: ../src/common/ignore.c:138 ../src/common/ignore.c:142
+#: ../src/common/ignore.c:146
+msgid "NO   "
+msgstr "NU   "
+
+#: ../src/common/ignore.c:377
+#, c-format
+msgid "You are being CTCP flooded from %s, ignoring %s\n"
+msgstr "Sunteți inundat cu pachete CTCP de la %s. Se ignoră %s\n"
+
+#: ../src/common/ignore.c:402
+#, c-format
+msgid "You are being MSG flooded from %s, setting gui_auto_open_dialog OFF.\n"
+msgstr "Sunteți inundat cu pachete MSG de la %s, se setează opțiunea "
+"gui_auto_open_dialog ca oprită (OFF).\n"
+
+#: ../src/common/notify.c:473
+#, c-format
+msgid "  %-20s online\n"
+msgstr "  %-20s conectați\n"
+
+#: ../src/common/notify.c:475
+#, c-format
+msgid "  %-20s offline\n"
+msgstr "  %-20s deconectați\n"
+
+#: ../src/common/outbound.c:72
+msgid "No channel joined. Try /join #<channel>\n"
+msgstr "Nu v-ați alăturat niciunui canal. Încercați /join #<canal>\n"
+
+#: ../src/common/outbound.c:78
+msgid "Not connected. Try /server <host> [<port>]\n"
+msgstr "Neconectat. Încercați /server <host> [<port>]\n"
+
+#: ../src/common/outbound.c:339
+#, c-format
+msgid "Already marked away: %s\n"
+msgstr "Deja marcat ca absent: %s\n"
+
+#: ../src/common/outbound.c:409
+msgid "Already marked back.\n"
+msgstr "Deja marcat ca revenit.\n"
+
+#: ../src/common/outbound.c:1814
+msgid "I need /bin/sh to run!\n"
+msgstr "Este nevoie de /bin/sh pentru a funcționa!\n"
+
+#: ../src/common/outbound.c:2185
+msgid "Commands Available:"
+msgstr "Comenzi disponibile:"
+
+#: ../src/common/outbound.c:2199
+msgid "User defined commands:"
+msgstr "Comenzi definite de utilizator:"
+
+#: ../src/common/outbound.c:2215
+msgid "Plugin defined commands:"
+msgstr "Comenzi definite de module:"
+
+#: ../src/common/outbound.c:2226
+msgid "Type /HELP <command> for more information, or /HELP -l"
+msgstr "Tastați /HELP <comanda> pentru mai multe informații, sau /HELP -l"
+
+#: ../src/common/outbound.c:2301
+#, c-format
+msgid "Unknown arg '%s' ignored."
+msgstr "Argument necunoscut „%s” ignorat."
+
+#: ../src/common/outbound.c:3240
+msgid "No such plugin found.\n"
+msgstr "Nu a fost găsit un astfel de modul.\n"
+
+#: ../src/common/outbound.c:3245
+msgid "That plugin is refusing to unload.\n"
+msgstr "Acel modul refuză să fie descărcat.\n"
+
+#: ../src/common/outbound.c:3514
+msgid "ADDBUTTON <name> <action>, adds a button under the user-list"
+msgstr "ADDBUTTON <nume> <acțiune>, adaugă un buton sub lista de utilizatori"
+
+#: ../src/common/outbound.c:3516
+msgid "ALLCHAN <cmd>, sends a command to all channels you're in"
+msgstr "ALLCHAN <cmd>, trimite o comandă către toate canalele conectate"
+
+#: ../src/common/outbound.c:3518
+msgid "ALLCHANL <cmd>, sends a command to all channels you're in"
+msgstr "ALLCHANL <cmd>, trimite o comandă către toate canalele conectate"
+
+#: ../src/common/outbound.c:3520
+msgid "ALLSERV <cmd>, sends a command to all servers you're in"
+msgstr "ALLSERV <cmd>, trimite o comandă către toate serverele conectate"
+
+#: ../src/common/outbound.c:3521
+msgid "AWAY [<reason>], sets you away"
+msgstr "AWAY [<motiv>], vă definește ca absent"
+
+#: ../src/common/outbound.c:3522
+msgid "BACK, sets you back (not away)"
+msgstr "BACK, vă definește ca revenit (din absență)"
+
+#: ../src/common/outbound.c:3524
+msgid ""
+"BAN <mask> [<bantype>], bans everyone matching the mask from the current "
+"channel. If they are already on the channel this doesn't kick them (needs "
+"chanop)"
+msgstr ""
+"BAN <mască> [<tipban>], blochează toți utilizatorii ce se potrivesc măștii "
+"canalului curent. Dacă sunt deja conectați, această acțiune nu îi dă afară "
+"(necesită un operator pe canal)"
+
+#: ../src/common/outbound.c:3526
+msgid ""
+"Set per channel options\n"
+"CHANOPT CONFMODE ON|OFF - Toggle conf mode/showing of join and part "
+"messages\n"
+"CHANOPT COLORPASTE ON|OFF - Toggle color paste\n"
+"CHANOPT BEEP ON|OFF - Toggle beep on message\n"
+"CHANOPT TRAY ON|OFF - Toggle tray blink on message"
+msgstr ""
+"Stabiliți opțiunile per canal\n"
+"CHANOPT CONFMODE ON|OFF - Comută mod conf/arătarea mesajelor de alăturare și "
+"părăsire\n"
+"CHANOPT COLORPASTE ON|OFF - Comută lipirea cu culori\n"
+"CHANOPT BEEP ON|OFF - Comută bipul la mesaje\n"
+"CHANOPT TRAY ON|OFF - Comută licărirea zonei de notificare la mesaje"
+
+#: ../src/common/outbound.c:3533
+msgid "CLEAR [ALL|HISTORY], Clears the current text window or command history"
+msgstr ""
+"CLEAR [ALL|HISTORY], Curăță fereastra de text curentă sau istoria de comenzi"
+
+#: ../src/common/outbound.c:3534
+msgid "CLOSE, Closes the current window/tab"
+msgstr "CLOSE, Închide fereastra/tabul curent"
+
+#: ../src/common/outbound.c:3537
+msgid "COUNTRY [-s] <code|wildcard>, finds a country code, eg: au = australia"
+msgstr ""
+"COUNTRY [-s] <cod|metacaracter>, găsește codul unei țări, de ex: ro = "
+"romania"
+
+#: ../src/common/outbound.c:3539
+msgid ""
+"CTCP <nick> <message>, send the CTCP message to nick, common messages are "
+"VERSION and USERINFO"
+msgstr ""
+"CTCP <pseudonim> <mesaj>, trimite mesajul CTCP la pseudonim, mesajele "
+"frecvente sunt VERSION și USERINFO"
+
+#: ../src/common/outbound.c:3541
+msgid ""
+"CYCLE [<channel>], parts the current or given channel and immediately rejoins"
+msgstr ""
+"CYCLE [<canal>], părăsește canalul curent sau cel dat și se reconectează la "
+"acesta imediat"
+
+#: ../src/common/outbound.c:3543
+msgid ""
+"\n"
+"DCC GET <nick>                      - accept an offered file\n"
+"DCC SEND [-maxcps=#] <nick> [file]  - send a file to someone\n"
+"DCC PSEND [-maxcps=#] <nick> [file] - send a file using passive mode\n"
+"DCC LIST                            - show DCC list\n"
+"DCC CHAT <nick>                     - offer DCC CHAT to someone\n"
+"DCC PCHAT <nick>                    - offer DCC CHAT using passive mode\n"
+"DCC CLOSE <type> <nick> <file>         example:\n"
+"         /dcc close send johnsmith file.tar.gz"
+msgstr ""
+"\n"
+"DCC GET <pseudonim>                        - acceptă un fișier oferit\n"
+"DCC SEND [-maxcps=#] <pseudonim> [fișier]  - trimite un fișier cuiva\n"
+"DCC PSEND [-maxcps=#] <pseudonim> [fișier] - trimite un fișier în mod pasiv\n"
+"DCC LIST                                   - arată lista DCC\n"
+"DCC CHAT <pseudonim>                       - oferă DCC CHAT cuiva\n"
+"DCC PCHAT <pseudonim>                      - oferă DCC CHAT în mod pasiv\n"
+"DCC CLOSE <tip> <pseudonim> <fișier>          exemplu:\n"
+"\t/dcc close send popescuion fișier.tar.gz"
+
+#: ../src/common/outbound.c:3555
+msgid ""
+"DEHOP <nick>, removes chanhalf-op status from the nick on the current "
+"channel (needs chanop)"
+msgstr ""
+"DEHOP <pseudonim>, elimină statutul de semi operator al canalului, "
+"pseudonimului de pe canalul curent (necesită operator pe canal)"
+
+#: ../src/common/outbound.c:3557
+msgid "DELBUTTON <name>, deletes a button from under the user-list"
+msgstr "DELBUTTON <nume>, șterge un buton de sub lista de utilizatori"
+
+#: ../src/common/outbound.c:3559
+msgid ""
+"DEOP <nick>, removes chanop status from the nick on the current channel "
+"(needs chanop)"
+msgstr ""
+"DEOP <pseudonim>, elimină statutul de operator al canalului, pseudonimului "
+"de pe canalul curent (necesită operator pe canal)"
+
+#: ../src/common/outbound.c:3561
+msgid ""
+"DEVOICE <nick>, removes voice status from the nick on the current channel "
+"(needs chanop)"
+msgstr ""
+"DEVOICE <pseudonim>, elimină statutul de voce al pseudonimului de pe canalul "
+"curent (necesită operator pe canal)"
+
+#: ../src/common/outbound.c:3562
+msgid "DISCON, Disconnects from server"
+msgstr "DISCON, deconectează de la server"
+
+#: ../src/common/outbound.c:3563
+msgid "DNS <nick|host|ip>, Finds a users IP number"
+msgstr "DNS <pseudonim|gazdă|ip>, găsește adresa IP a unui utilizator"
+
+#: ../src/common/outbound.c:3564
+msgid "ECHO <text>, Prints text locally"
+msgstr "ECHO <text>, tipărește text local"
+
+#: ../src/common/outbound.c:3567
+msgid ""
+"EXEC [-o] <command>, runs the command. If -o flag is used then output is "
+"sent to current channel, else is printed to current text box"
+msgstr ""
+"EXEC [-o] <comandă>, rulează o comandă. Dacă steagul -o este folosit atunci "
+"rezultatul comenzii este trimis canalului curent, altfel este tipărit în "
+"caseta de text curentă"
+
+#: ../src/common/outbound.c:3569
+msgid "EXECCONT, sends the process SIGCONT"
+msgstr "EXECCONT, trimite procesului SIGCONT"
+
+#: ../src/common/outbound.c:3572
+msgid ""
+"EXECKILL [-9], kills a running exec in the current session. If -9 is given "
+"the process is SIGKILL'ed"
+msgstr ""
+"EXECKILL [-9], omoară un executabil ce rulează în sesiunea curentă. Dacă "
+"este dat -9 procesul este oprit prin SIGKILL"
+
+#: ../src/common/outbound.c:3574
+msgid "EXECSTOP, sends the process SIGSTOP"
+msgstr "EXECSTOP, trimite procesul SIGSTOP"
+
+#: ../src/common/outbound.c:3575
+msgid "EXECWRITE, sends data to the processes stdin"
+msgstr "EXECWRITE, trimite date intrarea standard (stdin) a procesului"
+
+#: ../src/common/outbound.c:3579
+msgid "FLUSHQ, flushes the current server's send queue"
+msgstr "FLUSHQ, golește coada de trimitere a serverului curent"
+
+#: ../src/common/outbound.c:3581
+msgid "GATE <host> [<port>], proxies through a host, port defaults to 23"
+msgstr ""
+"GATE <host> [<port>], folosește o gazdă ca proxy, portul implicit este 23"
+
+#: ../src/common/outbound.c:3585
+msgid "GHOST <nick> <password>, Kills a ghosted nickname"
+msgstr "GHOST <pseudonim> <parolă>, șterge un pseudonim fantomă "
+
+#: ../src/common/outbound.c:3590
+msgid "HOP <nick>, gives chanhalf-op status to the nick (needs chanop)"
+msgstr ""
+"HOP <pseudonim>, dă pseudonimului statut de semi-operator pe canal (necesită "
+"operator pe canal)"
+
+#: ../src/common/outbound.c:3591
+msgid "ID <password>, identifies yourself to nickserv"
+msgstr "ID <parolă>, vă identifică la nickserv"
+
+#: ../src/common/outbound.c:3593
+msgid ""
+"IGNORE <mask> <types..> <options..>\n"
+"    mask - host mask to ignore, eg: *!*@*.aol.com\n"
+"    types - types of data to ignore, one or all of:\n"
+"            PRIV, CHAN, NOTI, CTCP, DCC, INVI, ALL\n"
+"    options - NOSAVE, QUIET"
+msgstr ""
+"IGNORE <mască> <tipuri..> <opțiuni..>\n"
+"    mască - masca gazdei pentru ignorare, ex: *!*@*.aol.com\n"
+"    tipuri - tipuri de date pentru ignorare, unul sau toate:\n"
+"            PRIV, CHAN, NOTI, CTCP, DCC, INVI, ALL\n"
+"    opțiuni - NOSAVE, QUIET"
+
+#: ../src/common/outbound.c:3600
+msgid ""
+"INVITE <nick> [<channel>], invites someone to a channel, by default the "
+"current channel (needs chanop)"
+msgstr ""
+"INVITE <pseudonim> [<canal>], invită pe cineva pe un canal, implicit este "
+"canalul curent (necesită operator pe canal)"
+
+#: ../src/common/outbound.c:3601
+msgid "JOIN <channel>, joins the channel"
+msgstr "JOIN <channel>, vă alătură canalului de discuție"
+
+#: ../src/common/outbound.c:3603
+msgid "KICK <nick>, kicks the nick from the current channel (needs chanop)"
+msgstr ""
+"KICK <pseudonim>, dă afară pseudonimul din canalul curent (necesită operator "
+"pe canal)"
+
+#: ../src/common/outbound.c:3605
+msgid ""
+"KICKBAN <nick>, bans then kicks the nick from the current channel (needs "
+"chanop)"
+msgstr ""
+"KICKBAN <pseudonim>, blochează și apoi dă afară pseudonimul din canalul "
+"curent (necesită operator pe canal)"
+
+#: ../src/common/outbound.c:3608
+msgid "LAGCHECK, forces a new lag check"
+msgstr "LAGCHECK, forțează o verificare nouă a decalajului"
+
+#: ../src/common/outbound.c:3610
+msgid "LASTLOG <string>, searches for a string in the buffer"
+msgstr "LASTLOG <șir>, caută un șir în memoria tampon"
+
+#: ../src/common/outbound.c:3612
+msgid "LOAD [-e] <file>, loads a plugin or script"
+msgstr "LOAD [-e] <fișier>, încarcă un modul sau script"
+
+#: ../src/common/outbound.c:3615
+msgid ""
+"MDEHOP, Mass deop's all chanhalf-ops in the current channel (needs chanop)"
+msgstr ""
+"MDEHOP, elimină statutul de semi-operator de canal tuturor participanților "
+"(necesită operator pe canal)"
+
+#: ../src/common/outbound.c:3617
+msgid "MDEOP, Mass deop's all chanops in the current channel (needs chanop)"
+msgstr ""
+"MDEHOP, elimină statutul de operator de canal tuturor participanților "
+"(necesită operator pe canal)"
+
+#: ../src/common/outbound.c:3619
+msgid ""
+"ME <action>, sends the action to the current channel (actions are written in "
+"the 3rd person, like /me jumps)"
+msgstr ""
+"ME <acțiune>, trimite acțiunea către canalul curent (acțiunile sunt scrise "
+"la persoana a 3-a, ex: /me sare)"
+
+#: ../src/common/outbound.c:3623
+msgid ""
+"MKICK, Mass kicks everyone except you in the current channel (needs chanop)"
+msgstr ""
+"MKICK, dă afară din canal toți participanții cu excepția ta (necesită "
+"operator pe canal)"
+
+#: ../src/common/outbound.c:3626
+msgid "MOP, Mass op's all users in the current channel (needs chanop)"
+msgstr ""
+"MOP, pune statut de operator de canal tuturor participanților (necesită "
+"operator pe canal)"
+
+#: ../src/common/outbound.c:3627
+msgid "MSG <nick> <message>, sends a private message"
+msgstr "MSG <pseudonim> <mesaj>, trimite un mesaj privat"
+
+#: ../src/common/outbound.c:3630
+msgid "NAMES, Lists the nicks on the current channel"
+msgstr "NAMES, enumeră pseudonimele din canalul curent"
+
+#: ../src/common/outbound.c:3632
+msgid "NCTCP <nick> <message>, Sends a CTCP notice"
+msgstr "NCTCP <pseudonim> <mesaj>, trimite un anunț CTCP"
+
+#: ../src/common/outbound.c:3633
+msgid "NEWSERVER [-noconnect] <hostname> [<port>]"
+msgstr "NEWSERVER [-noconnect] <hostname> [<port>]"
+
+#: ../src/common/outbound.c:3634
+msgid "NICK <nickname>, sets your nick"
+msgstr "NICK <pseudonim>, vă schimbă pseudonimul"
+
+#: ../src/common/outbound.c:3637
+msgid ""
+"NOTICE <nick/channel> <message>, sends a notice. Notices are a type of "
+"message that should be auto reacted to"
+msgstr ""
+"NOTICE <pseudonim/canal> <mesaj>, trimite un anunț. Anunțurile sunt un tip "
+"de mesaj la care ar trebui să se reacționeze automat"
+
+#: ../src/common/outbound.c:3639
+msgid ""
+"NOTIFY [-n network1[,network2,...]] [<nick>], displays your notify list or "
+"adds someone to it"
+msgstr ""
+"NOTIFY [-n rețea1[,rețea2,...]] [<pseudonim>], afișează lista ta de "
+"notificări sau adaugă pe cineva acesteia"
+
+#: ../src/common/outbound.c:3641
+msgid "OP <nick>, gives chanop status to the nick (needs chanop)"
+msgstr ""
+"OP <pseudonim>, pune statut de operator pe canal pseudonimului (necesită "
+"operator pe canal)"
+
+#: ../src/common/outbound.c:3643
+msgid ""
+"PART [<channel>] [<reason>], leaves the channel, by default the current one"
+msgstr "PART [<canal>] [<motiv>], părăsește canalul, implicit cel curent"
+
+#: ../src/common/outbound.c:3645
+msgid "PING <nick | channel>, CTCP pings nick or channel"
+msgstr ""
+"PING <pseudonim | canal>, testează conexiunea CTCP cu pseudonimul sau "
+"canalul definit"
+
+#: ../src/common/outbound.c:3647
+msgid "QUERY [-nofocus] <nick>, opens up a new privmsg window to someone"
+msgstr ""
+"QUERY [-nofocus] <pseudonim>, deschide o fereastră pentru mesaje private cu "
+"cineva"
+
+#: ../src/common/outbound.c:3649
+msgid "QUIT [<reason>], disconnects from the current server"
+msgstr "QUIT [<motiv>], se deconectează de la serverul curent"
+
+#: ../src/common/outbound.c:3651
+msgid "QUOTE <text>, sends the text in raw form to the server"
+msgstr "QUOTE <text>, trimite textul în formă brută serverului"
+
+#: ../src/common/outbound.c:3654
+msgid ""
+"RECONNECT [-ssl] [<host>] [<port>] [<password>], Can be called just as /"
+"RECONNECT to reconnect to the current server or with /RECONNECT ALL to "
+"reconnect to all the open servers"
+msgstr ""
+"RECONNECT [-ssl] [<gazdă>] [<port>] [<parolă>], poate fi apelat ca "
+"/RECONNECT pentru a se reconecta la serverul curent sau ca /RECONNECT ALL "
+"pentru a se reconecta la toate serverele deschise"
+
+#: ../src/common/outbound.c:3657
+msgid ""
+"RECONNECT [<host>] [<port>] [<password>], Can be called just as /RECONNECT "
+"to reconnect to the current server or with /RECONNECT ALL to reconnect to "
+"all the open servers"
+msgstr ""
+"RECONNECT [<gazdă>] [<port>] [<parolă>], poate fi apelat ca /RECONNECT "
+"pentru a se reconecta la serverul curent sau ca /RECONNECT ALL pentru a se "
+"reconecta la toate serverele deschise"
+
+#: ../src/common/outbound.c:3659
+msgid ""
+"RECV <text>, send raw data to xchat, as if it was received from the irc "
+"server"
+msgstr ""
+"RECV <text>, trimite date brute către xchat, ca și cum ar fi fost primite de "
+"la serverul irc"
+
+#: ../src/common/outbound.c:3662
+msgid "SAY <text>, sends the text to the object in the current window"
+msgstr "SAY <text>, trimite textul către obiectul din fereastra curentă"
+
+#: ../src/common/outbound.c:3663
+msgid "SEND <nick> [<file>]"
+msgstr "SEND <pseudonim> [<fișier>]"
+
+#: ../src/common/outbound.c:3666
+msgid "SERVCHAN [-ssl] <host> <port> <channel>, connects and joins a channel"
+msgstr ""
+"SERVCHAN [-ssl] <gazdă> <port> <canal>, vă conectează și vă conectează la un "
+"canal"
+
+#: ../src/common/outbound.c:3669
+msgid "SERVCHAN <host> <port> <channel>, connects and joins a channel"
+msgstr "SERVCHAN <gazdă> <port> <canal>, vă conectează și vă alătură unui canal"
+
+#: ../src/common/outbound.c:3673
+msgid ""
+"SERVER [-ssl] <host> [<port>] [<password>], connects to a server, the "
+"default port is 6667 for normal connections, and 9999 for ssl connections"
+msgstr ""
+"SERVER [-ssl] <gazdă> [<port>] [<parolă>], vă conectează la un server, "
+"portul implicit pentru conexiuni normale este 6667 și pentru conexiuni cu "
+"ssl este 9999"
+
+#: ../src/common/outbound.c:3676
+msgid ""
+"SERVER <host> [<port>] [<password>], connects to a server, the default port "
+"is 6667"
+msgstr ""
+"SERVER <gazdă> [<port>] [<parolă>], vă conectează la un server, portul "
+"implicit este 6667"
+
+#: ../src/common/outbound.c:3678
+msgid "SET [-e] [-or] [-quiet] <variable> [<value>]"
+msgstr "SET [-e] [-or] [-quiet] <variabilă> [<valoare>]"
+
+#: ../src/common/outbound.c:3679
+msgid "SETCURSOR [-|+]<position>"
+msgstr "SETCURSOR [-|+]<poziție>"
+
+#: ../src/common/outbound.c:3684
+msgid ""
+"TOPIC [<topic>], sets the topic if one is given, else shows the current topic"
+msgstr ""
+"TOPIC [<subiect>], stabilește subiectul dacă acesta este dat, sau arată "
+"subiectul curent"
+
+#: ../src/common/outbound.c:3686
+msgid ""
+"\n"
+"TRAY -f <timeout> <file1> [<file2>] Blink tray between two icons.\n"
+"TRAY -f <filename>                  Set tray to a fixed icon.\n"
+"TRAY -i <number>                    Blink tray with an internal icon.\n"
+"TRAY -t <text>                      Set the tray tooltip.\n"
+"TRAY -b <title> <text>              Set the tray balloon."
+msgstr ""
+"\n"
+"TRAY -f <timp> <fișier1> [<fișier2>] Clipește zona de notificare între două "
+"iconițe.\n"
+"TRAY -f <numefișier>                 Stabilește zona de notificare la o "
+"iconiță fixă.\n"
+"TRAY -i <number>                     Clipește zona de notificare cu o "
+"iconiță internă.\n"
+"TRAY -t <text>                       Stabilește indiciile zonei de "
+"notificare.\n"
+"TRAY -b <titlu> <text>               Stabilește balonul zonei de notificare."
+
+#: ../src/common/outbound.c:3693
+msgid "UNBAN <mask> [<mask>...], unbans the specified masks."
+msgstr "UNBAN <mască> [<mască>...], deblochează măștile specificate."
+
+#: ../src/common/outbound.c:3694
+msgid "UNIGNORE <mask> [QUIET]"
+msgstr "UNIGNORE <mască> [QUIET]"
+
+#: ../src/common/outbound.c:3695
+msgid "UNLOAD <name>, unloads a plugin or script"
+msgstr "UNLOAD <nume>, descarcă un modul sau script"
+
+#: ../src/common/outbound.c:3696
+msgid "URL <url>, opens a URL in your browser"
+msgstr "URL <url>, deschide un URL în navigatorul de internet"
+
+#: ../src/common/outbound.c:3698
+msgid ""
+"USELECT [-a] [-s] <nick1> <nick2> etc, highlights nick(s) in channel userlist"
+msgstr ""
+"USELECT [-a] [-s] <pseudonim1> <pseudonim> etc, evidențiază pseudonimele în "
+"lista de utilizatori a canalului"
+
+#: ../src/common/outbound.c:3701
+msgid "VOICE <nick>, gives voice status to someone (needs chanop)"
+msgstr ""
+"VOICE <pseudonim>, dă statutul de voce cuiva (necesită operator de canal)"
+
+#: ../src/common/outbound.c:3703
+msgid "WALLCHAN <message>, writes the message to all channels"
+msgstr "WALLCHAN <mesaj>, scrie mesajul către toate canalele"
+
+#: ../src/common/outbound.c:3705
+msgid ""
+"WALLCHOP <message>, sends the message to all chanops on the current channel"
+msgstr ""
+"WALLCHOP <mesaj>, trimite mesajul către toți operatorii canalului curent"
+
+#: ../src/common/outbound.c:3738
+#, c-format
+msgid "Usage: %s\n"
+msgstr "Utilizare: %s\n"
+
+#: ../src/common/outbound.c:3743
+msgid ""
+"\n"
+"No help available on that command.\n"
+msgstr ""
+"\n"
+"Nu există ajutor pentru acea comandă.\n"
+
+#: ../src/common/outbound.c:3749
+msgid "No such command.\n"
+msgstr "Comandă inexistentă.\n"
+
+#: ../src/common/outbound.c:4079
+msgid "Bad arguments for user command.\n"
+msgstr "Argumente incorecte pentru comandă.\n"
+
+#: ../src/common/outbound.c:4235
+msgid "Too many recursive usercommands, aborting."
+msgstr "Prea multe comenzi recursive date de utilizator, se renunță."
+
+#: ../src/common/outbound.c:4312
+msgid "Unknown Command. Try /help\n"
+msgstr "Comandă necunoscută. Încercați /help\n"
+
+#: ../src/common/plugin.c:359 ../src/common/plugin.c:400
+msgid "No xchat_plugin_init symbol; is this really an xchat plugin?"
+msgstr "Nu există simbol xchat_plugin_init; sigur acesta este un modul xchat?"
+
+#: ../src/common/server.c:634
+msgid "Are you sure this is a SSL capable server and port?\n"
+msgstr "Sunteți sigur că acesta este un server și port capabil de SSL?\n"
+
+#: ../src/common/server.c:1024
+#, c-format
+msgid ""
+"Cannot resolve hostname %s\n"
+"Check your IP Settings!\n"
+msgstr ""
+"Nu s-a putut rezolva numele de gazdă %s\n"
+"Verificați configurările de IP!\n"
+
+#: ../src/common/server.c:1029
+msgid "Proxy traversal failed.\n"
+msgstr "Traversarea de proxy a eșuat.\n"
+
+#: ../src/common/servlist.c:659
+#, c-format
+msgid "Cycling to next server in %s...\n"
+msgstr "Se ciclează la următorul server în %s...\n"
+
+#: ../src/common/servlist.c:1090
+#, c-format
+msgid ""
+"Warning: \"%s\" character set is unknown. No conversion will be applied for "
+"network %s."
+msgstr ""
+"Avertisment! setul de caractere „%s” este necunoscut. Nu va fi aplicată "
+"nicio conversie pentru rețeaua %s."
+
+#. get rid of the \n
+#: ../src/common/text.c:292
+msgid "Loaded log from"
+msgstr "Înregistrările au fost încărcate de la"
+
+#: ../src/common/text.c:310
+#, c-format
+msgid "**** ENDING LOGGING AT %s\n"
+msgstr "**** ÎNREGISTRAREA SE ÎNCHEIE LA %s\n"
+
+#: ../src/common/text.c:519
+#, c-format
+msgid "**** BEGIN LOGGING AT %s\n"
+msgstr "**** ÎNREGISTRAREA ÎNCEPE LA %s\n"
+
+#: ../src/common/text.c:538
+#, c-format
+msgid ""
+"* Can't open log file(s) for writing. Check the\n"
+"  permissions on %s/xchatlogs"
+msgstr ""
+"* Fișierul de înregistrare nu se poate deschide\n"
+"  pentru scriere. Verificați permisiunile\n"
+"  pentru %s/xchatlogs"
+
+#: ../src/common/text.c:876
+msgid "Left message"
+msgstr "Mesaj stânga"
+
+#: ../src/common/text.c:877
+msgid "Right message"
+msgstr "Mesaj dreapta"
+
+#: ../src/common/text.c:881
+msgid "The nick of the joining person"
+msgstr "Pseudonimul persoanei ce se conectează"
+
+#: ../src/common/text.c:882
+msgid "The channel being joined"
+msgstr "Canalul la care se conectează"
+
+#: ../src/common/text.c:883 ../src/common/text.c:930 ../src/common/text.c:981
+msgid "The host of the person"
+msgstr "Gazda persoanei"
+
+#: ../src/common/text.c:888
+msgid "The action"
+msgstr "Acțiunea"
+
+#: ../src/common/text.c:889 ../src/common/text.c:895
+msgid "Mode char"
+msgstr "Mod caracter"
+
+#: ../src/common/text.c:894
+msgid "The text"
+msgstr "Textul"
+
+#: ../src/common/text.c:896 ../src/common/text.c:902
+msgid "Identified text"
+msgstr "Text identificat"
+
+#: ../src/common/text.c:901 ../src/common/text.c:958 ../src/common/text.c:964
+msgid "The message"
+msgstr "Mesajul"
+
+#: ../src/common/text.c:906 ../src/common/text.c:968
+msgid "Old nickname"
+msgstr "Pseudonimul vechi"
+
+#: ../src/common/text.c:907 ../src/common/text.c:969
+msgid "New nickname"
+msgstr "Pseudonimul nou"
+
+#: ../src/common/text.c:911
+msgid "Nick of person who changed the topic"
+msgstr "Pseudonimul persoanei care a schimbat subiectul"
+
+#: ../src/common/text.c:912 ../src/common/text.c:918
+#: ../src/fe-gnome/channel-list-window.c:452
+msgid "Topic"
+msgstr "Subiect"
+
+#: ../src/common/text.c:922 ../src/common/text.c:975
+msgid "The nickname of the kicker"
+msgstr "Pseudonimul celui care a dat afară"
+
+#: ../src/common/text.c:923 ../src/common/text.c:973
+msgid "The person being kicked"
+msgstr "Persoana care este dată afară"
+
+#: ../src/common/text.c:924 ../src/common/text.c:931 ../src/common/text.c:935
+#: ../src/common/text.c:940 ../src/common/text.c:974 ../src/common/text.c:982
+#: ../src/common/text.c:989
+msgid "The channel"
+msgstr "Canalul"
+
+#: ../src/common/text.c:925 ../src/common/text.c:976 ../src/common/text.c:983
+msgid "The reason"
+msgstr "Motivul"
+
+#: ../src/common/text.c:929 ../src/common/text.c:980
+msgid "The nick of the person leaving"
+msgstr "Pseudonimul persoanei care părăsește"
+
+#: ../src/common/text.c:936 ../src/common/text.c:942
+msgid "The time"
+msgstr "Timpul"
+
+#: ../src/common/text.c:941
+msgid "The creator"
+msgstr "Creatorul"
+
+#: ../src/common/text.c:947 ../src/common/text.c:1200
+msgid "Reason"
+msgstr "Motiv"
+
+#: ../src/common/text.c:948 ../src/common/text.c:1090
+#: ../src/common/text.c:1173
+msgid "Host"
+msgstr "Gazdă"
+
+#: ../src/common/text.c:952 ../src/common/text.c:957 ../src/common/text.c:962
+msgid "Who it's from"
+msgstr "De la cine este"
+
+#: ../src/common/text.c:953
+msgid "The time in x.x format (see below)"
+msgstr "Timpul în format x.x (vezi mai jos)"
+
+#: ../src/common/text.c:963 ../src/common/text.c:1000
+msgid "The Channel it's going to"
+msgstr "Canalul va"
+
+#: ../src/common/text.c:987
+msgid "The sound"
+msgstr "Sunetul"
+
+#: ../src/common/text.c:988 ../src/common/text.c:994 ../src/common/text.c:999
+msgid "The nick of the person"
+msgstr "Pseudonimul persoanei"
+
+#: ../src/common/text.c:993 ../src/common/text.c:998
+msgid "The CTCP event"
+msgstr "Evenimentul CTCP"
+
+#: ../src/common/text.c:1004
+msgid "The nick of the person who set the key"
+msgstr "Pseudonimul persoanei care a stabilit cheia"
+
+#: ../src/common/text.c:1005
+msgid "The key"
+msgstr "Cheia"
+
+#: ../src/common/text.c:1009
+msgid "The nick of the person who set the limit"
+msgstr "Pseudonimul persoanei care a stabilit limita"
+
+#: ../src/common/text.c:1010
+msgid "The limit"
+msgstr "Limita"
+
+#: ../src/common/text.c:1014
+msgid "The nick of the person who has been op'ed"
+msgstr "Pseudonimul persoanei căruia i s-a dat statutul de operator pe canal"
+
+#: ../src/common/text.c:1015
+msgid "The nick of the person who did the op'ing"
+msgstr "Pseudonimul persoanei care a dat statutul de operator pe canal"
+
+#: ../src/common/text.c:1019
+msgid "The nick of the person who has been halfop'ed"
+msgstr ""
+"Pseudonimul persoanei căruia i s-a dat statutul de semi-operator pe canal"
+
+#: ../src/common/text.c:1020
+msgid "The nick of the person who did the halfop'ing"
+msgstr "Pseudonimul persoanei care a dat statutul de semi-operator pe canal"
+
+#: ../src/common/text.c:1024
+msgid "The nick of the person who did the voice'ing"
+msgstr "Pseudonimul persoanei care a dat statutul de voce"
+
+#: ../src/common/text.c:1025
+msgid "The nick of the person who has been voice'ed"
+msgstr "Pseudonimul persoanei căruia i s-a dat statutul de voce"
+
+#: ../src/common/text.c:1029
+msgid "The nick of the person who did the banning"
+msgstr "Pseudonimul persoanei care a inițiat blocarea"
+
+#: ../src/common/text.c:1030 ../src/common/text.c:1057
+msgid "The ban mask"
+msgstr "Masca blocării"
+
+#: ../src/common/text.c:1034
+msgid "The nick who removed the key"
+msgstr "Pseudonimul care a eliminat cheia"
+
+#: ../src/common/text.c:1038
+msgid "The nick who removed the limit"
+msgstr "Pseudonimul care a eliminat limita"
+
+#: ../src/common/text.c:1042
+msgid "The nick of the person who did the deop'ing"
+msgstr "Pseudonimul persoanei care a eliminat statutul de operator pe canal"
+
+#: ../src/common/text.c:1043
+msgid "The nick of the person who has been deop'ed"
+msgstr ""
+"Pseudonimul persoanei căreia i s-a eliminat statutul de operator pe canal"
+
+#: ../src/common/text.c:1046
+msgid "The nick of the person who did the dehalfop'ing"
+msgstr ""
+"Pseudonimul persoanei care a eliminat statutul de semi-operator pe canal"
+
+#: ../src/common/text.c:1047
+msgid "The nick of the person who has been dehalfop'ed"
+msgstr ""
+"Pseudonimul persoanei căreia i s-a eliminat statutul de semi-operator pe "
+"canal"
+
+#: ../src/common/text.c:1051
+msgid "The nick of the person who did the devoice'ing"
+msgstr "Pseudonimul persoanei care a eliminat statutul de voce"
+
+#: ../src/common/text.c:1052
+msgid "The nick of the person who has been devoice'ed"
+msgstr "Pseudonimul persoanei căreia i s-a eliminat statutul de voce"
+
+#: ../src/common/text.c:1056
+msgid "The nick of the person who did the unban'ing"
+msgstr "Pseudonimul persoanei care a făcut deblocarea"
+
+#: ../src/common/text.c:1061
+msgid "The nick of the person who did the exempt"
+msgstr "Pseudonimul persoanei care a făcut scutirea"
+
+#: ../src/common/text.c:1062 ../src/common/text.c:1067
+msgid "The exempt mask"
+msgstr "Masca scutirii"
+
+#: ../src/common/text.c:1066
+msgid "The nick of the person who removed the exempt"
+msgstr "Pseudonimul persoanei care a eliminat scutirea"
+
+#: ../src/common/text.c:1071
+msgid "The nick of the person who did the invite"
+msgstr "Pseudonimul persoanei care a făcut invitația"
+
+#: ../src/common/text.c:1072 ../src/common/text.c:1077
+msgid "The invite mask"
+msgstr "Masca invitației"
+
+#: ../src/common/text.c:1076
+msgid "The nick of the person who removed the invite"
+msgstr "Pseudonimul persoanei care a eliminat invitația"
+
+#: ../src/common/text.c:1081
+msgid "The nick of the person who set the mode"
+msgstr "Pseudonimul persoanei care a definit modul"
+
+#: ../src/common/text.c:1082
+msgid "The mode's sign (+/-)"
+msgstr "Semnul modului (+/-)"
+
+#: ../src/common/text.c:1083
+msgid "The mode letter"
+msgstr "Litera modului"
+
+#: ../src/common/text.c:1084
+msgid "The channel it's being set on"
+msgstr "Canalul asupra căruia este definit"
+
+#: ../src/common/text.c:1089
+msgid "Username"
+msgstr "Nume utilizator"
+
+#: ../src/common/text.c:1091
+msgid "Full name"
+msgstr "Nume întreg"
+
+#: ../src/common/text.c:1096
+msgid "Channel Membership/\"is an IRC operator\""
+msgstr "Channel Membership/ „este un operator IRC”"
+
+#: ../src/common/text.c:1101
+msgid "Server Information"
+msgstr "Informații despre server"
+
+#: ../src/common/text.c:1106 ../src/common/text.c:1111
+msgid "Idle time"
+msgstr "Timp de inactivitate"
+
+#: ../src/common/text.c:1112
+msgid "Signon time"
+msgstr "Momentul autentificării"
+
+#: ../src/common/text.c:1117
+msgid "Away reason"
+msgstr "Motiv absență"
+
+#: ../src/common/text.c:1126 ../src/common/text.c:1132
+#: ../src/common/text.c:1140 ../src/common/text.c:1320
+msgid "Message"
+msgstr "Mesaj"
+
+#: ../src/common/text.c:1133
+msgid "Account"
+msgstr "Cont"
+
+#: ../src/common/text.c:1138
+msgid "Real user@host"
+msgstr "utilizator@gazdă real"
+
+#: ../src/common/text.c:1139
+msgid "Real IP"
+msgstr "IP real"
+
+#: ../src/common/text.c:1144 ../src/common/text.c:1153
+#: ../src/common/text.c:1159 ../src/common/text.c:1189
+#: ../src/common/text.c:1343 ../src/fe-gnome/channel-list-window.c:442
+msgid "Channel Name"
+msgstr "Nume canal"
+
+#: ../src/common/text.c:1148 ../src/common/text.c:1306
+msgid "Text"
+msgstr "Text"
+
+#: ../src/common/text.c:1149 ../src/common/text.c:1155
+#: ../src/common/text.c:1184 ../src/common/text.c:1302
+#: ../src/common/text.c:1344
+msgid "Server Name"
+msgstr "Nume Server"
+
+#: ../src/common/text.c:1154
+msgid "Nick of person who invited you"
+msgstr "Numele persoanei care v-a invitat"
+
+#: ../src/common/text.c:1164
+msgid "Nickname in use"
+msgstr "Nume de utilizator folosit"
+
+#: ../src/common/text.c:1165
+msgid "Nick being tried"
+msgstr "Numele de utilizator care se încearcă"
+
+#: ../src/common/text.c:1174 ../src/common/text.c:1310
+msgid "IP"
+msgstr "IP"
+
+#: ../src/common/text.c:1175 ../src/common/text.c:1206
+msgid "Port"
+msgstr "Port"
+
+#: ../src/common/text.c:1185
+msgid "Network"
+msgstr "Rețea"
+
+#: ../src/common/text.c:1190 ../src/common/text.c:1195
+msgid "Modes string"
+msgstr "Șir de moduri"
+
+#: ../src/common/text.c:1205 ../src/common/text.c:1243
+#: ../src/common/text.c:1248 ../src/common/text.c:1289
+msgid "IP address"
+msgstr "Adresă IP"
+
+#: ../src/common/text.c:1211 ../src/common/text.c:1236
+msgid "DCC Type"
+msgstr "Tip DCC"
+
+#: ../src/common/text.c:1212 ../src/common/text.c:1217
+#: ../src/common/text.c:1222 ../src/common/text.c:1229
+#: ../src/common/text.c:1249 ../src/common/text.c:1253
+#: ../src/common/text.c:1259 ../src/common/text.c:1265
+#: ../src/common/text.c:1272 ../src/common/text.c:1281
+#: ../src/common/text.c:1287
+msgid "Filename"
+msgstr "Nume fișier"
+
+#: ../src/common/text.c:1223 ../src/common/text.c:1230
+msgid "Destination filename"
+msgstr "Numele destinației"
+
+#: ../src/common/text.c:1232 ../src/common/text.c:1261
+msgid "CPS"
+msgstr "CPS"
+
+#: ../src/common/text.c:1267
+msgid "Pathname"
+msgstr "Cale"
+
+#: ../src/common/text.c:1282
+msgid "Position"
+msgstr "Poziție"
+
+#: ../src/common/text.c:1288
+msgid "Size"
+msgstr "Dimensiune"
+
+#: ../src/common/text.c:1293
+msgid "DCC String"
+msgstr "Șir DCC"
+
+#: ../src/common/text.c:1298
+msgid "Number of notify items"
+msgstr "Numărul notificărilor"
+
+#: ../src/common/text.c:1314
+msgid "Old Filename"
+msgstr "Numele vechi"
+
+#: ../src/common/text.c:1315
+msgid "New Filename"
+msgstr "Numele nou"
+
+#: ../src/common/text.c:1319
+msgid "Receiver"
+msgstr "Destinatar"
+
+#: ../src/common/text.c:1324
+msgid "Hostmask"
+msgstr "Mască gazdă"
+
+#: ../src/common/text.c:1329
+msgid "Hostname"
+msgstr "Nume gazdă"
+
+#: ../src/common/text.c:1334
+msgid "The Packet"
+msgstr "Pachetul"
+
+#: ../src/common/text.c:1338
+msgid "Seconds"
+msgstr "Secunde"
+
+#: ../src/common/text.c:1342
+msgid "Nick of person who have been invited"
+msgstr "Numele persoanei invitate"
+
+#: ../src/common/text.c:1349
+msgid "Banmask"
+msgstr "Mască blocare"
+
+#: ../src/common/text.c:1350
+msgid "Who set the ban"
+msgstr "Cine a făcut blocarea"
+
+#: ../src/common/text.c:1351
+msgid "Ban time"
+msgstr "Momentul blocării"
+
+#: ../src/common/text.c:1391
+#, c-format
+msgid ""
+"Error parsing event %s.\n"
+"Loading default."
+msgstr ""
+"Eroare la analizarea evenimentului %s.\n"
+"Se încarcă evenimentul implicit."
+
+#: ../src/common/text.c:2084
+#, c-format
+msgid ""
+"Cannot read sound file:\n"
+"%s"
+msgstr ""
+"Nu s-a putut citi fișierul de sunet:\n"
+"%s"
+
+#: ../src/common/textevents.h:6
+msgid "-%C10-%C11-%O$t$1 added to notify list."
+msgstr "-%C10-%C11-%O$t$1 a fost adăugat în lista notificărilor."
+
+#: ../src/common/textevents.h:9
+msgid "-%C10-%C11-%O$t$1 Banlist: %C3$4 %C4$2 %C5$3%O"
+msgstr "-%C10-%C11-%O$t$1 Listă de blocări: %C3$4 %C4$2 %C5$3%O"
+
+#: ../src/common/textevents.h:12
+msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(You are banned)."
+msgstr "-%C10-%C11-%O$tNu s-a putut alătura%C11 %B$1 %O(Sunteți blocat)."
+
+#: ../src/common/textevents.h:18
+msgid "-%C10-%C11-%O$t$1 is now known as $2"
+msgstr "-%C10-%C11-%O$t$1 este acum cunoscut ca $2"
+
+#: ../src/common/textevents.h:21
+msgid "%C13*%O$t$1 $2%O"
+msgstr "%C13*%O$t$1 $2%O"
+
+#: ../src/common/textevents.h:24
+msgid "%C13*%O$t%C8%B$1%B%O $2%O"
+msgstr "%C13*%O$t%C8%B$1%B%O $2%O "
+
+#: ../src/common/textevents.h:27
+msgid "-%C10-%C11-%O$t$1 sets ban on $2"
+msgstr "-%C10-%C11-%O$t$1 a blocat pe $2"
+
+#: ../src/common/textevents.h:30
+msgid "-%C10-%C11-%O$tChannel $1 created on $2"
+msgstr "-%C10-%C11-%O$tCanal $1 a creat pe $2"
+
+#: ../src/common/textevents.h:33
+msgid "-%C10-%C11-%O$t$1 removes channel half-operator status from $2"
+msgstr "-%C10-%C11-%O$t$1 elimină statutul de semi.operator pe canal de la $2"
+
+#: ../src/common/textevents.h:36
+msgid "-%C10-%C11-%O$t$1 removes channel operator status from $2"
+msgstr "-%C10-%C11-%O$t$1 elimină statutul de operator pe canal de la $2"
+
+#: ../src/common/textevents.h:39
+msgid "-%C10-%C11-%O$t$1 removes voice from $2"
+msgstr "-%C10-%C11-%O$t$1 elimină statutul de voce de la $2"
+
+#: ../src/common/textevents.h:42
+msgid "-%C10-%C11-%O$t$1 sets exempt on $2"
+msgstr "-%C10-%C11-%O$t$1 stabilește excepție pe $2"
+
+#: ../src/common/textevents.h:45
+msgid "-%C10-%C11-%O$t$1 gives channel half-operator status to $2"
+msgstr "-%C10-%C11-%O$t$1 dă statut de semi-operator pe canal lui $2"
+
+#: ../src/common/textevents.h:48
+msgid "-%C10-%C11-%O$t$1 sets invite on $2"
+msgstr "-%C10-%C11-%O$t$1 stabilește invitație pe $2"
+
+#: ../src/common/textevents.h:51
+msgid "%UChannel          Users   Topic%O"
+msgstr "%UChannel          Utilizatori   Subiect%O"
+
+#: ../src/common/textevents.h:54 ../src/common/textevents.h:306
+msgid "%C2<%O$1%C2>%O$t$2%O"
+msgstr "%C2<%O$1%C2>%O$t$2%O"
+
+#: ../src/common/textevents.h:57
+msgid "-%C10-%C11-%O$t$1 sets mode $2$3 $4"
+msgstr "-%C10-%C11-%O$t$1 stabilește modul $2$3 $4"
+
+#: ../src/common/textevents.h:60
+msgid "-%C10-%C11-%O$tChannel $1 modes: $2"
+msgstr "-%C10-%C11-%O$tModurile canalului $1: $2"
+
+#: ../src/common/textevents.h:63
+msgid "%C2<%C8%B$1%B%C2>%O$t$2%O"
+msgstr "%C2<%C8%B$1%B%C2>%O$t$2%O"
+
+#: ../src/common/textevents.h:66
+msgid "%C12-%C13$1/$2%C12-%O$t$3%O"
+msgstr "%C12-%C13$1/$2%C12-%O$t$3%O"
+
+#: ../src/common/textevents.h:69
+msgid "-%C10-%C11-%O$t$1 gives channel operator status to $2"
+msgstr "-%C10-%C11-%O$t$1 dă statut de operator pe canal lui $2"
+
+#: ../src/common/textevents.h:72
+msgid "-%C10-%C11-%O$t$1 removes exempt on $2"
+msgstr "-%C10-%C11-%O$t$1 elimină excepția de pe $2"
+
+#: ../src/common/textevents.h:75
+msgid "-%C10-%C11-%O$t$1 removes invite on $2"
+msgstr "-%C10-%C11-%O$t$1 elimină invitația de pe $2"
+
+#: ../src/common/textevents.h:78
+msgid "-%C10-%C11-%O$t$1 removes channel keyword"
+msgstr "-%C10-%C11-%O$t$1 elimină cuvântul cheie al canalului"
+
+#: ../src/common/textevents.h:81
+msgid "-%C10-%C11-%O$t$1 removes user limit"
+msgstr "-%C10-%C11-%O$t$1 elimină limita de utilizatori"
+
+#: ../src/common/textevents.h:84
+msgid "-%C10-%C11-%O$t$1 sets channel keyword to $2"
+msgstr "-%C10-%C11-%O$t$1 stabilește cuvântul cheie al canalului la $2"
+
+#: ../src/common/textevents.h:87
+msgid "-%C10-%C11-%O$t$1 sets channel limit to $2"
+msgstr "-%C10-%C11-%O$t$1 stabilește limita de utilizatori la $2"
+
+#: ../src/common/textevents.h:90
+msgid "-%C10-%C11-%O$t$1 removes ban on $2"
+msgstr "-%C10-%C11-%O$t$1 elimină blocarea de pe $2"
+
+#: ../src/common/textevents.h:93
+msgid "-%C10-%C11-%O$t$1 gives voice to $2"
+msgstr "-%C10-%C11-%O$t$1 dă statut de voce lui $2"
+
+#: ../src/common/textevents.h:96
+msgid "-%C10-%C11-%O$tConnected. Now logging in.."
+msgstr "-%C10-%C11-%O$tConectat. Se autentifică.."
+
+#: ../src/common/textevents.h:99
+msgid "-%C10-%C11-%O$tConnecting to %C11$1 %C14(%C11$2%C14)%C port %C11$3%C.."
+msgstr ""
+"-%C10-%C11-%O$tSe conectează la %C11$1 %C14(%C11$2%C14)%C port %C11$3%C.."
+
+#: ../src/common/textevents.h:102
+msgid "-%C10-%C11-%O$tConnection failed. Error: $1"
+msgstr "-%C10-%C11-%O$tConectarea a eșuat. Eroare: $1"
+
+#: ../src/common/textevents.h:105
+msgid "-%C10-%C11-%O$tReceived a CTCP $1 from $2"
+msgstr "-%C10-%C11-%O$tS-a primit un CTCP $1 de la $2"
+
+#: ../src/common/textevents.h:108
+msgid "-%C10-%C11-%O$tReceived a CTCP $1 from $2 (to $3)"
+msgstr "-%C10-%C11-%O$tS-a primit un CTCP $1 de la $2 (la $3)"
+
+#: ../src/common/textevents.h:111
+msgid "%C3>%O$1%C3<%O$tCTCP $2%O"
+msgstr "%C3>%O$1%C3<%O$tCTCP $2%O"
+
+#: ../src/common/textevents.h:114
+msgid "-%C10-%C11-%O$tReceived a CTCP Sound $1 from $2"
+msgstr "-%C10-%C11-%O$tS-a primit un sunet CTCP $1 de la $2"
+
+#: ../src/common/textevents.h:117
+msgid "%C22*%O$tReceived a CTCP Sound $1 from $2 (to $3)"
+msgstr "-%C10-%C11-%O$tS-a primit un sunet CTCP $1 de la $2 (la $3)"
+
+#: ../src/common/textevents.h:120
+msgid "-%C10-%C11-%O$tDCC CHAT to %C11$1%O aborted."
+msgstr "-%C10-%C11-%O$tS-a abandonat discuția DCC către %C11$1%O."
+
+#: ../src/common/textevents.h:123
+msgid ""
+"-%C10-%C11-%O$tDCC CHAT connection established to %C11$1 %C14[%O$2%C14]%O"
+msgstr ""
+"-%C10-%C11-%O$tConexiune de discuție DCC către %C11$1 %C14[%O$2%C14]%O s-a "
+"stabilit"
+
+#: ../src/common/textevents.h:126
+msgid ""
+"-%C10-%C11-%O$tDCC CHAT failed. Connection to $1 %C14[%O$2:$3%C14]%O lost."
+msgstr ""
+"-%C10-%C11-%O$tDiscuția DCC a eșuat. Conexiunea către $1 %C14[%O$2:$3%C14]%O "
+"s-a pierdut."
+
+#: ../src/common/textevents.h:129
+msgid "-%C10-%C11-%O$tReceived a DCC CHAT offer from $1"
+msgstr "-%C10-%C11-%O$tS-a primit o ofertă de discuție DCC de la $1"
+
+#: ../src/common/textevents.h:132
+msgid "-%C10-%C11-%O$tOffering DCC CHAT to $1"
+msgstr "-%C10-%C11-%O$tSe oferă discuție DCC către $1"
+
+#: ../src/common/textevents.h:135
+msgid "-%C10-%C11-%O$tAlready offering CHAT to $1"
+msgstr "-%C10-%C11-%O$tDeja se oferă discuție către $1"
+
+#: ../src/common/textevents.h:138
+msgid "-%C10-%C11-%O$tDCC $1 connect attempt to %C11$2%O failed (err=$3)."
+msgstr ""
+"-%C10-%C11-%O$tDCC $1 încercarea de conectare la %C11$2%O a eșuat "
+"(eroare=$3)."
+
+#: ../src/common/textevents.h:141
+msgid "-%C10-%C11-%O$tReceived '$1%O' from $2"
+msgstr "-%C10-%C11-%O$tS-a primit „$1%O” de la $2"
+
+#: ../src/common/textevents.h:144
+#, c-format
+msgid "%C24,18 Type  To/From    Status  Size    Pos     File         "
+msgstr "%C24,18 Tip   Pt./De la  Stare   Dim.    Poziție Fișier        "
+
+#: ../src/common/textevents.h:147
+msgid ""
+"-%C10-%C11-%O$tReceived a malformed DCC request from %C11$1%O.%010-%C10-%C11-"
+"%O$tContents of packet: $2"
+msgstr ""
+"-%C10-%C11-%O$tA primit o cerere DCC greșită de la %C11$1%O.%010-%C10-%C11-%"
+"O$tConține pachetul: $2"
+
+#: ../src/common/textevents.h:150
+msgid "-%C10-%C11-%O$tOffering %C11$1 %Cto %C11$2%O"
+msgstr "-%C10-%C11-%O$tSe oferă %C11$1 %Clui %C11$2%O"
+
+#: ../src/common/textevents.h:153
+msgid "-%C10-%C11-%O$tNo such DCC offer."
+msgstr "-%C10-%C11-%O$tNu există această ofertă DCC."
+
+#: ../src/common/textevents.h:156
+msgid "-%C10-%C11-%O$tDCC RECV %C11$2%O to %C11$1%O aborted."
+msgstr "-%C10-%C11-%O$tDCC RECV %C11$2%O la %C11$1%O abandonat."
+
+#: ../src/common/textevents.h:159
+msgid ""
+"-%C10-%C11-%O$tDCC RECV %C11$1%O from %C11$3%O complete %C14[%C11$4%O cps%"
+"C14]%O."
+msgstr ""
+"-%C10-%C11-%O$tDCC RECV %C11$1%O de la %C11$3%O completează %C14[%C11$4%O "
+"cps%C14]%O."
+
+#: ../src/common/textevents.h:162
+msgid ""
+"-%C10-%C11-%O$tDCC RECV connection established to %C11$1 %C14[%O$2%C14]%O"
+msgstr "-%C10-%C11-%O$tDCC RECV conexiune stabilită la %C11$1 %C14[%O$2%C14]%O"
+
+#: ../src/common/textevents.h:165
+msgid "-%C10-%C11-%O$tDCC RECV $1 ($2) failed. Connection to $3 lost."
+msgstr "-%C10-%C11-%O$tDCC RECV $1 ($2) eșuat. Conexiunea la $3 pierdută."
+
+#: ../src/common/textevents.h:168
+msgid "-%C10-%C11-%O$tDCC RECV: Cannot open $1 for writing ($2)."
+msgstr "-%C10-%C11-%O$tDCC RECV: Nu se poate deschide $1 pentru scriere ($2)."
+
+#: ../src/common/textevents.h:171
+msgid ""
+"-%C10-%C11-%O$tThe file %C11$1%C already exists, saving it as %C11$2%O "
+"instead."
+msgstr ""
+"-%C10-%C11-%O$tFișierul %C11$1%C există deja, se salvează ca %C11$2%O în "
+"schimb."
+
+#: ../src/common/textevents.h:174
+msgid "-%C10-%C11-%O$t%C11$1 %Chas requested to resume %C11$2 %Cfrom %C11$3%C."
+msgstr "-%C10-%C11-%O$t%C11$1 %Chas cere revenirea la %C11$2 %Cde la %C11$3%C."
+
+#: ../src/common/textevents.h:177
+msgid "-%C10-%C11-%O$tDCC SEND %C11$2%O to %C11$1%O aborted."
+msgstr "-%C10-%C11-%O$tS-a abandonat trimiterea DCC %C11$2%O către %C11$1%O."
+
+#: ../src/common/textevents.h:180
+msgid ""
+"-%C10-%C11-%O$tDCC SEND %C11$1%O to %C11$2%O complete %C14[%C11$3%O cps%C14]%"
+"O."
+msgstr ""
+"-%C10-%C11-%O$tDCC SEND %C11$1%O la %C11$2%O complet %C14[%C11$3%O cps%C14]%"
+"O."
+
+#: ../src/common/textevents.h:183
+msgid ""
+"-%C10-%C11-%O$tDCC SEND connection established to %C11$1 %C14[%O$2%C14]%O"
+msgstr "-%C10-%C11-%O$tDCC SEND conexiune stabilită la %C11$1 %C14[%O$2%C14]%O"
+
+#: ../src/common/textevents.h:186
+msgid "-%C10-%C11-%O$tDCC SEND %C11$1%O failed. Connection to %C11$2%O lost."
+msgstr ""
+"-%C10-%C11-%O$tDCC SEND %C11$1%O a eșuat. Conexiunea la %C11$2%O s-a "
+"pierdut."
+
+#: ../src/common/textevents.h:189
+msgid "-%C10-%C11-%O$t%C11$1 %Chas offered %C11$2 %C(%C11$3 %Cbytes)"
+msgstr "-%C10-%C11-%O$t%C11$1 %Ca oferit %C11$2 %C(%C11$3 %Cbiți)"
+
+#: ../src/common/textevents.h:192
+msgid "-%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Cstalled - aborting."
+msgstr "-%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Cînțepenit - se renunță."
+
+#: ../src/common/textevents.h:195
+msgid "-%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Ctimed out - aborting."
+msgstr ""
+"-%C10-%C11-%O$tDCC $1 %C11$2 %Cto %C11$3 %Crămas fără timp - se renunță."
+
+#: ../src/common/textevents.h:198
+msgid "-%C10-%C11-%O$t$1 deleted from notify list."
+msgstr "-%C10-%C11-%O$t$1 a fost șters de la lista notificărilor."
+
+#: ../src/common/textevents.h:201
+msgid "-%C10-%C11-%O$tDisconnected ($1)."
+msgstr "-%C10-%C11-%O$tS-a deconectat ($1)."
+
+#: ../src/common/textevents.h:204
+msgid "-%C10-%C11-%O$tFound your IP: [$1]"
+msgstr "-%C10-%C11-%O$tS-a găsit IP-ul dumneavoastră: [$1]"
+
+#: ../src/common/textevents.h:207
+msgid "$1$t$2"
+msgstr "$1$t$2"
+
+#: ../src/common/textevents.h:210
+msgid "%O%C11$1%O added to ignore list."
+msgstr "%O%C11$1%O a fost adăugat la lista de ignorare."
+
+#: ../src/common/textevents.h:213
+msgid "Ignore on %C11$1%O changed."
+msgstr "Ignorarea la %C11$1%O a fost schimbată."
+
+#: ../src/common/textevents.h:216
+#, c-format
+msgid "%C24,18                                                              "
+msgstr "%C24,18                                                              "
+
+#: ../src/common/textevents.h:219
+#, c-format
+msgid "%C24,18 Hostmask                  PRIV NOTI CHAN CTCP DCC  INVI UNIG "
+msgstr "%C24,18 Mască de gazdă            PRIV NOTI CHAN CTCP DCC  INVI UNIG "
+
+#: ../src/common/textevents.h:222
+msgid "%O%C11$1%O removed from ignore list."
+msgstr "%O%C11$1%O eliminat din lista de ignorare."
+
+#: ../src/common/textevents.h:225
+msgid "  Ignore list is empty."
+msgstr "  Lista de ignorare este goală."
+
+#: ../src/common/textevents.h:228
+msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(Channel is invite only)."
+msgstr ""
+"-%C10-%C11-%O$tNu se poate conecta la%C11 %B$1 %O(Canalul este numai pentru "
+"invitați)."
+
+#: ../src/common/textevents.h:231
+msgid "-%C10-%C11-%O$tYou have been invited to %C11$1%C by %C11$2%C (%C11$3%C)"
+msgstr "-%C10-%C11-%O$tAți fost invitat la %C11$1%C de %C11$2%C (%C11$3%C)"
+
+#: ../src/common/textevents.h:234
+msgid "-%C10-%C11>%O$t%B$1%B %C14(%C10$3%C14)%C has joined $2"
+msgstr "-%C10-%C11>%O$t%B$1%B %C14(%C10$3%C14)%C s-a conectat la $2"
+
+#: ../src/common/textevents.h:237
+msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(Requires keyword)."
+msgstr ""
+"-%C10-%C11-%O$tNu se poate conecta la%C11 %B$1 %O(E necesar cuvânt cheie)."
+
+#: ../src/common/textevents.h:240
+msgid "<%C10-%C11-%O$t$1 has kicked $2 from $3 ($4%O)"
+msgstr "<%C10-%C11-%O$t$1 l-a dat afară pe $2 din $3 ($4%O)"
+
+#: ../src/common/textevents.h:243
+msgid "-%C10-%C11-%O$tYou have been killed by $1 ($2%O)"
+msgstr "-%C10-%C11-%O$tAți fost eliminat de $1 ($2%O)"
+
+#: ../src/common/textevents.h:246 ../src/common/textevents.h:270
+msgid "%C3>%O$1%C3<%O$t$2%O"
+msgstr "%C3>%O$1%C3<%O$t$2%O"
+
+#: ../src/common/textevents.h:249 ../src/common/textevents.h:327
+#: ../src/common/textevents.h:333 ../src/common/textevents.h:336
+msgid "-%C10-%C11-%O$t$1%O"
+msgstr "-%C10-%C11-%O$t$1%O"
+
+#: ../src/common/textevents.h:252
+msgid "-%C10-%C11-%O$tMOTD Skipped."
+msgstr "-%C10-%C11-%O$tMOTD Omis."
+
+#: ../src/common/textevents.h:255
+msgid "-%C10-%C11-%O$t$1 already in use. Retrying with $2.."
+msgstr "-%C10-%C11-%O$t$1 deja în folosire. Se reîncearcă cu $2.."
+
+#: ../src/common/textevents.h:258
+msgid "-%C10-%C11-%O$tNickname already in use. Use /NICK to try another."
+msgstr ""
+"-%C10-%C11-%O$tPseudonimul deja în folosință. Folosiți /NICK pentru a "
+"încerca altul."
+
+#: ../src/common/textevents.h:261
+msgid "-%C10-%C11-%O$tNo such DCC."
+msgstr "-%C10-%C11-%O$tNu există acest DCC."
+
+#: ../src/common/textevents.h:264
+msgid "-%C10-%C11-%O$tNo process is currently running"
+msgstr "-%C10-%C11-%O$tNiciun proces nu rulează momentan"
+
+#: ../src/common/textevents.h:267
+msgid "%C12-%C13$1%C12-%O$t$2%O"
+msgstr "%C12-%C13$1%C12-%O$t$2%O"
+
+#: ../src/common/textevents.h:273
+msgid "-%C10-%C11-%O$tNotify list is empty."
+msgstr "-%C10-%C11-%O$tLista notificărilor este goală."
+
+#: ../src/common/textevents.h:276
+msgid "%C24,18 %B  Notify List                           "
+msgstr "%C24,18 %B  Lista notificărilor                           "
+
+#: ../src/common/textevents.h:279
+msgid "-%C10-%C11-%O$t$1 users in notify list."
+msgstr "-%C10-%C11-%O$t$1 utilizatori în lista notificărilor."
+
+#: ../src/common/textevents.h:282
+msgid "-%C10-%C11-%O$tNotify: $1 is offline ($2)."
+msgstr "-%C10-%C11-%O$tNotificare: $1 este deconectat ($2)."
+
+#: ../src/common/textevents.h:285
+msgid "-%C10-%C11-%O$tNotify: $1 is online ($2)."
+msgstr "-%C10-%C11-%O$tNotificare: $1 este deconectat ($2)."
+
+#: ../src/common/textevents.h:291
+msgid "<%C10-%C11-%O$t$1 %C14(%O$2%C14)%C has left $3"
+msgstr "<%C10-%C11-%O$t$1 %C14(%O$2%C14)%C a părăsit $3"
+
+#: ../src/common/textevents.h:294
+msgid "<%C10-%C11-%O$t$1 %C14(%O$2%C14)%C has left $3 %C14(%O$4%C14)%O"
+msgstr "<%C10-%C11-%O$t$1 %C14(%O$2%C14)%C a părăsit $3 %C14(%O$4%C14)%O"
+
+#: ../src/common/textevents.h:297
+msgid "-%C10-%C11-%O$tPing reply from $1 : $2 second(s)"
+msgstr "-%C10-%C11-%O$tRăspunsul testului de conexiune de la $1 : $2 secunde"
+
+#: ../src/common/textevents.h:300
+msgid "-%C10-%C11-%O$tNo ping reply for $1 seconds, disconnecting."
+msgstr ""
+"-%C10-%C11-%O$tNiciun răspuns la testul de conexiune de $1 secunde, se "
+"deconectează."
+
+#: ../src/common/textevents.h:303
+msgid "%C12*%C13$1%C12*$t%O$2%O"
+msgstr "%C12*%C13$1%C12*$t%O$2%O"
+
+#: ../src/common/textevents.h:309
+msgid "-%C10-%C11-%O$tA process is already running"
+msgstr "-%C10-%C11-%O$tUn proces rulează deja"
+
+#: ../src/common/textevents.h:312
+msgid "<%C10-%C11-%O$t$1 has quit %C14(%O$2%O%C14)%O"
+msgstr "<%C10-%C11-%O$t$1 a părăsit %C14(%O$2%O%C14)%O"
+
+#: ../src/common/textevents.h:315
+msgid "-%C10-%C11-%O$t$1 sets modes%B %C14[%O$2%B%C14]%O"
+msgstr "-%C10-%C11-%O$t$1 a stabilit modurile%B %C14[%O$2%B%C14]%O"
+
+#: ../src/common/textevents.h:318
+msgid "%C12-%C13$1/Wallops%C12-%O$t$2%O"
+msgstr "%C12-%C13$1/Wallops%C12-%O$t$2%O"
+
+#: ../src/common/textevents.h:321
+msgid "-%C10-%C11-%O$tLooking up IP number for%C11 $1%O.."
+msgstr "-%C10-%C11-%O$tSe caută numărul de IP pentru%C11 $1%O.."
+
+#: ../src/common/textevents.h:324
+msgid "-%C10-%C11-%O$tConnected."
+msgstr "-%C10-%C11-%O$tConectat."
+
+#: ../src/common/textevents.h:330
+msgid "-%C10-%C11-%O$tLooking up %C11$1%C.."
+msgstr "-%C10-%C11-%O$tSe caută %C11$1%C.."
+
+#: ../src/common/textevents.h:339
+msgid "-%C10-%C11-%O$tStopped previous connection attempt (pid=$1)"
+msgstr "-%C10-%C11-%O$tS-au oprit încercările de conectare precedente (pid=$1)"
+
+#: ../src/common/textevents.h:342
+msgid "-%C10-%C11-%O$tTopic for %C11$1%C is %C11$2%O"
+msgstr "-%C10-%C11-%O$tSubiectul pentru %C11$1%C este %C11$2%O"
+
+#: ../src/common/textevents.h:345
+msgid "-%C10-%C11-%O$t$1 has changed the topic to: $2%O"
+msgstr "-%C10-%C11-%O$t$1 a schimbat subiectul la: $2%O"
+
+#: ../src/common/textevents.h:348
+msgid "-%C10-%C11-%O$tTopic for %C11$1%C set by %C11$2%C at %C11$3%O"
+msgstr ""
+"-%C10-%C11-%O$tSubiectul pentru %C11$1%C stabilit de %C11$2%C la  %C11$3%O"
+
+#: ../src/common/textevents.h:351
+msgid "-%C10-%C11-%O$tUnknown host. Maybe you misspelled it?"
+msgstr "-%C10-%C11-%O$tGazdă necunoscută. Se poate să fi scris greșit?"
+
+#: ../src/common/textevents.h:354
+msgid "-%C10-%C11-%O$tCannot join%C11 %B$1 %O(User limit reached)."
+msgstr ""
+"-%C10-%C11-%O$tNu se poate conecta%C11 %B$1 %O(limita de utilizatori a fost "
+"atinsă)."
+
+#: ../src/common/textevents.h:357
+msgid "-%C10-%C11-%O$t%C11Users on $1:%C $2"
+msgstr "-%C10-%C11-%O$t%C11Utilizatori pe $1:%C $2"
+
+#: ../src/common/textevents.h:360
+msgid "%C22*%O$t%C28[%O$1%C28] %O$2%C27 $3"
+msgstr "%C22*%O$t%C28[%O$1%C28] %O$2%C27 $3"
+
+#: ../src/common/textevents.h:363
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %Cis away %C14(%O$2%O%C14)"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %Cis plecat %C14(%O$2%O%C14)"
+
+#: ../src/common/textevents.h:366
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%C $2"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%C $2"
+
+#: ../src/common/textevents.h:369
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %CEnd of WHOIS list."
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %CEnd a listei WHOIS."
+
+#: ../src/common/textevents.h:372
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %C$2"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %C$2"
+
+#: ../src/common/textevents.h:375
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%O idle %C11$2%O"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%O absent %C11$2%O"
+
+#: ../src/common/textevents.h:378
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%O idle %C11$2%O, signon: %C11$3%O"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%O absent %C11$2%O, conectat la: %C11$3%O"
+
+#: ../src/common/textevents.h:381
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12] %C14(%O$2@$3%C14) %O: $4%O"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12] %C14(%O$2@$3%C14) %O: $4%O"
+
+#: ../src/common/textevents.h:384
+msgid ""
+"-%C10-%C11-%O$t%C12[%O$1%C12] %Oreal user@host %C11$2%O, real IP %C11$3%O"
+msgstr ""
+"-%C10-%C11-%O$t%C12[%O$1%C12] %Oreal utilizator@gazdă %C11$2%O, IP real %"
+"C11$3%O"
+
+#: ../src/common/textevents.h:387
+msgid "-%C10-%C11-%O$t%C12[%O$1%C12]%O $2"
+msgstr "-%C10-%C11-%O$t%C12[%O$1%C12]%O $2"
+
+#: ../src/common/textevents.h:390
+msgid "%C22*%O$t%C28[%O$1%C28]%O $2"
+msgstr "%C22*%O$t%C28[%O$1%C28]%O $2"
+
+#: ../src/common/textevents.h:393
+msgid "-%C10-%C11>%O$t%BYou%B are now talking on %C11$2%O"
+msgstr "-%C10-%C11>%O$t%BDumneavoastă%B vorbiți acum pe %C11$2%O"
+
+#: ../src/common/textevents.h:396
+msgid "-%C10-%C11-%O$tYou have been kicked from $2 by $3 ($4%O)"
+msgstr "-%C10-%C11-%O$tAți fost dat afară din $2 de către $3 ($4%O)"
+
+#: ../src/common/textevents.h:399
+msgid "-%C10-%C11-%O$tYou have left channel $3"
+msgstr "-%C10-%C11-%O$tMai aveți canalul $3"
+
+#: ../src/common/textevents.h:402
+msgid "-%C10-%C11-%O$tYou have left channel $3 %C14(%O$4%C14)%O"
+msgstr "-%C10-%C11-%O$tMai aveți canalul $3 %C14(%O$4%C14)%O"
+
+#: ../src/common/textevents.h:408
+msgid "-%C10-%C11-%O$tYou're inviting %C11$1%C to %C11$2%C (%C11$3%C)"
+msgstr "-%C10-%C11-%O$tInvitați pe %C11$1%C la %C11$2%C (%C11$3%C)"
+
+#: ../src/common/textevents.h:411
+msgid "%C6<%O$1%C6>%O$t$2%O"
+msgstr "%C6<%O$1%C6>%O$t$2%O"
+
+#: ../src/common/textevents.h:414
+msgid "-%C10-%C11-%O$tYou are now known as $2"
+msgstr "-%C10-%C11-%O$t$1 sunteți cunoscut ca $2"
+
+#: ../src/common/util.c:298
+msgid "Remote host closed socket"
+msgstr "Gazda de la distanță a deconectat mufa"
+
+#: ../src/common/util.c:303
+msgid "Connection refused"
+msgstr "Conexiune refuzată"
+
+#: ../src/common/util.c:306
+msgid "No route to host"
+msgstr "Nicio rută către gazdă"
+
+#: ../src/common/util.c:308
+msgid "Connection timed out"
+msgstr "Conexiune întreruptă"
+
+#: ../src/common/util.c:310
+msgid "Cannot assign that address"
+msgstr "Nu s-a putut atribui acea adresă"
+
+#: ../src/common/util.c:312
+msgid "Connection reset by peer"
+msgstr "Conexiune restabilită de către partener"
+
+#: ../src/common/util.c:841
+msgid "Ascension Island"
+msgstr "Insula Ascension"
+
+#: ../src/common/util.c:842
+msgid "Andorra"
+msgstr "Andorra"
+
+#: ../src/common/util.c:843
+msgid "United Arab Emirates"
+msgstr "Emiratele Arabe Unite"
+
+#: ../src/common/util.c:844
+msgid "Afghanistan"
+msgstr "Afganistan"
+
+#: ../src/common/util.c:845
+msgid "Antigua and Barbuda"
+msgstr "Antigua și Barbuda"
+
+#: ../src/common/util.c:846
+msgid "Anguilla"
+msgstr "Anguilla"
+
+#: ../src/common/util.c:847
+msgid "Albania"
+msgstr "Albania"
+
+#: ../src/common/util.c:848
+msgid "Armenia"
+msgstr "Armenia"
+
+#: ../src/common/util.c:849
+msgid "Netherlands Antilles"
+msgstr "Antilele Olandeze"
+
+#: ../src/common/util.c:850
+msgid "Angola"
+msgstr "Angola"
+
+#: ../src/common/util.c:851
+msgid "Antarctica"
+msgstr "Antarctica"
+
+#: ../src/common/util.c:852
+msgid "Argentina"
+msgstr "Argentina"
+
+#: ../src/common/util.c:853
+msgid "Reverse DNS"
+msgstr "DNS inversat"
+
+#: ../src/common/util.c:854
+msgid "American Samoa"
+msgstr "Samoa Americană"
+
+#: ../src/common/util.c:855
+msgid "Austria"
+msgstr "Austria"
+
+#: ../src/common/util.c:856
+msgid "Nato Fiel"
+msgstr "Nato Fiel"
+
+#: ../src/common/util.c:857
+msgid "Australia"
+msgstr "Australia"
+
+#: ../src/common/util.c:858
+msgid "Aruba"
+msgstr "Aruba"
+
+#: ../src/common/util.c:859
+msgid "Aland Islands"
+msgstr "Insulele Aland"
+
+#: ../src/common/util.c:860
+msgid "Azerbaijan"
+msgstr "Azerbaijan"
+
+#: ../src/common/util.c:861
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia și Herțegovina"
+
+#: ../src/common/util.c:862
+msgid "Barbados"
+msgstr "Barbados"
+
+#: ../src/common/util.c:863
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: ../src/common/util.c:864
+msgid "Belgium"
+msgstr "Belgia"
+
+#: ../src/common/util.c:865
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: ../src/common/util.c:866
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+#: ../src/common/util.c:867
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: ../src/common/util.c:868
+msgid "Burundi"
+msgstr "Burundi"
+
+#: ../src/common/util.c:869
+msgid "Businesses"
+msgstr "Afaceri"
+
+#: ../src/common/util.c:870
+msgid "Benin"
+msgstr "Benin"
+
+#: ../src/common/util.c:871
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: ../src/common/util.c:872
+msgid "Brunei Darussalam"
+msgstr "Brunei"
+
+#: ../src/common/util.c:873
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: ../src/common/util.c:874
+msgid "Brazil"
+msgstr "Brazilia"
+
+#: ../src/common/util.c:875
+msgid "Bahamas"
+msgstr "Insulele Bahamas"
+
+#: ../src/common/util.c:876
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: ../src/common/util.c:877
+msgid "Bouvet Island"
+msgstr "Insula Bouvet"
+
+#: ../src/common/util.c:878
+msgid "Botswana"
+msgstr "Botswana"
+
+#: ../src/common/util.c:879
+msgid "Belarus"
+msgstr "Belarus"
+
+#: ../src/common/util.c:880
+msgid "Belize"
+msgstr "Belize"
+
+#: ../src/common/util.c:881
+msgid "Canada"
+msgstr "Canada"
+
+#: ../src/common/util.c:882
+msgid "Cocos Islands"
+msgstr "Insulele Cocos"
+
+#: ../src/common/util.c:883
+msgid "Democratic Republic of Congo"
+msgstr "Republica Democrată Congo"
+
+#: ../src/common/util.c:884
+msgid "Central African Republic"
+msgstr "Republica Central-Africană"
+
+#: ../src/common/util.c:885
+msgid "Congo"
+msgstr "Republica Congo"
+
+#: ../src/common/util.c:886
+msgid "Switzerland"
+msgstr "Elveția"
+
+#: ../src/common/util.c:887
+msgid "Cote d'Ivoire"
+msgstr "Coasta de Fildeș"
+
+#: ../src/common/util.c:888
+msgid "Cook Islands"
+msgstr "Insulele Cook"
+
+#: ../src/common/util.c:889
+msgid "Chile"
+msgstr "Chile"
+
+#: ../src/common/util.c:890
+msgid "Cameroon"
+msgstr "Camerun"
+
+#: ../src/common/util.c:891
+msgid "China"
+msgstr "China"
+
+#: ../src/common/util.c:892
+msgid "Colombia"
+msgstr "Columbia"
+
+#: ../src/common/util.c:893
+msgid "Internic Commercial"
+msgstr "Internic comercial"
+
+#: ../src/common/util.c:894
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: ../src/common/util.c:895
+msgid "Serbia and Montenegro"
+msgstr "Serbia și Muntenegru"
+
+#: ../src/common/util.c:896
+msgid "Cuba"
+msgstr "Cuba"
+
+#: ../src/common/util.c:897
+msgid "Cape Verde"
+msgstr "Cabo Verde"
+
+#: ../src/common/util.c:898
+msgid "Christmas Island"
+msgstr "Insula Crăciunului"
+
+#: ../src/common/util.c:899
+msgid "Cyprus"
+msgstr "Cipru"
+
+#: ../src/common/util.c:900
+msgid "Czech Republic"
+msgstr "Cehia"
+
+#: ../src/common/util.c:901
+msgid "Germany"
+msgstr "Germania"
+
+#: ../src/common/util.c:902
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: ../src/common/util.c:903
+msgid "Denmark"
+msgstr "Danemarca"
+
+#: ../src/common/util.c:904
+msgid "Dominica"
+msgstr "Dominica"
+
+#: ../src/common/util.c:905
+msgid "Dominican Republic"
+msgstr "Republica Dominicană"
+
+#: ../src/common/util.c:906
+msgid "Algeria"
+msgstr "Algeria"
+
+#: ../src/common/util.c:907
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: ../src/common/util.c:908
+msgid "Educational Institution"
+msgstr "Instituție educațională"
+
+#: ../src/common/util.c:909
+msgid "Estonia"
+msgstr "Estonia"
+
+#: ../src/common/util.c:910
+msgid "Egypt"
+msgstr "Egipt"
+
+#: ../src/common/util.c:911
+msgid "Western Sahara"
+msgstr "Sahara de Vest"
+
+#: ../src/common/util.c:912
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: ../src/common/util.c:913
+msgid "Spain"
+msgstr "Spania"
+
+#: ../src/common/util.c:914
+msgid "Ethiopia"
+msgstr "Etiopia"
+
+#: ../src/common/util.c:915
+msgid "European Union"
+msgstr "Uniunea Europeană"
+
+#: ../src/common/util.c:916
+msgid "Finland"
+msgstr "Finlanda"
+
+#: ../src/common/util.c:917
+msgid "Fiji"
+msgstr "Fiji"
+
+#: ../src/common/util.c:918
+msgid "Falkland Islands"
+msgstr "Insulele Falkland"
+
+#: ../src/common/util.c:919
+msgid "Micronesia"
+msgstr "Micronezia"
+
+#: ../src/common/util.c:920
+msgid "Faroe Islands"
+msgstr "Insulele Feroe"
+
+#: ../src/common/util.c:921
+msgid "France"
+msgstr "Franța"
+
+#: ../src/common/util.c:922
+msgid "Gabon"
+msgstr "Gabon"
+
+#: ../src/common/util.c:923
+msgid "Great Britain"
+msgstr "Marea Britanie"
+
+#: ../src/common/util.c:924
+msgid "Grenada"
+msgstr "Grenada"
+
+#: ../src/common/util.c:925
+msgid "Georgia"
+msgstr "Georgia"
+
+#: ../src/common/util.c:926
+msgid "French Guiana"
+msgstr "Guyana Franceză"
+
+#: ../src/common/util.c:927
+msgid "British Channel Isles"
+msgstr "Insulele britanice Channel"
+
+#: ../src/common/util.c:928
+msgid "Ghana"
+msgstr "Ghana"
+
+#: ../src/common/util.c:929
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: ../src/common/util.c:930
+msgid "Greenland"
+msgstr "Groenlanda"
+
+#: ../src/common/util.c:931
+msgid "Gambia"
+msgstr "Gambia"
+
+#: ../src/common/util.c:932
+msgid "Guinea"
+msgstr "Guineea"
+
+#: ../src/common/util.c:933
+msgid "Government"
+msgstr "Guvern"
+
+#: ../src/common/util.c:934
+msgid "Guadeloupe"
+msgstr "Guadeloupe"
+
+#: ../src/common/util.c:935
+msgid "Equatorial Guinea"
+msgstr "Guineea Ecuatorială"
+
+#: ../src/common/util.c:936
+msgid "Greece"
+msgstr "Grecia"
+
+#: ../src/common/util.c:937
+msgid "S. Georgia and S. Sandwich Isles"
+msgstr "Insulele S. Georgia și S. Sandwich"
+
+#: ../src/common/util.c:938
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: ../src/common/util.c:939
+msgid "Guam"
+msgstr "Guam"
+
+#: ../src/common/util.c:940
+msgid "Guinea-Bissau"
+msgstr "Guineea-Bissau"
+
+#: ../src/common/util.c:941
+msgid "Guyana"
+msgstr "Guyana"
+
+#: ../src/common/util.c:942
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: ../src/common/util.c:943
+msgid "Heard and McDonald Islands"
+msgstr "Insulele Heard și McDonald"
+
+#: ../src/common/util.c:944
+msgid "Honduras"
+msgstr "Honduras"
+
+#: ../src/common/util.c:945
+msgid "Croatia"
+msgstr "Croația"
+
+#: ../src/common/util.c:946
+msgid "Haiti"
+msgstr "Haiti"
+
+#: ../src/common/util.c:947
+msgid "Hungary"
+msgstr "Ungaria"
+
+#: ../src/common/util.c:948
+msgid "Indonesia"
+msgstr "Indonezia"
+
+#: ../src/common/util.c:949
+msgid "Ireland"
+msgstr "Irlanda"
+
+#: ../src/common/util.c:950
+msgid "Israel"
+msgstr "Israel"
+
+#: ../src/common/util.c:951
+msgid "Isle of Man"
+msgstr "Insula Man"
+
+#: ../src/common/util.c:952
+msgid "India"
+msgstr "India"
+
+#: ../src/common/util.c:953
+msgid "Informational"
+msgstr "Informațional"
+
+#: ../src/common/util.c:954
+msgid "International"
+msgstr "Internațional"
+
+#: ../src/common/util.c:955
+msgid "British Indian Ocean Territory"
+msgstr "Teritoriul Britanic din Oceanul Indian"
+
+#: ../src/common/util.c:956
+msgid "Iraq"
+msgstr "Irak"
+
+#: ../src/common/util.c:957
+msgid "Iran"
+msgstr "Iran"
+
+#: ../src/common/util.c:958
+msgid "Iceland"
+msgstr "Islanda"
+
+#: ../src/common/util.c:959
+msgid "Italy"
+msgstr "Italia"
+
+#: ../src/common/util.c:960
+msgid "Jersey"
+msgstr "Jersey"
+
+#: ../src/common/util.c:961
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: ../src/common/util.c:962
+msgid "Jordan"
+msgstr "Iordania"
+
+#: ../src/common/util.c:963
+msgid "Japan"
+msgstr "Japonia"
+
+#: ../src/common/util.c:964
+msgid "Kenya"
+msgstr "Kenya"
+
+#: ../src/common/util.c:965
+msgid "Kyrgyzstan"
+msgstr "Kârgâzstan"
+
+#: ../src/common/util.c:966
+msgid "Cambodia"
+msgstr "Cambodgia"
+
+#: ../src/common/util.c:967
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: ../src/common/util.c:968
+msgid "Comoros"
+msgstr "Comore"
+
+#: ../src/common/util.c:969
+msgid "St. Kitts and Nevis"
+msgstr "Sfântul Kitts și Nevis"
+
+#: ../src/common/util.c:970
+msgid "North Korea"
+msgstr "Coreea de Nord"
+
+#: ../src/common/util.c:971
+msgid "South Korea"
+msgstr "Coreea de Sud"
+
+#: ../src/common/util.c:972
+msgid "Kuwait"
+msgstr "Kuweit"
+
+#: ../src/common/util.c:973
+msgid "Cayman Islands"
+msgstr "Insulele Cayman"
+
+#: ../src/common/util.c:974
+msgid "Kazakhstan"
+msgstr "Kazakhstan"
+
+#: ../src/common/util.c:975
+msgid "Laos"
+msgstr "Laos"
+
+#: ../src/common/util.c:976
+msgid "Lebanon"
+msgstr "Liban"
+
+#: ../src/common/util.c:977
+msgid "Saint Lucia"
+msgstr "St. Lucia"
+
+#: ../src/common/util.c:978
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: ../src/common/util.c:979
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: ../src/common/util.c:980
+msgid "Liberia"
+msgstr "Liberia"
+
+#: ../src/common/util.c:981
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: ../src/common/util.c:982
+msgid "Lithuania"
+msgstr "Lituania"
+
+#: ../src/common/util.c:983
+msgid "Luxembourg"
+msgstr "Luxemburg"
+
+#: ../src/common/util.c:984
+msgid "Latvia"
+msgstr "Letonia"
+
+#: ../src/common/util.c:985
+msgid "Libya"
+msgstr "Libia"
+
+#: ../src/common/util.c:986
+msgid "Morocco"
+msgstr "Maroc"
+
+#: ../src/common/util.c:987
+msgid "Monaco"
+msgstr "Monaco"
+
+#: ../src/common/util.c:988
+msgid "Moldova"
+msgstr "Republica Moldova"
+
+#: ../src/common/util.c:989
+msgid "United States Medical"
+msgstr "Centrul medical din Statele Unite ale Americii"
+
+#: ../src/common/util.c:990
+msgid "Madagascar"
+msgstr "Madagascar"
+
+#: ../src/common/util.c:991
+msgid "Marshall Islands"
+msgstr "Insulele Marshall"
+
+#: ../src/common/util.c:992
+msgid "Military"
+msgstr "Militar"
+
+#: ../src/common/util.c:993
+msgid "Macedonia"
+msgstr "Macedonia"
+
+#: ../src/common/util.c:994
+msgid "Mali"
+msgstr "Mali"
+
+#: ../src/common/util.c:995
+msgid "Myanmar"
+msgstr "Birmania"
+
+#: ../src/common/util.c:996
+msgid "Mongolia"
+msgstr "Mongolia"
+
+#: ../src/common/util.c:997
+msgid "Macau"
+msgstr "Macau"
+
+#: ../src/common/util.c:998
+msgid "Northern Mariana Islands"
+msgstr "Insulele Mariane de Nord"
+
+#: ../src/common/util.c:999
+msgid "Martinique"
+msgstr "Martinica"
+
+#: ../src/common/util.c:1000
+msgid "Mauritania"
+msgstr "Mauritania"
+
+#: ../src/common/util.c:1001
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: ../src/common/util.c:1002
+msgid "Malta"
+msgstr "Malta"
+
+#: ../src/common/util.c:1003
+msgid "Mauritius"
+msgstr "Mauritius"
+
+#: ../src/common/util.c:1004
+msgid "Maldives"
+msgstr "Insulele Maldive"
+
+#: ../src/common/util.c:1005
+msgid "Malawi"
+msgstr "Malawi"
+
+#: ../src/common/util.c:1006
+msgid "Mexico"
+msgstr "Mexic"
+
+#: ../src/common/util.c:1007
+msgid "Malaysia"
+msgstr "Malaezia"
+
+#: ../src/common/util.c:1008
+msgid "Mozambique"
+msgstr "Mozambic"
+
+#: ../src/common/util.c:1009
+msgid "Namibia"
+msgstr "Namibia"
+
+#: ../src/common/util.c:1010
+msgid "New Caledonia"
+msgstr "Noua Caledonie"
+
+#: ../src/common/util.c:1011
+msgid "Niger"
+msgstr "Niger"
+
+#: ../src/common/util.c:1012
+msgid "Internic Network"
+msgstr "Internic Network"
+
+#: ../src/common/util.c:1013
+msgid "Norfolk Island"
+msgstr "Insula Norfolk"
+
+#: ../src/common/util.c:1014
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: ../src/common/util.c:1015
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: ../src/common/util.c:1016
+msgid "Netherlands"
+msgstr "Olanda"
+
+#: ../src/common/util.c:1017
+msgid "Norway"
+msgstr "Norvegia"
+
+#: ../src/common/util.c:1018
+msgid "Nepal"
+msgstr "Nepal"
+
+#: ../src/common/util.c:1019
+msgid "Nauru"
+msgstr "Nauru"
+
+#: ../src/common/util.c:1020
+msgid "Niue"
+msgstr "Niue"
+
+#: ../src/common/util.c:1021
+msgid "New Zealand"
+msgstr "Noua Zeelandă"
+
+#: ../src/common/util.c:1022
+msgid "Oman"
+msgstr "Oman"
+
+#: ../src/common/util.c:1023
+msgid "Internic Non-Profit Organization"
+msgstr "Organizația non-profit Internic"
+
+#: ../src/common/util.c:1024
+msgid "Panama"
+msgstr "Panama"
+
+#: ../src/common/util.c:1025
+msgid "Peru"
+msgstr "Peru"
+
+#: ../src/common/util.c:1026
+msgid "French Polynesia"
+msgstr "Polinezia Franceză"
+
+#: ../src/common/util.c:1027
+msgid "Papua New Guinea"
+msgstr "Papua Noua Guinee"
+
+#: ../src/common/util.c:1028
+msgid "Philippines"
+msgstr "Filipine"
+
+#: ../src/common/util.c:1029
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: ../src/common/util.c:1030
+msgid "Poland"
+msgstr "Polonia"
+
+#: ../src/common/util.c:1031
+msgid "St. Pierre and Miquelon"
+msgstr "Sf. Pierre și Miquelon"
+
+#: ../src/common/util.c:1032
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: ../src/common/util.c:1033
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: ../src/common/util.c:1034
+msgid "Palestinian Territory"
+msgstr "Teritoriul Palestinian"
+
+#: ../src/common/util.c:1035
+msgid "Portugal"
+msgstr "Portugalia"
+
+#: ../src/common/util.c:1036
+msgid "Palau"
+msgstr "Palau"
+
+#: ../src/common/util.c:1037
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: ../src/common/util.c:1038
+msgid "Qatar"
+msgstr "Qatar"
+
+#: ../src/common/util.c:1039
+msgid "Reunion"
+msgstr "Reunion"
+
+#: ../src/common/util.c:1040
+msgid "Romania"
+msgstr "România"
+
+#: ../src/common/util.c:1041
+msgid "Old School ARPAnet"
+msgstr "ARPAnet Original"
+
+#: ../src/common/util.c:1042
+msgid "Russian Federation"
+msgstr "Rusia"
+
+#: ../src/common/util.c:1043
+msgid "Rwanda"
+msgstr "Rwanda"
+
+#: ../src/common/util.c:1044
+msgid "Saudi Arabia"
+msgstr "Arabia Saudită"
+
+#: ../src/common/util.c:1045
+msgid "Solomon Islands"
+msgstr "Insulele Solomon"
+
+#: ../src/common/util.c:1046
+msgid "Seychelles"
+msgstr "Insulele Seychelles"
+
+#: ../src/common/util.c:1047
+msgid "Sudan"
+msgstr "Sudan"
+
+#: ../src/common/util.c:1048
+msgid "Sweden"
+msgstr "Suedia"
+
+#: ../src/common/util.c:1049
+msgid "Singapore"
+msgstr "Singapore"
+
+#: ../src/common/util.c:1050
+msgid "St. Helena"
+msgstr "Sf. Elena"
+
+#: ../src/common/util.c:1051
+msgid "Slovenia"
+msgstr "Slovenia"
+
+#: ../src/common/util.c:1052
+msgid "Svalbard and Jan Mayen Islands"
+msgstr "Insulele Svalbard și Jan Mayen"
+
+#: ../src/common/util.c:1053
+msgid "Slovak Republic"
+msgstr "Slovacia"
+
+#: ../src/common/util.c:1054
+msgid "Sierra Leone"
+msgstr "Sierra Leone"
+
+#: ../src/common/util.c:1055
+msgid "San Marino"
+msgstr "San Marino"
+
+#: ../src/common/util.c:1056
+msgid "Senegal"
+msgstr "Senegal"
+
+#: ../src/common/util.c:1057
+msgid "Somalia"
+msgstr "Somalia"
+
+#: ../src/common/util.c:1058
+msgid "Suriname"
+msgstr "Surinam"
+
+#: ../src/common/util.c:1059
+msgid "Sao Tome and Principe"
+msgstr "Sao Tome și Príncipe"
+
+#: ../src/common/util.c:1060
+msgid "Former USSR"
+msgstr "Fosta USSR"
+
+#: ../src/common/util.c:1061
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: ../src/common/util.c:1062
+msgid "Syria"
+msgstr "Siria"
+
+#: ../src/common/util.c:1063
+msgid "Swaziland"
+msgstr "Swaziland"
+
+#: ../src/common/util.c:1064
+msgid "Turks and Caicos Islands"
+msgstr "Insulele Turks și Caicos"
+
+#: ../src/common/util.c:1065
+msgid "Chad"
+msgstr "Ciad"
+
+#: ../src/common/util.c:1066
+msgid "French Southern Territories"
+msgstr "Teritoriile Franceze de Sud"
+
+#: ../src/common/util.c:1067
+msgid "Togo"
+msgstr "Togo"
+
+#: ../src/common/util.c:1068
+msgid "Thailand"
+msgstr "Thailanda"
+
+#: ../src/common/util.c:1069
+msgid "Tajikistan"
+msgstr "Tadjikistan"
+
+#: ../src/common/util.c:1070
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: ../src/common/util.c:1071 ../src/common/util.c:1075
+msgid "East Timor"
+msgstr "Timorul de Est"
+
+#: ../src/common/util.c:1072
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: ../src/common/util.c:1073
+msgid "Tunisia"
+msgstr "Tunisia"
+
+#: ../src/common/util.c:1074
+msgid "Tonga"
+msgstr "Tonga"
+
+#: ../src/common/util.c:1076
+msgid "Turkey"
+msgstr "Turcia"
+
+#: ../src/common/util.c:1077
+msgid "Trinidad and Tobago"
+msgstr "Trinidad și Tobago"
+
+#: ../src/common/util.c:1078
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: ../src/common/util.c:1079
+msgid "Taiwan"
+msgstr "Taiwan"
+
+#: ../src/common/util.c:1080
+msgid "Tanzania"
+msgstr "Tanzania"
+
+#: ../src/common/util.c:1081
+msgid "Ukraine"
+msgstr "Ucraina"
+
+#: ../src/common/util.c:1082
+msgid "Uganda"
+msgstr "Uganda"
+
+#: ../src/common/util.c:1083
+msgid "United Kingdom"
+msgstr "Regatul Unit"
+
+#: ../src/common/util.c:1084
+msgid "United States of America"
+msgstr "Statele Unite ale Americii"
+
+#: ../src/common/util.c:1085
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: ../src/common/util.c:1086
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+#: ../src/common/util.c:1087
+msgid "Vatican City State"
+msgstr "Vatican"
+
+#: ../src/common/util.c:1088
+msgid "St. Vincent and the Grenadines"
+msgstr "St. Vincent și Grenadine"
+
+#: ../src/common/util.c:1089
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: ../src/common/util.c:1090
+msgid "British Virgin Islands"
+msgstr "Insulele Virgine Britanice"
+
+#: ../src/common/util.c:1091
+msgid "US Virgin Islands"
+msgstr "Insulele Virgine ale SUA"
+
+#: ../src/common/util.c:1092
+msgid "Vietnam"
+msgstr "Vietnam"
+
+#: ../src/common/util.c:1093
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: ../src/common/util.c:1094
+msgid "Wallis and Futuna Islands"
+msgstr "Insulele Wallis și Futuna"
+
+#: ../src/common/util.c:1095
+msgid "Samoa"
+msgstr "Samoa"
+
+#: ../src/common/util.c:1096
+msgid "Yemen"
+msgstr "Yemen"
+
+#: ../src/common/util.c:1097
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: ../src/common/util.c:1098
+msgid "Yugoslavia"
+msgstr "Iugoslavia"
+
+#: ../src/common/util.c:1099
+msgid "South Africa"
+msgstr "Africa de Sud"
+
+#: ../src/common/util.c:1100
+msgid "Zambia"
+msgstr "Zambia"
+
+#: ../src/common/util.c:1101
+msgid "Zimbabwe"
+msgstr "Zimbabwe"
+
+#: ../src/common/util.c:1111 ../src/common/util.c:1121
+#: ../src/fe-gnome/userlist-gui.c:441
+msgid "Unknown"
+msgstr "Necunoscut"
+
+#: ../src/common/xchat.c:767 ../src/common/xchat.c:893
+msgid "Open Dialog Window"
+msgstr "Deschide fereastra de dialog"
+
+#: ../src/common/xchat.c:768
+msgid "Send a File"
+msgstr "Trimite un fișier"
+
+#: ../src/common/xchat.c:769
+msgid "User Info (WHOIS)"
+msgstr "Informații utilizator (WHOIS)"
+
+#: ../src/common/xchat.c:770
+msgid "Operator Actions"
+msgstr "Acțiuni operator"
+
+#: ../src/common/xchat.c:772 ../src/common/xchat.c:863
+msgid "Give Ops"
+msgstr "Oferă drept de operator"
+
+#: ../src/common/xchat.c:773 ../src/common/xchat.c:864
+msgid "Take Ops"
+msgstr "Retrage dreptul de operator"
+
+#: ../src/common/xchat.c:774 ../src/common/xchat.c:867
+msgid "Give Voice"
+msgstr "Oferă voce"
+
+#: ../src/common/xchat.c:775 ../src/common/xchat.c:868
+msgid "Take Voice"
+msgstr "Retrage vocea"
+
+#: ../src/common/xchat.c:777 ../src/common/xchat.c:872
+msgid "Kick/Ban"
+msgstr "Elimină/Blochează"
+
+#: ../src/common/xchat.c:778 ../src/common/xchat.c:873
+#: ../src/common/xchat.c:922
+msgid "Kick"
+msgstr "Elimină"
+
+#: ../src/common/xchat.c:779 ../src/common/xchat.c:780
+#: ../src/common/xchat.c:781 ../src/common/xchat.c:782
+#: ../src/common/xchat.c:783 ../src/common/xchat.c:874
+#: ../src/common/xchat.c:875 ../src/common/xchat.c:876
+#: ../src/common/xchat.c:877 ../src/common/xchat.c:878
+#: ../src/common/xchat.c:921
+msgid "Ban"
+msgstr "Blochează"
+
+#: ../src/common/xchat.c:784 ../src/common/xchat.c:785
+#: ../src/common/xchat.c:786 ../src/common/xchat.c:787
+#: ../src/common/xchat.c:879 ../src/common/xchat.c:880
+#: ../src/common/xchat.c:881 ../src/common/xchat.c:882
+msgid "KickBan"
+msgstr "Elimină și Blochează"
+
+#: ../src/common/xchat.c:850
+msgid "Direct client-to-client"
+msgstr "Direct client-la-client"
+
+#: ../src/common/xchat.c:851
+msgid "Send File"
+msgstr "Trimite fișierul"
+
+#: ../src/common/xchat.c:852
+msgid "Offer Chat"
+msgstr "Oferă discuție"
+
+#: ../src/common/xchat.c:853
+msgid "Abort Chat"
+msgstr "Abandonează discuția"
+
+#: ../src/common/xchat.c:854
+msgid "Version"
+msgstr "Versiune"
+
+#: ../src/common/xchat.c:855
+msgid "Userinfo"
+msgstr "Informații despre utilizator"
+
+#: ../src/common/xchat.c:856
+msgid "Clientinfo"
+msgstr "Informații despre client"
+
+#: ../src/common/xchat.c:857 ../src/common/xchat.c:891
+#: ../src/common/xchat.c:939
+msgid "Ping"
+msgstr "Ping"
+
+#: ../src/common/xchat.c:859
+msgid "Finger"
+msgstr "Finger"
+
+#: ../src/common/xchat.c:860
+msgid "Oper"
+msgstr "Operator"
+
+#: ../src/common/xchat.c:861
+msgid "Kill this user"
+msgstr "Distruge acest utilizator"
+
+#: ../src/common/xchat.c:862
+msgid "Mode"
+msgstr "Mod"
+
+#: ../src/common/xchat.c:865
+msgid "Give Half-Ops"
+msgstr "Oferă drept de semi-operator"
+
+#: ../src/common/xchat.c:866
+msgid "Take Half-Ops"
+msgstr "Retrage dreptul de semi-operator"
+
+#: ../src/common/xchat.c:869 ../src/fe-gnome/userlist-gui.c:60
+msgid "Ignore"
+msgstr "Ignoră"
+
+#: ../src/common/xchat.c:870
+msgid "Ignore User"
+msgstr "Ignoră utilizatorul"
+
+#: ../src/common/xchat.c:871
+msgid "UnIgnore User"
+msgstr "Revocă ignorarea utilizatorului"
+
+#: ../src/common/xchat.c:883
+msgid "Info"
+msgstr "Informații"
+
+#: ../src/common/xchat.c:884
+msgid "Who"
+msgstr "Cine"
+
+#: ../src/common/xchat.c:885 ../src/common/xchat.c:935
+msgid "WhoIs"
+msgstr "Cine este"
+
+#: ../src/common/xchat.c:886
+msgid "DNS Lookup"
+msgstr "Analiză DNS"
+
+#: ../src/common/xchat.c:887
+msgid "Trace"
+msgstr "Urmărește"
+
+#: ../src/common/xchat.c:888
+msgid "UserHost"
+msgstr "Gazdă utilizator"
+
+#: ../src/common/xchat.c:889
+msgid "External"
+msgstr "Extern"
+
+#: ../src/common/xchat.c:890
+msgid "Traceroute"
+msgstr "Urmărește ruta"
+
+#: ../src/common/xchat.c:892
+msgid "Telnet"
+msgstr "Telnet"
+
+#: ../src/common/xchat.c:904
+msgid "Leave Channel"
+msgstr "Părăsește canalul"
+
+#: ../src/common/xchat.c:905
+msgid "Join Channel..."
+msgstr "Alătură-te canalului..."
+
+#: ../src/common/xchat.c:906
+msgid "Enter Channel to Join:"
+msgstr "Introduceți canalul pentru alăturare:"
+
+#: ../src/common/xchat.c:907
+msgid "Server Links"
+msgstr "Legături server"
+
+#: ../src/common/xchat.c:908
+msgid "Ping Server"
+msgstr "Verifică conexiunea la server"
+
+#: ../src/common/xchat.c:909
+msgid "Hide Version"
+msgstr "Ascunde versiunea"
+
+#: ../src/common/xchat.c:919
+msgid "Op"
+msgstr "Op"
+
+#: ../src/common/xchat.c:920
+msgid "DeOp"
+msgstr "DeOp"
+
+#: ../src/common/xchat.c:923
+msgid "bye"
+msgstr "la revedere"
+
+#: ../src/common/xchat.c:924
+#, c-format
+msgid "Enter reason to kick %s:"
+msgstr "Introduceți motivul eliminării lui %s:"
+
+#: ../src/common/xchat.c:925
+msgid "Sendfile"
+msgstr "Trimite fișierul"
+
+#: ../src/common/xchat.c:926
+msgid "Dialog"
+msgstr "Dialog"
+
+#: ../src/common/xchat.c:936
+msgid "Send"
+msgstr "Trimite"
+
+#: ../src/common/xchat.c:937
+msgid "Chat"
+msgstr "Discuție"
+
+#: ../src/common/xchat.c:938
+msgid "Clear"
+msgstr "Golește"
+
+#: ../src/common/dbus/dbus-plugin.c:31
+msgid "remote access"
+msgstr "Acces la distanță"
+
+#: ../src/common/dbus/dbus-plugin.c:32
+msgid "plugin for remote access using DBUS"
+msgstr "modul pentru acces la distanță folosind DBUS"
+
+#: ../src/common/dbus/dbus-plugin.c:900
+#, c-format
+msgid "Couldn't connect to session bus: %s\n"
+msgstr "Nu s-a putut stabili conexiunea către magistrala sesiunii: %s\n"
+
+#: ../src/common/dbus/dbus-plugin.c:917
+#, c-format
+msgid "Failed to acquire %s: %s\n"
+msgstr "Nu s-a putut obține %s: %s\n"
+
+#: ../src/common/dbus/url_handler.schemas.in.h:1
+msgid "Run XChat-GNOME in a terminal?"
+msgstr "Doriți să rulați XChat-GNOME într-un terminal?"
+
+#: ../src/common/dbus/url_handler.schemas.in.h:2
+msgid "Set it at TRUE if you want it activated"
+msgstr "Stabiliți ca ADEVĂRAT dacă vreți să se activeze"
+
+#: ../src/common/dbus/url_handler.schemas.in.h:3
+msgid "The handler for \"irc://\" URLs"
+msgstr "Operatorul pentru URL-uri „irc://”"
+
+#: ../src/fe-gnome/about.c:62
+msgid ""
+"X-Chat GNOME is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 2 of the License, or (at your option) "
+"any later version."
+msgstr ""
+"X-Chat GNOME este software liber; îl puteți redistribui și/sau modifica sub "
+"termenii GNU General Public License publicat de Free Softaware Foundation; "
+"ori versiunea 2 a Licenței, ori (la opțiunea dumneavoastră) orice altă "
+"versiune mai nouă."
+
+#: ../src/fe-gnome/about.c:67
+msgid ""
+"X-Chat GNOME is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for "
+"more details."
+msgstr ""
+"X-Chat GNOME este distribuit în speranța că va fi folositor, dar FĂRĂ VREO "
+"GARANȚIE; fără măcar să fie implicată garanția de VANDABILITATE sau "
+"POTRIVIRE PENTRU VREUN SCOP ANUME. Vedeți GNU General Public License pentru "
+"mai multe detalii."
+
+#: ../src/fe-gnome/about.c:72
+msgid ""
+"You should have received a copy of the GNU General Public License along with "
+"X-Chat GNOME; if not, write to the Free Software Foundation, Inc., 59 Temple "
+"Place, Suite 330, Boston, MA  02111-1307  USA"
+msgstr ""
+"Ar trebui să fi primit o copie a Licenței GNU General Public License "
+"împreuna cu X-Chat GNOME; dacă nu, scrieți la Free Software Foundation, "
+"inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA"
+
+#. Translators: Don't try to translate this literally.
+#. * It is a running gag from a british comedy television
+#. * programme; either leave it as-is or replace it with
+#. * something comparable but inoffensive in your language.
+#.
+#: ../src/fe-gnome/about.c:90
+msgid "“Listen very carefully, I shall say this only once.”"
+msgstr "„Ascultă cu atenție, voi spune asta doar o dată.”"
+
+#: ../src/fe-gnome/about.c:94
+msgid "XChat-GNOME Web Site"
+msgstr "Siteul web XChat-GNOME"
+
+#. Translators: This is a special message that shouldn't
+#. * be translated literally. It is used in the about box
+#. * to give credits to the translators. Thus, you should
+#. * translate it to your name and email address. You
+#. * should also include other translators who have
+#. * contributed to this translation; in that case, please
+#. * write each of them on a separated line seperated by
+#. * newlines (\n).
+#.
+#: ../src/fe-gnome/about.c:108
+msgid "translator-credits"
+msgstr ""
+"  Alexandru Florescu Marian <show_some_originality@yahoo.com>\n"
+"  Ion Laurențiu Cristian <me_lawr@yahoo.com>\n"
+"  Daniel Șerbănescu <cyber19rider@gmail.com>\n"
+"\n"
+"Launchpad Contributions:\n"
+"  Adi Roiban https://launchpad.net/~adiroiban\n"
+"  Dan Telecan https://launchpad.net/~telecan-dan\n"
+"  Daniel Șerbănescu https://launchpad.net/~serbanescu.daniel\n"
+"  Radu M. Ilea https://launchpad.net/~ilearadumircea"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:1
+msgid "Automatically display the channel list dialog"
+msgstr "Afișează automat lista de dialog a canalului"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:2
+msgid "Background image filename"
+msgstr "Numele imaginii de fundal"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:3
+msgid "Background transparency"
+msgstr "Transparența fundalului"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:4
+msgid "Colorize nicknames in the main window"
+msgstr "Colorează pseudonimele în fereastra principală"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:5
+msgid "Default nickname used by servers without special options set"
+msgstr "Pseudonim implicit folosit de servere fără opțiuni speciale stabilite"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:6
+msgid "Default real name used by servers without special options set"
+msgstr "Nume real implicit folosit de servere fără opțiuni speciale stabilite"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:7
+msgid "Display redundant nickstamps"
+msgstr ""
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:8
+msgid "Enable spellchecking"
+msgstr "Activează verificarea ortografică"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:9
+msgid "Font for the main window"
+msgstr "Fontul ferestrei principale"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:10
+msgid "Height of the channel list"
+msgstr "Înălțimea listei de canale"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:11
+msgid "Height of the main window"
+msgstr "Înălțimea ferestrei principale"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:12
+msgid ""
+"If set to true, when you join a server without automatically joining a "
+"channel, the channel list dialog will be displayed"
+msgstr ""
+"Dacă este stabilită la adevărat, când vă conectați la un server fără a vă "
+"alătura unui canal în  mod automat, dialogul listă de canale va fi afișat"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:13
+msgid "Languages to use for spellchecking"
+msgstr "Limbile folosite pentru verificarea ortografică"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:14
+msgid "List of enabled plugins"
+msgstr "Lista modulelor activate"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:15
+msgid "Message sent on away"
+msgstr "Mesaj trimis în absență"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:16
+msgid "Message sent on channel part"
+msgstr "Mesaj trimis în momentul părăsirii"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:17
+msgid "Message sent on quit"
+msgstr "Mesajul trimis la ieșire"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:18
+msgid "Position of the horizontal pane in the main window"
+msgstr "Poziția panoului orizontal în fereastra principală"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:19
+msgid "Selected background type"
+msgstr "Tipul de fundal selectat"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:20
+msgid "Selected color scheme"
+msgstr "Schema de culori selectată"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:21
+msgid "Show colors in the main window"
+msgstr "Arată culori în fereastra principală"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:22
+msgid "Show timestamps in the main window"
+msgstr "Arată marcaje de timp în fereastra principală"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:23
+msgid "Show user list in main window"
+msgstr "Arată lista de utilizatori în fereastra principală"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:24
+msgid "Use system fonts"
+msgstr "Folosește fonturile sistemului"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:25
+msgid "Whether the horizontal pane in the main window is shown"
+msgstr "Dacă panoul orizontal este afișat în fereastra principală"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:26
+msgid "Whether the statusbar in the main window is shown"
+msgstr "Dacă bara de stare este afișată în fereastra principală"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:27
+msgid "Width of the channel list"
+msgstr "Lățimea listei de canale"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:28
+msgid "Width of the main window"
+msgstr "Lățimea ferestrei principale"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:29
+msgid "X position of the main window on the screen"
+msgstr "Poziția pe axa X a ferestrei principale pe ecran"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:30
+msgid "Y position of the main window on the screen"
+msgstr "Poziția pe axa Y a ferestrei principale pe ecran"
+
+#: ../src/fe-gnome/apps_xchat.schemas.in.h:31
+msgid "xchat configuration version"
+msgstr "versiunea configurării xchat"
+
+#: ../src/fe-gnome/channel-list-window.c:410
+#, c-format
+msgid "%s Channel List"
+msgstr "Lista canalelor %s"
+
+#: ../src/fe-gnome/connect-dialog.c:110
+msgid "This network doesn't have a server defined."
+msgstr "Această rețea nu are un server definit."
+
+#: ../src/fe-gnome/connect-dialog.c:112
+#, c-format
+msgid "Please add at least one server to the %s network."
+msgstr "Adăugați cel puțin un server la rețeaua %s."
+
+#: ../src/fe-gnome/conversation-panel.c:168
+msgid "_Open Link in Browser"
+msgstr "Deschide legătura în navigat_or"
+
+#: ../src/fe-gnome/conversation-panel.c:169
+msgid "_Copy Link Location"
+msgstr "_Copiază locația legăturii"
+
+#: ../src/fe-gnome/conversation-panel.c:173
+msgid "Se_nd Message To..."
+msgstr "_Trimite mesaj la..."
+
+#: ../src/fe-gnome/conversation-panel.c:174
+msgid "_Copy Address"
+msgstr "_Copiază adresa"
+
+#: ../src/fe-gnome/conversation-panel.c:178
+msgid "_Send File"
+msgstr "_Trimite fișierul"
+
+#: ../src/fe-gnome/conversation-panel.c:179
+msgid "Paste File _Contents"
+msgstr "Lipește _conținutul fișierului"
+
+#: ../src/fe-gnome/conversation-panel.c:180
+msgid "Paste File_name"
+msgstr "Lipește _numele fișierului"
+
+#: ../src/fe-gnome/conversation-panel.c:181
+msgid "_Cancel"
+msgstr "_Anulează"
+
+#: ../src/fe-gnome/conversation-panel.c:185 ../src/fe-gnome/main-window.c:115
+msgid "_Copy"
+msgstr "_Copiază"
+
+#: ../src/fe-gnome/conversation-panel.c:875
+#, c-format
+msgid "Error reading file \"%s\": %s\n"
+msgstr "Eroare la citirea fișierului „%s”: %s\n"
+
+#: ../src/fe-gnome/conversation-panel.c:891
+#, c-format
+msgid "Error converting URI \"%s\" into filename: %s\n"
+msgstr "Eroare la conversia URI-ului „%s” în numele de fișier: %s\n"
+
+#: ../src/fe-gnome/conversation-panel.c:942
+#, c-format
+msgid "Error retrieving file information for \"%s\": %s\n"
+msgstr "Eroare la obținerea informațiilor despre fișierul „%s”: %s\n"
+
+#: ../src/fe-gnome/conversation-panel.c:1040
+msgid "Save Transcript"
+msgstr "Salvează transcrierea"
+
+#: ../src/fe-gnome/conversation-panel.c:1066
+#: ../src/fe-gnome/conversation-panel.c:1076
+#, c-format
+msgid "Error saving %s"
+msgstr "Eroare la salvarea %s"
+
+#: ../src/fe-gnome/conversation-panel.c:1211
+msgid "Search buffer is empty.\n"
+msgstr "Memoria tampon pentru căutare este goală.\n"
+
+#. File completion percent
+#: ../src/fe-gnome/dcc-window.c:141
+msgid "%"
+msgstr "%"
+
+#: ../src/fe-gnome/dcc-window.c:142
+msgid "File"
+msgstr "Fișier"
+
+#: ../src/fe-gnome/dcc-window.c:143
+msgid "Remaining"
+msgstr "Rămas"
+
+#: ../src/fe-gnome/dcc-window.c:218
+msgid "Incoming File Transfer"
+msgstr "Transferuri de fișiere primite"
+
+#: ../src/fe-gnome/dcc-window.c:219 ../src/fe-gnome/fe-gnome.c:538
+msgid "_Accept"
+msgstr "_Acceptă"
+
+#: ../src/fe-gnome/dcc-window.c:220
+#, c-format
+msgid ""
+"%s is attempting to send you a file named \"%s\". Do you wish to accept the "
+"transfer?"
+msgstr ""
+"%s încearcă să vă trimită un fișier numit „%s”. Doriți să acceptați "
+"transferul?"
+
+#: ../src/fe-gnome/dcc-window.c:240
+#, c-format
+msgid ""
+"<b>%s</b>\n"
+"<small>from %s</small>\n"
+"%s of %s"
+msgstr ""
+"<b>%s</b>\n"
+"<small>de la %s</small>\n"
+"%s de %s"
+
+#: ../src/fe-gnome/dcc-window.c:251
+msgid "starting"
+msgstr "se pornește"
+
+#: ../src/fe-gnome/dcc-window.c:282
+#, c-format
+msgid ""
+"<b>%s</b>\n"
+"<small>from %s</small>\n"
+"%s of %s at %s/s"
+msgstr ""
+"<b>%s</b>\n"
+"<small>de la %s</small>\n"
+"%s de %s la %s/s"
+
+#: ../src/fe-gnome/dcc-window.c:289
+msgid "queued"
+msgstr "adăugat la coadă"
+
+#: ../src/fe-gnome/dcc-window.c:294
+#, c-format
+msgid "Transfer of %s to %s failed"
+msgstr "Transferul de %s la %s a eșuat"
+
+#: ../src/fe-gnome/dcc-window.c:296
+#, c-format
+msgid "Transfer of %s from %s failed"
+msgstr "Transferul de %s de la %s a eșuat"
+
+#: ../src/fe-gnome/dcc-window.c:297
+msgid "Transfer failed"
+msgstr "Transferul a eșuat"
+
+#: ../src/fe-gnome/dcc-window.c:305
+msgid "aborted"
+msgstr "abandonat"
+
+#: ../src/fe-gnome/dcc-window.c:308
+msgid "stalled"
+msgstr "înțepenit"
+
+#: ../src/fe-gnome/dcc-window.c:312
+#, c-format
+msgid "%.2d:%.2d:%.2d"
+msgstr "%.2d:%.2d:%.2d"
+
+#: ../src/fe-gnome/dcc-window.c:314
+#, c-format
+msgid "%.2d:%.2d"
+msgstr "%.2d:%.2d"
+
+#: ../src/fe-gnome/dcc-window.c:418
+msgid "Send File..."
+msgstr "Trimite un fișier..."
+
+#: ../src/fe-gnome/fe-gnome.c:67
+msgid "Full-screen the window"
+msgstr "Comută fereastra pe tot ecranul"
+
+#: ../src/fe-gnome/fe-gnome.c:68
+msgid "Use directory instead of the default config dir"
+msgstr "Utilizează dosarul în locul dosarului implicit de configurări"
+
+#: ../src/fe-gnome/fe-gnome.c:69
+msgid "Don't auto-connect to servers"
+msgstr "Nu te conecta la servere automat"
+
+#: ../src/fe-gnome/fe-gnome.c:70
+msgid "Don't auto-load plugins"
+msgstr "Nu încărca modulele automat"
+
+#: ../src/fe-gnome/fe-gnome.c:71
+msgid "Open an irc:// url"
+msgstr "Deschide un URL irc://"
+
+#: ../src/fe-gnome/fe-gnome.c:72
+msgid "Open URL in an existing XChat-GNOME instance"
+msgstr "Deschide URL-ul într-o instanță XChat-GNOME existentă"
+
+#: ../src/fe-gnome/fe-gnome.c:73
+msgid "Show version information"
+msgstr "Arată informații despre versiune"
+
+#: ../src/fe-gnome/fe-gnome.c:142
+#, c-format
+msgid "Failed to parse arguments: %s\n"
+msgstr "Eroare la analizarea argumentelor: %s\n"
+
+#: ../src/fe-gnome/fe-gnome.c:536
+msgid "Incoming DCC Chat"
+msgstr "Primire discuție DCC"
+
+#: ../src/fe-gnome/fe-gnome.c:541
+#, c-format
+msgid ""
+"%s is attempting to create a direct chat. Do you wish to accept the "
+"connection?"
+msgstr ""
+"%s încearcă să creeze o discuție directă. Doriți să acceptați conexiunea?"
+
+#: ../src/fe-gnome/fe-gnome.c:976
+#, c-format
+msgid "Unable to show '%s'"
+msgstr "Nu s-a putut afișa „%s”"
+
+#: ../src/fe-gnome/find-bar.c:88
+msgid "Find:"
+msgstr "Caută:"
+
+#: ../src/fe-gnome/find-bar.c:89
+msgid "_Previous"
+msgstr "_Precedentul"
+
+#: ../src/fe-gnome/find-bar.c:91
+msgid "_Next"
+msgstr "_Următorul"
+
+#: ../src/fe-gnome/find-bar.c:208
+msgid "<span foreground=\"dark grey\">Reached end, continuing from top</span>"
+msgstr ""
+"<span foreground=\"dark grey\">S-a ajuns la sfârșit, se continuă de la "
+"început</span>"
+
+#: ../src/fe-gnome/find-bar.c:215
+msgid ""
+"<span foreground=\"dark grey\">Reached beginning, continuing from bottom</"
+"span>"
+msgstr ""
+"<span foreground=\"dark grey\">S-a ajuns la început, se continuă de la "
+"sfârșit</span>"
+
+#: ../src/fe-gnome/find-bar.c:222
+msgid "<span foreground=\"red\">Search string not found</span>"
+msgstr "<span foreground=\"red\">Șirul căutat nu a fost găsit</span>"
+
+#: ../src/fe-gnome/irc-network-editor.c:313
+msgid "Server"
+msgstr "Server"
+
+#: ../src/fe-gnome/irc-network-editor.c:322
+msgid "Key"
+msgstr "Cheie"
+
+#. We're creating a new network. Don't populate things from the structure
+#: ../src/fe-gnome/irc-network-editor.c:465
+msgid "New Network"
+msgstr "Rețea nouă"
+
+#: ../src/fe-gnome/irc-network-editor.c:473
+#, c-format
+msgid "%s Network Properties"
+msgstr "Proprietățile rețelei %s"
+
+#: ../src/fe-gnome/irc-network-editor.c:601
+#: ../src/fe-gnome/irc-network-editor.c:608
+#: ../src/fe-gnome/irc-network-editor.c:614
+msgid "Invalid input"
+msgstr "Intrare nevalidă"
+
+#: ../src/fe-gnome/irc-network-editor.c:601
+msgid "You must enter a network name"
+msgstr "Trebuie să introduceți un nume de rețea"
+
+#: ../src/fe-gnome/irc-network-editor.c:608
+msgid "You must enter a nick name"
+msgstr "Trebuie să introduceți un pseudonim"
+
+#: ../src/fe-gnome/irc-network-editor.c:614
+msgid "You must enter a real name"
+msgstr "Trebuie să introduceți un nume real"
+
+#: ../src/fe-gnome/irc-network-editor.c:621
+msgid "No Servers"
+msgstr "Niciun server"
+
+#: ../src/fe-gnome/irc-network-editor.c:621
+msgid "You must add at least one server for this network"
+msgstr "Trebuie să adăugați cel puțin un server la această rețea"
+
+#: ../src/fe-gnome/irc-network.c:32
+msgid "UTF-8 (Unicode)"
+msgstr "UTF-8 (Unicode)"
+
+#: ../src/fe-gnome/irc-network.c:33
+msgid "ISO-8859-15 (Western Europe)"
+msgstr "ISO-8859-15 (Europa de Vest)"
+
+#: ../src/fe-gnome/irc-network.c:34
+msgid "ISO-8859-2 (Central Europe)"
+msgstr "ISO-8859-2 (Europa Centrală)"
+
+#: ../src/fe-gnome/irc-network.c:35
+msgid "ISO-8859-7 (Greek)"
+msgstr "ISO-8859-7 (Greacă)"
+
+#: ../src/fe-gnome/irc-network.c:36
+msgid "ISO-8859-8 (Hebrew)"
+msgstr "ISO-8859-8 (Ebraică)"
+
+#: ../src/fe-gnome/irc-network.c:37
+msgid "ISO-8859-9 (Turkish)"
+msgstr "ISO-8859-9 (Turcă)"
+
+#: ../src/fe-gnome/irc-network.c:38
+msgid "ISO-2022-JP (Japanese)"
+msgstr "ISO-2022-JP (Japoneză)"
+
+#: ../src/fe-gnome/irc-network.c:39
+msgid "SJIS (Japanese)"
+msgstr "SJIS (Japoneză)"
+
+#: ../src/fe-gnome/irc-network.c:40
+msgid "CP949 (Korean)"
+msgstr "CP949 (Coreană)"
+
+#: ../src/fe-gnome/irc-network.c:41
+msgid "KOI8-R (Cyrillic)"
+msgstr "KOI8-R (Chirilică)"
+
+#: ../src/fe-gnome/irc-network.c:42
+msgid "CP1251 (Cyrillic)"
+msgstr "CP1251 (Chirilică)"
+
+#: ../src/fe-gnome/irc-network.c:43
+msgid "CP1256 (Arabic)"
+msgstr "CP1256 (Arabă)"
+
+#: ../src/fe-gnome/irc-network.c:44
+msgid "CP1257 (Baltic)"
+msgstr "CP1257 (Baltică)"
+
+#: ../src/fe-gnome/irc-network.c:45
+msgid "GB18030 (Chinese)"
+msgstr "GB18030 (Chineză)"
+
+#: ../src/fe-gnome/irc-network.c:46
+msgid "TIS-620 (Thai)"
+msgstr "TIS-620 (Tailandeză)"
+
+#. Toplevel
+#: ../src/fe-gnome/main-window.c:99
+msgid "_IRC"
+msgstr "_IRC"
+
+#: ../src/fe-gnome/main-window.c:101
+msgid "In_sert"
+msgstr "In_trodu"
+
+#: ../src/fe-gnome/main-window.c:102
+msgid "_Network"
+msgstr "_Rețea"
+
+#: ../src/fe-gnome/main-window.c:103
+msgid "_Discussion"
+msgstr "_Discuție"
+
+#: ../src/fe-gnome/main-window.c:104
+msgid "_View"
+msgstr "_Vizualizare"
+
+#: ../src/fe-gnome/main-window.c:105
+msgid "_Help"
+msgstr "_Ajutor"
+
+#. IRC menu
+#: ../src/fe-gnome/main-window.c:109
+msgid "_Connect..."
+msgstr "_Conectează..."
+
+#: ../src/fe-gnome/main-window.c:110
+msgid "_File Transfers"
+msgstr "Transferuri de _fișiere"
+
+#: ../src/fe-gnome/main-window.c:111
+msgid "_Quit"
+msgstr "_Ieșire"
+
+#. Edit menu
+#: ../src/fe-gnome/main-window.c:114
+msgid "Cu_t"
+msgstr "_Taie"
+
+#: ../src/fe-gnome/main-window.c:116
+msgid "_Paste"
+msgstr "Li_pește"
+
+#: ../src/fe-gnome/main-window.c:117
+msgid "Prefere_nces"
+msgstr "Preferi_nțe"
+
+#. Network menu
+#: ../src/fe-gnome/main-window.c:120
+msgid "_Reconnect"
+msgstr "_Reconectare"
+
+#: ../src/fe-gnome/main-window.c:121
+msgid "_Disconnect"
+msgstr "_Deconectare"
+
+#: ../src/fe-gnome/main-window.c:122
+msgid "_Close"
+msgstr "În_chide"
+
+#: ../src/fe-gnome/main-window.c:123
+msgid "_Channels..."
+msgstr "_Canale..."
+
+#. Discussion menu
+#: ../src/fe-gnome/main-window.c:126
+msgid "_Save Transcript"
+msgstr "_Salvează transcrierea"
+
+#: ../src/fe-gnome/main-window.c:127
+msgid "_Leave"
+msgstr "_Părăsește"
+
+#: ../src/fe-gnome/main-window.c:128
+msgid "Cl_ose"
+msgstr "Închi_de"
+
+#: ../src/fe-gnome/main-window.c:129
+msgid "_Find"
+msgstr "_Caută"
+
+#: ../src/fe-gnome/main-window.c:130
+msgid "Change _Topic"
+msgstr "Schimbă subiec_tul"
+
+#: ../src/fe-gnome/main-window.c:131
+msgid "_Bans..."
+msgstr "_Blocări..."
+
+#: ../src/fe-gnome/main-window.c:132
+msgid "_Users"
+msgstr "_Utilizatori"
+
+#. Help menu
+#: ../src/fe-gnome/main-window.c:135
+msgid "_Contents"
+msgstr "_Conținut"
+
+#: ../src/fe-gnome/main-window.c:136
+msgid "_About"
+msgstr "_Despre"
+
+#. View menu
+#: ../src/fe-gnome/main-window.c:142
+msgid "_Sidebar"
+msgstr "Bară _laterală"
+
+#: ../src/fe-gnome/main-window.c:143
+msgid "_Statusbar"
+msgstr "Bară de _stare"
+
+#: ../src/fe-gnome/main-window.c:144
+msgid "_Fullscreen"
+msgstr "_Ecran întreg"
+
+#: ../src/fe-gnome/main-window.c:465 ../src/fe-gnome/main-window.c:487
+msgid "Ex-Chat"
+msgstr "Ex-Chat"
+
+#: ../src/fe-gnome/main-window.c:539
+msgid "Error showing help"
+msgstr "Eroare la afișarea ajutorului"
+
+#: ../src/fe-gnome/migration.c:115
+#, c-format
+msgid ""
+"The way the D-Bus plugin works has changed.\n"
+"To avoid problems, you should remove the old plugin file.\n"
+"\n"
+"<b>Please delete %s</b>"
+msgstr ""
+"Modul în care modulul D-Bus funcționează s-a schimbat.\n"
+"Pentru a evita problemele, ar trebui să eliminați vechiul fișier al "
+"modulului.\n"
+"\n"
+"<b>Ștergeți %s</b>"
+
+#: ../src/fe-gnome/migration.c:117
+msgid "D-Bus plugin is still installed"
+msgstr "Modulul D-Bus este încă instalat"
+
+#. View menu
+#: ../src/fe-gnome/navigation-tree.c:91
+msgid "Pre_vious Network"
+msgstr "Rețeaua a_nterioară"
+
+#: ../src/fe-gnome/navigation-tree.c:92
+msgid "Nex_t Network"
+msgstr "Rețeaua urmă_toare"
+
+#: ../src/fe-gnome/navigation-tree.c:93
+msgid "_Previous Discussion"
+msgstr "Discuția anterioa_ră"
+
+#: ../src/fe-gnome/navigation-tree.c:94
+msgid "_Next Discussion"
+msgstr "Discuția ur_mătoare"
+
+#. Discussion context menu
+#: ../src/fe-gnome/navigation-tree.c:97
+msgid "_Join"
+msgstr "_Alătură-te"
+
+#. Server context menu
+#: ../src/fe-gnome/navigation-tree.c:102
+msgid "_Auto-connect on startup"
+msgstr "Conectează _automat la pornire"
+
+#. Discussion context menu
+#: ../src/fe-gnome/navigation-tree.c:105
+msgid "_Auto-join on connect"
+msgstr "Alătură _automat la pornire"
+
+#: ../src/fe-gnome/navigation-tree.c:106
+msgid "Show join/part messages"
+msgstr "Arată mesajele de alăturare/părăsire"
+
+#: ../src/fe-gnome/navigation-tree.c:481
+msgid "<none>"
+msgstr "<niciunul>"
+
+#: ../src/fe-gnome/preferences-page-colors.c:255
+msgid "Colors"
+msgstr "Culori"
+
+#: ../src/fe-gnome/preferences-page-colors.c:260
+#: ../src/fe-gnome/preferences-page-colors.c:265
+msgid "Black on White"
+msgstr "Negru pe alb"
+
+#: ../src/fe-gnome/preferences-page-colors.c:261
+#: ../src/fe-gnome/preferences-page-colors.c:266
+msgid "White on Black"
+msgstr "Alb pe negru"
+
+#: ../src/fe-gnome/preferences-page-colors.c:262
+#: ../src/fe-gnome/preferences-page-colors.c:267
+msgid "Custom"
+msgstr "Personalizat"
+
+#: ../src/fe-gnome/preferences-page-colors.c:263
+#: ../src/fe-gnome/preferences-page-colors.c:268
+msgid "System Theme Colors"
+msgstr "Culorile temei sistemului"
+
+#: ../src/fe-gnome/preferences-page-dcc.c:146
+msgid "File Transfers & DCC"
+msgstr "Transfer de fișiere & DCC"
+
+#: ../src/fe-gnome/preferences-page-effects.c:180
+msgid "Effects"
+msgstr "Efecte"
+
+#: ../src/fe-gnome/preferences-page-irc.c:321
+msgid "IRC Preferences"
+msgstr "Preferințe IRC"
+
+#: ../src/fe-gnome/preferences-page-networks.c:117
+#, c-format
+msgid "Really remove network \"%s\" and all of its servers?"
+msgstr "Sigur eliminați rețeaua „%s” și toate serverele acesteia?"
+
+#: ../src/fe-gnome/preferences-page-networks.c:168
+msgid "Networks"
+msgstr "Rețele"
+
+#: ../src/fe-gnome/preferences-page-networks.c:176
+msgid "Name"
+msgstr "Nume"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:99
+#: ../src/fe-gnome/preferences-page-plugins.c:100
+msgid "unknown"
+msgstr "necunoscut"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:192
+#, c-format
+msgid "An error occurred unloading %s"
+msgstr "S-a produs o eroare la închiderea %s"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:193
+msgid "Plugin Unload Failed"
+msgstr "Închiderea modulului a eșuat"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:204
+msgid "Plugin Load Failed"
+msgstr "Încărcarea modulului a eșuat"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:242
+msgid "Open Plugin"
+msgstr "Deschide modulul"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:367
+msgid "Scripts and Plugins"
+msgstr "Scripturi și module"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:385
+#: ../src/fe-gnome/preferences-page-spellcheck.c:223
+msgid "Enable"
+msgstr "Activează"
+
+#: ../src/fe-gnome/preferences-page-plugins.c:387
+msgid "Plugin"
+msgstr "Modul"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:103
+#, c-format
+msgid "Error in language %s activation: %s\n"
+msgstr "Eroare în activarea limbii %s: %s\n"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:143
+#, c-format
+msgid "Error in spell checking configuration: %s\n"
+msgstr "Eroare în configurația verificării ortografice: %s\n"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:185
+msgid "Spell checking"
+msgstr "Verificare ortografică"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:189
+msgid ""
+"In order to get spell-checking, you need to have libenchant installed with "
+"at least one dictionary."
+msgstr ""
+"Pentru a obține verificarea ortografică, trebuie să aveți instalat "
+"libenchant cu cel puțin un dicționar."
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:200
+msgid "_Check spelling"
+msgstr "Verifi_că ortografia"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:201
+msgid "Choose languages to use for spellcheck:"
+msgstr "Alegeți limbile folosite pentru verificarea ortografică:"
+
+#: ../src/fe-gnome/preferences-page-spellcheck.c:228
+msgid "Language"
+msgstr "Limbă"
+
+#: ../src/fe-gnome/status-bar.c:93
+#, c-format
+msgid "%s%.1fs lag"
+msgstr "%s%.1fs lag"
+
+#: ../src/fe-gnome/status-bar.c:107
+#, c-format
+msgid "%d bytes buffered"
+msgstr "%d octeți încărcați în memoria tampon"
+
+#: ../src/fe-gnome/text-entry.c:151
+#, c-format
+msgid "Error in spellchecking configuration: %s\n"
+msgstr "Eroare în configurația verificării ortografice: %s\n"
+
+#: ../src/fe-gnome/text-entry.c:370
+msgid "I_nsert Color Code"
+msgstr "I_ntroduceți codul culorii"
+
+#: ../src/fe-gnome/text-entry.c:377
+msgid "Black"
+msgstr "Negru"
+
+#: ../src/fe-gnome/text-entry.c:381
+msgid "Dark Blue"
+msgstr "Albastru închis"
+
+#: ../src/fe-gnome/text-entry.c:385
+msgid "Dark Green"
+msgstr "Verde închis"
+
+#: ../src/fe-gnome/text-entry.c:389
+msgid "Red"
+msgstr "Roșu"
+
+#: ../src/fe-gnome/text-entry.c:393
+msgid "Brown"
+msgstr "Maro"
+
+#: ../src/fe-gnome/text-entry.c:397
+msgid "Purple"
+msgstr "Mov"
+
+#: ../src/fe-gnome/text-entry.c:401
+msgid "Orange"
+msgstr "Portocaliu"
+
+#: ../src/fe-gnome/text-entry.c:405
+msgid "Yellow"
+msgstr "Galben"
+
+#: ../src/fe-gnome/text-entry.c:409
+msgid "Light Green"
+msgstr "Verde deschis"
+
+#: ../src/fe-gnome/text-entry.c:413
+msgid "Aqua"
+msgstr "Aqua"
+
+#: ../src/fe-gnome/text-entry.c:417
+msgid "Light Blue"
+msgstr "Albastru deschis"
+
+#: ../src/fe-gnome/text-entry.c:421
+msgid "Blue"
+msgstr "Albastru"
+
+#: ../src/fe-gnome/text-entry.c:425
+msgid "Violet"
+msgstr "Violet"
+
+#: ../src/fe-gnome/text-entry.c:429
+msgid "Grey"
+msgstr "Gri"
+
+#: ../src/fe-gnome/text-entry.c:433
+msgid "Light Grey"
+msgstr "Gri deschis"
+
+#: ../src/fe-gnome/text-entry.c:437
+msgid "White"
+msgstr "Alb"
+
+#: ../src/fe-gnome/topic-label.c:281
+#, c-format
+msgid "Changing topic for %s"
+msgstr "Se schimbă subiectul pentru %s"
+
+#: ../src/fe-gnome/userlist-gui.c:56
+msgid "_Send File..."
+msgstr "_Trimite un fișier..."
+
+#: ../src/fe-gnome/userlist-gui.c:57
+msgid "Private _Chat"
+msgstr "Dis_cuție privată"
+
+#: ../src/fe-gnome/userlist-gui.c:58
+msgid "_Kick"
+msgstr "_Dă afară"
+
+#: ../src/fe-gnome/userlist-gui.c:59
+msgid "_Ban"
+msgstr "_Blochează"
+
+#: ../src/fe-gnome/userlist-gui.c:61
+msgid "_Op"
+msgstr "_Op"
+
+#: ../src/fe-gnome/userlist-gui.c:436
+#, c-format
+msgid ""
+"%s\n"
+"<span weight=\"bold\">Name:</span> %s"
+msgstr ""
+"%s\n"
+"<span weight=\"bold\">Nume:</span> %s"
+
+#: ../src/fe-gnome/userlist-gui.c:443
+#, c-format
+msgid ""
+"%s\n"
+"<span weight=\"bold\">Country:</span> %s"
+msgstr ""
+"%s\n"
+"<span weight=\"bold\">Țară:</span> %s"
+
+#: ../src/fe-gnome/userlist-gui.c:453
+#, c-format
+msgid ""
+"%s\n"
+"<span weight=\"bold\">Last message:</span> %d minute ago"
+msgid_plural ""
+"%s\n"
+"<span weight=\"bold\">Last message:</span> %d minutes ago"
+msgstr[0] ""
+"%s\n"
+"<span weight=\"bold\">Ultimul mesaj:</span> acum un minut"
+msgstr[1] ""
+"%s\n"
+"<span weight=\"bold\">Ultimul mesaj:</span> acum %d minute"
+msgstr[2] ""
+"%s\n"
+"<span weight=\"bold\">Ultimul mesaj:</span> acum %d de minute"
+
+#: ../src/fe-gnome/userlist-gui.c:464
+#, c-format
+msgid ""
+"%s\n"
+"<span weight=\"bold\">Away message:</span> %s"
+msgstr ""
+"%s\n"
+"<span weight=\"bold\">Mesaj de absență:</span> %s"
+
+#: ../src/fe-gnome/userlist.c:308
+#, c-format
+msgid "%d User"
+msgid_plural "%d Users"
+msgstr[0] "un utilizator"
+msgstr[1] "%d utilizatori"
+msgstr[2] "%d de utilizatori"
