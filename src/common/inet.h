@@ -3,12 +3,12 @@
 #ifndef WIN32
 
 #ifdef WANTSOCKET
-#include <sys/types.h>
 #include <sys/socket.h>
+#include <sys/types.h>
 #endif
 #ifdef WANTARPA
-#include <netinet/in.h>
 #include <arpa/inet.h>
+#include <netinet/in.h>
 #endif
 #ifdef WANTDNS
 #include <netdb.h>
@@ -28,14 +28,16 @@
 #include <winsock2.h>
 #include <ws2tcpip.h>
 
-#define set_blocking(sok)	{ \
-									unsigned long zero = 0; \
-									ioctlsocket (sok, FIONBIO, &zero); \
-									}
-#define set_nonblocking(sok)	{ \
-										unsigned long one = 1; \
-										ioctlsocket (sok, FIONBIO, &one); \
-										}
+#define set_blocking(sok)                                                                          \
+        {                                                                                          \
+                unsigned long zero = 0;                                                            \
+                ioctlsocket(sok, FIONBIO, &zero);                                                  \
+        }
+#define set_nonblocking(sok)                                                                       \
+        {                                                                                          \
+                unsigned long one = 1;                                                             \
+                ioctlsocket(sok, FIONBIO, &one);                                                   \
+        }
 #define would_block() (WSAGetLastError() == WSAEWOULDBLOCK)
 #define sock_error WSAGetLastError
 

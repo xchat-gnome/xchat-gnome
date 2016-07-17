@@ -20,6 +20,6 @@
 #ifndef XCHAT_IDENTD_H
 #define XCHAT_IDENTD_H
 
-void identd_start (char *username);
+void identd_start(char *username);
 
 #endif
