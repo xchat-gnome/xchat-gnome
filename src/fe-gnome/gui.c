@@ -19,73 +19,70 @@
  *
  */
 
-#include <config.h>
-#include <string.h>
-#include <glib/gi18n.h>
 #include "gui.h"
-#include "util.h"
-#include "main-window.h"
-#include "preferences-dialog.h"
-#include "connect-dialog.h"
-#include "about.h"
-#include "userlist-gui.h"
-#include "pixmaps.h"
-#include "util.h"
 #include "../common/text.h"
 #include "../common/xchatc.h"
+#include "about.h"
+#include "connect-dialog.h"
+#include "main-window.h"
+#include "pixmaps.h"
+#include "preferences-dialog.h"
+#include "userlist-gui.h"
+#include "util.h"
+#include "util.h"
+#include <config.h>
+#include <glib/gi18n.h>
+#include <string.h>
 
 XChatGUI gui;
 Userlist *u;
 
-gboolean
-initialize_gui_1 (void)
+gboolean initialize_gui_1(void)
 {
-	gui.initialized = FALSE;
+        gui.initialized = FALSE;
 
-	gui.manager = gtk_ui_manager_new ();
+        gui.manager = gtk_ui_manager_new();
 
-	gchar *path = locate_data_file ("xchat-gnome.glade");
-	g_assert (path != NULL);
+        gchar *path = locate_data_file("xchat-gnome.glade");
+        g_assert(path != NULL);
 
-	gui.xml = gtk_builder_new ();
-	g_assert (gtk_builder_add_from_file ( gui.xml, path, NULL) != 0); 
+        gui.xml = gtk_builder_new();
+        g_assert(gtk_builder_add_from_file(gui.xml, path, NULL) != 0);
 
-	g_free (path);
+        g_free(path);
 
-	return TRUE;
+        return TRUE;
 }
 
-gboolean
-initialize_gui_2 (void)
+gboolean initialize_gui_2(void)
 {
-	gtk_window_set_default_icon_name ("xchat-gnome");
+        gtk_window_set_default_icon_name("xchat-gnome");
 
-	gui.current_session = NULL;
-	gui.tree_model = navigation_model_new ();
-	gui.server_tree = navigation_tree_new (gui.tree_model);
-	pixmaps_init ();
-	initialize_userlist ();
-	initialize_main_window ();
+        gui.current_session = NULL;
+        gui.tree_model = navigation_model_new();
+        gui.server_tree = navigation_tree_new(gui.tree_model);
+        pixmaps_init();
+        initialize_userlist();
+        initialize_main_window();
 
-	gtk_container_add (
-		GTK_CONTAINER ( GTK_WIDGET (gtk_builder_get_object (gui.xml, "server channel list"))),
-		GTK_WIDGET (gui.server_tree));
+        gtk_container_add(GTK_CONTAINER(
+                              GTK_WIDGET(gtk_builder_get_object(gui.xml, "server channel list"))),
+                          GTK_WIDGET(gui.server_tree));
 
-	gui.dcc = dcc_window_new ();
+        gui.dcc = dcc_window_new();
 
-	gui.initialized = TRUE;
+        gui.initialized = TRUE;
 
-	set_action_state (gui.server_tree);
+        set_action_state(gui.server_tree);
 
-	return TRUE;
+        return TRUE;
 }
 
-int
-xtext_get_stamp_str (time_t tim, char **ret)
+int xtext_get_stamp_str(time_t tim, char **ret)
 {
-	if (strlen (prefs.stamp_format) == 0) {
-		strncpy (prefs.stamp_format, "[%H:%M:%S] ", 11);
-		prefs.stamp_format[11] = '\0';
-	}
-	return get_stamp_str (prefs.stamp_format, tim, ret);
+        if (strlen(prefs.stamp_format) == 0) {
+                strncpy(prefs.stamp_format, "[%H:%M:%S] ", 11);
+                prefs.stamp_format[11] = '\0';
+        }
+        return get_stamp_str(prefs.stamp_format, tim, ret);
 }

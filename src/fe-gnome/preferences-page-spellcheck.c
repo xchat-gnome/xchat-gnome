@@ -19,49 +19,43 @@
  *
  */
 
-#include <config.h>
-#include <glib/gi18n.h>
-#include <string.h>
-#include <gconf/gconf-client.h>
 #include "preferences-page-spellcheck.h"
+#include "gui.h"
 #include "preferences-dialog.h"
 #include "util.h"
-#include "gui.h"
+#include <config.h>
+#include <gconf/gconf-client.h>
+#include <glib/gi18n.h>
+#include <string.h>
 
 G_DEFINE_TYPE(PreferencesPageSpellcheck, preferences_page_spellcheck, PREFERENCES_PAGE_TYPE)
 
-enum
+enum { COL_LANG_ACTIVATED = 0, COL_LANG_NAME, COL_LANG_CODE };
+
+static void enabled_changed(GtkToggleButton *button, PreferencesPageSpellcheck *page)
 {
-	COL_LANG_ACTIVATED = 0,
-	COL_LANG_NAME,
-	COL_LANG_CODE
-};
+        GConfClient *client;
+        gboolean enabled;
 
-static void
-enabled_changed (GtkToggleButton *button, PreferencesPageSpellcheck *page)
-{
-	GConfClient *client;
-	gboolean enabled;
+        client = gconf_client_get_default();
+        enabled = gtk_toggle_button_get_active(button);
+        gconf_client_set_bool(client, "/apps/xchat/spellcheck/enabled", enabled, NULL);
 
-	client = gconf_client_get_default ();
-	enabled = gtk_toggle_button_get_active (button);
-	gconf_client_set_bool (client, "/apps/xchat/spellcheck/enabled", enabled, NULL);
+        gtk_widget_set_sensitive(page->spellcheck_list, enabled);
 
-	gtk_widget_set_sensitive (page->spellcheck_list, enabled);
-
-	g_object_unref (client);
+        g_object_unref(client);
 }
 
-static void
-language_changed (GtkCellRendererToggle *toggle, gchar *pathstr, PreferencesPageSpellcheck *page)
+static void language_changed(GtkCellRendererToggle *toggle, gchar *pathstr,
+                             PreferencesPageSpellcheck *page)
 {
-	GtkTreePath *path;
-	GtkTreeIter iter;
-	gchar *lang;
-	gboolean activated, result;
-	GSList *languages;
-	GConfClient *client;
-	GError *err = NULL;
+        GtkTreePath *path;
+        GtkTreeIter iter;
+        gchar *lang;
+        gboolean activated, result;
+        GSList *languages;
+        GConfClient *client;
+        GError *err = NULL;
 #if 0
 	result = TRUE;
 	path = gtk_tree_path_new_from_string (pathstr);
@@ -103,25 +97,25 @@ language_changed (GtkCellRendererToggle *toggle, gchar *pathstr, PreferencesPage
 #endif
 }
 
-static void
-gconf_enabled_changed (GConfClient *client, guint cnxn_id, GConfEntry *entry, GtkToggleButton *enabled_spellcheck)
+static void gconf_enabled_changed(GConfClient *client, guint cnxn_id, GConfEntry *entry,
+                                  GtkToggleButton *enabled_spellcheck)
 {
-	gboolean enabled;
+        gboolean enabled;
 
-	g_signal_handlers_block_by_func (enabled_spellcheck, "toggled", enabled_changed);
-	enabled = gconf_client_get_bool (client, "/apps/xchat/spellcheck/enabled", NULL);
-	gtk_toggle_button_set_active (enabled_spellcheck, enabled);
-	g_signal_handlers_unblock_by_func (enabled_spellcheck, "toggled", enabled_changed);
+        g_signal_handlers_block_by_func(enabled_spellcheck, "toggled", enabled_changed);
+        enabled = gconf_client_get_bool(client, "/apps/xchat/spellcheck/enabled", NULL);
+        gtk_toggle_button_set_active(enabled_spellcheck, enabled);
+        g_signal_handlers_unblock_by_func(enabled_spellcheck, "toggled", enabled_changed);
 }
 
-static void
-gconf_languages_changed (GConfClient *client, guint cnxn_id, GConfEntry *entry, GtkListStore *store)
+static void gconf_languages_changed(GConfClient *client, guint cnxn_id, GConfEntry *entry,
+                                    GtkListStore *store)
 {
-	GtkTreeIter iter;
-	gchar *lang;
-	gboolean active;
-	GError *err = NULL;
-	GSList *new_languages, *old_languages;
+        GtkTreeIter iter;
+        gchar *lang;
+        gboolean active;
+        GError *err = NULL;
+        GSList *new_languages, *old_languages;
 #if 0
 	/* First we use the new languages list
 	 *
@@ -164,73 +158,109 @@ gconf_languages_changed (GConfClient *client, guint cnxn_id, GConfEntry *entry, 
 #endif
 }
 
-PreferencesPageSpellcheck *
-preferences_page_spellcheck_new (gpointer prefs_dialog, GtkBuilder *xml)
+PreferencesPageSpellcheck *preferences_page_spellcheck_new(gpointer prefs_dialog, GtkBuilder *xml)
 {
-	PreferencesPageSpellcheck *page = g_object_new (PREFERENCES_PAGE_SPELLCHECK_TYPE, NULL);
-	PreferencesDialog *p = (PreferencesDialog *) prefs_dialog;
-	gboolean enabled;
-	GSList *languages, *l;
-	GtkWidget *contents_vbox, *page_vbox, *label, *swin;
-	page_vbox = GTK_WIDGET (gtk_builder_get_object (xml, "spell check"));
+        PreferencesPageSpellcheck *page = g_object_new(PREFERENCES_PAGE_SPELLCHECK_TYPE, NULL);
+        PreferencesDialog *p = (PreferencesDialog *)prefs_dialog;
+        gboolean enabled;
+        GSList *languages, *l;
+        GtkWidget *contents_vbox, *page_vbox, *label, *swin;
+        page_vbox = GTK_WIDGET(gtk_builder_get_object(xml, "spell check"));
 
-	PREFERENCES_PAGE (page)->icon = gtk_widget_render_icon (page_vbox, GTK_STOCK_SPELL_CHECK, GTK_ICON_SIZE_MENU, NULL);
+        PREFERENCES_PAGE(page)
+            ->icon =
+            gtk_widget_render_icon(page_vbox, GTK_STOCK_SPELL_CHECK, GTK_ICON_SIZE_MENU, NULL);
 
-	GtkTreeIter iter;
-	gtk_list_store_append (p->page_store, &iter);
-	gtk_list_store_set (p->page_store, &iter, 0, PREFERENCES_PAGE (page)->icon, 1, _("Spell checking"), 2, 7, -1);
+        GtkTreeIter iter;
+        gtk_list_store_append(p->page_store, &iter);
+        gtk_list_store_set(p->page_store,
+                           &iter,
+                           0,
+                           PREFERENCES_PAGE(page)->icon,
+                           1,
+                           _("Spell checking"),
+                           2,
+                           7,
+                           -1);
 
-	/*languages = sexy_spell_entry_get_languages (SEXY_SPELL_ENTRY (gui.text_entry));*/
-	languages == NULL;
-	if (languages == NULL) {
-		label = gtk_label_new (_("In order to get spell-checking, you need to have libenchant installed with at least one dictionary."));
-		gtk_label_set_line_wrap (GTK_LABEL (label), TRUE);
-		gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
-		gtk_widget_show (label);
-		gtk_box_pack_start (GTK_BOX (page_vbox), label, FALSE, TRUE, 0);
-		return page;
-	}
+        /*languages = sexy_spell_entry_get_languages (SEXY_SPELL_ENTRY (gui.text_entry));*/
+        languages == NULL;
+        if (languages == NULL) {
+                label =
+                    gtk_label_new(_("In order to get spell-checking, you need to have libenchant "
+                                    "installed with at least one dictionary."));
+                gtk_label_set_line_wrap(GTK_LABEL(label), TRUE);
+                gtk_misc_set_alignment(GTK_MISC(label), 0.0, 0.5);
+                gtk_widget_show(label);
+                gtk_box_pack_start(GTK_BOX(page_vbox), label, FALSE, TRUE, 0);
+                return page;
+        }
 
-	contents_vbox = gtk_vbox_new (FALSE, 6);
-	gtk_box_pack_start (GTK_BOX (page_vbox), contents_vbox, TRUE, TRUE, 0);
+        contents_vbox = gtk_vbox_new(FALSE, 6);
+        gtk_box_pack_start(GTK_BOX(page_vbox), contents_vbox, TRUE, TRUE, 0);
 
-	page->enable_spellcheck = gtk_check_button_new_with_mnemonic (_("_Check spelling"));
-	label = gtk_label_new (_("Choose languages to use for spellcheck:"));
-	gtk_misc_set_alignment (GTK_MISC (label), 0.0, 0.5);
-	swin = gtk_scrolled_window_new (NULL, NULL);
-	gtk_scrolled_window_set_policy (GTK_SCROLLED_WINDOW (swin), GTK_POLICY_NEVER, GTK_POLICY_AUTOMATIC);
-	gtk_scrolled_window_set_shadow_type (GTK_SCROLLED_WINDOW (swin), GTK_SHADOW_IN);
-	gtk_box_pack_start (GTK_BOX (contents_vbox), page->enable_spellcheck, FALSE, TRUE, 0);
-	gtk_box_pack_start (GTK_BOX (contents_vbox), label, FALSE, TRUE, 0);
-	gtk_box_pack_start (GTK_BOX (contents_vbox), swin, TRUE, TRUE, 0);
+        page->enable_spellcheck = gtk_check_button_new_with_mnemonic(_("_Check spelling"));
+        label = gtk_label_new(_("Choose languages to use for spellcheck:"));
+        gtk_misc_set_alignment(GTK_MISC(label), 0.0, 0.5);
+        swin = gtk_scrolled_window_new(NULL, NULL);
+        gtk_scrolled_window_set_policy(GTK_SCROLLED_WINDOW(swin),
+                                       GTK_POLICY_NEVER,
+                                       GTK_POLICY_AUTOMATIC);
+        gtk_scrolled_window_set_shadow_type(GTK_SCROLLED_WINDOW(swin), GTK_SHADOW_IN);
+        gtk_box_pack_start(GTK_BOX(contents_vbox), page->enable_spellcheck, FALSE, TRUE, 0);
+        gtk_box_pack_start(GTK_BOX(contents_vbox), label, FALSE, TRUE, 0);
+        gtk_box_pack_start(GTK_BOX(contents_vbox), swin, TRUE, TRUE, 0);
 
-	page->spellcheck_list = gtk_tree_view_new ();
-	gtk_container_add (GTK_CONTAINER (swin), page->spellcheck_list);
+        page->spellcheck_list = gtk_tree_view_new();
+        gtk_container_add(GTK_CONTAINER(swin), page->spellcheck_list);
 
-	gtk_widget_show_all (contents_vbox);
+        gtk_widget_show_all(contents_vbox);
 
-	/* spellcheck languages list */
-	page->spellcheck_store = gtk_list_store_new (3, G_TYPE_BOOLEAN, G_TYPE_STRING, G_TYPE_STRING);
-	gtk_tree_view_set_model (GTK_TREE_VIEW (page->spellcheck_list),
-	                         GTK_TREE_MODEL (page->spellcheck_store));
+        /* spellcheck languages list */
+        page->spellcheck_store =
+            gtk_list_store_new(3, G_TYPE_BOOLEAN, G_TYPE_STRING, G_TYPE_STRING);
+        gtk_tree_view_set_model(GTK_TREE_VIEW(page->spellcheck_list),
+                                GTK_TREE_MODEL(page->spellcheck_store));
 
-	GtkTreeViewColumn *column;
-	page->activated_renderer = gtk_cell_renderer_toggle_new ();
-	g_object_set (G_OBJECT (page->activated_renderer), "activatable", TRUE, NULL);
-	column = gtk_tree_view_column_new_with_attributes (_("Enable"), page->activated_renderer,
-	                                                   "active", COL_LANG_ACTIVATED, NULL);
-	gtk_tree_view_insert_column (GTK_TREE_VIEW (page->spellcheck_list), column, 0);
+        GtkTreeViewColumn *column;
+        page->activated_renderer = gtk_cell_renderer_toggle_new();
+        g_object_set(G_OBJECT(page->activated_renderer), "activatable", TRUE, NULL);
+        column = gtk_tree_view_column_new_with_attributes(_("Enable"),
+                                                          page->activated_renderer,
+                                                          "active",
+                                                          COL_LANG_ACTIVATED,
+                                                          NULL);
+        gtk_tree_view_insert_column(GTK_TREE_VIEW(page->spellcheck_list), column, 0);
 
-	page->name_renderer = gtk_cell_renderer_text_new ();
-	column = gtk_tree_view_column_new_with_attributes (_("Language"), page->name_renderer, "text",
-	                                                   COL_LANG_NAME, NULL);
-	gtk_tree_view_insert_column (GTK_TREE_VIEW (page->spellcheck_list), column, 1);
+        page->name_renderer = gtk_cell_renderer_text_new();
+        column = gtk_tree_view_column_new_with_attributes(_("Language"),
+                                                          page->name_renderer,
+                                                          "text",
+                                                          COL_LANG_NAME,
+                                                          NULL);
+        gtk_tree_view_insert_column(GTK_TREE_VIEW(page->spellcheck_list), column, 1);
 
-	g_signal_connect (G_OBJECT (page->enable_spellcheck),   "toggled", G_CALLBACK (enabled_changed), page);
-	g_signal_connect (G_OBJECT (page->activated_renderer),  "toggled", G_CALLBACK (language_changed),page);
+        g_signal_connect(G_OBJECT(page->enable_spellcheck),
+                         "toggled",
+                         G_CALLBACK(enabled_changed),
+                         page);
+        g_signal_connect(G_OBJECT(page->activated_renderer),
+                         "toggled",
+                         G_CALLBACK(language_changed),
+                         page);
 
-	page->nh[0] = gconf_client_notify_add (p->gconf, "/apps/xchat/spellcheck/enabled", (GConfClientNotifyFunc) gconf_enabled_changed, page->enable_spellcheck, NULL, NULL);
-	page->nh[1] = gconf_client_notify_add (p->gconf, "/apps/xchat/spellcheck/languages", (GConfClientNotifyFunc) gconf_languages_changed, page->spellcheck_store, NULL, NULL);
+        page->nh[0] = gconf_client_notify_add(p->gconf,
+                                              "/apps/xchat/spellcheck/enabled",
+                                              (GConfClientNotifyFunc)gconf_enabled_changed,
+                                              page->enable_spellcheck,
+                                              NULL,
+                                              NULL);
+        page->nh[1] = gconf_client_notify_add(p->gconf,
+                                              "/apps/xchat/spellcheck/languages",
+                                              (GConfClientNotifyFunc)gconf_languages_changed,
+                                              page->spellcheck_store,
+                                              NULL,
+                                              NULL);
 #if 0
 	/* Populate the model */
 	for (l = languages; l != NULL; l = l->next) {
@@ -256,54 +286,50 @@ preferences_page_spellcheck_new (gpointer prefs_dialog, GtkBuilder *xml)
 		}
 	}
 #endif
-	g_slist_free (languages);
+        g_slist_free(languages);
 
-	enabled = gconf_client_get_bool (p->gconf, "/apps/xchat/spellcheck/enabled", NULL);
-	gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (page->enable_spellcheck), enabled);
-	gtk_widget_set_sensitive (page->spellcheck_list, enabled);
+        enabled = gconf_client_get_bool(p->gconf, "/apps/xchat/spellcheck/enabled", NULL);
+        gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(page->enable_spellcheck), enabled);
+        gtk_widget_set_sensitive(page->spellcheck_list, enabled);
 
-	return page;
+        return page;
 }
 
-static void
-preferences_page_spellcheck_init (PreferencesPageSpellcheck *page)
+static void preferences_page_spellcheck_init(PreferencesPageSpellcheck *page)
 {
 }
 
-static void
-preferences_page_spellcheck_dispose (GObject *object)
+static void preferences_page_spellcheck_dispose(GObject *object)
 {
-	PreferencesPageSpellcheck *page = (PreferencesPageSpellcheck *) object;
+        PreferencesPageSpellcheck *page = (PreferencesPageSpellcheck *)object;
 
-	if (page->spellcheck_store) {
-		g_object_unref (page->spellcheck_store);
-		page->spellcheck_store = NULL;
-	}
+        if (page->spellcheck_store) {
+                g_object_unref(page->spellcheck_store);
+                page->spellcheck_store = NULL;
+        }
 
-	G_OBJECT_CLASS (preferences_page_spellcheck_parent_class)->dispose (object);
+        G_OBJECT_CLASS(preferences_page_spellcheck_parent_class)->dispose(object);
 }
 
-static void
-preferences_page_spellcheck_finalize (GObject *object)
+static void preferences_page_spellcheck_finalize(GObject *object)
 {
-	PreferencesPageSpellcheck *page = (PreferencesPageSpellcheck *) object;
-	gint i;
-	GConfClient *client;
+        PreferencesPageSpellcheck *page = (PreferencesPageSpellcheck *)object;
+        gint i;
+        GConfClient *client;
 
-	client = gconf_client_get_default ();
-	for (i = 0; i < 2; i++) {
-		gconf_client_notify_remove (client, page->nh[i]);
-	}
-	g_object_unref (client);
+        client = gconf_client_get_default();
+        for (i = 0; i < 2; i++) {
+                gconf_client_notify_remove(client, page->nh[i]);
+        }
+        g_object_unref(client);
 
-	G_OBJECT_CLASS (preferences_page_spellcheck_parent_class)->finalize (object);
+        G_OBJECT_CLASS(preferences_page_spellcheck_parent_class)->finalize(object);
 }
 
-static void
-preferences_page_spellcheck_class_init (PreferencesPageSpellcheckClass *klass)
+static void preferences_page_spellcheck_class_init(PreferencesPageSpellcheckClass *klass)
 {
-	GObjectClass *object_class = (GObjectClass *) klass;
+        GObjectClass *object_class = (GObjectClass *)klass;
 
-	object_class->dispose = preferences_page_spellcheck_dispose;
-	object_class->finalize = preferences_page_spellcheck_finalize;
+        object_class->dispose = preferences_page_spellcheck_dispose;
+        object_class->finalize = preferences_page_spellcheck_finalize;
 }

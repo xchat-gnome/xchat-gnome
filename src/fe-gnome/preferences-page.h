@@ -27,30 +27,29 @@
 
 G_BEGIN_DECLS
 
-typedef struct _PreferencesPage 	 PreferencesPage;
-typedef struct _PreferencesPageClass	 PreferencesPageClass;
-#define PREFERENCES_PAGE_TYPE            (preferences_page_get_type ())
-#define PREFERENCES_PAGE(obj)            (G_TYPE_CHECK_INSTANCE_CAST ((obj), PREFERENCES_PAGE_TYPE, PreferencesPage))
-#define PREFERENCES_PAGE_CLASS(klass)    (G_TYPE_CHECK_CLASS_CAST ((klass), PREFERENCES_PAGE_TYPE, PreferencesPageClass))
-#define IS_PREFERENCES_PAGE(obj)         (G_TYPE_CHECK_INSTANCE_TYPE ((obj), PREFERENCES_PAGE_TYPE))
-#define IS_PREFERENCES_PAGE_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass), PREFERENCES_PAGE_TYPE))
+typedef struct _PreferencesPage PreferencesPage;
+typedef struct _PreferencesPageClass PreferencesPageClass;
+#define PREFERENCES_PAGE_TYPE (preferences_page_get_type())
+#define PREFERENCES_PAGE(obj)                                                                      \
+        (G_TYPE_CHECK_INSTANCE_CAST((obj), PREFERENCES_PAGE_TYPE, PreferencesPage))
+#define PREFERENCES_PAGE_CLASS(klass)                                                              \
+        (G_TYPE_CHECK_CLASS_CAST((klass), PREFERENCES_PAGE_TYPE, PreferencesPageClass))
+#define IS_PREFERENCES_PAGE(obj) (G_TYPE_CHECK_INSTANCE_TYPE((obj), PREFERENCES_PAGE_TYPE))
+#define IS_PREFERENCES_PAGE_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE((klass), PREFERENCES_PAGE_TYPE))
 
-struct _PreferencesPage 
-{
-	GObject parent;
+struct _PreferencesPage {
+        GObject parent;
 
-	GtkWidget *vbox;
-	GdkPixbuf *icon;
-	gchar	  *title;
+        GtkWidget *vbox;
+        GdkPixbuf *icon;
+        gchar *title;
 };
 
-struct _PreferencesPageClass
-{
-	GObjectClass parent_class;
-
+struct _PreferencesPageClass {
+        GObjectClass parent_class;
 };
 
-GType              	preferences_page_get_type (void) G_GNUC_CONST;
+GType preferences_page_get_type(void) G_GNUC_CONST;
 
 G_END_DECLS
 

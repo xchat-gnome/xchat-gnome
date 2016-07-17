@@ -24,12 +24,12 @@
 #ifndef XCHAT_GNOME_MAIN_WINDOW_H
 #define XCHAT_GNOME_MAIN_WINDOW_H
 
-void initialize_main_window (void);
-void run_main_window        (gboolean fullscreen);
-void save_main_window       (void);
-void rename_main_window     (gchar *server, gchar *channel);
-void set_nickname_label     (struct server *serv, char *newnick);
-void set_nickname_color     (struct server *serv);
-void main_window_set_show_userlist (gboolean show_in_main_window);
+void initialize_main_window(void);
+void run_main_window(gboolean fullscreen);
+void save_main_window(void);
+void rename_main_window(gchar *server, gchar *channel);
+void set_nickname_label(struct server *serv, char *newnick);
+void set_nickname_color(struct server *serv);
+void main_window_set_show_userlist(gboolean show_in_main_window);
 
 #endif

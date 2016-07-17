@@ -27,52 +27,53 @@
 
 G_BEGIN_DECLS
 
-typedef struct _PreferencesPageIrc      PreferencesPageIrc;
+typedef struct _PreferencesPageIrc PreferencesPageIrc;
 typedef struct _PreferencesPageIrcClass PreferencesPageIrcClass;
-#define PREFERENCES_PAGE_IRC_TYPE            (preferences_page_irc_get_type ())
-#define PREFERENCES_PAGE_IRC(obj)            (G_TYPE_CHECK_INSTANCE_CAST ((obj), PREFERENCES_PAGE_IRC_TYPE, PreferencesPageIrc))
-#define PREFERENCES_PAGE_IRC_CLASS(klass)    (G_TYPE_CHECK_CLASS_CAST ((klass), PREFERENCES_PAGE_IRC_TYPE, PreferencesPageIrcClass))
-#define IS_PREFERENCES_PAGE_IRC(obj)         (G_TYPE_CHECK_INSTANCE_TYPE ((obj), PREFERENCES_PAGE_IRC_TYPE))
-#define IS_PREFERENCES_PAGE_IRC_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass), PREFERENCES_PAGE_IRC_TYPE))
+#define PREFERENCES_PAGE_IRC_TYPE (preferences_page_irc_get_type())
+#define PREFERENCES_PAGE_IRC(obj)                                                                  \
+        (G_TYPE_CHECK_INSTANCE_CAST((obj), PREFERENCES_PAGE_IRC_TYPE, PreferencesPageIrc))
+#define PREFERENCES_PAGE_IRC_CLASS(klass)                                                          \
+        (G_TYPE_CHECK_CLASS_CAST((klass), PREFERENCES_PAGE_IRC_TYPE, PreferencesPageIrcClass))
+#define IS_PREFERENCES_PAGE_IRC(obj) (G_TYPE_CHECK_INSTANCE_TYPE((obj), PREFERENCES_PAGE_IRC_TYPE))
+#define IS_PREFERENCES_PAGE_IRC_CLASS(klass)                                                       \
+        (G_TYPE_CHECK_CLASS_TYPE((klass), PREFERENCES_PAGE_IRC_TYPE))
 
-struct _PreferencesPageIrc
-{
-	PreferencesPage parent;
+struct _PreferencesPageIrc {
+        PreferencesPage parent;
 
-	GtkWidget *nick_name;
-	GtkWidget *real_name;
-	GtkWidget *quit_message;
-	GtkWidget *part_message;
-	GtkWidget *away_message;
+        GtkWidget *nick_name;
+        GtkWidget *real_name;
+        GtkWidget *quit_message;
+        GtkWidget *part_message;
+        GtkWidget *away_message;
 
-	GtkWidget *highlight_list;
-	GtkWidget *highlight_add;
-	GtkWidget *highlight_edit;
-	GtkWidget *highlight_remove;
+        GtkWidget *highlight_list;
+        GtkWidget *highlight_add;
+        GtkWidget *highlight_edit;
+        GtkWidget *highlight_remove;
 
-	GtkWidget *usesysfonts;
-	GtkWidget *usethisfont;
-	GtkWidget *font_selection;
+        GtkWidget *usesysfonts;
+        GtkWidget *usethisfont;
+        GtkWidget *font_selection;
 
-	GtkWidget *auto_logging;
-	GtkWidget *show_timestamps;
-	GtkWidget *show_marker;
-	GtkWidget *userlist_main;
+        GtkWidget *auto_logging;
+        GtkWidget *show_timestamps;
+        GtkWidget *show_marker;
+        GtkWidget *userlist_main;
 
-	GtkListStore *highlight_store;
-	GtkTreeViewColumn *highlight_column;
+        GtkListStore *highlight_store;
+        GtkTreeViewColumn *highlight_column;
 
-	/* gconf notification handlers */
-	guint nh[8];
+        /* gconf notification handlers */
+        guint nh[8];
 };
 
-struct _PreferencesPageIrcClass
-{
-	PreferencesPageClass parent_class;
+struct _PreferencesPageIrcClass {
+        PreferencesPageClass parent_class;
 };
 
-GType              	preferences_page_irc_get_type (void) G_GNUC_CONST;
-PreferencesPageIrc* preferences_page_irc_new  (gpointer prefs_dialog, GtkBuilder *xml);
+GType preferences_page_irc_get_type(void) G_GNUC_CONST;
+PreferencesPageIrc *preferences_page_irc_new(gpointer prefs_dialog, GtkBuilder *xml);
 
 G_END_DECLS
 

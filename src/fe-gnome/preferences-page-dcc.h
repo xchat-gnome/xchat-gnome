@@ -27,28 +27,29 @@
 
 G_BEGIN_DECLS
 
-typedef struct _PreferencesPageDCC      PreferencesPageDCC;
+typedef struct _PreferencesPageDCC PreferencesPageDCC;
 typedef struct _PreferencesPageDCCClass PreferencesPageDCCClass;
-#define PREFERENCES_PAGE_DCC_TYPE            (preferences_page_dcc_get_type ())
-#define PREFERENCES_PAGE_DCC(obj)            (G_TYPE_CHECK_INSTANCE_CAST ((obj), PREFERENCES_PAGE_DCC_TYPE, PreferencesPageDCC))
-#define PREFERENCES_PAGE_DCC_CLASS(klass)    (G_TYPE_CHECK_CLASS_CAST ((klass), PREFERENCES_PAGE_DCC_TYPE, PreferencesPageDCCClass))
-#define IS_PREFERENCES_PAGE_DCC(obj)         (G_TYPE_CHECK_INSTANCE_TYPE ((obj), PREFERENCES_PAGE_DCC_TYPE))
-#define IS_PREFERENCES_PAGE_DCC_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass), PREFERENCES_PAGE_DCC_TYPE))
+#define PREFERENCES_PAGE_DCC_TYPE (preferences_page_dcc_get_type())
+#define PREFERENCES_PAGE_DCC(obj)                                                                  \
+        (G_TYPE_CHECK_INSTANCE_CAST((obj), PREFERENCES_PAGE_DCC_TYPE, PreferencesPageDCC))
+#define PREFERENCES_PAGE_DCC_CLASS(klass)                                                          \
+        (G_TYPE_CHECK_CLASS_CAST((klass), PREFERENCES_PAGE_DCC_TYPE, PreferencesPageDCCClass))
+#define IS_PREFERENCES_PAGE_DCC(obj) (G_TYPE_CHECK_INSTANCE_TYPE((obj), PREFERENCES_PAGE_DCC_TYPE))
+#define IS_PREFERENCES_PAGE_DCC_CLASS(klass)                                                       \
+        (G_TYPE_CHECK_CLASS_TYPE((klass), PREFERENCES_PAGE_DCC_TYPE))
 
-struct _PreferencesPageDCC
-{
-	PreferencesPage parent;
+struct _PreferencesPageDCC {
+        PreferencesPage parent;
 
-	GtkWidget *special_ip_address;
+        GtkWidget *special_ip_address;
 };
 
-struct _PreferencesPageDCCClass
-{
-	PreferencesPageClass parent_class;
+struct _PreferencesPageDCCClass {
+        PreferencesPageClass parent_class;
 };
 
-GType               preferences_page_dcc_get_type (void) G_GNUC_CONST;
-PreferencesPageDCC* preferences_page_dcc_new  (gpointer prefs_dialog, GtkBuilder *xml);
+GType preferences_page_dcc_get_type(void) G_GNUC_CONST;
+PreferencesPageDCC *preferences_page_dcc_new(gpointer prefs_dialog, GtkBuilder *xml);
 
 G_END_DECLS
 

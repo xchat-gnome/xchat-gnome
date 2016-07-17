@@ -19,7 +19,6 @@
  *
  */
 
-
 #include "gui.h"
 
 #ifndef XCHAT_GNOME_CONNECT_DIALOG_H
@@ -27,31 +26,30 @@
 
 G_BEGIN_DECLS
 
-typedef struct _ConnectDialog      ConnectDialog;
+typedef struct _ConnectDialog ConnectDialog;
 typedef struct _ConnectDialogClass ConnectDialogClass;
 
-#define CONNECT_DIALOG_TYPE            (connect_dialog_get_type ())
-#define CONNECT_DIALOG(obj)            (G_TYPE_CHECK_INSTANCE_CAST ((obj), CONNECT_DIALOG_TYPE, ConnectDialog))
-#define CONNECT_DIALOG_CLASS(klass)    (G_TYPE_CHECK_CLASS_CAST ((klass), CONNECT_DIALOG_TYPE, ConnectDialogClass))
-#define IS_CONNECT_DIALOG(obj)         (G_TYPE_CHECK_INSTANCE_TYPE ((obj), CONNECT_DIALOG_TYPE))
-#define IS_CONNECT_DIALOG_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass), CONNECT_DIALOG_TYPE))
+#define CONNECT_DIALOG_TYPE (connect_dialog_get_type())
+#define CONNECT_DIALOG(obj) (G_TYPE_CHECK_INSTANCE_CAST((obj), CONNECT_DIALOG_TYPE, ConnectDialog))
+#define CONNECT_DIALOG_CLASS(klass)                                                                \
+        (G_TYPE_CHECK_CLASS_CAST((klass), CONNECT_DIALOG_TYPE, ConnectDialogClass))
+#define IS_CONNECT_DIALOG(obj) (G_TYPE_CHECK_INSTANCE_TYPE((obj), CONNECT_DIALOG_TYPE))
+#define IS_CONNECT_DIALOG_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE((klass), CONNECT_DIALOG_TYPE))
 
-struct _ConnectDialog
-{
-	GtkDialog parent;
+struct _ConnectDialog {
+        GtkDialog parent;
 
-	GtkWidget *toplevel;
-	GtkWidget *server_list;
-	GtkListStore *server_store;
+        GtkWidget *toplevel;
+        GtkWidget *server_list;
+        GtkListStore *server_store;
 };
 
-struct _ConnectDialogClass
-{
-	GtkDialogClass parent_class;
+struct _ConnectDialogClass {
+        GtkDialogClass parent_class;
 };
 
-GType          connect_dialog_get_type (void) G_GNUC_CONST;
-ConnectDialog *connect_dialog_new (void);
+GType connect_dialog_get_type(void) G_GNUC_CONST;
+ConnectDialog *connect_dialog_new(void);
 
 G_END_DECLS
 

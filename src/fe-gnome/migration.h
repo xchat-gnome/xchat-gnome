@@ -22,6 +22,6 @@
 #ifndef __MIGRATION_H__
 #define __MIGRATION_H__
 
-void run_migrations (void);
+void run_migrations(void);
 
 #endif

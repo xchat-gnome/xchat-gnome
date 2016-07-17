@@ -21,39 +21,38 @@
 #ifndef XCHAT_GNOME_TOPIC_LABEL_H
 #define XCHAT_GNOME_TOPIC_LABEL_H
 
-#include <gtk/gtk.h>
 #include "../common/xchat.h"
+#include <gtk/gtk.h>
 
 G_BEGIN_DECLS
 
-typedef struct _TopicLabel      TopicLabel;
+typedef struct _TopicLabel TopicLabel;
 typedef struct _TopicLabelClass TopicLabelClass;
-typedef struct _TopicLabelPriv  TopicLabelPriv;
+typedef struct _TopicLabelPriv TopicLabelPriv;
 
-#define TOPIC_LABEL_TYPE            (topic_label_get_type ())
-#define TOPIC_LABEL(obj)            (G_TYPE_CHECK_INSTANCE_CAST ((obj), TOPIC_LABEL_TYPE, TopicLabel))
-#define TOPIC_LABEL_CLASS(klass)    (G_TYPE_CHECK_CLASS_CAST ((klass), TOPIC_LABEL_TYPE, TopicLabelClass))
-#define IS_TOPIC_LABEL(obj)         (G_TYPE_CHECK_INSTANCE_TYPE ((obj), TOPIC_LABEL_TYPE))
-#define IS_TOPIC_LABEL_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass), TOPIC_LABEL_TYPE))
+#define TOPIC_LABEL_TYPE (topic_label_get_type())
+#define TOPIC_LABEL(obj) (G_TYPE_CHECK_INSTANCE_CAST((obj), TOPIC_LABEL_TYPE, TopicLabel))
+#define TOPIC_LABEL_CLASS(klass)                                                                   \
+        (G_TYPE_CHECK_CLASS_CAST((klass), TOPIC_LABEL_TYPE, TopicLabelClass))
+#define IS_TOPIC_LABEL(obj) (G_TYPE_CHECK_INSTANCE_TYPE((obj), TOPIC_LABEL_TYPE))
+#define IS_TOPIC_LABEL_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE((klass), TOPIC_LABEL_TYPE))
 
-struct _TopicLabel
-{
-	GtkHBox parent;
+struct _TopicLabel {
+        GtkHBox parent;
 
-	TopicLabelPriv *priv;
+        TopicLabelPriv *priv;
 };
 
-struct _TopicLabelClass
-{
-	GtkHBoxClass parent_class;
+struct _TopicLabelClass {
+        GtkHBoxClass parent_class;
 };
 
-GType      topic_label_get_type         (void) G_GNUC_CONST;
-GtkWidget *topic_label_new              (void);
-void       topic_label_set_topic        (TopicLabel *label, struct session *sess, const char *topic);
-void       topic_label_remove_session   (TopicLabel *label, struct session *sess);
-void       topic_label_set_current      (TopicLabel *label, struct session *sess);
-void       topic_label_change_current   (TopicLabel *label);
+GType topic_label_get_type(void) G_GNUC_CONST;
+GtkWidget *topic_label_new(void);
+void topic_label_set_topic(TopicLabel *label, struct session *sess, const char *topic);
+void topic_label_remove_session(TopicLabel *label, struct session *sess);
+void topic_label_set_current(TopicLabel *label, struct session *sess);
+void topic_label_change_current(TopicLabel *label);
 
 G_END_DECLS
 

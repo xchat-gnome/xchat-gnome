@@ -22,48 +22,47 @@
 #ifndef XCHAT_GNOME_GUI_H
 #define XCHAT_GNOME_GUI_H
 
-#include <gtk/gtk.h>
-#include "userlist.h"
-#include "navigation-tree.h"
 #include "dcc-window.h"
+#include "navigation-tree.h"
 #include "preferences-dialog.h"
+#include "userlist.h"
 #include "xtext.h"
+#include <gtk/gtk.h>
 
 #include "../common/xchat.h"
 
-typedef struct
-{
-	GtkBuilder *xml;
-	GtkActionGroup *action_group;
-	GtkUIManager *manager;
-	PreferencesDialog *prefs_dialog;
-	DccWindow *dcc;
-	GtkExpander *topic_expander;
-	GtkWidget *userlist_window;
-	GtkWidget *userlist;
-	GtkWidget *userlist_toggle;
-	session *current_session;
-	gboolean initialized;
-	gboolean quit;
+typedef struct {
+        GtkBuilder *xml;
+        GtkActionGroup *action_group;
+        GtkUIManager *manager;
+        PreferencesDialog *prefs_dialog;
+        DccWindow *dcc;
+        GtkExpander *topic_expander;
+        GtkWidget *userlist_window;
+        GtkWidget *userlist;
+        GtkWidget *userlist_toggle;
+        session *current_session;
+        gboolean initialized;
+        gboolean quit;
 
-	GtkWidget *conversation_panel;
-	GtkWidget *find_bar;
-	GtkWidget *main_window;
-	GtkWidget *status_bar;
-	GtkWidget *text_entry;
-	GtkWidget *topic_label;
-	GtkWidget *topic_hbox;
-	GtkWidget *nick_button;
+        GtkWidget *conversation_panel;
+        GtkWidget *find_bar;
+        GtkWidget *main_window;
+        GtkWidget *status_bar;
+        GtkWidget *text_entry;
+        GtkWidget *topic_label;
+        GtkWidget *topic_hbox;
+        GtkWidget *nick_button;
 
-	NavModel *tree_model;
-	NavTree *server_tree;
+        NavModel *tree_model;
+        NavTree *server_tree;
 } XChatGUI;
 
 extern XChatGUI gui;
 extern Userlist *u;
 
-gboolean initialize_gui_1 (void);
-gboolean initialize_gui_2 (void);
-int xtext_get_stamp_str (time_t tim, char **ret);
+gboolean initialize_gui_1(void);
+gboolean initialize_gui_2(void);
+int xtext_get_stamp_str(time_t tim, char **ret);
 
 #endif

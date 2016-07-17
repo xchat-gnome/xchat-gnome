@@ -19,48 +19,47 @@
  *
  */
 
+#include "../common/userlist.h"
+#include "../common/xchat.h"
 #include <glib-object.h>
 #include <gtk/gtk.h>
-#include "../common/xchat.h"
-#include "../common/userlist.h"
 
 #ifndef __XCHAT_GNOME_USERLIST_H__
 #define __XCHAT_GNOME_USERLIST_H__
 
 G_BEGIN_DECLS
 
-#define USERLIST_TYPE            (userlist_get_type ())
-#define USERLIST(obj)            (G_TYPE_CHECK_INSTANCE_CAST ((obj), USERLIST_TYPE, Userlist))
-#define USERLIST_CLASS(klass)    (G_TYPE_CHECK_CLASS_CAST ((klass), USERLIST_TYPE, UserlistClass))
-#define IS_USERLIST(obj)         (G_TYPE_CHECK_INSTANCE_TYPE ((obj), USERLIST_TYPE))
-#define IS_USERLIST_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass), USERLIST_TYPE))
+#define USERLIST_TYPE (userlist_get_type())
+#define USERLIST(obj) (G_TYPE_CHECK_INSTANCE_CAST((obj), USERLIST_TYPE, Userlist))
+#define USERLIST_CLASS(klass) (G_TYPE_CHECK_CLASS_CAST((klass), USERLIST_TYPE, UserlistClass))
+#define IS_USERLIST(obj) (G_TYPE_CHECK_INSTANCE_TYPE((obj), USERLIST_TYPE))
+#define IS_USERLIST_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE((klass), USERLIST_TYPE))
 
-typedef struct _Userlist      Userlist;
+typedef struct _Userlist Userlist;
 typedef struct _UserlistClass UserlistClass;
 
-struct _Userlist
-{
-	GObject parent;
+struct _Userlist {
+        GObject parent;
 
-	GHashTable *stores;
+        GHashTable *stores;
 };
 
-struct _UserlistClass
-{
-	GObjectClass parent_class;
+struct _UserlistClass {
+        GObjectClass parent_class;
 };
 
-GType         userlist_get_type        (void) G_GNUC_CONST;
-Userlist*     userlist_new             (void);
-void          userlist_insert          (Userlist *userlist, session *sess, struct User *newuser, int row, gboolean selected);
-gboolean      userlist_remove_user     (Userlist *userlist, session *sess, struct User *user);
-void          userlist_update          (Userlist *userlist, session *sess, struct User *user);
-void          userlist_move            (Userlist *userlist, session *sess, struct User *user, int new_row);
-void          userlist_clear_all       (Userlist *userlist, session *sess);
-void          userlist_erase           (Userlist *userlist, session *sess);
-GtkListStore* userlist_get_store       (Userlist *userlist, session *sess);
-GList*        userlist_get_completion  (Userlist *userlist, session *sess);
-void	      userlist_set_user_button (Userlist *userlist, session *sess);
+GType userlist_get_type(void) G_GNUC_CONST;
+Userlist *userlist_new(void);
+void userlist_insert(Userlist *userlist, session *sess, struct User *newuser, int row,
+                     gboolean selected);
+gboolean userlist_remove_user(Userlist *userlist, session *sess, struct User *user);
+void userlist_update(Userlist *userlist, session *sess, struct User *user);
+void userlist_move(Userlist *userlist, session *sess, struct User *user, int new_row);
+void userlist_clear_all(Userlist *userlist, session *sess);
+void userlist_erase(Userlist *userlist, session *sess);
+GtkListStore *userlist_get_store(Userlist *userlist, session *sess);
+GList *userlist_get_completion(Userlist *userlist, session *sess);
+void userlist_set_user_button(Userlist *userlist, session *sess);
 
 G_END_DECLS
 

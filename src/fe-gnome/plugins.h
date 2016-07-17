@@ -19,8 +19,8 @@
  *
  */
 
-#include "navigation-tree.h"
 #include "../common/xchat.h"
+#include "navigation-tree.h"
 
 #ifndef XCHAT_GNOME_PLUGINS_H
 #define XCHAT_GNOME_PLUGINS_H
@@ -30,19 +30,18 @@
 /* This is our own plugin struct that we use for passing in function
  * pointers specific to our GUI. It must be kept identical to xg-plugin.h.
  */
-struct _xchat_gnome_plugin
-{
-	GtkWidget    *(*xg_get_main_window) ();
-	GtkTreeModel *(*xg_get_chan_list)   ();
-	GtkUIManager *(*xg_get_ui_manager)  ();
+struct _xchat_gnome_plugin {
+        GtkWidget *(*xg_get_main_window)();
+        GtkTreeModel *(*xg_get_chan_list)();
+        GtkUIManager *(*xg_get_ui_manager)();
 };
 #endif
 
 extern GSList *enabled_plugins;
 
-void  plugins_initialize (void);
-void  autoload_plugins   (void);
-int   unload_plugin      (char *filename);
-char *load_plugin        (session * sess, char *filename, char *arg, gboolean script, gboolean autoload);
+void plugins_initialize(void);
+void autoload_plugins(void);
+int unload_plugin(char *filename);
+char *load_plugin(session *sess, char *filename, char *arg, gboolean script, gboolean autoload);
 
 #endif

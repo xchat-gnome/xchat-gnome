@@ -19,77 +19,78 @@
  *
  */
 
-#include <gtk/gtk.h>
-#include <gconf/gconf-client.h>
 #include "irc-network.h"
+#include <gconf/gconf-client.h>
+#include <gtk/gtk.h>
 
 #ifndef __XCHAT_GNOME_IRC_NETWORK_EDITOR_H__
 #define __XCHAT_GNOME_IRC_NETWORK_EDITOR_H__
 
 G_BEGIN_DECLS
 
-typedef struct _IrcNetworkEditor      IrcNetworkEditor;
+typedef struct _IrcNetworkEditor IrcNetworkEditor;
 typedef struct _IrcNetworkEditorClass IrcNetworkEditorClass;
-#define IRC_NETWORK_EDITOR_TYPE            (irc_network_editor_get_type ())
-#define IRC_NETWORK_EDITOR(obj)            (G_TYPE_CHECK_INSTANCE_CAST ((obj), IRC_NETWORK_EDITOR_TYPE, IrcNetworkEditor))
-#define IRC_NETWORK_EDITOR_CLASS(klass)    (G_TYPE_CHECK_CLASS_CAST ((klass), IRC_NETWORK_EDITOR_TYPE, IrcNetworkEditorClass))
-#define IS_IRC_NETWORK_EDITOR(obj)         (G_TYPE_CHECK_INSTANCE_TYPE ((obj), IRC_NETWORK_EDITOR_TYPE))
-#define IS_IRC_NETWORK_EDITOR_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass), IRC_NETWORK_EDITOR_TYPE))
+#define IRC_NETWORK_EDITOR_TYPE (irc_network_editor_get_type())
+#define IRC_NETWORK_EDITOR(obj)                                                                    \
+        (G_TYPE_CHECK_INSTANCE_CAST((obj), IRC_NETWORK_EDITOR_TYPE, IrcNetworkEditor))
+#define IRC_NETWORK_EDITOR_CLASS(klass)                                                            \
+        (G_TYPE_CHECK_CLASS_CAST((klass), IRC_NETWORK_EDITOR_TYPE, IrcNetworkEditorClass))
+#define IS_IRC_NETWORK_EDITOR(obj) (G_TYPE_CHECK_INSTANCE_TYPE((obj), IRC_NETWORK_EDITOR_TYPE))
+#define IS_IRC_NETWORK_EDITOR_CLASS(klass)                                                         \
+        (G_TYPE_CHECK_CLASS_TYPE((klass), IRC_NETWORK_EDITOR_TYPE))
 
-struct _IrcNetworkEditor
-{
-	GtkDialog parent;
+struct _IrcNetworkEditor {
+        GtkDialog parent;
 
-	IrcNetwork *network;
-	GConfClient *gconf;
+        IrcNetwork *network;
+        GConfClient *gconf;
 
-	GtkWidget *network_settings_table;
+        GtkWidget *network_settings_table;
 
-	GtkWidget *network_name;
+        GtkWidget *network_name;
 
-	GtkWidget *autoconnect;
-	GtkWidget *use_ssl;
-	GtkWidget *allow_invalid;
-	GtkWidget *cycle;
+        GtkWidget *autoconnect;
+        GtkWidget *use_ssl;
+        GtkWidget *allow_invalid;
+        GtkWidget *cycle;
 
-	GtkWidget *password;
-	GtkWidget *nickserv_password;
-	GtkWidget *encoding;
+        GtkWidget *password;
+        GtkWidget *nickserv_password;
+        GtkWidget *encoding;
 
-	GtkWidget *servers;
-	GtkWidget *add_server;
-	GtkWidget *edit_server;
-	GtkWidget *remove_server;
-	GtkCellRenderer *server_renderer;
-	GtkListStore *server_store;
-	GtkTreeViewColumn *server_column;
+        GtkWidget *servers;
+        GtkWidget *add_server;
+        GtkWidget *edit_server;
+        GtkWidget *remove_server;
+        GtkCellRenderer *server_renderer;
+        GtkListStore *server_store;
+        GtkTreeViewColumn *server_column;
 
-	GtkWidget *use_globals;
-	GtkWidget *use_custom;
-	GtkWidget *custom_box;
-	GtkWidget *nickname;
-	GtkWidget *realname;
+        GtkWidget *use_globals;
+        GtkWidget *use_custom;
+        GtkWidget *custom_box;
+        GtkWidget *nickname;
+        GtkWidget *realname;
 
-	GtkWidget *autojoin_channels;
-	GtkWidget *add_autojoin;
-	GtkWidget *edit_autojoin;
-	GtkWidget *remove_autojoin;
-	GtkCellRenderer *autojoin_renderer;
-	GtkCellRenderer *autojoin_key_renderer;
-	GtkListStore *autojoin_store;
-	GtkTreeViewColumn *autojoin_column;
+        GtkWidget *autojoin_channels;
+        GtkWidget *add_autojoin;
+        GtkWidget *edit_autojoin;
+        GtkWidget *remove_autojoin;
+        GtkCellRenderer *autojoin_renderer;
+        GtkCellRenderer *autojoin_key_renderer;
+        GtkListStore *autojoin_store;
+        GtkTreeViewColumn *autojoin_column;
 
-	GtkWidget *toplevel;
+        GtkWidget *toplevel;
 };
 
-struct _IrcNetworkEditorClass
-{
-	GtkDialogClass parent_class;
+struct _IrcNetworkEditorClass {
+        GtkDialogClass parent_class;
 };
 
-GType             irc_network_editor_get_type (void) G_GNUC_CONST;
-IrcNetworkEditor *irc_network_editor_new (IrcNetwork *network);
-void              irc_network_editor_run (IrcNetworkEditor *editor);
+GType irc_network_editor_get_type(void) G_GNUC_CONST;
+IrcNetworkEditor *irc_network_editor_new(IrcNetwork *network);
+void irc_network_editor_run(IrcNetworkEditor *editor);
 
 G_END_DECLS
 

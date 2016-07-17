@@ -25,31 +25,29 @@
 
 G_BEGIN_DECLS
 
-typedef struct _FindBar      FindBar;
+typedef struct _FindBar FindBar;
 typedef struct _FindBarClass FindBarClass;
-typedef struct _FindBarPriv  FindBarPriv;
+typedef struct _FindBarPriv FindBarPriv;
 
-#define FIND_BAR_TYPE            (find_bar_get_type ())
-#define FIND_BAR(obj)            (G_TYPE_CHECK_INSTANCE_CAST ((obj), FIND_BAR_TYPE, FindBar))
-#define FIND_BAR_CLASS(klass)    (G_TYPE_CHECK_CLASS_CAST ((klass), FIND_BAR_TYPE, FindBarClass))
-#define IS_FIND_BAR(obj)         (G_TYPE_CHECK_INSTANCE_TYPE ((obj), FIND_BAR_TYPE))
-#define IS_FIND_BAR_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass), FIND_BAR_TYPE))
+#define FIND_BAR_TYPE (find_bar_get_type())
+#define FIND_BAR(obj) (G_TYPE_CHECK_INSTANCE_CAST((obj), FIND_BAR_TYPE, FindBar))
+#define FIND_BAR_CLASS(klass) (G_TYPE_CHECK_CLASS_CAST((klass), FIND_BAR_TYPE, FindBarClass))
+#define IS_FIND_BAR(obj) (G_TYPE_CHECK_INSTANCE_TYPE((obj), FIND_BAR_TYPE))
+#define IS_FIND_BAR_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE((klass), FIND_BAR_TYPE))
 
-struct _FindBar
-{
-	GtkHBox      parent;
-	FindBarPriv *priv;
+struct _FindBar {
+        GtkHBox parent;
+        FindBarPriv *priv;
 };
 
-struct _FindBarClass
-{
-	GtkHBoxClass parent_class;
+struct _FindBarClass {
+        GtkHBoxClass parent_class;
 };
 
-GType      find_bar_get_type (void) G_GNUC_CONST;
-GtkWidget *find_bar_new      (void);
-void       find_bar_close    (FindBar *bar);
-void       find_bar_open     (FindBar *bar);
+GType find_bar_get_type(void) G_GNUC_CONST;
+GtkWidget *find_bar_new(void);
+void find_bar_close(FindBar *bar);
+void find_bar_open(FindBar *bar);
 
 G_END_DECLS
 

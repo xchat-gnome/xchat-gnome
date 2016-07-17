@@ -19,9 +19,9 @@
  *
  */
 
-#include <gtk/gtk.h>
-#include "../common/xchat.h"
 #include "../common/servlist.h"
+#include "../common/xchat.h"
+#include <gtk/gtk.h>
 
 #ifndef __XCHAT_GNOME_NAVTREE_H__
 #define __XCHAT_GNOME_NAVTREE_H__
@@ -35,59 +35,54 @@ typedef struct _NavModel NavModel;
 typedef struct _NavModelClass NavModelClass;
 
 /***** NavTree *****/
-#define NAVTREE_TYPE            (navigation_tree_get_type ())
-#define NAVTREE(obj)            (G_TYPE_CHECK_INSTANCE_CAST ((obj), NAVTREE_TYPE, NavTree))
-#define NAVTREE_CLASS(klass)    (G_TYPE_CHECK_CLASS_CAST ((klass), NAVTREE_TYPE, NavTreeClass))
-#define IS_NAVTREE(obj)         (G_TYPE_CHECK_INSTANCE_TYPE ((obj), NAVTREE_TYPE))
-#define IS_NAVTREE_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass), NAVTREE_TYPE))
+#define NAVTREE_TYPE (navigation_tree_get_type())
+#define NAVTREE(obj) (G_TYPE_CHECK_INSTANCE_CAST((obj), NAVTREE_TYPE, NavTree))
+#define NAVTREE_CLASS(klass) (G_TYPE_CHECK_CLASS_CAST((klass), NAVTREE_TYPE, NavTreeClass))
+#define IS_NAVTREE(obj) (G_TYPE_CHECK_INSTANCE_TYPE((obj), NAVTREE_TYPE))
+#define IS_NAVTREE_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE((klass), NAVTREE_TYPE))
 
-struct _NavTree
-{
-	GtkTreeView parent;
+struct _NavTree {
+        GtkTreeView parent;
 
-	NavTreePriv *priv;
+        NavTreePriv *priv;
 };
 
-struct _NavTreeClass
-{
-	GtkTreeViewClass parent_class;
+struct _NavTreeClass {
+        GtkTreeViewClass parent_class;
 };
 
-GType    navigation_tree_get_type       (void) G_GNUC_CONST;
-NavTree *navigation_tree_new            (NavModel *model);
-void     navigation_tree_select_session (NavTree *tree, session *sess);
-void     navigation_tree_remove_session (NavTree *tree, session *sess);
-void     navigation_tree_add_accels     (NavTree *navtree, GtkWindow *window);
+GType navigation_tree_get_type(void) G_GNUC_CONST;
+NavTree *navigation_tree_new(NavModel *model);
+void navigation_tree_select_session(NavTree *tree, session *sess);
+void navigation_tree_remove_session(NavTree *tree, session *sess);
+void navigation_tree_add_accels(NavTree *navtree, GtkWindow *window);
 
-void     set_action_state               (NavTree *navtree);
-
+void set_action_state(NavTree *navtree);
 
 /***** NavModel *****/
-#define NAVMODEL_TYPE            (navigation_model_get_type ())
-#define NAVMODEL(obj)            (G_TYPE_CHECK_INSTANCE_CAST ((obj), NAVMODEL_TYPE, NavModel))
-#define NAVMODEL_CLASS(klass)    (G_TYPE_CHECK_CLASS_CAST ((klass), NAVMODEL_TYPE, NavModelClass))
-#define IS_NAVMODEL(obj)         (G_TYPE_CHECK_INSTANCE_TYPE ((obj), NAVMODEL_TYPE))
-#define IS_NAVMODEL_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass), NAVMODEL_TYPE))
+#define NAVMODEL_TYPE (navigation_model_get_type())
+#define NAVMODEL(obj) (G_TYPE_CHECK_INSTANCE_CAST((obj), NAVMODEL_TYPE, NavModel))
+#define NAVMODEL_CLASS(klass) (G_TYPE_CHECK_CLASS_CAST((klass), NAVMODEL_TYPE, NavModelClass))
+#define IS_NAVMODEL(obj) (G_TYPE_CHECK_INSTANCE_TYPE((obj), NAVMODEL_TYPE))
+#define IS_NAVMODEL_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE((klass), NAVMODEL_TYPE))
 
-struct _NavModel
-{
-	GtkTreeStore parent;
+struct _NavModel {
+        GtkTreeStore parent;
 };
 
-struct _NavModelClass
-{
-	GtkTreeStoreClass parent;
+struct _NavModelClass {
+        GtkTreeStoreClass parent;
 };
 
-GType     navigation_model_get_type         (void) G_GNUC_CONST;
-NavModel *navigation_model_new              (void);
+GType navigation_model_get_type(void) G_GNUC_CONST;
+NavModel *navigation_model_new(void);
 
-void      navigation_model_add_server       (NavModel *model, session *sess);
-void      navigation_model_add_channel      (NavModel *model, session *sess);
-void      navigation_model_update           (NavModel *model, session *sess);
-void      navigation_model_set_disconnected (NavModel *model, session *sess);
-void      navigation_model_set_hilight      (NavModel *model, session *sess);
-void      navigation_model_set_current      (NavModel *model, session *sess);
+void navigation_model_add_server(NavModel *model, session *sess);
+void navigation_model_add_channel(NavModel *model, session *sess);
+void navigation_model_update(NavModel *model, session *sess);
+void navigation_model_set_disconnected(NavModel *model, session *sess);
+void navigation_model_set_hilight(NavModel *model, session *sess);
+void navigation_model_set_current(NavModel *model, session *sess);
 
 G_END_DECLS
 

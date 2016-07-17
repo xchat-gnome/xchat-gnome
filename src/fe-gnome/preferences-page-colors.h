@@ -27,52 +27,54 @@
 
 G_BEGIN_DECLS
 
-typedef struct _PreferencesPageColors      PreferencesPageColors;
+typedef struct _PreferencesPageColors PreferencesPageColors;
 typedef struct _PreferencesPageColorsClass PreferencesPageColorsClass;
-#define PREFERENCES_PAGE_COLORS_TYPE            (preferences_page_colors_get_type ())
-#define PREFERENCES_PAGE_COLORS(obj)            (G_TYPE_CHECK_INSTANCE_CAST ((obj), PREFERENCES_PAGE_COLORS_TYPE, PreferencesPageColors))
-#define PREFERENCES_PAGE_COLORS_CLASS(klass)    (G_TYPE_CHECK_CLASS_CAST ((klass), PREFERENCES_PAGE_COLORS_TYPE, PreferencesPageColorsClass))
-#define IS_PREFERENCES_PAGE_COLORS(obj)         (G_TYPE_CHECK_INSTANCE_TYPE ((obj), PREFERENCES_PAGE_COLORS_TYPE))
-#define IS_PREFERENCES_PAGE_COLORS_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass), PREFERENCES_PAGE_COLORS_TYPE))
+#define PREFERENCES_PAGE_COLORS_TYPE (preferences_page_colors_get_type())
+#define PREFERENCES_PAGE_COLORS(obj)                                                               \
+        (G_TYPE_CHECK_INSTANCE_CAST((obj), PREFERENCES_PAGE_COLORS_TYPE, PreferencesPageColors))
+#define PREFERENCES_PAGE_COLORS_CLASS(klass)                                                       \
+        (G_TYPE_CHECK_CLASS_CAST((klass), PREFERENCES_PAGE_COLORS_TYPE, PreferencesPageColorsClass))
+#define IS_PREFERENCES_PAGE_COLORS(obj)                                                            \
+        (G_TYPE_CHECK_INSTANCE_TYPE((obj), PREFERENCES_PAGE_COLORS_TYPE))
+#define IS_PREFERENCES_PAGE_COLORS_CLASS(klass)                                                    \
+        (G_TYPE_CHECK_CLASS_TYPE((klass), PREFERENCES_PAGE_COLORS_TYPE))
 
-struct _PreferencesPageColors
-{
-	PreferencesPage parent;
+struct _PreferencesPageColors {
+        PreferencesPage parent;
 
-	GtkWidget *combo;
+        GtkWidget *combo;
 
-	GtkWidget *show_colors;
-	GtkWidget *colorize_nicknames;
-	GtkWidget *color_buttons[4];
-	GtkWidget *palette_buttons[32];
+        GtkWidget *show_colors;
+        GtkWidget *colorize_nicknames;
+        GtkWidget *color_buttons[4];
+        GtkWidget *palette_buttons[32];
 
-	GtkWidget *color_label_1;
-	GtkWidget *color_label_2;
-	GtkWidget *color_label_3;
-	GtkWidget *color_label_4;
-	GtkWidget *color_label_5;
+        GtkWidget *color_label_1;
+        GtkWidget *color_label_2;
+        GtkWidget *color_label_3;
+        GtkWidget *color_label_4;
+        GtkWidget *color_label_5;
 
-	GtkWidget *foreground_background_hbox;
-	GtkWidget *text_color_hbox;
-	GtkWidget *background_color_hbox;
-	GtkWidget *foreground_mark_hbox;
-	GtkWidget *background_mark_hbox;
+        GtkWidget *foreground_background_hbox;
+        GtkWidget *text_color_hbox;
+        GtkWidget *background_color_hbox;
+        GtkWidget *foreground_mark_hbox;
+        GtkWidget *background_mark_hbox;
 
-	GtkWidget *mirc_colors_box;
-	GtkWidget *mirc_palette_table;
-	GtkWidget *extra_colors_box;
-	GtkWidget *extra_palette_table;
+        GtkWidget *mirc_colors_box;
+        GtkWidget *mirc_palette_table;
+        GtkWidget *extra_colors_box;
+        GtkWidget *extra_palette_table;
 
-	guint      nh[3];
+        guint nh[3];
 };
 
-struct _PreferencesPageColorsClass
-{
-	PreferencesPageClass parent_class;
+struct _PreferencesPageColorsClass {
+        PreferencesPageClass parent_class;
 };
 
-GType              	preferences_page_colors_get_type (void) G_GNUC_CONST;
-PreferencesPageColors* preferences_page_colors_new  (gpointer prefs_dialog, GtkBuilder *xml);
+GType preferences_page_colors_get_type(void) G_GNUC_CONST;
+PreferencesPageColors *preferences_page_colors_new(gpointer prefs_dialog, GtkBuilder *xml);
 
 G_END_DECLS
 

@@ -19,295 +19,378 @@
  *
  */
 
-#include <config.h>
-#include <glib/gi18n.h>
-#include <gconf/gconf-client.h>
+#include "preferences-page-colors.h"
 #include "conversation-panel.h"
 #include "gui.h"
 #include "palette.h"
-#include "preferences-page-colors.h"
 #include "preferences-dialog.h"
-#include "xtext.h"
 #include "util.h"
+#include "xtext.h"
+#include <config.h>
+#include <gconf/gconf-client.h>
+#include <glib/gi18n.h>
 
 G_DEFINE_TYPE(PreferencesPageColors, preferences_page_colors, PREFERENCES_PAGE_TYPE)
 
 static int scheme;
 
-static void
-toggle_pref_changed (GtkToggleButton *button, const gchar *key)
+static void toggle_pref_changed(GtkToggleButton *button, const gchar *key)
 {
-	GConfClient *client;
-	gboolean value;
+        GConfClient *client;
+        gboolean value;
 
-	client = gconf_client_get_default ();
-	value = gtk_toggle_button_get_active (button);
-	gconf_client_set_bool (client, key, value, NULL);
-	g_object_unref (client);
+        client = gconf_client_get_default();
+        value = gtk_toggle_button_get_active(button);
+        gconf_client_set_bool(client, key, value, NULL);
+        g_object_unref(client);
 }
 
-static void
-color_button_changed (GtkColorButton *button, gpointer data)
+static void color_button_changed(GtkColorButton *button, gpointer data)
 {
-	int index = GPOINTER_TO_INT (data);
-	GdkColor c;
+        int index = GPOINTER_TO_INT(data);
+        GdkColor c;
 
-	if (scheme != 2) {
-		return;
-	}
+        if (scheme != 2) {
+                return;
+        }
 
-	gtk_color_button_get_color (button, &c);
-	if (index < 32) {
-		custom_palette[index].red = c.red;
-		custom_palette[index].green = c.green;
-		custom_palette[index].blue = c.blue;
-	} else {
-		custom_colors[index - 32].red = c.red;
-		custom_colors[index - 32].green = c.green;
-		custom_colors[index - 32].blue = c.blue;
-	}
-	palette_save ();
+        gtk_color_button_get_color(button, &c);
+        if (index < 32) {
+                custom_palette[index].red = c.red;
+                custom_palette[index].green = c.green;
+                custom_palette[index].blue = c.blue;
+        } else {
+                custom_colors[index - 32].red = c.red;
+                custom_colors[index - 32].green = c.green;
+                custom_colors[index - 32].blue = c.blue;
+        }
+        palette_save();
 
-	load_colors (2);
-	load_palette (2);
+        load_colors(2);
+        load_palette(2);
 
-	conversation_panel_update_colors (CONVERSATION_PANEL (gui.conversation_panel));
+        conversation_panel_update_colors(CONVERSATION_PANEL(gui.conversation_panel));
 }
 
-static void
-set_color_buttons (int selection, GtkWidget **color_buttons)
+static void set_color_buttons(int selection, GtkWidget **color_buttons)
 {
-	load_colors (selection);
+        load_colors(selection);
 
-	g_signal_handlers_block_by_func (G_OBJECT (color_buttons[0]), G_CALLBACK (color_button_changed), GINT_TO_POINTER (32));
-	g_signal_handlers_block_by_func (G_OBJECT (color_buttons[1]), G_CALLBACK (color_button_changed), GINT_TO_POINTER (33));
-	g_signal_handlers_block_by_func (G_OBJECT (color_buttons[2]), G_CALLBACK (color_button_changed), GINT_TO_POINTER (34));
-	g_signal_handlers_block_by_func (G_OBJECT (color_buttons[3]), G_CALLBACK (color_button_changed), GINT_TO_POINTER (35));
+        g_signal_handlers_block_by_func(G_OBJECT(color_buttons[0]),
+                                        G_CALLBACK(color_button_changed),
+                                        GINT_TO_POINTER(32));
+        g_signal_handlers_block_by_func(G_OBJECT(color_buttons[1]),
+                                        G_CALLBACK(color_button_changed),
+                                        GINT_TO_POINTER(33));
+        g_signal_handlers_block_by_func(G_OBJECT(color_buttons[2]),
+                                        G_CALLBACK(color_button_changed),
+                                        GINT_TO_POINTER(34));
+        g_signal_handlers_block_by_func(G_OBJECT(color_buttons[3]),
+                                        G_CALLBACK(color_button_changed),
+                                        GINT_TO_POINTER(35));
 
-	gtk_color_button_set_color (GTK_COLOR_BUTTON (color_buttons[0]), &colors[34]);
-	gtk_color_button_set_color (GTK_COLOR_BUTTON (color_buttons[1]), &colors[35]);
-	gtk_color_button_set_color (GTK_COLOR_BUTTON (color_buttons[2]), &colors[32]);
-	gtk_color_button_set_color (GTK_COLOR_BUTTON (color_buttons[3]), &colors[33]);
+        gtk_color_button_set_color(GTK_COLOR_BUTTON(color_buttons[0]), &colors[34]);
+        gtk_color_button_set_color(GTK_COLOR_BUTTON(color_buttons[1]), &colors[35]);
+        gtk_color_button_set_color(GTK_COLOR_BUTTON(color_buttons[2]), &colors[32]);
+        gtk_color_button_set_color(GTK_COLOR_BUTTON(color_buttons[3]), &colors[33]);
 
-	g_signal_handlers_unblock_by_func (G_OBJECT (color_buttons[0]), G_CALLBACK (color_button_changed), GINT_TO_POINTER (32));
-	g_signal_handlers_unblock_by_func (G_OBJECT (color_buttons[1]), G_CALLBACK (color_button_changed), GINT_TO_POINTER (33));
-	g_signal_handlers_unblock_by_func (G_OBJECT (color_buttons[2]), G_CALLBACK (color_button_changed), GINT_TO_POINTER (34));
-	g_signal_handlers_unblock_by_func (G_OBJECT (color_buttons[3]), G_CALLBACK (color_button_changed), GINT_TO_POINTER (35));
+        g_signal_handlers_unblock_by_func(G_OBJECT(color_buttons[0]),
+                                          G_CALLBACK(color_button_changed),
+                                          GINT_TO_POINTER(32));
+        g_signal_handlers_unblock_by_func(G_OBJECT(color_buttons[1]),
+                                          G_CALLBACK(color_button_changed),
+                                          GINT_TO_POINTER(33));
+        g_signal_handlers_unblock_by_func(G_OBJECT(color_buttons[2]),
+                                          G_CALLBACK(color_button_changed),
+                                          GINT_TO_POINTER(34));
+        g_signal_handlers_unblock_by_func(G_OBJECT(color_buttons[3]),
+                                          G_CALLBACK(color_button_changed),
+                                          GINT_TO_POINTER(35));
 
-	conversation_panel_update_colors (CONVERSATION_PANEL (gui.conversation_panel));
+        conversation_panel_update_colors(CONVERSATION_PANEL(gui.conversation_panel));
 }
 
-static void
-set_palette_buttons (int selection, GtkWidget **palette_buttons)
+static void set_palette_buttons(int selection, GtkWidget **palette_buttons)
 {
-	int i;
+        int i;
 
-	load_palette (selection);
-	for (i = 0; i < 32; i++) {
-		g_signal_handlers_block_by_func (G_OBJECT (palette_buttons[i]), G_CALLBACK (color_button_changed), GINT_TO_POINTER (i));
-		gtk_color_button_set_color (GTK_COLOR_BUTTON (palette_buttons[i]), &colors[i]);
-		g_signal_handlers_unblock_by_func (G_OBJECT (palette_buttons[i]), G_CALLBACK (color_button_changed), GINT_TO_POINTER (i));
-	}
-	conversation_panel_update_colors (CONVERSATION_PANEL (gui.conversation_panel));
+        load_palette(selection);
+        for (i = 0; i < 32; i++) {
+                g_signal_handlers_block_by_func(G_OBJECT(palette_buttons[i]),
+                                                G_CALLBACK(color_button_changed),
+                                                GINT_TO_POINTER(i));
+                gtk_color_button_set_color(GTK_COLOR_BUTTON(palette_buttons[i]), &colors[i]);
+                g_signal_handlers_unblock_by_func(G_OBJECT(palette_buttons[i]),
+                                                  G_CALLBACK(color_button_changed),
+                                                  GINT_TO_POINTER(i));
+        }
+        conversation_panel_update_colors(CONVERSATION_PANEL(gui.conversation_panel));
 }
 
-static void
-colors_changed (GtkComboBox *combo_box, PreferencesPageColors *page)
+static void colors_changed(GtkComboBox *combo_box, PreferencesPageColors *page)
 {
-	int i, selection;
-	GConfClient *client;
-	gboolean sensitive;
+        int i, selection;
+        GConfClient *client;
+        gboolean sensitive;
 
-	client = gconf_client_get_default ();
+        client = gconf_client_get_default();
 
-	selection = gtk_combo_box_get_active (combo_box);
-	scheme = selection;
+        selection = gtk_combo_box_get_active(combo_box);
+        scheme = selection;
 
-	sensitive = (selection == 2);
+        sensitive = (selection == 2);
 
-	/* If we've set custom, sensitize the color buttons */
-	for (i = 0; i < 4; i++) {
-		gtk_widget_set_sensitive (page->color_buttons[i], sensitive);
-	}
-	for (i = 0; i < 32; i++) {
-		gtk_widget_set_sensitive (page->palette_buttons[i], sensitive);
-	}
+        /* If we've set custom, sensitize the color buttons */
+        for (i = 0; i < 4; i++) {
+                gtk_widget_set_sensitive(page->color_buttons[i], sensitive);
+        }
+        for (i = 0; i < 32; i++) {
+                gtk_widget_set_sensitive(page->palette_buttons[i], sensitive);
+        }
 
-	gtk_widget_set_sensitive (page->mirc_colors_box, sensitive);
-	gtk_widget_set_sensitive (page->extra_colors_box, sensitive);
+        gtk_widget_set_sensitive(page->mirc_colors_box, sensitive);
+        gtk_widget_set_sensitive(page->extra_colors_box, sensitive);
 
-	gconf_client_set_int (client, "/apps/xchat/irc/color_scheme", selection, NULL);
-	set_color_buttons (selection, page->color_buttons);
-	set_palette_buttons (selection, page->palette_buttons);
+        gconf_client_set_int(client, "/apps/xchat/irc/color_scheme", selection, NULL);
+        set_color_buttons(selection, page->color_buttons);
+        set_palette_buttons(selection, page->palette_buttons);
 
-	g_object_unref (client);
+        g_object_unref(client);
 }
 
-static void
-gconf_toggle_pref_changed (GConfClient *client, guint cnxn_id, GConfEntry *entry, GtkToggleButton *button)
+static void gconf_toggle_pref_changed(GConfClient *client, guint cnxn_id, GConfEntry *entry,
+                                      GtkToggleButton *button)
 {
-	gboolean toggle;
+        gboolean toggle;
 
-	g_signal_handlers_block_by_func (button, "toggled", toggle_pref_changed);
-	toggle = gconf_client_get_bool (client, entry->key, NULL);
-	gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (button), toggle);
-	g_signal_handlers_unblock_by_func (button, "toggled", toggle_pref_changed);
+        g_signal_handlers_block_by_func(button, "toggled", toggle_pref_changed);
+        toggle = gconf_client_get_bool(client, entry->key, NULL);
+        gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(button), toggle);
+        g_signal_handlers_unblock_by_func(button, "toggled", toggle_pref_changed);
 }
 
-static void
-gconf_color_changed (GConfClient *client, guint cnxn_id, GConfEntry *entry, PreferencesPageColors *page)
+static void gconf_color_changed(GConfClient *client, guint cnxn_id, GConfEntry *entry,
+                                PreferencesPageColors *page)
 {
-	int selection;
-	selection = gconf_client_get_int (client, entry->key, NULL);
-	scheme = selection;
+        int selection;
+        selection = gconf_client_get_int(client, entry->key, NULL);
+        scheme = selection;
 
-	gtk_combo_box_set_active (GTK_COMBO_BOX (page->combo), selection);
-	set_color_buttons (selection, page->color_buttons);
-	set_palette_buttons (selection, page->palette_buttons);
+        gtk_combo_box_set_active(GTK_COMBO_BOX(page->combo), selection);
+        set_color_buttons(selection, page->color_buttons);
+        set_palette_buttons(selection, page->palette_buttons);
 }
 
-PreferencesPageColors *
-preferences_page_colors_new (gpointer prefs_dialog, GtkBuilder *xml)
+PreferencesPageColors *preferences_page_colors_new(gpointer prefs_dialog, GtkBuilder *xml)
 {
-	PreferencesPageColors *page = g_object_new (PREFERENCES_PAGE_COLORS_TYPE, NULL);
-	PreferencesDialog *p = (PreferencesDialog *) prefs_dialog;
-	GtkSizeGroup *group;
-	GtkTreeIter iter;
-	gint i, j;
-	gboolean toggle;
+        PreferencesPageColors *page = g_object_new(PREFERENCES_PAGE_COLORS_TYPE, NULL);
+        PreferencesDialog *p = (PreferencesDialog *)prefs_dialog;
+        GtkSizeGroup *group;
+        GtkTreeIter iter;
+        gint i, j;
+        gboolean toggle;
 
-	palette_init ();
+        palette_init();
 
-#define GW(name) ((page->name) = GTK_WIDGET (gtk_builder_get_object (xml, #name)))
-	GW(show_colors);
-	GW(colorize_nicknames);
-	GW(color_label_1);
-	GW(color_label_2);
-	GW(color_label_3);
-	GW(color_label_4);
-	GW(color_label_5);
+#define GW(name) ((page->name) = GTK_WIDGET(gtk_builder_get_object(xml, #name)))
+        GW(show_colors);
+        GW(colorize_nicknames);
+        GW(color_label_1);
+        GW(color_label_2);
+        GW(color_label_3);
+        GW(color_label_4);
+        GW(color_label_5);
 
-	GW(foreground_background_hbox);
-	GW(text_color_hbox);
-	GW(background_color_hbox);
-	GW(foreground_mark_hbox);
-	GW(background_mark_hbox);
+        GW(foreground_background_hbox);
+        GW(text_color_hbox);
+        GW(background_color_hbox);
+        GW(foreground_mark_hbox);
+        GW(background_mark_hbox);
 
-	GW(mirc_colors_box);
-	GW(mirc_palette_table);
-	GW(extra_colors_box);
-	GW(extra_palette_table);
+        GW(mirc_colors_box);
+        GW(mirc_palette_table);
+        GW(extra_colors_box);
+        GW(extra_palette_table);
 #undef GW
 
-	group = gtk_size_group_new (GTK_SIZE_GROUP_HORIZONTAL);
-	gtk_size_group_add_widget (group, page->color_label_1);
-	gtk_size_group_add_widget (group, page->color_label_2);
-	gtk_size_group_add_widget (group, page->color_label_3);
-	gtk_size_group_add_widget (group, page->color_label_4);
-	gtk_size_group_add_widget (group, page->color_label_5);
-	g_object_unref (group);
+        group = gtk_size_group_new(GTK_SIZE_GROUP_HORIZONTAL);
+        gtk_size_group_add_widget(group, page->color_label_1);
+        gtk_size_group_add_widget(group, page->color_label_2);
+        gtk_size_group_add_widget(group, page->color_label_3);
+        gtk_size_group_add_widget(group, page->color_label_4);
+        gtk_size_group_add_widget(group, page->color_label_5);
+        g_object_unref(group);
 
-	for (j = 0; j < 2; j++) {
-		for (i = 0; i < 8; i++) {
-			gint c = j * 8 + i;
-			page->palette_buttons[c] = gtk_color_button_new ();
-			gtk_widget_show (page->palette_buttons[c]);
-			gtk_table_attach_defaults (GTK_TABLE (page->mirc_palette_table), page->palette_buttons[c], i, i+1, j, j+1);
-			gtk_color_button_set_color (GTK_COLOR_BUTTON (page->palette_buttons[c]), &colors[c]);
-			g_signal_connect (G_OBJECT (page->palette_buttons[c]), "color-set", G_CALLBACK (color_button_changed), GINT_TO_POINTER (c));
-		}
-	}
-	for (j = 0; j < 2; j++) {
-		for (i = 0; i < 8; i++) {
-			gint c = j * 8 + i + 16;
-			page->palette_buttons[c] = gtk_color_button_new ();
-			gtk_widget_show (page->palette_buttons[c]);
-			gtk_table_attach_defaults (GTK_TABLE (page->extra_palette_table), page->palette_buttons[c], i, i+1, j, j+1);
-			gtk_color_button_set_color (GTK_COLOR_BUTTON (page->palette_buttons[c]), &colors[c]);
-			g_signal_connect (G_OBJECT (page->palette_buttons[c]), "color-set", G_CALLBACK (color_button_changed), GINT_TO_POINTER (c));
-		}
-	}
+        for (j = 0; j < 2; j++) {
+                for (i = 0; i < 8; i++) {
+                        gint c = j * 8 + i;
+                        page->palette_buttons[c] = gtk_color_button_new();
+                        gtk_widget_show(page->palette_buttons[c]);
+                        gtk_table_attach_defaults(GTK_TABLE(page->mirc_palette_table),
+                                                  page->palette_buttons[c],
+                                                  i,
+                                                  i + 1,
+                                                  j,
+                                                  j + 1);
+                        gtk_color_button_set_color(GTK_COLOR_BUTTON(page->palette_buttons[c]),
+                                                   &colors[c]);
+                        g_signal_connect(G_OBJECT(page->palette_buttons[c]),
+                                         "color-set",
+                                         G_CALLBACK(color_button_changed),
+                                         GINT_TO_POINTER(c));
+                }
+        }
+        for (j = 0; j < 2; j++) {
+                for (i = 0; i < 8; i++) {
+                        gint c = j * 8 + i + 16;
+                        page->palette_buttons[c] = gtk_color_button_new();
+                        gtk_widget_show(page->palette_buttons[c]);
+                        gtk_table_attach_defaults(GTK_TABLE(page->extra_palette_table),
+                                                  page->palette_buttons[c],
+                                                  i,
+                                                  i + 1,
+                                                  j,
+                                                  j + 1);
+                        gtk_color_button_set_color(GTK_COLOR_BUTTON(page->palette_buttons[c]),
+                                                   &colors[c]);
+                        g_signal_connect(G_OBJECT(page->palette_buttons[c]),
+                                         "color-set",
+                                         G_CALLBACK(color_button_changed),
+                                         GINT_TO_POINTER(c));
+                }
+        }
 
-	for (i = 0; i < 4; i++) {
-		page->color_buttons[i] = gtk_color_button_new ();
-		gtk_widget_show (page->color_buttons[i]);
-	}
-	gtk_box_pack_start (GTK_BOX (page->text_color_hbox),       page->color_buttons[0], FALSE, TRUE, 0);
-	gtk_box_pack_start (GTK_BOX (page->background_color_hbox), page->color_buttons[1], FALSE, TRUE, 0);
-	gtk_box_pack_start (GTK_BOX (page->foreground_mark_hbox),  page->color_buttons[2], FALSE, TRUE, 0);
-	gtk_box_pack_start (GTK_BOX (page->background_mark_hbox),  page->color_buttons[3], FALSE, TRUE, 0);
+        for (i = 0; i < 4; i++) {
+                page->color_buttons[i] = gtk_color_button_new();
+                gtk_widget_show(page->color_buttons[i]);
+        }
+        gtk_box_pack_start(GTK_BOX(page->text_color_hbox), page->color_buttons[0], FALSE, TRUE, 0);
+        gtk_box_pack_start(GTK_BOX(page->background_color_hbox),
+                           page->color_buttons[1],
+                           FALSE,
+                           TRUE,
+                           0);
+        gtk_box_pack_start(GTK_BOX(page->foreground_mark_hbox),
+                           page->color_buttons[2],
+                           FALSE,
+                           TRUE,
+                           0);
+        gtk_box_pack_start(GTK_BOX(page->background_mark_hbox),
+                           page->color_buttons[3],
+                           FALSE,
+                           TRUE,
+                           0);
 
-	gtk_label_set_mnemonic_widget (GTK_LABEL (page->color_label_2), page->color_buttons[0]);
-	gtk_label_set_mnemonic_widget (GTK_LABEL (page->color_label_3), page->color_buttons[1]);
-	gtk_label_set_mnemonic_widget (GTK_LABEL (page->color_label_4), page->color_buttons[2]);
-	gtk_label_set_mnemonic_widget (GTK_LABEL (page->color_label_5), page->color_buttons[3]);
+        gtk_label_set_mnemonic_widget(GTK_LABEL(page->color_label_2), page->color_buttons[0]);
+        gtk_label_set_mnemonic_widget(GTK_LABEL(page->color_label_3), page->color_buttons[1]);
+        gtk_label_set_mnemonic_widget(GTK_LABEL(page->color_label_4), page->color_buttons[2]);
+        gtk_label_set_mnemonic_widget(GTK_LABEL(page->color_label_5), page->color_buttons[3]);
 
-	g_signal_connect (G_OBJECT (page->show_colors),        "toggled", G_CALLBACK (toggle_pref_changed), "/apps/xchat/irc/showcolors");
-	g_signal_connect (G_OBJECT (page->colorize_nicknames), "toggled", G_CALLBACK (toggle_pref_changed), "/apps/xchat/irc/colorize_nicknames");
-	g_signal_connect (G_OBJECT (page->color_buttons[0]), "color-set", G_CALLBACK (color_button_changed), GINT_TO_POINTER (32));
-	g_signal_connect (G_OBJECT (page->color_buttons[1]), "color-set", G_CALLBACK (color_button_changed), GINT_TO_POINTER (33));
-	g_signal_connect (G_OBJECT (page->color_buttons[2]), "color-set", G_CALLBACK (color_button_changed), GINT_TO_POINTER (34));
-	g_signal_connect (G_OBJECT (page->color_buttons[3]), "color-set", G_CALLBACK (color_button_changed), GINT_TO_POINTER (35));
+        g_signal_connect(G_OBJECT(page->show_colors),
+                         "toggled",
+                         G_CALLBACK(toggle_pref_changed),
+                         "/apps/xchat/irc/showcolors");
+        g_signal_connect(G_OBJECT(page->colorize_nicknames),
+                         "toggled",
+                         G_CALLBACK(toggle_pref_changed),
+                         "/apps/xchat/irc/colorize_nicknames");
+        g_signal_connect(G_OBJECT(page->color_buttons[0]),
+                         "color-set",
+                         G_CALLBACK(color_button_changed),
+                         GINT_TO_POINTER(32));
+        g_signal_connect(G_OBJECT(page->color_buttons[1]),
+                         "color-set",
+                         G_CALLBACK(color_button_changed),
+                         GINT_TO_POINTER(33));
+        g_signal_connect(G_OBJECT(page->color_buttons[2]),
+                         "color-set",
+                         G_CALLBACK(color_button_changed),
+                         GINT_TO_POINTER(34));
+        g_signal_connect(G_OBJECT(page->color_buttons[3]),
+                         "color-set",
+                         G_CALLBACK(color_button_changed),
+                         GINT_TO_POINTER(35));
 
-	PREFERENCES_PAGE (page)->icon = gtk_widget_render_icon (page->show_colors, GTK_STOCK_SELECT_COLOR, GTK_ICON_SIZE_MENU, NULL);
+        PREFERENCES_PAGE(page)
+            ->icon = gtk_widget_render_icon(page->show_colors,
+                                            GTK_STOCK_SELECT_COLOR,
+                                            GTK_ICON_SIZE_MENU,
+                                            NULL);
 
-	gtk_list_store_append (p->page_store, &iter);
-	gtk_list_store_set (p->page_store, &iter, 0, PREFERENCES_PAGE (page)->icon, 1, _("Colors"), 2, 1, -1);
+        gtk_list_store_append(p->page_store, &iter);
+        gtk_list_store_set(p->page_store,
+                           &iter,
+                           0,
+                           PREFERENCES_PAGE(page)->icon,
+                           1,
+                           _("Colors"),
+                           2,
+                           1,
+                           -1);
 
-	page->combo = gtk_combo_box_text_new ();
-	gtk_combo_box_text_append_text (GTK_COMBO_BOX_TEXT (page->combo), _("Black on White"));
-	gtk_combo_box_text_append_text (GTK_COMBO_BOX_TEXT (page->combo), _("White on Black"));
-	gtk_combo_box_text_append_text (GTK_COMBO_BOX_TEXT (page->combo), _("Custom"));
-	gtk_combo_box_text_append_text (GTK_COMBO_BOX_TEXT (page->combo), _("System Theme Colors"));
+        page->combo = gtk_combo_box_text_new();
+        gtk_combo_box_text_append_text(GTK_COMBO_BOX_TEXT(page->combo), _("Black on White"));
+        gtk_combo_box_text_append_text(GTK_COMBO_BOX_TEXT(page->combo), _("White on Black"));
+        gtk_combo_box_text_append_text(GTK_COMBO_BOX_TEXT(page->combo), _("Custom"));
+        gtk_combo_box_text_append_text(GTK_COMBO_BOX_TEXT(page->combo), _("System Theme Colors"));
 
-	gtk_widget_show (page->combo);
-	gtk_label_set_mnemonic_widget (GTK_LABEL (page->color_label_1), page->combo);
-	gtk_box_pack_start (GTK_BOX (page->foreground_background_hbox), page->combo, FALSE, TRUE, 0);
-	scheme = gconf_client_get_int (p->gconf, "/apps/xchat/irc/color_scheme", NULL);
+        gtk_widget_show(page->combo);
+        gtk_label_set_mnemonic_widget(GTK_LABEL(page->color_label_1), page->combo);
+        gtk_box_pack_start(GTK_BOX(page->foreground_background_hbox), page->combo, FALSE, TRUE, 0);
+        scheme = gconf_client_get_int(p->gconf, "/apps/xchat/irc/color_scheme", NULL);
 
-	page->nh[0] = gconf_client_notify_add (p->gconf, "/apps/xchat/irc/showcolors",
-	                                       (GConfClientNotifyFunc) gconf_toggle_pref_changed, page->show_colors, NULL, NULL);
-	page->nh[1] = gconf_client_notify_add (p->gconf, "/apps/xchat/irc/colorize_nicknames",
-					       (GConfClientNotifyFunc) gconf_toggle_pref_changed, page->colorize_nicknames, NULL, NULL);			       
-	page->nh[2] = gconf_client_notify_add (p->gconf, "/apps/xchat/irc/color_scheme",
-	                                       (GConfClientNotifyFunc) gconf_color_changed, page, NULL, NULL);
+        page->nh[0] = gconf_client_notify_add(p->gconf,
+                                              "/apps/xchat/irc/showcolors",
+                                              (GConfClientNotifyFunc)gconf_toggle_pref_changed,
+                                              page->show_colors,
+                                              NULL,
+                                              NULL);
+        page->nh[1] = gconf_client_notify_add(p->gconf,
+                                              "/apps/xchat/irc/colorize_nicknames",
+                                              (GConfClientNotifyFunc)gconf_toggle_pref_changed,
+                                              page->colorize_nicknames,
+                                              NULL,
+                                              NULL);
+        page->nh[2] = gconf_client_notify_add(p->gconf,
+                                              "/apps/xchat/irc/color_scheme",
+                                              (GConfClientNotifyFunc)gconf_color_changed,
+                                              page,
+                                              NULL,
+                                              NULL);
 
-	toggle = gconf_client_get_bool (p->gconf, "/apps/xchat/irc/showcolors", NULL);
-	gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (page->show_colors), toggle);
-	toggle = gconf_client_get_bool (p->gconf, "/apps/xchat/irc/colorize_nicknames", NULL);
-	gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (page->colorize_nicknames), toggle);
+        toggle = gconf_client_get_bool(p->gconf, "/apps/xchat/irc/showcolors", NULL);
+        gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(page->show_colors), toggle);
+        toggle = gconf_client_get_bool(p->gconf, "/apps/xchat/irc/colorize_nicknames", NULL);
+        gtk_toggle_button_set_active(GTK_TOGGLE_BUTTON(page->colorize_nicknames), toggle);
 
-	g_signal_connect (G_OBJECT (page->combo), "changed", G_CALLBACK (colors_changed), page);
-	gtk_combo_box_set_active (GTK_COMBO_BOX (page->combo), scheme);
+        g_signal_connect(G_OBJECT(page->combo), "changed", G_CALLBACK(colors_changed), page);
+        gtk_combo_box_set_active(GTK_COMBO_BOX(page->combo), scheme);
 
-	return page;
+        return page;
 }
 
-static void
-preferences_page_colors_init (PreferencesPageColors *page)
+static void preferences_page_colors_init(PreferencesPageColors *page)
 {
 }
 
-static void
-preferences_page_colors_finalize (GObject *object)
+static void preferences_page_colors_finalize(GObject *object)
 {
-	PreferencesPageColors *page = (PreferencesPageColors *) object;
-	gint i;
-	GConfClient *client;
+        PreferencesPageColors *page = (PreferencesPageColors *)object;
+        gint i;
+        GConfClient *client;
 
-	client = gconf_client_get_default ();
-	for (i = 0; i < 3; i++) {
-		gconf_client_notify_remove (client, page->nh[i]);
-	}
-	g_object_unref (client);
+        client = gconf_client_get_default();
+        for (i = 0; i < 3; i++) {
+                gconf_client_notify_remove(client, page->nh[i]);
+        }
+        g_object_unref(client);
 
-	G_OBJECT_CLASS (preferences_page_colors_parent_class)->finalize (object);
+        G_OBJECT_CLASS(preferences_page_colors_parent_class)->finalize(object);
 }
 
-static void
-preferences_page_colors_class_init (PreferencesPageColorsClass *klass)
+static void preferences_page_colors_class_init(PreferencesPageColorsClass *klass)
 {
-	GObjectClass *object_class = (GObjectClass *) klass;
+        GObjectClass *object_class = (GObjectClass *)klass;
 
-	object_class->finalize = preferences_page_colors_finalize;
+        object_class->finalize = preferences_page_colors_finalize;
 }

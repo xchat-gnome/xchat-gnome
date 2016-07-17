@@ -22,34 +22,23 @@
 #ifndef UTIL_H
 #define UTIL_H
 
-#include "gui.h"
 #include "../common/xchat.h"
+#include "gui.h"
 
-void error_dialog (const gchar *header,
-                   const gchar *message);
+void error_dialog(const gchar *header, const gchar *message);
 
-gboolean dialog_escape_key_handler_destroy (GtkWidget   *widget,
-                                            GdkEventKey *event,
-                                            gpointer     data);
+gboolean dialog_escape_key_handler_destroy(GtkWidget *widget, GdkEventKey *event, gpointer data);
 
-gboolean dialog_escape_key_handler_hide (GtkWidget   *widget,
-                                         GdkEventKey *event,
-                                         gpointer     data);
+gboolean dialog_escape_key_handler_hide(GtkWidget *widget, GdkEventKey *event, gpointer data);
 
-void menu_position_under_widget (GtkMenu  *menu,
-                                 gint     *x,
-                                 gint     *y,
-                                 gboolean *push_in,
-                                 gpointer  user_data);
+void menu_position_under_widget(GtkMenu *menu, gint *x, gint *y, gboolean *push_in,
+                                gpointer user_data);
 
-void menu_position_under_tree_view (GtkMenu  *menu,
-                                    gint     *x,
-                                    gint     *y,
-                                    gboolean *push_in,
-                                    gpointer  user_data);
+void menu_position_under_tree_view(GtkMenu *menu, gint *x, gint *y, gboolean *push_in,
+                                   gpointer user_data);
 
-gchar *locate_data_file (const gchar *file_name);
+gchar *locate_data_file(const gchar *file_name);
 
-server *find_connected_server (ircnet *network);
+server *find_connected_server(ircnet *network);
 
 #endif

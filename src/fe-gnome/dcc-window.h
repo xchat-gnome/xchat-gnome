@@ -19,55 +19,53 @@
  *
  */
 
-#include <gtk/gtk.h>
-#include "../common/xchat.h"
 #include "../common/dcc.h"
 #include "../common/userlist.h"
+#include "../common/xchat.h"
+#include <gtk/gtk.h>
 
 #ifndef __XCHAT_GNOME_DCC_WINDOW_H__
 #define __XCHAT_GNOME_DCC_WINDOW_H__
 
 G_BEGIN_DECLS
 
-typedef struct _DccWindow      DccWindow;
+typedef struct _DccWindow DccWindow;
 typedef struct _DccWindowClass DccWindowClass;
-#define DCC_WINDOW_TYPE            (dcc_window_get_type ())
-#define DCC_WINDOW(obj)            (G_TYPE_CHECK_INSTANCE_CAST ((obj), DCC_WINDOW_TYPE, DccWindow))
-#define DCC_WINDOW_CLASS(klass)    (G_TYPE_CHECK_CLASS_CAST ((klass), DCC_WINDOW_TYPE, DccWindowClass))
-#define IS_DCC_WINDOW(obj)         (G_TYPE_CHECK_INSTANCE_TYPE ((obj), DCC_WINDOW_TYPE))
-#define IS_DCC_WINDOW_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass), DCC_WINDOW_TYPE))
+#define DCC_WINDOW_TYPE (dcc_window_get_type())
+#define DCC_WINDOW(obj) (G_TYPE_CHECK_INSTANCE_CAST((obj), DCC_WINDOW_TYPE, DccWindow))
+#define DCC_WINDOW_CLASS(klass) (G_TYPE_CHECK_CLASS_CAST((klass), DCC_WINDOW_TYPE, DccWindowClass))
+#define IS_DCC_WINDOW(obj) (G_TYPE_CHECK_INSTANCE_TYPE((obj), DCC_WINDOW_TYPE))
+#define IS_DCC_WINDOW_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE((klass), DCC_WINDOW_TYPE))
 
-struct _DccWindow
-{
-	GtkWindow parent;
+struct _DccWindow {
+        GtkWindow parent;
 
-	GtkWidget *transfer_list;
-	GtkWidget *stop_button;
-	GtkWidget *toplevel;
+        GtkWidget *transfer_list;
+        GtkWidget *stop_button;
+        GtkWidget *toplevel;
 
-	GtkListStore *transfer_store;
+        GtkListStore *transfer_store;
 
-	GtkCellRenderer *progress_cell;
-	GtkCellRenderer *icon_cell;
-	GtkCellRenderer *info_cell;
-	GtkCellRenderer *remaining_cell;
+        GtkCellRenderer *progress_cell;
+        GtkCellRenderer *icon_cell;
+        GtkCellRenderer *info_cell;
+        GtkCellRenderer *remaining_cell;
 
-	GtkTreeViewColumn *progress_column;
-	GtkTreeViewColumn *info_column;
-	GtkTreeViewColumn *remaining_column;
+        GtkTreeViewColumn *progress_column;
+        GtkTreeViewColumn *info_column;
+        GtkTreeViewColumn *remaining_column;
 };
 
-struct _DccWindowClass
-{
-	GtkWindowClass parent_class;
+struct _DccWindowClass {
+        GtkWindowClass parent_class;
 };
 
-GType      dcc_window_get_type (void) G_GNUC_CONST;
-DccWindow *dcc_window_new (void);
-void       dcc_window_add (DccWindow *window, struct DCC *dcc);
-void       dcc_window_update (DccWindow *window, struct DCC *dcc);
-void       dcc_window_remove (DccWindow *window, struct DCC *dcc);
-void       dcc_send_file (struct User *user);
+GType dcc_window_get_type(void) G_GNUC_CONST;
+DccWindow *dcc_window_new(void);
+void dcc_window_add(DccWindow *window, struct DCC *dcc);
+void dcc_window_update(DccWindow *window, struct DCC *dcc);
+void dcc_window_remove(DccWindow *window, struct DCC *dcc);
+void dcc_send_file(struct User *user);
 
 G_END_DECLS
 

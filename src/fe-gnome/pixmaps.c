@@ -19,20 +19,19 @@
  *
  */
 
+#include "pixmaps.h"
 #include <config.h>
 #include <gtk/gtk.h>
-#include "pixmaps.h"
 
-void
-pixmaps_init (void)
+void pixmaps_init(void)
 {
-	/* FIXME multi-head! */
-	GtkIconTheme *theme = gtk_icon_theme_get_default ();
-	gchar *uninstalled_path = g_build_filename (TOPSRCDIR, "data", "icons", NULL);
-	if (g_file_test (uninstalled_path, G_FILE_TEST_EXISTS)) {
-		gtk_icon_theme_prepend_search_path (theme, uninstalled_path);
-	} else {
-		gtk_icon_theme_append_search_path (theme, ICONDIR);
-	}
-	g_free (uninstalled_path);
+        /* FIXME multi-head! */
+        GtkIconTheme *theme = gtk_icon_theme_get_default();
+        gchar *uninstalled_path = g_build_filename(TOPSRCDIR, "data", "icons", NULL);
+        if (g_file_test(uninstalled_path, G_FILE_TEST_EXISTS)) {
+                gtk_icon_theme_prepend_search_path(theme, uninstalled_path);
+        } else {
+                gtk_icon_theme_append_search_path(theme, ICONDIR);
+        }
+        g_free(uninstalled_path);
 }

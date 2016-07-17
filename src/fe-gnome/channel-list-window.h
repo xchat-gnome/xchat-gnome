@@ -26,46 +26,47 @@
 
 G_BEGIN_DECLS
 
-typedef struct _ChannelListWindow      		ChannelListWindow;
-typedef struct _ChannelListWindowClass		ChannelListWindowClass;
-#define CHANNEL_LIST_WINDOW_TYPE           	(channel_list_window_get_type ())
-#define CHANNEL_LIST_WINDOW(obj)            	(G_TYPE_CHECK_INSTANCE_CAST ((obj), CHANNEL_LIST_WINDOW_TYPE, ChannelListWindow))
-#define CHANNEL_LIST_WINDOW_CLASS(klass)    	(G_TYPE_CHECK_CLASS_CAST ((klass), CHANNEL_LIST_WINDOW_TYPE, ChannelListWindowClass))
-#define IS_CHANNEL_LIST_WINDOW(obj)            	(G_TYPE_CHECK_INSTANCE_TYPE ((obj), CHANNEL_LIST_WINDOW_TYPE))
-#define IS_CHANNEL_LIST_WINDOW_CLASS(klass)   	(G_TYPE_CHECK_CLASS_TYPE ((klass), CHANNEL_LIST_WINDOW_TYPE))
+typedef struct _ChannelListWindow ChannelListWindow;
+typedef struct _ChannelListWindowClass ChannelListWindowClass;
+#define CHANNEL_LIST_WINDOW_TYPE (channel_list_window_get_type())
+#define CHANNEL_LIST_WINDOW(obj)                                                                   \
+        (G_TYPE_CHECK_INSTANCE_CAST((obj), CHANNEL_LIST_WINDOW_TYPE, ChannelListWindow))
+#define CHANNEL_LIST_WINDOW_CLASS(klass)                                                           \
+        (G_TYPE_CHECK_CLASS_CAST((klass), CHANNEL_LIST_WINDOW_TYPE, ChannelListWindowClass))
+#define IS_CHANNEL_LIST_WINDOW(obj) (G_TYPE_CHECK_INSTANCE_TYPE((obj), CHANNEL_LIST_WINDOW_TYPE))
+#define IS_CHANNEL_LIST_WINDOW_CLASS(klass)                                                        \
+        (G_TYPE_CHECK_CLASS_TYPE((klass), CHANNEL_LIST_WINDOW_TYPE))
 
-struct _ChannelListWindow	
-{
-	GObject parent;
+struct _ChannelListWindow {
+        GObject parent;
 
-	GtkListStore *store;
-	GtkTreeModel *filter;
-	GtkTreeModelSort *sort;
-	GtkBuilder *xml;
-	struct server *server;
-	GtkWidget *window;
-	GtkWidget *refresh_button;
+        GtkListStore *store;
+        GtkTreeModel *filter;
+        GtkTreeModelSort *sort;
+        GtkBuilder *xml;
+        struct server *server;
+        GtkWidget *window;
+        GtkWidget *refresh_button;
 
-	int minimum, maximum;
-	char *text_filter;
-	gboolean filter_topic, filter_name;
-	guint refresh_timeout;
-	guint refresh_calls;
-	gboolean empty;
+        int minimum, maximum;
+        char *text_filter;
+        gboolean filter_topic, filter_name;
+        guint refresh_timeout;
+        guint refresh_calls;
+        gboolean empty;
 } channel_list_window;
 
-struct _ChannelListWindowClass
-{
-	GObjectClass parent_class;
+struct _ChannelListWindowClass {
+        GObjectClass parent_class;
 };
 
-GType channel_list_window_get_type (void) G_GNUC_CONST;
+GType channel_list_window_get_type(void) G_GNUC_CONST;
 
-ChannelListWindow* channel_list_window_new (session *sess, gboolean show_list);
+ChannelListWindow *channel_list_window_new(session *sess, gboolean show_list);
 
 G_END_DECLS
 
-gboolean channel_list_exists (server *serv);
-void create_channel_list_window (session *sess, gboolean show_list);
-void channel_list_append (server *serv, char *channel, char *users, char *topic);
+gboolean channel_list_exists(server *serv);
+void create_channel_list_window(session *sess, gboolean show_list);
+void channel_list_append(server *serv, char *channel, char *users, char *topic);
 #endif

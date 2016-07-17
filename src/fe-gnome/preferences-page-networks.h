@@ -27,34 +27,38 @@
 
 G_BEGIN_DECLS
 
-typedef struct _PreferencesPageNetworks      PreferencesPageNetworks;
+typedef struct _PreferencesPageNetworks PreferencesPageNetworks;
 typedef struct _PreferencesPageNetworksClass PreferencesPageNetworksClass;
-#define PREFERENCES_PAGE_NETWORKS_TYPE            (preferences_page_networks_get_type ())
-#define PREFERENCES_PAGE_NETWORKS(obj)            (G_TYPE_CHECK_INSTANCE_CAST ((obj), PREFERENCES_PAGE_NETWORKS_TYPE, PreferencesPageNetworks))
-#define PREFERENCES_PAGE_NETWORKS_CLASS(klass)    (G_TYPE_CHECK_CLASS_CAST ((klass), PREFERENCES_PAGE_NETWORKS_TYPE, PreferencesPageNetworksClass))
-#define IS_PREFERENCES_PAGE_NETWORKS(obj)         (G_TYPE_CHECK_INSTANCE_TYPE ((obj), PREFERENCES_PAGE_NETWORKS_TYPE))
-#define IS_PREFERENCES_PAGE_NETWORKS_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass), PREFERENCES_PAGE_NETWORKS_TYPE))
+#define PREFERENCES_PAGE_NETWORKS_TYPE (preferences_page_networks_get_type())
+#define PREFERENCES_PAGE_NETWORKS(obj)                                                             \
+        (G_TYPE_CHECK_INSTANCE_CAST((obj), PREFERENCES_PAGE_NETWORKS_TYPE, PreferencesPageNetworks))
+#define PREFERENCES_PAGE_NETWORKS_CLASS(klass)                                                     \
+        (G_TYPE_CHECK_CLASS_CAST((klass),                                                          \
+                                 PREFERENCES_PAGE_NETWORKS_TYPE,                                   \
+                                 PreferencesPageNetworksClass))
+#define IS_PREFERENCES_PAGE_NETWORKS(obj)                                                          \
+        (G_TYPE_CHECK_INSTANCE_TYPE((obj), PREFERENCES_PAGE_NETWORKS_TYPE))
+#define IS_PREFERENCES_PAGE_NETWORKS_CLASS(klass)                                                  \
+        (G_TYPE_CHECK_CLASS_TYPE((klass), PREFERENCES_PAGE_NETWORKS_TYPE))
 
-struct _PreferencesPageNetworks
-{
-	PreferencesPage parent;
+struct _PreferencesPageNetworks {
+        PreferencesPage parent;
 
-	GtkWidget *network_list;
-	GtkWidget *network_add;
-	GtkWidget *network_edit;
-	GtkWidget *network_remove;
+        GtkWidget *network_list;
+        GtkWidget *network_add;
+        GtkWidget *network_edit;
+        GtkWidget *network_remove;
 
-	GtkListStore *network_store;
-	GtkTreeModelSort *sort_model;
+        GtkListStore *network_store;
+        GtkTreeModelSort *sort_model;
 };
 
-struct _PreferencesPageNetworksClass
-{
-	PreferencesPageClass parent_class;
+struct _PreferencesPageNetworksClass {
+        PreferencesPageClass parent_class;
 };
 
-GType              	preferences_page_networks_get_type (void) G_GNUC_CONST;
-PreferencesPageNetworks* preferences_page_networks_new  (gpointer prefs_dialog, GtkBuilder *xml);
+GType preferences_page_networks_get_type(void) G_GNUC_CONST;
+PreferencesPageNetworks *preferences_page_networks_new(gpointer prefs_dialog, GtkBuilder *xml);
 
 G_END_DECLS
 

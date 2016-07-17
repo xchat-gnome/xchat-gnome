@@ -19,58 +19,57 @@
  *
  */
 
-#include <glib.h>
-#include <glib-object.h>
-#include "../common/xchat.h"
 #include "../common/servlist.h"
+#include "../common/xchat.h"
+#include <glib-object.h>
+#include <glib.h>
 
 #ifndef __XCHAT_GNOME_IRC_NETWORK_H__
 #define __XCHAT_GNOME_IRC_NETWORK_H__
 
 G_BEGIN_DECLS
 
-typedef struct _IrcNetwork      IrcNetwork;
+typedef struct _IrcNetwork IrcNetwork;
 typedef struct _IrcNetworkClass IrcNetworkClass;
-#define IRC_NETWORK_TYPE            (irc_network_get_type ())
-#define IRC_NETWORK(obj)            (G_TYPE_CHECK_INSTANCE_CAST ((obj), IRC_NETWORK_TYPE, IrcNetwork))
-#define IRC_NETWORK_CLASS(klass)    (G_TYPE_CHECK_CLASS_CAST ((klass), IRC_NETWORK_TYPE, IrcNetworkClass))
-#define IS_IRC_NETWORK(obj)         (G_TYPE_CHECK_INSTANCE_TYPE ((obj), IRC_NETWORK_TYPE))
-#define IS_IRC_NETWORK_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass), IRC_NETWORK_TYPE))
+#define IRC_NETWORK_TYPE (irc_network_get_type())
+#define IRC_NETWORK(obj) (G_TYPE_CHECK_INSTANCE_CAST((obj), IRC_NETWORK_TYPE, IrcNetwork))
+#define IRC_NETWORK_CLASS(klass)                                                                   \
+        (G_TYPE_CHECK_CLASS_CAST((klass), IRC_NETWORK_TYPE, IrcNetworkClass))
+#define IS_IRC_NETWORK(obj) (G_TYPE_CHECK_INSTANCE_TYPE((obj), IRC_NETWORK_TYPE))
+#define IS_IRC_NETWORK_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE((klass), IRC_NETWORK_TYPE))
 
-struct _IrcNetwork
-{
-	GObject parent;
+struct _IrcNetwork {
+        GObject parent;
 
-	gchar *name;
-	gboolean autoconnect;
-	gboolean use_ssl;
-	gboolean allow_invalid;
-	gboolean cycle;
-	gboolean reconnect;
-	gboolean nogiveup_reconnect;
+        gchar *name;
+        gboolean autoconnect;
+        gboolean use_ssl;
+        gboolean allow_invalid;
+        gboolean cycle;
+        gboolean reconnect;
+        gboolean nogiveup_reconnect;
 
-	gchar *nickserv_password;
-	gchar *password;
-	gint encoding;
+        gchar *nickserv_password;
+        gchar *password;
+        gint encoding;
 
-	GSList *servers;
+        GSList *servers;
 
-	gboolean use_global;
-	gchar *nick;
-	gchar *real;
-	gchar *autojoin;
+        gboolean use_global;
+        gchar *nick;
+        gchar *real;
+        gchar *autojoin;
 
-	ircnet *net;
+        ircnet *net;
 };
 
-struct _IrcNetworkClass
-{
-	GObjectClass parent_class;
+struct _IrcNetworkClass {
+        GObjectClass parent_class;
 };
 
-GType       irc_network_get_type (void) G_GNUC_CONST;
-IrcNetwork *irc_network_new (ircnet *net);
-void        irc_network_save (IrcNetwork *net);
+GType irc_network_get_type(void) G_GNUC_CONST;
+IrcNetwork *irc_network_new(ircnet *net);
+void irc_network_save(IrcNetwork *net);
 
 extern const char *encodings[];
 

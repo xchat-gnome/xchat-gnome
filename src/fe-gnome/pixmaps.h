@@ -22,6 +22,6 @@
 #ifndef XCHAT_GNOME_PIXMAPS_H
 #define XCHAT_GNOME_PIXMAPS_H
 
-extern void pixmaps_init (void);
+extern void pixmaps_init(void);
 
 #endif

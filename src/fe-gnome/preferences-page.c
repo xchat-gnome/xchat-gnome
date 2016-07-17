@@ -19,53 +19,48 @@
  *
  */
 
+#include "preferences-page.h"
 #include <glib-object.h>
 #include <glib/gi18n.h>
 #include <gtk/gtk.h>
-#include "preferences-page.h"
 
 G_DEFINE_TYPE(PreferencesPage, preferences_page, G_TYPE_OBJECT)
 
-static void
-preferences_page_dispose (GObject *object)
+static void preferences_page_dispose(GObject *object)
 {
-	PreferencesPage *page = PREFERENCES_PAGE (object);
+        PreferencesPage *page = PREFERENCES_PAGE(object);
 
-	if (page->icon)
-	{
-		g_object_unref (page->icon);
-		page->icon = NULL;
-	}
+        if (page->icon) {
+                g_object_unref(page->icon);
+                page->icon = NULL;
+        }
 
-	G_OBJECT_CLASS (preferences_page_parent_class)->dispose (object);
+        G_OBJECT_CLASS(preferences_page_parent_class)->dispose(object);
 }
 
-static void
-preferences_page_finalize (GObject *object)
+static void preferences_page_finalize(GObject *object)
 {
-	PreferencesPage *page = PREFERENCES_PAGE (object);
+        PreferencesPage *page = PREFERENCES_PAGE(object);
 
-	if (page->title) {
-		g_free (page->title);
-		page->title = NULL;
-	}
+        if (page->title) {
+                g_free(page->title);
+                page->title = NULL;
+        }
 
-	G_OBJECT_CLASS (preferences_page_parent_class)->finalize (object);
+        G_OBJECT_CLASS(preferences_page_parent_class)->finalize(object);
 }
 
-static void
-preferences_page_class_init (PreferencesPageClass *klass)
+static void preferences_page_class_init(PreferencesPageClass *klass)
 {
-	GObjectClass *object_class = G_OBJECT_CLASS (klass);
+        GObjectClass *object_class = G_OBJECT_CLASS(klass);
 
-	object_class->dispose = preferences_page_dispose;
-	object_class->finalize = preferences_page_finalize;
+        object_class->dispose = preferences_page_dispose;
+        object_class->finalize = preferences_page_finalize;
 }
 
-static void
-preferences_page_init (PreferencesPage *page)
+static void preferences_page_init(PreferencesPage *page)
 {
-	page->vbox = NULL;
-	page->icon = NULL;
-	page->title = NULL;
+        page->vbox = NULL;
+        page->icon = NULL;
+        page->title = NULL;
 }

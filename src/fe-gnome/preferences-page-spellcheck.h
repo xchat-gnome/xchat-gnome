@@ -27,36 +27,41 @@
 
 G_BEGIN_DECLS
 
-typedef struct _PreferencesPageSpellcheck      PreferencesPageSpellcheck;
+typedef struct _PreferencesPageSpellcheck PreferencesPageSpellcheck;
 typedef struct _PreferencesPageSpellcheckClass PreferencesPageSpellcheckClass;
-#define PREFERENCES_PAGE_SPELLCHECK_TYPE            (preferences_page_spellcheck_get_type ())
-#define PREFERENCES_PAGE_SPELLCHECK(obj)            (G_TYPE_CHECK_INSTANCE_CAST ((obj), PREFERENCES_PAGE_SPELLCHECK_TYPE, PreferencesPageSpellcheck))
-#define PREFERENCES_PAGE_SPELLCHECK_CLASS(klass)    (G_TYPE_CHECK_CLASS_CAST ((klass), PREFERENCES_PAGE_SPELLCHECK_TYPE, PreferencesPageSpellcheckClass))
-#define IS_PREFERENCES_PAGE_SPELLCHECK(obj)         (G_TYPE_CHECK_INSTANCE_TYPE ((obj), PREFERENCES_PAGE_SPELLCHECK_TYPE))
-#define IS_PREFERENCES_PAGE_SPELLCHECK_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass), PREFERENCES_PAGE_SPELLCHECK_TYPE))
+#define PREFERENCES_PAGE_SPELLCHECK_TYPE (preferences_page_spellcheck_get_type())
+#define PREFERENCES_PAGE_SPELLCHECK(obj)                                                           \
+        (G_TYPE_CHECK_INSTANCE_CAST((obj),                                                         \
+                                    PREFERENCES_PAGE_SPELLCHECK_TYPE,                              \
+                                    PreferencesPageSpellcheck))
+#define PREFERENCES_PAGE_SPELLCHECK_CLASS(klass)                                                   \
+        (G_TYPE_CHECK_CLASS_CAST((klass),                                                          \
+                                 PREFERENCES_PAGE_SPELLCHECK_TYPE,                                 \
+                                 PreferencesPageSpellcheckClass))
+#define IS_PREFERENCES_PAGE_SPELLCHECK(obj)                                                        \
+        (G_TYPE_CHECK_INSTANCE_TYPE((obj), PREFERENCES_PAGE_SPELLCHECK_TYPE))
+#define IS_PREFERENCES_PAGE_SPELLCHECK_CLASS(klass)                                                \
+        (G_TYPE_CHECK_CLASS_TYPE((klass), PREFERENCES_PAGE_SPELLCHECK_TYPE))
 
+struct _PreferencesPageSpellcheck {
+        PreferencesPage parent;
 
-struct _PreferencesPageSpellcheck
-{
-	PreferencesPage parent;
+        GtkWidget *enable_spellcheck;
+        GtkWidget *spellcheck_list;
+        GtkCellRenderer *activated_renderer, *name_renderer;
+        GtkListStore *spellcheck_store;
+        GtkTreeViewColumn *spellcheck_column;
 
-	GtkWidget *enable_spellcheck;
-	GtkWidget *spellcheck_list;
-	GtkCellRenderer *activated_renderer, *name_renderer;
-	GtkListStore *spellcheck_store;
-	GtkTreeViewColumn *spellcheck_column;
-
-	/* gconf notification handlers */
-	guint nh[2];
+        /* gconf notification handlers */
+        guint nh[2];
 };
 
-struct _PreferencesPageSpellcheckClass
-{
-	PreferencesPageClass parent_class;
+struct _PreferencesPageSpellcheckClass {
+        PreferencesPageClass parent_class;
 };
 
-GType              	preferences_page_spellcheck_get_type (void) G_GNUC_CONST;
-PreferencesPageSpellcheck* preferences_page_spellcheck_new  (gpointer prefs_dialog, GtkBuilder *xml);
+GType preferences_page_spellcheck_get_type(void) G_GNUC_CONST;
+PreferencesPageSpellcheck *preferences_page_spellcheck_new(gpointer prefs_dialog, GtkBuilder *xml);
 
 G_END_DECLS
 

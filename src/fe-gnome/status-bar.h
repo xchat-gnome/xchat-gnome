@@ -21,39 +21,37 @@
 #ifndef XCHAT_GNOME_STATUS_BAR_H
 #define XCHAT_GNOME_STATUS_BAR_H
 
-#include <gtk/gtk.h>
 #include "../common/xchat.h"
+#include <gtk/gtk.h>
 
 G_BEGIN_DECLS
 
-typedef struct _StatusBar      StatusBar;
+typedef struct _StatusBar StatusBar;
 typedef struct _StatusBarClass StatusBarClass;
-typedef struct _StatusBarPriv  StatusBarPriv;
+typedef struct _StatusBarPriv StatusBarPriv;
 
-#define STATUS_BAR_TYPE            (status_bar_get_type ())
-#define STATUS_BAR(obj)            (G_TYPE_CHECK_INSTANCE_CAST ((obj), STATUS_BAR_TYPE, StatusBar))
-#define STATUS_BAR_CLASS(klass)    (G_TYPE_CHECK_CLASS_CAST ((klass), STATUS_BAR_TYPE, StatusBarClass))
-#define IS_STATUS_BAR(obj)         (G_TYPE_CHECK_INSTANCE_TYPE ((obj), STATUS_BAR_TYPE))
-#define IS_STATUS_BAR_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass), STATUS_BAR_TYPE))
+#define STATUS_BAR_TYPE (status_bar_get_type())
+#define STATUS_BAR(obj) (G_TYPE_CHECK_INSTANCE_CAST((obj), STATUS_BAR_TYPE, StatusBar))
+#define STATUS_BAR_CLASS(klass) (G_TYPE_CHECK_CLASS_CAST((klass), STATUS_BAR_TYPE, StatusBarClass))
+#define IS_STATUS_BAR(obj) (G_TYPE_CHECK_INSTANCE_TYPE((obj), STATUS_BAR_TYPE))
+#define IS_STATUS_BAR_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE((klass), STATUS_BAR_TYPE))
 
-struct _StatusBar
-{
-	GtkStatusbar   parent;
+struct _StatusBar {
+        GtkStatusbar parent;
 
-	StatusBarPriv *priv;
+        StatusBarPriv *priv;
 };
 
-struct _StatusBarClass
-{
-	GtkStatusbarClass parent_class;
+struct _StatusBarClass {
+        GtkStatusbarClass parent_class;
 };
 
-GType      status_bar_get_type      (void) G_GNUC_CONST;
-GtkWidget *status_bar_new           (void);
-void       status_bar_set_lag       (StatusBar *bar, struct server *sess, float seconds, gboolean sent);
-void       status_bar_set_queue     (StatusBar *bar, struct server *sess, int bytes);
-void       status_bar_set_current   (StatusBar *bar, struct server *sess);
-void       status_bar_remove_server (StatusBar *bar, struct server *sess);
+GType status_bar_get_type(void) G_GNUC_CONST;
+GtkWidget *status_bar_new(void);
+void status_bar_set_lag(StatusBar *bar, struct server *sess, float seconds, gboolean sent);
+void status_bar_set_queue(StatusBar *bar, struct server *sess, int bytes);
+void status_bar_set_current(StatusBar *bar, struct server *sess);
+void status_bar_remove_server(StatusBar *bar, struct server *sess);
 
 G_END_DECLS
 

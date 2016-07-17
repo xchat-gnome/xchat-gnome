@@ -21,67 +21,54 @@
 #ifndef XCHAT_GNOME_CONVERSATION_PANEL_H
 #define XCHAT_GNOME_CONVERSATION_PANEL_H
 
-#include <gtk/gtk.h>
 #include "../common/xchat.h"
+#include <gtk/gtk.h>
 
 G_BEGIN_DECLS
 
-typedef struct _ConversationPanel      ConversationPanel;
+typedef struct _ConversationPanel ConversationPanel;
 typedef struct _ConversationPanelClass ConversationPanelClass;
-typedef struct _ConversationPanelPriv  ConversationPanelPriv;
+typedef struct _ConversationPanelPriv ConversationPanelPriv;
 
-#define CONVERSATION_PANEL_TYPE            (conversation_panel_get_type ())
-#define CONVERSATION_PANEL(obj)            (G_TYPE_CHECK_INSTANCE_CAST ((obj), CONVERSATION_PANEL_TYPE, ConversationPanel))
-#define CONVERSATION_PANEL_CLASS(klass)    (G_TYPE_CHECK_CLASS_CAST ((klass), CONVERSATION_PANEL_TYPE, ConversationPanelClass))
-#define IS_CONVERSATION_PANEL(obj)         (G_TYPE_CHECK_INSTANCE_TYPE ((obj), CONVERSATION_PANEL_TYPE))
-#define IS_CONVERSATION_PANEL_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass), CONVERSATION_PANEL_TYPE))
+#define CONVERSATION_PANEL_TYPE (conversation_panel_get_type())
+#define CONVERSATION_PANEL(obj)                                                                    \
+        (G_TYPE_CHECK_INSTANCE_CAST((obj), CONVERSATION_PANEL_TYPE, ConversationPanel))
+#define CONVERSATION_PANEL_CLASS(klass)                                                            \
+        (G_TYPE_CHECK_CLASS_CAST((klass), CONVERSATION_PANEL_TYPE, ConversationPanelClass))
+#define IS_CONVERSATION_PANEL(obj) (G_TYPE_CHECK_INSTANCE_TYPE((obj), CONVERSATION_PANEL_TYPE))
+#define IS_CONVERSATION_PANEL_CLASS(klass)                                                         \
+        (G_TYPE_CHECK_CLASS_TYPE((klass), CONVERSATION_PANEL_TYPE))
 
-struct _ConversationPanel
-{
-	GtkHBox                parent;
+struct _ConversationPanel {
+        GtkHBox parent;
 
-	ConversationPanelPriv *priv;
+        ConversationPanelPriv *priv;
 };
 
-struct _ConversationPanelClass
-{
-	GtkHBoxClass parent_class;
+struct _ConversationPanelClass {
+        GtkHBoxClass parent_class;
 };
 
-GType      conversation_panel_get_type                (void) G_GNUC_CONST;
-GtkWidget *conversation_panel_new                     (void);
-void       conversation_panel_update_colors           (ConversationPanel *panel);
-void       conversation_panel_add_session             (ConversationPanel *panel,
-                                                       struct session    *sess,
-                                                       gboolean           focus);
-void       conversation_panel_set_current             (ConversationPanel *panel,
-                                                       struct session    *sess);
-void       conversation_panel_save_current            (ConversationPanel *panel);
-void       conversation_panel_clear                   (ConversationPanel *panel,
-                                                       struct session    *sess);
-void       conversation_panel_print                   (ConversationPanel *panel,
-                                                       struct session    *sess,
-                                                       char              *text,
-                                                       gboolean           indent,
-                                                       time_t             stamp);
-void       conversation_panel_remove_session          (ConversationPanel *panel,
-                                                       struct session    *sess);
-void       conversation_panel_lastlog                 (ConversationPanel *panel,
-                                                       struct session    *sess,
-                                                       struct session    *lsess,
-                                                       gchar             *sstr);
-void       conversation_panel_clear_selection         (ConversationPanel *panel);
-gpointer   conversation_panel_search                  (ConversationPanel *panel,
-                                                       const gchar       *text,
-                                                       gpointer           start,
-                                                       gboolean           casem,
-                                                       gboolean           reverse);
-void       conversation_panel_page_up                 (ConversationPanel *panel);
-void       conversation_panel_page_down               (ConversationPanel *panel);
-void	   conversation_panel_copy_selection          (ConversationPanel *panel);
-void	   conversation_panel_check_marker_visibility (ConversationPanel *panel);
-void       conversation_panel_set_show_marker         (ConversationPanel *panel,
-                                                       gboolean           show_marker);
+GType conversation_panel_get_type(void) G_GNUC_CONST;
+GtkWidget *conversation_panel_new(void);
+void conversation_panel_update_colors(ConversationPanel *panel);
+void conversation_panel_add_session(ConversationPanel *panel, struct session *sess, gboolean focus);
+void conversation_panel_set_current(ConversationPanel *panel, struct session *sess);
+void conversation_panel_save_current(ConversationPanel *panel);
+void conversation_panel_clear(ConversationPanel *panel, struct session *sess);
+void conversation_panel_print(ConversationPanel *panel, struct session *sess, char *text,
+                              gboolean indent, time_t stamp);
+void conversation_panel_remove_session(ConversationPanel *panel, struct session *sess);
+void conversation_panel_lastlog(ConversationPanel *panel, struct session *sess,
+                                struct session *lsess, gchar *sstr);
+void conversation_panel_clear_selection(ConversationPanel *panel);
+gpointer conversation_panel_search(ConversationPanel *panel, const gchar *text, gpointer start,
+                                   gboolean casem, gboolean reverse);
+void conversation_panel_page_up(ConversationPanel *panel);
+void conversation_panel_page_down(ConversationPanel *panel);
+void conversation_panel_copy_selection(ConversationPanel *panel);
+void conversation_panel_check_marker_visibility(ConversationPanel *panel);
+void conversation_panel_set_show_marker(ConversationPanel *panel, gboolean show_marker);
 
 G_END_DECLS
 

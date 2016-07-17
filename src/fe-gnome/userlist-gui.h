@@ -24,9 +24,9 @@
 #ifndef XCHAT_GNOME_USERLIST_GUI_H
 #define XCHAT_GNOME_USERLIST_GUI_H
 
-void initialize_userlist (void);
-void userlist_gui_show   (void);
-void userlist_gui_hide   (void);
+void initialize_userlist(void);
+void userlist_gui_show(void);
+void userlist_gui_hide(void);
 
 extern struct User *current_user;
 

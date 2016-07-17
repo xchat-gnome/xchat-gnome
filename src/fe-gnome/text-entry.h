@@ -25,32 +25,30 @@
 
 G_BEGIN_DECLS
 
-typedef struct _TextEntry      TextEntry;
+typedef struct _TextEntry TextEntry;
 typedef struct _TextEntryClass TextEntryClass;
-typedef struct _TextEntryPriv  TextEntryPriv;
+typedef struct _TextEntryPriv TextEntryPriv;
 
-#define TEXT_ENTRY_TYPE            (text_entry_get_type ())
-#define TEXT_ENTRY(obj)            (G_TYPE_CHECK_INSTANCE_CAST ((obj), TEXT_ENTRY_TYPE, TextEntry))
-#define TEXT_ENTRY_CLASS(klass)    (G_TYPE_CHECK_CLASS_CAST ((klass), TEXT_ENTRY_TYPE, TextEntryClass))
-#define IS_TEXT_ENTRY(obj)         (G_TYPE_CHECK_INSTANCE_TYPE ((obj), TEXT_ENTRY_TYPE))
-#define IS_TEXT_ENTRY_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE ((klass), TEXT_ENTRY_TYPE))
+#define TEXT_ENTRY_TYPE (text_entry_get_type())
+#define TEXT_ENTRY(obj) (G_TYPE_CHECK_INSTANCE_CAST((obj), TEXT_ENTRY_TYPE, TextEntry))
+#define TEXT_ENTRY_CLASS(klass) (G_TYPE_CHECK_CLASS_CAST((klass), TEXT_ENTRY_TYPE, TextEntryClass))
+#define IS_TEXT_ENTRY(obj) (G_TYPE_CHECK_INSTANCE_TYPE((obj), TEXT_ENTRY_TYPE))
+#define IS_TEXT_ENTRY_CLASS(klass) (G_TYPE_CHECK_CLASS_TYPE((klass), TEXT_ENTRY_TYPE))
 
-struct _TextEntry
-{
-	GtkEntry  parent;
+struct _TextEntry {
+        GtkEntry parent;
 
-	TextEntryPriv  *priv;
+        TextEntryPriv *priv;
 };
 
-struct _TextEntryClass
-{
-	GtkEntryClass parent_class;
+struct _TextEntryClass {
+        GtkEntryClass parent_class;
 };
 
-GType      text_entry_get_type       (void) G_GNUC_CONST;
-GtkWidget *text_entry_new            (void);
-void       text_entry_set_current    (TextEntry *entry, struct session *sess);
-void       text_entry_remove_session (TextEntry *entry, struct session *sess);
+GType text_entry_get_type(void) G_GNUC_CONST;
+GtkWidget *text_entry_new(void);
+void text_entry_set_current(TextEntry *entry, struct session *sess);
+void text_entry_remove_session(TextEntry *entry, struct session *sess);
 
 G_END_DECLS
 

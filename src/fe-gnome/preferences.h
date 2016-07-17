@@ -22,10 +22,10 @@
 #ifndef XCHAT_GNOME_PREFERENCES_H
 #define XCHAT_GNOME_PREFERENCES_H
 
-gboolean preferences_exist (void);
-void load_preferences (void);
-void set_version (void);
-void set_nickname (const gchar *nick);
+gboolean preferences_exist(void);
+void load_preferences(void);
+void set_version(void);
+void set_nickname(const gchar *nick);
 gchar *get_save_directory(void);
 
 #endif
